@@ -76,7 +76,7 @@ def setup_config_node_post_schema(operation_id)
       ],
       'operationId' => operation_id,
       'tags' => [
-        'console'
+        'configmgr'
       ],
       'responses' => {
         '200' => {
