@@ -1,0 +1,12 @@
+# NodeSwaggerAemOsgi.ComDayCqTaggingImplJcrTagManagerFactoryImplInfo
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **String** |  | [optional] 
+**title** | **String** |  | [optional] 
+**description** | **String** |  | [optional] 
+**properties** | [**ComDayCqTaggingImplJcrTagManagerFactoryImplProperties**](ComDayCqTaggingImplJcrTagManagerFactoryImplProperties.md) |  | [optional] 
+
+
