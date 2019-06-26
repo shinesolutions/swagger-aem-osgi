@@ -31,7 +31,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties {
   public static final String SERIALIZED_NAME_COM_ADOBE_CQ_SCREENS_MONITORING_IMPL_SCREENS_MONITORING_SERVICE_IMPL_PROJECT_PATH = "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.projectPath";
   @SerializedName(SERIALIZED_NAME_COM_ADOBE_CQ_SCREENS_MONITORING_IMPL_SCREENS_MONITORING_SERVICE_IMPL_PROJECT_PATH)

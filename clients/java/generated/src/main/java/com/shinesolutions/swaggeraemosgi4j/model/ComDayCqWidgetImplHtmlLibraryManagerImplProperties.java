@@ -31,7 +31,7 @@ import java.io.IOException;
 /**
  * ComDayCqWidgetImplHtmlLibraryManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties {
   public static final String SERIALIZED_NAME_HTMLLIBMANAGER_CLIENTMANAGER = "htmllibmanager.clientmanager";
   @SerializedName(SERIALIZED_NAME_HTMLLIBMANAGER_CLIENTMANAGER)

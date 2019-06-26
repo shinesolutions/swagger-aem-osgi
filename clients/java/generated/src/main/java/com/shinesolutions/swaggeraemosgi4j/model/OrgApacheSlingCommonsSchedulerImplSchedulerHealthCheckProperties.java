@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties {
   public static final String SERIALIZED_NAME_MAX_QUARTZ_JOB_DURATION_ACCEPTABLE = "max.quartzJob.duration.acceptable";
   @SerializedName(SERIALIZED_NAME_MAX_QUARTZ_JOB_DURATION_ACCEPTABLE)

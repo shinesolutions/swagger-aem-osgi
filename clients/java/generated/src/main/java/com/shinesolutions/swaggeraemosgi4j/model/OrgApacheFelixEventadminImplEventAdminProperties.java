@@ -31,7 +31,7 @@ import java.io.IOException;
 /**
  * OrgApacheFelixEventadminImplEventAdminProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class OrgApacheFelixEventadminImplEventAdminProperties {
   public static final String SERIALIZED_NAME_ORG_APACHE_FELIX_EVENTADMIN_THREAD_POOL_SIZE = "org.apache.felix.eventadmin.ThreadPoolSize";
   @SerializedName(SERIALIZED_NAME_ORG_APACHE_FELIX_EVENTADMIN_THREAD_POOL_SIZE)

@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties {
   public static final String SERIALIZED_NAME_OFFLOADING_JOBCLONER_ENABLED = "offloading.jobcloner.enabled";
   @SerializedName(SERIALIZED_NAME_OFFLOADING_JOBCLONER_ENABLED)

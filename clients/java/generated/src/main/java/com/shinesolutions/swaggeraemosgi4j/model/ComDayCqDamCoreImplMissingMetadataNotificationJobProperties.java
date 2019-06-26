@@ -30,7 +30,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties {
   public static final String SERIALIZED_NAME_CQ_DAM_MISSINGMETADATA_NOTIFICATION_SCHEDULER_ISTIMEBASED = "cq.dam.missingmetadata.notification.scheduler.istimebased";
   @SerializedName(SERIALIZED_NAME_CQ_DAM_MISSINGMETADATA_NOTIFICATION_SCHEDULER_ISTIMEBASED)

@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqSocialSrpImplSocialSolrConnectorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComAdobeCqSocialSrpImplSocialSolrConnectorProperties {
   public static final String SERIALIZED_NAME_SRP_TYPE = "srp.type";
   @SerializedName(SERIALIZED_NAME_SRP_TYPE)

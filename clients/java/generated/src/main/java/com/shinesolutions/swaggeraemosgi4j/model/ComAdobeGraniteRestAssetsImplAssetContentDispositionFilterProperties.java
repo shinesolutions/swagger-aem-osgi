@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties {
   public static final String SERIALIZED_NAME_MIME_ALLOW_EMPTY = "mime.allowEmpty";
   @SerializedName(SERIALIZED_NAME_MIME_ALLOW_EMPTY)

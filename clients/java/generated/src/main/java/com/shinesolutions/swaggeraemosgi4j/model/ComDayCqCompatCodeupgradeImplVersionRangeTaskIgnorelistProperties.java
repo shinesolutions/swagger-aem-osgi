@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties {
   public static final String SERIALIZED_NAME_EFFECTIVE_BUNDLE_LIST_PATH = "effectiveBundleListPath";
   @SerializedName(SERIALIZED_NAME_EFFECTIVE_BUNDLE_LIST_PATH)

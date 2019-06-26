@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties {
   public static final String SERIALIZED_NAME_ENDPOINT_URI = "endpointUri";
   @SerializedName(SERIALIZED_NAME_ENDPOINT_URI)

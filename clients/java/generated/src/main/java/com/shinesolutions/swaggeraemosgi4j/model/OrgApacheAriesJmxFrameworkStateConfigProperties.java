@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * OrgApacheAriesJmxFrameworkStateConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class OrgApacheAriesJmxFrameworkStateConfigProperties {
   public static final String SERIALIZED_NAME_ATTRIBUTE_CHANGE_NOTIFICATION_ENABLED = "attributeChangeNotificationEnabled";
   @SerializedName(SERIALIZED_NAME_ATTRIBUTE_CHANGE_NOTIFICATION_ENABLED)

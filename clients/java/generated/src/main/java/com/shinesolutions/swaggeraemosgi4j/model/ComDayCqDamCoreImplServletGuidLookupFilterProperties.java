@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamCoreImplServletGuidLookupFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComDayCqDamCoreImplServletGuidLookupFilterProperties {
   public static final String SERIALIZED_NAME_CQ_DAM_CORE_GUIDLOOKUPFILTER_ENABLED = "cq.dam.core.guidlookupfilter.enabled";
   @SerializedName(SERIALIZED_NAME_CQ_DAM_CORE_GUIDLOOKUPFILTER_ENABLED)

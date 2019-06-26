@@ -31,7 +31,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties {
   public static final String SERIALIZED_NAME_COM_ADOBE_CQ_DAM_MAC_SYNC_DAMSYNCSERVICE_REGISTERED_PATHS = "com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths";
   @SerializedName(SERIALIZED_NAME_COM_ADOBE_CQ_DAM_MAC_SYNC_DAMSYNCSERVICE_REGISTERED_PATHS)

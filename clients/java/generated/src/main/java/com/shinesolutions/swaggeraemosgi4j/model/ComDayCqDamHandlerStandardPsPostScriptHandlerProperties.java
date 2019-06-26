@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamHandlerStandardPsPostScriptHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComDayCqDamHandlerStandardPsPostScriptHandlerProperties {
   public static final String SERIALIZED_NAME_RASTER_ANNOTATION = "raster.annotation";
   @SerializedName(SERIALIZED_NAME_RASTER_ANNOTATION)

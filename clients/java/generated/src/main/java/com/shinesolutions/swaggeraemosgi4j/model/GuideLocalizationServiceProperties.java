@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * GuideLocalizationServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class GuideLocalizationServiceProperties {
   public static final String SERIALIZED_NAME_SUPPORTED_LOCALES = "supportedLocales";
   @SerializedName(SERIALIZED_NAME_SUPPORTED_LOCALES)

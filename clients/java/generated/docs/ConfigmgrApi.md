@@ -5,7 +5,7 @@ All URIs are relative to *http://localhost*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**adaptiveFormAndInteractiveCommunicationWebChannelConfiguration**](ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelConfiguration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Configuration | 
-[**adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration**](ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
+[**adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur**](ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
 [**analyticsComponentQueryCacheService**](ConfigmgrApi.md#analyticsComponentQueryCacheService) | **POST** /system/console/configMgr/Analytics Component Query Cache Service | 
 [**apacheSlingHealthCheckResultHTMLSerializer**](ConfigmgrApi.md#apacheSlingHealthCheckResultHTMLSerializer) | **POST** /system/console/configMgr/Apache Sling Health Check Result HTML Serializer | 
 [**comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration**](ConfigmgrApi.md#comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration) | **POST** /system/console/configMgr/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration | 
@@ -23,7 +23,7 @@ Method | HTTP request | Description
 [**comAdobeCqCdnRewriterImplAWSCloudFrontRewriter**](ConfigmgrApi.md#comAdobeCqCdnRewriterImplAWSCloudFrontRewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter | 
 [**comAdobeCqCdnRewriterImplCDNConfigServiceImpl**](ConfigmgrApi.md#comAdobeCqCdnRewriterImplCDNConfigServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl | 
 [**comAdobeCqCdnRewriterImplCDNRewriter**](ConfigmgrApi.md#comAdobeCqCdnRewriterImplCDNRewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNRewriter | 
-[**comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler**](ConfigmgrApi.md#comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
+[**comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle**](ConfigmgrApi.md#comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
 [**comAdobeCqCommerceImplAssetDynamicImageHandler**](ConfigmgrApi.md#comAdobeCqCommerceImplAssetDynamicImageHandler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.DynamicImageHandler | 
 [**comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl**](ConfigmgrApi.md#comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl | 
 [**comAdobeCqCommerceImplAssetStaticImageHandler**](ConfigmgrApi.md#comAdobeCqCommerceImplAssetStaticImageHandler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.StaticImageHandler | 
@@ -34,7 +34,7 @@ Method | HTTP request | Description
 [**comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl**](ConfigmgrApi.md#comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl | 
 [**comAdobeCqContentinsightImplReportingServicesSettingsProvider**](ConfigmgrApi.md#comAdobeCqContentinsightImplReportingServicesSettingsProvider) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider | 
 [**comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet**](ConfigmgrApi.md#comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet | 
-[**comAdobeCqContentinsightImplServletsReportingServicesProxyServlet**](ConfigmgrApi.md#comAdobeCqContentinsightImplServletsReportingServicesProxyServlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
+[**comAdobeCqContentinsightImplServletsReportingServicesProxyServle**](ConfigmgrApi.md#comAdobeCqContentinsightImplServletsReportingServicesProxyServle) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
 [**comAdobeCqDamCfmImplComponentComponentConfigImpl**](ConfigmgrApi.md#comAdobeCqDamCfmImplComponentComponentConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl | 
 [**comAdobeCqDamCfmImplConfFeatureConfigImpl**](ConfigmgrApi.md#comAdobeCqDamCfmImplConfFeatureConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl | 
 [**comAdobeCqDamCfmImplContentRewriterAssetProcessor**](ConfigmgrApi.md#comAdobeCqDamCfmImplContentRewriterAssetProcessor) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor | 
@@ -74,33 +74,33 @@ Method | HTTP request | Description
 [**comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl**](ConfigmgrApi.md#comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl | 
 [**comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl**](ConfigmgrApi.md#comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl | 
 [**comAdobeCqScreensSegmentationImplSegmentationFeatureFlag**](ConfigmgrApi.md#comAdobeCqScreensSegmentationImplSegmentationFeatureFlag) | **POST** /system/console/configMgr/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag | 
-[**comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
+[**comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh**](ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
 [**comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck | 
 [**comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck | 
 [**comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck | 
 [**comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck | 
-[**comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl**](ConfigmgrApi.md#comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
-[**comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
-[**comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
+[**comAdobeCqSocialAccountverificationImplAccountManagementConfigIm**](ConfigmgrApi.md#comAdobeCqSocialAccountverificationImplAccountManagementConfigIm) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
+[**comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
+[**comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
 [**comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler | 
-[**comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
-[**comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
-[**comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
-[**comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl**](ConfigmgrApi.md#comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
-[**comAdobeCqSocialCalendarClientOperationextensionsEventAttachment**](ConfigmgrApi.md#comAdobeCqSocialCalendarClientOperationextensionsEventAttachment) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
+[**comAdobeCqSocialActivitystreamsListenerImplModerationEventExten**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplModerationEventExten) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
+[**comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
+[**comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
+[**comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI**](ConfigmgrApi.md#comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
+[**comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen**](ConfigmgrApi.md#comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
 [**comAdobeCqSocialCalendarServletsTimeZoneServlet**](ConfigmgrApi.md#comAdobeCqSocialCalendarServletsTimeZoneServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.servlets.TimeZoneServlet | 
-[**comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
-[**comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
-[**comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
-[**comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
-[**comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
+[**comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
+[**comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
+[**comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
+[**comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
+[**comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
 [**comAdobeCqSocialCommonsCorsCORSAuthenticationFilter**](ConfigmgrApi.md#comAdobeCqSocialCommonsCorsCORSAuthenticationFilter) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter | 
 [**comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider | 
 [**comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl | 
 [**comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener | 
 [**comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider | 
-[**comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
-[**comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
+[**comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
+[**comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
 [**comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter | 
 [**comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider | 
 [**comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider | 
@@ -108,53 +108,53 @@ Method | HTTP request | Description
 [**comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider | 
 [**comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider | 
 [**comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider | 
-[**comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads**](ConfigmgrApi.md#comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
+[**comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload**](ConfigmgrApi.md#comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
 [**comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl | 
-[**comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
+[**comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit**](ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
 [**comAdobeCqSocialConnectOauthImplFacebookProviderImpl**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplFacebookProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl | 
-[**comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
+[**comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
 [**comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper | 
 [**comAdobeCqSocialConnectOauthImplTwitterProviderImpl**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplTwitterProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl | 
-[**comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
+[**comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen**](ConfigmgrApi.md#comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
 [**comAdobeCqSocialDatastoreAsImplASResourceProviderFactory**](ConfigmgrApi.md#comAdobeCqSocialDatastoreAsImplASResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory | 
 [**comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory**](ConfigmgrApi.md#comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory | 
-[**comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory**](ConfigmgrApi.md#comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
-[**comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory**](ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
-[**comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory**](ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
-[**comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService**](ConfigmgrApi.md#comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
-[**comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService**](ConfigmgrApi.md#comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
+[**comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor**](ConfigmgrApi.md#comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
+[**comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF**](ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
+[**comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto**](ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
+[**comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL**](ConfigmgrApi.md#comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
+[**comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou**](ConfigmgrApi.md#comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
 [**comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl**](ConfigmgrApi.md#comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl | 
-[**comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet**](ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
-[**comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService**](ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
+[**comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe**](ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
+[**comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera**](ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
 [**comAdobeCqSocialForumClientEndpointsImplForumOperationsService**](ConfigmgrApi.md#comAdobeCqSocialForumClientEndpointsImplForumOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService | 
 [**comAdobeCqSocialForumDispatcherImplFlushOperations**](ConfigmgrApi.md#comAdobeCqSocialForumDispatcherImplFlushOperations) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations | 
-[**comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
+[**comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen**](ConfigmgrApi.md#comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
 [**comAdobeCqSocialGroupImplGroupServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialGroupImplGroupServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.group.impl.GroupServiceImpl | 
 [**comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl**](ConfigmgrApi.md#comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl | 
-[**comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService**](ConfigmgrApi.md#comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
-[**comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService**](ConfigmgrApi.md#comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
-[**comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService**](ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
-[**comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService**](ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
-[**comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
-[**comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
-[**comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
-[**comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
-[**comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
-[**comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
+[**comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS**](ConfigmgrApi.md#comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
+[**comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer**](ConfigmgrApi.md#comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
+[**comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile**](ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
+[**comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO**](ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
+[**comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF**](ConfigmgrApi.md#comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
+[**comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation**](ConfigmgrApi.md#comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
+[**comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
+[**comAdobeCqSocialModerationDashboardApiModerationDashboardSocial**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiModerationDashboardSocial) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
+[**comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
+[**comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
 [**comAdobeCqSocialNotificationsImplMentionsRouter**](ConfigmgrApi.md#comAdobeCqSocialNotificationsImplMentionsRouter) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.MentionsRouter | 
 [**comAdobeCqSocialNotificationsImplNotificationManagerImpl**](ConfigmgrApi.md#comAdobeCqSocialNotificationsImplNotificationManagerImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationManagerImpl | 
 [**comAdobeCqSocialNotificationsImplNotificationsRouter**](ConfigmgrApi.md#comAdobeCqSocialNotificationsImplNotificationsRouter) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationsRouter | 
-[**comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService**](ConfigmgrApi.md#comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
-[**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
-[**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
-[**comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
-[**comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService**](ConfigmgrApi.md#comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
+[**comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic**](ConfigmgrApi.md#comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
+[**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
+[**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
+[**comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
+[**comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi**](ConfigmgrApi.md#comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
 [**comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet**](ConfigmgrApi.md#comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet | 
 [**comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet**](ConfigmgrApi.md#comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet | 
 [**comAdobeCqSocialScoringImplScoringEventListener**](ConfigmgrApi.md#comAdobeCqSocialScoringImplScoringEventListener) | **POST** /system/console/configMgr/com.adobe.cq.social.scoring.impl.ScoringEventListener | 
 [**comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl**](ConfigmgrApi.md#comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl | 
 [**comAdobeCqSocialSiteEndpointsImplSiteOperationService**](ConfigmgrApi.md#comAdobeCqSocialSiteEndpointsImplSiteOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.site.endpoints.impl.SiteOperationService | 
-[**comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
+[**comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm**](ConfigmgrApi.md#comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
 [**comAdobeCqSocialSiteImplSiteConfiguratorImpl**](ConfigmgrApi.md#comAdobeCqSocialSiteImplSiteConfiguratorImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.SiteConfiguratorImpl | 
 [**comAdobeCqSocialSrpImplSocialSolrConnector**](ConfigmgrApi.md#comAdobeCqSocialSrpImplSocialSolrConnector) | **POST** /system/console/configMgr/com.adobe.cq.social.srp.impl.SocialSolrConnector | 
 [**comAdobeCqSocialSyncImplDiffChangesObserver**](ConfigmgrApi.md#comAdobeCqSocialSyncImplDiffChangesObserver) | **POST** /system/console/configMgr/com.adobe.cq.social.sync.impl.DiffChangesObserver | 
@@ -169,11 +169,11 @@ Method | HTTP request | Description
 [**comAdobeCqSocialUgcbaseImplSocialUtilsImpl**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseImplSocialUtilsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl | 
 [**comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl | 
 [**comAdobeCqSocialUgcbaseModerationImplSentimentProcess**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseModerationImplSentimentProcess) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess | 
-[**comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
+[**comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
 [**comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl | 
 [**comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet**](ConfigmgrApi.md#comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet | 
 [**comAdobeCqSocialUserImplTransportHttpToPublisher**](ConfigmgrApi.md#comAdobeCqSocialUserImplTransportHttpToPublisher) | **POST** /system/console/configMgr/com.adobe.cq.social.user.impl.transport.HttpToPublisher | 
-[**comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended**](ConfigmgrApi.md#comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
+[**comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact**](ConfigmgrApi.md#comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
 [**comAdobeCqUpgradesCleanupImplUpgradeContentCleanup**](ConfigmgrApi.md#comAdobeCqUpgradesCleanupImplUpgradeContentCleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup | 
 [**comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup**](ConfigmgrApi.md#comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup | 
 [**comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService**](ConfigmgrApi.md#comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService) | **POST** /system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService | 
@@ -187,7 +187,7 @@ Method | HTTP request | Description
 [**comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService**](ConfigmgrApi.md#comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService | 
 [**comAdobeFdFpConfigFormsPortalSchedulerService**](ConfigmgrApi.md#comAdobeFdFpConfigFormsPortalSchedulerService) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalSchedulerService | 
 [**comAdobeFormsCommonServiceImplDefaultDataProvider**](ConfigmgrApi.md#comAdobeFormsCommonServiceImplDefaultDataProvider) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.DefaultDataProvider | 
-[**comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl**](ConfigmgrApi.md#comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
+[**comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp**](ConfigmgrApi.md#comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
 [**comAdobeFormsCommonServletTempCleanUpTask**](ConfigmgrApi.md#comAdobeFormsCommonServletTempCleanUpTask) | **POST** /system/console/configMgr/com.adobe.forms.common.servlet.TempCleanUpTask | 
 [**comAdobeGraniteAcpPlatformPlatformServlet**](ConfigmgrApi.md#comAdobeGraniteAcpPlatformPlatformServlet) | **POST** /system/console/configMgr/com.adobe.granite.acp.platform.PlatformServlet | 
 [**comAdobeGraniteActivitystreamsImplActivityManagerImpl**](ConfigmgrApi.md#comAdobeGraniteActivitystreamsImplActivityManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.activitystreams.impl.ActivityManagerImpl | 
@@ -225,22 +225,22 @@ Method | HTTP request | Description
 [**comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck**](ConfigmgrApi.md#comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck | 
 [**comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck**](ConfigmgrApi.md#comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck | 
 [**comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck**](ConfigmgrApi.md#comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck | 
-[**comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory**](ConfigmgrApi.md#comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
+[**comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac**](ConfigmgrApi.md#comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
 [**comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl**](ConfigmgrApi.md#comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl | 
 [**comAdobeGraniteCompatrouterImplRoutingConfig**](ConfigmgrApi.md#comAdobeGraniteCompatrouterImplRoutingConfig) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.RoutingConfig | 
 [**comAdobeGraniteCompatrouterImplSwitchMappingConfig**](ConfigmgrApi.md#comAdobeGraniteCompatrouterImplSwitchMappingConfig) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.SwitchMappingConfig | 
-[**comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy**](ConfigmgrApi.md#comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
+[**comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving**](ConfigmgrApi.md#comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
 [**comAdobeGraniteContexthubImplContextHubImpl**](ConfigmgrApi.md#comAdobeGraniteContexthubImplContextHubImpl) | **POST** /system/console/configMgr/com.adobe.granite.contexthub.impl.ContextHubImpl | 
 [**comAdobeGraniteCorsImplCORSPolicyImpl**](ConfigmgrApi.md#comAdobeGraniteCorsImplCORSPolicyImpl) | **POST** /system/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl | 
 [**comAdobeGraniteCsrfImplCSRFFilter**](ConfigmgrApi.md#comAdobeGraniteCsrfImplCSRFFilter) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter | 
 [**comAdobeGraniteCsrfImplCSRFServlet**](ConfigmgrApi.md#comAdobeGraniteCsrfImplCSRFServlet) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFServlet | 
-[**comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
+[**comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
 [**comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver | 
 [**comAdobeGraniteDistributionCoreImplDiffDiffEventListener**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDiffDiffEventListener) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffEventListener | 
-[**comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
-[**comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
-[**comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
-[**comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
+[**comAdobeGraniteDistributionCoreImplDistributionToReplicationEven**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDistributionToReplicationEven) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
+[**comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
+[**comAdobeGraniteDistributionCoreImplReplicationDistributionTrans**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationDistributionTrans) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
+[**comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
 [**comAdobeGraniteFragsImplCheckHttpHeaderFlag**](ConfigmgrApi.md#comAdobeGraniteFragsImplCheckHttpHeaderFlag) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.CheckHttpHeaderFlag | 
 [**comAdobeGraniteFragsImplRandomFeature**](ConfigmgrApi.md#comAdobeGraniteFragsImplRandomFeature) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.RandomFeature | 
 [**comAdobeGraniteHttpcacheFileFileCacheStore**](ConfigmgrApi.md#comAdobeGraniteHttpcacheFileFileCacheStore) | **POST** /system/console/configMgr/com.adobe.granite.httpcache.file.FileCacheStore | 
@@ -256,7 +256,7 @@ Method | HTTP request | Description
 [**comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask**](ConfigmgrApi.md#comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask | 
 [**comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask**](ConfigmgrApi.md#comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask | 
 [**comAdobeGraniteMonitoringImplScriptConfigImpl**](ConfigmgrApi.md#comAdobeGraniteMonitoringImplScriptConfigImpl) | **POST** /system/console/configMgr/com.adobe.granite.monitoring.impl.ScriptConfigImpl | 
-[**comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler**](ConfigmgrApi.md#comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
+[**comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan**](ConfigmgrApi.md#comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
 [**comAdobeGraniteOauthServerImplAccessTokenCleanupTask**](ConfigmgrApi.md#comAdobeGraniteOauthServerImplAccessTokenCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask | 
 [**comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet**](ConfigmgrApi.md#comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet | 
 [**comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet**](ConfigmgrApi.md#comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet | 
@@ -266,7 +266,7 @@ Method | HTTP request | Description
 [**comAdobeGraniteOffloadingImplOffloadingJobCloner**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplOffloadingJobCloner) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner | 
 [**comAdobeGraniteOffloadingImplOffloadingJobOffloader**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplOffloadingJobOffloader) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobOffloader | 
 [**comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager | 
-[**comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
+[**comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
 [**comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl**](ConfigmgrApi.md#comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl | 
 [**comAdobeGraniteOptoutImplOptOutServiceImpl**](ConfigmgrApi.md#comAdobeGraniteOptoutImplOptOutServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.optout.impl.OptOutServiceImpl | 
 [**comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck**](ConfigmgrApi.md#comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck | 
@@ -275,32 +275,32 @@ Method | HTTP request | Description
 [**comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics**](ConfigmgrApi.md#comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics | 
 [**comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck**](ConfigmgrApi.md#comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck | 
 [**comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck**](ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck | 
-[**comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck**](ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
+[**comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC**](ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck | 
-[**comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
+[**comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck | 
-[**comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
+[**comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck | 
 [**comAdobeGraniteRepositoryImplCommitStatsConfig**](ConfigmgrApi.md#comAdobeGraniteRepositoryImplCommitStatsConfig) | **POST** /system/console/configMgr/com.adobe.granite.repository.impl.CommitStatsConfig | 
 [**comAdobeGraniteRepositoryServiceUserConfiguration**](ConfigmgrApi.md#comAdobeGraniteRepositoryServiceUserConfiguration) | **POST** /system/console/configMgr/com.adobe.granite.repository.ServiceUserConfiguration | 
-[**comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl**](ConfigmgrApi.md#comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
+[**comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm**](ConfigmgrApi.md#comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
 [**comAdobeGraniteResourcestatusImplCompositeStatusType**](ConfigmgrApi.md#comAdobeGraniteResourcestatusImplCompositeStatusType) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.CompositeStatusType | 
 [**comAdobeGraniteResourcestatusImplStatusResourceProviderImpl**](ConfigmgrApi.md#comAdobeGraniteResourcestatusImplStatusResourceProviderImpl) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl | 
 [**comAdobeGraniteRestAssetsImplAssetContentDispositionFilter**](ConfigmgrApi.md#comAdobeGraniteRestAssetsImplAssetContentDispositionFilter) | **POST** /system/console/configMgr/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter | 
 [**comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl**](ConfigmgrApi.md#comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl | 
 [**comAdobeGraniteRestImplServletDefaultGETServlet**](ConfigmgrApi.md#comAdobeGraniteRestImplServletDefaultGETServlet) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.servlet.DefaultGETServlet | 
-[**comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet**](ConfigmgrApi.md#comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
+[**comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS**](ConfigmgrApi.md#comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
 [**comAdobeGraniteSecurityUserUserPropertiesService**](ConfigmgrApi.md#comAdobeGraniteSecurityUserUserPropertiesService) | **POST** /system/console/configMgr/com.adobe.granite.security.user.UserPropertiesService | 
 [**comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl**](ConfigmgrApi.md#comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl | 
 [**comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl**](ConfigmgrApi.md#comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl) | **POST** /system/console/configMgr/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl | 
 [**comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory | 
 [**comAdobeGraniteTaskmanagementImplJcrTaskArchiveService**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplJcrTaskArchiveService) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService | 
 [**comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask | 
-[**comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
+[**comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
 [**comAdobeGraniteThreaddumpThreadDumpCollector**](ConfigmgrApi.md#comAdobeGraniteThreaddumpThreadDumpCollector) | **POST** /system/console/configMgr/com.adobe.granite.threaddump.ThreadDumpCollector | 
-[**comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl**](ConfigmgrApi.md#comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
+[**comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl**](ConfigmgrApi.md#comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
 [**comAdobeGraniteTranslationCoreImplTranslationManagerImpl**](ConfigmgrApi.md#comAdobeGraniteTranslationCoreImplTranslationManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.translation.core.impl.TranslationManagerImpl | 
 [**comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl**](ConfigmgrApi.md#comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl | 
 [**comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature**](ConfigmgrApi.md#comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature) | **POST** /system/console/configMgr/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature | 
@@ -308,19 +308,19 @@ Method | HTTP request | Description
 [**comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager | 
 [**comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler | 
 [**comAdobeGraniteWorkflowCoreJobJobHandler**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJobJobHandler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.JobHandler | 
-[**comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
+[**comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
 [**comAdobeGraniteWorkflowCorePayloadMapCache**](ConfigmgrApi.md#comAdobeGraniteWorkflowCorePayloadMapCache) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.PayloadMapCache | 
 [**comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener**](ConfigmgrApi.md#comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener | 
 [**comAdobeGraniteWorkflowCoreWorkflowConfig**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreWorkflowConfig) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowConfig | 
 [**comAdobeGraniteWorkflowCoreWorkflowSessionFactory**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreWorkflowSessionFactory) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowSessionFactory | 
 [**comAdobeGraniteWorkflowPurgeScheduler**](ConfigmgrApi.md#comAdobeGraniteWorkflowPurgeScheduler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.purge.Scheduler | 
 [**comAdobeOctopusNcommBootstrap**](ConfigmgrApi.md#comAdobeOctopusNcommBootstrap) | **POST** /system/console/configMgr/com.adobe.octopus.ncomm.bootstrap | 
-[**comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet**](ConfigmgrApi.md#comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
+[**comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS**](ConfigmgrApi.md#comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
 [**comAdobeXmpWorkerFilesNcommXMPFilesNComm**](ConfigmgrApi.md#comAdobeXmpWorkerFilesNcommXMPFilesNComm) | **POST** /system/console/configMgr/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm | 
 [**comDayCommonsDatasourceJdbcpoolJdbcPoolService**](ConfigmgrApi.md#comDayCommonsDatasourceJdbcpoolJdbcPoolService) | **POST** /system/console/configMgr/com.day.commons.datasource.jdbcpool.JdbcPoolService | 
 [**comDayCommonsHttpclient**](ConfigmgrApi.md#comDayCommonsHttpclient) | **POST** /system/console/configMgr/com.day.commons.httpclient | 
 [**comDayCqAnalyticsImplStorePropertiesChangeListener**](ConfigmgrApi.md#comDayCqAnalyticsImplStorePropertiesChangeListener) | **POST** /system/console/configMgr/com.day.cq.analytics.impl.StorePropertiesChangeListener | 
-[**comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
+[**comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
 [**comDayCqAnalyticsSitecatalystImplImporterReportImporter**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplImporterReportImporter) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter | 
 [**comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory | 
 [**comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl | 
@@ -335,7 +335,7 @@ Method | HTTP request | Description
 [**comDayCqAuthImplLoginSelectorHandler**](ConfigmgrApi.md#comDayCqAuthImplLoginSelectorHandler) | **POST** /system/console/configMgr/com.day.cq.auth.impl.LoginSelectorHandler | 
 [**comDayCqCommonsImplExternalizerImpl**](ConfigmgrApi.md#comDayCqCommonsImplExternalizerImpl) | **POST** /system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl | 
 [**comDayCqCommonsServletsRootMappingServlet**](ConfigmgrApi.md#comDayCqCommonsServletsRootMappingServlet) | **POST** /system/console/configMgr/com.day.cq.commons.servlets.RootMappingServlet | 
-[**comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker**](ConfigmgrApi.md#comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
+[**comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke**](ConfigmgrApi.md#comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
 [**comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList**](ConfigmgrApi.md#comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList | 
 [**comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist**](ConfigmgrApi.md#comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist | 
 [**comDayCqContentsyncImplContentSyncManagerImpl**](ConfigmgrApi.md#comDayCqContentsyncImplContentSyncManagerImpl) | **POST** /system/console/configMgr/com.day.cq.contentsync.impl.ContentSyncManagerImpl | 
@@ -352,7 +352,7 @@ Method | HTTP request | Description
 [**comDayCqDamCoreImplDamEventRecorderImpl**](ConfigmgrApi.md#comDayCqDamCoreImplDamEventRecorderImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.DamEventRecorderImpl | 
 [**comDayCqDamCoreImplEventDamEventAuditListener**](ConfigmgrApi.md#comDayCqDamCoreImplEventDamEventAuditListener) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.event.DamEventAuditListener | 
 [**comDayCqDamCoreImplExpiryNotificationJobImpl**](ConfigmgrApi.md#comDayCqDamCoreImplExpiryNotificationJobImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl | 
-[**comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag**](ConfigmgrApi.md#comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
+[**comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat**](ConfigmgrApi.md#comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
 [**comDayCqDamCoreImplGfxCommonsGfxRenderer**](ConfigmgrApi.md#comDayCqDamCoreImplGfxCommonsGfxRenderer) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer | 
 [**comDayCqDamCoreImplHandlerEPSFormatHandler**](ConfigmgrApi.md#comDayCqDamCoreImplHandlerEPSFormatHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.EPSFormatHandler | 
 [**comDayCqDamCoreImplHandlerIndesignFormatHandler**](ConfigmgrApi.md#comDayCqDamCoreImplHandlerIndesignFormatHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.IndesignFormatHandler | 
@@ -361,14 +361,14 @@ Method | HTTP request | Description
 [**comDayCqDamCoreImplJmxAssetIndexUpdateMonitor**](ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetIndexUpdateMonitor) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor | 
 [**comDayCqDamCoreImplJmxAssetMigrationMBeanImpl**](ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetMigrationMBeanImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl | 
 [**comDayCqDamCoreImplJmxAssetUpdateMonitorImpl**](ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetUpdateMonitorImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl | 
-[**comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService**](ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
-[**comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService**](ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
+[**comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig**](ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
+[**comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig**](ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
 [**comDayCqDamCoreImplLightboxLightboxServlet**](ConfigmgrApi.md#comDayCqDamCoreImplLightboxLightboxServlet) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.lightbox.LightboxServlet | 
 [**comDayCqDamCoreImplMetadataEditorSelectComponentHandler**](ConfigmgrApi.md#comDayCqDamCoreImplMetadataEditorSelectComponentHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler | 
 [**comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper**](ConfigmgrApi.md#comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper | 
 [**comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl**](ConfigmgrApi.md#comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl | 
 [**comDayCqDamCoreImplMissingMetadataNotificationJob**](ConfigmgrApi.md#comDayCqDamCoreImplMissingMetadataNotificationJob) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.MissingMetadataNotificationJob | 
-[**comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess**](ConfigmgrApi.md#comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
+[**comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr**](ConfigmgrApi.md#comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
 [**comDayCqDamCoreImplProcessTextExtractionProcess**](ConfigmgrApi.md#comDayCqDamCoreImplProcessTextExtractionProcess) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.TextExtractionProcess | 
 [**comDayCqDamCoreImplRenditionMakerImpl**](ConfigmgrApi.md#comDayCqDamCoreImplRenditionMakerImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.RenditionMakerImpl | 
 [**comDayCqDamCoreImplReportsReportExportService**](ConfigmgrApi.md#comDayCqDamCoreImplReportsReportExportService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.reports.ReportExportService | 
@@ -405,8 +405,8 @@ Method | HTTP request | Description
 [**comDayCqDamInddProcessINDDMediaExtractProcess**](ConfigmgrApi.md#comDayCqDamInddProcessINDDMediaExtractProcess) | **POST** /system/console/configMgr/com.day.cq.dam.indd.process.INDDMediaExtractProcess | 
 [**comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl**](ConfigmgrApi.md#comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl | 
 [**comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob**](ConfigmgrApi.md#comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob | 
-[**comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess**](ConfigmgrApi.md#comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
-[**comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener**](ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
+[**comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro**](ConfigmgrApi.md#comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
+[**comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven**](ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
 [**comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner**](ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner | 
 [**comDayCqDamS7damCommonPostServletsSetCreateHandler**](ConfigmgrApi.md#comDayCqDamS7damCommonPostServletsSetCreateHandler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler | 
 [**comDayCqDamS7damCommonPostServletsSetModifyHandler**](ConfigmgrApi.md#comDayCqDamS7damCommonPostServletsSetModifyHandler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler | 
@@ -420,8 +420,8 @@ Method | HTTP request | Description
 [**comDayCqDamScene7ImplScene7DamChangeEventListener**](ConfigmgrApi.md#comDayCqDamScene7ImplScene7DamChangeEventListener) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener | 
 [**comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl**](ConfigmgrApi.md#comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl | 
 [**comDayCqDamScene7ImplScene7UploadServiceImpl**](ConfigmgrApi.md#comDayCqDamScene7ImplScene7UploadServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl | 
-[**comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl**](ConfigmgrApi.md#comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
-[**comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl**](ConfigmgrApi.md#comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
+[**comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer**](ConfigmgrApi.md#comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
+[**comDayCqDamStockIntegrationImplConfigurationStockConfiguration**](ConfigmgrApi.md#comDayCqDamStockIntegrationImplConfigurationStockConfiguration) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
 [**comDayCqDamVideoImplServletVideoTestServlet**](ConfigmgrApi.md#comDayCqDamVideoImplServletVideoTestServlet) | **POST** /system/console/configMgr/com.day.cq.dam.video.impl.servlet.VideoTestServlet | 
 [**comDayCqExtwidgetServletsImageSpriteServlet**](ConfigmgrApi.md#comDayCqExtwidgetServletsImageSpriteServlet) | **POST** /system/console/configMgr/com.day.cq.extwidget.servlets.ImageSpriteServlet | 
 [**comDayCqImageInternalFontFontHelper**](ConfigmgrApi.md#comDayCqImageInternalFontFontHelper) | **POST** /system/console/configMgr/com.day.cq.image.internal.font.FontHelper | 
@@ -434,11 +434,11 @@ Method | HTTP request | Description
 [**comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory**](ConfigmgrApi.md#comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory | 
 [**comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl**](ConfigmgrApi.md#comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl) | **POST** /system/console/configMgr/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl | 
 [**comDayCqMcmImplMCMConfiguration**](ConfigmgrApi.md#comDayCqMcmImplMCMConfiguration) | **POST** /system/console/configMgr/com.day.cq.mcm.impl.MCMConfiguration | 
-[**comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
-[**comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
-[**comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
-[**comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
-[**comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
 [**comDayCqNotificationImplNotificationServiceImpl**](ConfigmgrApi.md#comDayCqNotificationImplNotificationServiceImpl) | **POST** /system/console/configMgr/com.day.cq.notification.impl.NotificationServiceImpl | 
 [**comDayCqPersonalizationImplServletsTargetingConfigurationServlet**](ConfigmgrApi.md#comDayCqPersonalizationImplServletsTargetingConfigurationServlet) | **POST** /system/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet | 
 [**comDayCqPollingImporterImplManagedPollConfigImpl**](ConfigmgrApi.md#comDayCqPollingImporterImplManagedPollConfigImpl) | **POST** /system/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollConfigImpl | 
@@ -448,7 +448,7 @@ Method | HTTP request | Description
 [**comDayCqReplicationContentStaticContentBuilder**](ConfigmgrApi.md#comDayCqReplicationContentStaticContentBuilder) | **POST** /system/console/configMgr/com.day.cq.replication.content.StaticContentBuilder | 
 [**comDayCqReplicationImplAgentManagerImpl**](ConfigmgrApi.md#comDayCqReplicationImplAgentManagerImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.AgentManagerImpl | 
 [**comDayCqReplicationImplContentDurboBinaryLessContentBuilder**](ConfigmgrApi.md#comDayCqReplicationImplContentDurboBinaryLessContentBuilder) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder | 
-[**comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService**](ConfigmgrApi.md#comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
+[**comDayCqReplicationImplContentDurboDurboImportConfigurationProv**](ConfigmgrApi.md#comDayCqReplicationImplContentDurboDurboImportConfigurationProv) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
 [**comDayCqReplicationImplReplicationContentFactoryProviderImpl**](ConfigmgrApi.md#comDayCqReplicationImplReplicationContentFactoryProviderImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl | 
 [**comDayCqReplicationImplReplicationReceiverImpl**](ConfigmgrApi.md#comDayCqReplicationImplReplicationReceiverImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationReceiverImpl | 
 [**comDayCqReplicationImplReplicatorImpl**](ConfigmgrApi.md#comDayCqReplicationImplReplicatorImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicatorImpl | 
@@ -473,7 +473,7 @@ Method | HTTP request | Description
 [**comDayCqTaggingImplSearchTagPredicateEvaluator**](ConfigmgrApi.md#comDayCqTaggingImplSearchTagPredicateEvaluator) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.search.TagPredicateEvaluator | 
 [**comDayCqTaggingImplTagGarbageCollector**](ConfigmgrApi.md#comDayCqTaggingImplTagGarbageCollector) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector | 
 [**comDayCqWcmContentsyncImplHandlerPagesUpdateHandler**](ConfigmgrApi.md#comDayCqWcmContentsyncImplHandlerPagesUpdateHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler | 
-[**comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory**](ConfigmgrApi.md#comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
+[**comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor**](ConfigmgrApi.md#comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
 [**comDayCqWcmCoreImplAuthoringUIModeServiceImpl**](ConfigmgrApi.md#comDayCqWcmCoreImplAuthoringUIModeServiceImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl | 
 [**comDayCqWcmCoreImplCommandsWCMCommandServlet**](ConfigmgrApi.md#comDayCqWcmCoreImplCommandsWCMCommandServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.commands.WCMCommandServlet | 
 [**comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl**](ConfigmgrApi.md#comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl | 
@@ -487,7 +487,7 @@ Method | HTTP request | Description
 [**comDayCqWcmCoreImplPagePageManagerFactoryImpl**](ConfigmgrApi.md#comDayCqWcmCoreImplPagePageManagerFactoryImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl | 
 [**comDayCqWcmCoreImplReferencesContentContentReferenceConfig**](ConfigmgrApi.md#comDayCqWcmCoreImplReferencesContentContentReferenceConfig) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig | 
 [**comDayCqWcmCoreImplServletsContentfinderAssetViewHandler**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderAssetViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler | 
-[**comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
+[**comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
 [**comDayCqWcmCoreImplServletsContentfinderPageViewHandler**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderPageViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler | 
 [**comDayCqWcmCoreImplServletsFindReplaceServlet**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsFindReplaceServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet | 
 [**comDayCqWcmCoreImplServletsReferenceSearchServlet**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsReferenceSearchServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet | 
@@ -507,23 +507,23 @@ Method | HTTP request | Description
 [**comDayCqWcmDesignimporterImplCanvasPageDeleteHandler**](ConfigmgrApi.md#comDayCqWcmDesignimporterImplCanvasPageDeleteHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler | 
 [**comDayCqWcmDesignimporterImplEntryPreprocessorImpl**](ConfigmgrApi.md#comDayCqWcmDesignimporterImplEntryPreprocessorImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl | 
 [**comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl**](ConfigmgrApi.md#comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
 [**comDayCqWcmFoundationFormsImplFormChooserServlet**](ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormChooserServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet | 
 [**comDayCqWcmFoundationFormsImplFormParagraphPostProcessor**](ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormParagraphPostProcessor) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor | 
 [**comDayCqWcmFoundationFormsImplFormsHandlingServlet**](ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormsHandlingServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet | 
@@ -532,7 +532,7 @@ Method | HTTP request | Description
 [**comDayCqWcmFoundationImplHTTPAuthHandler**](ConfigmgrApi.md#comDayCqWcmFoundationImplHTTPAuthHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.HTTPAuthHandler | 
 [**comDayCqWcmFoundationImplPageImpressionsTracker**](ConfigmgrApi.md#comDayCqWcmFoundationImplPageImpressionsTracker) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageImpressionsTracker | 
 [**comDayCqWcmFoundationImplPageRedirectServlet**](ConfigmgrApi.md#comDayCqWcmFoundationImplPageRedirectServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageRedirectServlet | 
-[**comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService**](ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
+[**comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist**](ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
 [**comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl**](ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl | 
 [**comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory**](ConfigmgrApi.md#comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory | 
 [**comDayCqWcmMobileCoreImplRedirectRedirectFilter**](ConfigmgrApi.md#comDayCqWcmMobileCoreImplRedirectRedirectFilter) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter | 
@@ -576,29 +576,29 @@ Method | HTTP request | Description
 [**orgApacheFelixSystemreadySystemReadyMonitor**](ConfigmgrApi.md#orgApacheFelixSystemreadySystemReadyMonitor) | **POST** /system/console/configMgr/org.apache.felix.systemready.SystemReadyMonitor | 
 [**orgApacheFelixWebconsoleInternalServletOsgiManager**](ConfigmgrApi.md#orgApacheFelixWebconsoleInternalServletOsgiManager) | **POST** /system/console/configMgr/org.apache.felix.webconsole.internal.servlet.OsgiManager | 
 [**orgApacheFelixWebconsolePluginsEventInternalPluginServlet**](ConfigmgrApi.md#orgApacheFelixWebconsolePluginsEventInternalPluginServlet) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.event.internal.PluginServlet | 
-[**orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator**](ConfigmgrApi.md#orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
+[**orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo**](ConfigmgrApi.md#orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
 [**orgApacheHttpProxyconfigurator**](ConfigmgrApi.md#orgApacheHttpProxyconfigurator) | **POST** /system/console/configMgr/org.apache.http.proxyconfigurator | 
-[**orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
+[**orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
 [**orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore | 
 [**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService | 
-[**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
-[**orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
+[**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
+[**orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
 [**orgApacheJackrabbitOakPluginsIndexAsyncIndexerService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexAsyncIndexerService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService | 
-[**orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
+[**orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
 [**orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory | 
 [**orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider | 
 [**orgApacheJackrabbitOakQueryQueryEngineSettingsService**](ConfigmgrApi.md#orgApacheJackrabbitOakQueryQueryEngineSettingsService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.query.QueryEngineSettingsService | 
-[**orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
-[**orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
-[**orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
-[**orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
-[**orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
+[**orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
+[**orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
+[**orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
+[**orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
+[**orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
 [**orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName | 
 [**orgApacheJackrabbitOakSecurityUserUserConfigurationImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityUserUserConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl | 
 [**orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService**](ConfigmgrApi.md#orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService | 
@@ -606,23 +606,23 @@ Method | HTTP request | Description
 [**orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService**](ConfigmgrApi.md#orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService | 
 [**orgApacheJackrabbitOakSegmentSegmentNodeStoreService**](ConfigmgrApi.md#orgApacheJackrabbitOakSegmentSegmentNodeStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService | 
 [**orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService**](ConfigmgrApi.md#orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService | 
-[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
-[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
-[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
-[**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
-[**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
-[**orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
+[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
+[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
+[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
+[**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
+[**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
+[**orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
 [**orgApacheJackrabbitVaultPackagingImplPackagingImpl**](ConfigmgrApi.md#orgApacheJackrabbitVaultPackagingImplPackagingImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl | 
 [**orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry**](ConfigmgrApi.md#orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry | 
 [**orgApacheSlingAuthCoreImplLogoutServlet**](ConfigmgrApi.md#orgApacheSlingAuthCoreImplLogoutServlet) | **POST** /system/console/configMgr/org.apache.sling.auth.core.impl.LogoutServlet | 
 [**orgApacheSlingCaconfigImplConfigurationBindingsValueProvider**](ConfigmgrApi.md#orgApacheSlingCaconfigImplConfigurationBindingsValueProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider | 
 [**orgApacheSlingCaconfigImplConfigurationResolverImpl**](ConfigmgrApi.md#orgApacheSlingCaconfigImplConfigurationResolverImpl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationResolverImpl | 
-[**orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy**](ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
-[**orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy**](ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
-[**orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider**](ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
-[**orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider**](ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
-[**orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl**](ConfigmgrApi.md#orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
-[**orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy**](ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
+[**orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra**](ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
+[**orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra**](ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
+[**orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi**](ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
+[**orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve**](ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
+[**orgApacheSlingCaconfigManagementImplConfigurationManagementSetti**](ConfigmgrApi.md#orgApacheSlingCaconfigManagementImplConfigurationManagementSetti) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
+[**orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour**](ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
 [**orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy**](ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy | 
 [**orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser**](ConfigmgrApi.md#orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser) | **POST** /system/console/configMgr/org.apache.sling.commons.html.internal.TagsoupHtmlParser | 
 [**orgApacheSlingCommonsLogLogManager**](ConfigmgrApi.md#orgApacheSlingCommonsLogLogManager) | **POST** /system/console/configMgr/org.apache.sling.commons.log.LogManager | 
@@ -638,30 +638,30 @@ Method | HTTP request | Description
 [**orgApacheSlingDatasourceJNDIDataSourceFactory**](ConfigmgrApi.md#orgApacheSlingDatasourceJNDIDataSourceFactory) | **POST** /system/console/configMgr/org.apache.sling.datasource.JNDIDataSourceFactory | 
 [**orgApacheSlingDiscoveryOakConfig**](ConfigmgrApi.md#orgApacheSlingDiscoveryOakConfig) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.Config | 
 [**orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck**](ConfigmgrApi.md#orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck | 
-[**orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
-[**orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
+[**orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
+[**orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
 [**orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory | 
-[**orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
-[**orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
+[**orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
+[**orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
 [**orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory | 
 [**orgApacheSlingDistributionMonitorDistributionQueueHealthCheck**](ConfigmgrApi.md#orgApacheSlingDistributionMonitorDistributionQueueHealthCheck) | **POST** /system/console/configMgr/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck | 
-[**orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
-[**orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
-[**orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
-[**orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
-[**orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
-[**orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
-[**orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory**](ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
-[**orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory**](ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
-[**orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory**](ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
-[**orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory**](ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
-[**orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider**](ConfigmgrApi.md#orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
-[**orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
+[**orgApacheSlingDistributionPackagingImplExporterAgentDistributio**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterAgentDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
+[**orgApacheSlingDistributionPackagingImplExporterLocalDistributio**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterLocalDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
+[**orgApacheSlingDistributionPackagingImplExporterRemoteDistributi**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterRemoteDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
+[**orgApacheSlingDistributionPackagingImplImporterLocalDistributio**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterLocalDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
+[**orgApacheSlingDistributionPackagingImplImporterRemoteDistributi**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRemoteDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
+[**orgApacheSlingDistributionPackagingImplImporterRepositoryDistri**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRepositoryDistri) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
+[**orgApacheSlingDistributionResourcesImplDistributionConfiguration**](ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionConfiguration) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
+[**orgApacheSlingDistributionResourcesImplDistributionServiceResour**](ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionServiceResour) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
+[**orgApacheSlingDistributionSerializationImplDistributionPackageBu**](ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplDistributionPackageBu) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
+[**orgApacheSlingDistributionSerializationImplVltVaultDistribution**](ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplVltVaultDistribution) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
+[**orgApacheSlingDistributionTransportImplUserCredentialsDistributi**](ConfigmgrApi.md#orgApacheSlingDistributionTransportImplUserCredentialsDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
+[**orgApacheSlingDistributionTriggerImplDistributionEventDistribute**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplDistributionEventDistribute) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplResourceEventDistributionTr**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplResourceEventDistributionTr) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
 [**orgApacheSlingEngineImplAuthSlingAuthenticator**](ConfigmgrApi.md#orgApacheSlingEngineImplAuthSlingAuthenticator) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.auth.SlingAuthenticator | 
 [**orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter**](ConfigmgrApi.md#orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter | 
 [**orgApacheSlingEngineImplLogRequestLogger**](ConfigmgrApi.md#orgApacheSlingEngineImplLogRequestLogger) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.log.RequestLogger | 
@@ -673,7 +673,7 @@ Method | HTTP request | Description
 [**orgApacheSlingEventImplJobsJcrPersistenceHandler**](ConfigmgrApi.md#orgApacheSlingEventImplJobsJcrPersistenceHandler) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler | 
 [**orgApacheSlingEventImplJobsJobConsumerManager**](ConfigmgrApi.md#orgApacheSlingEventImplJobsJobConsumerManager) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.JobConsumerManager | 
 [**orgApacheSlingEventJobsQueueConfiguration**](ConfigmgrApi.md#orgApacheSlingEventJobsQueueConfiguration) | **POST** /system/console/configMgr/org.apache.sling.event.jobs.QueueConfiguration | 
-[**orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider**](ConfigmgrApi.md#orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
+[**orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW**](ConfigmgrApi.md#orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
 [**orgApacheSlingFeatureflagsFeature**](ConfigmgrApi.md#orgApacheSlingFeatureflagsFeature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.Feature | 
 [**orgApacheSlingFeatureflagsImplConfiguredFeature**](ConfigmgrApi.md#orgApacheSlingFeatureflagsImplConfiguredFeature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.impl.ConfiguredFeature | 
 [**orgApacheSlingHapiImplHApiUtilImpl**](ConfigmgrApi.md#orgApacheSlingHapiImplHApiUtilImpl) | **POST** /system/console/configMgr/org.apache.sling.hapi.impl.HApiUtilImpl | 
@@ -697,20 +697,20 @@ Method | HTTP request | Description
 [**orgApacheSlingJcrResourceInternalJcrSystemUserValidator**](ConfigmgrApi.md#orgApacheSlingJcrResourceInternalJcrSystemUserValidator) | **POST** /system/console/configMgr/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator | 
 [**orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory**](ConfigmgrApi.md#orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory) | **POST** /system/console/configMgr/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory | 
 [**orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService**](ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService | 
-[**orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService**](ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
+[**orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic**](ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
 [**orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet**](ConfigmgrApi.md#orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet | 
 [**orgApacheSlingJmxProviderImplJMXResourceProvider**](ConfigmgrApi.md#orgApacheSlingJmxProviderImplJMXResourceProvider) | **POST** /system/console/configMgr/org.apache.sling.jmx.provider.impl.JMXResourceProvider | 
 [**orgApacheSlingModelsImplModelAdapterFactory**](ConfigmgrApi.md#orgApacheSlingModelsImplModelAdapterFactory) | **POST** /system/console/configMgr/org.apache.sling.models.impl.ModelAdapterFactory | 
 [**orgApacheSlingModelsJacksonexporterImplResourceModuleProvider**](ConfigmgrApi.md#orgApacheSlingModelsJacksonexporterImplResourceModuleProvider) | **POST** /system/console/configMgr/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider | 
-[**orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory**](ConfigmgrApi.md#orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
+[**orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto**](ConfigmgrApi.md#orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
 [**orgApacheSlingResourcemergerImplMergedResourceProviderFactory**](ConfigmgrApi.md#orgApacheSlingResourcemergerImplMergedResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory | 
 [**orgApacheSlingResourcemergerPickerOverriding**](ConfigmgrApi.md#orgApacheSlingResourcemergerPickerOverriding) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.picker.overriding | 
 [**orgApacheSlingScriptingCoreImplScriptCacheImpl**](ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptCacheImpl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptCacheImpl | 
-[**orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl**](ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
+[**orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider**](ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
 [**orgApacheSlingScriptingJavaImplJavaScriptEngineFactory**](ConfigmgrApi.md#orgApacheSlingScriptingJavaImplJavaScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory | 
-[**orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory**](ConfigmgrApi.md#orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
+[**orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa**](ConfigmgrApi.md#orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
 [**orgApacheSlingScriptingJspJspScriptEngineFactory**](ConfigmgrApi.md#orgApacheSlingScriptingJspJspScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.jsp.JspScriptEngineFactory | 
-[**orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider**](ConfigmgrApi.md#orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
+[**orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv**](ConfigmgrApi.md#orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
 [**orgApacheSlingSecurityImplContentDispositionFilter**](ConfigmgrApi.md#orgApacheSlingSecurityImplContentDispositionFilter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ContentDispositionFilter | 
 [**orgApacheSlingSecurityImplReferrerFilter**](ConfigmgrApi.md#orgApacheSlingSecurityImplReferrerFilter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter | 
 [**orgApacheSlingServiceusermappingImplServiceUserMapperImpl**](ConfigmgrApi.md#orgApacheSlingServiceusermappingImplServiceUserMapperImpl) | **POST** /system/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl | 
@@ -790,9 +790,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration"></a>
-# **adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration**
-> AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration(post, apply, delete, action, $location, propertylist, fontList)
+<a name="adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur"></a>
+# **adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur**
+> AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(post, apply, delete, action, $location, propertylist, fontList)
 
 
 
@@ -812,10 +812,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> fontList = Arrays.asList(); // List<String> | 
 try {
-    AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo result = apiInstance.adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration(post, apply, delete, action, $location, propertylist, fontList);
+    AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo result = apiInstance.adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(post, apply, delete, action, $location, propertylist, fontList);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration");
+    System.err.println("Exception when calling ConfigmgrApi#adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur");
     e.printStackTrace();
 }
 ```
@@ -834,7 +834,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo**](AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo.md)
+[**AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo**](AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo.md)
 
 ### Authorization
 
@@ -1838,9 +1838,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler"></a>
-# **comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler**
-> ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler(post, apply, delete, action, $location, propertylist, flushAgents)
+<a name="comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle"></a>
+# **comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle**
+> ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle(post, apply, delete, action, $location, propertylist, flushAgents)
 
 
 
@@ -1860,10 +1860,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> flushAgents = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo result = apiInstance.comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler(post, apply, delete, action, $location, propertylist, flushAgents);
+    ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo result = apiInstance.comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle(post, apply, delete, action, $location, propertylist, flushAgents);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle");
     e.printStackTrace();
 }
 ```
@@ -1882,7 +1882,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo**](ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo.md)
+[**ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo**](ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo.md)
 
 ### Authorization
 
@@ -2453,9 +2453,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqContentinsightImplServletsReportingServicesProxyServlet"></a>
-# **comAdobeCqContentinsightImplServletsReportingServicesProxyServlet**
-> ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo comAdobeCqContentinsightImplServletsReportingServicesProxyServlet(post, apply, delete, action, $location, propertylist, reportingservicesProxyWhitelist)
+<a name="comAdobeCqContentinsightImplServletsReportingServicesProxyServle"></a>
+# **comAdobeCqContentinsightImplServletsReportingServicesProxyServle**
+> ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo comAdobeCqContentinsightImplServletsReportingServicesProxyServle(post, apply, delete, action, $location, propertylist, reportingservicesProxyWhitelist)
 
 
 
@@ -2475,10 +2475,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> reportingservicesProxyWhitelist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo result = apiInstance.comAdobeCqContentinsightImplServletsReportingServicesProxyServlet(post, apply, delete, action, $location, propertylist, reportingservicesProxyWhitelist);
+    ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo result = apiInstance.comAdobeCqContentinsightImplServletsReportingServicesProxyServle(post, apply, delete, action, $location, propertylist, reportingservicesProxyWhitelist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqContentinsightImplServletsReportingServicesProxyServlet");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqContentinsightImplServletsReportingServicesProxyServle");
     e.printStackTrace();
 }
 ```
@@ -2497,7 +2497,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo**](ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo.md)
+[**ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo**](ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo.md)
 
 ### Authorization
 
@@ -4857,9 +4857,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck"></a>
-# **comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck**
-> ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck(post, apply, delete, action, $location, propertylist, hcTags)
+<a name="comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh"></a>
+# **comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh**
+> ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh(post, apply, delete, action, $location, propertylist, hcTags)
 
 
 
@@ -4879,10 +4879,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> hcTags = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo result = apiInstance.comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck(post, apply, delete, action, $location, propertylist, hcTags);
+    ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo result = apiInstance.comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh(post, apply, delete, action, $location, propertylist, hcTags);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh");
     e.printStackTrace();
 }
 ```
@@ -4901,7 +4901,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo**](ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo.md)
+[**ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo**](ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo.md)
 
 ### Authorization
 
@@ -5140,9 +5140,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl"></a>
-# **comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl**
-> ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl(post, apply, delete, action, $location, propertylist, enable, ttl1, ttl2)
+<a name="comAdobeCqSocialAccountverificationImplAccountManagementConfigIm"></a>
+# **comAdobeCqSocialAccountverificationImplAccountManagementConfigIm**
+> ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo comAdobeCqSocialAccountverificationImplAccountManagementConfigIm(post, apply, delete, action, $location, propertylist, enable, ttl1, ttl2)
 
 
 
@@ -5164,10 +5164,10 @@ Boolean enable = true; // Boolean |
 Integer ttl1 = 56; // Integer | 
 Integer ttl2 = 56; // Integer | 
 try {
-    ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo result = apiInstance.comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl(post, apply, delete, action, $location, propertylist, enable, ttl1, ttl2);
+    ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo result = apiInstance.comAdobeCqSocialAccountverificationImplAccountManagementConfigIm(post, apply, delete, action, $location, propertylist, enable, ttl1, ttl2);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialAccountverificationImplAccountManagementConfigIm");
     e.printStackTrace();
 }
 ```
@@ -5188,7 +5188,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo**](ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo.md)
+[**ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo**](ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo.md)
 
 ### Authorization
 
@@ -5199,9 +5199,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl"></a>
-# **comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl**
-> ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl(post, apply, delete, action, $location, propertylist, priority)
+<a name="comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen"></a>
+# **comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen**
+> ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen(post, apply, delete, action, $location, propertylist, priority)
 
 
 
@@ -5221,10 +5221,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo result = apiInstance.comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl(post, apply, delete, action, $location, propertylist, priority);
+    ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo result = apiInstance.comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen(post, apply, delete, action, $location, propertylist, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen");
     e.printStackTrace();
 }
 ```
@@ -5243,7 +5243,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo.md)
+[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo.md)
 
 ### Authorization
 
@@ -5254,9 +5254,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory"></a>
-# **comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory**
-> ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory(post, apply, delete, action, $location, propertylist, priority)
+<a name="comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo"></a>
+# **comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo**
+> ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo(post, apply, delete, action, $location, propertylist, priority)
 
 
 
@@ -5276,10 +5276,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo result = apiInstance.comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory(post, apply, delete, action, $location, propertylist, priority);
+    ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo result = apiInstance.comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo(post, apply, delete, action, $location, propertylist, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo");
     e.printStackTrace();
 }
 ```
@@ -5298,7 +5298,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo.md)
+[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo.md)
 
 ### Authorization
 
@@ -5366,9 +5366,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension"></a>
-# **comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension**
-> ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension(post, apply, delete, action, $location, propertylist, accepted, ranked)
+<a name="comAdobeCqSocialActivitystreamsListenerImplModerationEventExten"></a>
+# **comAdobeCqSocialActivitystreamsListenerImplModerationEventExten**
+> ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo comAdobeCqSocialActivitystreamsListenerImplModerationEventExten(post, apply, delete, action, $location, propertylist, accepted, ranked)
 
 
 
@@ -5389,10 +5389,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Boolean accepted = true; // Boolean | 
 Integer ranked = 56; // Integer | 
 try {
-    ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo result = apiInstance.comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension(post, apply, delete, action, $location, propertylist, accepted, ranked);
+    ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo result = apiInstance.comAdobeCqSocialActivitystreamsListenerImplModerationEventExten(post, apply, delete, action, $location, propertylist, accepted, ranked);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsListenerImplModerationEventExten");
     e.printStackTrace();
 }
 ```
@@ -5412,7 +5412,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo**](ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo**](ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo.md)
 
 ### Authorization
 
@@ -5423,9 +5423,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor"></a>
-# **comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor**
-> ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor(post, apply, delete, action, $location, propertylist, ranking, enable)
+<a name="comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS"></a>
+# **comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS**
+> ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS(post, apply, delete, action, $location, propertylist, ranking, enable)
 
 
 
@@ -5446,10 +5446,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer ranking = 56; // Integer | 
 Boolean enable = true; // Boolean | 
 try {
-    ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo result = apiInstance.comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor(post, apply, delete, action, $location, propertylist, ranking, enable);
+    ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo result = apiInstance.comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS(post, apply, delete, action, $location, propertylist, ranking, enable);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS");
     e.printStackTrace();
 }
 ```
@@ -5469,7 +5469,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo**](ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo**](ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo.md)
 
 ### Authorization
 
@@ -5480,9 +5480,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory"></a>
-# **comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory**
-> ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory(post, apply, delete, action, $location, propertylist, streamPath, streamName)
+<a name="comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre"></a>
+# **comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre**
+> ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre(post, apply, delete, action, $location, propertylist, streamPath, streamName)
 
 
 
@@ -5503,10 +5503,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String streamPath = "streamPath_example"; // String | 
 String streamName = "streamName_example"; // String | 
 try {
-    ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo result = apiInstance.comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory(post, apply, delete, action, $location, propertylist, streamPath, streamName);
+    ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo result = apiInstance.comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre(post, apply, delete, action, $location, propertylist, streamPath, streamName);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre");
     e.printStackTrace();
 }
 ```
@@ -5526,7 +5526,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo**](ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo**](ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo.md)
 
 ### Authorization
 
@@ -5537,9 +5537,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl"></a>
-# **comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl**
-> ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl(post, apply, delete, action, $location, propertylist, maxRetry, fieldWhitelist, attachmentTypeBlacklist)
+<a name="comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI"></a>
+# **comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI**
+> ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI(post, apply, delete, action, $location, propertylist, maxRetry, fieldWhitelist, attachmentTypeBlacklist)
 
 
 
@@ -5561,10 +5561,10 @@ Integer maxRetry = 56; // Integer |
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 List<String> attachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo result = apiInstance.comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl(post, apply, delete, action, $location, propertylist, maxRetry, fieldWhitelist, attachmentTypeBlacklist);
+    ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo result = apiInstance.comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI(post, apply, delete, action, $location, propertylist, maxRetry, fieldWhitelist, attachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI");
     e.printStackTrace();
 }
 ```
@@ -5585,7 +5585,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo**](ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo.md)
+[**ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo**](ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo.md)
 
 ### Authorization
 
@@ -5596,9 +5596,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCalendarClientOperationextensionsEventAttachment"></a>
-# **comAdobeCqSocialCalendarClientOperationextensionsEventAttachment**
-> ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo comAdobeCqSocialCalendarClientOperationextensionsEventAttachment(post, apply, delete, action, $location, propertylist, attachmentTypeBlacklist, extensionOrder)
+<a name="comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen"></a>
+# **comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen**
+> ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen(post, apply, delete, action, $location, propertylist, attachmentTypeBlacklist, extensionOrder)
 
 
 
@@ -5619,10 +5619,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String attachmentTypeBlacklist = "attachmentTypeBlacklist_example"; // String | 
 Integer extensionOrder = 56; // Integer | 
 try {
-    ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo result = apiInstance.comAdobeCqSocialCalendarClientOperationextensionsEventAttachment(post, apply, delete, action, $location, propertylist, attachmentTypeBlacklist, extensionOrder);
+    ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo result = apiInstance.comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen(post, apply, delete, action, $location, propertylist, attachmentTypeBlacklist, extensionOrder);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCalendarClientOperationextensionsEventAttachment");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen");
     e.printStackTrace();
 }
 ```
@@ -5642,7 +5642,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo**](ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo.md)
+[**ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo**](ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo.md)
 
 ### Authorization
 
@@ -5708,9 +5708,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor"></a>
-# **comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor**
-> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor(post, apply, delete, action, $location, propertylist, ranking)
+<a name="comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent"></a>
+# **comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent**
+> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent(post, apply, delete, action, $location, propertylist, ranking)
 
 
 
@@ -5730,10 +5730,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer ranking = 56; // Integer | 
 try {
-    ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo result = apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor(post, apply, delete, action, $location, propertylist, ranking);
+    ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo result = apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent(post, apply, delete, action, $location, propertylist, ranking);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent");
     e.printStackTrace();
 }
 ```
@@ -5752,7 +5752,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo.md)
 
 ### Authorization
 
@@ -5763,9 +5763,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService"></a>
-# **comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService**
-> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
+<a name="comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe"></a>
+# **comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe**
+> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
 
 
 
@@ -5786,10 +5786,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 List<String> attachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo result = apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
+    ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo result = apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe");
     e.printStackTrace();
 }
 ```
@@ -5809,7 +5809,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo.md)
 
 ### Authorization
 
@@ -5820,9 +5820,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService"></a>
-# **comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService**
-> ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
+<a name="comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati"></a>
+# **comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati**
+> ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
 
 
 
@@ -5843,10 +5843,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 List<String> attachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo result = apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
+    ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo result = apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati");
     e.printStackTrace();
 }
 ```
@@ -5866,7 +5866,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo.md)
 
 ### Authorization
 
@@ -5877,9 +5877,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider"></a>
-# **comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider**
-> ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider(post, apply, delete, action, $location, propertylist, numUserLimit)
+<a name="comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC"></a>
+# **comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC**
+> ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC(post, apply, delete, action, $location, propertylist, numUserLimit)
 
 
 
@@ -5899,10 +5899,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer numUserLimit = 56; // Integer | 
 try {
-    ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo result = apiInstance.comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider(post, apply, delete, action, $location, propertylist, numUserLimit);
+    ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo result = apiInstance.comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC(post, apply, delete, action, $location, propertylist, numUserLimit);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC");
     e.printStackTrace();
 }
 ```
@@ -5921,7 +5921,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo**](ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo.md)
+[**ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo**](ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo.md)
 
 ### Authorization
 
@@ -5932,9 +5932,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts"></a>
-# **comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts**
-> ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts(post, apply, delete, action, $location, propertylist, enableScheduledPostsSearch, numberOfMinutes, maxSearchLimit)
+<a name="comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos"></a>
+# **comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos**
+> ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos(post, apply, delete, action, $location, propertylist, enableScheduledPostsSearch, numberOfMinutes, maxSearchLimit)
 
 
 
@@ -5956,10 +5956,10 @@ Boolean enableScheduledPostsSearch = true; // Boolean |
 Integer numberOfMinutes = 56; // Integer | 
 Integer maxSearchLimit = 56; // Integer | 
 try {
-    ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo result = apiInstance.comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts(post, apply, delete, action, $location, propertylist, enableScheduledPostsSearch, numberOfMinutes, maxSearchLimit);
+    ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo result = apiInstance.comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos(post, apply, delete, action, $location, propertylist, enableScheduledPostsSearch, numberOfMinutes, maxSearchLimit);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos");
     e.printStackTrace();
 }
 ```
@@ -5980,7 +5980,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo**](ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo.md)
+[**ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo**](ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo.md)
 
 ### Authorization
 
@@ -6270,9 +6270,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl"></a>
-# **comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl**
-> ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl(post, apply, delete, action, $location, propertylist, patternTime, patternNewline, patternDayOfMonth, patternMonth, patternYear, patternDate, patternDateTime, patternEmail)
+<a name="comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp"></a>
+# **comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp**
+> ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp(post, apply, delete, action, $location, propertylist, patternTime, patternNewline, patternDayOfMonth, patternMonth, patternYear, patternDate, patternDateTime, patternEmail)
 
 
 
@@ -6299,10 +6299,10 @@ String patternDate = "patternDate_example"; // String |
 String patternDateTime = "patternDateTime_example"; // String | 
 String patternEmail = "patternEmail_example"; // String | 
 try {
-    ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo result = apiInstance.comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl(post, apply, delete, action, $location, propertylist, patternTime, patternNewline, patternDayOfMonth, patternMonth, patternYear, patternDate, patternDateTime, patternEmail);
+    ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo result = apiInstance.comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp(post, apply, delete, action, $location, propertylist, patternTime, patternNewline, patternDayOfMonth, patternMonth, patternYear, patternDate, patternDateTime, patternEmail);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp");
     e.printStackTrace();
 }
 ```
@@ -6328,7 +6328,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo.md)
+[**ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.md)
 
 ### Authorization
 
@@ -6339,9 +6339,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl"></a>
-# **comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl**
-> ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl(post, apply, delete, action, $location, propertylist, emailName, emailCreatePostFromReply, emailAddCommentIdTo, emailSubjectMaximumLength, emailReplyToAddress, emailReplyToDelimiter, emailTrackerIdPrefixInSubject, emailTrackerIdPrefixInBody, emailAsHTML, emailDefaultUserName, emailTemplatesRootPath)
+<a name="comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp"></a>
+# **comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp**
+> ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp(post, apply, delete, action, $location, propertylist, emailName, emailCreatePostFromReply, emailAddCommentIdTo, emailSubjectMaximumLength, emailReplyToAddress, emailReplyToDelimiter, emailTrackerIdPrefixInSubject, emailTrackerIdPrefixInBody, emailAsHTML, emailDefaultUserName, emailTemplatesRootPath)
 
 
 
@@ -6371,10 +6371,10 @@ Boolean emailAsHTML = true; // Boolean |
 String emailDefaultUserName = "emailDefaultUserName_example"; // String | 
 String emailTemplatesRootPath = "emailTemplatesRootPath_example"; // String | 
 try {
-    ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo result = apiInstance.comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl(post, apply, delete, action, $location, propertylist, emailName, emailCreatePostFromReply, emailAddCommentIdTo, emailSubjectMaximumLength, emailReplyToAddress, emailReplyToDelimiter, emailTrackerIdPrefixInSubject, emailTrackerIdPrefixInBody, emailAsHTML, emailDefaultUserName, emailTemplatesRootPath);
+    ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo result = apiInstance.comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp(post, apply, delete, action, $location, propertylist, emailName, emailCreatePostFromReply, emailAddCommentIdTo, emailSubjectMaximumLength, emailReplyToAddress, emailReplyToDelimiter, emailTrackerIdPrefixInSubject, emailTrackerIdPrefixInBody, emailAsHTML, emailDefaultUserName, emailTemplatesRootPath);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp");
     e.printStackTrace();
 }
 ```
@@ -6403,7 +6403,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo.md)
+[**ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.md)
 
 ### Authorization
 
@@ -6811,9 +6811,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads"></a>
-# **comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads**
-> ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads(post, apply, delete, action, $location, propertylist, numberOfDays, ageOfFile)
+<a name="comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload"></a>
+# **comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload**
+> ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload(post, apply, delete, action, $location, propertylist, numberOfDays, ageOfFile)
 
 
 
@@ -6834,10 +6834,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer numberOfDays = 56; // Integer | 
 Integer ageOfFile = 56; // Integer | 
 try {
-    ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo result = apiInstance.comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads(post, apply, delete, action, $location, propertylist, numberOfDays, ageOfFile);
+    ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo result = apiInstance.comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload(post, apply, delete, action, $location, propertylist, numberOfDays, ageOfFile);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload");
     e.printStackTrace();
 }
 ```
@@ -6857,7 +6857,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo**](ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo.md)
+[**ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo**](ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo.md)
 
 ### Authorization
 
@@ -6927,9 +6927,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl"></a>
-# **comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl**
-> ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl(post, apply, delete, action, $location, propertylist, enable, ugCLimit, ugcLimitDuration, domains, toList)
+<a name="comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit"></a>
+# **comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit**
+> ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit(post, apply, delete, action, $location, propertylist, enable, ugCLimit, ugcLimitDuration, domains, toList)
 
 
 
@@ -6953,10 +6953,10 @@ Integer ugcLimitDuration = 56; // Integer |
 List<String> domains = Arrays.asList(); // List<String> | 
 List<String> toList = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo result = apiInstance.comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl(post, apply, delete, action, $location, propertylist, enable, ugCLimit, ugcLimitDuration, domains, toList);
+    ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo result = apiInstance.comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit(post, apply, delete, action, $location, propertylist, enable, ugCLimit, ugcLimitDuration, domains, toList);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit");
     e.printStackTrace();
 }
 ```
@@ -6979,7 +6979,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo**](ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo.md)
+[**ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo**](ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo.md)
 
 ### Authorization
 
@@ -7059,9 +7059,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler"></a>
-# **comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler**
-> ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler(post, apply, delete, action, $location, propertylist, path, serviceRanking)
+<a name="comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle"></a>
+# **comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle**
+> ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle(post, apply, delete, action, $location, propertylist, path, serviceRanking)
 
 
 
@@ -7082,10 +7082,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> path = Arrays.asList(); // List<String> | 
 Integer serviceRanking = 56; // Integer | 
 try {
-    ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo result = apiInstance.comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler(post, apply, delete, action, $location, propertylist, path, serviceRanking);
+    ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo result = apiInstance.comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle(post, apply, delete, action, $location, propertylist, path, serviceRanking);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle");
     e.printStackTrace();
 }
 ```
@@ -7105,7 +7105,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo**](ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo.md)
+[**ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo**](ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo.md)
 
 ### Authorization
 
@@ -7242,9 +7242,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl"></a>
-# **comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl**
-> ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl(post, apply, delete, action, $location, propertylist, cqSocialContentFragmentsServicesEnabled, cqSocialContentFragmentsServicesWaitTimeSeconds)
+<a name="comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen"></a>
+# **comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen**
+> ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen(post, apply, delete, action, $location, propertylist, cqSocialContentFragmentsServicesEnabled, cqSocialContentFragmentsServicesWaitTimeSeconds)
 
 
 
@@ -7265,10 +7265,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Boolean cqSocialContentFragmentsServicesEnabled = true; // Boolean | 
 Integer cqSocialContentFragmentsServicesWaitTimeSeconds = 56; // Integer | 
 try {
-    ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo result = apiInstance.comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl(post, apply, delete, action, $location, propertylist, cqSocialContentFragmentsServicesEnabled, cqSocialContentFragmentsServicesWaitTimeSeconds);
+    ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo result = apiInstance.comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen(post, apply, delete, action, $location, propertylist, cqSocialContentFragmentsServicesEnabled, cqSocialContentFragmentsServicesWaitTimeSeconds);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen");
     e.printStackTrace();
 }
 ```
@@ -7288,7 +7288,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo**](ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo.md)
+[**ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo**](ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo.md)
 
 ### Authorization
 
@@ -7433,9 +7433,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory"></a>
-# **comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory**
-> ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory(post, apply, delete, action, $location, propertylist, solrZkTimeout, solrCommit, cacheOn, concurrencyLevel, cacheStartSize, cacheTtl, cacheSize)
+<a name="comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor"></a>
+# **comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor**
+> ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor(post, apply, delete, action, $location, propertylist, solrZkTimeout, solrCommit, cacheOn, concurrencyLevel, cacheStartSize, cacheTtl, cacheSize)
 
 
 
@@ -7461,10 +7461,10 @@ Integer cacheStartSize = 56; // Integer |
 Integer cacheTtl = 56; // Integer | 
 Integer cacheSize = 56; // Integer | 
 try {
-    ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo result = apiInstance.comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory(post, apply, delete, action, $location, propertylist, solrZkTimeout, solrCommit, cacheOn, concurrencyLevel, cacheStartSize, cacheTtl, cacheSize);
+    ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo result = apiInstance.comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor(post, apply, delete, action, $location, propertylist, solrZkTimeout, solrCommit, cacheOn, concurrencyLevel, cacheStartSize, cacheTtl, cacheSize);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor");
     e.printStackTrace();
 }
 ```
@@ -7489,7 +7489,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo**](ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo.md)
+[**ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo**](ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo.md)
 
 ### Authorization
 
@@ -7500,9 +7500,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory"></a>
-# **comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory**
-> ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory(post, apply, delete, action, $location, propertylist, isMemberCheck)
+<a name="comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF"></a>
+# **comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF**
+> ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF(post, apply, delete, action, $location, propertylist, isMemberCheck)
 
 
 
@@ -7522,10 +7522,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean isMemberCheck = true; // Boolean | 
 try {
-    ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo result = apiInstance.comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory(post, apply, delete, action, $location, propertylist, isMemberCheck);
+    ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo result = apiInstance.comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF(post, apply, delete, action, $location, propertylist, isMemberCheck);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF");
     e.printStackTrace();
 }
 ```
@@ -7544,7 +7544,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo.md)
+[**ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo.md)
 
 ### Authorization
 
@@ -7555,9 +7555,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory"></a>
-# **comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory**
-> ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory(post, apply, delete, action, $location, propertylist, isMemberCheck)
+<a name="comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto"></a>
+# **comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto**
+> ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto(post, apply, delete, action, $location, propertylist, isMemberCheck)
 
 
 
@@ -7577,10 +7577,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean isMemberCheck = true; // Boolean | 
 try {
-    ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo result = apiInstance.comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory(post, apply, delete, action, $location, propertylist, isMemberCheck);
+    ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo result = apiInstance.comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto(post, apply, delete, action, $location, propertylist, isMemberCheck);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto");
     e.printStackTrace();
 }
 ```
@@ -7599,7 +7599,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo.md)
+[**ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo.md)
 
 ### Authorization
 
@@ -7610,9 +7610,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService"></a>
-# **comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService**
-> ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist)
+<a name="comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL"></a>
+# **comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL**
+> ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL(post, apply, delete, action, $location, propertylist, fieldWhitelist)
 
 
 
@@ -7632,10 +7632,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo result = apiInstance.comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist);
+    ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo result = apiInstance.comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL(post, apply, delete, action, $location, propertylist, fieldWhitelist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL");
     e.printStackTrace();
 }
 ```
@@ -7654,7 +7654,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo**](ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo.md)
+[**ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo**](ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo.md)
 
 ### Authorization
 
@@ -7665,9 +7665,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService"></a>
-# **comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService**
-> ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist)
+<a name="comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou"></a>
+# **comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou**
+> ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou(post, apply, delete, action, $location, propertylist, fieldWhitelist)
 
 
 
@@ -7687,10 +7687,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo result = apiInstance.comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist);
+    ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo result = apiInstance.comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou(post, apply, delete, action, $location, propertylist, fieldWhitelist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou");
     e.printStackTrace();
 }
 ```
@@ -7709,7 +7709,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo**](ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo.md)
+[**ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo**](ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.md)
 
 ### Authorization
 
@@ -7775,9 +7775,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet"></a>
-# **comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet**
-> ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet(post, apply, delete, action, $location, propertylist, slingServletSelectors, slingServletExtensions)
+<a name="comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe"></a>
+# **comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe**
+> ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe(post, apply, delete, action, $location, propertylist, slingServletSelectors, slingServletExtensions)
 
 
 
@@ -7798,10 +7798,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String slingServletSelectors = "slingServletSelectors_example"; // String | 
 String slingServletExtensions = "slingServletExtensions_example"; // String | 
 try {
-    ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo result = apiInstance.comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet(post, apply, delete, action, $location, propertylist, slingServletSelectors, slingServletExtensions);
+    ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo result = apiInstance.comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe(post, apply, delete, action, $location, propertylist, slingServletSelectors, slingServletExtensions);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe");
     e.printStackTrace();
 }
 ```
@@ -7821,7 +7821,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo**](ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo.md)
+[**ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo**](ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo.md)
 
 ### Authorization
 
@@ -7832,9 +7832,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService"></a>
-# **comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService**
-> ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
+<a name="comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera"></a>
+# **comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera**
+> ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
 
 
 
@@ -7855,10 +7855,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 List<String> attachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo result = apiInstance.comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
+    ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo result = apiInstance.comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera");
     e.printStackTrace();
 }
 ```
@@ -7878,7 +7878,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo**](ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo.md)
+[**ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo**](ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo.md)
 
 ### Authorization
 
@@ -8003,9 +8003,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory"></a>
-# **comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory**
-> ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory(post, apply, delete, action, $location, propertylist, groupListingPaginationEnable, groupListingLazyloadingEnable, pageSize, priority)
+<a name="comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen"></a>
+# **comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen**
+> ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen(post, apply, delete, action, $location, propertylist, groupListingPaginationEnable, groupListingLazyloadingEnable, pageSize, priority)
 
 
 
@@ -8028,10 +8028,10 @@ Boolean groupListingLazyloadingEnable = true; // Boolean |
 Integer pageSize = 56; // Integer | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo result = apiInstance.comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory(post, apply, delete, action, $location, propertylist, groupListingPaginationEnable, groupListingLazyloadingEnable, pageSize, priority);
+    ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo result = apiInstance.comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen(post, apply, delete, action, $location, propertylist, groupListingPaginationEnable, groupListingLazyloadingEnable, pageSize, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen");
     e.printStackTrace();
 }
 ```
@@ -8053,7 +8053,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo**](ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo.md)
+[**ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo**](ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.md)
 
 ### Authorization
 
@@ -8182,9 +8182,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService"></a>
-# **comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService**
-> ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
+<a name="comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS"></a>
+# **comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS**
+> ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
 
 
 
@@ -8205,10 +8205,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 List<String> attachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo result = apiInstance.comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
+    ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo result = apiInstance.comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS");
     e.printStackTrace();
 }
 ```
@@ -8228,7 +8228,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo**](ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo.md)
+[**ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo**](ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo.md)
 
 ### Authorization
 
@@ -8239,9 +8239,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService"></a>
-# **comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService**
-> ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
+<a name="comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer"></a>
+# **comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer**
+> ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
 
 
 
@@ -8262,10 +8262,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 List<String> attachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo result = apiInstance.comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
+    ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo result = apiInstance.comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer");
     e.printStackTrace();
 }
 ```
@@ -8285,7 +8285,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo**](ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo.md)
+[**ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo**](ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo.md)
 
 ### Authorization
 
@@ -8296,9 +8296,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService"></a>
-# **comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService**
-> ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist)
+<a name="comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile"></a>
+# **comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile**
+> ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile(post, apply, delete, action, $location, propertylist, fieldWhitelist)
 
 
 
@@ -8318,10 +8318,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo result = apiInstance.comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist);
+    ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo result = apiInstance.comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile(post, apply, delete, action, $location, propertylist, fieldWhitelist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile");
     e.printStackTrace();
 }
 ```
@@ -8340,7 +8340,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo.md)
+[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo.md)
 
 ### Authorization
 
@@ -8351,9 +8351,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService"></a>
-# **comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService**
-> ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist)
+<a name="comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO"></a>
+# **comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO**
+> ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO(post, apply, delete, action, $location, propertylist, fieldWhitelist)
 
 
 
@@ -8373,10 +8373,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo result = apiInstance.comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService(post, apply, delete, action, $location, propertylist, fieldWhitelist);
+    ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo result = apiInstance.comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO(post, apply, delete, action, $location, propertylist, fieldWhitelist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO");
     e.printStackTrace();
 }
 ```
@@ -8395,7 +8395,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo.md)
+[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo.md)
 
 ### Authorization
 
@@ -8406,9 +8406,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory"></a>
-# **comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory**
-> ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory(post, apply, delete, action, $location, propertylist, everyoneLimit, priority)
+<a name="comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF"></a>
+# **comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF**
+> ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF(post, apply, delete, action, $location, propertylist, everyoneLimit, priority)
 
 
 
@@ -8429,10 +8429,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer everyoneLimit = 56; // Integer | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo result = apiInstance.comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory(post, apply, delete, action, $location, propertylist, everyoneLimit, priority);
+    ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo result = apiInstance.comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF(post, apply, delete, action, $location, propertylist, everyoneLimit, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF");
     e.printStackTrace();
 }
 ```
@@ -8452,7 +8452,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo**](ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo.md)
+[**ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo**](ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo.md)
 
 ### Authorization
 
@@ -8463,9 +8463,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl"></a>
-# **comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl**
-> ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl(post, apply, delete, action, $location, propertylist, messageProperties, messageBoxSizeLimit, messageCountLimit, notifyFailure, failureMessageFrom, failureTemplatePath, maxRetries, minWaitBetweenRetries, countUpdatePoolSize, inboxPath, sentitemsPath, supportAttachments, supportGroupMessaging, maxTotalRecipients, batchSize, maxTotalAttachmentSize, attachmentTypeBlacklist, allowedAttachmentTypes, serviceSelector, fieldWhitelist)
+<a name="comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation"></a>
+# **comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation**
+> ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation(post, apply, delete, action, $location, propertylist, messageProperties, messageBoxSizeLimit, messageCountLimit, notifyFailure, failureMessageFrom, failureTemplatePath, maxRetries, minWaitBetweenRetries, countUpdatePoolSize, inboxPath, sentitemsPath, supportAttachments, supportGroupMessaging, maxTotalRecipients, batchSize, maxTotalAttachmentSize, attachmentTypeBlacklist, allowedAttachmentTypes, serviceSelector, fieldWhitelist)
 
 
 
@@ -8504,10 +8504,10 @@ List<String> allowedAttachmentTypes = Arrays.asList(); // List<String> |
 String serviceSelector = "serviceSelector_example"; // String | 
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo result = apiInstance.comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl(post, apply, delete, action, $location, propertylist, messageProperties, messageBoxSizeLimit, messageCountLimit, notifyFailure, failureMessageFrom, failureTemplatePath, maxRetries, minWaitBetweenRetries, countUpdatePoolSize, inboxPath, sentitemsPath, supportAttachments, supportGroupMessaging, maxTotalRecipients, batchSize, maxTotalAttachmentSize, attachmentTypeBlacklist, allowedAttachmentTypes, serviceSelector, fieldWhitelist);
+    ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo result = apiInstance.comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation(post, apply, delete, action, $location, propertylist, messageProperties, messageBoxSizeLimit, messageCountLimit, notifyFailure, failureMessageFrom, failureTemplatePath, maxRetries, minWaitBetweenRetries, countUpdatePoolSize, inboxPath, sentitemsPath, supportAttachments, supportGroupMessaging, maxTotalRecipients, batchSize, maxTotalAttachmentSize, attachmentTypeBlacklist, allowedAttachmentTypes, serviceSelector, fieldWhitelist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation");
     e.printStackTrace();
 }
 ```
@@ -8545,7 +8545,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo**](ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo.md)
+[**ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo**](ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo.md)
 
 ### Authorization
 
@@ -8556,9 +8556,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory"></a>
-# **comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory**
-> ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory(post, apply, delete, action, $location, propertylist, resourceTypeFilters, priority)
+<a name="comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen"></a>
+# **comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen**
+> ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen(post, apply, delete, action, $location, propertylist, resourceTypeFilters, priority)
 
 
 
@@ -8579,10 +8579,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> resourceTypeFilters = Arrays.asList(); // List<String> | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo result = apiInstance.comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory(post, apply, delete, action, $location, propertylist, resourceTypeFilters, priority);
+    ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo result = apiInstance.comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen(post, apply, delete, action, $location, propertylist, resourceTypeFilters, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen");
     e.printStackTrace();
 }
 ```
@@ -8602,7 +8602,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo**](ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo.md)
 
 ### Authorization
 
@@ -8613,9 +8613,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory"></a>
-# **comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory**
-> ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory(post, apply, delete, action, $location, propertylist, priority)
+<a name="comAdobeCqSocialModerationDashboardApiModerationDashboardSocial"></a>
+# **comAdobeCqSocialModerationDashboardApiModerationDashboardSocial**
+> ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo comAdobeCqSocialModerationDashboardApiModerationDashboardSocial(post, apply, delete, action, $location, propertylist, priority)
 
 
 
@@ -8635,10 +8635,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo result = apiInstance.comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory(post, apply, delete, action, $location, propertylist, priority);
+    ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo result = apiInstance.comAdobeCqSocialModerationDashboardApiModerationDashboardSocial(post, apply, delete, action, $location, propertylist, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialModerationDashboardApiModerationDashboardSocial");
     e.printStackTrace();
 }
 ```
@@ -8657,7 +8657,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo**](ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo.md)
 
 ### Authorization
 
@@ -8668,9 +8668,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory"></a>
-# **comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory**
-> ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory(post, apply, delete, action, $location, propertylist, priority)
+<a name="comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen"></a>
+# **comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen**
+> ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen(post, apply, delete, action, $location, propertylist, priority)
 
 
 
@@ -8690,10 +8690,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo result = apiInstance.comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory(post, apply, delete, action, $location, propertylist, priority);
+    ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo result = apiInstance.comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen(post, apply, delete, action, $location, propertylist, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen");
     e.printStackTrace();
 }
 ```
@@ -8712,7 +8712,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo**](ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo.md)
 
 ### Authorization
 
@@ -8723,9 +8723,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2"></a>
-# **comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2**
-> ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2(post, apply, delete, action, $location, propertylist, resourceTypeFilters, priority)
+<a name="comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci"></a>
+# **comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci**
+> ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci(post, apply, delete, action, $location, propertylist, resourceTypeFilters, priority)
 
 
 
@@ -8746,10 +8746,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> resourceTypeFilters = Arrays.asList(); // List<String> | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info result = apiInstance.comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2(post, apply, delete, action, $location, propertylist, resourceTypeFilters, priority);
+    ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo result = apiInstance.comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci(post, apply, delete, action, $location, propertylist, resourceTypeFilters, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci");
     e.printStackTrace();
 }
 ```
@@ -8769,7 +8769,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info**](ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info.md)
+[**ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo**](ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo.md)
 
 ### Authorization
 
@@ -8949,9 +8949,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService"></a>
-# **comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService**
-> ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
+<a name="comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic"></a>
+# **comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic**
+> ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
 
 
 
@@ -8972,10 +8972,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 List<String> attachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo result = apiInstance.comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
+    ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo result = apiInstance.comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic");
     e.printStackTrace();
 }
 ```
@@ -8995,7 +8995,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo**](ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo.md)
+[**ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo**](ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo.md)
 
 ### Authorization
 
@@ -9006,9 +9006,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl"></a>
-# **comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl**
-> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl(post, apply, delete, action, $location, propertylist, cqSocialReportingAnalyticsPollingImporterInterval, cqSocialReportingAnalyticsPollingImporterPageSize)
+<a name="comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI"></a>
+# **comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI**
+> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI(post, apply, delete, action, $location, propertylist, cqSocialReportingAnalyticsPollingImporterInterval, cqSocialReportingAnalyticsPollingImporterPageSize)
 
 
 
@@ -9029,10 +9029,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer cqSocialReportingAnalyticsPollingImporterInterval = 56; // Integer | 
 Integer cqSocialReportingAnalyticsPollingImporterPageSize = 56; // Integer | 
 try {
-    ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo result = apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl(post, apply, delete, action, $location, propertylist, cqSocialReportingAnalyticsPollingImporterInterval, cqSocialReportingAnalyticsPollingImporterPageSize);
+    ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo result = apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI(post, apply, delete, action, $location, propertylist, cqSocialReportingAnalyticsPollingImporterInterval, cqSocialReportingAnalyticsPollingImporterPageSize);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI");
     e.printStackTrace();
 }
 ```
@@ -9052,7 +9052,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo.md)
 
 ### Authorization
 
@@ -9063,9 +9063,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl"></a>
-# **comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl**
-> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl(post, apply, delete, action, $location, propertylist, reportFetchDelay)
+<a name="comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM"></a>
+# **comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM**
+> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM(post, apply, delete, action, $location, propertylist, reportFetchDelay)
 
 
 
@@ -9085,10 +9085,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer reportFetchDelay = 56; // Integer | 
 try {
-    ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo result = apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl(post, apply, delete, action, $location, propertylist, reportFetchDelay);
+    ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo result = apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM(post, apply, delete, action, $location, propertylist, reportFetchDelay);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM");
     e.printStackTrace();
 }
 ```
@@ -9107,7 +9107,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo.md)
 
 ### Authorization
 
@@ -9118,9 +9118,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory"></a>
-# **comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory**
-> ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory(post, apply, delete, action, $location, propertylist, cqSocialConsoleAnalyticsSitesMapping, priority)
+<a name="comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS"></a>
+# **comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS**
+> ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS(post, apply, delete, action, $location, propertylist, cqSocialConsoleAnalyticsSitesMapping, priority)
 
 
 
@@ -9141,10 +9141,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> cqSocialConsoleAnalyticsSitesMapping = Arrays.asList(); // List<String> | 
 Integer priority = 56; // Integer | 
 try {
-    ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo result = apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory(post, apply, delete, action, $location, propertylist, cqSocialConsoleAnalyticsSitesMapping, priority);
+    ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo result = apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS(post, apply, delete, action, $location, propertylist, cqSocialConsoleAnalyticsSitesMapping, priority);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS");
     e.printStackTrace();
 }
 ```
@@ -9164,7 +9164,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo.md)
 
 ### Authorization
 
@@ -9175,9 +9175,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService"></a>
-# **comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService**
-> ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
+<a name="comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi"></a>
+# **comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi**
+> ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist)
 
 
 
@@ -9198,10 +9198,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> fieldWhitelist = Arrays.asList(); // List<String> | 
 List<String> attachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo result = apiInstance.comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
+    ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo result = apiInstance.comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi(post, apply, delete, action, $location, propertylist, fieldWhitelist, attachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi");
     e.printStackTrace();
 }
 ```
@@ -9221,7 +9221,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo**](ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo.md)
+[**ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo**](ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo.md)
 
 ### Authorization
 
@@ -9517,9 +9517,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl"></a>
-# **comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl**
-> ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl(post, apply, delete, action, $location, propertylist, cqSocialConsoleAnalyticsComponents)
+<a name="comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm"></a>
+# **comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm**
+> ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm(post, apply, delete, action, $location, propertylist, cqSocialConsoleAnalyticsComponents)
 
 
 
@@ -9539,10 +9539,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> cqSocialConsoleAnalyticsComponents = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo result = apiInstance.comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl(post, apply, delete, action, $location, propertylist, cqSocialConsoleAnalyticsComponents);
+    ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo result = apiInstance.comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm(post, apply, delete, action, $location, propertylist, cqSocialConsoleAnalyticsComponents);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm");
     e.printStackTrace();
 }
 ```
@@ -9561,7 +9561,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo**](ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo.md)
+[**ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo**](ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo.md)
 
 ### Authorization
 
@@ -10410,9 +10410,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService"></a>
-# **comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService**
-> ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService(post, apply, delete, action, $location, propertylist, defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist)
+<a name="comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli"></a>
+# **comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli**
+> ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli(post, apply, delete, action, $location, propertylist, defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist)
 
 
 
@@ -10433,10 +10433,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> defaultAttachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 List<String> baselineAttachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo result = apiInstance.comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService(post, apply, delete, action, $location, propertylist, defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist);
+    ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo result = apiInstance.comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli(post, apply, delete, action, $location, propertylist, defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli");
     e.printStackTrace();
 }
 ```
@@ -10456,7 +10456,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo**](ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
+[**ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo**](ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo.md)
 
 ### Authorization
 
@@ -10658,9 +10658,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended"></a>
-# **comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended**
-> ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended(post, apply, delete, action, $location, propertylist, resourceTypes)
+<a name="comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact"></a>
+# **comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact**
+> ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact(post, apply, delete, action, $location, propertylist, resourceTypes)
 
 
 
@@ -10680,10 +10680,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> resourceTypes = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo result = apiInstance.comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended(post, apply, delete, action, $location, propertylist, resourceTypes);
+    ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo result = apiInstance.comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact(post, apply, delete, action, $location, propertylist, resourceTypes);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact");
     e.printStackTrace();
 }
 ```
@@ -10702,7 +10702,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo**](ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo.md)
+[**ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo**](ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo.md)
 
 ### Authorization
 
@@ -11470,9 +11470,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl"></a>
-# **comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl**
-> ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl(post, apply, delete, action, $location, propertylist, tempStorageConfig)
+<a name="comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp"></a>
+# **comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp**
+> ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp(post, apply, delete, action, $location, propertylist, tempStorageConfig)
 
 
 
@@ -11492,10 +11492,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 String tempStorageConfig = "tempStorageConfig_example"; // String | 
 try {
-    ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo result = apiInstance.comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl(post, apply, delete, action, $location, propertylist, tempStorageConfig);
+    ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo result = apiInstance.comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp(post, apply, delete, action, $location, propertylist, tempStorageConfig);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp");
     e.printStackTrace();
 }
 ```
@@ -11514,7 +11514,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo**](ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo.md)
+[**ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo**](ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo.md)
 
 ### Authorization
 
@@ -14074,9 +14074,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory"></a>
-# **comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory**
-> ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory(post, apply, delete, action, $location, propertylist, replicateCommentResourceTypes)
+<a name="comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac"></a>
+# **comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac**
+> ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac(post, apply, delete, action, $location, propertylist, replicateCommentResourceTypes)
 
 
 
@@ -14096,10 +14096,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> replicateCommentResourceTypes = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo result = apiInstance.comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory(post, apply, delete, action, $location, propertylist, replicateCommentResourceTypes);
+    ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo result = apiInstance.comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac(post, apply, delete, action, $location, propertylist, replicateCommentResourceTypes);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac");
     e.printStackTrace();
 }
 ```
@@ -14118,7 +14118,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo**](ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo.md)
+[**ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo**](ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo.md)
 
 ### Authorization
 
@@ -14302,9 +14302,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy"></a>
-# **comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy**
-> ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy(post, apply, delete, action, $location, propertylist, enabled, fallbackPaths)
+<a name="comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving"></a>
+# **comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving**
+> ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving(post, apply, delete, action, $location, propertylist, enabled, fallbackPaths)
 
 
 
@@ -14325,10 +14325,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Boolean enabled = true; // Boolean | 
 List<String> fallbackPaths = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo result = apiInstance.comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy(post, apply, delete, action, $location, propertylist, enabled, fallbackPaths);
+    ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo result = apiInstance.comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving(post, apply, delete, action, $location, propertylist, enabled, fallbackPaths);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving");
     e.printStackTrace();
 }
 ```
@@ -14348,7 +14348,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo**](ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo.md)
+[**ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo**](ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo.md)
 
 ### Authorization
 
@@ -14603,9 +14603,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider"></a>
-# **comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider**
-> ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider(post, apply, delete, action, $location, propertylist, name, username, encryptedPassword)
+<a name="comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe"></a>
+# **comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe**
+> ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe(post, apply, delete, action, $location, propertylist, name, username, encryptedPassword)
 
 
 
@@ -14627,10 +14627,10 @@ String name = "name_example"; // String |
 String username = "username_example"; // String | 
 String encryptedPassword = "encryptedPassword_example"; // String | 
 try {
-    ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo result = apiInstance.comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider(post, apply, delete, action, $location, propertylist, name, username, encryptedPassword);
+    ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo result = apiInstance.comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe(post, apply, delete, action, $location, propertylist, name, username, encryptedPassword);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe");
     e.printStackTrace();
 }
 ```
@@ -14651,7 +14651,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo**](ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo**](ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo.md)
 
 ### Authorization
 
@@ -14790,9 +14790,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer"></a>
-# **comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer**
-> ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer(post, apply, delete, action, $location, propertylist, importerName)
+<a name="comAdobeGraniteDistributionCoreImplDistributionToReplicationEven"></a>
+# **comAdobeGraniteDistributionCoreImplDistributionToReplicationEven**
+> ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo comAdobeGraniteDistributionCoreImplDistributionToReplicationEven(post, apply, delete, action, $location, propertylist, importerName)
 
 
 
@@ -14812,10 +14812,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> importerName = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo result = apiInstance.comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer(post, apply, delete, action, $location, propertylist, importerName);
+    ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo result = apiInstance.comAdobeGraniteDistributionCoreImplDistributionToReplicationEven(post, apply, delete, action, $location, propertylist, importerName);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplDistributionToReplicationEven");
     e.printStackTrace();
 }
 ```
@@ -14834,7 +14834,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo**](ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo.md)
+[**ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo**](ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo.md)
 
 ### Authorization
 
@@ -14845,9 +14845,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider"></a>
-# **comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider**
-> ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider(post, apply, delete, action, $location, propertylist, providerName, forwardRequests)
+<a name="comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat"></a>
+# **comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat**
+> ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat(post, apply, delete, action, $location, propertylist, providerName, forwardRequests)
 
 
 
@@ -14868,10 +14868,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String providerName = "providerName_example"; // String | 
 Boolean forwardRequests = true; // Boolean | 
 try {
-    ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo result = apiInstance.comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider(post, apply, delete, action, $location, propertylist, providerName, forwardRequests);
+    ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo result = apiInstance.comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat(post, apply, delete, action, $location, propertylist, providerName, forwardRequests);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat");
     e.printStackTrace();
 }
 ```
@@ -14891,7 +14891,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo**](ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo**](ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo.md)
 
 ### Authorization
 
@@ -14902,9 +14902,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler"></a>
-# **comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler**
-> ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler(post, apply, delete, action, $location, propertylist, forwardRequests)
+<a name="comAdobeGraniteDistributionCoreImplReplicationDistributionTrans"></a>
+# **comAdobeGraniteDistributionCoreImplReplicationDistributionTrans**
+> ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo comAdobeGraniteDistributionCoreImplReplicationDistributionTrans(post, apply, delete, action, $location, propertylist, forwardRequests)
 
 
 
@@ -14924,10 +14924,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean forwardRequests = true; // Boolean | 
 try {
-    ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo result = apiInstance.comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler(post, apply, delete, action, $location, propertylist, forwardRequests);
+    ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo result = apiInstance.comAdobeGraniteDistributionCoreImplReplicationDistributionTrans(post, apply, delete, action, $location, propertylist, forwardRequests);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplReplicationDistributionTrans");
     e.printStackTrace();
 }
 ```
@@ -14946,7 +14946,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo**](ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo.md)
+[**ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo**](ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo.md)
 
 ### Authorization
 
@@ -14957,9 +14957,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider"></a>
-# **comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider**
-> ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider(post, apply, delete, action, $location, propertylist, name, serviceName, userId, accessTokenProviderTarget)
+<a name="comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu"></a>
+# **comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu**
+> ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu(post, apply, delete, action, $location, propertylist, name, serviceName, userId, accessTokenProviderTarget)
 
 
 
@@ -14982,10 +14982,10 @@ String serviceName = "serviceName_example"; // String |
 String userId = "userId_example"; // String | 
 String accessTokenProviderTarget = "accessTokenProviderTarget_example"; // String | 
 try {
-    ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo result = apiInstance.comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider(post, apply, delete, action, $location, propertylist, name, serviceName, userId, accessTokenProviderTarget);
+    ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo result = apiInstance.comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu(post, apply, delete, action, $location, propertylist, name, serviceName, userId, accessTokenProviderTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu");
     e.printStackTrace();
 }
 ```
@@ -15007,7 +15007,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo**](ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo**](ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo.md)
 
 ### Authorization
 
@@ -15891,9 +15891,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler"></a>
-# **comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler**
-> ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler(post, apply, delete, action, $location, propertylist, path, jaasControlFlag, jaasRealmName, jaasRanking, oauthOfflineValidation)
+<a name="comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan"></a>
+# **comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan**
+> ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan(post, apply, delete, action, $location, propertylist, path, jaasControlFlag, jaasRealmName, jaasRanking, oauthOfflineValidation)
 
 
 
@@ -15917,10 +15917,10 @@ String jaasRealmName = "jaasRealmName_example"; // String |
 Integer jaasRanking = 56; // Integer | 
 Boolean oauthOfflineValidation = true; // Boolean | 
 try {
-    ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo result = apiInstance.comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler(post, apply, delete, action, $location, propertylist, path, jaasControlFlag, jaasRealmName, jaasRanking, oauthOfflineValidation);
+    ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo result = apiInstance.comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan(post, apply, delete, action, $location, propertylist, path, jaasControlFlag, jaasRealmName, jaasRanking, oauthOfflineValidation);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan");
     e.printStackTrace();
 }
 ```
@@ -15943,7 +15943,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo**](ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo.md)
+[**ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo**](ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo.md)
 
 ### Authorization
 
@@ -16459,9 +16459,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter"></a>
-# **comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter**
-> ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter(post, apply, delete, action, $location, propertylist, defaultTransportAgentToWorkerPrefix, defaultTransportAgentToMasterPrefix, defaultTransportInputPackage, defaultTransportOutputPackage, defaultTransportReplicationSynchronous, defaultTransportContentpackage, offloadingTransporterDefaultEnabled)
+<a name="comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo"></a>
+# **comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo**
+> ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo(post, apply, delete, action, $location, propertylist, defaultTransportAgentToWorkerPrefix, defaultTransportAgentToMasterPrefix, defaultTransportInputPackage, defaultTransportOutputPackage, defaultTransportReplicationSynchronous, defaultTransportContentpackage, offloadingTransporterDefaultEnabled)
 
 
 
@@ -16487,10 +16487,10 @@ Boolean defaultTransportReplicationSynchronous = true; // Boolean |
 Boolean defaultTransportContentpackage = true; // Boolean | 
 Boolean offloadingTransporterDefaultEnabled = true; // Boolean | 
 try {
-    ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo result = apiInstance.comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter(post, apply, delete, action, $location, propertylist, defaultTransportAgentToWorkerPrefix, defaultTransportAgentToMasterPrefix, defaultTransportInputPackage, defaultTransportOutputPackage, defaultTransportReplicationSynchronous, defaultTransportContentpackage, offloadingTransporterDefaultEnabled);
+    ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo result = apiInstance.comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo(post, apply, delete, action, $location, propertylist, defaultTransportAgentToWorkerPrefix, defaultTransportAgentToMasterPrefix, defaultTransportInputPackage, defaultTransportOutputPackage, defaultTransportReplicationSynchronous, defaultTransportContentpackage, offloadingTransporterDefaultEnabled);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo");
     e.printStackTrace();
 }
 ```
@@ -16515,7 +16515,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo**](ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo.md)
+[**ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo**](ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo.md)
 
 ### Authorization
 
@@ -16982,9 +16982,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck"></a>
-# **comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck**
-> ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck(post, apply, delete, action, $location, propertylist, hcTags)
+<a name="comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC"></a>
+# **comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC**
+> ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC(post, apply, delete, action, $location, propertylist, hcTags)
 
 
 
@@ -17004,10 +17004,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> hcTags = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo result = apiInstance.comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck(post, apply, delete, action, $location, propertylist, hcTags);
+    ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo result = apiInstance.comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC(post, apply, delete, action, $location, propertylist, hcTags);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC");
     e.printStackTrace();
 }
 ```
@@ -17026,7 +17026,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo**](ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo.md)
+[**ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo**](ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.md)
 
 ### Authorization
 
@@ -17092,9 +17092,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck"></a>
-# **comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck**
-> ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck(post, apply, delete, action, $location, propertylist, hcTags, excludeSearchPath)
+<a name="comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC"></a>
+# **comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC**
+> ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC(post, apply, delete, action, $location, propertylist, hcTags, excludeSearchPath)
 
 
 
@@ -17115,10 +17115,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> hcTags = Arrays.asList(); // List<String> | 
 List<String> excludeSearchPath = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo result = apiInstance.comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck(post, apply, delete, action, $location, propertylist, hcTags, excludeSearchPath);
+    ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo result = apiInstance.comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC(post, apply, delete, action, $location, propertylist, hcTags, excludeSearchPath);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC");
     e.printStackTrace();
 }
 ```
@@ -17138,7 +17138,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo**](ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo.md)
+[**ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo**](ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo.md)
 
 ### Authorization
 
@@ -17204,9 +17204,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck"></a>
-# **comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck**
-> ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck(post, apply, delete, action, $location, propertylist, hcTags)
+<a name="comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe"></a>
+# **comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe**
+> ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe(post, apply, delete, action, $location, propertylist, hcTags)
 
 
 
@@ -17226,10 +17226,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> hcTags = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo result = apiInstance.comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck(post, apply, delete, action, $location, propertylist, hcTags);
+    ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo result = apiInstance.comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe(post, apply, delete, action, $location, propertylist, hcTags);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe");
     e.printStackTrace();
 }
 ```
@@ -17248,7 +17248,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo.md)
+[**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.md)
 
 ### Authorization
 
@@ -17570,9 +17570,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl"></a>
-# **comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl**
-> ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl(post, apply, delete, action, $location, propertylist, hcTags)
+<a name="comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm"></a>
+# **comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm**
+> ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm(post, apply, delete, action, $location, propertylist, hcTags)
 
 
 
@@ -17592,10 +17592,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> hcTags = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo result = apiInstance.comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl(post, apply, delete, action, $location, propertylist, hcTags);
+    ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo result = apiInstance.comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm(post, apply, delete, action, $location, propertylist, hcTags);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm");
     e.printStackTrace();
 }
 ```
@@ -17614,7 +17614,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo**](ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo.md)
+[**ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo**](ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo.md)
 
 ### Authorization
 
@@ -17906,9 +17906,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet"></a>
-# **comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet**
-> ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet(post, apply, delete, action, $location, propertylist, hcTags)
+<a name="comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS"></a>
+# **comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS**
+> ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS(post, apply, delete, action, $location, propertylist, hcTags)
 
 
 
@@ -17928,10 +17928,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> hcTags = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo result = apiInstance.comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet(post, apply, delete, action, $location, propertylist, hcTags);
+    ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo result = apiInstance.comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS(post, apply, delete, action, $location, propertylist, hcTags);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS");
     e.printStackTrace();
 }
 ```
@@ -17950,7 +17950,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo**](ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo.md)
+[**ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo**](ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo.md)
 
 ### Authorization
 
@@ -18315,9 +18315,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory"></a>
-# **comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory**
-> ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory(post, apply, delete, action, $location, propertylist, adapterCondition, taskmanagerAdmingroups)
+<a name="comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor"></a>
+# **comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor**
+> ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor(post, apply, delete, action, $location, propertylist, adapterCondition, taskmanagerAdmingroups)
 
 
 
@@ -18338,10 +18338,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String adapterCondition = "adapterCondition_example"; // String | 
 List<String> taskmanagerAdmingroups = Arrays.asList(); // List<String> | 
 try {
-    ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo result = apiInstance.comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory(post, apply, delete, action, $location, propertylist, adapterCondition, taskmanagerAdmingroups);
+    ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo result = apiInstance.comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor(post, apply, delete, action, $location, propertylist, adapterCondition, taskmanagerAdmingroups);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor");
     e.printStackTrace();
 }
 ```
@@ -18361,7 +18361,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo**](ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo.md)
+[**ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo**](ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo.md)
 
 ### Authorization
 
@@ -18443,9 +18443,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl"></a>
-# **comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl**
-> ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl(post, apply, delete, action, $location, propertylist, translationFactory, defaultConnectorLabel, defaultConnectorAttribution, defaultConnectorWorkspaceId, defaultConnectorSubscriptionKey, languageMapLocation, categoryMapLocation, retryAttempts, timeoutCount)
+<a name="comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl"></a>
+# **comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl**
+> ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl(post, apply, delete, action, $location, propertylist, translationFactory, defaultConnectorLabel, defaultConnectorAttribution, defaultConnectorWorkspaceId, defaultConnectorSubscriptionKey, languageMapLocation, categoryMapLocation, retryAttempts, timeoutCount)
 
 
 
@@ -18473,10 +18473,10 @@ String categoryMapLocation = "categoryMapLocation_example"; // String |
 Integer retryAttempts = 56; // Integer | 
 Integer timeoutCount = 56; // Integer | 
 try {
-    ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo result = apiInstance.comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl(post, apply, delete, action, $location, propertylist, translationFactory, defaultConnectorLabel, defaultConnectorAttribution, defaultConnectorWorkspaceId, defaultConnectorSubscriptionKey, languageMapLocation, categoryMapLocation, retryAttempts, timeoutCount);
+    ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo result = apiInstance.comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl(post, apply, delete, action, $location, propertylist, translationFactory, defaultConnectorLabel, defaultConnectorAttribution, defaultConnectorWorkspaceId, defaultConnectorSubscriptionKey, languageMapLocation, categoryMapLocation, retryAttempts, timeoutCount);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl");
     e.printStackTrace();
 }
 ```
@@ -18503,7 +18503,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo**](ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo.md)
+[**ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo**](ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.md)
 
 ### Authorization
 
@@ -18945,9 +18945,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer"></a>
-# **comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer**
-> ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer(post, apply, delete, action, $location, propertylist, jobTopics)
+<a name="comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum"></a>
+# **comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum**
+> ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum(post, apply, delete, action, $location, propertylist, jobTopics)
 
 
 
@@ -18967,10 +18967,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 String jobTopics = "jobTopics_example"; // String | 
 try {
-    ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo result = apiInstance.comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer(post, apply, delete, action, $location, propertylist, jobTopics);
+    ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo result = apiInstance.comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum(post, apply, delete, action, $location, propertylist, jobTopics);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum");
     e.printStackTrace();
 }
 ```
@@ -18989,7 +18989,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo**](ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo.md)
+[**ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo**](ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo.md)
 
 ### Authorization
 
@@ -19372,9 +19372,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet"></a>
-# **comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet**
-> ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet(post, apply, delete, action, $location, propertylist, communitiesIntegrationLivefyreSlingEventFilter)
+<a name="comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS"></a>
+# **comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS**
+> ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS(post, apply, delete, action, $location, propertylist, communitiesIntegrationLivefyreSlingEventFilter)
 
 
 
@@ -19394,10 +19394,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 String communitiesIntegrationLivefyreSlingEventFilter = "communitiesIntegrationLivefyreSlingEventFilter_example"; // String | 
 try {
-    ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo result = apiInstance.comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet(post, apply, delete, action, $location, propertylist, communitiesIntegrationLivefyreSlingEventFilter);
+    ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo result = apiInstance.comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS(post, apply, delete, action, $location, propertylist, communitiesIntegrationLivefyreSlingEventFilter);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet");
+    System.err.println("Exception when calling ConfigmgrApi#comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS");
     e.printStackTrace();
 }
 ```
@@ -19416,7 +19416,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo**](ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo.md)
+[**ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo**](ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo.md)
 
 ### Authorization
 
@@ -19685,9 +19685,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter"></a>
-# **comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter**
-> ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter(post, apply, delete, action, $location, propertylist, allowedPaths, cqAnalyticsSaintExporterPagesize)
+<a name="comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte"></a>
+# **comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte**
+> ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte(post, apply, delete, action, $location, propertylist, allowedPaths, cqAnalyticsSaintExporterPagesize)
 
 
 
@@ -19708,10 +19708,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> allowedPaths = Arrays.asList(); // List<String> | 
 Integer cqAnalyticsSaintExporterPagesize = 56; // Integer | 
 try {
-    ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo result = apiInstance.comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter(post, apply, delete, action, $location, propertylist, allowedPaths, cqAnalyticsSaintExporterPagesize);
+    ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo result = apiInstance.comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte(post, apply, delete, action, $location, propertylist, allowedPaths, cqAnalyticsSaintExporterPagesize);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte");
     e.printStackTrace();
 }
 ```
@@ -19731,7 +19731,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo**](ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo.md)
+[**ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo**](ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo.md)
 
 ### Authorization
 
@@ -20558,9 +20558,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker"></a>
-# **comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker**
-> ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker(post, apply, delete, action, $location, propertylist, codeupgradetasks, codeupgradetaskfilters)
+<a name="comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke"></a>
+# **comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke**
+> ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke(post, apply, delete, action, $location, propertylist, codeupgradetasks, codeupgradetaskfilters)
 
 
 
@@ -20581,10 +20581,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> codeupgradetasks = Arrays.asList(); // List<String> | 
 List<String> codeupgradetaskfilters = Arrays.asList(); // List<String> | 
 try {
-    ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo result = apiInstance.comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker(post, apply, delete, action, $location, propertylist, codeupgradetasks, codeupgradetaskfilters);
+    ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo result = apiInstance.comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke(post, apply, delete, action, $location, propertylist, codeupgradetasks, codeupgradetaskfilters);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke");
     e.printStackTrace();
 }
 ```
@@ -20604,7 +20604,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo**](ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo.md)
+[**ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo**](ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo.md)
 
 ### Authorization
 
@@ -21575,9 +21575,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag"></a>
-# **comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag**
-> ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag(post, apply, delete, action, $location, propertylist, isEnabled)
+<a name="comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat"></a>
+# **comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat**
+> ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat(post, apply, delete, action, $location, propertylist, isEnabled)
 
 
 
@@ -21597,10 +21597,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean isEnabled = true; // Boolean | 
 try {
-    ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo result = apiInstance.comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag(post, apply, delete, action, $location, propertylist, isEnabled);
+    ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo result = apiInstance.comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat(post, apply, delete, action, $location, propertylist, isEnabled);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat");
     e.printStackTrace();
 }
 ```
@@ -21619,7 +21619,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo**](ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo.md)
+[**ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo**](ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo.md)
 
 ### Authorization
 
@@ -22092,9 +22092,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService"></a>
-# **comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService**
-> ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService(post, apply, delete, action, $location, propertylist, operation, emailEnabled)
+<a name="comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig"></a>
+# **comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig**
+> ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(post, apply, delete, action, $location, propertylist, operation, emailEnabled)
 
 
 
@@ -22115,10 +22115,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String operation = "operation_example"; // String | 
 Boolean emailEnabled = true; // Boolean | 
 try {
-    ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo result = apiInstance.comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService(post, apply, delete, action, $location, propertylist, operation, emailEnabled);
+    ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo result = apiInstance.comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(post, apply, delete, action, $location, propertylist, operation, emailEnabled);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig");
     e.printStackTrace();
 }
 ```
@@ -22138,7 +22138,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo**](ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo.md)
+[**ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo**](ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo.md)
 
 ### Authorization
 
@@ -22149,9 +22149,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService"></a>
-# **comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService**
-> ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService(post, apply, delete, action, $location, propertylist, operation, operationIcon, topicName, emailEnabled)
+<a name="comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig"></a>
+# **comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig**
+> ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(post, apply, delete, action, $location, propertylist, operation, operationIcon, topicName, emailEnabled)
 
 
 
@@ -22174,10 +22174,10 @@ String operationIcon = "operationIcon_example"; // String |
 String topicName = "topicName_example"; // String | 
 Boolean emailEnabled = true; // Boolean | 
 try {
-    ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo result = apiInstance.comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService(post, apply, delete, action, $location, propertylist, operation, operationIcon, topicName, emailEnabled);
+    ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo result = apiInstance.comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(post, apply, delete, action, $location, propertylist, operation, operationIcon, topicName, emailEnabled);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig");
     e.printStackTrace();
 }
 ```
@@ -22199,7 +22199,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo**](ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo.md)
+[**ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo**](ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo.md)
 
 ### Authorization
 
@@ -22497,9 +22497,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess"></a>
-# **comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess**
-> ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess(post, apply, delete, action, $location, propertylist, processLabel, notifyOnComplete)
+<a name="comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr"></a>
+# **comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr**
+> ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr(post, apply, delete, action, $location, propertylist, processLabel, notifyOnComplete)
 
 
 
@@ -22520,10 +22520,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String processLabel = "processLabel_example"; // String | 
 Boolean notifyOnComplete = true; // Boolean | 
 try {
-    ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo result = apiInstance.comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess(post, apply, delete, action, $location, propertylist, processLabel, notifyOnComplete);
+    ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo result = apiInstance.comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr(post, apply, delete, action, $location, propertylist, processLabel, notifyOnComplete);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr");
     e.printStackTrace();
 }
 ```
@@ -22543,7 +22543,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo**](ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo.md)
+[**ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo**](ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo.md)
 
 ### Authorization
 
@@ -24628,9 +24628,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess"></a>
-# **comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess**
-> ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess(post, apply, delete, action, $location, propertylist, deleteZipFile)
+<a name="comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro"></a>
+# **comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro**
+> ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro(post, apply, delete, action, $location, propertylist, deleteZipFile)
 
 
 
@@ -24650,10 +24650,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean deleteZipFile = true; // Boolean | 
 try {
-    ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo result = apiInstance.comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess(post, apply, delete, action, $location, propertylist, deleteZipFile);
+    ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo result = apiInstance.comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro(post, apply, delete, action, $location, propertylist, deleteZipFile);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro");
     e.printStackTrace();
 }
 ```
@@ -24672,7 +24672,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo**](ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo.md)
+[**ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo**](ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo.md)
 
 ### Authorization
 
@@ -24683,9 +24683,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener"></a>
-# **comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener**
-> ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener(post, apply, delete, action, $location, propertylist, cqDamS7damDynamicmediaconfigeventlistenerEnabled)
+<a name="comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven"></a>
+# **comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven**
+> ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven(post, apply, delete, action, $location, propertylist, cqDamS7damDynamicmediaconfigeventlistenerEnabled)
 
 
 
@@ -24705,10 +24705,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean cqDamS7damDynamicmediaconfigeventlistenerEnabled = true; // Boolean | 
 try {
-    ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo result = apiInstance.comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener(post, apply, delete, action, $location, propertylist, cqDamS7damDynamicmediaconfigeventlistenerEnabled);
+    ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo result = apiInstance.comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven(post, apply, delete, action, $location, propertylist, cqDamS7damDynamicmediaconfigeventlistenerEnabled);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven");
     e.printStackTrace();
 }
 ```
@@ -24727,7 +24727,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo.md)
+[**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.md)
 
 ### Authorization
 
@@ -25487,9 +25487,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl"></a>
-# **comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl**
-> ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl(post, apply, delete, action, $location, propertylist, getCacheExpirationUnit, getCacheExpirationValue)
+<a name="comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer"></a>
+# **comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer**
+> ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer(post, apply, delete, action, $location, propertylist, getCacheExpirationUnit, getCacheExpirationValue)
 
 
 
@@ -25510,10 +25510,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String getCacheExpirationUnit = "getCacheExpirationUnit_example"; // String | 
 Integer getCacheExpirationValue = 56; // Integer | 
 try {
-    ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo result = apiInstance.comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl(post, apply, delete, action, $location, propertylist, getCacheExpirationUnit, getCacheExpirationValue);
+    ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo result = apiInstance.comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer(post, apply, delete, action, $location, propertylist, getCacheExpirationUnit, getCacheExpirationValue);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer");
     e.printStackTrace();
 }
 ```
@@ -25533,7 +25533,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo**](ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo.md)
+[**ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo**](ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo.md)
 
 ### Authorization
 
@@ -25544,9 +25544,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl"></a>
-# **comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl**
-> ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl(post, apply, delete, action, $location, propertylist, name, locale, imsConfig)
+<a name="comDayCqDamStockIntegrationImplConfigurationStockConfiguration"></a>
+# **comDayCqDamStockIntegrationImplConfigurationStockConfiguration**
+> ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo comDayCqDamStockIntegrationImplConfigurationStockConfiguration(post, apply, delete, action, $location, propertylist, name, locale, imsConfig)
 
 
 
@@ -25568,10 +25568,10 @@ String name = "name_example"; // String |
 String locale = "locale_example"; // String | 
 String imsConfig = "imsConfig_example"; // String | 
 try {
-    ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo result = apiInstance.comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl(post, apply, delete, action, $location, propertylist, name, locale, imsConfig);
+    ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo result = apiInstance.comDayCqDamStockIntegrationImplConfigurationStockConfiguration(post, apply, delete, action, $location, propertylist, name, locale, imsConfig);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqDamStockIntegrationImplConfigurationStockConfiguration");
     e.printStackTrace();
 }
 ```
@@ -25592,7 +25592,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo**](ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo.md)
+[**ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo**](ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo.md)
 
 ### Authorization
 
@@ -26303,9 +26303,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory"></a>
-# **comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory**
-> ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
+<a name="comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen"></a>
+# **comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen**
+> ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
 
 
 
@@ -26327,10 +26327,10 @@ Integer serviceRanking = 56; // Integer |
 String tagpattern = "tagpattern_example"; // String | 
 String componentResourceType = "componentResourceType_example"; // String | 
 try {
-    ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
+    ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen");
     e.printStackTrace();
 }
 ```
@@ -26351,7 +26351,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo.md)
 
 ### Authorization
 
@@ -26362,9 +26362,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory"></a>
-# **comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory**
-> ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
+<a name="comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug"></a>
+# **comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug**
+> ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
 
 
 
@@ -26386,10 +26386,10 @@ Integer serviceRanking = 56; // Integer |
 String tagpattern = "tagpattern_example"; // String | 
 String componentResourceType = "componentResourceType_example"; // String | 
 try {
-    ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
+    ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug");
     e.printStackTrace();
 }
 ```
@@ -26410,7 +26410,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo.md)
 
 ### Authorization
 
@@ -26421,9 +26421,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory"></a>
-# **comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory**
-> ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent"></a>
+# **comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent**
+> ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -26444,10 +26444,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent");
     e.printStackTrace();
 }
 ```
@@ -26467,7 +26467,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo.md)
 
 ### Authorization
 
@@ -26478,9 +26478,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory"></a>
-# **comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory**
-> ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa"></a>
+# **comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa**
+> ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -26501,10 +26501,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa");
     e.printStackTrace();
 }
 ```
@@ -26524,7 +26524,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.md)
 
 ### Authorization
 
@@ -26535,9 +26535,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory"></a>
-# **comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory**
-> ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
+<a name="comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH"></a>
+# **comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH**
+> ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
 
 
 
@@ -26559,10 +26559,10 @@ Integer serviceRanking = 56; // Integer |
 String tagpattern = "tagpattern_example"; // String | 
 String componentResourceType = "componentResourceType_example"; // String | 
 try {
-    ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
+    ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo result = apiInstance.comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH");
     e.printStackTrace();
 }
 ```
@@ -26583,7 +26583,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.md)
 
 ### Authorization
 
@@ -27117,9 +27117,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService"></a>
-# **comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService**
-> ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService(post, apply, delete, action, $location, propertylist, preserveHierarchyNodes, ignoreVersioning, importAcl, saveThreshold, preserveUserPaths, preserveUuid, preserveUuidNodetypes, preserveUuidSubtrees, autoCommit)
+<a name="comDayCqReplicationImplContentDurboDurboImportConfigurationProv"></a>
+# **comDayCqReplicationImplContentDurboDurboImportConfigurationProv**
+> ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo comDayCqReplicationImplContentDurboDurboImportConfigurationProv(post, apply, delete, action, $location, propertylist, preserveHierarchyNodes, ignoreVersioning, importAcl, saveThreshold, preserveUserPaths, preserveUuid, preserveUuidNodetypes, preserveUuidSubtrees, autoCommit)
 
 
 
@@ -27147,10 +27147,10 @@ List<String> preserveUuidNodetypes = Arrays.asList(); // List<String> |
 List<String> preserveUuidSubtrees = Arrays.asList(); // List<String> | 
 Boolean autoCommit = true; // Boolean | 
 try {
-    ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo result = apiInstance.comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService(post, apply, delete, action, $location, propertylist, preserveHierarchyNodes, ignoreVersioning, importAcl, saveThreshold, preserveUserPaths, preserveUuid, preserveUuidNodetypes, preserveUuidSubtrees, autoCommit);
+    ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo result = apiInstance.comDayCqReplicationImplContentDurboDurboImportConfigurationProv(post, apply, delete, action, $location, propertylist, preserveHierarchyNodes, ignoreVersioning, importAcl, saveThreshold, preserveUserPaths, preserveUuid, preserveUuidNodetypes, preserveUuidSubtrees, autoCommit);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqReplicationImplContentDurboDurboImportConfigurationProv");
     e.printStackTrace();
 }
 ```
@@ -27177,7 +27177,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo**](ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo.md)
+[**ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo**](ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo.md)
 
 ### Authorization
 
@@ -28600,9 +28600,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory"></a>
-# **comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory**
-> ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory(post, apply, delete, action, $location, propertylist, cqContentsyncPathrewritertransformerMappingLinks, cqContentsyncPathrewritertransformerMappingClientlibs, cqContentsyncPathrewritertransformerMappingImages, cqContentsyncPathrewritertransformerAttributePattern, cqContentsyncPathrewritertransformerClientlibraryPattern, cqContentsyncPathrewritertransformerClientlibraryReplace)
+<a name="comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor"></a>
+# **comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor**
+> ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor(post, apply, delete, action, $location, propertylist, cqContentsyncPathrewritertransformerMappingLinks, cqContentsyncPathrewritertransformerMappingClientlibs, cqContentsyncPathrewritertransformerMappingImages, cqContentsyncPathrewritertransformerAttributePattern, cqContentsyncPathrewritertransformerClientlibraryPattern, cqContentsyncPathrewritertransformerClientlibraryReplace)
 
 
 
@@ -28627,10 +28627,10 @@ String cqContentsyncPathrewritertransformerAttributePattern = "cqContentsyncPath
 String cqContentsyncPathrewritertransformerClientlibraryPattern = "cqContentsyncPathrewritertransformerClientlibraryPattern_example"; // String | 
 String cqContentsyncPathrewritertransformerClientlibraryReplace = "cqContentsyncPathrewritertransformerClientlibraryReplace_example"; // String | 
 try {
-    ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo result = apiInstance.comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory(post, apply, delete, action, $location, propertylist, cqContentsyncPathrewritertransformerMappingLinks, cqContentsyncPathrewritertransformerMappingClientlibs, cqContentsyncPathrewritertransformerMappingImages, cqContentsyncPathrewritertransformerAttributePattern, cqContentsyncPathrewritertransformerClientlibraryPattern, cqContentsyncPathrewritertransformerClientlibraryReplace);
+    ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo result = apiInstance.comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor(post, apply, delete, action, $location, propertylist, cqContentsyncPathrewritertransformerMappingLinks, cqContentsyncPathrewritertransformerMappingClientlibs, cqContentsyncPathrewritertransformerMappingImages, cqContentsyncPathrewritertransformerAttributePattern, cqContentsyncPathrewritertransformerClientlibraryPattern, cqContentsyncPathrewritertransformerClientlibraryReplace);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor");
     e.printStackTrace();
 }
 ```
@@ -28654,7 +28654,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo**](ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo.md)
+[**ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo**](ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo.md)
 
 ### Authorization
 
@@ -29416,9 +29416,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler"></a>
-# **comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler**
-> ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler(post, apply, delete, action, $location, propertylist, itemResourceTypes)
+<a name="comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie"></a>
+# **comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie**
+> ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie(post, apply, delete, action, $location, propertylist, itemResourceTypes)
 
 
 
@@ -29438,10 +29438,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> itemResourceTypes = Arrays.asList(); // List<String> | 
 try {
-    ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo result = apiInstance.comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler(post, apply, delete, action, $location, propertylist, itemResourceTypes);
+    ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo result = apiInstance.comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie(post, apply, delete, action, $location, propertylist, itemResourceTypes);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie");
     e.printStackTrace();
 }
 ```
@@ -29460,7 +29460,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo**](ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo.md)
+[**ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo**](ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo.md)
 
 ### Authorization
 
@@ -30566,9 +30566,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -30589,10 +30589,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone");
     e.printStackTrace();
 }
 ```
@@ -30612,7 +30612,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.md)
 
 ### Authorization
 
@@ -30623,9 +30623,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -30646,10 +30646,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon");
     e.printStackTrace();
 }
 ```
@@ -30669,7 +30669,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo.md)
 
 ### Authorization
 
@@ -30680,9 +30680,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -30703,10 +30703,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan");
     e.printStackTrace();
 }
 ```
@@ -30726,7 +30726,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo.md)
 
 ### Authorization
 
@@ -30737,9 +30737,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -30760,10 +30760,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle");
     e.printStackTrace();
 }
 ```
@@ -30783,7 +30783,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo.md)
 
 ### Authorization
 
@@ -30794,9 +30794,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -30817,10 +30817,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand");
     e.printStackTrace();
 }
 ```
@@ -30840,7 +30840,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo.md)
 
 ### Authorization
 
@@ -30851,9 +30851,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
 
 
 
@@ -30875,10 +30875,10 @@ Integer serviceRanking = 56; // Integer |
 String tagpattern = "tagpattern_example"; // String | 
 String componentResourceType = "componentResourceType_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen");
     e.printStackTrace();
 }
 ```
@@ -30899,7 +30899,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo.md)
 
 ### Authorization
 
@@ -30910,9 +30910,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -30933,10 +30933,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler");
     e.printStackTrace();
 }
 ```
@@ -30956,7 +30956,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo.md)
 
 ### Authorization
 
@@ -30967,9 +30967,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -30990,10 +30990,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT");
     e.printStackTrace();
 }
 ```
@@ -31013,7 +31013,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo.md)
 
 ### Authorization
 
@@ -31024,9 +31024,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -31047,10 +31047,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle");
     e.printStackTrace();
 }
 ```
@@ -31070,7 +31070,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo.md)
 
 ### Authorization
 
@@ -31081,9 +31081,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -31104,10 +31104,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle");
     e.printStackTrace();
 }
 ```
@@ -31127,7 +31127,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo.md)
 
 ### Authorization
 
@@ -31138,9 +31138,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -31161,10 +31161,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH");
     e.printStackTrace();
 }
 ```
@@ -31184,7 +31184,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo.md)
 
 ### Authorization
 
@@ -31195,9 +31195,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
 
 
 
@@ -31219,10 +31219,10 @@ Integer serviceRanking = 56; // Integer |
 String tagpattern = "tagpattern_example"; // String | 
 String componentResourceType = "componentResourceType_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone");
     e.printStackTrace();
 }
 ```
@@ -31243,7 +31243,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo.md)
 
 ### Authorization
 
@@ -31254,9 +31254,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -31277,10 +31277,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand");
     e.printStackTrace();
 }
 ```
@@ -31300,7 +31300,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo.md)
 
 ### Authorization
 
@@ -31311,9 +31311,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -31334,10 +31334,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl");
     e.printStackTrace();
 }
 ```
@@ -31357,7 +31357,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.md)
 
 ### Authorization
 
@@ -31368,9 +31368,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
 
 
 
@@ -31392,10 +31392,10 @@ Integer serviceRanking = 56; // Integer |
 String tagpattern = "tagpattern_example"; // String | 
 String componentResourceType = "componentResourceType_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent");
     e.printStackTrace();
 }
 ```
@@ -31416,7 +31416,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo.md)
 
 ### Authorization
 
@@ -31427,9 +31427,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType)
 
 
 
@@ -31451,10 +31451,10 @@ Integer serviceRanking = 56; // Integer |
 String tagpattern = "tagpattern_example"; // String | 
 String componentResourceType = "componentResourceType_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern, componentResourceType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen");
     e.printStackTrace();
 }
 ```
@@ -31475,7 +31475,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo.md)
 
 ### Authorization
 
@@ -31486,9 +31486,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory"></a>
-# **comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
+<a name="comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl"></a>
+# **comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern)
 
 
 
@@ -31509,10 +31509,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Integer serviceRanking = 56; // Integer | 
 String tagpattern = "tagpattern_example"; // String | 
 try {
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo result = apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl(post, apply, delete, action, $location, propertylist, serviceRanking, tagpattern);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl");
     e.printStackTrace();
 }
 ```
@@ -31532,7 +31532,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo.md)
 
 ### Authorization
 
@@ -32011,9 +32011,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService"></a>
-# **comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService**
-> ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService(post, apply, delete, action, $location, propertylist, defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist)
+<a name="comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist"></a>
+# **comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist**
+> ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist(post, apply, delete, action, $location, propertylist, defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist)
 
 
 
@@ -32034,10 +32034,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> defaultAttachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 List<String> baselineAttachmentTypeBlacklist = Arrays.asList(); // List<String> | 
 try {
-    ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo result = apiInstance.comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService(post, apply, delete, action, $location, propertylist, defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist);
+    ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo result = apiInstance.comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist(post, apply, delete, action, $location, propertylist, defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService");
+    System.err.println("Exception when calling ConfigmgrApi#comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist");
     e.printStackTrace();
 }
 ```
@@ -32057,7 +32057,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo**](ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
+[**ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo**](ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo.md)
 
 ### Authorization
 
@@ -34763,9 +34763,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator"></a>
-# **orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator**
-> OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator(post, apply, delete, action, $location, propertylist, felixMemoryusageDumpThreshold, felixMemoryusageDumpInterval, felixMemoryusageDumpLocation)
+<a name="orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo"></a>
+# **orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo**
+> OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo(post, apply, delete, action, $location, propertylist, felixMemoryusageDumpThreshold, felixMemoryusageDumpInterval, felixMemoryusageDumpLocation)
 
 
 
@@ -34787,10 +34787,10 @@ Integer felixMemoryusageDumpThreshold = 56; // Integer |
 Integer felixMemoryusageDumpInterval = 56; // Integer | 
 String felixMemoryusageDumpLocation = "felixMemoryusageDumpLocation_example"; // String | 
 try {
-    OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo result = apiInstance.orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator(post, apply, delete, action, $location, propertylist, felixMemoryusageDumpThreshold, felixMemoryusageDumpInterval, felixMemoryusageDumpLocation);
+    OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo result = apiInstance.orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo(post, apply, delete, action, $location, propertylist, felixMemoryusageDumpThreshold, felixMemoryusageDumpInterval, felixMemoryusageDumpLocation);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo");
     e.printStackTrace();
 }
 ```
@@ -34811,7 +34811,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo**](OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo.md)
+[**OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo**](OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo.md)
 
 ### Authorization
 
@@ -34887,9 +34887,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService"></a>
-# **orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService**
-> OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService(post, apply, delete, action, $location, propertylist, dir)
+<a name="orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider"></a>
+# **orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider**
+> OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider(post, apply, delete, action, $location, propertylist, dir)
 
 
 
@@ -34909,10 +34909,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 String dir = "dir_example"; // String | 
 try {
-    OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo result = apiInstance.orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService(post, apply, delete, action, $location, propertylist, dir);
+    OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo result = apiInstance.orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider(post, apply, delete, action, $location, propertylist, dir);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider");
     e.printStackTrace();
 }
 ```
@@ -34931,7 +34931,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo**](OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo**](OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo.md)
 
 ### Authorization
 
@@ -35110,9 +35110,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset"></a>
-# **orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset**
-> OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset(post, apply, delete, action, $location, propertylist, persistentCacheIncludes)
+<a name="orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre"></a>
+# **orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre**
+> OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre(post, apply, delete, action, $location, propertylist, persistentCacheIncludes)
 
 
 
@@ -35132,10 +35132,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> persistentCacheIncludes = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo result = apiInstance.orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset(post, apply, delete, action, $location, propertylist, persistentCacheIncludes);
+    OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo result = apiInstance.orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre(post, apply, delete, action, $location, propertylist, persistentCacheIncludes);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre");
     e.printStackTrace();
 }
 ```
@@ -35154,7 +35154,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo**](OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo.md)
+[**OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo**](OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.md)
 
 ### Authorization
 
@@ -35165,9 +35165,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService"></a>
-# **orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService**
-> OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService(post, apply, delete, action, $location, propertylist, includedPaths, enableAsyncObserver, observerQueueSize)
+<a name="orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac"></a>
+# **orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac**
+> OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac(post, apply, delete, action, $location, propertylist, includedPaths, enableAsyncObserver, observerQueueSize)
 
 
 
@@ -35189,10 +35189,10 @@ List<String> includedPaths = Arrays.asList(); // List<String> |
 Boolean enableAsyncObserver = true; // Boolean | 
 Integer observerQueueSize = 56; // Integer | 
 try {
-    OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo result = apiInstance.orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService(post, apply, delete, action, $location, propertylist, includedPaths, enableAsyncObserver, observerQueueSize);
+    OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo result = apiInstance.orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac(post, apply, delete, action, $location, propertylist, includedPaths, enableAsyncObserver, observerQueueSize);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac");
     e.printStackTrace();
 }
 ```
@@ -35213,7 +35213,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo**](OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo**](OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo.md)
 
 ### Authorization
 
@@ -35285,9 +35285,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService"></a>
-# **orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService**
-> OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService(post, apply, delete, action, $location, propertylist, disabled, debug, localIndexDir, enableOpenIndexAsync, threadPoolSize, prefetchIndexFiles, extractedTextCacheSizeInMB, extractedTextCacheExpiryInSecs, alwaysUsePreExtractedCache, booleanClauseLimit, enableHybridIndexing, hybridQueueSize, disableStoredIndexDefinition, deletedBlobsCollectionEnabled, propIndexCleanerIntervalInSecs, enableSingleBlobIndexFiles)
+<a name="orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ"></a>
+# **orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ**
+> OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ(post, apply, delete, action, $location, propertylist, disabled, debug, localIndexDir, enableOpenIndexAsync, threadPoolSize, prefetchIndexFiles, extractedTextCacheSizeInMB, extractedTextCacheExpiryInSecs, alwaysUsePreExtractedCache, booleanClauseLimit, enableHybridIndexing, hybridQueueSize, disableStoredIndexDefinition, deletedBlobsCollectionEnabled, propIndexCleanerIntervalInSecs, enableSingleBlobIndexFiles)
 
 
 
@@ -35322,10 +35322,10 @@ Boolean deletedBlobsCollectionEnabled = true; // Boolean |
 Integer propIndexCleanerIntervalInSecs = 56; // Integer | 
 Boolean enableSingleBlobIndexFiles = true; // Boolean | 
 try {
-    OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService(post, apply, delete, action, $location, propertylist, disabled, debug, localIndexDir, enableOpenIndexAsync, threadPoolSize, prefetchIndexFiles, extractedTextCacheSizeInMB, extractedTextCacheExpiryInSecs, alwaysUsePreExtractedCache, booleanClauseLimit, enableHybridIndexing, hybridQueueSize, disableStoredIndexDefinition, deletedBlobsCollectionEnabled, propIndexCleanerIntervalInSecs, enableSingleBlobIndexFiles);
+    OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ(post, apply, delete, action, $location, propertylist, disabled, debug, localIndexDir, enableOpenIndexAsync, threadPoolSize, prefetchIndexFiles, extractedTextCacheSizeInMB, extractedTextCacheExpiryInSecs, alwaysUsePreExtractedCache, booleanClauseLimit, enableHybridIndexing, hybridQueueSize, disableStoredIndexDefinition, deletedBlobsCollectionEnabled, propIndexCleanerIntervalInSecs, enableSingleBlobIndexFiles);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ");
     e.printStackTrace();
 }
 ```
@@ -35359,7 +35359,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo**](OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo.md)
 
 ### Authorization
 
@@ -35370,9 +35370,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider"></a>
-# **orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider(post, apply, delete, action, $location, propertylist, solrHomePath, solrCoreName)
+<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo"></a>
+# **orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo(post, apply, delete, action, $location, propertylist, solrHomePath, solrCoreName)
 
 
 
@@ -35393,10 +35393,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String solrHomePath = "solrHomePath_example"; // String | 
 String solrCoreName = "solrCoreName_example"; // String | 
 try {
-    OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider(post, apply, delete, action, $location, propertylist, solrHomePath, solrCoreName);
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo(post, apply, delete, action, $location, propertylist, solrHomePath, solrCoreName);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo");
     e.printStackTrace();
 }
 ```
@@ -35416,7 +35416,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo.md)
 
 ### Authorization
 
@@ -35427,9 +35427,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService"></a>
-# **orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService(post, apply, delete, action, $location, propertylist, enabled)
+<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers"></a>
+# **orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers(post, apply, delete, action, $location, propertylist, enabled)
 
 
 
@@ -35449,10 +35449,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean enabled = true; // Boolean | 
 try {
-    OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService(post, apply, delete, action, $location, propertylist, enabled);
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers(post, apply, delete, action, $location, propertylist, enabled);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers");
     e.printStackTrace();
 }
 ```
@@ -35471,7 +35471,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo.md)
 
 ### Authorization
 
@@ -35482,9 +35482,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService"></a>
-# **orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService(post, apply, delete, action, $location, propertylist, pathDescField, pathChildField, pathParentField, pathExactField, catchAllField, collapsedPathField, pathDepthField, commitPolicy, rows, pathRestrictions, propertyRestrictions, primarytypesRestrictions, ignoredProperties, usedProperties, typeMappings, propertyMappings, collapseJcrcontentNodes)
+<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration"></a>
+# **orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration(post, apply, delete, action, $location, propertylist, pathDescField, pathChildField, pathParentField, pathExactField, catchAllField, collapsedPathField, pathDepthField, commitPolicy, rows, pathRestrictions, propertyRestrictions, primarytypesRestrictions, ignoredProperties, usedProperties, typeMappings, propertyMappings, collapseJcrcontentNodes)
 
 
 
@@ -35520,10 +35520,10 @@ List<String> typeMappings = Arrays.asList(); // List<String> |
 List<String> propertyMappings = Arrays.asList(); // List<String> | 
 Boolean collapseJcrcontentNodes = true; // Boolean | 
 try {
-    OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService(post, apply, delete, action, $location, propertylist, pathDescField, pathChildField, pathParentField, pathExactField, catchAllField, collapsedPathField, pathDepthField, commitPolicy, rows, pathRestrictions, propertyRestrictions, primarytypesRestrictions, ignoredProperties, usedProperties, typeMappings, propertyMappings, collapseJcrcontentNodes);
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration(post, apply, delete, action, $location, propertylist, pathDescField, pathChildField, pathParentField, pathExactField, catchAllField, collapsedPathField, pathDepthField, commitPolicy, rows, pathRestrictions, propertyRestrictions, primarytypesRestrictions, ignoredProperties, usedProperties, typeMappings, propertyMappings, collapseJcrcontentNodes);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration");
     e.printStackTrace();
 }
 ```
@@ -35558,7 +35558,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo.md)
 
 ### Authorization
 
@@ -35569,9 +35569,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider"></a>
-# **orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider(post, apply, delete, action, $location, propertylist, solrHttpUrl, solrZkHost, solrCollection, solrSocketTimeout, solrConnectionTimeout, solrShardsNo, solrReplicationFactor, solrConfDir)
+<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf"></a>
+# **orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf(post, apply, delete, action, $location, propertylist, solrHttpUrl, solrZkHost, solrCollection, solrSocketTimeout, solrConnectionTimeout, solrShardsNo, solrReplicationFactor, solrConfDir)
 
 
 
@@ -35598,10 +35598,10 @@ Integer solrShardsNo = 56; // Integer |
 Integer solrReplicationFactor = 56; // Integer | 
 String solrConfDir = "solrConfDir_example"; // String | 
 try {
-    OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider(post, apply, delete, action, $location, propertylist, solrHttpUrl, solrZkHost, solrCollection, solrSocketTimeout, solrConnectionTimeout, solrShardsNo, solrReplicationFactor, solrConfDir);
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf(post, apply, delete, action, $location, propertylist, solrHttpUrl, solrZkHost, solrCollection, solrSocketTimeout, solrConnectionTimeout, solrShardsNo, solrReplicationFactor, solrConfDir);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf");
     e.printStackTrace();
 }
 ```
@@ -35627,7 +35627,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo.md)
 
 ### Authorization
 
@@ -35638,9 +35638,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService"></a>
-# **orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService(post, apply, delete, action, $location, propertylist, queryAggregation)
+<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid"></a>
+# **orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid(post, apply, delete, action, $location, propertylist, queryAggregation)
 
 
 
@@ -35660,10 +35660,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean queryAggregation = true; // Boolean | 
 try {
-    OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService(post, apply, delete, action, $location, propertylist, queryAggregation);
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid(post, apply, delete, action, $location, propertylist, queryAggregation);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid");
     e.printStackTrace();
 }
 ```
@@ -35682,7 +35682,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo.md)
 
 ### Authorization
 
@@ -35693,9 +35693,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService"></a>
-# **orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService(post, apply, delete, action, $location, propertylist, serverType)
+<a name="orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe"></a>
+# **orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe(post, apply, delete, action, $location, propertylist, serverType)
 
 
 
@@ -35715,10 +35715,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 String serverType = "serverType_example"; // String | 
 try {
-    OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService(post, apply, delete, action, $location, propertylist, serverType);
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo result = apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe(post, apply, delete, action, $location, propertylist, serverType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe");
     e.printStackTrace();
 }
 ```
@@ -35737,7 +35737,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo.md)
 
 ### Authorization
 
@@ -35923,9 +35923,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl"></a>
-# **orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl**
-> OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl(post, apply, delete, action, $location, propertylist, orgApacheJackrabbitOakAuthenticationAppName, orgApacheJackrabbitOakAuthenticationConfigSpiName)
+<a name="orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig"></a>
+# **orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig**
+> OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig(post, apply, delete, action, $location, propertylist, orgApacheJackrabbitOakAuthenticationAppName, orgApacheJackrabbitOakAuthenticationConfigSpiName)
 
 
 
@@ -35946,10 +35946,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String orgApacheJackrabbitOakAuthenticationAppName = "orgApacheJackrabbitOakAuthenticationAppName_example"; // String | 
 String orgApacheJackrabbitOakAuthenticationConfigSpiName = "orgApacheJackrabbitOakAuthenticationConfigSpiName_example"; // String | 
 try {
-    OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo result = apiInstance.orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl(post, apply, delete, action, $location, propertylist, orgApacheJackrabbitOakAuthenticationAppName, orgApacheJackrabbitOakAuthenticationConfigSpiName);
+    OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo result = apiInstance.orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig(post, apply, delete, action, $location, propertylist, orgApacheJackrabbitOakAuthenticationAppName, orgApacheJackrabbitOakAuthenticationConfigSpiName);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig");
     e.printStackTrace();
 }
 ```
@@ -35969,7 +35969,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.md)
 
 ### Authorization
 
@@ -35980,9 +35980,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider"></a>
-# **orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider**
-> OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider(post, apply, delete, action, $location, propertylist, providerName, hostName, hostPort, hostSsl, hostTls, hostNoCertCheck, bindDn, bindPassword, searchTimeout, adminPoolMaxActive, adminPoolLookupOnValidate, userPoolMaxActive, userPoolLookupOnValidate, userBaseDN, userObjectclass, userIdAttribute, userExtraFilter, userMakeDnPath, groupBaseDN, groupObjectclass, groupNameAttribute, groupExtraFilter, groupMakeDnPath, groupMemberAttribute, useUidForExtId, customattributes)
+<a name="orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti"></a>
+# **orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti**
+> OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti(post, apply, delete, action, $location, propertylist, providerName, hostName, hostPort, hostSsl, hostTls, hostNoCertCheck, bindDn, bindPassword, searchTimeout, adminPoolMaxActive, adminPoolLookupOnValidate, userPoolMaxActive, userPoolLookupOnValidate, userBaseDN, userObjectclass, userIdAttribute, userExtraFilter, userMakeDnPath, groupBaseDN, groupObjectclass, groupNameAttribute, groupExtraFilter, groupMakeDnPath, groupMemberAttribute, useUidForExtId, customattributes)
 
 
 
@@ -36027,10 +36027,10 @@ String groupMemberAttribute = "groupMemberAttribute_example"; // String |
 Boolean useUidForExtId = true; // Boolean | 
 List<String> customattributes = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo result = apiInstance.orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider(post, apply, delete, action, $location, propertylist, providerName, hostName, hostPort, hostSsl, hostTls, hostNoCertCheck, bindDn, bindPassword, searchTimeout, adminPoolMaxActive, adminPoolLookupOnValidate, userPoolMaxActive, userPoolLookupOnValidate, userBaseDN, userObjectclass, userIdAttribute, userExtraFilter, userMakeDnPath, groupBaseDN, groupObjectclass, groupNameAttribute, groupExtraFilter, groupMakeDnPath, groupMemberAttribute, useUidForExtId, customattributes);
+    OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo result = apiInstance.orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti(post, apply, delete, action, $location, propertylist, providerName, hostName, hostPort, hostSsl, hostTls, hostNoCertCheck, bindDn, bindPassword, searchTimeout, adminPoolMaxActive, adminPoolLookupOnValidate, userPoolMaxActive, userPoolLookupOnValidate, userBaseDN, userObjectclass, userIdAttribute, userExtraFilter, userMakeDnPath, groupBaseDN, groupObjectclass, groupNameAttribute, groupExtraFilter, groupMakeDnPath, groupMemberAttribute, useUidForExtId, customattributes);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti");
     e.printStackTrace();
 }
 ```
@@ -36074,7 +36074,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo**](OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo**](OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo.md)
 
 ### Authorization
 
@@ -36085,9 +36085,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl"></a>
-# **orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl**
-> OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl(post, apply, delete, action, $location, propertylist, tokenExpiration, tokenLength, tokenRefresh, tokenCleanupThreshold, passwordHashAlgorithm, passwordHashIterations, passwordSaltSize)
+<a name="orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura"></a>
+# **orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura**
+> OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura(post, apply, delete, action, $location, propertylist, tokenExpiration, tokenLength, tokenRefresh, tokenCleanupThreshold, passwordHashAlgorithm, passwordHashIterations, passwordSaltSize)
 
 
 
@@ -36113,10 +36113,10 @@ String passwordHashAlgorithm = "passwordHashAlgorithm_example"; // String |
 Integer passwordHashIterations = 56; // Integer | 
 Integer passwordSaltSize = 56; // Integer | 
 try {
-    OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo result = apiInstance.orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl(post, apply, delete, action, $location, propertylist, tokenExpiration, tokenLength, tokenRefresh, tokenCleanupThreshold, passwordHashAlgorithm, passwordHashIterations, passwordSaltSize);
+    OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo result = apiInstance.orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura(post, apply, delete, action, $location, propertylist, tokenExpiration, tokenLength, tokenRefresh, tokenCleanupThreshold, passwordHashAlgorithm, passwordHashIterations, passwordSaltSize);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura");
     e.printStackTrace();
 }
 ```
@@ -36141,7 +36141,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo**](OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo.md)
 
 ### Authorization
 
@@ -36152,9 +36152,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl"></a>
-# **orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl**
-> OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl(post, apply, delete, action, $location, propertylist, permissionsJr2, importBehavior, readPaths, administrativePrincipals, configurationRanking)
+<a name="orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur"></a>
+# **orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur**
+> OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur(post, apply, delete, action, $location, propertylist, permissionsJr2, importBehavior, readPaths, administrativePrincipals, configurationRanking)
 
 
 
@@ -36178,10 +36178,10 @@ List<String> readPaths = Arrays.asList(); // List<String> |
 List<String> administrativePrincipals = Arrays.asList(); // List<String> | 
 Integer configurationRanking = 56; // Integer | 
 try {
-    OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo result = apiInstance.orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl(post, apply, delete, action, $location, propertylist, permissionsJr2, importBehavior, readPaths, administrativePrincipals, configurationRanking);
+    OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo result = apiInstance.orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur(post, apply, delete, action, $location, propertylist, permissionsJr2, importBehavior, readPaths, administrativePrincipals, configurationRanking);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur");
     e.printStackTrace();
 }
 ```
@@ -36204,7 +36204,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo**](OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.md)
 
 ### Authorization
 
@@ -36215,9 +36215,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration"></a>
-# **orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration**
-> OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration(post, apply, delete, action, $location, propertylist, requiredServicePids, authorizationCompositionType)
+<a name="orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati"></a>
+# **orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati**
+> OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati(post, apply, delete, action, $location, propertylist, requiredServicePids, authorizationCompositionType)
 
 
 
@@ -36238,10 +36238,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> requiredServicePids = Arrays.asList(); // List<String> | 
 String authorizationCompositionType = "authorizationCompositionType_example"; // String | 
 try {
-    OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo result = apiInstance.orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration(post, apply, delete, action, $location, propertylist, requiredServicePids, authorizationCompositionType);
+    OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo result = apiInstance.orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati(post, apply, delete, action, $location, propertylist, requiredServicePids, authorizationCompositionType);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati");
     e.printStackTrace();
 }
 ```
@@ -36261,7 +36261,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo**](OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo.md)
+[**OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo**](OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo.md)
 
 ### Authorization
 
@@ -36809,9 +36809,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler"></a>
-# **orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler**
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler(post, apply, delete, action, $location, propertylist, handlerName, userExpirationTime, userAutoMembership, userPropertyMapping, userPathPrefix, userMembershipExpTime, userMembershipNestingDepth, userDynamicMembership, userDisableMissing, groupExpirationTime, groupAutoMembership, groupPropertyMapping, groupPathPrefix, enableRFC7613UsercaseMappedProfile)
+<a name="orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe"></a>
+# **orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe**
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe(post, apply, delete, action, $location, propertylist, handlerName, userExpirationTime, userAutoMembership, userPropertyMapping, userPathPrefix, userMembershipExpTime, userMembershipNestingDepth, userDynamicMembership, userDisableMissing, groupExpirationTime, groupAutoMembership, groupPropertyMapping, groupPathPrefix, enableRFC7613UsercaseMappedProfile)
 
 
 
@@ -36844,10 +36844,10 @@ List<String> groupPropertyMapping = Arrays.asList(); // List<String> |
 String groupPathPrefix = "groupPathPrefix_example"; // String | 
 Boolean enableRFC7613UsercaseMappedProfile = true; // Boolean | 
 try {
-    OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler(post, apply, delete, action, $location, propertylist, handlerName, userExpirationTime, userAutoMembership, userPropertyMapping, userPathPrefix, userMembershipExpTime, userMembershipNestingDepth, userDynamicMembership, userDisableMissing, groupExpirationTime, groupAutoMembership, groupPropertyMapping, groupPathPrefix, enableRFC7613UsercaseMappedProfile);
+    OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe(post, apply, delete, action, $location, propertylist, handlerName, userExpirationTime, userAutoMembership, userPropertyMapping, userPathPrefix, userMembershipExpTime, userMembershipNestingDepth, userDynamicMembership, userDisableMissing, groupExpirationTime, groupAutoMembership, groupPropertyMapping, groupPathPrefix, enableRFC7613UsercaseMappedProfile);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe");
     e.printStackTrace();
 }
 ```
@@ -36879,7 +36879,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo.md)
 
 ### Authorization
 
@@ -36890,9 +36890,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory"></a>
-# **orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory**
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory(post, apply, delete, action, $location, propertylist, jaasRanking, jaasControlFlag, jaasRealmName, idpName, syncHandlerName)
+<a name="orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx"></a>
+# **orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx**
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx(post, apply, delete, action, $location, propertylist, jaasRanking, jaasControlFlag, jaasRealmName, idpName, syncHandlerName)
 
 
 
@@ -36916,10 +36916,10 @@ String jaasRealmName = "jaasRealmName_example"; // String |
 String idpName = "idpName_example"; // String | 
 String syncHandlerName = "syncHandlerName_example"; // String | 
 try {
-    OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory(post, apply, delete, action, $location, propertylist, jaasRanking, jaasControlFlag, jaasRealmName, idpName, syncHandlerName);
+    OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx(post, apply, delete, action, $location, propertylist, jaasRanking, jaasControlFlag, jaasRealmName, idpName, syncHandlerName);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx");
     e.printStackTrace();
 }
 ```
@@ -36942,7 +36942,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo.md)
 
 ### Authorization
 
@@ -36953,9 +36953,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration"></a>
-# **orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration**
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration(post, apply, delete, action, $location, propertylist, protectExternalId)
+<a name="orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr"></a>
+# **orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr**
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr(post, apply, delete, action, $location, propertylist, protectExternalId)
 
 
 
@@ -36975,10 +36975,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean protectExternalId = true; // Boolean | 
 try {
-    OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration(post, apply, delete, action, $location, propertylist, protectExternalId);
+    OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr(post, apply, delete, action, $location, propertylist, protectExternalId);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr");
     e.printStackTrace();
 }
 ```
@@ -36997,7 +36997,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo.md)
 
 ### Authorization
 
@@ -37008,9 +37008,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration"></a>
-# **orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration**
-> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration(post, apply, delete, action, $location, propertylist, cugSupportedPaths, cugEnabled, configurationRanking)
+<a name="orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi"></a>
+# **orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi**
+> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi(post, apply, delete, action, $location, propertylist, cugSupportedPaths, cugEnabled, configurationRanking)
 
 
 
@@ -37032,10 +37032,10 @@ List<String> cugSupportedPaths = Arrays.asList(); // List<String> |
 Boolean cugEnabled = true; // Boolean | 
 Integer configurationRanking = 56; // Integer | 
 try {
-    OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration(post, apply, delete, action, $location, propertylist, cugSupportedPaths, cugEnabled, configurationRanking);
+    OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi(post, apply, delete, action, $location, propertylist, cugSupportedPaths, cugEnabled, configurationRanking);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi");
     e.printStackTrace();
 }
 ```
@@ -37056,7 +37056,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo.md)
 
 ### Authorization
 
@@ -37067,9 +37067,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl"></a>
-# **orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl**
-> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl(post, apply, delete, action, $location, propertylist, principalNames)
+<a name="orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu"></a>
+# **orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu**
+> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu(post, apply, delete, action, $location, propertylist, principalNames)
 
 
 
@@ -37089,10 +37089,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> principalNames = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl(post, apply, delete, action, $location, propertylist, principalNames);
+    OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu(post, apply, delete, action, $location, propertylist, principalNames);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu");
     e.printStackTrace();
 }
 ```
@@ -37111,7 +37111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo.md)
 
 ### Authorization
 
@@ -37122,9 +37122,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider"></a>
-# **orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider**
-> OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider(post, apply, delete, action, $location, propertylist, enabledActions, userPrivilegeNames, groupPrivilegeNames, constraint)
+<a name="orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable"></a>
+# **orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable**
+> OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable(post, apply, delete, action, $location, propertylist, enabledActions, userPrivilegeNames, groupPrivilegeNames, constraint)
 
 
 
@@ -37147,10 +37147,10 @@ List<String> userPrivilegeNames = Arrays.asList(); // List<String> |
 List<String> groupPrivilegeNames = Arrays.asList(); // List<String> | 
 String constraint = "constraint_example"; // String | 
 try {
-    OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider(post, apply, delete, action, $location, propertylist, enabledActions, userPrivilegeNames, groupPrivilegeNames, constraint);
+    OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo result = apiInstance.orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable(post, apply, delete, action, $location, propertylist, enabledActions, userPrivilegeNames, groupPrivilegeNames, constraint);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable");
     e.printStackTrace();
 }
 ```
@@ -37172,7 +37172,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo**](OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo**](OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo.md)
 
 ### Authorization
 
@@ -37460,9 +37460,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy"></a>
-# **orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy**
-> OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy(post, apply, delete, action, $location, propertylist, enabled, configPropertyInheritancePropertyNames)
+<a name="orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra"></a>
+# **orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra**
+> OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra(post, apply, delete, action, $location, propertylist, enabled, configPropertyInheritancePropertyNames)
 
 
 
@@ -37483,10 +37483,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Boolean enabled = true; // Boolean | 
 List<String> configPropertyInheritancePropertyNames = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo result = apiInstance.orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy(post, apply, delete, action, $location, propertylist, enabled, configPropertyInheritancePropertyNames);
+    OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo result = apiInstance.orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra(post, apply, delete, action, $location, propertylist, enabled, configPropertyInheritancePropertyNames);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra");
     e.printStackTrace();
 }
 ```
@@ -37506,7 +37506,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo.md)
+[**OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo.md)
 
 ### Authorization
 
@@ -37517,9 +37517,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy"></a>
-# **orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy**
-> OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy(post, apply, delete, action, $location, propertylist, enabled)
+<a name="orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra"></a>
+# **orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra**
+> OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra(post, apply, delete, action, $location, propertylist, enabled)
 
 
 
@@ -37539,10 +37539,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean enabled = true; // Boolean | 
 try {
-    OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo result = apiInstance.orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy(post, apply, delete, action, $location, propertylist, enabled);
+    OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo result = apiInstance.orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra(post, apply, delete, action, $location, propertylist, enabled);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra");
     e.printStackTrace();
 }
 ```
@@ -37561,7 +37561,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo.md)
+[**OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo.md)
 
 ### Authorization
 
@@ -37572,9 +37572,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider"></a>
-# **orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider**
-> OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider(post, apply, delete, action, $location, propertylist, description, overrides, enabled, serviceRanking)
+<a name="orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi"></a>
+# **orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi**
+> OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi(post, apply, delete, action, $location, propertylist, description, overrides, enabled, serviceRanking)
 
 
 
@@ -37597,10 +37597,10 @@ List<String> overrides = Arrays.asList(); // List<String> |
 Boolean enabled = true; // Boolean | 
 Integer serviceRanking = 56; // Integer | 
 try {
-    OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo result = apiInstance.orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider(post, apply, delete, action, $location, propertylist, description, overrides, enabled, serviceRanking);
+    OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo result = apiInstance.orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi(post, apply, delete, action, $location, propertylist, description, overrides, enabled, serviceRanking);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi");
     e.printStackTrace();
 }
 ```
@@ -37622,7 +37622,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo**](OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo.md)
+[**OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo**](OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo.md)
 
 ### Authorization
 
@@ -37633,9 +37633,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider"></a>
-# **orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider**
-> OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider(post, apply, delete, action, $location, propertylist, enabled, serviceRanking)
+<a name="orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve"></a>
+# **orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve**
+> OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve(post, apply, delete, action, $location, propertylist, enabled, serviceRanking)
 
 
 
@@ -37656,10 +37656,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 Boolean enabled = true; // Boolean | 
 Integer serviceRanking = 56; // Integer | 
 try {
-    OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo result = apiInstance.orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider(post, apply, delete, action, $location, propertylist, enabled, serviceRanking);
+    OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo result = apiInstance.orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve(post, apply, delete, action, $location, propertylist, enabled, serviceRanking);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve");
     e.printStackTrace();
 }
 ```
@@ -37679,7 +37679,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo**](OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo.md)
+[**OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo**](OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo.md)
 
 ### Authorization
 
@@ -37690,9 +37690,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl"></a>
-# **orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl**
-> OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl(post, apply, delete, action, $location, propertylist, ignorePropertyNameRegex, configCollectionPropertiesResourceNames)
+<a name="orgApacheSlingCaconfigManagementImplConfigurationManagementSetti"></a>
+# **orgApacheSlingCaconfigManagementImplConfigurationManagementSetti**
+> OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo orgApacheSlingCaconfigManagementImplConfigurationManagementSetti(post, apply, delete, action, $location, propertylist, ignorePropertyNameRegex, configCollectionPropertiesResourceNames)
 
 
 
@@ -37713,10 +37713,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> ignorePropertyNameRegex = Arrays.asList(); // List<String> | 
 List<String> configCollectionPropertiesResourceNames = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo result = apiInstance.orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl(post, apply, delete, action, $location, propertylist, ignorePropertyNameRegex, configCollectionPropertiesResourceNames);
+    OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo result = apiInstance.orgApacheSlingCaconfigManagementImplConfigurationManagementSetti(post, apply, delete, action, $location, propertylist, ignorePropertyNameRegex, configCollectionPropertiesResourceNames);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigManagementImplConfigurationManagementSetti");
     e.printStackTrace();
 }
 ```
@@ -37736,7 +37736,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo**](OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo.md)
+[**OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo**](OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo.md)
 
 ### Authorization
 
@@ -37747,9 +37747,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy"></a>
-# **orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy**
-> OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy(post, apply, delete, action, $location, propertylist, enabled, configPath, fallbackPaths, configCollectionInheritancePropertyNames)
+<a name="orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour"></a>
+# **orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour**
+> OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour(post, apply, delete, action, $location, propertylist, enabled, configPath, fallbackPaths, configCollectionInheritancePropertyNames)
 
 
 
@@ -37772,10 +37772,10 @@ String configPath = "configPath_example"; // String |
 List<String> fallbackPaths = Arrays.asList(); // List<String> | 
 List<String> configCollectionInheritancePropertyNames = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo result = apiInstance.orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy(post, apply, delete, action, $location, propertylist, enabled, configPath, fallbackPaths, configCollectionInheritancePropertyNames);
+    OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo result = apiInstance.orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour(post, apply, delete, action, $location, propertylist, enabled, configPath, fallbackPaths, configCollectionInheritancePropertyNames);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour");
     e.printStackTrace();
 }
 ```
@@ -37797,7 +37797,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo**](OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo.md)
+[**OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo**](OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo.md)
 
 ### Authorization
 
@@ -38819,9 +38819,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory"></a>
-# **orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory**
-> OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, allowedRoots, queueProcessingEnabled, packageImporterEndpoints, passiveQueues, priorityQueues, retryStrategy, retryAttempts, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget, queueProvider, asyncDelivery, httpConnTimeout)
+<a name="orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto"></a>
+# **orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto**
+> OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, allowedRoots, queueProcessingEnabled, packageImporterEndpoints, passiveQueues, priorityQueues, retryStrategy, retryAttempts, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget, queueProvider, asyncDelivery, httpConnTimeout)
 
 
 
@@ -38860,10 +38860,10 @@ String queueProvider = "queueProvider_example"; // String |
 Boolean asyncDelivery = true; // Boolean | 
 Integer httpConnTimeout = 56; // Integer | 
 try {
-    OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo result = apiInstance.orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, allowedRoots, queueProcessingEnabled, packageImporterEndpoints, passiveQueues, priorityQueues, retryStrategy, retryAttempts, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget, queueProvider, asyncDelivery, httpConnTimeout);
+    OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo result = apiInstance.orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, allowedRoots, queueProcessingEnabled, packageImporterEndpoints, passiveQueues, priorityQueues, retryStrategy, retryAttempts, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget, queueProvider, asyncDelivery, httpConnTimeout);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto");
     e.printStackTrace();
 }
 ```
@@ -38901,7 +38901,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo**](OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo.md)
 
 ### Authorization
 
@@ -38912,9 +38912,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory"></a>
-# **orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory**
-> OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory(post, apply, delete, action, $location, propertylist, name, jcrPrivilege)
+<a name="orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA"></a>
+# **orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA**
+> OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA(post, apply, delete, action, $location, propertylist, name, jcrPrivilege)
 
 
 
@@ -38935,10 +38935,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String name = "name_example"; // String | 
 String jcrPrivilege = "jcrPrivilege_example"; // String | 
 try {
-    OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo result = apiInstance.orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory(post, apply, delete, action, $location, propertylist, name, jcrPrivilege);
+    OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo result = apiInstance.orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA(post, apply, delete, action, $location, propertylist, name, jcrPrivilege);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA");
     e.printStackTrace();
 }
 ```
@@ -38958,7 +38958,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo**](OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo**](OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo.md)
 
 ### Authorization
 
@@ -39046,9 +39046,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory"></a>
-# **orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory**
-> OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterEndpoints, pullItems, httpConnTimeout, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget)
+<a name="orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto"></a>
+# **orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto**
+> OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterEndpoints, pullItems, httpConnTimeout, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget)
 
 
 
@@ -39081,10 +39081,10 @@ String transportSecretProviderTarget = "transportSecretProviderTarget_example"; 
 String packageBuilderTarget = "packageBuilderTarget_example"; // String | 
 String triggersTarget = "triggersTarget_example"; // String | 
 try {
-    OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo result = apiInstance.orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterEndpoints, pullItems, httpConnTimeout, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget);
+    OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo result = apiInstance.orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterEndpoints, pullItems, httpConnTimeout, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto");
     e.printStackTrace();
 }
 ```
@@ -39116,7 +39116,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo**](OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.md)
 
 ### Authorization
 
@@ -39127,9 +39127,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory"></a>
-# **orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory**
-> OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterTarget, packageImporterTarget, requestAuthorizationStrategyTarget, triggersTarget)
+<a name="orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor"></a>
+# **orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor**
+> OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterTarget, packageImporterTarget, requestAuthorizationStrategyTarget, triggersTarget)
 
 
 
@@ -39159,10 +39159,10 @@ String packageImporterTarget = "packageImporterTarget_example"; // String |
 String requestAuthorizationStrategyTarget = "requestAuthorizationStrategyTarget_example"; // String | 
 String triggersTarget = "triggersTarget_example"; // String | 
 try {
-    OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo result = apiInstance.orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterTarget, packageImporterTarget, requestAuthorizationStrategyTarget, triggersTarget);
+    OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo result = apiInstance.orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor(post, apply, delete, action, $location, propertylist, name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterTarget, packageImporterTarget, requestAuthorizationStrategyTarget, triggersTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor");
     e.printStackTrace();
 }
 ```
@@ -39191,7 +39191,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo**](OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo.md)
 
 ### Authorization
 
@@ -39352,9 +39352,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory"></a>
-# **orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory**
-> OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory(post, apply, delete, action, $location, propertylist, name, queue, dropInvalidItems, agentTarget)
+<a name="orgApacheSlingDistributionPackagingImplExporterAgentDistributio"></a>
+# **orgApacheSlingDistributionPackagingImplExporterAgentDistributio**
+> OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo orgApacheSlingDistributionPackagingImplExporterAgentDistributio(post, apply, delete, action, $location, propertylist, name, queue, dropInvalidItems, agentTarget)
 
 
 
@@ -39377,10 +39377,10 @@ String queue = "queue_example"; // String |
 Boolean dropInvalidItems = true; // Boolean | 
 String agentTarget = "agentTarget_example"; // String | 
 try {
-    OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo result = apiInstance.orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory(post, apply, delete, action, $location, propertylist, name, queue, dropInvalidItems, agentTarget);
+    OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo result = apiInstance.orgApacheSlingDistributionPackagingImplExporterAgentDistributio(post, apply, delete, action, $location, propertylist, name, queue, dropInvalidItems, agentTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplExporterAgentDistributio");
     e.printStackTrace();
 }
 ```
@@ -39402,7 +39402,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo**](OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo.md)
 
 ### Authorization
 
@@ -39413,9 +39413,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory"></a>
-# **orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory**
-> OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory(post, apply, delete, action, $location, propertylist, name, packageBuilderTarget)
+<a name="orgApacheSlingDistributionPackagingImplExporterLocalDistributio"></a>
+# **orgApacheSlingDistributionPackagingImplExporterLocalDistributio**
+> OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo orgApacheSlingDistributionPackagingImplExporterLocalDistributio(post, apply, delete, action, $location, propertylist, name, packageBuilderTarget)
 
 
 
@@ -39436,10 +39436,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String name = "name_example"; // String | 
 String packageBuilderTarget = "packageBuilderTarget_example"; // String | 
 try {
-    OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo result = apiInstance.orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory(post, apply, delete, action, $location, propertylist, name, packageBuilderTarget);
+    OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo result = apiInstance.orgApacheSlingDistributionPackagingImplExporterLocalDistributio(post, apply, delete, action, $location, propertylist, name, packageBuilderTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplExporterLocalDistributio");
     e.printStackTrace();
 }
 ```
@@ -39459,7 +39459,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo**](OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo.md)
 
 ### Authorization
 
@@ -39470,9 +39470,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory"></a>
-# **orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory**
-> OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory(post, apply, delete, action, $location, propertylist, name, endpoints, pullItems, packageBuilderTarget, transportSecretProviderTarget)
+<a name="orgApacheSlingDistributionPackagingImplExporterRemoteDistributi"></a>
+# **orgApacheSlingDistributionPackagingImplExporterRemoteDistributi**
+> OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplExporterRemoteDistributi(post, apply, delete, action, $location, propertylist, name, endpoints, pullItems, packageBuilderTarget, transportSecretProviderTarget)
 
 
 
@@ -39496,10 +39496,10 @@ Integer pullItems = 56; // Integer |
 String packageBuilderTarget = "packageBuilderTarget_example"; // String | 
 String transportSecretProviderTarget = "transportSecretProviderTarget_example"; // String | 
 try {
-    OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo result = apiInstance.orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory(post, apply, delete, action, $location, propertylist, name, endpoints, pullItems, packageBuilderTarget, transportSecretProviderTarget);
+    OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo result = apiInstance.orgApacheSlingDistributionPackagingImplExporterRemoteDistributi(post, apply, delete, action, $location, propertylist, name, endpoints, pullItems, packageBuilderTarget, transportSecretProviderTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplExporterRemoteDistributi");
     e.printStackTrace();
 }
 ```
@@ -39522,7 +39522,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.md)
 
 ### Authorization
 
@@ -39533,9 +39533,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory"></a>
-# **orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory**
-> OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory(post, apply, delete, action, $location, propertylist, name, packageBuilderTarget)
+<a name="orgApacheSlingDistributionPackagingImplImporterLocalDistributio"></a>
+# **orgApacheSlingDistributionPackagingImplImporterLocalDistributio**
+> OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo orgApacheSlingDistributionPackagingImplImporterLocalDistributio(post, apply, delete, action, $location, propertylist, name, packageBuilderTarget)
 
 
 
@@ -39556,10 +39556,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String name = "name_example"; // String | 
 String packageBuilderTarget = "packageBuilderTarget_example"; // String | 
 try {
-    OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo result = apiInstance.orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory(post, apply, delete, action, $location, propertylist, name, packageBuilderTarget);
+    OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo result = apiInstance.orgApacheSlingDistributionPackagingImplImporterLocalDistributio(post, apply, delete, action, $location, propertylist, name, packageBuilderTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplImporterLocalDistributio");
     e.printStackTrace();
 }
 ```
@@ -39579,7 +39579,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo**](OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo.md)
 
 ### Authorization
 
@@ -39590,9 +39590,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory"></a>
-# **orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory**
-> OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory(post, apply, delete, action, $location, propertylist, name, endpoints, transportSecretProviderTarget)
+<a name="orgApacheSlingDistributionPackagingImplImporterRemoteDistributi"></a>
+# **orgApacheSlingDistributionPackagingImplImporterRemoteDistributi**
+> OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplImporterRemoteDistributi(post, apply, delete, action, $location, propertylist, name, endpoints, transportSecretProviderTarget)
 
 
 
@@ -39614,10 +39614,10 @@ String name = "name_example"; // String |
 List<String> endpoints = Arrays.asList(); // List<String> | 
 String transportSecretProviderTarget = "transportSecretProviderTarget_example"; // String | 
 try {
-    OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo result = apiInstance.orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory(post, apply, delete, action, $location, propertylist, name, endpoints, transportSecretProviderTarget);
+    OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo result = apiInstance.orgApacheSlingDistributionPackagingImplImporterRemoteDistributi(post, apply, delete, action, $location, propertylist, name, endpoints, transportSecretProviderTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplImporterRemoteDistributi");
     e.printStackTrace();
 }
 ```
@@ -39638,7 +39638,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo**](OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo.md)
 
 ### Authorization
 
@@ -39649,9 +39649,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory"></a>
-# **orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory**
-> OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory(post, apply, delete, action, $location, propertylist, name, serviceName, path, privilegeName)
+<a name="orgApacheSlingDistributionPackagingImplImporterRepositoryDistri"></a>
+# **orgApacheSlingDistributionPackagingImplImporterRepositoryDistri**
+> OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo orgApacheSlingDistributionPackagingImplImporterRepositoryDistri(post, apply, delete, action, $location, propertylist, name, serviceName, path, privilegeName)
 
 
 
@@ -39674,10 +39674,10 @@ String serviceName = "serviceName_example"; // String |
 String path = "path_example"; // String | 
 String privilegeName = "privilegeName_example"; // String | 
 try {
-    OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo result = apiInstance.orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory(post, apply, delete, action, $location, propertylist, name, serviceName, path, privilegeName);
+    OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo result = apiInstance.orgApacheSlingDistributionPackagingImplImporterRepositoryDistri(post, apply, delete, action, $location, propertylist, name, serviceName, path, privilegeName);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionPackagingImplImporterRepositoryDistri");
     e.printStackTrace();
 }
 ```
@@ -39699,7 +39699,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo**](OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo.md)
 
 ### Authorization
 
@@ -39710,9 +39710,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory"></a>
-# **orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory**
-> OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory(post, apply, delete, action, $location, propertylist, providerRoots, kind)
+<a name="orgApacheSlingDistributionResourcesImplDistributionConfiguration"></a>
+# **orgApacheSlingDistributionResourcesImplDistributionConfiguration**
+> OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo orgApacheSlingDistributionResourcesImplDistributionConfiguration(post, apply, delete, action, $location, propertylist, providerRoots, kind)
 
 
 
@@ -39733,10 +39733,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String providerRoots = "providerRoots_example"; // String | 
 String kind = "kind_example"; // String | 
 try {
-    OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo result = apiInstance.orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory(post, apply, delete, action, $location, propertylist, providerRoots, kind);
+    OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo result = apiInstance.orgApacheSlingDistributionResourcesImplDistributionConfiguration(post, apply, delete, action, $location, propertylist, providerRoots, kind);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionResourcesImplDistributionConfiguration");
     e.printStackTrace();
 }
 ```
@@ -39756,7 +39756,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo**](OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo.md)
+[**OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo**](OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo.md)
 
 ### Authorization
 
@@ -39767,9 +39767,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory"></a>
-# **orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory**
-> OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory(post, apply, delete, action, $location, propertylist, providerRoots, kind)
+<a name="orgApacheSlingDistributionResourcesImplDistributionServiceResour"></a>
+# **orgApacheSlingDistributionResourcesImplDistributionServiceResour**
+> OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo orgApacheSlingDistributionResourcesImplDistributionServiceResour(post, apply, delete, action, $location, propertylist, providerRoots, kind)
 
 
 
@@ -39790,10 +39790,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String providerRoots = "providerRoots_example"; // String | 
 String kind = "kind_example"; // String | 
 try {
-    OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo result = apiInstance.orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory(post, apply, delete, action, $location, propertylist, providerRoots, kind);
+    OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo result = apiInstance.orgApacheSlingDistributionResourcesImplDistributionServiceResour(post, apply, delete, action, $location, propertylist, providerRoots, kind);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionResourcesImplDistributionServiceResour");
     e.printStackTrace();
 }
 ```
@@ -39813,7 +39813,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo**](OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo.md)
+[**OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo**](OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo.md)
 
 ### Authorization
 
@@ -39824,9 +39824,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory"></a>
-# **orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory**
-> OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory(post, apply, delete, action, $location, propertylist, name, type, formatTarget, tempFsFolder, fileThreshold, memoryUnit, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, cleanupDelay, packageFilters, propertyFilters)
+<a name="orgApacheSlingDistributionSerializationImplDistributionPackageBu"></a>
+# **orgApacheSlingDistributionSerializationImplDistributionPackageBu**
+> OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo orgApacheSlingDistributionSerializationImplDistributionPackageBu(post, apply, delete, action, $location, propertylist, name, type, formatTarget, tempFsFolder, fileThreshold, memoryUnit, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, cleanupDelay, packageFilters, propertyFilters)
 
 
 
@@ -39857,10 +39857,10 @@ Integer cleanupDelay = 56; // Integer |
 List<String> packageFilters = Arrays.asList(); // List<String> | 
 List<String> propertyFilters = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo result = apiInstance.orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory(post, apply, delete, action, $location, propertylist, name, type, formatTarget, tempFsFolder, fileThreshold, memoryUnit, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, cleanupDelay, packageFilters, propertyFilters);
+    OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo result = apiInstance.orgApacheSlingDistributionSerializationImplDistributionPackageBu(post, apply, delete, action, $location, propertylist, name, type, formatTarget, tempFsFolder, fileThreshold, memoryUnit, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, cleanupDelay, packageFilters, propertyFilters);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionSerializationImplDistributionPackageBu");
     e.printStackTrace();
 }
 ```
@@ -39890,7 +39890,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo**](OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo.md)
+[**OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo**](OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo.md)
 
 ### Authorization
 
@@ -39901,9 +39901,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory"></a>
-# **orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory**
-> OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory(post, apply, delete, action, $location, propertylist, name, type, importMode, aclHandling, packageRoots, packageFilters, propertyFilters, tempFsFolder, useBinaryReferences, autoSaveThreshold, cleanupDelay, fileThreshold, MEGA_BYTES, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, pathsMapping, strictImport)
+<a name="orgApacheSlingDistributionSerializationImplVltVaultDistribution"></a>
+# **orgApacheSlingDistributionSerializationImplVltVaultDistribution**
+> OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo orgApacheSlingDistributionSerializationImplVltVaultDistribution(post, apply, delete, action, $location, propertylist, name, type, importMode, aclHandling, packageRoots, packageFilters, propertyFilters, tempFsFolder, useBinaryReferences, autoSaveThreshold, cleanupDelay, fileThreshold, MEGA_BYTES, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, pathsMapping, strictImport)
 
 
 
@@ -39940,10 +39940,10 @@ Integer monitoringQueueSize = 56; // Integer |
 List<String> pathsMapping = Arrays.asList(); // List<String> | 
 Boolean strictImport = true; // Boolean | 
 try {
-    OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo result = apiInstance.orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory(post, apply, delete, action, $location, propertylist, name, type, importMode, aclHandling, packageRoots, packageFilters, propertyFilters, tempFsFolder, useBinaryReferences, autoSaveThreshold, cleanupDelay, fileThreshold, MEGA_BYTES, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, pathsMapping, strictImport);
+    OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo result = apiInstance.orgApacheSlingDistributionSerializationImplVltVaultDistribution(post, apply, delete, action, $location, propertylist, name, type, importMode, aclHandling, packageRoots, packageFilters, propertyFilters, tempFsFolder, useBinaryReferences, autoSaveThreshold, cleanupDelay, fileThreshold, MEGA_BYTES, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, pathsMapping, strictImport);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionSerializationImplVltVaultDistribution");
     e.printStackTrace();
 }
 ```
@@ -39979,7 +39979,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo**](OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo.md)
+[**OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo**](OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo.md)
 
 ### Authorization
 
@@ -39990,9 +39990,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider"></a>
-# **orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider**
-> OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider(post, apply, delete, action, $location, propertylist, name, username, password)
+<a name="orgApacheSlingDistributionTransportImplUserCredentialsDistributi"></a>
+# **orgApacheSlingDistributionTransportImplUserCredentialsDistributi**
+> OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo orgApacheSlingDistributionTransportImplUserCredentialsDistributi(post, apply, delete, action, $location, propertylist, name, username, password)
 
 
 
@@ -40014,10 +40014,10 @@ String name = "name_example"; // String |
 String username = "username_example"; // String | 
 String password = "password_example"; // String | 
 try {
-    OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo result = apiInstance.orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider(post, apply, delete, action, $location, propertylist, name, username, password);
+    OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo result = apiInstance.orgApacheSlingDistributionTransportImplUserCredentialsDistributi(post, apply, delete, action, $location, propertylist, name, username, password);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTransportImplUserCredentialsDistributi");
     e.printStackTrace();
 }
 ```
@@ -40038,7 +40038,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo**](OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo.md)
+[**OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo**](OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo.md)
 
 ### Authorization
 
@@ -40049,9 +40049,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory"></a>
-# **orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory**
-> OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path)
+<a name="orgApacheSlingDistributionTriggerImplDistributionEventDistribute"></a>
+# **orgApacheSlingDistributionTriggerImplDistributionEventDistribute**
+> OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo orgApacheSlingDistributionTriggerImplDistributionEventDistribute(post, apply, delete, action, $location, propertylist, name, path)
 
 
 
@@ -40072,10 +40072,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String name = "name_example"; // String | 
 String path = "path_example"; // String | 
 try {
-    OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo result = apiInstance.orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path);
+    OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo result = apiInstance.orgApacheSlingDistributionTriggerImplDistributionEventDistribute(post, apply, delete, action, $location, propertylist, name, path);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplDistributionEventDistribute");
     e.printStackTrace();
 }
 ```
@@ -40095,7 +40095,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo**](OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo.md)
 
 ### Authorization
 
@@ -40106,9 +40106,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory"></a>
-# **orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory**
-> OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path, ignoredPathsPatterns, serviceName, deep)
+<a name="orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger"></a>
+# **orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger**
+> OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger(post, apply, delete, action, $location, propertylist, name, path, ignoredPathsPatterns, serviceName, deep)
 
 
 
@@ -40132,10 +40132,10 @@ List<String> ignoredPathsPatterns = Arrays.asList(); // List<String> |
 String serviceName = "serviceName_example"; // String | 
 Boolean deep = true; // Boolean | 
 try {
-    OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo result = apiInstance.orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path, ignoredPathsPatterns, serviceName, deep);
+    OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo result = apiInstance.orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger(post, apply, delete, action, $location, propertylist, name, path, ignoredPathsPatterns, serviceName, deep);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger");
     e.printStackTrace();
 }
 ```
@@ -40158,7 +40158,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo**](OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo.md)
 
 ### Authorization
 
@@ -40169,9 +40169,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory"></a>
-# **orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory**
-> OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path, serviceName, nuggetsPath)
+<a name="orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi"></a>
+# **orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi**
+> OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi(post, apply, delete, action, $location, propertylist, name, path, serviceName, nuggetsPath)
 
 
 
@@ -40194,10 +40194,10 @@ String path = "path_example"; // String |
 String serviceName = "serviceName_example"; // String | 
 String nuggetsPath = "nuggetsPath_example"; // String | 
 try {
-    OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo result = apiInstance.orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path, serviceName, nuggetsPath);
+    OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo result = apiInstance.orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi(post, apply, delete, action, $location, propertylist, name, path, serviceName, nuggetsPath);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi");
     e.printStackTrace();
 }
 ```
@@ -40219,7 +40219,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo**](OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.md)
 
 ### Authorization
 
@@ -40230,9 +40230,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory"></a>
-# **orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory**
-> OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, endpoint, transportSecretProviderTarget)
+<a name="orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig"></a>
+# **orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig**
+> OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig(post, apply, delete, action, $location, propertylist, name, endpoint, transportSecretProviderTarget)
 
 
 
@@ -40254,10 +40254,10 @@ String name = "name_example"; // String |
 String endpoint = "endpoint_example"; // String | 
 String transportSecretProviderTarget = "transportSecretProviderTarget_example"; // String | 
 try {
-    OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo result = apiInstance.orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, endpoint, transportSecretProviderTarget);
+    OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo result = apiInstance.orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig(post, apply, delete, action, $location, propertylist, name, endpoint, transportSecretProviderTarget);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig");
     e.printStackTrace();
 }
 ```
@@ -40278,7 +40278,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo**](OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo.md)
 
 ### Authorization
 
@@ -40289,9 +40289,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory"></a>
-# **orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory**
-> OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path)
+<a name="orgApacheSlingDistributionTriggerImplResourceEventDistributionTr"></a>
+# **orgApacheSlingDistributionTriggerImplResourceEventDistributionTr**
+> OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo orgApacheSlingDistributionTriggerImplResourceEventDistributionTr(post, apply, delete, action, $location, propertylist, name, path)
 
 
 
@@ -40312,10 +40312,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 String name = "name_example"; // String | 
 String path = "path_example"; // String | 
 try {
-    OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo result = apiInstance.orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path);
+    OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo result = apiInstance.orgApacheSlingDistributionTriggerImplResourceEventDistributionTr(post, apply, delete, action, $location, propertylist, name, path);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplResourceEventDistributionTr");
     e.printStackTrace();
 }
 ```
@@ -40335,7 +40335,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo**](OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo.md)
 
 ### Authorization
 
@@ -40346,9 +40346,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory"></a>
-# **orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory**
-> OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path, seconds, serviceName)
+<a name="orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge"></a>
+# **orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge**
+> OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge(post, apply, delete, action, $location, propertylist, name, path, seconds, serviceName)
 
 
 
@@ -40371,10 +40371,10 @@ String path = "path_example"; // String |
 String seconds = "seconds_example"; // String | 
 String serviceName = "serviceName_example"; // String | 
 try {
-    OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo result = apiInstance.orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory(post, apply, delete, action, $location, propertylist, name, path, seconds, serviceName);
+    OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo result = apiInstance.orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge(post, apply, delete, action, $location, propertylist, name, path, seconds, serviceName);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge");
     e.printStackTrace();
 }
 ```
@@ -40396,7 +40396,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo**](OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.md)
 
 ### Authorization
 
@@ -41112,9 +41112,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider"></a>
-# **orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider**
-> OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider(post, apply, delete, action, $location, propertylist, users, groups)
+<a name="orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW"></a>
+# **orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW**
+> OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW(post, apply, delete, action, $location, propertylist, users, groups)
 
 
 
@@ -41135,10 +41135,10 @@ List<String> propertylist = Arrays.asList(); // List<String> |
 List<String> users = Arrays.asList(); // List<String> | 
 List<String> groups = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo result = apiInstance.orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider(post, apply, delete, action, $location, propertylist, users, groups);
+    OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo result = apiInstance.orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW(post, apply, delete, action, $location, propertylist, users, groups);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW");
     e.printStackTrace();
 }
 ```
@@ -41158,7 +41158,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo**](OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo.md)
+[**OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo**](OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo.md)
 
 ### Authorization
 
@@ -42570,9 +42570,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService"></a>
-# **orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService**
-> OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService(post, apply, delete, action, $location, propertylist, serviceRanking)
+<a name="orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic"></a>
+# **orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic**
+> OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic(post, apply, delete, action, $location, propertylist, serviceRanking)
 
 
 
@@ -42592,10 +42592,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer serviceRanking = 56; // Integer | 
 try {
-    OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo result = apiInstance.orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService(post, apply, delete, action, $location, propertylist, serviceRanking);
+    OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo result = apiInstance.orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic(post, apply, delete, action, $location, propertylist, serviceRanking);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic");
     e.printStackTrace();
 }
 ```
@@ -42614,7 +42614,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo**](OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo.md)
+[**OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo**](OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo.md)
 
 ### Authorization
 
@@ -42869,9 +42869,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory"></a>
-# **orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory**
-> OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory(post, apply, delete, action, $location, propertylist, felixInventoryPrinterName, felixInventoryPrinterTitle, path)
+<a name="orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto"></a>
+# **orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto**
+> OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto(post, apply, delete, action, $location, propertylist, felixInventoryPrinterName, felixInventoryPrinterTitle, path)
 
 
 
@@ -42893,10 +42893,10 @@ String felixInventoryPrinterName = "felixInventoryPrinterName_example"; // Strin
 String felixInventoryPrinterTitle = "felixInventoryPrinterTitle_example"; // String | 
 String path = "path_example"; // String | 
 try {
-    OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo result = apiInstance.orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory(post, apply, delete, action, $location, propertylist, felixInventoryPrinterName, felixInventoryPrinterTitle, path);
+    OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo result = apiInstance.orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto(post, apply, delete, action, $location, propertylist, felixInventoryPrinterName, felixInventoryPrinterTitle, path);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto");
     e.printStackTrace();
 }
 ```
@@ -42917,7 +42917,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo**](OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo.md)
+[**OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo**](OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo.md)
 
 ### Authorization
 
@@ -43099,9 +43099,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl"></a>
-# **orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl**
-> OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl(post, apply, delete, action, $location, propertylist, logStacktraceOnclose)
+<a name="orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider"></a>
+# **orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider**
+> OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider(post, apply, delete, action, $location, propertylist, logStacktraceOnclose)
 
 
 
@@ -43121,10 +43121,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Boolean logStacktraceOnclose = true; // Boolean | 
 try {
-    OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo result = apiInstance.orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl(post, apply, delete, action, $location, propertylist, logStacktraceOnclose);
+    OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo result = apiInstance.orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider(post, apply, delete, action, $location, propertylist, logStacktraceOnclose);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider");
     e.printStackTrace();
 }
 ```
@@ -43143,7 +43143,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo**](OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo.md)
+[**OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo**](OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo.md)
 
 ### Authorization
 
@@ -43215,9 +43215,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory"></a>
-# **orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory**
-> OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory(post, apply, delete, action, $location, propertylist, orgApacheSlingScriptingJavascriptRhinoOptLevel)
+<a name="orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa"></a>
+# **orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa**
+> OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa(post, apply, delete, action, $location, propertylist, orgApacheSlingScriptingJavascriptRhinoOptLevel)
 
 
 
@@ -43237,10 +43237,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 Integer orgApacheSlingScriptingJavascriptRhinoOptLevel = 56; // Integer | 
 try {
-    OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo result = apiInstance.orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory(post, apply, delete, action, $location, propertylist, orgApacheSlingScriptingJavascriptRhinoOptLevel);
+    OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo result = apiInstance.orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa(post, apply, delete, action, $location, propertylist, orgApacheSlingScriptingJavascriptRhinoOptLevel);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa");
     e.printStackTrace();
 }
 ```
@@ -43259,7 +43259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo**](OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo.md)
+[**OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo**](OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo.md)
 
 ### Authorization
 
@@ -43345,9 +43345,9 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json
 
-<a name="orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider"></a>
-# **orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider**
-> OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider(post, apply, delete, action, $location, propertylist, orgApacheSlingScriptingSightlyJsBindings)
+<a name="orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv"></a>
+# **orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv**
+> OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv(post, apply, delete, action, $location, propertylist, orgApacheSlingScriptingSightlyJsBindings)
 
 
 
@@ -43367,10 +43367,10 @@ String $location = "$location_example"; // String |
 List<String> propertylist = Arrays.asList(); // List<String> | 
 List<String> orgApacheSlingScriptingSightlyJsBindings = Arrays.asList(); // List<String> | 
 try {
-    OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo result = apiInstance.orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider(post, apply, delete, action, $location, propertylist, orgApacheSlingScriptingSightlyJsBindings);
+    OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo result = apiInstance.orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv(post, apply, delete, action, $location, propertylist, orgApacheSlingScriptingSightlyJsBindings);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider");
+    System.err.println("Exception when calling ConfigmgrApi#orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv");
     e.printStackTrace();
 }
 ```
@@ -43389,7 +43389,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo**](OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo.md)
+[**OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo**](OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo.md)
 
 ### Authorization
 

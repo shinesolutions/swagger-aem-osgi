@@ -30,7 +30,7 @@ import java.io.IOException;
 /**
  * ComDayCqPollingImporterImplPollingImporterImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComDayCqPollingImporterImplPollingImporterImplProperties {
   public static final String SERIALIZED_NAME_IMPORTER_MIN_INTERVAL = "importer.min.interval";
   @SerializedName(SERIALIZED_NAME_IMPORTER_MIN_INTERVAL)

@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckProperties {
   public static final String SERIALIZED_NAME_HC_TAGS = "hc.tags";
   @SerializedName(SERIALIZED_NAME_HC_TAGS)

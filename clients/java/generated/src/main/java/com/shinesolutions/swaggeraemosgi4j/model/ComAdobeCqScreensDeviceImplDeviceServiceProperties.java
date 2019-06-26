@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqScreensDeviceImplDeviceServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class ComAdobeCqScreensDeviceImplDeviceServiceProperties {
   public static final String SERIALIZED_NAME_COM_ADOBE_AEM_SCREENS_PLAYER_PINGFREQUENCY = "com.adobe.aem.screens.player.pingfrequency";
   @SerializedName(SERIALIZED_NAME_COM_ADOBE_AEM_SCREENS_PLAYER_PINGFREQUENCY)

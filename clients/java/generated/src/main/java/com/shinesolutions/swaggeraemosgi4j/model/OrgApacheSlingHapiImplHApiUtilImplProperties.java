@@ -30,7 +30,7 @@ import java.io.IOException;
 /**
  * OrgApacheSlingHapiImplHApiUtilImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T12:10:03.209Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
 public class OrgApacheSlingHapiImplHApiUtilImplProperties {
   public static final String SERIALIZED_NAME_ORG_APACHE_SLING_HAPI_TOOLS_RESOURCETYPE = "org.apache.sling.hapi.tools.resourcetype";
   @SerializedName(SERIALIZED_NAME_ORG_APACHE_SLING_HAPI_TOOLS_RESOURCETYPE)
