@@ -524,7 +524,10 @@ end
 #         with each char after a special char in CAPITAL character.
 def gen_operation_id(config_node_id)
   # Clone config node id so we get a new object_id to alter with
-  operation_id_raw = config_node_id.clone
+  operation_id_cloned = config_node_id.clone
+
+  # Operation Ids with more than 70 chars are not supported
+  operation_id_raw = operation_id_cloned.slice(0...70)
 
   # Convert each first char after non alphabetical char to UPPERCASE
   # operation_id_uppercase_after_dots = operation_id_raw.gsub!(/(\W[a-zA-Z])/){ $1.upcase }
