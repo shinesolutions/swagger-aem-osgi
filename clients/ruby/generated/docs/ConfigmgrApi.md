@@ -5,7 +5,7 @@ All URIs are relative to *http://localhost*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**adaptive_form_and_interactive_communication_web_channel_configuration**](ConfigmgrApi.md#adaptive_form_and_interactive_communication_web_channel_configuration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Configuration | 
-[**adaptive_form_and_interactive_communication_web_channel_theme_configuration**](ConfigmgrApi.md#adaptive_form_and_interactive_communication_web_channel_theme_configuration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
+[**adaptive_form_and_interactive_communication_web_channel_theme_configur**](ConfigmgrApi.md#adaptive_form_and_interactive_communication_web_channel_theme_configur) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
 [**analytics_component_query_cache_service**](ConfigmgrApi.md#analytics_component_query_cache_service) | **POST** /system/console/configMgr/Analytics Component Query Cache Service | 
 [**apache_sling_health_check_result_html_serializer**](ConfigmgrApi.md#apache_sling_health_check_result_html_serializer) | **POST** /system/console/configMgr/Apache Sling Health Check Result HTML Serializer | 
 [**com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration**](ConfigmgrApi.md#com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration) | **POST** /system/console/configMgr/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration | 
@@ -23,7 +23,7 @@ Method | HTTP request | Description
 [**com_adobe_cq_cdn_rewriter_impl_aws_cloud_front_rewriter**](ConfigmgrApi.md#com_adobe_cq_cdn_rewriter_impl_aws_cloud_front_rewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter | 
 [**com_adobe_cq_cdn_rewriter_impl_cdn_config_service_impl**](ConfigmgrApi.md#com_adobe_cq_cdn_rewriter_impl_cdn_config_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl | 
 [**com_adobe_cq_cdn_rewriter_impl_cdn_rewriter**](ConfigmgrApi.md#com_adobe_cq_cdn_rewriter_impl_cdn_rewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNRewriter | 
-[**com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler**](ConfigmgrApi.md#com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
+[**com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle**](ConfigmgrApi.md#com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
 [**com_adobe_cq_commerce_impl_asset_dynamic_image_handler**](ConfigmgrApi.md#com_adobe_cq_commerce_impl_asset_dynamic_image_handler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.DynamicImageHandler | 
 [**com_adobe_cq_commerce_impl_asset_product_asset_handler_provider_impl**](ConfigmgrApi.md#com_adobe_cq_commerce_impl_asset_product_asset_handler_provider_impl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl | 
 [**com_adobe_cq_commerce_impl_asset_static_image_handler**](ConfigmgrApi.md#com_adobe_cq_commerce_impl_asset_static_image_handler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.StaticImageHandler | 
@@ -34,7 +34,7 @@ Method | HTTP request | Description
 [**com_adobe_cq_commerce_pim_impl_productfeed_product_feed_service_impl**](ConfigmgrApi.md#com_adobe_cq_commerce_pim_impl_productfeed_product_feed_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl | 
 [**com_adobe_cq_contentinsight_impl_reporting_services_settings_provider**](ConfigmgrApi.md#com_adobe_cq_contentinsight_impl_reporting_services_settings_provider) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider | 
 [**com_adobe_cq_contentinsight_impl_servlets_bright_edge_proxy_servlet**](ConfigmgrApi.md#com_adobe_cq_contentinsight_impl_servlets_bright_edge_proxy_servlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet | 
-[**com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet**](ConfigmgrApi.md#com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
+[**com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle**](ConfigmgrApi.md#com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
 [**com_adobe_cq_dam_cfm_impl_component_component_config_impl**](ConfigmgrApi.md#com_adobe_cq_dam_cfm_impl_component_component_config_impl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl | 
 [**com_adobe_cq_dam_cfm_impl_conf_feature_config_impl**](ConfigmgrApi.md#com_adobe_cq_dam_cfm_impl_conf_feature_config_impl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl | 
 [**com_adobe_cq_dam_cfm_impl_content_rewriter_asset_processor**](ConfigmgrApi.md#com_adobe_cq_dam_cfm_impl_content_rewriter_asset_processor) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor | 
@@ -74,33 +74,33 @@ Method | HTTP request | Description
 [**com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl**](ConfigmgrApi.md#com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl | 
 [**com_adobe_cq_screens_offlinecontent_impl_offline_content_service_impl**](ConfigmgrApi.md#com_adobe_cq_screens_offlinecontent_impl_offline_content_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl | 
 [**com_adobe_cq_screens_segmentation_impl_segmentation_feature_flag**](ConfigmgrApi.md#com_adobe_cq_screens_segmentation_impl_segmentation_feature_flag) | **POST** /system/console/configMgr/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag | 
-[**com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
+[**com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch**](ConfigmgrApi.md#com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
 [**com_adobe_cq_security_hc_bundles_impl_wcm_filter_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_bundles_impl_wcm_filter_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck | 
 [**com_adobe_cq_security_hc_dispatcher_impl_dispatcher_access_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_dispatcher_impl_dispatcher_access_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck | 
 [**com_adobe_cq_security_hc_packages_impl_example_content_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_packages_impl_example_content_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck | 
 [**com_adobe_cq_security_hc_webserver_impl_clickjacking_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_webserver_impl_clickjacking_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck | 
-[**com_adobe_cq_social_accountverification_impl_account_management_config_impl**](ConfigmgrApi.md#com_adobe_cq_social_accountverification_impl_account_management_config_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
-[**com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
-[**com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
+[**com_adobe_cq_social_accountverification_impl_account_management_config_im**](ConfigmgrApi.md#com_adobe_cq_social_accountverification_impl_account_management_config_im) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
+[**com_adobe_cq_social_activitystreams_client_impl_social_activity_componen**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_client_impl_social_activity_componen) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
+[**com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
 [**com_adobe_cq_social_activitystreams_listener_impl_event_listener_handler**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_event_listener_handler) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler | 
-[**com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
-[**com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
-[**com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
-[**com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl**](ConfigmgrApi.md#com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
-[**com_adobe_cq_social_calendar_client_operationextensions_event_attachment**](ConfigmgrApi.md#com_adobe_cq_social_calendar_client_operationextensions_event_attachment) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
+[**com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
+[**com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
+[**com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
+[**com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i**](ConfigmgrApi.md#com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
+[**com_adobe_cq_social_calendar_client_operationextensions_event_attachmen**](ConfigmgrApi.md#com_adobe_cq_social_calendar_client_operationextensions_event_attachmen) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
 [**com_adobe_cq_social_calendar_servlets_time_zone_servlet**](ConfigmgrApi.md#com_adobe_cq_social_calendar_servlets_time_zone_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.servlets.TimeZoneServlet | 
-[**com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
-[**com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
-[**com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
-[**com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
-[**com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
+[**com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
+[**com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
+[**com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
+[**com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
+[**com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
 [**com_adobe_cq_social_commons_cors_cors_authentication_filter**](ConfigmgrApi.md#com_adobe_cq_social_commons_cors_cors_authentication_filter) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter | 
 [**com_adobe_cq_social_commons_emailreply_impl_android_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_android_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider | 
 [**com_adobe_cq_social_commons_emailreply_impl_comment_email_builder_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_comment_email_builder_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl | 
 [**com_adobe_cq_social_commons_emailreply_impl_comment_email_event_listener**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_comment_email_event_listener) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener | 
 [**com_adobe_cq_social_commons_emailreply_impl_custom_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_custom_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider | 
-[**com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
-[**com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
+[**com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
+[**com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
 [**com_adobe_cq_social_commons_emailreply_impl_email_reply_importer**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_reply_importer) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter | 
 [**com_adobe_cq_social_commons_emailreply_impl_gmail_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_gmail_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider | 
 [**com_adobe_cq_social_commons_emailreply_impl_ios_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_ios_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider | 
@@ -108,53 +108,53 @@ Method | HTTP request | Description
 [**com_adobe_cq_social_commons_emailreply_impl_out_look_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_out_look_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider | 
 [**com_adobe_cq_social_commons_emailreply_impl_unknown_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_unknown_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider | 
 [**com_adobe_cq_social_commons_emailreply_impl_yahoo_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_yahoo_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider | 
-[**com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads**](ConfigmgrApi.md#com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
+[**com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload**](ConfigmgrApi.md#com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
 [**com_adobe_cq_social_commons_ugclimiter_impl_ugc_limiter_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_ugclimiter_impl_ugc_limiter_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl | 
-[**com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
+[**com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit**](ConfigmgrApi.md#com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
 [**com_adobe_cq_social_connect_oauth_impl_facebook_provider_impl**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_facebook_provider_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl | 
-[**com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
+[**com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
 [**com_adobe_cq_social_connect_oauth_impl_social_o_auth_user_profile_mapper**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_social_o_auth_user_profile_mapper) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper | 
 [**com_adobe_cq_social_connect_oauth_impl_twitter_provider_impl**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_twitter_provider_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl | 
-[**com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
+[**com_adobe_cq_social_content_fragments_services_impl_communities_fragmen**](ConfigmgrApi.md#com_adobe_cq_social_content_fragments_services_impl_communities_fragmen) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
 [**com_adobe_cq_social_datastore_as_impl_as_resource_provider_factory**](ConfigmgrApi.md#com_adobe_cq_social_datastore_as_impl_as_resource_provider_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory | 
 [**com_adobe_cq_social_datastore_op_impl_social_ms_resource_provider_factory**](ConfigmgrApi.md#com_adobe_cq_social_datastore_op_impl_social_ms_resource_provider_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory | 
-[**com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory**](ConfigmgrApi.md#com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
-[**com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory**](ConfigmgrApi.md#com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
-[**com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory**](ConfigmgrApi.md#com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
-[**com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
-[**com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
+[**com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor**](ConfigmgrApi.md#com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
+[**com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f**](ConfigmgrApi.md#com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
+[**com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto**](ConfigmgrApi.md#com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
+[**com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l**](ConfigmgrApi.md#com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
+[**com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou**](ConfigmgrApi.md#com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
 [**com_adobe_cq_social_enablement_services_impl_author_marker_impl**](ConfigmgrApi.md#com_adobe_cq_social_enablement_services_impl_author_marker_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl | 
-[**com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet**](ConfigmgrApi.md#com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
-[**com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
+[**com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge**](ConfigmgrApi.md#com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
+[**com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera**](ConfigmgrApi.md#com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
 [**com_adobe_cq_social_forum_client_endpoints_impl_forum_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_forum_client_endpoints_impl_forum_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService | 
 [**com_adobe_cq_social_forum_dispatcher_impl_flush_operations**](ConfigmgrApi.md#com_adobe_cq_social_forum_dispatcher_impl_flush_operations) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations | 
-[**com_adobe_cq_social_group_client_impl_community_group_collection_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_group_client_impl_community_group_collection_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
+[**com_adobe_cq_social_group_client_impl_community_group_collection_componen**](ConfigmgrApi.md#com_adobe_cq_social_group_client_impl_community_group_collection_componen) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
 [**com_adobe_cq_social_group_impl_group_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_group_impl_group_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.group.impl.GroupServiceImpl | 
 [**com_adobe_cq_social_handlebars_guava_template_cache_impl**](ConfigmgrApi.md#com_adobe_cq_social_handlebars_guava_template_cache_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl | 
-[**com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
-[**com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
-[**com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
-[**com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
-[**com_adobe_cq_social_members_impl_community_member_group_profile_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_members_impl_community_member_group_profile_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
-[**com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
-[**com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
-[**com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
-[**com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
-[**com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
+[**com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s**](ConfigmgrApi.md#com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
+[**com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser**](ConfigmgrApi.md#com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
+[**com_adobe_cq_social_members_endpoints_impl_community_member_group_profile**](ConfigmgrApi.md#com_adobe_cq_social_members_endpoints_impl_community_member_group_profile) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
+[**com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o**](ConfigmgrApi.md#com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
+[**com_adobe_cq_social_members_impl_community_member_group_profile_component_f**](ConfigmgrApi.md#com_adobe_cq_social_members_impl_community_member_group_profile_component_f) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
+[**com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation**](ConfigmgrApi.md#com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
+[**com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
+[**com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
+[**com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
+[**com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
 [**com_adobe_cq_social_notifications_impl_mentions_router**](ConfigmgrApi.md#com_adobe_cq_social_notifications_impl_mentions_router) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.MentionsRouter | 
 [**com_adobe_cq_social_notifications_impl_notification_manager_impl**](ConfigmgrApi.md#com_adobe_cq_social_notifications_impl_notification_manager_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationManagerImpl | 
 [**com_adobe_cq_social_notifications_impl_notifications_router**](ConfigmgrApi.md#com_adobe_cq_social_notifications_impl_notifications_router) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationsRouter | 
-[**com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
-[**com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
-[**com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
-[**com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
-[**com_adobe_cq_social_review_client_endpoints_impl_review_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_review_client_endpoints_impl_review_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
+[**com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic**](ConfigmgrApi.md#com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
+[**com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
+[**com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
+[**com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
+[**com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi**](ConfigmgrApi.md#com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
 [**com_adobe_cq_social_scf_core_operations_impl_social_operations_servlet**](ConfigmgrApi.md#com_adobe_cq_social_scf_core_operations_impl_social_operations_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet | 
 [**com_adobe_cq_social_scf_endpoints_impl_default_social_get_servlet**](ConfigmgrApi.md#com_adobe_cq_social_scf_endpoints_impl_default_social_get_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet | 
 [**com_adobe_cq_social_scoring_impl_scoring_event_listener**](ConfigmgrApi.md#com_adobe_cq_social_scoring_impl_scoring_event_listener) | **POST** /system/console/configMgr/com.adobe.cq.social.scoring.impl.ScoringEventListener | 
 [**com_adobe_cq_social_serviceusers_internal_impl_service_user_wrapper_impl**](ConfigmgrApi.md#com_adobe_cq_social_serviceusers_internal_impl_service_user_wrapper_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl | 
 [**com_adobe_cq_social_site_endpoints_impl_site_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_site_endpoints_impl_site_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.site.endpoints.impl.SiteOperationService | 
-[**com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
+[**com_adobe_cq_social_site_impl_analytics_component_configuration_service_im**](ConfigmgrApi.md#com_adobe_cq_social_site_impl_analytics_component_configuration_service_im) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
 [**com_adobe_cq_social_site_impl_site_configurator_impl**](ConfigmgrApi.md#com_adobe_cq_social_site_impl_site_configurator_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.SiteConfiguratorImpl | 
 [**com_adobe_cq_social_srp_impl_social_solr_connector**](ConfigmgrApi.md#com_adobe_cq_social_srp_impl_social_solr_connector) | **POST** /system/console/configMgr/com.adobe.cq.social.srp.impl.SocialSolrConnector | 
 [**com_adobe_cq_social_sync_impl_diff_changes_observer**](ConfigmgrApi.md#com_adobe_cq_social_sync_impl_diff_changes_observer) | **POST** /system/console/configMgr/com.adobe.cq.social.sync.impl.DiffChangesObserver | 
@@ -169,11 +169,11 @@ Method | HTTP request | Description
 [**com_adobe_cq_social_ugcbase_impl_social_utils_impl**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_impl_social_utils_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl | 
 [**com_adobe_cq_social_ugcbase_moderation_impl_auto_moderation_impl**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_moderation_impl_auto_moderation_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl | 
 [**com_adobe_cq_social_ugcbase_moderation_impl_sentiment_process**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_moderation_impl_sentiment_process) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess | 
-[**com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
+[**com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
 [**com_adobe_cq_social_ugcbase_security_impl_safer_sling_post_validator_impl**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_security_impl_safer_sling_post_validator_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl | 
 [**com_adobe_cq_social_user_endpoints_impl_users_group_from_publish_servlet**](ConfigmgrApi.md#com_adobe_cq_social_user_endpoints_impl_users_group_from_publish_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet | 
 [**com_adobe_cq_social_user_impl_transport_http_to_publisher**](ConfigmgrApi.md#com_adobe_cq_social_user_impl_transport_http_to_publisher) | **POST** /system/console/configMgr/com.adobe.cq.social.user.impl.transport.HttpToPublisher | 
-[**com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended**](ConfigmgrApi.md#com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
+[**com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact**](ConfigmgrApi.md#com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
 [**com_adobe_cq_upgrades_cleanup_impl_upgrade_content_cleanup**](ConfigmgrApi.md#com_adobe_cq_upgrades_cleanup_impl_upgrade_content_cleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup | 
 [**com_adobe_cq_upgrades_cleanup_impl_upgrade_install_folder_cleanup**](ConfigmgrApi.md#com_adobe_cq_upgrades_cleanup_impl_upgrade_install_folder_cleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup | 
 [**com_adobe_cq_wcm_jobs_async_impl_async_delete_config_provider_service**](ConfigmgrApi.md#com_adobe_cq_wcm_jobs_async_impl_async_delete_config_provider_service) | **POST** /system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService | 
@@ -187,7 +187,7 @@ Method | HTTP request | Description
 [**com_adobe_fd_fp_config_forms_portal_draftsand_submission_config_service**](ConfigmgrApi.md#com_adobe_fd_fp_config_forms_portal_draftsand_submission_config_service) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService | 
 [**com_adobe_fd_fp_config_forms_portal_scheduler_service**](ConfigmgrApi.md#com_adobe_fd_fp_config_forms_portal_scheduler_service) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalSchedulerService | 
 [**com_adobe_forms_common_service_impl_default_data_provider**](ConfigmgrApi.md#com_adobe_forms_common_service_impl_default_data_provider) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.DefaultDataProvider | 
-[**com_adobe_forms_common_service_impl_forms_common_configuration_service_impl**](ConfigmgrApi.md#com_adobe_forms_common_service_impl_forms_common_configuration_service_impl) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
+[**com_adobe_forms_common_service_impl_forms_common_configuration_service_imp**](ConfigmgrApi.md#com_adobe_forms_common_service_impl_forms_common_configuration_service_imp) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
 [**com_adobe_forms_common_servlet_temp_clean_up_task**](ConfigmgrApi.md#com_adobe_forms_common_servlet_temp_clean_up_task) | **POST** /system/console/configMgr/com.adobe.forms.common.servlet.TempCleanUpTask | 
 [**com_adobe_granite_acp_platform_platform_servlet**](ConfigmgrApi.md#com_adobe_granite_acp_platform_platform_servlet) | **POST** /system/console/configMgr/com.adobe.granite.acp.platform.PlatformServlet | 
 [**com_adobe_granite_activitystreams_impl_activity_manager_impl**](ConfigmgrApi.md#com_adobe_granite_activitystreams_impl_activity_manager_impl) | **POST** /system/console/configMgr/com.adobe.granite.activitystreams.impl.ActivityManagerImpl | 
@@ -225,22 +225,22 @@ Method | HTTP request | Description
 [**com_adobe_granite_bundles_hc_impl_sling_jsp_script_handler_health_check**](ConfigmgrApi.md#com_adobe_granite_bundles_hc_impl_sling_jsp_script_handler_health_check) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck | 
 [**com_adobe_granite_bundles_hc_impl_sling_referrer_filter_health_check**](ConfigmgrApi.md#com_adobe_granite_bundles_hc_impl_sling_referrer_filter_health_check) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck | 
 [**com_adobe_granite_bundles_hc_impl_web_dav_bundle_health_check**](ConfigmgrApi.md#com_adobe_granite_bundles_hc_impl_web_dav_bundle_health_check) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck | 
-[**com_adobe_granite_comments_internal_comment_replication_content_filter_factory**](ConfigmgrApi.md#com_adobe_granite_comments_internal_comment_replication_content_filter_factory) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
+[**com_adobe_granite_comments_internal_comment_replication_content_filter_fac**](ConfigmgrApi.md#com_adobe_granite_comments_internal_comment_replication_content_filter_fac) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
 [**com_adobe_granite_compatrouter_impl_compat_switching_service_impl**](ConfigmgrApi.md#com_adobe_granite_compatrouter_impl_compat_switching_service_impl) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl | 
 [**com_adobe_granite_compatrouter_impl_routing_config**](ConfigmgrApi.md#com_adobe_granite_compatrouter_impl_routing_config) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.RoutingConfig | 
 [**com_adobe_granite_compatrouter_impl_switch_mapping_config**](ConfigmgrApi.md#com_adobe_granite_compatrouter_impl_switch_mapping_config) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.SwitchMappingConfig | 
-[**com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy**](ConfigmgrApi.md#com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
+[**com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving**](ConfigmgrApi.md#com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
 [**com_adobe_granite_contexthub_impl_context_hub_impl**](ConfigmgrApi.md#com_adobe_granite_contexthub_impl_context_hub_impl) | **POST** /system/console/configMgr/com.adobe.granite.contexthub.impl.ContextHubImpl | 
 [**com_adobe_granite_cors_impl_cors_policy_impl**](ConfigmgrApi.md#com_adobe_granite_cors_impl_cors_policy_impl) | **POST** /system/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl | 
 [**com_adobe_granite_csrf_impl_csrf_filter**](ConfigmgrApi.md#com_adobe_granite_csrf_impl_csrf_filter) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter | 
 [**com_adobe_granite_csrf_impl_csrf_servlet**](ConfigmgrApi.md#com_adobe_granite_csrf_impl_csrf_servlet) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFServlet | 
-[**com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
+[**com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
 [**com_adobe_granite_distribution_core_impl_diff_diff_changes_observer**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_diff_diff_changes_observer) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver | 
 [**com_adobe_granite_distribution_core_impl_diff_diff_event_listener**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_diff_diff_event_listener) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffEventListener | 
-[**com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
-[**com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
-[**com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
-[**com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
+[**com_adobe_granite_distribution_core_impl_distribution_to_replication_even**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_distribution_to_replication_even) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
+[**com_adobe_granite_distribution_core_impl_replication_adapters_replicat**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_replication_adapters_replicat) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
+[**com_adobe_granite_distribution_core_impl_replication_distribution_trans**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_replication_distribution_trans) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
+[**com_adobe_granite_distribution_core_impl_transport_access_token_distribu**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_transport_access_token_distribu) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
 [**com_adobe_granite_frags_impl_check_http_header_flag**](ConfigmgrApi.md#com_adobe_granite_frags_impl_check_http_header_flag) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.CheckHttpHeaderFlag | 
 [**com_adobe_granite_frags_impl_random_feature**](ConfigmgrApi.md#com_adobe_granite_frags_impl_random_feature) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.RandomFeature | 
 [**com_adobe_granite_httpcache_file_file_cache_store**](ConfigmgrApi.md#com_adobe_granite_httpcache_file_file_cache_store) | **POST** /system/console/configMgr/com.adobe.granite.httpcache.file.FileCacheStore | 
@@ -256,7 +256,7 @@ Method | HTTP request | Description
 [**com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_task**](ConfigmgrApi.md#com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_task) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask | 
 [**com_adobe_granite_maintenance_crx_impl_revision_cleanup_task**](ConfigmgrApi.md#com_adobe_granite_maintenance_crx_impl_revision_cleanup_task) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask | 
 [**com_adobe_granite_monitoring_impl_script_config_impl**](ConfigmgrApi.md#com_adobe_granite_monitoring_impl_script_config_impl) | **POST** /system/console/configMgr/com.adobe.granite.monitoring.impl.ScriptConfigImpl | 
-[**com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler**](ConfigmgrApi.md#com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
+[**com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han**](ConfigmgrApi.md#com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
 [**com_adobe_granite_oauth_server_impl_access_token_cleanup_task**](ConfigmgrApi.md#com_adobe_granite_oauth_server_impl_access_token_cleanup_task) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask | 
 [**com_adobe_granite_oauth_server_impl_o_auth2_client_revocation_servlet**](ConfigmgrApi.md#com_adobe_granite_oauth_server_impl_o_auth2_client_revocation_servlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet | 
 [**com_adobe_granite_oauth_server_impl_o_auth2_revocation_endpoint_servlet**](ConfigmgrApi.md#com_adobe_granite_oauth_server_impl_o_auth2_revocation_endpoint_servlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet | 
@@ -266,7 +266,7 @@ Method | HTTP request | Description
 [**com_adobe_granite_offloading_impl_offloading_job_cloner**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_offloading_job_cloner) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner | 
 [**com_adobe_granite_offloading_impl_offloading_job_offloader**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_offloading_job_offloader) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobOffloader | 
 [**com_adobe_granite_offloading_impl_transporter_offloading_agent_manager**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_transporter_offloading_agent_manager) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager | 
-[**com_adobe_granite_offloading_impl_transporter_offloading_default_transporter**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_transporter_offloading_default_transporter) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
+[**com_adobe_granite_offloading_impl_transporter_offloading_default_transpo**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_transporter_offloading_default_transpo) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
 [**com_adobe_granite_omnisearch_impl_core_omni_search_service_impl**](ConfigmgrApi.md#com_adobe_granite_omnisearch_impl_core_omni_search_service_impl) | **POST** /system/console/configMgr/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl | 
 [**com_adobe_granite_optout_impl_opt_out_service_impl**](ConfigmgrApi.md#com_adobe_granite_optout_impl_opt_out_service_impl) | **POST** /system/console/configMgr/com.adobe.granite.optout.impl.OptOutServiceImpl | 
 [**com_adobe_granite_queries_impl_hc_async_index_health_check**](ConfigmgrApi.md#com_adobe_granite_queries_impl_hc_async_index_health_check) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck | 
@@ -275,32 +275,32 @@ Method | HTTP request | Description
 [**com_adobe_granite_queries_impl_hc_query_health_check_metrics**](ConfigmgrApi.md#com_adobe_granite_queries_impl_hc_query_health_check_metrics) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics | 
 [**com_adobe_granite_queries_impl_hc_query_limits_health_check**](ConfigmgrApi.md#com_adobe_granite_queries_impl_hc_query_limits_health_check) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck | 
 [**com_adobe_granite_replication_hc_impl_replication_queue_health_check**](ConfigmgrApi.md#com_adobe_granite_replication_hc_impl_replication_queue_health_check) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck | 
-[**com_adobe_granite_replication_hc_impl_replication_transport_users_health_check**](ConfigmgrApi.md#com_adobe_granite_replication_hc_impl_replication_transport_users_health_check) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
+[**com_adobe_granite_replication_hc_impl_replication_transport_users_health_c**](ConfigmgrApi.md#com_adobe_granite_replication_hc_impl_replication_transport_users_health_c) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_authorizable_node_name_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_authorizable_node_name_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck | 
-[**com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
+[**com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_continuous_rgc_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_continuous_rgc_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck | 
-[**com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
+[**com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_default_logins_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_default_logins_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_disk_space_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_disk_space_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_observation_queue_length_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_observation_queue_length_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck | 
 [**com_adobe_granite_repository_impl_commit_stats_config**](ConfigmgrApi.md#com_adobe_granite_repository_impl_commit_stats_config) | **POST** /system/console/configMgr/com.adobe.granite.repository.impl.CommitStatsConfig | 
 [**com_adobe_granite_repository_service_user_configuration**](ConfigmgrApi.md#com_adobe_granite_repository_service_user_configuration) | **POST** /system/console/configMgr/com.adobe.granite.repository.ServiceUserConfiguration | 
-[**com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl**](ConfigmgrApi.md#com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
+[**com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im**](ConfigmgrApi.md#com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
 [**com_adobe_granite_resourcestatus_impl_composite_status_type**](ConfigmgrApi.md#com_adobe_granite_resourcestatus_impl_composite_status_type) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.CompositeStatusType | 
 [**com_adobe_granite_resourcestatus_impl_status_resource_provider_impl**](ConfigmgrApi.md#com_adobe_granite_resourcestatus_impl_status_resource_provider_impl) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl | 
 [**com_adobe_granite_rest_assets_impl_asset_content_disposition_filter**](ConfigmgrApi.md#com_adobe_granite_rest_assets_impl_asset_content_disposition_filter) | **POST** /system/console/configMgr/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter | 
 [**com_adobe_granite_rest_impl_api_endpoint_resource_provider_factory_impl**](ConfigmgrApi.md#com_adobe_granite_rest_impl_api_endpoint_resource_provider_factory_impl) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl | 
 [**com_adobe_granite_rest_impl_servlet_default_get_servlet**](ConfigmgrApi.md#com_adobe_granite_rest_impl_servlet_default_get_servlet) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.servlet.DefaultGETServlet | 
-[**com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet**](ConfigmgrApi.md#com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
+[**com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s**](ConfigmgrApi.md#com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
 [**com_adobe_granite_security_user_user_properties_service**](ConfigmgrApi.md#com_adobe_granite_security_user_user_properties_service) | **POST** /system/console/configMgr/com.adobe.granite.security.user.UserPropertiesService | 
 [**com_adobe_granite_socialgraph_impl_social_graph_factory_impl**](ConfigmgrApi.md#com_adobe_granite_socialgraph_impl_social_graph_factory_impl) | **POST** /system/console/configMgr/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl | 
 [**com_adobe_granite_system_monitoring_impl_system_stats_m_bean_impl**](ConfigmgrApi.md#com_adobe_granite_system_monitoring_impl_system_stats_m_bean_impl) | **POST** /system/console/configMgr/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl | 
 [**com_adobe_granite_taskmanagement_impl_jcr_task_adapter_factory**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_jcr_task_adapter_factory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory | 
 [**com_adobe_granite_taskmanagement_impl_jcr_task_archive_service**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_jcr_task_archive_service) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService | 
 [**com_adobe_granite_taskmanagement_impl_purge_task_purge_maintenance_task**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_purge_task_purge_maintenance_task) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask | 
-[**com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
+[**com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
 [**com_adobe_granite_threaddump_thread_dump_collector**](ConfigmgrApi.md#com_adobe_granite_threaddump_thread_dump_collector) | **POST** /system/console/configMgr/com.adobe.granite.threaddump.ThreadDumpCollector | 
-[**com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl**](ConfigmgrApi.md#com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
+[**com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl**](ConfigmgrApi.md#com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
 [**com_adobe_granite_translation_core_impl_translation_manager_impl**](ConfigmgrApi.md#com_adobe_granite_translation_core_impl_translation_manager_impl) | **POST** /system/console/configMgr/com.adobe.granite.translation.core.impl.TranslationManagerImpl | 
 [**com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl**](ConfigmgrApi.md#com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl) | **POST** /system/console/configMgr/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl | 
 [**com_adobe_granite_workflow_console_frags_workflow_withdraw_feature**](ConfigmgrApi.md#com_adobe_granite_workflow_console_frags_workflow_withdraw_feature) | **POST** /system/console/configMgr/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature | 
@@ -308,19 +308,19 @@ Method | HTTP request | Description
 [**com_adobe_granite_workflow_core_jcr_workflow_bucket_manager**](ConfigmgrApi.md#com_adobe_granite_workflow_core_jcr_workflow_bucket_manager) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager | 
 [**com_adobe_granite_workflow_core_job_external_process_job_handler**](ConfigmgrApi.md#com_adobe_granite_workflow_core_job_external_process_job_handler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler | 
 [**com_adobe_granite_workflow_core_job_job_handler**](ConfigmgrApi.md#com_adobe_granite_workflow_core_job_job_handler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.JobHandler | 
-[**com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer**](ConfigmgrApi.md#com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
+[**com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum**](ConfigmgrApi.md#com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
 [**com_adobe_granite_workflow_core_payload_map_cache**](ConfigmgrApi.md#com_adobe_granite_workflow_core_payload_map_cache) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.PayloadMapCache | 
 [**com_adobe_granite_workflow_core_payloadmap_payload_move_listener**](ConfigmgrApi.md#com_adobe_granite_workflow_core_payloadmap_payload_move_listener) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener | 
 [**com_adobe_granite_workflow_core_workflow_config**](ConfigmgrApi.md#com_adobe_granite_workflow_core_workflow_config) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowConfig | 
 [**com_adobe_granite_workflow_core_workflow_session_factory**](ConfigmgrApi.md#com_adobe_granite_workflow_core_workflow_session_factory) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowSessionFactory | 
 [**com_adobe_granite_workflow_purge_scheduler**](ConfigmgrApi.md#com_adobe_granite_workflow_purge_scheduler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.purge.Scheduler | 
 [**com_adobe_octopus_ncomm_bootstrap**](ConfigmgrApi.md#com_adobe_octopus_ncomm_bootstrap) | **POST** /system/console/configMgr/com.adobe.octopus.ncomm.bootstrap | 
-[**com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet**](ConfigmgrApi.md#com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
+[**com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s**](ConfigmgrApi.md#com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
 [**com_adobe_xmp_worker_files_ncomm_xmp_files_n_comm**](ConfigmgrApi.md#com_adobe_xmp_worker_files_ncomm_xmp_files_n_comm) | **POST** /system/console/configMgr/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm | 
 [**com_day_commons_datasource_jdbcpool_jdbc_pool_service**](ConfigmgrApi.md#com_day_commons_datasource_jdbcpool_jdbc_pool_service) | **POST** /system/console/configMgr/com.day.commons.datasource.jdbcpool.JdbcPoolService | 
 [**com_day_commons_httpclient**](ConfigmgrApi.md#com_day_commons_httpclient) | **POST** /system/console/configMgr/com.day.commons.httpclient | 
 [**com_day_cq_analytics_impl_store_properties_change_listener**](ConfigmgrApi.md#com_day_cq_analytics_impl_store_properties_change_listener) | **POST** /system/console/configMgr/com.day.cq.analytics.impl.StorePropertiesChangeListener | 
-[**com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
+[**com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
 [**com_day_cq_analytics_sitecatalyst_impl_importer_report_importer**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_importer_report_importer) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter | 
 [**com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_adapter_factory**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_adapter_factory) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory | 
 [**com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_http_client_impl**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_http_client_impl) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl | 
@@ -335,7 +335,7 @@ Method | HTTP request | Description
 [**com_day_cq_auth_impl_login_selector_handler**](ConfigmgrApi.md#com_day_cq_auth_impl_login_selector_handler) | **POST** /system/console/configMgr/com.day.cq.auth.impl.LoginSelectorHandler | 
 [**com_day_cq_commons_impl_externalizer_impl**](ConfigmgrApi.md#com_day_cq_commons_impl_externalizer_impl) | **POST** /system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl | 
 [**com_day_cq_commons_servlets_root_mapping_servlet**](ConfigmgrApi.md#com_day_cq_commons_servlets_root_mapping_servlet) | **POST** /system/console/configMgr/com.day.cq.commons.servlets.RootMappingServlet | 
-[**com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker**](ConfigmgrApi.md#com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
+[**com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke**](ConfigmgrApi.md#com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
 [**com_day_cq_compat_codeupgrade_impl_upgrade_task_ignore_list**](ConfigmgrApi.md#com_day_cq_compat_codeupgrade_impl_upgrade_task_ignore_list) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList | 
 [**com_day_cq_compat_codeupgrade_impl_version_range_task_ignorelist**](ConfigmgrApi.md#com_day_cq_compat_codeupgrade_impl_version_range_task_ignorelist) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist | 
 [**com_day_cq_contentsync_impl_content_sync_manager_impl**](ConfigmgrApi.md#com_day_cq_contentsync_impl_content_sync_manager_impl) | **POST** /system/console/configMgr/com.day.cq.contentsync.impl.ContentSyncManagerImpl | 
@@ -352,7 +352,7 @@ Method | HTTP request | Description
 [**com_day_cq_dam_core_impl_dam_event_recorder_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_dam_event_recorder_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.DamEventRecorderImpl | 
 [**com_day_cq_dam_core_impl_event_dam_event_audit_listener**](ConfigmgrApi.md#com_day_cq_dam_core_impl_event_dam_event_audit_listener) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.event.DamEventAuditListener | 
 [**com_day_cq_dam_core_impl_expiry_notification_job_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_expiry_notification_job_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl | 
-[**com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag**](ConfigmgrApi.md#com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
+[**com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat**](ConfigmgrApi.md#com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
 [**com_day_cq_dam_core_impl_gfx_commons_gfx_renderer**](ConfigmgrApi.md#com_day_cq_dam_core_impl_gfx_commons_gfx_renderer) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer | 
 [**com_day_cq_dam_core_impl_handler_eps_format_handler**](ConfigmgrApi.md#com_day_cq_dam_core_impl_handler_eps_format_handler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.EPSFormatHandler | 
 [**com_day_cq_dam_core_impl_handler_indesign_format_handler**](ConfigmgrApi.md#com_day_cq_dam_core_impl_handler_indesign_format_handler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.IndesignFormatHandler | 
@@ -361,14 +361,14 @@ Method | HTTP request | Description
 [**com_day_cq_dam_core_impl_jmx_asset_index_update_monitor**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jmx_asset_index_update_monitor) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor | 
 [**com_day_cq_dam_core_impl_jmx_asset_migration_m_bean_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jmx_asset_migration_m_bean_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl | 
 [**com_day_cq_dam_core_impl_jmx_asset_update_monitor_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jmx_asset_update_monitor_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl | 
-[**com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
-[**com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
+[**com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
+[**com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
 [**com_day_cq_dam_core_impl_lightbox_lightbox_servlet**](ConfigmgrApi.md#com_day_cq_dam_core_impl_lightbox_lightbox_servlet) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.lightbox.LightboxServlet | 
 [**com_day_cq_dam_core_impl_metadata_editor_select_component_handler**](ConfigmgrApi.md#com_day_cq_dam_core_impl_metadata_editor_select_component_handler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler | 
 [**com_day_cq_dam_core_impl_mime_type_asset_upload_restriction_helper**](ConfigmgrApi.md#com_day_cq_dam_core_impl_mime_type_asset_upload_restriction_helper) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper | 
 [**com_day_cq_dam_core_impl_mime_type_dam_mime_type_service_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_mime_type_dam_mime_type_service_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl | 
 [**com_day_cq_dam_core_impl_missing_metadata_notification_job**](ConfigmgrApi.md#com_day_cq_dam_core_impl_missing_metadata_notification_job) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.MissingMetadataNotificationJob | 
-[**com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process**](ConfigmgrApi.md#com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
+[**com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr**](ConfigmgrApi.md#com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
 [**com_day_cq_dam_core_impl_process_text_extraction_process**](ConfigmgrApi.md#com_day_cq_dam_core_impl_process_text_extraction_process) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.TextExtractionProcess | 
 [**com_day_cq_dam_core_impl_rendition_maker_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_rendition_maker_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.RenditionMakerImpl | 
 [**com_day_cq_dam_core_impl_reports_report_export_service**](ConfigmgrApi.md#com_day_cq_dam_core_impl_reports_report_export_service) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.reports.ReportExportService | 
@@ -405,8 +405,8 @@ Method | HTTP request | Description
 [**com_day_cq_dam_indd_process_indd_media_extract_process**](ConfigmgrApi.md#com_day_cq_dam_indd_process_indd_media_extract_process) | **POST** /system/console/configMgr/com.day.cq.dam.indd.process.INDDMediaExtractProcess | 
 [**com_day_cq_dam_performance_internal_asset_performance_data_handler_impl**](ConfigmgrApi.md#com_day_cq_dam_performance_internal_asset_performance_data_handler_impl) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl | 
 [**com_day_cq_dam_performance_internal_asset_performance_report_sync_job**](ConfigmgrApi.md#com_day_cq_dam_performance_internal_asset_performance_report_sync_job) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob | 
-[**com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process**](ConfigmgrApi.md#com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
-[**com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
+[**com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro**](ConfigmgrApi.md#com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
+[**com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
 [**com_day_cq_dam_s7dam_common_analytics_impl_site_catalyst_report_runner**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_analytics_impl_site_catalyst_report_runner) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner | 
 [**com_day_cq_dam_s7dam_common_post_servlets_set_create_handler**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_post_servlets_set_create_handler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler | 
 [**com_day_cq_dam_s7dam_common_post_servlets_set_modify_handler**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_post_servlets_set_modify_handler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler | 
@@ -420,8 +420,8 @@ Method | HTTP request | Description
 [**com_day_cq_dam_scene7_impl_scene7_dam_change_event_listener**](ConfigmgrApi.md#com_day_cq_dam_scene7_impl_scene7_dam_change_event_listener) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener | 
 [**com_day_cq_dam_scene7_impl_scene7_flash_templates_service_impl**](ConfigmgrApi.md#com_day_cq_dam_scene7_impl_scene7_flash_templates_service_impl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl | 
 [**com_day_cq_dam_scene7_impl_scene7_upload_service_impl**](ConfigmgrApi.md#com_day_cq_dam_scene7_impl_scene7_upload_service_impl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl | 
-[**com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl**](ConfigmgrApi.md#com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
-[**com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl**](ConfigmgrApi.md#com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
+[**com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser**](ConfigmgrApi.md#com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
+[**com_day_cq_dam_stock_integration_impl_configuration_stock_configuration**](ConfigmgrApi.md#com_day_cq_dam_stock_integration_impl_configuration_stock_configuration) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
 [**com_day_cq_dam_video_impl_servlet_video_test_servlet**](ConfigmgrApi.md#com_day_cq_dam_video_impl_servlet_video_test_servlet) | **POST** /system/console/configMgr/com.day.cq.dam.video.impl.servlet.VideoTestServlet | 
 [**com_day_cq_extwidget_servlets_image_sprite_servlet**](ConfigmgrApi.md#com_day_cq_extwidget_servlets_image_sprite_servlet) | **POST** /system/console/configMgr/com.day.cq.extwidget.servlets.ImageSpriteServlet | 
 [**com_day_cq_image_internal_font_font_helper**](ConfigmgrApi.md#com_day_cq_image_internal_font_font_helper) | **POST** /system/console/configMgr/com.day.cq.image.internal.font.FontHelper | 
@@ -434,11 +434,11 @@ Method | HTTP request | Description
 [**com_day_cq_mcm_campaign_importer_personalized_text_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_campaign_importer_personalized_text_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory | 
 [**com_day_cq_mcm_core_newsletter_newsletter_email_service_impl**](ConfigmgrApi.md#com_day_cq_mcm_core_newsletter_newsletter_email_service_impl) | **POST** /system/console/configMgr/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl | 
 [**com_day_cq_mcm_impl_mcm_configuration**](ConfigmgrApi.md#com_day_cq_mcm_impl_mcm_configuration) | **POST** /system/console/configMgr/com.day.cq.mcm.impl.MCMConfiguration | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
 [**com_day_cq_notification_impl_notification_service_impl**](ConfigmgrApi.md#com_day_cq_notification_impl_notification_service_impl) | **POST** /system/console/configMgr/com.day.cq.notification.impl.NotificationServiceImpl | 
 [**com_day_cq_personalization_impl_servlets_targeting_configuration_servlet**](ConfigmgrApi.md#com_day_cq_personalization_impl_servlets_targeting_configuration_servlet) | **POST** /system/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet | 
 [**com_day_cq_polling_importer_impl_managed_poll_config_impl**](ConfigmgrApi.md#com_day_cq_polling_importer_impl_managed_poll_config_impl) | **POST** /system/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollConfigImpl | 
@@ -448,7 +448,7 @@ Method | HTTP request | Description
 [**com_day_cq_replication_content_static_content_builder**](ConfigmgrApi.md#com_day_cq_replication_content_static_content_builder) | **POST** /system/console/configMgr/com.day.cq.replication.content.StaticContentBuilder | 
 [**com_day_cq_replication_impl_agent_manager_impl**](ConfigmgrApi.md#com_day_cq_replication_impl_agent_manager_impl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.AgentManagerImpl | 
 [**com_day_cq_replication_impl_content_durbo_binary_less_content_builder**](ConfigmgrApi.md#com_day_cq_replication_impl_content_durbo_binary_less_content_builder) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder | 
-[**com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service**](ConfigmgrApi.md#com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
+[**com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov**](ConfigmgrApi.md#com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
 [**com_day_cq_replication_impl_replication_content_factory_provider_impl**](ConfigmgrApi.md#com_day_cq_replication_impl_replication_content_factory_provider_impl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl | 
 [**com_day_cq_replication_impl_replication_receiver_impl**](ConfigmgrApi.md#com_day_cq_replication_impl_replication_receiver_impl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationReceiverImpl | 
 [**com_day_cq_replication_impl_replicator_impl**](ConfigmgrApi.md#com_day_cq_replication_impl_replicator_impl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicatorImpl | 
@@ -473,7 +473,7 @@ Method | HTTP request | Description
 [**com_day_cq_tagging_impl_search_tag_predicate_evaluator**](ConfigmgrApi.md#com_day_cq_tagging_impl_search_tag_predicate_evaluator) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.search.TagPredicateEvaluator | 
 [**com_day_cq_tagging_impl_tag_garbage_collector**](ConfigmgrApi.md#com_day_cq_tagging_impl_tag_garbage_collector) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector | 
 [**com_day_cq_wcm_contentsync_impl_handler_pages_update_handler**](ConfigmgrApi.md#com_day_cq_wcm_contentsync_impl_handler_pages_update_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler | 
-[**com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory**](ConfigmgrApi.md#com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
+[**com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor**](ConfigmgrApi.md#com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
 [**com_day_cq_wcm_core_impl_authoring_ui_mode_service_impl**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_authoring_ui_mode_service_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl | 
 [**com_day_cq_wcm_core_impl_commands_wcm_command_servlet**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_commands_wcm_command_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.commands.WCMCommandServlet | 
 [**com_day_cq_wcm_core_impl_devicedetection_device_identification_mode_impl**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_devicedetection_device_identification_mode_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl | 
@@ -487,7 +487,7 @@ Method | HTTP request | Description
 [**com_day_cq_wcm_core_impl_page_page_manager_factory_impl**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_page_page_manager_factory_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl | 
 [**com_day_cq_wcm_core_impl_references_content_content_reference_config**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_references_content_content_reference_config) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig | 
 [**com_day_cq_wcm_core_impl_servlets_contentfinder_asset_view_handler**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_contentfinder_asset_view_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler | 
-[**com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
+[**com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
 [**com_day_cq_wcm_core_impl_servlets_contentfinder_page_view_handler**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_contentfinder_page_view_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler | 
 [**com_day_cq_wcm_core_impl_servlets_find_replace_servlet**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_find_replace_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet | 
 [**com_day_cq_wcm_core_impl_servlets_reference_search_servlet**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_reference_search_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet | 
@@ -507,23 +507,23 @@ Method | HTTP request | Description
 [**com_day_cq_wcm_designimporter_impl_canvas_page_delete_handler**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_impl_canvas_page_delete_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler | 
 [**com_day_cq_wcm_designimporter_impl_entry_preprocessor_impl**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_impl_entry_preprocessor_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl | 
 [**com_day_cq_wcm_designimporter_impl_mobile_canvas_builder_impl**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_impl_mobile_canvas_builder_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
 [**com_day_cq_wcm_foundation_forms_impl_form_chooser_servlet**](ConfigmgrApi.md#com_day_cq_wcm_foundation_forms_impl_form_chooser_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet | 
 [**com_day_cq_wcm_foundation_forms_impl_form_paragraph_post_processor**](ConfigmgrApi.md#com_day_cq_wcm_foundation_forms_impl_form_paragraph_post_processor) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor | 
 [**com_day_cq_wcm_foundation_forms_impl_forms_handling_servlet**](ConfigmgrApi.md#com_day_cq_wcm_foundation_forms_impl_forms_handling_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet | 
@@ -532,7 +532,7 @@ Method | HTTP request | Description
 [**com_day_cq_wcm_foundation_impl_http_auth_handler**](ConfigmgrApi.md#com_day_cq_wcm_foundation_impl_http_auth_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.HTTPAuthHandler | 
 [**com_day_cq_wcm_foundation_impl_page_impressions_tracker**](ConfigmgrApi.md#com_day_cq_wcm_foundation_impl_page_impressions_tracker) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageImpressionsTracker | 
 [**com_day_cq_wcm_foundation_impl_page_redirect_servlet**](ConfigmgrApi.md#com_day_cq_wcm_foundation_impl_page_redirect_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageRedirectServlet | 
-[**com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service**](ConfigmgrApi.md#com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
+[**com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist**](ConfigmgrApi.md#com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
 [**com_day_cq_wcm_foundation_security_impl_safer_sling_post_validator_impl**](ConfigmgrApi.md#com_day_cq_wcm_foundation_security_impl_safer_sling_post_validator_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl | 
 [**com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory**](ConfigmgrApi.md#com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory | 
 [**com_day_cq_wcm_mobile_core_impl_redirect_redirect_filter**](ConfigmgrApi.md#com_day_cq_wcm_mobile_core_impl_redirect_redirect_filter) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter | 
@@ -576,29 +576,29 @@ Method | HTTP request | Description
 [**org_apache_felix_systemready_system_ready_monitor**](ConfigmgrApi.md#org_apache_felix_systemready_system_ready_monitor) | **POST** /system/console/configMgr/org.apache.felix.systemready.SystemReadyMonitor | 
 [**org_apache_felix_webconsole_internal_servlet_osgi_manager**](ConfigmgrApi.md#org_apache_felix_webconsole_internal_servlet_osgi_manager) | **POST** /system/console/configMgr/org.apache.felix.webconsole.internal.servlet.OsgiManager | 
 [**org_apache_felix_webconsole_plugins_event_internal_plugin_servlet**](ConfigmgrApi.md#org_apache_felix_webconsole_plugins_event_internal_plugin_servlet) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.event.internal.PluginServlet | 
-[**org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator**](ConfigmgrApi.md#org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
+[**org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co**](ConfigmgrApi.md#org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
 [**org_apache_http_proxyconfigurator**](ConfigmgrApi.md#org_apache_http_proxyconfigurator) | **POST** /system/console/configMgr/org.apache.http.proxyconfigurator | 
-[**org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
+[**org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
 [**org_apache_jackrabbit_oak_plugins_blob_datastore_file_data_store**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_blob_datastore_file_data_store) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore | 
 [**org_apache_jackrabbit_oak_plugins_document_document_node_store_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_document_node_store_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService | 
-[**org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
-[**org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
+[**org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
+[**org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
 [**org_apache_jackrabbit_oak_plugins_index_async_indexer_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_async_indexer_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService | 
-[**org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
+[**org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
 [**org_apache_jackrabbit_oak_plugins_metric_statistics_provider_factory**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_metric_statistics_provider_factory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory | 
 [**org_apache_jackrabbit_oak_plugins_observation_change_collector_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_observation_change_collector_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider | 
 [**org_apache_jackrabbit_oak_query_query_engine_settings_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_query_query_engine_settings_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.query.QueryEngineSettingsService | 
-[**org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
-[**org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
-[**org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
-[**org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
-[**org_apache_jackrabbit_oak_security_internal_security_provider_registration**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_internal_security_provider_registration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
+[**org_apache_jackrabbit_oak_security_authentication_authentication_config**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_authentication_config) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
+[**org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
+[**org_apache_jackrabbit_oak_security_authentication_token_token_configura**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_token_token_configura) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
+[**org_apache_jackrabbit_oak_security_authorization_authorization_configur**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authorization_authorization_configur) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
+[**org_apache_jackrabbit_oak_security_internal_security_provider_registrati**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_internal_security_provider_registrati) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
 [**org_apache_jackrabbit_oak_security_user_random_authorizable_node_name**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_user_random_authorizable_node_name) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName | 
 [**org_apache_jackrabbit_oak_security_user_user_configuration_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_user_user_configuration_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl | 
 [**org_apache_jackrabbit_oak_segment_azure_azure_segment_store_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_segment_azure_azure_segment_store_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService | 
@@ -606,23 +606,23 @@ Method | HTTP request | Description
 [**org_apache_jackrabbit_oak_segment_segment_node_store_monitor_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_segment_segment_node_store_monitor_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService | 
 [**org_apache_jackrabbit_oak_segment_segment_node_store_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_segment_segment_node_store_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService | 
 [**org_apache_jackrabbit_oak_segment_standby_store_standby_store_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_segment_standby_store_standby_store_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService | 
-[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
-[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
-[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
-[**org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
-[**org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
-[**org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
+[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
+[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
+[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
+[**org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
+[**org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
+[**org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
 [**org_apache_jackrabbit_vault_packaging_impl_packaging_impl**](ConfigmgrApi.md#org_apache_jackrabbit_vault_packaging_impl_packaging_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl | 
 [**org_apache_jackrabbit_vault_packaging_registry_impl_fs_package_registry**](ConfigmgrApi.md#org_apache_jackrabbit_vault_packaging_registry_impl_fs_package_registry) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry | 
 [**org_apache_sling_auth_core_impl_logout_servlet**](ConfigmgrApi.md#org_apache_sling_auth_core_impl_logout_servlet) | **POST** /system/console/configMgr/org.apache.sling.auth.core.impl.LogoutServlet | 
 [**org_apache_sling_caconfig_impl_configuration_bindings_value_provider**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_configuration_bindings_value_provider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider | 
 [**org_apache_sling_caconfig_impl_configuration_resolver_impl**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_configuration_resolver_impl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationResolverImpl | 
-[**org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
-[**org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
-[**org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
-[**org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
-[**org_apache_sling_caconfig_management_impl_configuration_management_settings_impl**](ConfigmgrApi.md#org_apache_sling_caconfig_management_impl_configuration_management_settings_impl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
-[**org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy**](ConfigmgrApi.md#org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
+[**org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
+[**org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
+[**org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
+[**org_apache_sling_caconfig_impl_override_system_property_configuration_ove**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_override_system_property_configuration_ove) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
+[**org_apache_sling_caconfig_management_impl_configuration_management_setti**](ConfigmgrApi.md#org_apache_sling_caconfig_management_impl_configuration_management_setti) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
+[**org_apache_sling_caconfig_resource_impl_def_default_configuration_resour**](ConfigmgrApi.md#org_apache_sling_caconfig_resource_impl_def_default_configuration_resour) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
 [**org_apache_sling_caconfig_resource_impl_def_default_context_path_strategy**](ConfigmgrApi.md#org_apache_sling_caconfig_resource_impl_def_default_context_path_strategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy | 
 [**org_apache_sling_commons_html_internal_tagsoup_html_parser**](ConfigmgrApi.md#org_apache_sling_commons_html_internal_tagsoup_html_parser) | **POST** /system/console/configMgr/org.apache.sling.commons.html.internal.TagsoupHtmlParser | 
 [**org_apache_sling_commons_log_log_manager**](ConfigmgrApi.md#org_apache_sling_commons_log_log_manager) | **POST** /system/console/configMgr/org.apache.sling.commons.log.LogManager | 
@@ -638,30 +638,30 @@ Method | HTTP request | Description
 [**org_apache_sling_datasource_jndi_data_source_factory**](ConfigmgrApi.md#org_apache_sling_datasource_jndi_data_source_factory) | **POST** /system/console/configMgr/org.apache.sling.datasource.JNDIDataSourceFactory | 
 [**org_apache_sling_discovery_oak_config**](ConfigmgrApi.md#org_apache_sling_discovery_oak_config) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.Config | 
 [**org_apache_sling_discovery_oak_synchronized_clocks_health_check**](ConfigmgrApi.md#org_apache_sling_discovery_oak_synchronized_clocks_health_check) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck | 
-[**org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
-[**org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
+[**org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
+[**org_apache_sling_distribution_agent_impl_privilege_distribution_request_a**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_privilege_distribution_request_a) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
 [**org_apache_sling_distribution_agent_impl_queue_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_queue_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory | 
-[**org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
-[**org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
+[**org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
+[**org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
 [**org_apache_sling_distribution_agent_impl_sync_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_sync_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory | 
 [**org_apache_sling_distribution_monitor_distribution_queue_health_check**](ConfigmgrApi.md#org_apache_sling_distribution_monitor_distribution_queue_health_check) | **POST** /system/console/configMgr/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck | 
-[**org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
-[**org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory**](ConfigmgrApi.md#org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
-[**org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory**](ConfigmgrApi.md#org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
-[**org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory**](ConfigmgrApi.md#org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
-[**org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory**](ConfigmgrApi.md#org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
-[**org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider**](ConfigmgrApi.md#org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
-[**org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
+[**org_apache_sling_distribution_packaging_impl_exporter_agent_distributio**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_agent_distributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_exporter_local_distributio**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_local_distributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_exporter_remote_distributi**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_remote_distributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_importer_local_distributio**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_local_distributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_importer_remote_distributi**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_remote_distributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_importer_repository_distri**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_repository_distri) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
+[**org_apache_sling_distribution_resources_impl_distribution_configuration**](ConfigmgrApi.md#org_apache_sling_distribution_resources_impl_distribution_configuration) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
+[**org_apache_sling_distribution_resources_impl_distribution_service_resour**](ConfigmgrApi.md#org_apache_sling_distribution_resources_impl_distribution_service_resour) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
+[**org_apache_sling_distribution_serialization_impl_distribution_package_bu**](ConfigmgrApi.md#org_apache_sling_distribution_serialization_impl_distribution_package_bu) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
+[**org_apache_sling_distribution_serialization_impl_vlt_vault_distribution**](ConfigmgrApi.md#org_apache_sling_distribution_serialization_impl_vlt_vault_distribution) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
+[**org_apache_sling_distribution_transport_impl_user_credentials_distributi**](ConfigmgrApi.md#org_apache_sling_distribution_transport_impl_user_credentials_distributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
+[**org_apache_sling_distribution_trigger_impl_distribution_event_distribute**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_distribution_event_distribute) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
 [**org_apache_sling_engine_impl_auth_sling_authenticator**](ConfigmgrApi.md#org_apache_sling_engine_impl_auth_sling_authenticator) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.auth.SlingAuthenticator | 
 [**org_apache_sling_engine_impl_debug_request_progress_tracker_log_filter**](ConfigmgrApi.md#org_apache_sling_engine_impl_debug_request_progress_tracker_log_filter) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter | 
 [**org_apache_sling_engine_impl_log_request_logger**](ConfigmgrApi.md#org_apache_sling_engine_impl_log_request_logger) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.log.RequestLogger | 
@@ -673,7 +673,7 @@ Method | HTTP request | Description
 [**org_apache_sling_event_impl_jobs_jcr_persistence_handler**](ConfigmgrApi.md#org_apache_sling_event_impl_jobs_jcr_persistence_handler) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler | 
 [**org_apache_sling_event_impl_jobs_job_consumer_manager**](ConfigmgrApi.md#org_apache_sling_event_impl_jobs_job_consumer_manager) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.JobConsumerManager | 
 [**org_apache_sling_event_jobs_queue_configuration**](ConfigmgrApi.md#org_apache_sling_event_jobs_queue_configuration) | **POST** /system/console/configMgr/org.apache.sling.event.jobs.QueueConfiguration | 
-[**org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider**](ConfigmgrApi.md#org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
+[**org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w**](ConfigmgrApi.md#org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
 [**org_apache_sling_featureflags_feature**](ConfigmgrApi.md#org_apache_sling_featureflags_feature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.Feature | 
 [**org_apache_sling_featureflags_impl_configured_feature**](ConfigmgrApi.md#org_apache_sling_featureflags_impl_configured_feature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.impl.ConfiguredFeature | 
 [**org_apache_sling_hapi_impl_h_api_util_impl**](ConfigmgrApi.md#org_apache_sling_hapi_impl_h_api_util_impl) | **POST** /system/console/configMgr/org.apache.sling.hapi.impl.HApiUtilImpl | 
@@ -697,20 +697,20 @@ Method | HTTP request | Description
 [**org_apache_sling_jcr_resource_internal_jcr_system_user_validator**](ConfigmgrApi.md#org_apache_sling_jcr_resource_internal_jcr_system_user_validator) | **POST** /system/console/configMgr/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator | 
 [**org_apache_sling_jcr_resourcesecurity_impl_resource_access_gate_factory**](ConfigmgrApi.md#org_apache_sling_jcr_resourcesecurity_impl_resource_access_gate_factory) | **POST** /system/console/configMgr/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory | 
 [**org_apache_sling_jcr_webdav_impl_handler_default_handler_service**](ConfigmgrApi.md#org_apache_sling_jcr_webdav_impl_handler_default_handler_service) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService | 
-[**org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service**](ConfigmgrApi.md#org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
+[**org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic**](ConfigmgrApi.md#org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
 [**org_apache_sling_jcr_webdav_impl_servlets_simple_web_dav_servlet**](ConfigmgrApi.md#org_apache_sling_jcr_webdav_impl_servlets_simple_web_dav_servlet) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet | 
 [**org_apache_sling_jmx_provider_impl_jmx_resource_provider**](ConfigmgrApi.md#org_apache_sling_jmx_provider_impl_jmx_resource_provider) | **POST** /system/console/configMgr/org.apache.sling.jmx.provider.impl.JMXResourceProvider | 
 [**org_apache_sling_models_impl_model_adapter_factory**](ConfigmgrApi.md#org_apache_sling_models_impl_model_adapter_factory) | **POST** /system/console/configMgr/org.apache.sling.models.impl.ModelAdapterFactory | 
 [**org_apache_sling_models_jacksonexporter_impl_resource_module_provider**](ConfigmgrApi.md#org_apache_sling_models_jacksonexporter_impl_resource_module_provider) | **POST** /system/console/configMgr/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider | 
-[**org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory**](ConfigmgrApi.md#org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
+[**org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto**](ConfigmgrApi.md#org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
 [**org_apache_sling_resourcemerger_impl_merged_resource_provider_factory**](ConfigmgrApi.md#org_apache_sling_resourcemerger_impl_merged_resource_provider_factory) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory | 
 [**org_apache_sling_resourcemerger_picker_overriding**](ConfigmgrApi.md#org_apache_sling_resourcemerger_picker_overriding) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.picker.overriding | 
 [**org_apache_sling_scripting_core_impl_script_cache_impl**](ConfigmgrApi.md#org_apache_sling_scripting_core_impl_script_cache_impl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptCacheImpl | 
-[**org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl**](ConfigmgrApi.md#org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
+[**org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider**](ConfigmgrApi.md#org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
 [**org_apache_sling_scripting_java_impl_java_script_engine_factory**](ConfigmgrApi.md#org_apache_sling_scripting_java_impl_java_script_engine_factory) | **POST** /system/console/configMgr/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory | 
-[**org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory**](ConfigmgrApi.md#org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
+[**org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa**](ConfigmgrApi.md#org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
 [**org_apache_sling_scripting_jsp_jsp_script_engine_factory**](ConfigmgrApi.md#org_apache_sling_scripting_jsp_jsp_script_engine_factory) | **POST** /system/console/configMgr/org.apache.sling.scripting.jsp.JspScriptEngineFactory | 
-[**org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider**](ConfigmgrApi.md#org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
+[**org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov**](ConfigmgrApi.md#org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
 [**org_apache_sling_security_impl_content_disposition_filter**](ConfigmgrApi.md#org_apache_sling_security_impl_content_disposition_filter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ContentDispositionFilter | 
 [**org_apache_sling_security_impl_referrer_filter**](ConfigmgrApi.md#org_apache_sling_security_impl_referrer_filter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter | 
 [**org_apache_sling_serviceusermapping_impl_service_user_mapper_impl**](ConfigmgrApi.md#org_apache_sling_serviceusermapping_impl_service_user_mapper_impl) | **POST** /system/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl | 
@@ -794,9 +794,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## adaptive_form_and_interactive_communication_web_channel_theme_configuration
+## adaptive_form_and_interactive_communication_web_channel_theme_configur
 
-> AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo adaptive_form_and_interactive_communication_web_channel_theme_configuration(opts)
+> AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo adaptive_form_and_interactive_communication_web_channel_theme_configur(opts)
 
 
 
@@ -818,10 +818,10 @@ opts = {
 }
 
 begin
-  result = api_instance.adaptive_form_and_interactive_communication_web_channel_theme_configuration(opts)
+  result = api_instance.adaptive_form_and_interactive_communication_web_channel_theme_configur(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->adaptive_form_and_interactive_communication_web_channel_theme_configuration: #{e}"
+  puts "Exception when calling ConfigmgrApi->adaptive_form_and_interactive_communication_web_channel_theme_configur: #{e}"
 end
 ```
 
@@ -840,7 +840,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo**](AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo.md)
+[**AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo**](AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo.md)
 
 ### Authorization
 
@@ -1896,9 +1896,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler
+## com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle
 
-> ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler(opts)
+> ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle(opts)
 
 
 
@@ -1920,10 +1920,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler(opts)
+  result = api_instance.com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle: #{e}"
 end
 ```
 
@@ -1942,7 +1942,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo**](ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo.md)
+[**ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo**](ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo.md)
 
 ### Authorization
 
@@ -2544,9 +2544,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet
+## com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle
 
-> ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet(opts)
+> ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle(opts)
 
 
 
@@ -2568,10 +2568,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet(opts)
+  result = api_instance.com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle: #{e}"
 end
 ```
 
@@ -2590,7 +2590,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo**](ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo.md)
+[**ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo**](ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo.md)
 
 ### Authorization
 
@@ -5068,9 +5068,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check
+## com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch
 
-> ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check(opts)
+> ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch(opts)
 
 
 
@@ -5092,10 +5092,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check(opts)
+  result = api_instance.com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch: #{e}"
 end
 ```
 
@@ -5114,7 +5114,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo**](ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo.md)
+[**ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo**](ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo.md)
 
 ### Authorization
 
@@ -5366,9 +5366,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_accountverification_impl_account_management_config_impl
+## com_adobe_cq_social_accountverification_impl_account_management_config_im
 
-> ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo com_adobe_cq_social_accountverification_impl_account_management_config_impl(opts)
+> ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo com_adobe_cq_social_accountverification_impl_account_management_config_im(opts)
 
 
 
@@ -5392,10 +5392,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_accountverification_impl_account_management_config_impl(opts)
+  result = api_instance.com_adobe_cq_social_accountverification_impl_account_management_config_im(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_accountverification_impl_account_management_config_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_accountverification_impl_account_management_config_im: #{e}"
 end
 ```
 
@@ -5416,7 +5416,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo**](ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo.md)
+[**ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo**](ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo.md)
 
 ### Authorization
 
@@ -5428,9 +5428,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl
+## com_adobe_cq_social_activitystreams_client_impl_social_activity_componen
 
-> ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl(opts)
+> ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo com_adobe_cq_social_activitystreams_client_impl_social_activity_componen(opts)
 
 
 
@@ -5452,10 +5452,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl(opts)
+  result = api_instance.com_adobe_cq_social_activitystreams_client_impl_social_activity_componen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_client_impl_social_activity_componen: #{e}"
 end
 ```
 
@@ -5474,7 +5474,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo.md)
+[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo.md)
 
 ### Authorization
 
@@ -5486,9 +5486,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory
+## com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co
 
-> ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory(opts)
+> ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co(opts)
 
 
 
@@ -5510,10 +5510,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory(opts)
+  result = api_instance.com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co: #{e}"
 end
 ```
 
@@ -5532,7 +5532,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo.md)
+[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo.md)
 
 ### Authorization
 
@@ -5604,9 +5604,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension
+## com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten
 
-> ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension(opts)
+> ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten(opts)
 
 
 
@@ -5629,10 +5629,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension(opts)
+  result = api_instance.com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten: #{e}"
 end
 ```
 
@@ -5652,7 +5652,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo**](ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo**](ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo.md)
 
 ### Authorization
 
@@ -5664,9 +5664,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor
+## com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s
 
-> ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor(opts)
+> ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s(opts)
 
 
 
@@ -5689,10 +5689,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor(opts)
+  result = api_instance.com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s: #{e}"
 end
 ```
 
@@ -5712,7 +5712,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo**](ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo**](ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo.md)
 
 ### Authorization
 
@@ -5724,9 +5724,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory
+## com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre
 
-> ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory(opts)
+> ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre(opts)
 
 
 
@@ -5749,10 +5749,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory(opts)
+  result = api_instance.com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre: #{e}"
 end
 ```
 
@@ -5772,7 +5772,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo**](ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo**](ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo.md)
 
 ### Authorization
 
@@ -5784,9 +5784,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl
+## com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i
 
-> ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl(opts)
+> ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i(opts)
 
 
 
@@ -5810,10 +5810,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl(opts)
+  result = api_instance.com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i: #{e}"
 end
 ```
 
@@ -5834,7 +5834,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo**](ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo.md)
+[**ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo**](ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo.md)
 
 ### Authorization
 
@@ -5846,9 +5846,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_calendar_client_operationextensions_event_attachment
+## com_adobe_cq_social_calendar_client_operationextensions_event_attachmen
 
-> ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo com_adobe_cq_social_calendar_client_operationextensions_event_attachment(opts)
+> ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo com_adobe_cq_social_calendar_client_operationextensions_event_attachmen(opts)
 
 
 
@@ -5871,10 +5871,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_calendar_client_operationextensions_event_attachment(opts)
+  result = api_instance.com_adobe_cq_social_calendar_client_operationextensions_event_attachmen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_calendar_client_operationextensions_event_attachment: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_calendar_client_operationextensions_event_attachmen: #{e}"
 end
 ```
 
@@ -5894,7 +5894,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo**](ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo.md)
+[**ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo**](ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo.md)
 
 ### Authorization
 
@@ -5964,9 +5964,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor
+## com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event
 
-> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor(opts)
+> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event(opts)
 
 
 
@@ -5988,10 +5988,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor(opts)
+  result = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event: #{e}"
 end
 ```
 
@@ -6010,7 +6010,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo.md)
 
 ### Authorization
 
@@ -6022,9 +6022,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service
+## com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se
 
-> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service(opts)
+> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se(opts)
 
 
 
@@ -6047,10 +6047,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service(opts)
+  result = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se: #{e}"
 end
 ```
 
@@ -6070,7 +6070,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo.md)
 
 ### Authorization
 
@@ -6082,9 +6082,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service
+## com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati
 
-> ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service(opts)
+> ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati(opts)
 
 
 
@@ -6107,10 +6107,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service(opts)
+  result = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati: #{e}"
 end
 ```
 
@@ -6130,7 +6130,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo.md)
 
 ### Authorization
 
@@ -6142,9 +6142,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider
+## com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c
 
-> ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider(opts)
+> ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c(opts)
 
 
 
@@ -6166,10 +6166,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider(opts)
+  result = api_instance.com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c: #{e}"
 end
 ```
 
@@ -6188,7 +6188,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo**](ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo.md)
+[**ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo**](ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo.md)
 
 ### Authorization
 
@@ -6200,9 +6200,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts
+## com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos
 
-> ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts(opts)
+> ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos(opts)
 
 
 
@@ -6226,10 +6226,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts(opts)
+  result = api_instance.com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos: #{e}"
 end
 ```
 
@@ -6250,7 +6250,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo**](ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo.md)
+[**ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo**](ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo.md)
 
 ### Authorization
 
@@ -6556,9 +6556,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl
+## com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp
 
-> ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl(opts)
+> ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp(opts)
 
 
 
@@ -6587,10 +6587,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl(opts)
+  result = api_instance.com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp: #{e}"
 end
 ```
 
@@ -6616,7 +6616,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo.md)
+[**ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.md)
 
 ### Authorization
 
@@ -6628,9 +6628,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl
+## com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp
 
-> ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl(opts)
+> ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp(opts)
 
 
 
@@ -6662,10 +6662,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl(opts)
+  result = api_instance.com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp: #{e}"
 end
 ```
 
@@ -6694,7 +6694,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo.md)
+[**ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.md)
 
 ### Authorization
 
@@ -7124,9 +7124,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads
+## com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload
 
-> ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads(opts)
+> ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload(opts)
 
 
 
@@ -7149,10 +7149,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads(opts)
+  result = api_instance.com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload: #{e}"
 end
 ```
 
@@ -7172,7 +7172,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo**](ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo.md)
+[**ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo**](ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo.md)
 
 ### Authorization
 
@@ -7246,9 +7246,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl
+## com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit
 
-> ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl(opts)
+> ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit(opts)
 
 
 
@@ -7274,10 +7274,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl(opts)
+  result = api_instance.com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit: #{e}"
 end
 ```
 
@@ -7300,7 +7300,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo**](ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo.md)
+[**ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo**](ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo.md)
 
 ### Authorization
 
@@ -7384,9 +7384,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler
+## com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle
 
-> ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler(opts)
+> ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle(opts)
 
 
 
@@ -7409,10 +7409,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler(opts)
+  result = api_instance.com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle: #{e}"
 end
 ```
 
@@ -7432,7 +7432,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo**](ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo.md)
+[**ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo**](ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo.md)
 
 ### Authorization
 
@@ -7576,9 +7576,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl
+## com_adobe_cq_social_content_fragments_services_impl_communities_fragmen
 
-> ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl(opts)
+> ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo com_adobe_cq_social_content_fragments_services_impl_communities_fragmen(opts)
 
 
 
@@ -7601,10 +7601,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl(opts)
+  result = api_instance.com_adobe_cq_social_content_fragments_services_impl_communities_fragmen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_content_fragments_services_impl_communities_fragmen: #{e}"
 end
 ```
 
@@ -7624,7 +7624,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo**](ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo.md)
+[**ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo**](ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo.md)
 
 ### Authorization
 
@@ -7776,9 +7776,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory
+## com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor
 
-> ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory(opts)
+> ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor(opts)
 
 
 
@@ -7806,10 +7806,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory(opts)
+  result = api_instance.com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor: #{e}"
 end
 ```
 
@@ -7834,7 +7834,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo**](ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo.md)
+[**ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo**](ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo.md)
 
 ### Authorization
 
@@ -7846,9 +7846,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory
+## com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f
 
-> ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory(opts)
+> ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f(opts)
 
 
 
@@ -7870,10 +7870,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory(opts)
+  result = api_instance.com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f: #{e}"
 end
 ```
 
@@ -7892,7 +7892,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo.md)
+[**ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo.md)
 
 ### Authorization
 
@@ -7904,9 +7904,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory
+## com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto
 
-> ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory(opts)
+> ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto(opts)
 
 
 
@@ -7928,10 +7928,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory(opts)
+  result = api_instance.com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto: #{e}"
 end
 ```
 
@@ -7950,7 +7950,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo.md)
+[**ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo.md)
 
 ### Authorization
 
@@ -7962,9 +7962,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service
+## com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l
 
-> ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service(opts)
+> ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l(opts)
 
 
 
@@ -7986,10 +7986,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service(opts)
+  result = api_instance.com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l: #{e}"
 end
 ```
 
@@ -8008,7 +8008,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo**](ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo.md)
+[**ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo**](ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo.md)
 
 ### Authorization
 
@@ -8020,9 +8020,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service
+## com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou
 
-> ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service(opts)
+> ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou(opts)
 
 
 
@@ -8044,10 +8044,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service(opts)
+  result = api_instance.com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou: #{e}"
 end
 ```
 
@@ -8066,7 +8066,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo**](ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo.md)
+[**ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo**](ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.md)
 
 ### Authorization
 
@@ -8136,9 +8136,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet
+## com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge
 
-> ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet(opts)
+> ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge(opts)
 
 
 
@@ -8161,10 +8161,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet(opts)
+  result = api_instance.com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge: #{e}"
 end
 ```
 
@@ -8184,7 +8184,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo**](ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo.md)
+[**ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo**](ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo.md)
 
 ### Authorization
 
@@ -8196,9 +8196,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service
+## com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera
 
-> ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service(opts)
+> ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera(opts)
 
 
 
@@ -8221,10 +8221,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service(opts)
+  result = api_instance.com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera: #{e}"
 end
 ```
 
@@ -8244,7 +8244,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo**](ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo.md)
+[**ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo**](ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo.md)
 
 ### Authorization
 
@@ -8376,9 +8376,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_group_client_impl_community_group_collection_component_factory
+## com_adobe_cq_social_group_client_impl_community_group_collection_componen
 
-> ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo com_adobe_cq_social_group_client_impl_community_group_collection_component_factory(opts)
+> ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo com_adobe_cq_social_group_client_impl_community_group_collection_componen(opts)
 
 
 
@@ -8403,10 +8403,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_group_client_impl_community_group_collection_component_factory(opts)
+  result = api_instance.com_adobe_cq_social_group_client_impl_community_group_collection_componen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_group_client_impl_community_group_collection_component_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_group_client_impl_community_group_collection_componen: #{e}"
 end
 ```
 
@@ -8428,7 +8428,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo**](ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo.md)
+[**ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo**](ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.md)
 
 ### Authorization
 
@@ -8564,69 +8564,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service
+## com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s
 
-> ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service(opts)
-
-
-
-### Example
-
-```ruby
-# load the gem
-require 'swagger_aem_osgi'
-
-api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
-opts = {
-  post: true, # Boolean | 
-  apply: true, # Boolean | 
-  delete: true, # Boolean | 
-  action: 'action_example', # String | 
-  location: 'location_example', # String | 
-  propertylist: ['propertylist_example'], # Array<String> | 
-  field_whitelist: ['field_whitelist_example'], # Array<String> | 
-  attachment_type_blacklist: ['attachment_type_blacklist_example'] # Array<String> | 
-}
-
-begin
-  result = api_instance.com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service(opts)
-  p result
-rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service: #{e}"
-end
-```
-
-### Parameters
-
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **post** | **Boolean**|  | [optional] 
- **apply** | **Boolean**|  | [optional] 
- **delete** | **Boolean**|  | [optional] 
- **action** | **String**|  | [optional] 
- **location** | **String**|  | [optional] 
- **propertylist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
- **field_whitelist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
- **attachment_type_blacklist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
-
-### Return type
-
-[**ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo**](ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-
-## com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service
-
-> ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service(opts)
+> ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s(opts)
 
 
 
@@ -8649,10 +8589,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service(opts)
+  result = api_instance.com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s: #{e}"
 end
 ```
 
@@ -8672,7 +8612,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo**](ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo.md)
+[**ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo**](ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo.md)
 
 ### Authorization
 
@@ -8684,9 +8624,69 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service
+## com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser
 
-> ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service(opts)
+> ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser(opts)
+
+
+
+### Example
+
+```ruby
+# load the gem
+require 'swagger_aem_osgi'
+
+api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
+opts = {
+  post: true, # Boolean | 
+  apply: true, # Boolean | 
+  delete: true, # Boolean | 
+  action: 'action_example', # String | 
+  location: 'location_example', # String | 
+  propertylist: ['propertylist_example'], # Array<String> | 
+  field_whitelist: ['field_whitelist_example'], # Array<String> | 
+  attachment_type_blacklist: ['attachment_type_blacklist_example'] # Array<String> | 
+}
+
+begin
+  result = api_instance.com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser(opts)
+  p result
+rescue SwaggerAemOsgiClient::ApiError => e
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser: #{e}"
+end
+```
+
+### Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **post** | **Boolean**|  | [optional] 
+ **apply** | **Boolean**|  | [optional] 
+ **delete** | **Boolean**|  | [optional] 
+ **action** | **String**|  | [optional] 
+ **location** | **String**|  | [optional] 
+ **propertylist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
+ **field_whitelist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
+ **attachment_type_blacklist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
+
+### Return type
+
+[**ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo**](ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+
+## com_adobe_cq_social_members_endpoints_impl_community_member_group_profile
+
+> ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo com_adobe_cq_social_members_endpoints_impl_community_member_group_profile(opts)
 
 
 
@@ -8708,10 +8708,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service(opts)
+  result = api_instance.com_adobe_cq_social_members_endpoints_impl_community_member_group_profile(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_members_endpoints_impl_community_member_group_profile: #{e}"
 end
 ```
 
@@ -8730,7 +8730,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo.md)
+[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo.md)
 
 ### Authorization
 
@@ -8742,9 +8742,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service
+## com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o
 
-> ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service(opts)
+> ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o(opts)
 
 
 
@@ -8766,10 +8766,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service(opts)
+  result = api_instance.com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o: #{e}"
 end
 ```
 
@@ -8788,7 +8788,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo.md)
+[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo.md)
 
 ### Authorization
 
@@ -8800,9 +8800,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_members_impl_community_member_group_profile_component_factory
+## com_adobe_cq_social_members_impl_community_member_group_profile_component_f
 
-> ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo com_adobe_cq_social_members_impl_community_member_group_profile_component_factory(opts)
+> ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo com_adobe_cq_social_members_impl_community_member_group_profile_component_f(opts)
 
 
 
@@ -8825,10 +8825,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_members_impl_community_member_group_profile_component_factory(opts)
+  result = api_instance.com_adobe_cq_social_members_impl_community_member_group_profile_component_f(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_members_impl_community_member_group_profile_component_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_members_impl_community_member_group_profile_component_f: #{e}"
 end
 ```
 
@@ -8848,7 +8848,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo**](ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo.md)
+[**ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo**](ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo.md)
 
 ### Authorization
 
@@ -8860,9 +8860,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl
+## com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation
 
-> ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl(opts)
+> ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation(opts)
 
 
 
@@ -8903,10 +8903,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl(opts)
+  result = api_instance.com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation: #{e}"
 end
 ```
 
@@ -8944,7 +8944,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo**](ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo.md)
+[**ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo**](ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo.md)
 
 ### Authorization
 
@@ -8956,9 +8956,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory
+## com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen
 
-> ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory(opts)
+> ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen(opts)
 
 
 
@@ -8981,10 +8981,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory(opts)
+  result = api_instance.com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen: #{e}"
 end
 ```
 
@@ -9004,7 +9004,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo**](ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo.md)
 
 ### Authorization
 
@@ -9016,9 +9016,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory
+## com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social
 
-> ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory(opts)
+> ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social(opts)
 
 
 
@@ -9040,10 +9040,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory(opts)
+  result = api_instance.com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social: #{e}"
 end
 ```
 
@@ -9062,7 +9062,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo**](ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo.md)
 
 ### Authorization
 
@@ -9074,9 +9074,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory
+## com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen
 
-> ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory(opts)
+> ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen(opts)
 
 
 
@@ -9098,10 +9098,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory(opts)
+  result = api_instance.com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen: #{e}"
 end
 ```
 
@@ -9120,7 +9120,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo**](ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo.md)
 
 ### Authorization
 
@@ -9132,9 +9132,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2
+## com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci
 
-> ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2(opts)
+> ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci(opts)
 
 
 
@@ -9157,10 +9157,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2(opts)
+  result = api_instance.com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci: #{e}"
 end
 ```
 
@@ -9180,7 +9180,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info**](ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info.md)
+[**ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo**](ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo.md)
 
 ### Authorization
 
@@ -9370,9 +9370,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service
+## com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic
 
-> ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service(opts)
+> ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic(opts)
 
 
 
@@ -9395,10 +9395,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service(opts)
+  result = api_instance.com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic: #{e}"
 end
 ```
 
@@ -9418,7 +9418,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo**](ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo.md)
+[**ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo**](ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo.md)
 
 ### Authorization
 
@@ -9430,9 +9430,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl
+## com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i
 
-> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl(opts)
+> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i(opts)
 
 
 
@@ -9455,10 +9455,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl(opts)
+  result = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i: #{e}"
 end
 ```
 
@@ -9478,7 +9478,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo.md)
 
 ### Authorization
 
@@ -9490,9 +9490,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl
+## com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m
 
-> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl(opts)
+> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m(opts)
 
 
 
@@ -9514,10 +9514,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl(opts)
+  result = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m: #{e}"
 end
 ```
 
@@ -9536,7 +9536,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo.md)
 
 ### Authorization
 
@@ -9548,9 +9548,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory
+## com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s
 
-> ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory(opts)
+> ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s(opts)
 
 
 
@@ -9573,10 +9573,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory(opts)
+  result = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s: #{e}"
 end
 ```
 
@@ -9596,7 +9596,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo.md)
 
 ### Authorization
 
@@ -9608,9 +9608,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_review_client_endpoints_impl_review_operations_service
+## com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi
 
-> ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo com_adobe_cq_social_review_client_endpoints_impl_review_operations_service(opts)
+> ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi(opts)
 
 
 
@@ -9633,10 +9633,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_review_client_endpoints_impl_review_operations_service(opts)
+  result = api_instance.com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_review_client_endpoints_impl_review_operations_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi: #{e}"
 end
 ```
 
@@ -9656,7 +9656,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo**](ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo.md)
+[**ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo**](ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo.md)
 
 ### Authorization
 
@@ -9968,9 +9968,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl
+## com_adobe_cq_social_site_impl_analytics_component_configuration_service_im
 
-> ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl(opts)
+> ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo com_adobe_cq_social_site_impl_analytics_component_configuration_service_im(opts)
 
 
 
@@ -9992,10 +9992,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl(opts)
+  result = api_instance.com_adobe_cq_social_site_impl_analytics_component_configuration_service_im(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_site_impl_analytics_component_configuration_service_im: #{e}"
 end
 ```
 
@@ -10014,7 +10014,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo**](ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo.md)
+[**ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo**](ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo.md)
 
 ### Authorization
 
@@ -10906,9 +10906,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service
+## com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli
 
-> ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service(opts)
+> ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli(opts)
 
 
 
@@ -10931,10 +10931,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service(opts)
+  result = api_instance.com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli: #{e}"
 end
 ```
 
@@ -10954,7 +10954,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo**](ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
+[**ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo**](ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo.md)
 
 ### Authorization
 
@@ -11166,9 +11166,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended
+## com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact
 
-> ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended(opts)
+> ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact(opts)
 
 
 
@@ -11190,10 +11190,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended(opts)
+  result = api_instance.com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact: #{e}"
 end
 ```
 
@@ -11212,7 +11212,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo**](ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo.md)
+[**ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo**](ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo.md)
 
 ### Authorization
 
@@ -12020,9 +12020,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_forms_common_service_impl_forms_common_configuration_service_impl
+## com_adobe_forms_common_service_impl_forms_common_configuration_service_imp
 
-> ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo com_adobe_forms_common_service_impl_forms_common_configuration_service_impl(opts)
+> ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo com_adobe_forms_common_service_impl_forms_common_configuration_service_imp(opts)
 
 
 
@@ -12044,10 +12044,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_forms_common_service_impl_forms_common_configuration_service_impl(opts)
+  result = api_instance.com_adobe_forms_common_service_impl_forms_common_configuration_service_imp(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_forms_common_service_impl_forms_common_configuration_service_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_forms_common_service_impl_forms_common_configuration_service_imp: #{e}"
 end
 ```
 
@@ -12066,7 +12066,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo**](ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo.md)
+[**ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo**](ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo.md)
 
 ### Authorization
 
@@ -14738,9 +14738,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_comments_internal_comment_replication_content_filter_factory
+## com_adobe_granite_comments_internal_comment_replication_content_filter_fac
 
-> ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo com_adobe_granite_comments_internal_comment_replication_content_filter_factory(opts)
+> ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo com_adobe_granite_comments_internal_comment_replication_content_filter_fac(opts)
 
 
 
@@ -14762,10 +14762,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_comments_internal_comment_replication_content_filter_factory(opts)
+  result = api_instance.com_adobe_granite_comments_internal_comment_replication_content_filter_fac(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_comments_internal_comment_replication_content_filter_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_comments_internal_comment_replication_content_filter_fac: #{e}"
 end
 ```
 
@@ -14784,7 +14784,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo**](ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo.md)
+[**ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo**](ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo.md)
 
 ### Authorization
 
@@ -14978,9 +14978,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy
+## com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving
 
-> ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy(opts)
+> ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving(opts)
 
 
 
@@ -15003,10 +15003,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy(opts)
+  result = api_instance.com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving: #{e}"
 end
 ```
 
@@ -15026,7 +15026,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo**](ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo.md)
+[**ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo**](ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo.md)
 
 ### Authorization
 
@@ -15294,9 +15294,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider
+## com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se
 
-> ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider(opts)
+> ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se(opts)
 
 
 
@@ -15320,10 +15320,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider(opts)
+  result = api_instance.com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se: #{e}"
 end
 ```
 
@@ -15344,7 +15344,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo**](ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo**](ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo.md)
 
 ### Authorization
 
@@ -15490,9 +15490,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer
+## com_adobe_granite_distribution_core_impl_distribution_to_replication_even
 
-> ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer(opts)
+> ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo com_adobe_granite_distribution_core_impl_distribution_to_replication_even(opts)
 
 
 
@@ -15514,10 +15514,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer(opts)
+  result = api_instance.com_adobe_granite_distribution_core_impl_distribution_to_replication_even(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_distribution_to_replication_even: #{e}"
 end
 ```
 
@@ -15536,7 +15536,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo**](ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo.md)
+[**ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo**](ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo.md)
 
 ### Authorization
 
@@ -15548,9 +15548,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider
+## com_adobe_granite_distribution_core_impl_replication_adapters_replicat
 
-> ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider(opts)
+> ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo com_adobe_granite_distribution_core_impl_replication_adapters_replicat(opts)
 
 
 
@@ -15573,10 +15573,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider(opts)
+  result = api_instance.com_adobe_granite_distribution_core_impl_replication_adapters_replicat(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_replication_adapters_replicat: #{e}"
 end
 ```
 
@@ -15596,7 +15596,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo**](ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo**](ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo.md)
 
 ### Authorization
 
@@ -15608,9 +15608,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler
+## com_adobe_granite_distribution_core_impl_replication_distribution_trans
 
-> ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler(opts)
+> ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo com_adobe_granite_distribution_core_impl_replication_distribution_trans(opts)
 
 
 
@@ -15632,10 +15632,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler(opts)
+  result = api_instance.com_adobe_granite_distribution_core_impl_replication_distribution_trans(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_replication_distribution_trans: #{e}"
 end
 ```
 
@@ -15654,7 +15654,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo**](ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo.md)
+[**ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo**](ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo.md)
 
 ### Authorization
 
@@ -15666,9 +15666,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider
+## com_adobe_granite_distribution_core_impl_transport_access_token_distribu
 
-> ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider(opts)
+> ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo com_adobe_granite_distribution_core_impl_transport_access_token_distribu(opts)
 
 
 
@@ -15693,10 +15693,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider(opts)
+  result = api_instance.com_adobe_granite_distribution_core_impl_transport_access_token_distribu(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_transport_access_token_distribu: #{e}"
 end
 ```
 
@@ -15718,7 +15718,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo**](ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo**](ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo.md)
 
 ### Authorization
 
@@ -16648,9 +16648,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler
+## com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han
 
-> ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler(opts)
+> ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han(opts)
 
 
 
@@ -16676,10 +16676,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler(opts)
+  result = api_instance.com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han: #{e}"
 end
 ```
 
@@ -16702,7 +16702,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo**](ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo.md)
+[**ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo**](ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo.md)
 
 ### Authorization
 
@@ -17246,9 +17246,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_offloading_impl_transporter_offloading_default_transporter
+## com_adobe_granite_offloading_impl_transporter_offloading_default_transpo
 
-> ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo com_adobe_granite_offloading_impl_transporter_offloading_default_transporter(opts)
+> ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo com_adobe_granite_offloading_impl_transporter_offloading_default_transpo(opts)
 
 
 
@@ -17276,10 +17276,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_offloading_impl_transporter_offloading_default_transporter(opts)
+  result = api_instance.com_adobe_granite_offloading_impl_transporter_offloading_default_transpo(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_offloading_impl_transporter_offloading_default_transporter: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_offloading_impl_transporter_offloading_default_transpo: #{e}"
 end
 ```
 
@@ -17304,7 +17304,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo**](ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo.md)
+[**ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo**](ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo.md)
 
 ### Authorization
 
@@ -17796,9 +17796,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_replication_hc_impl_replication_transport_users_health_check
+## com_adobe_granite_replication_hc_impl_replication_transport_users_health_c
 
-> ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo com_adobe_granite_replication_hc_impl_replication_transport_users_health_check(opts)
+> ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo com_adobe_granite_replication_hc_impl_replication_transport_users_health_c(opts)
 
 
 
@@ -17820,10 +17820,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_replication_hc_impl_replication_transport_users_health_check(opts)
+  result = api_instance.com_adobe_granite_replication_hc_impl_replication_transport_users_health_c(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_replication_hc_impl_replication_transport_users_health_check: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_replication_hc_impl_replication_transport_users_health_c: #{e}"
 end
 ```
 
@@ -17842,7 +17842,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo**](ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo.md)
+[**ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo**](ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.md)
 
 ### Authorization
 
@@ -17912,9 +17912,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check
+## com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c
 
-> ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check(opts)
+> ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c(opts)
 
 
 
@@ -17937,10 +17937,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check(opts)
+  result = api_instance.com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c: #{e}"
 end
 ```
 
@@ -17960,7 +17960,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo**](ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo.md)
+[**ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo**](ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo.md)
 
 ### Authorization
 
@@ -18030,9 +18030,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check
+## com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che
 
-> ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check(opts)
+> ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che(opts)
 
 
 
@@ -18054,10 +18054,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check(opts)
+  result = api_instance.com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che: #{e}"
 end
 ```
 
@@ -18076,7 +18076,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo.md)
+[**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.md)
 
 ### Authorization
 
@@ -18414,9 +18414,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl
+## com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im
 
-> ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl(opts)
+> ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im(opts)
 
 
 
@@ -18438,10 +18438,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl(opts)
+  result = api_instance.com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im: #{e}"
 end
 ```
 
@@ -18460,7 +18460,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo**](ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo.md)
+[**ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo**](ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo.md)
 
 ### Authorization
 
@@ -18768,9 +18768,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet
+## com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s
 
-> ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet(opts)
+> ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s(opts)
 
 
 
@@ -18792,10 +18792,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet(opts)
+  result = api_instance.com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s: #{e}"
 end
 ```
 
@@ -18814,7 +18814,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo**](ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo.md)
+[**ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo**](ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo.md)
 
 ### Authorization
 
@@ -19198,9 +19198,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory
+## com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor
 
-> ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory(opts)
+> ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor(opts)
 
 
 
@@ -19223,10 +19223,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory(opts)
+  result = api_instance.com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor: #{e}"
 end
 ```
 
@@ -19246,7 +19246,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo**](ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo.md)
+[**ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo**](ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo.md)
 
 ### Authorization
 
@@ -19332,9 +19332,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl
+## com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl
 
-> ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl(opts)
+> ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl(opts)
 
 
 
@@ -19364,10 +19364,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl(opts)
+  result = api_instance.com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl: #{e}"
 end
 ```
 
@@ -19394,7 +19394,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo**](ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo.md)
+[**ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo**](ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.md)
 
 ### Authorization
 
@@ -19858,9 +19858,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer
+## com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum
 
-> ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer(opts)
+> ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum(opts)
 
 
 
@@ -19882,10 +19882,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer(opts)
+  result = api_instance.com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum: #{e}"
 end
 ```
 
@@ -19904,7 +19904,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo**](ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo.md)
+[**ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo**](ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo.md)
 
 ### Authorization
 
@@ -20306,9 +20306,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet
+## com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s
 
-> ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet(opts)
+> ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s(opts)
 
 
 
@@ -20330,10 +20330,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet(opts)
+  result = api_instance.com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s: #{e}"
 end
 ```
 
@@ -20352,7 +20352,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo**](ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo.md)
+[**ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo**](ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo.md)
 
 ### Authorization
 
@@ -20634,9 +20634,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter
+## com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte
 
-> ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter(opts)
+> ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte(opts)
 
 
 
@@ -20659,10 +20659,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter(opts)
+  result = api_instance.com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte: #{e}"
 end
 ```
 
@@ -20682,7 +20682,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo**](ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo.md)
+[**ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo**](ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo.md)
 
 ### Authorization
 
@@ -21552,9 +21552,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker
+## com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke
 
-> ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker(opts)
+> ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke(opts)
 
 
 
@@ -21577,10 +21577,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker(opts)
+  result = api_instance.com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke: #{e}"
 end
 ```
 
@@ -21600,7 +21600,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo**](ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo.md)
+[**ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo**](ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo.md)
 
 ### Authorization
 
@@ -22620,9 +22620,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag
+## com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat
 
-> ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag(opts)
+> ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat(opts)
 
 
 
@@ -22644,10 +22644,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag(opts)
+  result = api_instance.com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat: #{e}"
 end
 ```
 
@@ -22666,7 +22666,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo**](ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo.md)
+[**ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo**](ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo.md)
 
 ### Authorization
 
@@ -23164,9 +23164,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service
+## com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config
 
-> ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service(opts)
+> ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config(opts)
 
 
 
@@ -23189,10 +23189,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service(opts)
+  result = api_instance.com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config: #{e}"
 end
 ```
 
@@ -23212,7 +23212,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo**](ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo.md)
+[**ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo**](ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo.md)
 
 ### Authorization
 
@@ -23224,9 +23224,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service
+## com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config
 
-> ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service(opts)
+> ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config(opts)
 
 
 
@@ -23251,10 +23251,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service(opts)
+  result = api_instance.com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config: #{e}"
 end
 ```
 
@@ -23276,7 +23276,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo**](ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo.md)
+[**ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo**](ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo.md)
 
 ### Authorization
 
@@ -23590,9 +23590,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process
+## com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr
 
-> ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process(opts)
+> ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr(opts)
 
 
 
@@ -23615,10 +23615,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process(opts)
+  result = api_instance.com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr: #{e}"
 end
 ```
 
@@ -23638,7 +23638,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo**](ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo.md)
+[**ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo**](ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo.md)
 
 ### Authorization
 
@@ -25832,9 +25832,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process
+## com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro
 
-> ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process(opts)
+> ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro(opts)
 
 
 
@@ -25856,10 +25856,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process(opts)
+  result = api_instance.com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro: #{e}"
 end
 ```
 
@@ -25878,7 +25878,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo**](ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo.md)
+[**ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo**](ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo.md)
 
 ### Authorization
 
@@ -25890,9 +25890,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener
+## com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even
 
-> ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener(opts)
+> ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even(opts)
 
 
 
@@ -25914,10 +25914,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener(opts)
+  result = api_instance.com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even: #{e}"
 end
 ```
 
@@ -25936,7 +25936,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo.md)
+[**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.md)
 
 ### Authorization
 
@@ -26736,9 +26736,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl
+## com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser
 
-> ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl(opts)
+> ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser(opts)
 
 
 
@@ -26761,10 +26761,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl(opts)
+  result = api_instance.com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser: #{e}"
 end
 ```
 
@@ -26784,7 +26784,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo**](ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo.md)
+[**ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo**](ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo.md)
 
 ### Authorization
 
@@ -26796,9 +26796,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl
+## com_day_cq_dam_stock_integration_impl_configuration_stock_configuration
 
-> ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl(opts)
+> ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo com_day_cq_dam_stock_integration_impl_configuration_stock_configuration(opts)
 
 
 
@@ -26822,10 +26822,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl(opts)
+  result = api_instance.com_day_cq_dam_stock_integration_impl_configuration_stock_configuration(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_dam_stock_integration_impl_configuration_stock_configuration: #{e}"
 end
 ```
 
@@ -26846,7 +26846,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo**](ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo.md)
+[**ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo**](ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo.md)
 
 ### Authorization
 
@@ -27594,71 +27594,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory
+## com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen
 
-> ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory(opts)
-
-
-
-### Example
-
-```ruby
-# load the gem
-require 'swagger_aem_osgi'
-
-api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
-opts = {
-  post: true, # Boolean | 
-  apply: true, # Boolean | 
-  delete: true, # Boolean | 
-  action: 'action_example', # String | 
-  location: 'location_example', # String | 
-  propertylist: ['propertylist_example'], # Array<String> | 
-  service_ranking: 56, # Integer | 
-  tagpattern: 'tagpattern_example', # String | 
-  component_resource_type: 'component_resource_type_example' # String | 
-}
-
-begin
-  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory(opts)
-  p result
-rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory: #{e}"
-end
-```
-
-### Parameters
-
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **post** | **Boolean**|  | [optional] 
- **apply** | **Boolean**|  | [optional] 
- **delete** | **Boolean**|  | [optional] 
- **action** | **String**|  | [optional] 
- **location** | **String**|  | [optional] 
- **propertylist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
- **service_ranking** | **Integer**|  | [optional] 
- **tagpattern** | **String**|  | [optional] 
- **component_resource_type** | **String**|  | [optional] 
-
-### Return type
-
-[**ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-
-## com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory
-
-> ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen(opts)
 
 
 
@@ -27682,10 +27620,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen: #{e}"
 end
 ```
 
@@ -27706,7 +27644,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo.md)
 
 ### Authorization
 
@@ -27718,9 +27656,71 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory
+## com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug
 
-> ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug(opts)
+
+
+
+### Example
+
+```ruby
+# load the gem
+require 'swagger_aem_osgi'
+
+api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
+opts = {
+  post: true, # Boolean | 
+  apply: true, # Boolean | 
+  delete: true, # Boolean | 
+  action: 'action_example', # String | 
+  location: 'location_example', # String | 
+  propertylist: ['propertylist_example'], # Array<String> | 
+  service_ranking: 56, # Integer | 
+  tagpattern: 'tagpattern_example', # String | 
+  component_resource_type: 'component_resource_type_example' # String | 
+}
+
+begin
+  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug(opts)
+  p result
+rescue SwaggerAemOsgiClient::ApiError => e
+  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug: #{e}"
+end
+```
+
+### Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **post** | **Boolean**|  | [optional] 
+ **apply** | **Boolean**|  | [optional] 
+ **delete** | **Boolean**|  | [optional] 
+ **action** | **String**|  | [optional] 
+ **location** | **String**|  | [optional] 
+ **propertylist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
+ **service_ranking** | **Integer**|  | [optional] 
+ **tagpattern** | **String**|  | [optional] 
+ **component_resource_type** | **String**|  | [optional] 
+
+### Return type
+
+[**ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+
+## com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component
+
+> ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component(opts)
 
 
 
@@ -27743,10 +27743,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component: #{e}"
 end
 ```
 
@@ -27766,7 +27766,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo.md)
 
 ### Authorization
 
@@ -27778,9 +27778,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory
+## com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha
 
-> ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha(opts)
 
 
 
@@ -27803,10 +27803,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha: #{e}"
 end
 ```
 
@@ -27826,7 +27826,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.md)
 
 ### Authorization
 
@@ -27838,9 +27838,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory
+## com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h
 
-> ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h(opts)
 
 
 
@@ -27864,10 +27864,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h: #{e}"
 end
 ```
 
@@ -27888,7 +27888,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.md)
 
 ### Authorization
 
@@ -28450,9 +28450,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service
+## com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov
 
-> ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service(opts)
+> ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov(opts)
 
 
 
@@ -28482,10 +28482,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service(opts)
+  result = api_instance.com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov: #{e}"
 end
 ```
 
@@ -28512,7 +28512,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo**](ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo.md)
+[**ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo**](ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo.md)
 
 ### Authorization
 
@@ -30008,9 +30008,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory
+## com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor
 
-> ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory(opts)
+> ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor(opts)
 
 
 
@@ -30037,10 +30037,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory(opts)
+  result = api_instance.com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor: #{e}"
 end
 ```
 
@@ -30064,7 +30064,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo**](ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo.md)
+[**ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo**](ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo.md)
 
 ### Authorization
 
@@ -30866,9 +30866,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler
+## com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie
 
-> ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler(opts)
+> ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie(opts)
 
 
 
@@ -30890,10 +30890,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler(opts)
+  result = api_instance.com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie: #{e}"
 end
 ```
 
@@ -30912,7 +30912,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo**](ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo.md)
+[**ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo**](ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo.md)
 
 ### Authorization
 
@@ -32076,69 +32076,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory(opts)
-
-
-
-### Example
-
-```ruby
-# load the gem
-require 'swagger_aem_osgi'
-
-api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
-opts = {
-  post: true, # Boolean | 
-  apply: true, # Boolean | 
-  delete: true, # Boolean | 
-  action: 'action_example', # String | 
-  location: 'location_example', # String | 
-  propertylist: ['propertylist_example'], # Array<String> | 
-  service_ranking: 56, # Integer | 
-  tagpattern: 'tagpattern_example' # String | 
-}
-
-begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory(opts)
-  p result
-rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory: #{e}"
-end
-```
-
-### Parameters
-
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **post** | **Boolean**|  | [optional] 
- **apply** | **Boolean**|  | [optional] 
- **delete** | **Boolean**|  | [optional] 
- **action** | **String**|  | [optional] 
- **location** | **String**|  | [optional] 
- **propertylist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
- **service_ranking** | **Integer**|  | [optional] 
- **tagpattern** | **String**|  | [optional] 
-
-### Return type
-
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory
-
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone(opts)
 
 
 
@@ -32161,10 +32101,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone: #{e}"
 end
 ```
 
@@ -32184,7 +32124,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.md)
 
 ### Authorization
 
@@ -32196,9 +32136,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon(opts)
 
 
 
@@ -32221,10 +32161,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon: #{e}"
 end
 ```
 
@@ -32244,7 +32184,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo.md)
 
 ### Authorization
 
@@ -32256,9 +32196,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han(opts)
 
 
 
@@ -32281,10 +32221,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han: #{e}"
 end
 ```
 
@@ -32304,7 +32244,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo.md)
 
 ### Authorization
 
@@ -32316,9 +32256,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle(opts)
 
 
 
@@ -32341,10 +32281,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle: #{e}"
 end
 ```
 
@@ -32364,7 +32304,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo.md)
 
 ### Authorization
 
@@ -32376,9 +32316,69 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand(opts)
+
+
+
+### Example
+
+```ruby
+# load the gem
+require 'swagger_aem_osgi'
+
+api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
+opts = {
+  post: true, # Boolean | 
+  apply: true, # Boolean | 
+  delete: true, # Boolean | 
+  action: 'action_example', # String | 
+  location: 'location_example', # String | 
+  propertylist: ['propertylist_example'], # Array<String> | 
+  service_ranking: 56, # Integer | 
+  tagpattern: 'tagpattern_example' # String | 
+}
+
+begin
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand(opts)
+  p result
+rescue SwaggerAemOsgiClient::ApiError => e
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand: #{e}"
+end
+```
+
+### Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **post** | **Boolean**|  | [optional] 
+ **apply** | **Boolean**|  | [optional] 
+ **delete** | **Boolean**|  | [optional] 
+ **action** | **String**|  | [optional] 
+ **location** | **String**|  | [optional] 
+ **propertylist** | [**Array&lt;String&gt;**](String.md)|  | [optional] 
+ **service_ranking** | **Integer**|  | [optional] 
+ **tagpattern** | **String**|  | [optional] 
+
+### Return type
+
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen
+
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen(opts)
 
 
 
@@ -32402,10 +32402,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen: #{e}"
 end
 ```
 
@@ -32426,7 +32426,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo.md)
 
 ### Authorization
 
@@ -32438,9 +32438,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler(opts)
 
 
 
@@ -32463,10 +32463,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler: #{e}"
 end
 ```
 
@@ -32486,7 +32486,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo.md)
 
 ### Authorization
 
@@ -32498,9 +32498,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t(opts)
 
 
 
@@ -32523,10 +32523,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t: #{e}"
 end
 ```
 
@@ -32546,7 +32546,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo.md)
 
 ### Authorization
 
@@ -32558,9 +32558,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle(opts)
 
 
 
@@ -32583,10 +32583,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle: #{e}"
 end
 ```
 
@@ -32606,7 +32606,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo.md)
 
 ### Authorization
 
@@ -32618,9 +32618,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle(opts)
 
 
 
@@ -32643,10 +32643,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle: #{e}"
 end
 ```
 
@@ -32666,7 +32666,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo.md)
 
 ### Authorization
 
@@ -32678,9 +32678,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h(opts)
 
 
 
@@ -32703,10 +32703,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h: #{e}"
 end
 ```
 
@@ -32726,7 +32726,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo.md)
 
 ### Authorization
 
@@ -32738,9 +32738,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone(opts)
 
 
 
@@ -32764,10 +32764,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone: #{e}"
 end
 ```
 
@@ -32788,7 +32788,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo.md)
 
 ### Authorization
 
@@ -32800,9 +32800,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand(opts)
 
 
 
@@ -32825,10 +32825,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand: #{e}"
 end
 ```
 
@@ -32848,7 +32848,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo.md)
 
 ### Authorization
 
@@ -32860,9 +32860,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl(opts)
 
 
 
@@ -32885,10 +32885,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl: #{e}"
 end
 ```
 
@@ -32908,7 +32908,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.md)
 
 ### Authorization
 
@@ -32920,9 +32920,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component(opts)
 
 
 
@@ -32946,10 +32946,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component: #{e}"
 end
 ```
 
@@ -32970,7 +32970,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo.md)
 
 ### Authorization
 
@@ -32982,9 +32982,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen(opts)
 
 
 
@@ -33008,10 +33008,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen: #{e}"
 end
 ```
 
@@ -33032,7 +33032,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo.md)
 
 ### Authorization
 
@@ -33044,9 +33044,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory
+## com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl(opts)
 
 
 
@@ -33069,10 +33069,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory(opts)
+  result = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl: #{e}"
 end
 ```
 
@@ -33092,7 +33092,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo.md)
 
 ### Authorization
 
@@ -33596,9 +33596,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service
+## com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist
 
-> ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service(opts)
+> ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist(opts)
 
 
 
@@ -33621,10 +33621,10 @@ opts = {
 }
 
 begin
-  result = api_instance.com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service(opts)
+  result = api_instance.com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist: #{e}"
 end
 ```
 
@@ -33644,7 +33644,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo**](ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
+[**ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo**](ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo.md)
 
 ### Authorization
 
@@ -36480,9 +36480,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator
+## org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co
 
-> OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator(opts)
+> OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co(opts)
 
 
 
@@ -36506,10 +36506,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator(opts)
+  result = api_instance.org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co: #{e}"
 end
 ```
 
@@ -36530,7 +36530,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo**](OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo.md)
+[**OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo**](OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo.md)
 
 ### Authorization
 
@@ -36610,9 +36610,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service
+## org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider
 
-> OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service(opts)
+> OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider(opts)
 
 
 
@@ -36634,10 +36634,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider: #{e}"
 end
 ```
 
@@ -36656,7 +36656,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo**](OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo**](OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo.md)
 
 ### Authorization
 
@@ -36842,9 +36842,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset
+## org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre
 
-> OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset(opts)
+> OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre(opts)
 
 
 
@@ -36866,10 +36866,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre: #{e}"
 end
 ```
 
@@ -36888,7 +36888,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo**](OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo.md)
+[**OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo**](OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.md)
 
 ### Authorization
 
@@ -36900,9 +36900,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service
+## org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac
 
-> OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service(opts)
+> OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac(opts)
 
 
 
@@ -36926,10 +36926,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac: #{e}"
 end
 ```
 
@@ -36950,7 +36950,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo**](OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo**](OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo.md)
 
 ### Authorization
 
@@ -37026,9 +37026,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service
+## org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv
 
-> OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service(opts)
+> OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv(opts)
 
 
 
@@ -37065,10 +37065,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv: #{e}"
 end
 ```
 
@@ -37102,7 +37102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo**](OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo.md)
 
 ### Authorization
 
@@ -37114,9 +37114,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider
+## org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co(opts)
 
 
 
@@ -37139,10 +37139,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co: #{e}"
 end
 ```
 
@@ -37162,7 +37162,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo.md)
 
 ### Authorization
 
@@ -37174,9 +37174,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service
+## org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers(opts)
 
 
 
@@ -37198,10 +37198,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers: #{e}"
 end
 ```
 
@@ -37220,7 +37220,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo.md)
 
 ### Authorization
 
@@ -37232,9 +37232,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service
+## org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration(opts)
 
 
 
@@ -37272,10 +37272,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration: #{e}"
 end
 ```
 
@@ -37310,7 +37310,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo.md)
 
 ### Authorization
 
@@ -37322,9 +37322,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider
+## org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf(opts)
 
 
 
@@ -37353,10 +37353,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf: #{e}"
 end
 ```
 
@@ -37382,7 +37382,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo.md)
 
 ### Authorization
 
@@ -37394,9 +37394,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service
+## org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid(opts)
 
 
 
@@ -37418,10 +37418,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid: #{e}"
 end
 ```
 
@@ -37440,7 +37440,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo.md)
 
 ### Authorization
 
@@ -37452,9 +37452,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service
+## org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se(opts)
 
 
 
@@ -37476,10 +37476,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service(opts)
+  result = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se: #{e}"
 end
 ```
 
@@ -37498,7 +37498,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo.md)
 
 ### Authorization
 
@@ -37694,9 +37694,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl
+## org_apache_jackrabbit_oak_security_authentication_authentication_config
 
-> OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl(opts)
+> OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo org_apache_jackrabbit_oak_security_authentication_authentication_config(opts)
 
 
 
@@ -37719,10 +37719,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl(opts)
+  result = api_instance.org_apache_jackrabbit_oak_security_authentication_authentication_config(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_authentication_config: #{e}"
 end
 ```
 
@@ -37742,7 +37742,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.md)
 
 ### Authorization
 
@@ -37754,9 +37754,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider
+## org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi
 
-> OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider(opts)
+> OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi(opts)
 
 
 
@@ -37803,10 +37803,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider(opts)
+  result = api_instance.org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi: #{e}"
 end
 ```
 
@@ -37850,7 +37850,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo**](OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo**](OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo.md)
 
 ### Authorization
 
@@ -37862,9 +37862,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl
+## org_apache_jackrabbit_oak_security_authentication_token_token_configura
 
-> OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl(opts)
+> OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo org_apache_jackrabbit_oak_security_authentication_token_token_configura(opts)
 
 
 
@@ -37892,10 +37892,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl(opts)
+  result = api_instance.org_apache_jackrabbit_oak_security_authentication_token_token_configura(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_token_token_configura: #{e}"
 end
 ```
 
@@ -37920,7 +37920,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo**](OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo.md)
 
 ### Authorization
 
@@ -37932,9 +37932,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl
+## org_apache_jackrabbit_oak_security_authorization_authorization_configur
 
-> OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl(opts)
+> OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo org_apache_jackrabbit_oak_security_authorization_authorization_configur(opts)
 
 
 
@@ -37960,10 +37960,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl(opts)
+  result = api_instance.org_apache_jackrabbit_oak_security_authorization_authorization_configur(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authorization_authorization_configur: #{e}"
 end
 ```
 
@@ -37986,7 +37986,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo**](OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.md)
 
 ### Authorization
 
@@ -37998,9 +37998,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_security_internal_security_provider_registration
+## org_apache_jackrabbit_oak_security_internal_security_provider_registrati
 
-> OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo org_apache_jackrabbit_oak_security_internal_security_provider_registration(opts)
+> OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo org_apache_jackrabbit_oak_security_internal_security_provider_registrati(opts)
 
 
 
@@ -38023,10 +38023,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_security_internal_security_provider_registration(opts)
+  result = api_instance.org_apache_jackrabbit_oak_security_internal_security_provider_registrati(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_internal_security_provider_registration: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_internal_security_provider_registrati: #{e}"
 end
 ```
 
@@ -38046,7 +38046,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo**](OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo.md)
+[**OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo**](OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo.md)
 
 ### Authorization
 
@@ -38616,9 +38616,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler
+## org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de
 
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de(opts)
 
 
 
@@ -38653,10 +38653,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler(opts)
+  result = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de: #{e}"
 end
 ```
 
@@ -38688,7 +38688,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo.md)
 
 ### Authorization
 
@@ -38700,9 +38700,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory
+## org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex
 
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex(opts)
 
 
 
@@ -38728,10 +38728,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory(opts)
+  result = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex: #{e}"
 end
 ```
 
@@ -38754,7 +38754,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo.md)
 
 ### Authorization
 
@@ -38766,9 +38766,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration
+## org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr
 
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr(opts)
 
 
 
@@ -38790,10 +38790,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration(opts)
+  result = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr: #{e}"
 end
 ```
 
@@ -38812,7 +38812,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo.md)
 
 ### Authorization
 
@@ -38824,9 +38824,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration
+## org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi
 
-> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi(opts)
 
 
 
@@ -38850,10 +38850,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration(opts)
+  result = api_instance.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi: #{e}"
 end
 ```
 
@@ -38874,7 +38874,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo.md)
 
 ### Authorization
 
@@ -38886,9 +38886,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl
+## org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu
 
-> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu(opts)
 
 
 
@@ -38910,10 +38910,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl(opts)
+  result = api_instance.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu: #{e}"
 end
 ```
 
@@ -38932,7 +38932,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo.md)
 
 ### Authorization
 
@@ -38944,9 +38944,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider
+## org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable
 
-> OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider(opts)
+> OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable(opts)
 
 
 
@@ -38971,10 +38971,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider(opts)
+  result = api_instance.org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable: #{e}"
 end
 ```
 
@@ -38996,7 +38996,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo**](OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo**](OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo.md)
 
 ### Authorization
 
@@ -39300,9 +39300,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy
+## org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra
 
-> OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy(opts)
+> OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra(opts)
 
 
 
@@ -39325,10 +39325,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy(opts)
+  result = api_instance.org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra: #{e}"
 end
 ```
 
@@ -39348,7 +39348,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo.md)
+[**OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo.md)
 
 ### Authorization
 
@@ -39360,9 +39360,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy
+## org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra
 
-> OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy(opts)
+> OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra(opts)
 
 
 
@@ -39384,10 +39384,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy(opts)
+  result = api_instance.org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra: #{e}"
 end
 ```
 
@@ -39406,7 +39406,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo.md)
+[**OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo.md)
 
 ### Authorization
 
@@ -39418,9 +39418,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider
+## org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi
 
-> OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider(opts)
+> OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi(opts)
 
 
 
@@ -39445,10 +39445,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider(opts)
+  result = api_instance.org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi: #{e}"
 end
 ```
 
@@ -39470,7 +39470,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo**](OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo.md)
+[**OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo**](OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo.md)
 
 ### Authorization
 
@@ -39482,9 +39482,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider
+## org_apache_sling_caconfig_impl_override_system_property_configuration_ove
 
-> OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider(opts)
+> OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo org_apache_sling_caconfig_impl_override_system_property_configuration_ove(opts)
 
 
 
@@ -39507,10 +39507,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider(opts)
+  result = api_instance.org_apache_sling_caconfig_impl_override_system_property_configuration_ove(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_override_system_property_configuration_ove: #{e}"
 end
 ```
 
@@ -39530,7 +39530,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo**](OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo.md)
+[**OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo**](OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo.md)
 
 ### Authorization
 
@@ -39542,9 +39542,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_caconfig_management_impl_configuration_management_settings_impl
+## org_apache_sling_caconfig_management_impl_configuration_management_setti
 
-> OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo org_apache_sling_caconfig_management_impl_configuration_management_settings_impl(opts)
+> OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo org_apache_sling_caconfig_management_impl_configuration_management_setti(opts)
 
 
 
@@ -39567,10 +39567,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_caconfig_management_impl_configuration_management_settings_impl(opts)
+  result = api_instance.org_apache_sling_caconfig_management_impl_configuration_management_setti(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_management_impl_configuration_management_settings_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_management_impl_configuration_management_setti: #{e}"
 end
 ```
 
@@ -39590,7 +39590,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo**](OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo.md)
+[**OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo**](OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo.md)
 
 ### Authorization
 
@@ -39602,9 +39602,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy
+## org_apache_sling_caconfig_resource_impl_def_default_configuration_resour
 
-> OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy(opts)
+> OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo org_apache_sling_caconfig_resource_impl_def_default_configuration_resour(opts)
 
 
 
@@ -39629,10 +39629,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy(opts)
+  result = api_instance.org_apache_sling_caconfig_resource_impl_def_default_configuration_resour(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_caconfig_resource_impl_def_default_configuration_resour: #{e}"
 end
 ```
 
@@ -39654,7 +39654,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo**](OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo.md)
+[**OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo**](OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo.md)
 
 ### Authorization
 
@@ -40722,9 +40722,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory
+## org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto
 
-> OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory(opts)
+> OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto(opts)
 
 
 
@@ -40765,10 +40765,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory(opts)
+  result = api_instance.org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto: #{e}"
 end
 ```
 
@@ -40806,7 +40806,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo**](OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo.md)
 
 ### Authorization
 
@@ -40818,9 +40818,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory
+## org_apache_sling_distribution_agent_impl_privilege_distribution_request_a
 
-> OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory(opts)
+> OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo org_apache_sling_distribution_agent_impl_privilege_distribution_request_a(opts)
 
 
 
@@ -40843,10 +40843,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory(opts)
+  result = api_instance.org_apache_sling_distribution_agent_impl_privilege_distribution_request_a(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_privilege_distribution_request_a: #{e}"
 end
 ```
 
@@ -40866,7 +40866,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo**](OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo**](OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo.md)
 
 ### Authorization
 
@@ -40958,9 +40958,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory
+## org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto
 
-> OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory(opts)
+> OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto(opts)
 
 
 
@@ -40995,10 +40995,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory(opts)
+  result = api_instance.org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto: #{e}"
 end
 ```
 
@@ -41030,7 +41030,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo**](OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.md)
 
 ### Authorization
 
@@ -41042,9 +41042,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory
+## org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor
 
-> OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory(opts)
+> OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor(opts)
 
 
 
@@ -41076,10 +41076,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory(opts)
+  result = api_instance.org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor: #{e}"
 end
 ```
 
@@ -41108,7 +41108,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo**](OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo.md)
 
 ### Authorization
 
@@ -41276,9 +41276,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory
+## org_apache_sling_distribution_packaging_impl_exporter_agent_distributio
 
-> OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory(opts)
+> OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo org_apache_sling_distribution_packaging_impl_exporter_agent_distributio(opts)
 
 
 
@@ -41303,10 +41303,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory(opts)
+  result = api_instance.org_apache_sling_distribution_packaging_impl_exporter_agent_distributio(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_agent_distributio: #{e}"
 end
 ```
 
@@ -41328,7 +41328,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo**](OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo.md)
 
 ### Authorization
 
@@ -41340,9 +41340,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory
+## org_apache_sling_distribution_packaging_impl_exporter_local_distributio
 
-> OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory(opts)
+> OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo org_apache_sling_distribution_packaging_impl_exporter_local_distributio(opts)
 
 
 
@@ -41365,10 +41365,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory(opts)
+  result = api_instance.org_apache_sling_distribution_packaging_impl_exporter_local_distributio(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_local_distributio: #{e}"
 end
 ```
 
@@ -41388,7 +41388,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo**](OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo.md)
 
 ### Authorization
 
@@ -41400,9 +41400,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory
+## org_apache_sling_distribution_packaging_impl_exporter_remote_distributi
 
-> OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory(opts)
+> OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo org_apache_sling_distribution_packaging_impl_exporter_remote_distributi(opts)
 
 
 
@@ -41428,10 +41428,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory(opts)
+  result = api_instance.org_apache_sling_distribution_packaging_impl_exporter_remote_distributi(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_remote_distributi: #{e}"
 end
 ```
 
@@ -41454,7 +41454,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.md)
 
 ### Authorization
 
@@ -41466,9 +41466,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory
+## org_apache_sling_distribution_packaging_impl_importer_local_distributio
 
-> OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory(opts)
+> OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo org_apache_sling_distribution_packaging_impl_importer_local_distributio(opts)
 
 
 
@@ -41491,10 +41491,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory(opts)
+  result = api_instance.org_apache_sling_distribution_packaging_impl_importer_local_distributio(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_local_distributio: #{e}"
 end
 ```
 
@@ -41514,7 +41514,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo**](OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo.md)
 
 ### Authorization
 
@@ -41526,9 +41526,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory
+## org_apache_sling_distribution_packaging_impl_importer_remote_distributi
 
-> OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory(opts)
+> OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo org_apache_sling_distribution_packaging_impl_importer_remote_distributi(opts)
 
 
 
@@ -41552,10 +41552,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory(opts)
+  result = api_instance.org_apache_sling_distribution_packaging_impl_importer_remote_distributi(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_remote_distributi: #{e}"
 end
 ```
 
@@ -41576,7 +41576,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo**](OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo.md)
 
 ### Authorization
 
@@ -41588,9 +41588,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory
+## org_apache_sling_distribution_packaging_impl_importer_repository_distri
 
-> OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory(opts)
+> OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo org_apache_sling_distribution_packaging_impl_importer_repository_distri(opts)
 
 
 
@@ -41615,10 +41615,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory(opts)
+  result = api_instance.org_apache_sling_distribution_packaging_impl_importer_repository_distri(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_repository_distri: #{e}"
 end
 ```
 
@@ -41640,7 +41640,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo**](OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo.md)
 
 ### Authorization
 
@@ -41652,9 +41652,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory
+## org_apache_sling_distribution_resources_impl_distribution_configuration
 
-> OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory(opts)
+> OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo org_apache_sling_distribution_resources_impl_distribution_configuration(opts)
 
 
 
@@ -41677,10 +41677,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory(opts)
+  result = api_instance.org_apache_sling_distribution_resources_impl_distribution_configuration(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_resources_impl_distribution_configuration: #{e}"
 end
 ```
 
@@ -41700,7 +41700,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo**](OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo.md)
+[**OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo**](OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo.md)
 
 ### Authorization
 
@@ -41712,9 +41712,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory
+## org_apache_sling_distribution_resources_impl_distribution_service_resour
 
-> OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory(opts)
+> OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo org_apache_sling_distribution_resources_impl_distribution_service_resour(opts)
 
 
 
@@ -41737,10 +41737,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory(opts)
+  result = api_instance.org_apache_sling_distribution_resources_impl_distribution_service_resour(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_resources_impl_distribution_service_resour: #{e}"
 end
 ```
 
@@ -41760,7 +41760,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo**](OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo.md)
+[**OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo**](OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo.md)
 
 ### Authorization
 
@@ -41772,9 +41772,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory
+## org_apache_sling_distribution_serialization_impl_distribution_package_bu
 
-> OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory(opts)
+> OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo org_apache_sling_distribution_serialization_impl_distribution_package_bu(opts)
 
 
 
@@ -41807,10 +41807,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory(opts)
+  result = api_instance.org_apache_sling_distribution_serialization_impl_distribution_package_bu(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_serialization_impl_distribution_package_bu: #{e}"
 end
 ```
 
@@ -41840,7 +41840,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo**](OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo.md)
+[**OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo**](OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo.md)
 
 ### Authorization
 
@@ -41852,9 +41852,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory
+## org_apache_sling_distribution_serialization_impl_vlt_vault_distribution
 
-> OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory(opts)
+> OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo org_apache_sling_distribution_serialization_impl_vlt_vault_distribution(opts)
 
 
 
@@ -41893,10 +41893,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory(opts)
+  result = api_instance.org_apache_sling_distribution_serialization_impl_vlt_vault_distribution(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_serialization_impl_vlt_vault_distribution: #{e}"
 end
 ```
 
@@ -41932,7 +41932,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo**](OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo.md)
+[**OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo**](OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo.md)
 
 ### Authorization
 
@@ -41944,9 +41944,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider
+## org_apache_sling_distribution_transport_impl_user_credentials_distributi
 
-> OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider(opts)
+> OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo org_apache_sling_distribution_transport_impl_user_credentials_distributi(opts)
 
 
 
@@ -41970,10 +41970,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider(opts)
+  result = api_instance.org_apache_sling_distribution_transport_impl_user_credentials_distributi(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_transport_impl_user_credentials_distributi: #{e}"
 end
 ```
 
@@ -41994,7 +41994,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo**](OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo.md)
+[**OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo**](OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo.md)
 
 ### Authorization
 
@@ -42006,9 +42006,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory
+## org_apache_sling_distribution_trigger_impl_distribution_event_distribute
 
-> OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory(opts)
+> OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo org_apache_sling_distribution_trigger_impl_distribution_event_distribute(opts)
 
 
 
@@ -42031,10 +42031,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory(opts)
+  result = api_instance.org_apache_sling_distribution_trigger_impl_distribution_event_distribute(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_distribution_event_distribute: #{e}"
 end
 ```
 
@@ -42054,7 +42054,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo**](OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo.md)
 
 ### Authorization
 
@@ -42066,9 +42066,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory
+## org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger
 
-> OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory(opts)
+> OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger(opts)
 
 
 
@@ -42094,10 +42094,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory(opts)
+  result = api_instance.org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger: #{e}"
 end
 ```
 
@@ -42120,7 +42120,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo**](OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo.md)
 
 ### Authorization
 
@@ -42132,9 +42132,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory
+## org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi
 
-> OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory(opts)
+> OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi(opts)
 
 
 
@@ -42159,10 +42159,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory(opts)
+  result = api_instance.org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi: #{e}"
 end
 ```
 
@@ -42184,7 +42184,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo**](OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.md)
 
 ### Authorization
 
@@ -42196,9 +42196,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory
+## org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig
 
-> OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory(opts)
+> OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig(opts)
 
 
 
@@ -42222,10 +42222,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory(opts)
+  result = api_instance.org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig: #{e}"
 end
 ```
 
@@ -42246,7 +42246,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo**](OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo.md)
 
 ### Authorization
 
@@ -42258,9 +42258,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory
+## org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr
 
-> OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory(opts)
+> OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr(opts)
 
 
 
@@ -42283,10 +42283,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory(opts)
+  result = api_instance.org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr: #{e}"
 end
 ```
 
@@ -42306,7 +42306,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo**](OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo.md)
 
 ### Authorization
 
@@ -42318,9 +42318,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory
+## org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge
 
-> OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory(opts)
+> OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge(opts)
 
 
 
@@ -42345,10 +42345,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory(opts)
+  result = api_instance.org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge: #{e}"
 end
 ```
 
@@ -42370,7 +42370,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo**](OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.md)
 
 ### Authorization
 
@@ -43120,9 +43120,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider
+## org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w
 
-> OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider(opts)
+> OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w(opts)
 
 
 
@@ -43145,10 +43145,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider(opts)
+  result = api_instance.org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w: #{e}"
 end
 ```
 
@@ -43168,7 +43168,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo**](OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo.md)
+[**OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo**](OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo.md)
 
 ### Authorization
 
@@ -44650,9 +44650,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service
+## org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic
 
-> OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service(opts)
+> OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic(opts)
 
 
 
@@ -44674,10 +44674,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service(opts)
+  result = api_instance.org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic: #{e}"
 end
 ```
 
@@ -44696,7 +44696,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo**](OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo.md)
+[**OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo**](OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo.md)
 
 ### Authorization
 
@@ -44964,9 +44964,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory
+## org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto
 
-> OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory(opts)
+> OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto(opts)
 
 
 
@@ -44990,10 +44990,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory(opts)
+  result = api_instance.org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto: #{e}"
 end
 ```
 
@@ -45014,7 +45014,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo**](OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo.md)
+[**OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo**](OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo.md)
 
 ### Authorization
 
@@ -45206,9 +45206,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl
+## org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider
 
-> OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl(opts)
+> OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider(opts)
 
 
 
@@ -45230,10 +45230,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl(opts)
+  result = api_instance.org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider: #{e}"
 end
 ```
 
@@ -45252,7 +45252,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo**](OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo.md)
+[**OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo**](OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo.md)
 
 ### Authorization
 
@@ -45328,9 +45328,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory
+## org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa
 
-> OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory(opts)
+> OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa(opts)
 
 
 
@@ -45352,10 +45352,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory(opts)
+  result = api_instance.org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa: #{e}"
 end
 ```
 
@@ -45374,7 +45374,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo**](OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo.md)
+[**OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo**](OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo.md)
 
 ### Authorization
 
@@ -45464,9 +45464,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider
+## org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov
 
-> OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider(opts)
+> OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov(opts)
 
 
 
@@ -45488,10 +45488,10 @@ opts = {
 }
 
 begin
-  result = api_instance.org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider(opts)
+  result = api_instance.org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov(opts)
   p result
 rescue SwaggerAemOsgiClient::ApiError => e
-  puts "Exception when calling ConfigmgrApi->org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider: #{e}"
+  puts "Exception when calling ConfigmgrApi->org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov: #{e}"
 end
 ```
 
@@ -45510,7 +45510,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo**](OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo.md)
+[**OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo**](OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo.md)
 
 ### Authorization
 

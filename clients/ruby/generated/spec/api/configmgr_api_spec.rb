@@ -52,7 +52,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for adaptive_form_and_interactive_communication_web_channel_theme_configuration
+  # unit tests for adaptive_form_and_interactive_communication_web_channel_theme_configur
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -61,8 +61,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :font_list 
-  # @return [AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo]
-  describe 'adaptive_form_and_interactive_communication_web_channel_theme_configuration test' do
+  # @return [AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo]
+  describe 'adaptive_form_and_interactive_communication_web_channel_theme_configur test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -369,7 +369,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler
+  # unit tests for com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -378,8 +378,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :flush_agents 
-  # @return [ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo]
-  describe 'com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler test' do
+  # @return [ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo]
+  describe 'com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -550,7 +550,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet
+  # unit tests for com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -559,8 +559,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :reportingservices_proxy_whitelist 
-  # @return [ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo]
-  describe 'com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet test' do
+  # @return [ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo]
+  describe 'com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -1292,7 +1292,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check
+  # unit tests for com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1301,8 +1301,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :hc_tags 
-  # @return [ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo]
-  describe 'com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check test' do
+  # @return [ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo]
+  describe 'com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -1376,7 +1376,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_accountverification_impl_account_management_config_impl
+  # unit tests for com_adobe_cq_social_accountverification_impl_account_management_config_im
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1387,14 +1387,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Boolean] :enable 
   # @option opts [Integer] :ttl1 
   # @option opts [Integer] :ttl2 
-  # @return [ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo]
-  describe 'com_adobe_cq_social_accountverification_impl_account_management_config_impl test' do
+  # @return [ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo]
+  describe 'com_adobe_cq_social_accountverification_impl_account_management_config_im test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl
+  # unit tests for com_adobe_cq_social_activitystreams_client_impl_social_activity_componen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1403,14 +1403,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo]
-  describe 'com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl test' do
+  # @return [ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo]
+  describe 'com_adobe_cq_social_activitystreams_client_impl_social_activity_componen test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory
+  # unit tests for com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1419,8 +1419,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo]
-  describe 'com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory test' do
+  # @return [ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo]
+  describe 'com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -1443,7 +1443,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension
+  # unit tests for com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1453,14 +1453,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :accepted 
   # @option opts [Integer] :ranked 
-  # @return [ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo]
-  describe 'com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension test' do
+  # @return [ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo]
+  describe 'com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor
+  # unit tests for com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1470,14 +1470,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :ranking 
   # @option opts [Boolean] :enable 
-  # @return [ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo]
-  describe 'com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor test' do
+  # @return [ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo]
+  describe 'com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory
+  # unit tests for com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1487,14 +1487,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :stream_path 
   # @option opts [String] :stream_name 
-  # @return [ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo]
-  describe 'com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory test' do
+  # @return [ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo]
+  describe 'com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl
+  # unit tests for com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1505,14 +1505,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :max_retry 
   # @option opts [Array<String>] :field_whitelist 
   # @option opts [Array<String>] :attachment_type_blacklist 
-  # @return [ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo]
-  describe 'com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl test' do
+  # @return [ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo]
+  describe 'com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_calendar_client_operationextensions_event_attachment
+  # unit tests for com_adobe_cq_social_calendar_client_operationextensions_event_attachmen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1522,8 +1522,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :attachment_type_blacklist 
   # @option opts [Integer] :extension_order 
-  # @return [ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo]
-  describe 'com_adobe_cq_social_calendar_client_operationextensions_event_attachment test' do
+  # @return [ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo]
+  describe 'com_adobe_cq_social_calendar_client_operationextensions_event_attachmen test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -1545,7 +1545,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor
+  # unit tests for com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1554,14 +1554,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :ranking 
-  # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo]
-  describe 'com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor test' do
+  # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo]
+  describe 'com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service
+  # unit tests for com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1571,14 +1571,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
   # @option opts [Array<String>] :attachment_type_blacklist 
-  # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo]
-  describe 'com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service test' do
+  # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo]
+  describe 'com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service
+  # unit tests for com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1588,14 +1588,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
   # @option opts [Array<String>] :attachment_type_blacklist 
-  # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo]
-  describe 'com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service test' do
+  # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo]
+  describe 'com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider
+  # unit tests for com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1604,14 +1604,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :num_user_limit 
-  # @return [ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo]
-  describe 'com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider test' do
+  # @return [ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo]
+  describe 'com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts
+  # unit tests for com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1622,8 +1622,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Boolean] :enable_scheduled_posts_search 
   # @option opts [Integer] :number_of_minutes 
   # @option opts [Integer] :max_search_limit 
-  # @return [ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo]
-  describe 'com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts test' do
+  # @return [ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo]
+  describe 'com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -1711,7 +1711,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl
+  # unit tests for com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1727,14 +1727,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :pattern_date 
   # @option opts [String] :pattern_date_time 
   # @option opts [String] :pattern_email 
-  # @return [ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo]
-  describe 'com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl test' do
+  # @return [ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo]
+  describe 'com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl
+  # unit tests for com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1753,8 +1753,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Boolean] :email_as_html 
   # @option opts [String] :email_default_user_name 
   # @option opts [String] :email_templates_root_path 
-  # @return [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo]
-  describe 'com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl test' do
+  # @return [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo]
+  describe 'com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -1878,7 +1878,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads
+  # unit tests for com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1888,8 +1888,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :number_of_days 
   # @option opts [Integer] :age_of_file 
-  # @return [ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo]
-  describe 'com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads test' do
+  # @return [ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo]
+  describe 'com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -1913,7 +1913,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl
+  # unit tests for com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1926,8 +1926,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :ugc_limit_duration 
   # @option opts [Array<String>] :domains 
   # @option opts [Array<String>] :to_list 
-  # @return [ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo]
-  describe 'com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl test' do
+  # @return [ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo]
+  describe 'com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -1956,7 +1956,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler
+  # unit tests for com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -1966,8 +1966,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :path 
   # @option opts [Integer] :service_ranking 
-  # @return [ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo]
-  describe 'com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler test' do
+  # @return [ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo]
+  describe 'com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -2013,7 +2013,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl
+  # unit tests for com_adobe_cq_social_content_fragments_services_impl_communities_fragmen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2023,8 +2023,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :cq_social_content_fragments_services_enabled 
   # @option opts [Integer] :cq_social_content_fragments_services_wait_time_seconds 
-  # @return [ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo]
-  describe 'com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl test' do
+  # @return [ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo]
+  describe 'com_adobe_cq_social_content_fragments_services_impl_communities_fragmen test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -2074,7 +2074,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory
+  # unit tests for com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2089,14 +2089,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :cache_start_size 
   # @option opts [Integer] :cache_ttl 
   # @option opts [Integer] :cache_size 
-  # @return [ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo]
-  describe 'com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory test' do
+  # @return [ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo]
+  describe 'com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory
+  # unit tests for com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2105,14 +2105,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :is_member_check 
-  # @return [ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo]
-  describe 'com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory test' do
+  # @return [ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo]
+  describe 'com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory
+  # unit tests for com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2121,14 +2121,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :is_member_check 
-  # @return [ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo]
-  describe 'com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory test' do
+  # @return [ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo]
+  describe 'com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service
+  # unit tests for com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2137,14 +2137,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
-  # @return [ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo]
-  describe 'com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service test' do
+  # @return [ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo]
+  describe 'com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service
+  # unit tests for com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2153,8 +2153,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
-  # @return [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo]
-  describe 'com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service test' do
+  # @return [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo]
+  describe 'com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -2176,7 +2176,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet
+  # unit tests for com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2186,14 +2186,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :sling_servlet_selectors 
   # @option opts [String] :sling_servlet_extensions 
-  # @return [ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo]
-  describe 'com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet test' do
+  # @return [ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo]
+  describe 'com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service
+  # unit tests for com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2203,8 +2203,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
   # @option opts [Array<String>] :attachment_type_blacklist 
-  # @return [ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo]
-  describe 'com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service test' do
+  # @return [ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo]
+  describe 'com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -2244,7 +2244,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_group_client_impl_community_group_collection_component_factory
+  # unit tests for com_adobe_cq_social_group_client_impl_community_group_collection_componen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2256,8 +2256,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Boolean] :group_listing_lazyloading_enable 
   # @option opts [Integer] :page_size 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo]
-  describe 'com_adobe_cq_social_group_client_impl_community_group_collection_component_factory test' do
+  # @return [ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo]
+  describe 'com_adobe_cq_social_group_client_impl_community_group_collection_componen test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -2299,7 +2299,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service
+  # unit tests for com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2309,14 +2309,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
   # @option opts [Array<String>] :attachment_type_blacklist 
-  # @return [ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo]
-  describe 'com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service test' do
+  # @return [ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo]
+  describe 'com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service
+  # unit tests for com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2326,14 +2326,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
   # @option opts [Array<String>] :attachment_type_blacklist 
-  # @return [ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo]
-  describe 'com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service test' do
+  # @return [ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo]
+  describe 'com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service
+  # unit tests for com_adobe_cq_social_members_endpoints_impl_community_member_group_profile
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2342,14 +2342,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
-  # @return [ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo]
-  describe 'com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service test' do
+  # @return [ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo]
+  describe 'com_adobe_cq_social_members_endpoints_impl_community_member_group_profile test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service
+  # unit tests for com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2358,14 +2358,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
-  # @return [ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo]
-  describe 'com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service test' do
+  # @return [ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo]
+  describe 'com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_members_impl_community_member_group_profile_component_factory
+  # unit tests for com_adobe_cq_social_members_impl_community_member_group_profile_component_f
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2375,14 +2375,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :everyone_limit 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo]
-  describe 'com_adobe_cq_social_members_impl_community_member_group_profile_component_factory test' do
+  # @return [ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo]
+  describe 'com_adobe_cq_social_members_impl_community_member_group_profile_component_f test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl
+  # unit tests for com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2410,14 +2410,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :allowed_attachment_types 
   # @option opts [String] :service_selector 
   # @option opts [Array<String>] :field_whitelist 
-  # @return [ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo]
-  describe 'com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl test' do
+  # @return [ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo]
+  describe 'com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory
+  # unit tests for com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2427,14 +2427,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :resource_type_filters 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo]
-  describe 'com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory test' do
+  # @return [ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo]
+  describe 'com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory
+  # unit tests for com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2443,14 +2443,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo]
-  describe 'com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory test' do
+  # @return [ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo]
+  describe 'com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory
+  # unit tests for com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2459,14 +2459,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo]
-  describe 'com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory test' do
+  # @return [ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo]
+  describe 'com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2
+  # unit tests for com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2476,8 +2476,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :resource_type_filters 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info]
-  describe 'com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2 test' do
+  # @return [ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo]
+  describe 'com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -2533,7 +2533,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service
+  # unit tests for com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2543,14 +2543,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
   # @option opts [Array<String>] :attachment_type_blacklist 
-  # @return [ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo]
-  describe 'com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service test' do
+  # @return [ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo]
+  describe 'com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl
+  # unit tests for com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2560,14 +2560,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :cq_social_reporting_analytics_polling_importer_interval 
   # @option opts [Integer] :cq_social_reporting_analytics_polling_importer_page_size 
-  # @return [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo]
-  describe 'com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl test' do
+  # @return [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo]
+  describe 'com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl
+  # unit tests for com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2576,14 +2576,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :report_fetch_delay 
-  # @return [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo]
-  describe 'com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl test' do
+  # @return [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo]
+  describe 'com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory
+  # unit tests for com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2593,14 +2593,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :cq_social_console_analytics_sites_mapping 
   # @option opts [Integer] :priority 
-  # @return [ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo]
-  describe 'com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory test' do
+  # @return [ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo]
+  describe 'com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_cq_social_review_client_endpoints_impl_review_operations_service
+  # unit tests for com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2610,8 +2610,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :field_whitelist 
   # @option opts [Array<String>] :attachment_type_blacklist 
-  # @return [ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo]
-  describe 'com_adobe_cq_social_review_client_endpoints_impl_review_operations_service test' do
+  # @return [ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo]
+  describe 'com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -2702,7 +2702,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl
+  # unit tests for com_adobe_cq_social_site_impl_analytics_component_configuration_service_im
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2711,8 +2711,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :cq_social_console_analytics_components 
-  # @return [ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo]
-  describe 'com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl test' do
+  # @return [ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo]
+  describe 'com_adobe_cq_social_site_impl_analytics_component_configuration_service_im test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -2976,7 +2976,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service
+  # unit tests for com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -2986,8 +2986,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :default_attachment_type_blacklist 
   # @option opts [Array<String>] :baseline_attachment_type_blacklist 
-  # @return [ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo]
-  describe 'com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service test' do
+  # @return [ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo]
+  describe 'com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -3054,7 +3054,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended
+  # unit tests for com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -3063,8 +3063,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :resource_types 
-  # @return [ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo]
-  describe 'com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended test' do
+  # @return [ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo]
+  describe 'com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -3299,7 +3299,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_forms_common_service_impl_forms_common_configuration_service_impl
+  # unit tests for com_adobe_forms_common_service_impl_forms_common_configuration_service_imp
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -3308,8 +3308,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :temp_storage_config 
-  # @return [ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo]
-  describe 'com_adobe_forms_common_service_impl_forms_common_configuration_service_impl test' do
+  # @return [ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo]
+  describe 'com_adobe_forms_common_service_impl_forms_common_configuration_service_imp test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -4164,7 +4164,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_comments_internal_comment_replication_content_filter_factory
+  # unit tests for com_adobe_granite_comments_internal_comment_replication_content_filter_fac
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4173,8 +4173,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :replicate_comment_resource_types 
-  # @return [ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo]
-  describe 'com_adobe_granite_comments_internal_comment_replication_content_filter_factory test' do
+  # @return [ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo]
+  describe 'com_adobe_granite_comments_internal_comment_replication_content_filter_fac test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -4232,7 +4232,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy
+  # unit tests for com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4242,8 +4242,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :enabled 
   # @option opts [Array<String>] :fallback_paths 
-  # @return [ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo]
-  describe 'com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy test' do
+  # @return [ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo]
+  describe 'com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -4325,7 +4325,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider
+  # unit tests for com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4336,8 +4336,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :name 
   # @option opts [String] :username 
   # @option opts [String] :encrypted_password 
-  # @return [ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo]
-  describe 'com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider test' do
+  # @return [ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo]
+  describe 'com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -4384,7 +4384,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer
+  # unit tests for com_adobe_granite_distribution_core_impl_distribution_to_replication_even
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4393,14 +4393,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :importer_name 
-  # @return [ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo]
-  describe 'com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer test' do
+  # @return [ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo]
+  describe 'com_adobe_granite_distribution_core_impl_distribution_to_replication_even test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider
+  # unit tests for com_adobe_granite_distribution_core_impl_replication_adapters_replicat
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4410,14 +4410,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :provider_name 
   # @option opts [Boolean] :forward_requests 
-  # @return [ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo]
-  describe 'com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider test' do
+  # @return [ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo]
+  describe 'com_adobe_granite_distribution_core_impl_replication_adapters_replicat test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler
+  # unit tests for com_adobe_granite_distribution_core_impl_replication_distribution_trans
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4426,14 +4426,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :forward_requests 
-  # @return [ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo]
-  describe 'com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler test' do
+  # @return [ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo]
+  describe 'com_adobe_granite_distribution_core_impl_replication_distribution_trans test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider
+  # unit tests for com_adobe_granite_distribution_core_impl_transport_access_token_distribu
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4445,8 +4445,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :service_name 
   # @option opts [String] :user_id 
   # @option opts [String] :access_token_provider_target 
-  # @return [ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo]
-  describe 'com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider test' do
+  # @return [ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo]
+  describe 'com_adobe_granite_distribution_core_impl_transport_access_token_distribu test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -4716,7 +4716,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler
+  # unit tests for com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4729,8 +4729,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :jaas_realm_name 
   # @option opts [Integer] :jaas_ranking 
   # @option opts [Boolean] :oauth_offline_validation 
-  # @return [ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo]
-  describe 'com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler test' do
+  # @return [ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo]
+  describe 'com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -4885,7 +4885,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_offloading_impl_transporter_offloading_default_transporter
+  # unit tests for com_adobe_granite_offloading_impl_transporter_offloading_default_transpo
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -4900,8 +4900,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Boolean] :default_transport_replication_synchronous 
   # @option opts [Boolean] :default_transport_contentpackage 
   # @option opts [Boolean] :offloading_transporter_default_enabled 
-  # @return [ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo]
-  describe 'com_adobe_granite_offloading_impl_transporter_offloading_default_transporter test' do
+  # @return [ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo]
+  describe 'com_adobe_granite_offloading_impl_transporter_offloading_default_transpo test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5043,7 +5043,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_replication_hc_impl_replication_transport_users_health_check
+  # unit tests for com_adobe_granite_replication_hc_impl_replication_transport_users_health_c
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5052,8 +5052,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :hc_tags 
-  # @return [ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo]
-  describe 'com_adobe_granite_replication_hc_impl_replication_transport_users_health_check test' do
+  # @return [ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo]
+  describe 'com_adobe_granite_replication_hc_impl_replication_transport_users_health_c test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5075,7 +5075,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check
+  # unit tests for com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5085,8 +5085,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :hc_tags 
   # @option opts [Array<String>] :exclude_search_path 
-  # @return [ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo]
-  describe 'com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check test' do
+  # @return [ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo]
+  describe 'com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5108,7 +5108,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check
+  # unit tests for com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5117,8 +5117,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :hc_tags 
-  # @return [ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo]
-  describe 'com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check test' do
+  # @return [ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo]
+  describe 'com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5222,7 +5222,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl
+  # unit tests for com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5231,8 +5231,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :hc_tags 
-  # @return [ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo]
-  describe 'com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl test' do
+  # @return [ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo]
+  describe 'com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5321,7 +5321,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet
+  # unit tests for com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5330,8 +5330,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :hc_tags 
-  # @return [ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo]
-  describe 'com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet test' do
+  # @return [ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo]
+  describe 'com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5445,7 +5445,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory
+  # unit tests for com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5455,8 +5455,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :adapter_condition 
   # @option opts [Array<String>] :taskmanager_admingroups 
-  # @return [ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo]
-  describe 'com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory test' do
+  # @return [ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo]
+  describe 'com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5486,7 +5486,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl
+  # unit tests for com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5503,8 +5503,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :category_map_location 
   # @option opts [Integer] :retry_attempts 
   # @option opts [Integer] :timeout_count 
-  # @return [ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo]
-  describe 'com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl test' do
+  # @return [ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo]
+  describe 'com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5645,7 +5645,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer
+  # unit tests for com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5654,8 +5654,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :job_topics 
-  # @return [ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo]
-  describe 'com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer test' do
+  # @return [ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo]
+  describe 'com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5778,7 +5778,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet
+  # unit tests for com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5787,8 +5787,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :communities_integration_livefyre_sling_event_filter 
-  # @return [ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo]
-  describe 'com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet test' do
+  # @return [ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo]
+  describe 'com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -5877,7 +5877,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter
+  # unit tests for com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -5887,8 +5887,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :allowed_paths 
   # @option opts [Integer] :cq_analytics_saint_exporter_pagesize 
-  # @return [ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo]
-  describe 'com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter test' do
+  # @return [ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo]
+  describe 'com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -6141,7 +6141,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker
+  # unit tests for com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -6151,8 +6151,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :codeupgradetasks 
   # @option opts [Array<String>] :codeupgradetaskfilters 
-  # @return [ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo]
-  describe 'com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker test' do
+  # @return [ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo]
+  describe 'com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -6454,7 +6454,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag
+  # unit tests for com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -6463,8 +6463,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :is_enabled 
-  # @return [ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo]
-  describe 'com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag test' do
+  # @return [ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo]
+  describe 'com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -6609,7 +6609,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service
+  # unit tests for com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -6619,14 +6619,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :operation 
   # @option opts [Boolean] :email_enabled 
-  # @return [ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo]
-  describe 'com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service test' do
+  # @return [ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo]
+  describe 'com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service
+  # unit tests for com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -6638,8 +6638,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :operation_icon 
   # @option opts [String] :topic_name 
   # @option opts [Boolean] :email_enabled 
-  # @return [ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo]
-  describe 'com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service test' do
+  # @return [ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo]
+  describe 'com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -6731,7 +6731,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process
+  # unit tests for com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -6741,8 +6741,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :process_label 
   # @option opts [Boolean] :notify_on_complete 
-  # @return [ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo]
-  describe 'com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process test' do
+  # @return [ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo]
+  describe 'com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -7371,7 +7371,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process
+  # unit tests for com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7380,14 +7380,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :delete_zip_file 
-  # @return [ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo]
-  describe 'com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process test' do
+  # @return [ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo]
+  describe 'com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener
+  # unit tests for com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7396,8 +7396,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled 
-  # @return [ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo]
-  describe 'com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener test' do
+  # @return [ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo]
+  describe 'com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -7628,7 +7628,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl
+  # unit tests for com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7638,14 +7638,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :get_cache_expiration_unit 
   # @option opts [Integer] :get_cache_expiration_value 
-  # @return [ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo]
-  describe 'com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl test' do
+  # @return [ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo]
+  describe 'com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl
+  # unit tests for com_day_cq_dam_stock_integration_impl_configuration_stock_configuration
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7656,8 +7656,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :name 
   # @option opts [String] :locale 
   # @option opts [String] :ims_config 
-  # @return [ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo]
-  describe 'com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl test' do
+  # @return [ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo]
+  describe 'com_day_cq_dam_stock_integration_impl_configuration_stock_configuration test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -7875,7 +7875,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory
+  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7886,14 +7886,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
   # @option opts [String] :component_resource_type 
-  # @return [ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory test' do
+  # @return [ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo]
+  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory
+  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7904,14 +7904,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
   # @option opts [String] :component_resource_type 
-  # @return [ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory test' do
+  # @return [ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo]
+  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory
+  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7921,14 +7921,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory test' do
+  # @return [ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo]
+  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory
+  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7938,14 +7938,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo]
-  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory test' do
+  # @return [ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo]
+  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory
+  # unit tests for com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -7956,8 +7956,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
   # @option opts [String] :component_resource_type 
-  # @return [ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory test' do
+  # @return [ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo]
+  describe 'com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -8121,7 +8121,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service
+  # unit tests for com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -8138,8 +8138,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :preserve_uuid_nodetypes 
   # @option opts [Array<String>] :preserve_uuid_subtrees 
   # @option opts [Boolean] :auto_commit 
-  # @return [ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo]
-  describe 'com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service test' do
+  # @return [ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo]
+  describe 'com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -8575,7 +8575,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory
+  # unit tests for com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -8589,8 +8589,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :cq_contentsync_pathrewritertransformer_attribute_pattern 
   # @option opts [String] :cq_contentsync_pathrewritertransformer_clientlibrary_pattern 
   # @option opts [String] :cq_contentsync_pathrewritertransformer_clientlibrary_replace 
-  # @return [ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo]
-  describe 'com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory test' do
+  # @return [ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo]
+  describe 'com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -8822,7 +8822,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler
+  # unit tests for com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -8831,8 +8831,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :item_resource_types 
-  # @return [ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo]
-  describe 'com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler test' do
+  # @return [ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo]
+  describe 'com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -9167,7 +9167,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9177,14 +9177,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9194,14 +9194,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9211,14 +9211,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9228,14 +9228,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9245,14 +9245,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9263,14 +9263,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
   # @option opts [String] :component_resource_type 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9280,14 +9280,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9297,14 +9297,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9314,14 +9314,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9331,14 +9331,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9348,66 +9348,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory
-  # @param [Hash] opts the optional parameters
-  # @option opts [Boolean] :post 
-  # @option opts [Boolean] :apply 
-  # @option opts [Boolean] :delete 
-  # @option opts [String] :action 
-  # @option opts [String] :location 
-  # @option opts [Array<String>] :propertylist 
-  # @option opts [Integer] :service_ranking 
-  # @option opts [String] :tagpattern 
-  # @option opts [String] :component_resource_type 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory test' do
-    it 'should work' do
-      # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
-    end
-  end
-
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory
-  # @param [Hash] opts the optional parameters
-  # @option opts [Boolean] :post 
-  # @option opts [Boolean] :apply 
-  # @option opts [Boolean] :delete 
-  # @option opts [String] :action 
-  # @option opts [String] :location 
-  # @option opts [Array<String>] :propertylist 
-  # @option opts [Integer] :service_ranking 
-  # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory test' do
-    it 'should work' do
-      # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
-    end
-  end
-
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory
-  # @param [Hash] opts the optional parameters
-  # @option opts [Boolean] :post 
-  # @option opts [Boolean] :apply 
-  # @option opts [Boolean] :delete 
-  # @option opts [String] :action 
-  # @option opts [String] :location 
-  # @option opts [Array<String>] :propertylist 
-  # @option opts [Integer] :service_ranking 
-  # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory test' do
-    it 'should work' do
-      # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
-    end
-  end
-
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9418,14 +9366,48 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
   # @option opts [String] :component_resource_type 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand
+  # @param [Hash] opts the optional parameters
+  # @option opts [Boolean] :post 
+  # @option opts [Boolean] :apply 
+  # @option opts [Boolean] :delete 
+  # @option opts [String] :action 
+  # @option opts [String] :location 
+  # @option opts [Array<String>] :propertylist 
+  # @option opts [Integer] :service_ranking 
+  # @option opts [String] :tagpattern 
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand test' do
+    it 'should work' do
+      # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
+    end
+  end
+
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl
+  # @param [Hash] opts the optional parameters
+  # @option opts [Boolean] :post 
+  # @option opts [Boolean] :apply 
+  # @option opts [Boolean] :delete 
+  # @option opts [String] :action 
+  # @option opts [String] :location 
+  # @option opts [Array<String>] :propertylist 
+  # @option opts [Integer] :service_ranking 
+  # @option opts [String] :tagpattern 
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl test' do
+    it 'should work' do
+      # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
+    end
+  end
+
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9436,14 +9418,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
   # @option opts [String] :component_resource_type 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory test' do
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9453,8 +9435,26 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
   # @option opts [String] :tagpattern 
-  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo]
-  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory test' do
+  # @option opts [String] :component_resource_type 
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen test' do
+    it 'should work' do
+      # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
+    end
+  end
+
+  # unit tests for com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl
+  # @param [Hash] opts the optional parameters
+  # @option opts [Boolean] :post 
+  # @option opts [Boolean] :apply 
+  # @option opts [Boolean] :delete 
+  # @option opts [String] :action 
+  # @option opts [String] :location 
+  # @option opts [Array<String>] :propertylist 
+  # @option opts [Integer] :service_ranking 
+  # @option opts [String] :tagpattern 
+  # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo]
+  describe 'com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -9602,7 +9602,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service
+  # unit tests for com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -9612,8 +9612,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :default_attachment_type_blacklist 
   # @option opts [Array<String>] :baseline_attachment_type_blacklist 
-  # @return [ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo]
-  describe 'com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service test' do
+  # @return [ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo]
+  describe 'com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -10472,7 +10472,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator
+  # unit tests for org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10483,8 +10483,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :felix_memoryusage_dump_threshold 
   # @option opts [Integer] :felix_memoryusage_dump_interval 
   # @option opts [String] :felix_memoryusage_dump_location 
-  # @return [OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo]
-  describe 'org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator test' do
+  # @return [OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo]
+  describe 'org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -10511,7 +10511,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service
+  # unit tests for org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10520,8 +10520,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :dir 
-  # @return [OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service test' do
+  # @return [OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -10588,7 +10588,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset
+  # unit tests for org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10597,14 +10597,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :persistent_cache_includes 
-  # @return [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset test' do
+  # @return [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service
+  # unit tests for org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10615,8 +10615,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :included_paths 
   # @option opts [Boolean] :enable_async_observer 
   # @option opts [Integer] :observer_queue_size 
-  # @return [OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service test' do
+  # @return [OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -10641,7 +10641,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service
+  # unit tests for org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10665,14 +10665,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Boolean] :deleted_blobs_collection_enabled 
   # @option opts [Integer] :prop_index_cleaner_interval_in_secs 
   # @option opts [Boolean] :enable_single_blob_index_files 
-  # @return [OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service test' do
+  # @return [OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider
+  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10682,14 +10682,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :solr_home_path 
   # @option opts [String] :solr_core_name 
-  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider test' do
+  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service
+  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10698,14 +10698,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :enabled 
-  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service test' do
+  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service
+  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10730,14 +10730,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :type_mappings 
   # @option opts [Array<String>] :property_mappings 
   # @option opts [Boolean] :collapse_jcrcontent_nodes 
-  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service test' do
+  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider
+  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10753,14 +10753,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :solr_shards_no 
   # @option opts [Integer] :solr_replication_factor 
   # @option opts [String] :solr_conf_dir 
-  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider test' do
+  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service
+  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10769,14 +10769,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :query_aggregation 
-  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service test' do
+  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service
+  # unit tests for org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10785,8 +10785,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :server_type 
-  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo]
-  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service test' do
+  # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo]
+  describe 'org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -10845,7 +10845,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl
+  # unit tests for org_apache_jackrabbit_oak_security_authentication_authentication_config
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10855,14 +10855,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :org_apache_jackrabbit_oak_authentication_app_name 
   # @option opts [String] :org_apache_jackrabbit_oak_authentication_config_spi_name 
-  # @return [OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo]
-  describe 'org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl test' do
+  # @return [OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo]
+  describe 'org_apache_jackrabbit_oak_security_authentication_authentication_config test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider
+  # unit tests for org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10896,14 +10896,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :group_member_attribute 
   # @option opts [Boolean] :use_uid_for_ext_id 
   # @option opts [Array<String>] :customattributes 
-  # @return [OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo]
-  describe 'org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider test' do
+  # @return [OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo]
+  describe 'org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl
+  # unit tests for org_apache_jackrabbit_oak_security_authentication_token_token_configura
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10918,14 +10918,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :password_hash_algorithm 
   # @option opts [Integer] :password_hash_iterations 
   # @option opts [Integer] :password_salt_size 
-  # @return [OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo]
-  describe 'org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl test' do
+  # @return [OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo]
+  describe 'org_apache_jackrabbit_oak_security_authentication_token_token_configura test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl
+  # unit tests for org_apache_jackrabbit_oak_security_authorization_authorization_configur
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10938,14 +10938,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :read_paths 
   # @option opts [Array<String>] :administrative_principals 
   # @option opts [Integer] :configuration_ranking 
-  # @return [OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo]
-  describe 'org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl test' do
+  # @return [OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo]
+  describe 'org_apache_jackrabbit_oak_security_authorization_authorization_configur test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_security_internal_security_provider_registration
+  # unit tests for org_apache_jackrabbit_oak_security_internal_security_provider_registrati
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -10955,8 +10955,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :required_service_pids 
   # @option opts [String] :authorization_composition_type 
-  # @return [OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo]
-  describe 'org_apache_jackrabbit_oak_security_internal_security_provider_registration test' do
+  # @return [OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo]
+  describe 'org_apache_jackrabbit_oak_security_internal_security_provider_registrati test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -11150,7 +11150,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler
+  # unit tests for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11172,14 +11172,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :group_property_mapping 
   # @option opts [String] :group_path_prefix 
   # @option opts [Boolean] :enable_rfc7613_usercase_mapped_profile 
-  # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo]
-  describe 'org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler test' do
+  # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo]
+  describe 'org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory
+  # unit tests for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11192,14 +11192,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :jaas_realm_name 
   # @option opts [String] :idp_name 
   # @option opts [String] :sync_handler_name 
-  # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo]
-  describe 'org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory test' do
+  # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo]
+  describe 'org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration
+  # unit tests for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11208,14 +11208,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :protect_external_id 
-  # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo]
-  describe 'org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration test' do
+  # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo]
+  describe 'org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration
+  # unit tests for org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11226,14 +11226,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :cug_supported_paths 
   # @option opts [Boolean] :cug_enabled 
   # @option opts [Integer] :configuration_ranking 
-  # @return [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo]
-  describe 'org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration test' do
+  # @return [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo]
+  describe 'org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl
+  # unit tests for org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11242,14 +11242,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :principal_names 
-  # @return [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo]
-  describe 'org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl test' do
+  # @return [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo]
+  describe 'org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider
+  # unit tests for org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11261,8 +11261,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :user_privilege_names 
   # @option opts [Array<String>] :group_privilege_names 
   # @option opts [String] :constraint 
-  # @return [OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo]
-  describe 'org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider test' do
+  # @return [OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo]
+  describe 'org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -11349,7 +11349,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy
+  # unit tests for org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11359,14 +11359,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :enabled 
   # @option opts [Array<String>] :config_property_inheritance_property_names 
-  # @return [OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo]
-  describe 'org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy test' do
+  # @return [OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo]
+  describe 'org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy
+  # unit tests for org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11375,14 +11375,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :enabled 
-  # @return [OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo]
-  describe 'org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy test' do
+  # @return [OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo]
+  describe 'org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider
+  # unit tests for org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11394,14 +11394,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :overrides 
   # @option opts [Boolean] :enabled 
   # @option opts [Integer] :service_ranking 
-  # @return [OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo]
-  describe 'org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider test' do
+  # @return [OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo]
+  describe 'org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider
+  # unit tests for org_apache_sling_caconfig_impl_override_system_property_configuration_ove
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11411,14 +11411,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :enabled 
   # @option opts [Integer] :service_ranking 
-  # @return [OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo]
-  describe 'org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider test' do
+  # @return [OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo]
+  describe 'org_apache_sling_caconfig_impl_override_system_property_configuration_ove test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_caconfig_management_impl_configuration_management_settings_impl
+  # unit tests for org_apache_sling_caconfig_management_impl_configuration_management_setti
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11428,14 +11428,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :ignore_property_name_regex 
   # @option opts [Array<String>] :config_collection_properties_resource_names 
-  # @return [OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo]
-  describe 'org_apache_sling_caconfig_management_impl_configuration_management_settings_impl test' do
+  # @return [OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo]
+  describe 'org_apache_sling_caconfig_management_impl_configuration_management_setti test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy
+  # unit tests for org_apache_sling_caconfig_resource_impl_def_default_configuration_resour
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11447,8 +11447,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :config_path 
   # @option opts [Array<String>] :fallback_paths 
   # @option opts [Array<String>] :config_collection_inheritance_property_names 
-  # @return [OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo]
-  describe 'org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy test' do
+  # @return [OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo]
+  describe 'org_apache_sling_caconfig_resource_impl_def_default_configuration_resour test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -11787,7 +11787,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory
+  # unit tests for org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11815,14 +11815,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :queue_provider 
   # @option opts [Boolean] :async_delivery 
   # @option opts [Integer] :http_conn_timeout 
-  # @return [OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo]
-  describe 'org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory test' do
+  # @return [OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo]
+  describe 'org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory
+  # unit tests for org_apache_sling_distribution_agent_impl_privilege_distribution_request_a
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11832,8 +11832,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :name 
   # @option opts [String] :jcr_privilege 
-  # @return [OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo]
-  describe 'org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory test' do
+  # @return [OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo]
+  describe 'org_apache_sling_distribution_agent_impl_privilege_distribution_request_a test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -11866,7 +11866,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory
+  # unit tests for org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11888,14 +11888,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :transport_secret_provider_target 
   # @option opts [String] :package_builder_target 
   # @option opts [String] :triggers_target 
-  # @return [OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo]
-  describe 'org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory test' do
+  # @return [OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo]
+  describe 'org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory
+  # unit tests for org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11914,8 +11914,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :package_importer_target 
   # @option opts [String] :request_authorization_strategy_target 
   # @option opts [String] :triggers_target 
-  # @return [OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo]
-  describe 'org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory test' do
+  # @return [OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo]
+  describe 'org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -11973,7 +11973,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory
+  # unit tests for org_apache_sling_distribution_packaging_impl_exporter_agent_distributio
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -11985,14 +11985,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :queue 
   # @option opts [Boolean] :drop_invalid_items 
   # @option opts [String] :agent_target 
-  # @return [OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo]
-  describe 'org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory test' do
+  # @return [OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo]
+  describe 'org_apache_sling_distribution_packaging_impl_exporter_agent_distributio test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory
+  # unit tests for org_apache_sling_distribution_packaging_impl_exporter_local_distributio
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12002,14 +12002,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :name 
   # @option opts [String] :package_builder_target 
-  # @return [OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo]
-  describe 'org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory test' do
+  # @return [OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo]
+  describe 'org_apache_sling_distribution_packaging_impl_exporter_local_distributio test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory
+  # unit tests for org_apache_sling_distribution_packaging_impl_exporter_remote_distributi
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12022,14 +12022,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :pull_items 
   # @option opts [String] :package_builder_target 
   # @option opts [String] :transport_secret_provider_target 
-  # @return [OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo]
-  describe 'org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory test' do
+  # @return [OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo]
+  describe 'org_apache_sling_distribution_packaging_impl_exporter_remote_distributi test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory
+  # unit tests for org_apache_sling_distribution_packaging_impl_importer_local_distributio
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12039,14 +12039,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :name 
   # @option opts [String] :package_builder_target 
-  # @return [OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo]
-  describe 'org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory test' do
+  # @return [OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo]
+  describe 'org_apache_sling_distribution_packaging_impl_importer_local_distributio test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory
+  # unit tests for org_apache_sling_distribution_packaging_impl_importer_remote_distributi
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12057,14 +12057,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :name 
   # @option opts [Array<String>] :endpoints 
   # @option opts [String] :transport_secret_provider_target 
-  # @return [OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo]
-  describe 'org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory test' do
+  # @return [OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo]
+  describe 'org_apache_sling_distribution_packaging_impl_importer_remote_distributi test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory
+  # unit tests for org_apache_sling_distribution_packaging_impl_importer_repository_distri
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12076,14 +12076,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :service_name 
   # @option opts [String] :path 
   # @option opts [String] :privilege_name 
-  # @return [OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo]
-  describe 'org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory test' do
+  # @return [OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo]
+  describe 'org_apache_sling_distribution_packaging_impl_importer_repository_distri test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory
+  # unit tests for org_apache_sling_distribution_resources_impl_distribution_configuration
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12093,14 +12093,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :provider_roots 
   # @option opts [String] :kind 
-  # @return [OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo]
-  describe 'org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory test' do
+  # @return [OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo]
+  describe 'org_apache_sling_distribution_resources_impl_distribution_configuration test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory
+  # unit tests for org_apache_sling_distribution_resources_impl_distribution_service_resour
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12110,14 +12110,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :provider_roots 
   # @option opts [String] :kind 
-  # @return [OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo]
-  describe 'org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory test' do
+  # @return [OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo]
+  describe 'org_apache_sling_distribution_resources_impl_distribution_service_resour test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory
+  # unit tests for org_apache_sling_distribution_serialization_impl_distribution_package_bu
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12137,14 +12137,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :cleanup_delay 
   # @option opts [Array<String>] :package_filters 
   # @option opts [Array<String>] :property_filters 
-  # @return [OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo]
-  describe 'org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory test' do
+  # @return [OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo]
+  describe 'org_apache_sling_distribution_serialization_impl_distribution_package_bu test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory
+  # unit tests for org_apache_sling_distribution_serialization_impl_vlt_vault_distribution
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12170,14 +12170,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Integer] :monitoring_queue_size 
   # @option opts [Array<String>] :paths_mapping 
   # @option opts [Boolean] :strict_import 
-  # @return [OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo]
-  describe 'org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory test' do
+  # @return [OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo]
+  describe 'org_apache_sling_distribution_serialization_impl_vlt_vault_distribution test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider
+  # unit tests for org_apache_sling_distribution_transport_impl_user_credentials_distributi
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12188,14 +12188,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :name 
   # @option opts [String] :username 
   # @option opts [String] :password 
-  # @return [OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo]
-  describe 'org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider test' do
+  # @return [OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo]
+  describe 'org_apache_sling_distribution_transport_impl_user_credentials_distributi test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory
+  # unit tests for org_apache_sling_distribution_trigger_impl_distribution_event_distribute
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12205,14 +12205,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :name 
   # @option opts [String] :path 
-  # @return [OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo]
-  describe 'org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory test' do
+  # @return [OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo]
+  describe 'org_apache_sling_distribution_trigger_impl_distribution_event_distribute test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory
+  # unit tests for org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12225,14 +12225,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :ignored_paths_patterns 
   # @option opts [String] :service_name 
   # @option opts [Boolean] :deep 
-  # @return [OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo]
-  describe 'org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory test' do
+  # @return [OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo]
+  describe 'org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory
+  # unit tests for org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12244,14 +12244,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :path 
   # @option opts [String] :service_name 
   # @option opts [String] :nuggets_path 
-  # @return [OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo]
-  describe 'org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory test' do
+  # @return [OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo]
+  describe 'org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory
+  # unit tests for org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12262,14 +12262,14 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :name 
   # @option opts [String] :endpoint 
   # @option opts [String] :transport_secret_provider_target 
-  # @return [OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo]
-  describe 'org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory test' do
+  # @return [OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo]
+  describe 'org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory
+  # unit tests for org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12279,14 +12279,14 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [String] :name 
   # @option opts [String] :path 
-  # @return [OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo]
-  describe 'org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory test' do
+  # @return [OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo]
+  describe 'org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
   end
 
-  # unit tests for org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory
+  # unit tests for org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12298,8 +12298,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :path 
   # @option opts [String] :seconds 
   # @option opts [String] :service_name 
-  # @return [OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo]
-  describe 'org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory test' do
+  # @return [OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo]
+  describe 'org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -12531,7 +12531,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider
+  # unit tests for org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12541,8 +12541,8 @@ describe 'ConfigmgrApi' do
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :users 
   # @option opts [Array<String>] :groups 
-  # @return [OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo]
-  describe 'org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider test' do
+  # @return [OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo]
+  describe 'org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -12984,7 +12984,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service
+  # unit tests for org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -12993,8 +12993,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :service_ranking 
-  # @return [OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo]
-  describe 'org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service test' do
+  # @return [OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo]
+  describe 'org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -13076,7 +13076,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory
+  # unit tests for org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -13087,8 +13087,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :felix_inventory_printer_name 
   # @option opts [String] :felix_inventory_printer_title 
   # @option opts [String] :path 
-  # @return [OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo]
-  describe 'org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory test' do
+  # @return [OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo]
+  describe 'org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -13145,7 +13145,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl
+  # unit tests for org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -13154,8 +13154,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Boolean] :log_stacktrace_onclose 
-  # @return [OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo]
-  describe 'org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl test' do
+  # @return [OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo]
+  describe 'org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -13180,7 +13180,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory
+  # unit tests for org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -13189,8 +13189,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Integer] :org_apache_sling_scripting_javascript_rhino_opt_level 
-  # @return [OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo]
-  describe 'org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory test' do
+  # @return [OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo]
+  describe 'org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end
@@ -13222,7 +13222,7 @@ describe 'ConfigmgrApi' do
     end
   end
 
-  # unit tests for org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider
+  # unit tests for org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov
   # @param [Hash] opts the optional parameters
   # @option opts [Boolean] :post 
   # @option opts [Boolean] :apply 
@@ -13231,8 +13231,8 @@ describe 'ConfigmgrApi' do
   # @option opts [String] :location 
   # @option opts [Array<String>] :propertylist 
   # @option opts [Array<String>] :org_apache_sling_scripting_sightly_js_bindings 
-  # @return [OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo]
-  describe 'org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider test' do
+  # @return [OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo]
+  describe 'org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
     end

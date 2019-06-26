@@ -112,9 +112,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :font_list 
-    # @return [AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo]
-    def adaptive_form_and_interactive_communication_web_channel_theme_configuration(opts = {})
-      data, _status_code, _headers = adaptive_form_and_interactive_communication_web_channel_theme_configuration_with_http_info(opts)
+    # @return [AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo]
+    def adaptive_form_and_interactive_communication_web_channel_theme_configur(opts = {})
+      data, _status_code, _headers = adaptive_form_and_interactive_communication_web_channel_theme_configur_with_http_info(opts)
       data
     end
 
@@ -126,10 +126,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :font_list 
-    # @return [Array<(AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo, Integer, Hash)>] AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo data, response status code and response headers
-    def adaptive_form_and_interactive_communication_web_channel_theme_configuration_with_http_info(opts = {})
+    # @return [Array<(AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo, Integer, Hash)>] AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo data, response status code and response headers
+    def adaptive_form_and_interactive_communication_web_channel_theme_configur_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.adaptive_form_and_interactive_communication_web_channel_theme_configuration ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.adaptive_form_and_interactive_communication_web_channel_theme_configur ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration'
@@ -156,7 +156,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo' 
+      return_type = opts[:return_type] || 'AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -172,7 +172,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#adaptive_form_and_interactive_communication_web_channel_theme_configuration\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#adaptive_form_and_interactive_communication_web_channel_theme_configur\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -1513,9 +1513,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :flush_agents 
-    # @return [ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo]
-    def com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler(opts = {})
-      data, _status_code, _headers = com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler_with_http_info(opts)
+    # @return [ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo]
+    def com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle(opts = {})
+      data, _status_code, _headers = com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle_with_http_info(opts)
       data
     end
 
@@ -1527,10 +1527,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :flush_agents 
-    # @return [Array<(ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo, Integer, Hash)>] ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo data, response status code and response headers
-    def com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo, Integer, Hash)>] ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo data, response status code and response headers
+    def com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler'
@@ -1557,7 +1557,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -1573,7 +1573,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -2331,9 +2331,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :reportingservices_proxy_whitelist 
-    # @return [ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo]
-    def com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet(opts = {})
-      data, _status_code, _headers = com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet_with_http_info(opts)
+    # @return [ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo]
+    def com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle(opts = {})
+      data, _status_code, _headers = com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle_with_http_info(opts)
       data
     end
 
@@ -2345,10 +2345,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :reportingservices_proxy_whitelist 
-    # @return [Array<(ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo, Integer, Hash)>] ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo data, response status code and response headers
-    def com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo, Integer, Hash)>] ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo data, response status code and response headers
+    def com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet'
@@ -2375,7 +2375,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -2391,7 +2391,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -5557,9 +5557,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo]
-    def com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check(opts = {})
-      data, _status_code, _headers = com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check_with_http_info(opts)
+    # @return [ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo]
+    def com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch(opts = {})
+      data, _status_code, _headers = com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_with_http_info(opts)
       data
     end
 
@@ -5571,10 +5571,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [Array<(ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo, Integer, Hash)>] ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo data, response status code and response headers
-    def com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo, Integer, Hash)>] ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo data, response status code and response headers
+    def com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck'
@@ -5601,7 +5601,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -5617,7 +5617,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -5936,9 +5936,9 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :enable 
     # @option opts [Integer] :ttl1 
     # @option opts [Integer] :ttl2 
-    # @return [ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo]
-    def com_adobe_cq_social_accountverification_impl_account_management_config_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_accountverification_impl_account_management_config_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo]
+    def com_adobe_cq_social_accountverification_impl_account_management_config_im(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_accountverification_impl_account_management_config_im_with_http_info(opts)
       data
     end
 
@@ -5952,10 +5952,10 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :enable 
     # @option opts [Integer] :ttl1 
     # @option opts [Integer] :ttl2 
-    # @return [Array<(ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo, Integer, Hash)>] ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo data, response status code and response headers
-    def com_adobe_cq_social_accountverification_impl_account_management_config_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo, Integer, Hash)>] ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo data, response status code and response headers
+    def com_adobe_cq_social_accountverification_impl_account_management_config_im_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_accountverification_impl_account_management_config_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_accountverification_impl_account_management_config_im ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl'
@@ -5984,7 +5984,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6000,7 +6000,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_accountverification_impl_account_management_config_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_accountverification_impl_account_management_config_im\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6013,9 +6013,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo]
-    def com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo]
+    def com_adobe_cq_social_activitystreams_client_impl_social_activity_componen(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_activitystreams_client_impl_social_activity_componen_with_http_info(opts)
       data
     end
 
@@ -6027,10 +6027,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo data, response status code and response headers
-    def com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo data, response status code and response headers
+    def com_adobe_cq_social_activitystreams_client_impl_social_activity_componen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_client_impl_social_activity_componen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl'
@@ -6057,7 +6057,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6073,7 +6073,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_client_impl_social_activity_componen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6086,9 +6086,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo]
-    def com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo]
+    def com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co_with_http_info(opts)
       data
     end
 
@@ -6100,10 +6100,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo data, response status code and response headers
+    def com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory'
@@ -6130,7 +6130,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6146,7 +6146,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6236,9 +6236,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :accepted 
     # @option opts [Integer] :ranked 
-    # @return [ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo]
-    def com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension_with_http_info(opts)
+    # @return [ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo]
+    def com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten_with_http_info(opts)
       data
     end
 
@@ -6251,10 +6251,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :accepted 
     # @option opts [Integer] :ranked 
-    # @return [Array<(ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo data, response status code and response headers
-    def com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo data, response status code and response headers
+    def com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension'
@@ -6282,7 +6282,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6298,7 +6298,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6312,9 +6312,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :ranking 
     # @option opts [Boolean] :enable 
-    # @return [ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo]
-    def com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor_with_http_info(opts)
+    # @return [ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo]
+    def com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s_with_http_info(opts)
       data
     end
 
@@ -6327,10 +6327,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :ranking 
     # @option opts [Boolean] :enable 
-    # @return [Array<(ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo data, response status code and response headers
-    def com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo data, response status code and response headers
+    def com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor'
@@ -6358,7 +6358,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6374,7 +6374,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6388,9 +6388,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :stream_path 
     # @option opts [String] :stream_name 
-    # @return [ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo]
-    def com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo]
+    def com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre_with_http_info(opts)
       data
     end
 
@@ -6403,10 +6403,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :stream_path 
     # @option opts [String] :stream_name 
-    # @return [Array<(ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo, Integer, Hash)>] ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo data, response status code and response headers
+    def com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory'
@@ -6434,7 +6434,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6450,7 +6450,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6465,9 +6465,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :max_retry 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo]
-    def com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo]
+    def com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i_with_http_info(opts)
       data
     end
 
@@ -6481,10 +6481,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :max_retry 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo, Integer, Hash)>] ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo data, response status code and response headers
-    def com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo, Integer, Hash)>] ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo data, response status code and response headers
+    def com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl'
@@ -6513,7 +6513,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6529,7 +6529,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6543,9 +6543,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :attachment_type_blacklist 
     # @option opts [Integer] :extension_order 
-    # @return [ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo]
-    def com_adobe_cq_social_calendar_client_operationextensions_event_attachment(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_calendar_client_operationextensions_event_attachment_with_http_info(opts)
+    # @return [ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo]
+    def com_adobe_cq_social_calendar_client_operationextensions_event_attachmen(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_calendar_client_operationextensions_event_attachmen_with_http_info(opts)
       data
     end
 
@@ -6558,10 +6558,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :attachment_type_blacklist 
     # @option opts [Integer] :extension_order 
-    # @return [Array<(ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo, Integer, Hash)>] ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo data, response status code and response headers
-    def com_adobe_cq_social_calendar_client_operationextensions_event_attachment_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo, Integer, Hash)>] ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo data, response status code and response headers
+    def com_adobe_cq_social_calendar_client_operationextensions_event_attachmen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_calendar_client_operationextensions_event_attachment ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_calendar_client_operationextensions_event_attachmen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment'
@@ -6589,7 +6589,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6605,7 +6605,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_calendar_client_operationextensions_event_attachment\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_calendar_client_operationextensions_event_attachmen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6691,9 +6691,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :ranking 
-    # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo]
-    def com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo]
+    def com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_with_http_info(opts)
       data
     end
 
@@ -6705,10 +6705,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :ranking 
-    # @return [Array<(ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor'
@@ -6735,7 +6735,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6751,7 +6751,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6765,9 +6765,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo]
-    def com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo]
+    def com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se_with_http_info(opts)
       data
     end
 
@@ -6780,10 +6780,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService'
@@ -6811,7 +6811,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6827,7 +6827,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6841,9 +6841,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo]
-    def com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo]
+    def com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati_with_http_info(opts)
       data
     end
 
@@ -6856,10 +6856,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService'
@@ -6887,7 +6887,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6903,7 +6903,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6916,9 +6916,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :num_user_limit 
-    # @return [ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo]
-    def com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo]
+    def com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c_with_http_info(opts)
       data
     end
 
@@ -6930,10 +6930,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :num_user_limit 
-    # @return [Array<(ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider'
@@ -6960,7 +6960,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -6976,7 +6976,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -6991,9 +6991,9 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :enable_scheduled_posts_search 
     # @option opts [Integer] :number_of_minutes 
     # @option opts [Integer] :max_search_limit 
-    # @return [ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo]
-    def com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo]
+    def com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos_with_http_info(opts)
       data
     end
 
@@ -7007,10 +7007,10 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :enable_scheduled_posts_search 
     # @option opts [Integer] :number_of_minutes 
     # @option opts [Integer] :max_search_limit 
-    # @return [Array<(ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo, Integer, Hash)>] ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts'
@@ -7039,7 +7039,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -7055,7 +7055,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -7446,9 +7446,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :pattern_date 
     # @option opts [String] :pattern_date_time 
     # @option opts [String] :pattern_email 
-    # @return [ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo]
-    def com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo]
+    def com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp_with_http_info(opts)
       data
     end
 
@@ -7467,10 +7467,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :pattern_date 
     # @option opts [String] :pattern_date_time 
     # @option opts [String] :pattern_email 
-    # @return [Array<(ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo, Integer, Hash)>] ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo, Integer, Hash)>] ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl'
@@ -7504,7 +7504,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -7520,7 +7520,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -7543,9 +7543,9 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :email_as_html 
     # @option opts [String] :email_default_user_name 
     # @option opts [String] :email_templates_root_path 
-    # @return [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo]
-    def com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo]
+    def com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp_with_http_info(opts)
       data
     end
 
@@ -7567,10 +7567,10 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :email_as_html 
     # @option opts [String] :email_default_user_name 
     # @option opts [String] :email_templates_root_path 
-    # @return [Array<(ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo, Integer, Hash)>] ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo, Integer, Hash)>] ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl'
@@ -7607,7 +7607,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -7623,7 +7623,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -8166,9 +8166,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :number_of_days 
     # @option opts [Integer] :age_of_file 
-    # @return [ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo]
-    def com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo]
+    def com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload_with_http_info(opts)
       data
     end
 
@@ -8181,10 +8181,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :number_of_days 
     # @option opts [Integer] :age_of_file 
-    # @return [Array<(ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo, Integer, Hash)>] ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo, Integer, Hash)>] ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads'
@@ -8212,7 +8212,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -8228,7 +8228,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -8324,9 +8324,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :ugc_limit_duration 
     # @option opts [Array<String>] :domains 
     # @option opts [Array<String>] :to_list 
-    # @return [ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo]
-    def com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo]
+    def com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit_with_http_info(opts)
       data
     end
 
@@ -8342,10 +8342,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :ugc_limit_duration 
     # @option opts [Array<String>] :domains 
     # @option opts [Array<String>] :to_list 
-    # @return [Array<(ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo, Integer, Hash)>] ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo data, response status code and response headers
-    def com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo, Integer, Hash)>] ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo data, response status code and response headers
+    def com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl'
@@ -8376,7 +8376,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -8392,7 +8392,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -8500,9 +8500,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :path 
     # @option opts [Integer] :service_ranking 
-    # @return [ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo]
-    def com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler_with_http_info(opts)
+    # @return [ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo]
+    def com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle_with_http_info(opts)
       data
     end
 
@@ -8515,10 +8515,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :path 
     # @option opts [Integer] :service_ranking 
-    # @return [Array<(ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo, Integer, Hash)>] ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo data, response status code and response headers
-    def com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo, Integer, Hash)>] ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo data, response status code and response headers
+    def com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler'
@@ -8546,7 +8546,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -8562,7 +8562,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -8746,9 +8746,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :cq_social_content_fragments_services_enabled 
     # @option opts [Integer] :cq_social_content_fragments_services_wait_time_seconds 
-    # @return [ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo]
-    def com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo]
+    def com_adobe_cq_social_content_fragments_services_impl_communities_fragmen(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_content_fragments_services_impl_communities_fragmen_with_http_info(opts)
       data
     end
 
@@ -8761,10 +8761,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :cq_social_content_fragments_services_enabled 
     # @option opts [Integer] :cq_social_content_fragments_services_wait_time_seconds 
-    # @return [Array<(ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo, Integer, Hash)>] ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo data, response status code and response headers
-    def com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo, Integer, Hash)>] ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo data, response status code and response headers
+    def com_adobe_cq_social_content_fragments_services_impl_communities_fragmen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_content_fragments_services_impl_communities_fragmen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl'
@@ -8792,7 +8792,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -8808,7 +8808,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_content_fragments_services_impl_communities_fragmen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -9009,9 +9009,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :cache_start_size 
     # @option opts [Integer] :cache_ttl 
     # @option opts [Integer] :cache_size 
-    # @return [ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo]
-    def com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo]
+    def com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor_with_http_info(opts)
       data
     end
 
@@ -9029,10 +9029,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :cache_start_size 
     # @option opts [Integer] :cache_ttl 
     # @option opts [Integer] :cache_size 
-    # @return [Array<(ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo, Integer, Hash)>] ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo, Integer, Hash)>] ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo data, response status code and response headers
+    def com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory'
@@ -9065,7 +9065,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -9081,7 +9081,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -9094,9 +9094,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :is_member_check 
-    # @return [ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo]
-    def com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo]
+    def com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f_with_http_info(opts)
       data
     end
 
@@ -9108,10 +9108,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :is_member_check 
-    # @return [Array<(ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo, Integer, Hash)>] ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo, Integer, Hash)>] ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo data, response status code and response headers
+    def com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory'
@@ -9138,7 +9138,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -9154,7 +9154,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -9167,9 +9167,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :is_member_check 
-    # @return [ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo]
-    def com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo]
+    def com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto_with_http_info(opts)
       data
     end
 
@@ -9181,10 +9181,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :is_member_check 
-    # @return [Array<(ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo, Integer, Hash)>] ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo, Integer, Hash)>] ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo data, response status code and response headers
+    def com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory'
@@ -9211,7 +9211,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -9227,7 +9227,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -9240,9 +9240,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo]
-    def com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo]
+    def com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l_with_http_info(opts)
       data
     end
 
@@ -9254,10 +9254,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [Array<(ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo, Integer, Hash)>] ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo, Integer, Hash)>] ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo data, response status code and response headers
+    def com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService'
@@ -9284,7 +9284,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -9300,7 +9300,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -9313,9 +9313,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo]
-    def com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo]
+    def com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou_with_http_info(opts)
       data
     end
 
@@ -9327,10 +9327,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [Array<(ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo, Integer, Hash)>] ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo, Integer, Hash)>] ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo data, response status code and response headers
+    def com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService'
@@ -9357,7 +9357,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -9373,7 +9373,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -9460,9 +9460,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :sling_servlet_selectors 
     # @option opts [String] :sling_servlet_extensions 
-    # @return [ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo]
-    def com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet_with_http_info(opts)
+    # @return [ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo]
+    def com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge_with_http_info(opts)
       data
     end
 
@@ -9475,10 +9475,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :sling_servlet_selectors 
     # @option opts [String] :sling_servlet_extensions 
-    # @return [Array<(ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo, Integer, Hash)>] ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo data, response status code and response headers
-    def com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo, Integer, Hash)>] ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo data, response status code and response headers
+    def com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet'
@@ -9506,7 +9506,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -9522,7 +9522,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -9536,9 +9536,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo]
-    def com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo]
+    def com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera_with_http_info(opts)
       data
     end
 
@@ -9551,10 +9551,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo, Integer, Hash)>] ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo, Integer, Hash)>] ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo data, response status code and response headers
+    def com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService'
@@ -9582,7 +9582,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -9598,7 +9598,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -9766,9 +9766,9 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :group_listing_lazyloading_enable 
     # @option opts [Integer] :page_size 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo]
-    def com_adobe_cq_social_group_client_impl_community_group_collection_component_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_group_client_impl_community_group_collection_component_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo]
+    def com_adobe_cq_social_group_client_impl_community_group_collection_componen(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_group_client_impl_community_group_collection_componen_with_http_info(opts)
       data
     end
 
@@ -9783,10 +9783,10 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :group_listing_lazyloading_enable 
     # @option opts [Integer] :page_size 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo, Integer, Hash)>] ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_group_client_impl_community_group_collection_component_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo, Integer, Hash)>] ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo data, response status code and response headers
+    def com_adobe_cq_social_group_client_impl_community_group_collection_componen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_group_client_impl_community_group_collection_component_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_group_client_impl_community_group_collection_componen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory'
@@ -9816,7 +9816,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -9832,7 +9832,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_group_client_impl_community_group_collection_component_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_group_client_impl_community_group_collection_componen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10004,9 +10004,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo]
-    def com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo]
+    def com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s_with_http_info(opts)
       data
     end
 
@@ -10019,10 +10019,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo, Integer, Hash)>] ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo, Integer, Hash)>] ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo data, response status code and response headers
+    def com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService'
@@ -10050,7 +10050,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10066,7 +10066,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10080,9 +10080,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo]
-    def com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo]
+    def com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser_with_http_info(opts)
       data
     end
 
@@ -10095,10 +10095,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo, Integer, Hash)>] ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo, Integer, Hash)>] ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo data, response status code and response headers
+    def com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService'
@@ -10126,7 +10126,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10142,7 +10142,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10155,9 +10155,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo]
-    def com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo]
+    def com_adobe_cq_social_members_endpoints_impl_community_member_group_profile(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_with_http_info(opts)
       data
     end
 
@@ -10169,10 +10169,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [Array<(ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo, Integer, Hash)>] ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo, Integer, Hash)>] ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo data, response status code and response headers
+    def com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_members_endpoints_impl_community_member_group_profile ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService'
@@ -10199,7 +10199,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10215,7 +10215,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_members_endpoints_impl_community_member_group_profile\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10228,9 +10228,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo]
-    def com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo]
+    def com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o_with_http_info(opts)
       data
     end
 
@@ -10242,10 +10242,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [Array<(ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo, Integer, Hash)>] ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo, Integer, Hash)>] ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo data, response status code and response headers
+    def com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService'
@@ -10272,7 +10272,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10288,7 +10288,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10302,9 +10302,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :everyone_limit 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo]
-    def com_adobe_cq_social_members_impl_community_member_group_profile_component_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_members_impl_community_member_group_profile_component_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo]
+    def com_adobe_cq_social_members_impl_community_member_group_profile_component_f(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_members_impl_community_member_group_profile_component_f_with_http_info(opts)
       data
     end
 
@@ -10317,10 +10317,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :everyone_limit 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo, Integer, Hash)>] ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_members_impl_community_member_group_profile_component_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo, Integer, Hash)>] ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo data, response status code and response headers
+    def com_adobe_cq_social_members_impl_community_member_group_profile_component_f_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_members_impl_community_member_group_profile_component_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_members_impl_community_member_group_profile_component_f ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory'
@@ -10348,7 +10348,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10364,7 +10364,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_members_impl_community_member_group_profile_component_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_members_impl_community_member_group_profile_component_f\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10396,9 +10396,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :allowed_attachment_types 
     # @option opts [String] :service_selector 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo]
-    def com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo]
+    def com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation_with_http_info(opts)
       data
     end
 
@@ -10429,10 +10429,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :allowed_attachment_types 
     # @option opts [String] :service_selector 
     # @option opts [Array<String>] :field_whitelist 
-    # @return [Array<(ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo, Integer, Hash)>] ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo data, response status code and response headers
-    def com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo, Integer, Hash)>] ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo data, response status code and response headers
+    def com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl'
@@ -10478,7 +10478,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10494,7 +10494,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10508,9 +10508,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :resource_type_filters 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo]
-    def com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo]
+    def com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen_with_http_info(opts)
       data
     end
 
@@ -10523,10 +10523,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :resource_type_filters 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo, Integer, Hash)>] ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo, Integer, Hash)>] ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo data, response status code and response headers
+    def com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory'
@@ -10554,7 +10554,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10570,7 +10570,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10583,9 +10583,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo]
-    def com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo]
+    def com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_with_http_info(opts)
       data
     end
 
@@ -10597,10 +10597,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo, Integer, Hash)>] ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo, Integer, Hash)>] ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo data, response status code and response headers
+    def com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory'
@@ -10627,7 +10627,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10643,7 +10643,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10656,9 +10656,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo]
-    def com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo]
+    def com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen_with_http_info(opts)
       data
     end
 
@@ -10670,10 +10670,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo, Integer, Hash)>] ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo, Integer, Hash)>] ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo data, response status code and response headers
+    def com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory'
@@ -10700,7 +10700,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10716,7 +10716,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -10730,9 +10730,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :resource_type_filters 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info]
-    def com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2_with_http_info(opts)
+    # @return [ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo]
+    def com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci_with_http_info(opts)
       data
     end
 
@@ -10745,10 +10745,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :resource_type_filters 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info, Integer, Hash)>] ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info data, response status code and response headers
-    def com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo, Integer, Hash)>] ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo data, response status code and response headers
+    def com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2 ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2'
@@ -10776,7 +10776,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -10792,7 +10792,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -11031,9 +11031,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo]
-    def com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo]
+    def com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic_with_http_info(opts)
       data
     end
 
@@ -11046,10 +11046,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo, Integer, Hash)>] ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo, Integer, Hash)>] ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo data, response status code and response headers
+    def com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService'
@@ -11077,7 +11077,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -11093,7 +11093,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -11107,9 +11107,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :cq_social_reporting_analytics_polling_importer_interval 
     # @option opts [Integer] :cq_social_reporting_analytics_polling_importer_page_size 
-    # @return [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo]
-    def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo]
+    def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i_with_http_info(opts)
       data
     end
 
@@ -11122,10 +11122,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :cq_social_reporting_analytics_polling_importer_interval 
     # @option opts [Integer] :cq_social_reporting_analytics_polling_importer_page_size 
-    # @return [Array<(ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo, Integer, Hash)>] ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo data, response status code and response headers
-    def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo, Integer, Hash)>] ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo data, response status code and response headers
+    def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl'
@@ -11153,7 +11153,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -11169,7 +11169,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -11182,9 +11182,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :report_fetch_delay 
-    # @return [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo]
-    def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo]
+    def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m_with_http_info(opts)
       data
     end
 
@@ -11196,10 +11196,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :report_fetch_delay 
-    # @return [Array<(ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo, Integer, Hash)>] ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo data, response status code and response headers
-    def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo, Integer, Hash)>] ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo data, response status code and response headers
+    def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl'
@@ -11226,7 +11226,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -11242,7 +11242,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -11256,9 +11256,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :cq_social_console_analytics_sites_mapping 
     # @option opts [Integer] :priority 
-    # @return [ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo]
-    def com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory_with_http_info(opts)
+    # @return [ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo]
+    def com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s_with_http_info(opts)
       data
     end
 
@@ -11271,10 +11271,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :cq_social_console_analytics_sites_mapping 
     # @option opts [Integer] :priority 
-    # @return [Array<(ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo, Integer, Hash)>] ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo data, response status code and response headers
-    def com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo, Integer, Hash)>] ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo data, response status code and response headers
+    def com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory'
@@ -11302,7 +11302,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -11318,7 +11318,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -11332,9 +11332,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo]
-    def com_adobe_cq_social_review_client_endpoints_impl_review_operations_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_review_client_endpoints_impl_review_operations_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo]
+    def com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi_with_http_info(opts)
       data
     end
 
@@ -11347,10 +11347,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :field_whitelist 
     # @option opts [Array<String>] :attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo, Integer, Hash)>] ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_review_client_endpoints_impl_review_operations_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo, Integer, Hash)>] ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo data, response status code and response headers
+    def com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_review_client_endpoints_impl_review_operations_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService'
@@ -11378,7 +11378,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -11394,7 +11394,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_review_client_endpoints_impl_review_operations_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -11787,9 +11787,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :cq_social_console_analytics_components 
-    # @return [ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo]
-    def com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl_with_http_info(opts)
+    # @return [ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo]
+    def com_adobe_cq_social_site_impl_analytics_component_configuration_service_im(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_site_impl_analytics_component_configuration_service_im_with_http_info(opts)
       data
     end
 
@@ -11801,10 +11801,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :cq_social_console_analytics_components 
-    # @return [Array<(ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo, Integer, Hash)>] ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo data, response status code and response headers
-    def com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo, Integer, Hash)>] ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo data, response status code and response headers
+    def com_adobe_cq_social_site_impl_analytics_component_configuration_service_im_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_site_impl_analytics_component_configuration_service_im ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl'
@@ -11831,7 +11831,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -11847,7 +11847,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_site_impl_analytics_component_configuration_service_im\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -12985,9 +12985,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :default_attachment_type_blacklist 
     # @option opts [Array<String>] :baseline_attachment_type_blacklist 
-    # @return [ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo]
-    def com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service(opts = {})
-      data, _status_code, _headers = com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service_with_http_info(opts)
+    # @return [ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo]
+    def com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli(opts = {})
+      data, _status_code, _headers = com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli_with_http_info(opts)
       data
     end
 
@@ -13000,10 +13000,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :default_attachment_type_blacklist 
     # @option opts [Array<String>] :baseline_attachment_type_blacklist 
-    # @return [Array<(ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo, Integer, Hash)>] ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo data, response status code and response headers
-    def com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo, Integer, Hash)>] ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo data, response status code and response headers
+    def com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService'
@@ -13031,7 +13031,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -13047,7 +13047,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -13318,9 +13318,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :resource_types 
-    # @return [ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo]
-    def com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended(opts = {})
-      data, _status_code, _headers = com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended_with_http_info(opts)
+    # @return [ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo]
+    def com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact(opts = {})
+      data, _status_code, _headers = com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact_with_http_info(opts)
       data
     end
 
@@ -13332,10 +13332,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :resource_types 
-    # @return [Array<(ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo, Integer, Hash)>] ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo data, response status code and response headers
-    def com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended_with_http_info(opts = {})
+    # @return [Array<(ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo, Integer, Hash)>] ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo data, response status code and response headers
+    def com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended'
@@ -13362,7 +13362,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo' 
+      return_type = opts[:return_type] || 'ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -13378,7 +13378,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -14403,9 +14403,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :temp_storage_config 
-    # @return [ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo]
-    def com_adobe_forms_common_service_impl_forms_common_configuration_service_impl(opts = {})
-      data, _status_code, _headers = com_adobe_forms_common_service_impl_forms_common_configuration_service_impl_with_http_info(opts)
+    # @return [ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo]
+    def com_adobe_forms_common_service_impl_forms_common_configuration_service_imp(opts = {})
+      data, _status_code, _headers = com_adobe_forms_common_service_impl_forms_common_configuration_service_imp_with_http_info(opts)
       data
     end
 
@@ -14417,10 +14417,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :temp_storage_config 
-    # @return [Array<(ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo, Integer, Hash)>] ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo data, response status code and response headers
-    def com_adobe_forms_common_service_impl_forms_common_configuration_service_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo, Integer, Hash)>] ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo data, response status code and response headers
+    def com_adobe_forms_common_service_impl_forms_common_configuration_service_imp_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_forms_common_service_impl_forms_common_configuration_service_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_forms_common_service_impl_forms_common_configuration_service_imp ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl'
@@ -14447,7 +14447,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -14463,7 +14463,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_forms_common_service_impl_forms_common_configuration_service_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_forms_common_service_impl_forms_common_configuration_service_imp\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -17948,9 +17948,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :replicate_comment_resource_types 
-    # @return [ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo]
-    def com_adobe_granite_comments_internal_comment_replication_content_filter_factory(opts = {})
-      data, _status_code, _headers = com_adobe_granite_comments_internal_comment_replication_content_filter_factory_with_http_info(opts)
+    # @return [ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo]
+    def com_adobe_granite_comments_internal_comment_replication_content_filter_fac(opts = {})
+      data, _status_code, _headers = com_adobe_granite_comments_internal_comment_replication_content_filter_fac_with_http_info(opts)
       data
     end
 
@@ -17962,10 +17962,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :replicate_comment_resource_types 
-    # @return [Array<(ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo, Integer, Hash)>] ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo data, response status code and response headers
-    def com_adobe_granite_comments_internal_comment_replication_content_filter_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo, Integer, Hash)>] ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo data, response status code and response headers
+    def com_adobe_granite_comments_internal_comment_replication_content_filter_fac_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_comments_internal_comment_replication_content_filter_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_comments_internal_comment_replication_content_filter_fac ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory'
@@ -17992,7 +17992,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -18008,7 +18008,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_comments_internal_comment_replication_content_filter_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_comments_internal_comment_replication_content_filter_fac\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -18253,9 +18253,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
     # @option opts [Array<String>] :fallback_paths 
-    # @return [ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo]
-    def com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy(opts = {})
-      data, _status_code, _headers = com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy_with_http_info(opts)
+    # @return [ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo]
+    def com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving(opts = {})
+      data, _status_code, _headers = com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_with_http_info(opts)
       data
     end
 
@@ -18268,10 +18268,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
     # @option opts [Array<String>] :fallback_paths 
-    # @return [Array<(ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo, Integer, Hash)>] ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo data, response status code and response headers
-    def com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo, Integer, Hash)>] ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo data, response status code and response headers
+    def com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy'
@@ -18299,7 +18299,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -18315,7 +18315,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -18658,9 +18658,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [String] :username 
     # @option opts [String] :encrypted_password 
-    # @return [ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo]
-    def com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider(opts = {})
-      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider_with_http_info(opts)
+    # @return [ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo]
+    def com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se(opts = {})
+      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se_with_http_info(opts)
       data
     end
 
@@ -18674,10 +18674,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [String] :username 
     # @option opts [String] :encrypted_password 
-    # @return [Array<(ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo data, response status code and response headers
-    def com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo data, response status code and response headers
+    def com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider'
@@ -18706,7 +18706,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -18722,7 +18722,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -18908,9 +18908,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :importer_name 
-    # @return [ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo]
-    def com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer(opts = {})
-      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer_with_http_info(opts)
+    # @return [ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo]
+    def com_adobe_granite_distribution_core_impl_distribution_to_replication_even(opts = {})
+      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_distribution_to_replication_even_with_http_info(opts)
       data
     end
 
@@ -18922,10 +18922,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :importer_name 
-    # @return [Array<(ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo data, response status code and response headers
-    def com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo data, response status code and response headers
+    def com_adobe_granite_distribution_core_impl_distribution_to_replication_even_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_distribution_to_replication_even ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer'
@@ -18952,7 +18952,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -18968,7 +18968,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_distribution_to_replication_even\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -18982,9 +18982,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :provider_name 
     # @option opts [Boolean] :forward_requests 
-    # @return [ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo]
-    def com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider(opts = {})
-      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider_with_http_info(opts)
+    # @return [ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo]
+    def com_adobe_granite_distribution_core_impl_replication_adapters_replicat(opts = {})
+      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_replication_adapters_replicat_with_http_info(opts)
       data
     end
 
@@ -18997,10 +18997,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :provider_name 
     # @option opts [Boolean] :forward_requests 
-    # @return [Array<(ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo data, response status code and response headers
-    def com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo data, response status code and response headers
+    def com_adobe_granite_distribution_core_impl_replication_adapters_replicat_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_replication_adapters_replicat ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider'
@@ -19028,7 +19028,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -19044,7 +19044,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_replication_adapters_replicat\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -19057,9 +19057,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :forward_requests 
-    # @return [ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo]
-    def com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler(opts = {})
-      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler_with_http_info(opts)
+    # @return [ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo]
+    def com_adobe_granite_distribution_core_impl_replication_distribution_trans(opts = {})
+      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_replication_distribution_trans_with_http_info(opts)
       data
     end
 
@@ -19071,10 +19071,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :forward_requests 
-    # @return [Array<(ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo data, response status code and response headers
-    def com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo data, response status code and response headers
+    def com_adobe_granite_distribution_core_impl_replication_distribution_trans_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_replication_distribution_trans ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler'
@@ -19101,7 +19101,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -19117,7 +19117,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_replication_distribution_trans\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -19133,9 +19133,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :service_name 
     # @option opts [String] :user_id 
     # @option opts [String] :access_token_provider_target 
-    # @return [ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo]
-    def com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider(opts = {})
-      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider_with_http_info(opts)
+    # @return [ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo]
+    def com_adobe_granite_distribution_core_impl_transport_access_token_distribu(opts = {})
+      data, _status_code, _headers = com_adobe_granite_distribution_core_impl_transport_access_token_distribu_with_http_info(opts)
       data
     end
 
@@ -19150,10 +19150,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :service_name 
     # @option opts [String] :user_id 
     # @option opts [String] :access_token_provider_target 
-    # @return [Array<(ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo data, response status code and response headers
-    def com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo, Integer, Hash)>] ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo data, response status code and response headers
+    def com_adobe_granite_distribution_core_impl_transport_access_token_distribu_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_distribution_core_impl_transport_access_token_distribu ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider'
@@ -19183,7 +19183,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -19199,7 +19199,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_distribution_core_impl_transport_access_token_distribu\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -20383,9 +20383,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :jaas_realm_name 
     # @option opts [Integer] :jaas_ranking 
     # @option opts [Boolean] :oauth_offline_validation 
-    # @return [ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo]
-    def com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler(opts = {})
-      data, _status_code, _headers = com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler_with_http_info(opts)
+    # @return [ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo]
+    def com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han(opts = {})
+      data, _status_code, _headers = com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han_with_http_info(opts)
       data
     end
 
@@ -20401,10 +20401,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :jaas_realm_name 
     # @option opts [Integer] :jaas_ranking 
     # @option opts [Boolean] :oauth_offline_validation 
-    # @return [Array<(ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo, Integer, Hash)>] ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo data, response status code and response headers
-    def com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo, Integer, Hash)>] ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo data, response status code and response headers
+    def com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler'
@@ -20435,7 +20435,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -20451,7 +20451,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -21142,9 +21142,9 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :default_transport_replication_synchronous 
     # @option opts [Boolean] :default_transport_contentpackage 
     # @option opts [Boolean] :offloading_transporter_default_enabled 
-    # @return [ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo]
-    def com_adobe_granite_offloading_impl_transporter_offloading_default_transporter(opts = {})
-      data, _status_code, _headers = com_adobe_granite_offloading_impl_transporter_offloading_default_transporter_with_http_info(opts)
+    # @return [ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo]
+    def com_adobe_granite_offloading_impl_transporter_offloading_default_transpo(opts = {})
+      data, _status_code, _headers = com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_with_http_info(opts)
       data
     end
 
@@ -21162,10 +21162,10 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :default_transport_replication_synchronous 
     # @option opts [Boolean] :default_transport_contentpackage 
     # @option opts [Boolean] :offloading_transporter_default_enabled 
-    # @return [Array<(ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo, Integer, Hash)>] ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo data, response status code and response headers
-    def com_adobe_granite_offloading_impl_transporter_offloading_default_transporter_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo, Integer, Hash)>] ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo data, response status code and response headers
+    def com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_offloading_impl_transporter_offloading_default_transporter ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_offloading_impl_transporter_offloading_default_transpo ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter'
@@ -21198,7 +21198,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -21214,7 +21214,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_offloading_impl_transporter_offloading_default_transporter\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_offloading_impl_transporter_offloading_default_transpo\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -21835,9 +21835,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo]
-    def com_adobe_granite_replication_hc_impl_replication_transport_users_health_check(opts = {})
-      data, _status_code, _headers = com_adobe_granite_replication_hc_impl_replication_transport_users_health_check_with_http_info(opts)
+    # @return [ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo]
+    def com_adobe_granite_replication_hc_impl_replication_transport_users_health_c(opts = {})
+      data, _status_code, _headers = com_adobe_granite_replication_hc_impl_replication_transport_users_health_c_with_http_info(opts)
       data
     end
 
@@ -21849,10 +21849,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [Array<(ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo, Integer, Hash)>] ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo data, response status code and response headers
-    def com_adobe_granite_replication_hc_impl_replication_transport_users_health_check_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo, Integer, Hash)>] ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo data, response status code and response headers
+    def com_adobe_granite_replication_hc_impl_replication_transport_users_health_c_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_replication_hc_impl_replication_transport_users_health_check ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_replication_hc_impl_replication_transport_users_health_c ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck'
@@ -21879,7 +21879,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -21895,7 +21895,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_replication_hc_impl_replication_transport_users_health_check\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_replication_hc_impl_replication_transport_users_health_c\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -21982,9 +21982,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
     # @option opts [Array<String>] :exclude_search_path 
-    # @return [ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo]
-    def com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check(opts = {})
-      data, _status_code, _headers = com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check_with_http_info(opts)
+    # @return [ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo]
+    def com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c(opts = {})
+      data, _status_code, _headers = com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c_with_http_info(opts)
       data
     end
 
@@ -21997,10 +21997,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
     # @option opts [Array<String>] :exclude_search_path 
-    # @return [Array<(ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo, Integer, Hash)>] ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo data, response status code and response headers
-    def com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo, Integer, Hash)>] ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo data, response status code and response headers
+    def com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck'
@@ -22028,7 +22028,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -22044,7 +22044,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -22130,9 +22130,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo]
-    def com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check(opts = {})
-      data, _status_code, _headers = com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check_with_http_info(opts)
+    # @return [ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo]
+    def com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che(opts = {})
+      data, _status_code, _headers = com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che_with_http_info(opts)
       data
     end
 
@@ -22144,10 +22144,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [Array<(ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo, Integer, Hash)>] ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo data, response status code and response headers
-    def com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo, Integer, Hash)>] ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo data, response status code and response headers
+    def com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck'
@@ -22174,7 +22174,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -22190,7 +22190,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -22622,9 +22622,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo]
-    def com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl(opts = {})
-      data, _status_code, _headers = com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl_with_http_info(opts)
+    # @return [ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo]
+    def com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im(opts = {})
+      data, _status_code, _headers = com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im_with_http_info(opts)
       data
     end
 
@@ -22636,10 +22636,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [Array<(ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo, Integer, Hash)>] ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo data, response status code and response headers
-    def com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo, Integer, Hash)>] ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo data, response status code and response headers
+    def com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl'
@@ -22666,7 +22666,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -22682,7 +22682,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -23069,9 +23069,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo]
-    def com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet(opts = {})
-      data, _status_code, _headers = com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet_with_http_info(opts)
+    # @return [ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo]
+    def com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s(opts = {})
+      data, _status_code, _headers = com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s_with_http_info(opts)
       data
     end
 
@@ -23083,10 +23083,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :hc_tags 
-    # @return [Array<(ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo, Integer, Hash)>] ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo data, response status code and response headers
-    def com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo, Integer, Hash)>] ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo data, response status code and response headers
+    def com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet'
@@ -23113,7 +23113,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -23129,7 +23129,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -23617,9 +23617,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :adapter_condition 
     # @option opts [Array<String>] :taskmanager_admingroups 
-    # @return [ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo]
-    def com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory(opts = {})
-      data, _status_code, _headers = com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory_with_http_info(opts)
+    # @return [ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo]
+    def com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor(opts = {})
+      data, _status_code, _headers = com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor_with_http_info(opts)
       data
     end
 
@@ -23632,10 +23632,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :adapter_condition 
     # @option opts [Array<String>] :taskmanager_admingroups 
-    # @return [Array<(ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo, Integer, Hash)>] ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo data, response status code and response headers
-    def com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo, Integer, Hash)>] ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo data, response status code and response headers
+    def com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory'
@@ -23663,7 +23663,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -23679,7 +23679,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -23797,9 +23797,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :category_map_location 
     # @option opts [Integer] :retry_attempts 
     # @option opts [Integer] :timeout_count 
-    # @return [ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo]
-    def com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl(opts = {})
-      data, _status_code, _headers = com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl_with_http_info(opts)
+    # @return [ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo]
+    def com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl(opts = {})
+      data, _status_code, _headers = com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl_with_http_info(opts)
       data
     end
 
@@ -23819,10 +23819,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :category_map_location 
     # @option opts [Integer] :retry_attempts 
     # @option opts [Integer] :timeout_count 
-    # @return [Array<(ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo, Integer, Hash)>] ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo data, response status code and response headers
-    def com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo, Integer, Hash)>] ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo data, response status code and response headers
+    def com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl'
@@ -23857,7 +23857,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -23873,7 +23873,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -24466,9 +24466,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :job_topics 
-    # @return [ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo]
-    def com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer(opts = {})
-      data, _status_code, _headers = com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer_with_http_info(opts)
+    # @return [ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo]
+    def com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum(opts = {})
+      data, _status_code, _headers = com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum_with_http_info(opts)
       data
     end
 
@@ -24480,10 +24480,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :job_topics 
-    # @return [Array<(ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo, Integer, Hash)>] ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo data, response status code and response headers
-    def com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer_with_http_info(opts = {})
+    # @return [Array<(ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo, Integer, Hash)>] ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo data, response status code and response headers
+    def com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer'
@@ -24510,7 +24510,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo' 
+      return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -24526,7 +24526,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -25040,9 +25040,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :communities_integration_livefyre_sling_event_filter 
-    # @return [ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo]
-    def com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet(opts = {})
-      data, _status_code, _headers = com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet_with_http_info(opts)
+    # @return [ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo]
+    def com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s(opts = {})
+      data, _status_code, _headers = com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s_with_http_info(opts)
       data
     end
 
@@ -25054,10 +25054,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :communities_integration_livefyre_sling_event_filter 
-    # @return [Array<(ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo, Integer, Hash)>] ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo data, response status code and response headers
-    def com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet_with_http_info(opts = {})
+    # @return [Array<(ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo, Integer, Hash)>] ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo data, response status code and response headers
+    def com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet'
@@ -25084,7 +25084,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo' 
+      return_type = opts[:return_type] || 'ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -25100,7 +25100,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -25463,9 +25463,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :allowed_paths 
     # @option opts [Integer] :cq_analytics_saint_exporter_pagesize 
-    # @return [ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo]
-    def com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter(opts = {})
-      data, _status_code, _headers = com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter_with_http_info(opts)
+    # @return [ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo]
+    def com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte(opts = {})
+      data, _status_code, _headers = com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte_with_http_info(opts)
       data
     end
 
@@ -25478,10 +25478,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :allowed_paths 
     # @option opts [Integer] :cq_analytics_saint_exporter_pagesize 
-    # @return [Array<(ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo, Integer, Hash)>] ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo data, response status code and response headers
-    def com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter_with_http_info(opts = {})
+    # @return [Array<(ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo, Integer, Hash)>] ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo data, response status code and response headers
+    def com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter'
@@ -25509,7 +25509,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo' 
+      return_type = opts[:return_type] || 'ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -25525,7 +25525,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -26630,9 +26630,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :codeupgradetasks 
     # @option opts [Array<String>] :codeupgradetaskfilters 
-    # @return [ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo]
-    def com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker(opts = {})
-      data, _status_code, _headers = com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker_with_http_info(opts)
+    # @return [ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo]
+    def com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke(opts = {})
+      data, _status_code, _headers = com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke_with_http_info(opts)
       data
     end
 
@@ -26645,10 +26645,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :codeupgradetasks 
     # @option opts [Array<String>] :codeupgradetaskfilters 
-    # @return [Array<(ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo, Integer, Hash)>] ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo data, response status code and response headers
-    def com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker_with_http_info(opts = {})
+    # @return [Array<(ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo, Integer, Hash)>] ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo data, response status code and response headers
+    def com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker'
@@ -26676,7 +26676,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo' 
+      return_type = opts[:return_type] || 'ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -26692,7 +26692,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -27993,9 +27993,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :is_enabled 
-    # @return [ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo]
-    def com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag(opts = {})
-      data, _status_code, _headers = com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag_with_http_info(opts)
+    # @return [ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo]
+    def com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat(opts = {})
+      data, _status_code, _headers = com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat_with_http_info(opts)
       data
     end
 
@@ -28007,10 +28007,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :is_enabled 
-    # @return [Array<(ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo, Integer, Hash)>] ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo data, response status code and response headers
-    def com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag_with_http_info(opts = {})
+    # @return [Array<(ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo, Integer, Hash)>] ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo data, response status code and response headers
+    def com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag'
@@ -28037,7 +28037,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo' 
+      return_type = opts[:return_type] || 'ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -28053,7 +28053,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -28684,9 +28684,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :operation 
     # @option opts [Boolean] :email_enabled 
-    # @return [ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo]
-    def com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service(opts = {})
-      data, _status_code, _headers = com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service_with_http_info(opts)
+    # @return [ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo]
+    def com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config(opts = {})
+      data, _status_code, _headers = com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_with_http_info(opts)
       data
     end
 
@@ -28699,10 +28699,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :operation 
     # @option opts [Boolean] :email_enabled 
-    # @return [Array<(ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo, Integer, Hash)>] ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo data, response status code and response headers
-    def com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service_with_http_info(opts = {})
+    # @return [Array<(ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo, Integer, Hash)>] ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo data, response status code and response headers
+    def com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService'
@@ -28730,7 +28730,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo' 
+      return_type = opts[:return_type] || 'ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -28746,7 +28746,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -28762,9 +28762,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :operation_icon 
     # @option opts [String] :topic_name 
     # @option opts [Boolean] :email_enabled 
-    # @return [ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo]
-    def com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service(opts = {})
-      data, _status_code, _headers = com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service_with_http_info(opts)
+    # @return [ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo]
+    def com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config(opts = {})
+      data, _status_code, _headers = com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_with_http_info(opts)
       data
     end
 
@@ -28779,10 +28779,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :operation_icon 
     # @option opts [String] :topic_name 
     # @option opts [Boolean] :email_enabled 
-    # @return [Array<(ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo, Integer, Hash)>] ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo data, response status code and response headers
-    def com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service_with_http_info(opts = {})
+    # @return [Array<(ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo, Integer, Hash)>] ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo data, response status code and response headers
+    def com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService'
@@ -28812,7 +28812,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo' 
+      return_type = opts[:return_type] || 'ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -28828,7 +28828,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -29225,9 +29225,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :process_label 
     # @option opts [Boolean] :notify_on_complete 
-    # @return [ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo]
-    def com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process(opts = {})
-      data, _status_code, _headers = com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process_with_http_info(opts)
+    # @return [ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo]
+    def com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr(opts = {})
+      data, _status_code, _headers = com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr_with_http_info(opts)
       data
     end
 
@@ -29240,10 +29240,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :process_label 
     # @option opts [Boolean] :notify_on_complete 
-    # @return [Array<(ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo, Integer, Hash)>] ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo data, response status code and response headers
-    def com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process_with_http_info(opts = {})
+    # @return [Array<(ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo, Integer, Hash)>] ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo data, response status code and response headers
+    def com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess'
@@ -29271,7 +29271,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo' 
+      return_type = opts[:return_type] || 'ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -29287,7 +29287,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -32069,9 +32069,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :delete_zip_file 
-    # @return [ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo]
-    def com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process(opts = {})
-      data, _status_code, _headers = com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process_with_http_info(opts)
+    # @return [ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo]
+    def com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro(opts = {})
+      data, _status_code, _headers = com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro_with_http_info(opts)
       data
     end
 
@@ -32083,10 +32083,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :delete_zip_file 
-    # @return [Array<(ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo, Integer, Hash)>] ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo data, response status code and response headers
-    def com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process_with_http_info(opts = {})
+    # @return [Array<(ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo, Integer, Hash)>] ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo data, response status code and response headers
+    def com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess'
@@ -32113,7 +32113,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo' 
+      return_type = opts[:return_type] || 'ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -32129,7 +32129,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -32142,9 +32142,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled 
-    # @return [ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo]
-    def com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener(opts = {})
-      data, _status_code, _headers = com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener_with_http_info(opts)
+    # @return [ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo]
+    def com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even(opts = {})
+      data, _status_code, _headers = com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even_with_http_info(opts)
       data
     end
 
@@ -32156,10 +32156,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled 
-    # @return [Array<(ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo, Integer, Hash)>] ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo data, response status code and response headers
-    def com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener_with_http_info(opts = {})
+    # @return [Array<(ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo, Integer, Hash)>] ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo data, response status code and response headers
+    def com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener'
@@ -32186,7 +32186,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo' 
+      return_type = opts[:return_type] || 'ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -32202,7 +32202,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -33216,9 +33216,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :get_cache_expiration_unit 
     # @option opts [Integer] :get_cache_expiration_value 
-    # @return [ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo]
-    def com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl(opts = {})
-      data, _status_code, _headers = com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl_with_http_info(opts)
+    # @return [ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo]
+    def com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser(opts = {})
+      data, _status_code, _headers = com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_with_http_info(opts)
       data
     end
 
@@ -33231,10 +33231,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :get_cache_expiration_unit 
     # @option opts [Integer] :get_cache_expiration_value 
-    # @return [Array<(ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo, Integer, Hash)>] ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo data, response status code and response headers
-    def com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl_with_http_info(opts = {})
+    # @return [Array<(ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo, Integer, Hash)>] ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo data, response status code and response headers
+    def com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl'
@@ -33262,7 +33262,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo' 
+      return_type = opts[:return_type] || 'ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -33278,7 +33278,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -33293,9 +33293,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [String] :locale 
     # @option opts [String] :ims_config 
-    # @return [ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo]
-    def com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl(opts = {})
-      data, _status_code, _headers = com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl_with_http_info(opts)
+    # @return [ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo]
+    def com_day_cq_dam_stock_integration_impl_configuration_stock_configuration(opts = {})
+      data, _status_code, _headers = com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_with_http_info(opts)
       data
     end
 
@@ -33309,10 +33309,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [String] :locale 
     # @option opts [String] :ims_config 
-    # @return [Array<(ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo, Integer, Hash)>] ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo data, response status code and response headers
-    def com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl_with_http_info(opts = {})
+    # @return [Array<(ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo, Integer, Hash)>] ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo data, response status code and response headers
+    def com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_dam_stock_integration_impl_configuration_stock_configuration ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl'
@@ -33341,7 +33341,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo' 
+      return_type = opts[:return_type] || 'ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -33357,7 +33357,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_dam_stock_integration_impl_configuration_stock_configuration\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -34308,9 +34308,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo]
-    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo]
+    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen(opts = {})
+      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen_with_http_info(opts)
       data
     end
 
@@ -34324,10 +34324,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo data, response status code and response headers
+    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory'
@@ -34356,7 +34356,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -34372,7 +34372,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -34387,9 +34387,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo]
-    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo]
+    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug(opts = {})
+      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug_with_http_info(opts)
       data
     end
 
@@ -34403,10 +34403,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo data, response status code and response headers
+    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory'
@@ -34435,7 +34435,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -34451,7 +34451,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -34465,9 +34465,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo]
-    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo]
+    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component(opts = {})
+      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_with_http_info(opts)
       data
     end
 
@@ -34480,10 +34480,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo data, response status code and response headers
+    def com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory'
@@ -34511,7 +34511,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -34527,7 +34527,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -34541,9 +34541,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo]
-    def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo]
+    def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha(opts = {})
+      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha_with_http_info(opts)
       data
     end
 
@@ -34556,10 +34556,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo data, response status code and response headers
+    def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory'
@@ -34587,7 +34587,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -34603,7 +34603,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -34618,9 +34618,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo]
-    def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo]
+    def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h(opts = {})
+      data, _status_code, _headers = com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h_with_http_info(opts)
       data
     end
 
@@ -34634,10 +34634,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo, Integer, Hash)>] ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo data, response status code and response headers
+    def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory'
@@ -34666,7 +34666,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -34682,7 +34682,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -35402,9 +35402,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :preserve_uuid_nodetypes 
     # @option opts [Array<String>] :preserve_uuid_subtrees 
     # @option opts [Boolean] :auto_commit 
-    # @return [ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo]
-    def com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service(opts = {})
-      data, _status_code, _headers = com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service_with_http_info(opts)
+    # @return [ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo]
+    def com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov(opts = {})
+      data, _status_code, _headers = com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov_with_http_info(opts)
       data
     end
 
@@ -35424,10 +35424,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :preserve_uuid_nodetypes 
     # @option opts [Array<String>] :preserve_uuid_subtrees 
     # @option opts [Boolean] :auto_commit 
-    # @return [Array<(ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo, Integer, Hash)>] ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo data, response status code and response headers
-    def com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service_with_http_info(opts = {})
+    # @return [Array<(ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo, Integer, Hash)>] ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo data, response status code and response headers
+    def com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService'
@@ -35462,7 +35462,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo' 
+      return_type = opts[:return_type] || 'ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -35478,7 +35478,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -37386,9 +37386,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :cq_contentsync_pathrewritertransformer_attribute_pattern 
     # @option opts [String] :cq_contentsync_pathrewritertransformer_clientlibrary_pattern 
     # @option opts [String] :cq_contentsync_pathrewritertransformer_clientlibrary_replace 
-    # @return [ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo]
-    def com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory_with_http_info(opts)
+    # @return [ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo]
+    def com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_with_http_info(opts)
       data
     end
 
@@ -37405,10 +37405,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :cq_contentsync_pathrewritertransformer_attribute_pattern 
     # @option opts [String] :cq_contentsync_pathrewritertransformer_clientlibrary_pattern 
     # @option opts [String] :cq_contentsync_pathrewritertransformer_clientlibrary_replace 
-    # @return [Array<(ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo, Integer, Hash)>] ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo, Integer, Hash)>] ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo data, response status code and response headers
+    def com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory'
@@ -37440,7 +37440,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -37456,7 +37456,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -38472,9 +38472,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :item_resource_types 
-    # @return [ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo]
-    def com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler_with_http_info(opts)
+    # @return [ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo]
+    def com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie_with_http_info(opts)
       data
     end
 
@@ -38486,10 +38486,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :item_resource_types 
-    # @return [Array<(ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo, Integer, Hash)>] ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo data, response status code and response headers
-    def com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo, Integer, Hash)>] ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo data, response status code and response headers
+    def com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler'
@@ -38516,7 +38516,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -38532,7 +38532,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40008,9 +40008,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone_with_http_info(opts)
       data
     end
 
@@ -40023,10 +40023,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory'
@@ -40054,7 +40054,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40070,7 +40070,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40084,9 +40084,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon_with_http_info(opts)
       data
     end
 
@@ -40099,10 +40099,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory'
@@ -40130,7 +40130,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40146,7 +40146,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40160,9 +40160,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han_with_http_info(opts)
       data
     end
 
@@ -40175,10 +40175,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory'
@@ -40206,7 +40206,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40222,7 +40222,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40236,9 +40236,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle_with_http_info(opts)
       data
     end
 
@@ -40251,10 +40251,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory'
@@ -40282,7 +40282,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40298,7 +40298,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40312,9 +40312,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand_with_http_info(opts)
       data
     end
 
@@ -40327,10 +40327,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory'
@@ -40358,7 +40358,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40374,7 +40374,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40389,9 +40389,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_with_http_info(opts)
       data
     end
 
@@ -40405,10 +40405,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory'
@@ -40437,7 +40437,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40453,7 +40453,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40467,9 +40467,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_with_http_info(opts)
       data
     end
 
@@ -40482,10 +40482,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory'
@@ -40513,7 +40513,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40529,7 +40529,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40543,9 +40543,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t_with_http_info(opts)
       data
     end
 
@@ -40558,10 +40558,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory'
@@ -40589,7 +40589,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40605,7 +40605,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40619,9 +40619,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle_with_http_info(opts)
       data
     end
 
@@ -40634,10 +40634,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory'
@@ -40665,7 +40665,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40681,7 +40681,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40695,9 +40695,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle_with_http_info(opts)
       data
     end
 
@@ -40710,10 +40710,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory'
@@ -40741,7 +40741,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40757,7 +40757,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40771,9 +40771,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h_with_http_info(opts)
       data
     end
 
@@ -40786,10 +40786,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory'
@@ -40817,7 +40817,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40833,7 +40833,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40848,9 +40848,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone_with_http_info(opts)
       data
     end
 
@@ -40864,10 +40864,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory'
@@ -40896,7 +40896,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40912,7 +40912,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -40926,9 +40926,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand_with_http_info(opts)
       data
     end
 
@@ -40941,10 +40941,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory'
@@ -40972,7 +40972,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -40988,7 +40988,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -41002,9 +41002,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl_with_http_info(opts)
       data
     end
 
@@ -41017,10 +41017,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory'
@@ -41048,7 +41048,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -41064,7 +41064,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -41079,9 +41079,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_with_http_info(opts)
       data
     end
 
@@ -41095,10 +41095,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory'
@@ -41127,7 +41127,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -41143,7 +41143,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -41158,9 +41158,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen_with_http_info(opts)
       data
     end
 
@@ -41174,10 +41174,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
     # @option opts [String] :component_resource_type 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory'
@@ -41206,7 +41206,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -41222,7 +41222,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -41236,9 +41236,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo]
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory_with_http_info(opts)
+    # @return [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo]
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl_with_http_info(opts)
       data
     end
 
@@ -41251,10 +41251,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
     # @option opts [String] :tagpattern 
-    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo data, response status code and response headers
-    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo, Integer, Hash)>] ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo data, response status code and response headers
+    def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory'
@@ -41282,7 +41282,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -41298,7 +41298,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -41938,9 +41938,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :default_attachment_type_blacklist 
     # @option opts [Array<String>] :baseline_attachment_type_blacklist 
-    # @return [ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo]
-    def com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service(opts = {})
-      data, _status_code, _headers = com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service_with_http_info(opts)
+    # @return [ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo]
+    def com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist(opts = {})
+      data, _status_code, _headers = com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_with_http_info(opts)
       data
     end
 
@@ -41953,10 +41953,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :default_attachment_type_blacklist 
     # @option opts [Array<String>] :baseline_attachment_type_blacklist 
-    # @return [Array<(ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo, Integer, Hash)>] ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo data, response status code and response headers
-    def com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service_with_http_info(opts = {})
+    # @return [Array<(ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo, Integer, Hash)>] ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo data, response status code and response headers
+    def com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService'
@@ -41984,7 +41984,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo' 
+      return_type = opts[:return_type] || 'ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -42000,7 +42000,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -45649,9 +45649,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :felix_memoryusage_dump_threshold 
     # @option opts [Integer] :felix_memoryusage_dump_interval 
     # @option opts [String] :felix_memoryusage_dump_location 
-    # @return [OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo]
-    def org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator(opts = {})
-      data, _status_code, _headers = org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator_with_http_info(opts)
+    # @return [OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo]
+    def org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co(opts = {})
+      data, _status_code, _headers = org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co_with_http_info(opts)
       data
     end
 
@@ -45665,10 +45665,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :felix_memoryusage_dump_threshold 
     # @option opts [Integer] :felix_memoryusage_dump_interval 
     # @option opts [String] :felix_memoryusage_dump_location 
-    # @return [Array<(OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo, Integer, Hash)>] OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo data, response status code and response headers
-    def org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator_with_http_info(opts = {})
+    # @return [Array<(OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo, Integer, Hash)>] OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo data, response status code and response headers
+    def org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator'
@@ -45697,7 +45697,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo' 
+      return_type = opts[:return_type] || 'OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -45713,7 +45713,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -45814,9 +45814,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :dir 
-    # @return [OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo]
-    def org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo]
+    def org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_with_http_info(opts)
       data
     end
 
@@ -45828,10 +45828,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :dir 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService'
@@ -45858,7 +45858,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -45874,7 +45874,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46120,9 +46120,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :persistent_cache_includes 
-    # @return [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo]
-    def org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo]
+    def org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre_with_http_info(opts)
       data
     end
 
@@ -46134,10 +46134,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :persistent_cache_includes 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset'
@@ -46164,7 +46164,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46180,7 +46180,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46195,9 +46195,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :included_paths 
     # @option opts [Boolean] :enable_async_observer 
     # @option opts [Integer] :observer_queue_size 
-    # @return [OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo]
-    def org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo]
+    def org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac_with_http_info(opts)
       data
     end
 
@@ -46211,10 +46211,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :included_paths 
     # @option opts [Boolean] :enable_async_observer 
     # @option opts [Integer] :observer_queue_size 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService'
@@ -46243,7 +46243,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46259,7 +46259,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46369,9 +46369,9 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :deleted_blobs_collection_enabled 
     # @option opts [Integer] :prop_index_cleaner_interval_in_secs 
     # @option opts [Boolean] :enable_single_blob_index_files 
-    # @return [OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo]
-    def org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo]
+    def org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv_with_http_info(opts)
       data
     end
 
@@ -46398,10 +46398,10 @@ module SwaggerAemOsgiClient
     # @option opts [Boolean] :deleted_blobs_collection_enabled 
     # @option opts [Integer] :prop_index_cleaner_interval_in_secs 
     # @option opts [Boolean] :enable_single_blob_index_files 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService'
@@ -46443,7 +46443,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46459,7 +46459,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46473,9 +46473,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :solr_home_path 
     # @option opts [String] :solr_core_name 
-    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo]
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo]
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co_with_http_info(opts)
       data
     end
 
@@ -46488,10 +46488,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :solr_home_path 
     # @option opts [String] :solr_core_name 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider'
@@ -46519,7 +46519,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46535,7 +46535,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46548,9 +46548,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
-    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo]
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo]
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_with_http_info(opts)
       data
     end
 
@@ -46562,10 +46562,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService'
@@ -46592,7 +46592,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46608,7 +46608,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46637,9 +46637,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :type_mappings 
     # @option opts [Array<String>] :property_mappings 
     # @option opts [Boolean] :collapse_jcrcontent_nodes 
-    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo]
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo]
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_with_http_info(opts)
       data
     end
 
@@ -46667,10 +46667,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :type_mappings 
     # @option opts [Array<String>] :property_mappings 
     # @option opts [Boolean] :collapse_jcrcontent_nodes 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService'
@@ -46713,7 +46713,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46729,7 +46729,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46749,9 +46749,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :solr_shards_no 
     # @option opts [Integer] :solr_replication_factor 
     # @option opts [String] :solr_conf_dir 
-    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo]
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo]
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf_with_http_info(opts)
       data
     end
 
@@ -46770,10 +46770,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :solr_shards_no 
     # @option opts [Integer] :solr_replication_factor 
     # @option opts [String] :solr_conf_dir 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider'
@@ -46807,7 +46807,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46823,7 +46823,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46836,9 +46836,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :query_aggregation 
-    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo]
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo]
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid_with_http_info(opts)
       data
     end
 
@@ -46850,10 +46850,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :query_aggregation 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService'
@@ -46880,7 +46880,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46896,7 +46896,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -46909,9 +46909,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :server_type 
-    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo]
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo]
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se_with_http_info(opts)
       data
     end
 
@@ -46923,10 +46923,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :server_type 
-    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo, Integer, Hash)>] OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService'
@@ -46953,7 +46953,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -46969,7 +46969,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -47217,9 +47217,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :org_apache_jackrabbit_oak_authentication_app_name 
     # @option opts [String] :org_apache_jackrabbit_oak_authentication_config_spi_name 
-    # @return [OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo]
-    def org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo]
+    def org_apache_jackrabbit_oak_security_authentication_authentication_config(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_security_authentication_authentication_config_with_http_info(opts)
       data
     end
 
@@ -47232,10 +47232,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :org_apache_jackrabbit_oak_authentication_app_name 
     # @option opts [String] :org_apache_jackrabbit_oak_authentication_config_spi_name 
-    # @return [Array<(OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_security_authentication_authentication_config_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_authentication_authentication_config ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl'
@@ -47263,7 +47263,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -47279,7 +47279,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_authentication_authentication_config\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -47317,9 +47317,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :group_member_attribute 
     # @option opts [Boolean] :use_uid_for_ext_id 
     # @option opts [Array<String>] :customattributes 
-    # @return [OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo]
-    def org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo]
+    def org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi_with_http_info(opts)
       data
     end
 
@@ -47356,10 +47356,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :group_member_attribute 
     # @option opts [Boolean] :use_uid_for_ext_id 
     # @option opts [Array<String>] :customattributes 
-    # @return [Array<(OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider'
@@ -47411,7 +47411,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -47427,7 +47427,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -47446,9 +47446,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :password_hash_algorithm 
     # @option opts [Integer] :password_hash_iterations 
     # @option opts [Integer] :password_salt_size 
-    # @return [OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo]
-    def org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo]
+    def org_apache_jackrabbit_oak_security_authentication_token_token_configura(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_security_authentication_token_token_configura_with_http_info(opts)
       data
     end
 
@@ -47466,10 +47466,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :password_hash_algorithm 
     # @option opts [Integer] :password_hash_iterations 
     # @option opts [Integer] :password_salt_size 
-    # @return [Array<(OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_security_authentication_token_token_configura_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_authentication_token_token_configura ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl'
@@ -47502,7 +47502,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -47518,7 +47518,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_authentication_token_token_configura\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -47535,9 +47535,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :read_paths 
     # @option opts [Array<String>] :administrative_principals 
     # @option opts [Integer] :configuration_ranking 
-    # @return [OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo]
-    def org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo]
+    def org_apache_jackrabbit_oak_security_authorization_authorization_configur(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_security_authorization_authorization_configur_with_http_info(opts)
       data
     end
 
@@ -47553,10 +47553,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :read_paths 
     # @option opts [Array<String>] :administrative_principals 
     # @option opts [Integer] :configuration_ranking 
-    # @return [Array<(OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_security_authorization_authorization_configur_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_authorization_authorization_configur ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl'
@@ -47587,7 +47587,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -47603,7 +47603,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_authorization_authorization_configur\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -47617,9 +47617,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :required_service_pids 
     # @option opts [String] :authorization_composition_type 
-    # @return [OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo]
-    def org_apache_jackrabbit_oak_security_internal_security_provider_registration(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_security_internal_security_provider_registration_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo]
+    def org_apache_jackrabbit_oak_security_internal_security_provider_registrati(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_security_internal_security_provider_registrati_with_http_info(opts)
       data
     end
 
@@ -47632,10 +47632,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :required_service_pids 
     # @option opts [String] :authorization_composition_type 
-    # @return [Array<(OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_security_internal_security_provider_registration_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo, Integer, Hash)>] OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_security_internal_security_provider_registrati_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_internal_security_provider_registration ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_security_internal_security_provider_registrati ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration'
@@ -47663,7 +47663,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -47679,7 +47679,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_internal_security_provider_registration\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_security_internal_security_provider_registrati\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -48444,9 +48444,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :group_property_mapping 
     # @option opts [String] :group_path_prefix 
     # @option opts [Boolean] :enable_rfc7613_usercase_mapped_profile 
-    # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo]
-    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo]
+    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de_with_http_info(opts)
       data
     end
 
@@ -48471,10 +48471,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :group_property_mapping 
     # @option opts [String] :group_path_prefix 
     # @option opts [Boolean] :enable_rfc7613_usercase_mapped_profile 
-    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler'
@@ -48514,7 +48514,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -48530,7 +48530,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -48547,9 +48547,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :jaas_realm_name 
     # @option opts [String] :idp_name 
     # @option opts [String] :sync_handler_name 
-    # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo]
-    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo]
+    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex_with_http_info(opts)
       data
     end
 
@@ -48565,10 +48565,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :jaas_realm_name 
     # @option opts [String] :idp_name 
     # @option opts [String] :sync_handler_name 
-    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory'
@@ -48599,7 +48599,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -48615,7 +48615,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -48628,9 +48628,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :protect_external_id 
-    # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo]
-    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo]
+    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr_with_http_info(opts)
       data
     end
 
@@ -48642,10 +48642,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :protect_external_id 
-    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration'
@@ -48672,7 +48672,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -48688,7 +48688,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -48703,9 +48703,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :cug_supported_paths 
     # @option opts [Boolean] :cug_enabled 
     # @option opts [Integer] :configuration_ranking 
-    # @return [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo]
-    def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo]
+    def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi_with_http_info(opts)
       data
     end
 
@@ -48719,10 +48719,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :cug_supported_paths 
     # @option opts [Boolean] :cug_enabled 
     # @option opts [Integer] :configuration_ranking 
-    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration'
@@ -48751,7 +48751,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -48767,7 +48767,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -48780,9 +48780,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :principal_names 
-    # @return [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo]
-    def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo]
+    def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu_with_http_info(opts)
       data
     end
 
@@ -48794,10 +48794,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :principal_names 
-    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl'
@@ -48824,7 +48824,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -48840,7 +48840,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -48856,9 +48856,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :user_privilege_names 
     # @option opts [Array<String>] :group_privilege_names 
     # @option opts [String] :constraint 
-    # @return [OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo]
-    def org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider(opts = {})
-      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider_with_http_info(opts)
+    # @return [OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo]
+    def org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable(opts = {})
+      data, _status_code, _headers = org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_with_http_info(opts)
       data
     end
 
@@ -48873,10 +48873,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :user_privilege_names 
     # @option opts [Array<String>] :group_privilege_names 
     # @option opts [String] :constraint 
-    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo data, response status code and response headers
-    def org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo, Integer, Hash)>] OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo data, response status code and response headers
+    def org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider'
@@ -48906,7 +48906,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -48922,7 +48922,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -49304,9 +49304,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
     # @option opts [Array<String>] :config_property_inheritance_property_names 
-    # @return [OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo]
-    def org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy(opts = {})
-      data, _status_code, _headers = org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy_with_http_info(opts)
+    # @return [OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo]
+    def org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra(opts = {})
+      data, _status_code, _headers = org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra_with_http_info(opts)
       data
     end
 
@@ -49319,10 +49319,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
     # @option opts [Array<String>] :config_property_inheritance_property_names 
-    # @return [Array<(OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo, Integer, Hash)>] OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo data, response status code and response headers
-    def org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo, Integer, Hash)>] OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo data, response status code and response headers
+    def org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy'
@@ -49350,7 +49350,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -49366,7 +49366,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -49379,9 +49379,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
-    # @return [OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo]
-    def org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy(opts = {})
-      data, _status_code, _headers = org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy_with_http_info(opts)
+    # @return [OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo]
+    def org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra(opts = {})
+      data, _status_code, _headers = org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra_with_http_info(opts)
       data
     end
 
@@ -49393,10 +49393,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
-    # @return [Array<(OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo, Integer, Hash)>] OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo data, response status code and response headers
-    def org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo, Integer, Hash)>] OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo data, response status code and response headers
+    def org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy'
@@ -49423,7 +49423,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -49439,7 +49439,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -49455,9 +49455,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :overrides 
     # @option opts [Boolean] :enabled 
     # @option opts [Integer] :service_ranking 
-    # @return [OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo]
-    def org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider(opts = {})
-      data, _status_code, _headers = org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider_with_http_info(opts)
+    # @return [OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo]
+    def org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi(opts = {})
+      data, _status_code, _headers = org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi_with_http_info(opts)
       data
     end
 
@@ -49472,10 +49472,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :overrides 
     # @option opts [Boolean] :enabled 
     # @option opts [Integer] :service_ranking 
-    # @return [Array<(OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo, Integer, Hash)>] OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo data, response status code and response headers
-    def org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo, Integer, Hash)>] OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo data, response status code and response headers
+    def org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider'
@@ -49505,7 +49505,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -49521,7 +49521,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -49535,9 +49535,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
     # @option opts [Integer] :service_ranking 
-    # @return [OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo]
-    def org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider(opts = {})
-      data, _status_code, _headers = org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider_with_http_info(opts)
+    # @return [OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo]
+    def org_apache_sling_caconfig_impl_override_system_property_configuration_ove(opts = {})
+      data, _status_code, _headers = org_apache_sling_caconfig_impl_override_system_property_configuration_ove_with_http_info(opts)
       data
     end
 
@@ -49550,10 +49550,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :enabled 
     # @option opts [Integer] :service_ranking 
-    # @return [Array<(OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo, Integer, Hash)>] OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo data, response status code and response headers
-    def org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo, Integer, Hash)>] OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo data, response status code and response headers
+    def org_apache_sling_caconfig_impl_override_system_property_configuration_ove_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_impl_override_system_property_configuration_ove ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider'
@@ -49581,7 +49581,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -49597,7 +49597,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_impl_override_system_property_configuration_ove\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -49611,9 +49611,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :ignore_property_name_regex 
     # @option opts [Array<String>] :config_collection_properties_resource_names 
-    # @return [OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo]
-    def org_apache_sling_caconfig_management_impl_configuration_management_settings_impl(opts = {})
-      data, _status_code, _headers = org_apache_sling_caconfig_management_impl_configuration_management_settings_impl_with_http_info(opts)
+    # @return [OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo]
+    def org_apache_sling_caconfig_management_impl_configuration_management_setti(opts = {})
+      data, _status_code, _headers = org_apache_sling_caconfig_management_impl_configuration_management_setti_with_http_info(opts)
       data
     end
 
@@ -49626,10 +49626,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :ignore_property_name_regex 
     # @option opts [Array<String>] :config_collection_properties_resource_names 
-    # @return [Array<(OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo, Integer, Hash)>] OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo data, response status code and response headers
-    def org_apache_sling_caconfig_management_impl_configuration_management_settings_impl_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo, Integer, Hash)>] OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo data, response status code and response headers
+    def org_apache_sling_caconfig_management_impl_configuration_management_setti_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_management_impl_configuration_management_settings_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_management_impl_configuration_management_setti ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl'
@@ -49657,7 +49657,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -49673,7 +49673,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_management_impl_configuration_management_settings_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_management_impl_configuration_management_setti\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -49689,9 +49689,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :config_path 
     # @option opts [Array<String>] :fallback_paths 
     # @option opts [Array<String>] :config_collection_inheritance_property_names 
-    # @return [OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo]
-    def org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy(opts = {})
-      data, _status_code, _headers = org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy_with_http_info(opts)
+    # @return [OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo]
+    def org_apache_sling_caconfig_resource_impl_def_default_configuration_resour(opts = {})
+      data, _status_code, _headers = org_apache_sling_caconfig_resource_impl_def_default_configuration_resour_with_http_info(opts)
       data
     end
 
@@ -49706,10 +49706,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :config_path 
     # @option opts [Array<String>] :fallback_paths 
     # @option opts [Array<String>] :config_collection_inheritance_property_names 
-    # @return [Array<(OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo, Integer, Hash)>] OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo data, response status code and response headers
-    def org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo, Integer, Hash)>] OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo data, response status code and response headers
+    def org_apache_sling_caconfig_resource_impl_def_default_configuration_resour_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_caconfig_resource_impl_def_default_configuration_resour ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy'
@@ -49739,7 +49739,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -49755,7 +49755,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_caconfig_resource_impl_def_default_configuration_resour\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -51161,9 +51161,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :queue_provider 
     # @option opts [Boolean] :async_delivery 
     # @option opts [Integer] :http_conn_timeout 
-    # @return [OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo]
-    def org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo]
+    def org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto_with_http_info(opts)
       data
     end
 
@@ -51194,10 +51194,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :queue_provider 
     # @option opts [Boolean] :async_delivery 
     # @option opts [Integer] :http_conn_timeout 
-    # @return [Array<(OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo, Integer, Hash)>] OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo data, response status code and response headers
+    def org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory'
@@ -51243,7 +51243,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -51259,7 +51259,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -51273,9 +51273,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :jcr_privilege 
-    # @return [OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo]
-    def org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo]
+    def org_apache_sling_distribution_agent_impl_privilege_distribution_request_a(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_agent_impl_privilege_distribution_request_a_with_http_info(opts)
       data
     end
 
@@ -51288,10 +51288,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :jcr_privilege 
-    # @return [Array<(OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo, Integer, Hash)>] OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo data, response status code and response headers
+    def org_apache_sling_distribution_agent_impl_privilege_distribution_request_a_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_agent_impl_privilege_distribution_request_a ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory'
@@ -51319,7 +51319,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -51335,7 +51335,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_agent_impl_privilege_distribution_request_a\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -51467,9 +51467,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :transport_secret_provider_target 
     # @option opts [String] :package_builder_target 
     # @option opts [String] :triggers_target 
-    # @return [OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo]
-    def org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo]
+    def org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto_with_http_info(opts)
       data
     end
 
@@ -51494,10 +51494,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :transport_secret_provider_target 
     # @option opts [String] :package_builder_target 
     # @option opts [String] :triggers_target 
-    # @return [Array<(OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo, Integer, Hash)>] OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo data, response status code and response headers
+    def org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory'
@@ -51537,7 +51537,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -51553,7 +51553,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -51576,9 +51576,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :package_importer_target 
     # @option opts [String] :request_authorization_strategy_target 
     # @option opts [String] :triggers_target 
-    # @return [OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo]
-    def org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo]
+    def org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor_with_http_info(opts)
       data
     end
 
@@ -51600,10 +51600,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :package_importer_target 
     # @option opts [String] :request_authorization_strategy_target 
     # @option opts [String] :triggers_target 
-    # @return [Array<(OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo, Integer, Hash)>] OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo data, response status code and response headers
+    def org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory'
@@ -51640,7 +51640,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -51656,7 +51656,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -51878,9 +51878,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :queue 
     # @option opts [Boolean] :drop_invalid_items 
     # @option opts [String] :agent_target 
-    # @return [OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo]
-    def org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo]
+    def org_apache_sling_distribution_packaging_impl_exporter_agent_distributio(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_exporter_agent_distributio_with_http_info(opts)
       data
     end
 
@@ -51895,10 +51895,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :queue 
     # @option opts [Boolean] :drop_invalid_items 
     # @option opts [String] :agent_target 
-    # @return [Array<(OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo data, response status code and response headers
+    def org_apache_sling_distribution_packaging_impl_exporter_agent_distributio_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_exporter_agent_distributio ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory'
@@ -51928,7 +51928,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -51944,7 +51944,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_exporter_agent_distributio\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -51958,9 +51958,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :package_builder_target 
-    # @return [OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo]
-    def org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo]
+    def org_apache_sling_distribution_packaging_impl_exporter_local_distributio(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_exporter_local_distributio_with_http_info(opts)
       data
     end
 
@@ -51973,10 +51973,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :package_builder_target 
-    # @return [Array<(OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo data, response status code and response headers
+    def org_apache_sling_distribution_packaging_impl_exporter_local_distributio_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_exporter_local_distributio ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory'
@@ -52004,7 +52004,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52020,7 +52020,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_exporter_local_distributio\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52037,9 +52037,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :pull_items 
     # @option opts [String] :package_builder_target 
     # @option opts [String] :transport_secret_provider_target 
-    # @return [OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo]
-    def org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo]
+    def org_apache_sling_distribution_packaging_impl_exporter_remote_distributi(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_exporter_remote_distributi_with_http_info(opts)
       data
     end
 
@@ -52055,10 +52055,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :pull_items 
     # @option opts [String] :package_builder_target 
     # @option opts [String] :transport_secret_provider_target 
-    # @return [Array<(OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo data, response status code and response headers
+    def org_apache_sling_distribution_packaging_impl_exporter_remote_distributi_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_exporter_remote_distributi ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory'
@@ -52089,7 +52089,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52105,7 +52105,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_exporter_remote_distributi\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52119,9 +52119,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :package_builder_target 
-    # @return [OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo]
-    def org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo]
+    def org_apache_sling_distribution_packaging_impl_importer_local_distributio(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_importer_local_distributio_with_http_info(opts)
       data
     end
 
@@ -52134,10 +52134,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :package_builder_target 
-    # @return [Array<(OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo data, response status code and response headers
+    def org_apache_sling_distribution_packaging_impl_importer_local_distributio_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_importer_local_distributio ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory'
@@ -52165,7 +52165,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52181,7 +52181,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_importer_local_distributio\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52196,9 +52196,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [Array<String>] :endpoints 
     # @option opts [String] :transport_secret_provider_target 
-    # @return [OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo]
-    def org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo]
+    def org_apache_sling_distribution_packaging_impl_importer_remote_distributi(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_importer_remote_distributi_with_http_info(opts)
       data
     end
 
@@ -52212,10 +52212,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [Array<String>] :endpoints 
     # @option opts [String] :transport_secret_provider_target 
-    # @return [Array<(OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo data, response status code and response headers
+    def org_apache_sling_distribution_packaging_impl_importer_remote_distributi_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_importer_remote_distributi ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory'
@@ -52244,7 +52244,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52260,7 +52260,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_importer_remote_distributi\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52276,9 +52276,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :service_name 
     # @option opts [String] :path 
     # @option opts [String] :privilege_name 
-    # @return [OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo]
-    def org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo]
+    def org_apache_sling_distribution_packaging_impl_importer_repository_distri(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_packaging_impl_importer_repository_distri_with_http_info(opts)
       data
     end
 
@@ -52293,10 +52293,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :service_name 
     # @option opts [String] :path 
     # @option opts [String] :privilege_name 
-    # @return [Array<(OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo, Integer, Hash)>] OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo data, response status code and response headers
+    def org_apache_sling_distribution_packaging_impl_importer_repository_distri_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_packaging_impl_importer_repository_distri ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory'
@@ -52326,7 +52326,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52342,7 +52342,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_packaging_impl_importer_repository_distri\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52356,9 +52356,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :provider_roots 
     # @option opts [String] :kind 
-    # @return [OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo]
-    def org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo]
+    def org_apache_sling_distribution_resources_impl_distribution_configuration(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_resources_impl_distribution_configuration_with_http_info(opts)
       data
     end
 
@@ -52371,10 +52371,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :provider_roots 
     # @option opts [String] :kind 
-    # @return [Array<(OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo, Integer, Hash)>] OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo data, response status code and response headers
+    def org_apache_sling_distribution_resources_impl_distribution_configuration_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_resources_impl_distribution_configuration ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory'
@@ -52402,7 +52402,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52418,7 +52418,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_resources_impl_distribution_configuration\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52432,9 +52432,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :provider_roots 
     # @option opts [String] :kind 
-    # @return [OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo]
-    def org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo]
+    def org_apache_sling_distribution_resources_impl_distribution_service_resour(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_resources_impl_distribution_service_resour_with_http_info(opts)
       data
     end
 
@@ -52447,10 +52447,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :provider_roots 
     # @option opts [String] :kind 
-    # @return [Array<(OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo, Integer, Hash)>] OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo data, response status code and response headers
+    def org_apache_sling_distribution_resources_impl_distribution_service_resour_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_resources_impl_distribution_service_resour ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory'
@@ -52478,7 +52478,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52494,7 +52494,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_resources_impl_distribution_service_resour\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52518,9 +52518,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :cleanup_delay 
     # @option opts [Array<String>] :package_filters 
     # @option opts [Array<String>] :property_filters 
-    # @return [OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo]
-    def org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo]
+    def org_apache_sling_distribution_serialization_impl_distribution_package_bu(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_serialization_impl_distribution_package_bu_with_http_info(opts)
       data
     end
 
@@ -52543,10 +52543,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :cleanup_delay 
     # @option opts [Array<String>] :package_filters 
     # @option opts [Array<String>] :property_filters 
-    # @return [Array<(OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo, Integer, Hash)>] OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo data, response status code and response headers
+    def org_apache_sling_distribution_serialization_impl_distribution_package_bu_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_serialization_impl_distribution_package_bu ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory'
@@ -52584,7 +52584,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52600,7 +52600,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_serialization_impl_distribution_package_bu\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52630,9 +52630,9 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :monitoring_queue_size 
     # @option opts [Array<String>] :paths_mapping 
     # @option opts [Boolean] :strict_import 
-    # @return [OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo]
-    def org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo]
+    def org_apache_sling_distribution_serialization_impl_vlt_vault_distribution(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_with_http_info(opts)
       data
     end
 
@@ -52661,10 +52661,10 @@ module SwaggerAemOsgiClient
     # @option opts [Integer] :monitoring_queue_size 
     # @option opts [Array<String>] :paths_mapping 
     # @option opts [Boolean] :strict_import 
-    # @return [Array<(OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo, Integer, Hash)>] OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo data, response status code and response headers
+    def org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_serialization_impl_vlt_vault_distribution ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory'
@@ -52708,7 +52708,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52724,7 +52724,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_serialization_impl_vlt_vault_distribution\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52739,9 +52739,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [String] :username 
     # @option opts [String] :password 
-    # @return [OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo]
-    def org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo]
+    def org_apache_sling_distribution_transport_impl_user_credentials_distributi(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_transport_impl_user_credentials_distributi_with_http_info(opts)
       data
     end
 
@@ -52755,10 +52755,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [String] :username 
     # @option opts [String] :password 
-    # @return [Array<(OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo, Integer, Hash)>] OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo data, response status code and response headers
-    def org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo, Integer, Hash)>] OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo data, response status code and response headers
+    def org_apache_sling_distribution_transport_impl_user_credentials_distributi_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_transport_impl_user_credentials_distributi ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider'
@@ -52787,7 +52787,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52803,7 +52803,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_transport_impl_user_credentials_distributi\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52817,9 +52817,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :path 
-    # @return [OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo]
-    def org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo]
+    def org_apache_sling_distribution_trigger_impl_distribution_event_distribute(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_distribution_event_distribute_with_http_info(opts)
       data
     end
 
@@ -52832,10 +52832,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :path 
-    # @return [Array<(OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo data, response status code and response headers
+    def org_apache_sling_distribution_trigger_impl_distribution_event_distribute_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_distribution_event_distribute ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory'
@@ -52863,7 +52863,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52879,7 +52879,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_distribution_event_distribute\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52896,9 +52896,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :ignored_paths_patterns 
     # @option opts [String] :service_name 
     # @option opts [Boolean] :deep 
-    # @return [OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo]
-    def org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo]
+    def org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_with_http_info(opts)
       data
     end
 
@@ -52914,10 +52914,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :ignored_paths_patterns 
     # @option opts [String] :service_name 
     # @option opts [Boolean] :deep 
-    # @return [Array<(OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo data, response status code and response headers
+    def org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory'
@@ -52948,7 +52948,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -52964,7 +52964,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -52980,9 +52980,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :path 
     # @option opts [String] :service_name 
     # @option opts [String] :nuggets_path 
-    # @return [OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo]
-    def org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo]
+    def org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi_with_http_info(opts)
       data
     end
 
@@ -52997,10 +52997,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :path 
     # @option opts [String] :service_name 
     # @option opts [String] :nuggets_path 
-    # @return [Array<(OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo data, response status code and response headers
+    def org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory'
@@ -53030,7 +53030,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -53046,7 +53046,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -53061,9 +53061,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [String] :endpoint 
     # @option opts [String] :transport_secret_provider_target 
-    # @return [OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo]
-    def org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo]
+    def org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig_with_http_info(opts)
       data
     end
 
@@ -53077,10 +53077,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :name 
     # @option opts [String] :endpoint 
     # @option opts [String] :transport_secret_provider_target 
-    # @return [Array<(OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo data, response status code and response headers
+    def org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory'
@@ -53109,7 +53109,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -53125,7 +53125,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -53139,9 +53139,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :path 
-    # @return [OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo]
-    def org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo]
+    def org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr_with_http_info(opts)
       data
     end
 
@@ -53154,10 +53154,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [String] :name 
     # @option opts [String] :path 
-    # @return [Array<(OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo data, response status code and response headers
+    def org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory'
@@ -53185,7 +53185,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -53201,7 +53201,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -53217,9 +53217,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :path 
     # @option opts [String] :seconds 
     # @option opts [String] :service_name 
-    # @return [OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo]
-    def org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory_with_http_info(opts)
+    # @return [OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo]
+    def org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge(opts = {})
+      data, _status_code, _headers = org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge_with_http_info(opts)
       data
     end
 
@@ -53234,10 +53234,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :path 
     # @option opts [String] :seconds 
     # @option opts [String] :service_name 
-    # @return [Array<(OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo data, response status code and response headers
-    def org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo, Integer, Hash)>] OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo data, response status code and response headers
+    def org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory'
@@ -53267,7 +53267,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -53283,7 +53283,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -54250,9 +54250,9 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :users 
     # @option opts [Array<String>] :groups 
-    # @return [OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo]
-    def org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider(opts = {})
-      data, _status_code, _headers = org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider_with_http_info(opts)
+    # @return [OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo]
+    def org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w(opts = {})
+      data, _status_code, _headers = org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w_with_http_info(opts)
       data
     end
 
@@ -54265,10 +54265,10 @@ module SwaggerAemOsgiClient
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :users 
     # @option opts [Array<String>] :groups 
-    # @return [Array<(OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo, Integer, Hash)>] OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo data, response status code and response headers
-    def org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo, Integer, Hash)>] OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo data, response status code and response headers
+    def org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider'
@@ -54296,7 +54296,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -54312,7 +54312,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -56208,9 +56208,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
-    # @return [OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo]
-    def org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service(opts = {})
-      data, _status_code, _headers = org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service_with_http_info(opts)
+    # @return [OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo]
+    def org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic(opts = {})
+      data, _status_code, _headers = org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic_with_http_info(opts)
       data
     end
 
@@ -56222,10 +56222,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :service_ranking 
-    # @return [Array<(OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo, Integer, Hash)>] OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo data, response status code and response headers
-    def org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo, Integer, Hash)>] OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo data, response status code and response headers
+    def org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService'
@@ -56252,7 +56252,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -56268,7 +56268,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -56611,9 +56611,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :felix_inventory_printer_name 
     # @option opts [String] :felix_inventory_printer_title 
     # @option opts [String] :path 
-    # @return [OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo]
-    def org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory_with_http_info(opts)
+    # @return [OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo]
+    def org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto(opts = {})
+      data, _status_code, _headers = org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_with_http_info(opts)
       data
     end
 
@@ -56627,10 +56627,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :felix_inventory_printer_name 
     # @option opts [String] :felix_inventory_printer_title 
     # @option opts [String] :path 
-    # @return [Array<(OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo, Integer, Hash)>] OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo data, response status code and response headers
-    def org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo, Integer, Hash)>] OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo data, response status code and response headers
+    def org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory'
@@ -56659,7 +56659,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -56675,7 +56675,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -56916,9 +56916,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :log_stacktrace_onclose 
-    # @return [OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo]
-    def org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl(opts = {})
-      data, _status_code, _headers = org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl_with_http_info(opts)
+    # @return [OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo]
+    def org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider(opts = {})
+      data, _status_code, _headers = org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_with_http_info(opts)
       data
     end
 
@@ -56930,10 +56930,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Boolean] :log_stacktrace_onclose 
-    # @return [Array<(OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo, Integer, Hash)>] OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo data, response status code and response headers
-    def org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo, Integer, Hash)>] OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo data, response status code and response headers
+    def org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl'
@@ -56960,7 +56960,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -56976,7 +56976,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -57071,9 +57071,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :org_apache_sling_scripting_javascript_rhino_opt_level 
-    # @return [OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo]
-    def org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory(opts = {})
-      data, _status_code, _headers = org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory_with_http_info(opts)
+    # @return [OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo]
+    def org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa(opts = {})
+      data, _status_code, _headers = org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa_with_http_info(opts)
       data
     end
 
@@ -57085,10 +57085,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Integer] :org_apache_sling_scripting_javascript_rhino_opt_level 
-    # @return [Array<(OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo, Integer, Hash)>] OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo data, response status code and response headers
-    def org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo, Integer, Hash)>] OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo data, response status code and response headers
+    def org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory'
@@ -57115,7 +57115,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -57131,7 +57131,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -57247,9 +57247,9 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :org_apache_sling_scripting_sightly_js_bindings 
-    # @return [OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo]
-    def org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider(opts = {})
-      data, _status_code, _headers = org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider_with_http_info(opts)
+    # @return [OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo]
+    def org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov(opts = {})
+      data, _status_code, _headers = org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov_with_http_info(opts)
       data
     end
 
@@ -57261,10 +57261,10 @@ module SwaggerAemOsgiClient
     # @option opts [String] :location 
     # @option opts [Array<String>] :propertylist 
     # @option opts [Array<String>] :org_apache_sling_scripting_sightly_js_bindings 
-    # @return [Array<(OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo, Integer, Hash)>] OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo data, response status code and response headers
-    def org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider_with_http_info(opts = {})
+    # @return [Array<(OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo, Integer, Hash)>] OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo data, response status code and response headers
+    def org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov_with_http_info(opts = {})
       if @api_client.config.debugging
-        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider ...'
+        @api_client.config.logger.debug 'Calling API: ConfigmgrApi.org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov ...'
       end
       # resource path
       local_var_path = '/system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider'
@@ -57291,7 +57291,7 @@ module SwaggerAemOsgiClient
       post_body = opts[:body] 
 
       # return_type
-      return_type = opts[:return_type] || 'OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo' 
+      return_type = opts[:return_type] || 'OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo' 
 
       # auth_names
       auth_names = opts[:auth_names] || []
@@ -57307,7 +57307,7 @@ module SwaggerAemOsgiClient
 
       data, status_code, headers = @api_client.call_api(:POST, local_var_path, new_options)
       if @api_client.config.debugging
-        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+        @api_client.config.logger.debug "API called: ConfigmgrApi#org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
