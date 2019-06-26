@@ -5,7 +5,7 @@ All URIs are relative to *http://localhost*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**adaptiveFormAndInteractiveCommunicationWebChannelConfiguration**](ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelConfiguration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Configuration | 
-[**adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration**](ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
+[**adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur**](ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
 [**analyticsComponentQueryCacheService**](ConfigmgrApi.md#analyticsComponentQueryCacheService) | **POST** /system/console/configMgr/Analytics Component Query Cache Service | 
 [**apacheSlingHealthCheckResultHTMLSerializer**](ConfigmgrApi.md#apacheSlingHealthCheckResultHTMLSerializer) | **POST** /system/console/configMgr/Apache Sling Health Check Result HTML Serializer | 
 [**comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration**](ConfigmgrApi.md#comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration) | **POST** /system/console/configMgr/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration | 
@@ -23,7 +23,7 @@ Method | HTTP request | Description
 [**comAdobeCqCdnRewriterImplAWSCloudFrontRewriter**](ConfigmgrApi.md#comAdobeCqCdnRewriterImplAWSCloudFrontRewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter | 
 [**comAdobeCqCdnRewriterImplCDNConfigServiceImpl**](ConfigmgrApi.md#comAdobeCqCdnRewriterImplCDNConfigServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl | 
 [**comAdobeCqCdnRewriterImplCDNRewriter**](ConfigmgrApi.md#comAdobeCqCdnRewriterImplCDNRewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNRewriter | 
-[**comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler**](ConfigmgrApi.md#comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
+[**comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle**](ConfigmgrApi.md#comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
 [**comAdobeCqCommerceImplAssetDynamicImageHandler**](ConfigmgrApi.md#comAdobeCqCommerceImplAssetDynamicImageHandler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.DynamicImageHandler | 
 [**comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl**](ConfigmgrApi.md#comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl | 
 [**comAdobeCqCommerceImplAssetStaticImageHandler**](ConfigmgrApi.md#comAdobeCqCommerceImplAssetStaticImageHandler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.StaticImageHandler | 
@@ -34,7 +34,7 @@ Method | HTTP request | Description
 [**comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl**](ConfigmgrApi.md#comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl | 
 [**comAdobeCqContentinsightImplReportingServicesSettingsProvider**](ConfigmgrApi.md#comAdobeCqContentinsightImplReportingServicesSettingsProvider) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider | 
 [**comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet**](ConfigmgrApi.md#comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet | 
-[**comAdobeCqContentinsightImplServletsReportingServicesProxyServlet**](ConfigmgrApi.md#comAdobeCqContentinsightImplServletsReportingServicesProxyServlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
+[**comAdobeCqContentinsightImplServletsReportingServicesProxyServle**](ConfigmgrApi.md#comAdobeCqContentinsightImplServletsReportingServicesProxyServle) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
 [**comAdobeCqDamCfmImplComponentComponentConfigImpl**](ConfigmgrApi.md#comAdobeCqDamCfmImplComponentComponentConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl | 
 [**comAdobeCqDamCfmImplConfFeatureConfigImpl**](ConfigmgrApi.md#comAdobeCqDamCfmImplConfFeatureConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl | 
 [**comAdobeCqDamCfmImplContentRewriterAssetProcessor**](ConfigmgrApi.md#comAdobeCqDamCfmImplContentRewriterAssetProcessor) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor | 
@@ -74,33 +74,33 @@ Method | HTTP request | Description
 [**comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl**](ConfigmgrApi.md#comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl | 
 [**comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl**](ConfigmgrApi.md#comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl | 
 [**comAdobeCqScreensSegmentationImplSegmentationFeatureFlag**](ConfigmgrApi.md#comAdobeCqScreensSegmentationImplSegmentationFeatureFlag) | **POST** /system/console/configMgr/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag | 
-[**comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
+[**comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh**](ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
 [**comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck | 
 [**comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck | 
 [**comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck | 
 [**comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck**](ConfigmgrApi.md#comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck | 
-[**comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl**](ConfigmgrApi.md#comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
-[**comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
-[**comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
+[**comAdobeCqSocialAccountverificationImplAccountManagementConfigIm**](ConfigmgrApi.md#comAdobeCqSocialAccountverificationImplAccountManagementConfigIm) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
+[**comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
+[**comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
 [**comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler | 
-[**comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
-[**comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
-[**comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
-[**comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl**](ConfigmgrApi.md#comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
-[**comAdobeCqSocialCalendarClientOperationextensionsEventAttachment**](ConfigmgrApi.md#comAdobeCqSocialCalendarClientOperationextensionsEventAttachment) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
+[**comAdobeCqSocialActivitystreamsListenerImplModerationEventExten**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplModerationEventExten) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
+[**comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
+[**comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre**](ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
+[**comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI**](ConfigmgrApi.md#comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
+[**comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen**](ConfigmgrApi.md#comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
 [**comAdobeCqSocialCalendarServletsTimeZoneServlet**](ConfigmgrApi.md#comAdobeCqSocialCalendarServletsTimeZoneServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.servlets.TimeZoneServlet | 
-[**comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
-[**comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
-[**comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
-[**comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
-[**comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
+[**comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
+[**comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
+[**comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
+[**comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
+[**comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos**](ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
 [**comAdobeCqSocialCommonsCorsCORSAuthenticationFilter**](ConfigmgrApi.md#comAdobeCqSocialCommonsCorsCORSAuthenticationFilter) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter | 
 [**comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider | 
 [**comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl | 
 [**comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener | 
 [**comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider | 
-[**comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
-[**comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
+[**comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
+[**comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
 [**comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter | 
 [**comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider | 
 [**comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider | 
@@ -108,53 +108,53 @@ Method | HTTP request | Description
 [**comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider | 
 [**comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider | 
 [**comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider**](ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider | 
-[**comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads**](ConfigmgrApi.md#comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
+[**comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload**](ConfigmgrApi.md#comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
 [**comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl | 
-[**comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl**](ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
+[**comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit**](ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
 [**comAdobeCqSocialConnectOauthImplFacebookProviderImpl**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplFacebookProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl | 
-[**comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
+[**comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
 [**comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper | 
 [**comAdobeCqSocialConnectOauthImplTwitterProviderImpl**](ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplTwitterProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl | 
-[**comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
+[**comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen**](ConfigmgrApi.md#comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
 [**comAdobeCqSocialDatastoreAsImplASResourceProviderFactory**](ConfigmgrApi.md#comAdobeCqSocialDatastoreAsImplASResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory | 
 [**comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory**](ConfigmgrApi.md#comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory | 
-[**comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory**](ConfigmgrApi.md#comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
-[**comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory**](ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
-[**comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory**](ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
-[**comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService**](ConfigmgrApi.md#comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
-[**comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService**](ConfigmgrApi.md#comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
+[**comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor**](ConfigmgrApi.md#comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
+[**comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF**](ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
+[**comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto**](ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
+[**comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL**](ConfigmgrApi.md#comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
+[**comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou**](ConfigmgrApi.md#comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
 [**comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl**](ConfigmgrApi.md#comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl | 
-[**comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet**](ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
-[**comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService**](ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
+[**comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe**](ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
+[**comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera**](ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
 [**comAdobeCqSocialForumClientEndpointsImplForumOperationsService**](ConfigmgrApi.md#comAdobeCqSocialForumClientEndpointsImplForumOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService | 
 [**comAdobeCqSocialForumDispatcherImplFlushOperations**](ConfigmgrApi.md#comAdobeCqSocialForumDispatcherImplFlushOperations) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations | 
-[**comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
+[**comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen**](ConfigmgrApi.md#comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
 [**comAdobeCqSocialGroupImplGroupServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialGroupImplGroupServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.group.impl.GroupServiceImpl | 
 [**comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl**](ConfigmgrApi.md#comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl | 
-[**comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService**](ConfigmgrApi.md#comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
-[**comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService**](ConfigmgrApi.md#comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
-[**comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService**](ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
-[**comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService**](ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
-[**comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
-[**comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
-[**comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
-[**comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
-[**comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
-[**comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
+[**comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS**](ConfigmgrApi.md#comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
+[**comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer**](ConfigmgrApi.md#comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
+[**comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile**](ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
+[**comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO**](ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
+[**comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF**](ConfigmgrApi.md#comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
+[**comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation**](ConfigmgrApi.md#comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
+[**comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
+[**comAdobeCqSocialModerationDashboardApiModerationDashboardSocial**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiModerationDashboardSocial) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
+[**comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
+[**comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci**](ConfigmgrApi.md#comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
 [**comAdobeCqSocialNotificationsImplMentionsRouter**](ConfigmgrApi.md#comAdobeCqSocialNotificationsImplMentionsRouter) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.MentionsRouter | 
 [**comAdobeCqSocialNotificationsImplNotificationManagerImpl**](ConfigmgrApi.md#comAdobeCqSocialNotificationsImplNotificationManagerImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationManagerImpl | 
 [**comAdobeCqSocialNotificationsImplNotificationsRouter**](ConfigmgrApi.md#comAdobeCqSocialNotificationsImplNotificationsRouter) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationsRouter | 
-[**comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService**](ConfigmgrApi.md#comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
-[**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
-[**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
-[**comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
-[**comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService**](ConfigmgrApi.md#comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
+[**comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic**](ConfigmgrApi.md#comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
+[**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
+[**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
+[**comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS**](ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
+[**comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi**](ConfigmgrApi.md#comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
 [**comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet**](ConfigmgrApi.md#comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet | 
 [**comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet**](ConfigmgrApi.md#comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet | 
 [**comAdobeCqSocialScoringImplScoringEventListener**](ConfigmgrApi.md#comAdobeCqSocialScoringImplScoringEventListener) | **POST** /system/console/configMgr/com.adobe.cq.social.scoring.impl.ScoringEventListener | 
 [**comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl**](ConfigmgrApi.md#comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl | 
 [**comAdobeCqSocialSiteEndpointsImplSiteOperationService**](ConfigmgrApi.md#comAdobeCqSocialSiteEndpointsImplSiteOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.site.endpoints.impl.SiteOperationService | 
-[**comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl**](ConfigmgrApi.md#comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
+[**comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm**](ConfigmgrApi.md#comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
 [**comAdobeCqSocialSiteImplSiteConfiguratorImpl**](ConfigmgrApi.md#comAdobeCqSocialSiteImplSiteConfiguratorImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.SiteConfiguratorImpl | 
 [**comAdobeCqSocialSrpImplSocialSolrConnector**](ConfigmgrApi.md#comAdobeCqSocialSrpImplSocialSolrConnector) | **POST** /system/console/configMgr/com.adobe.cq.social.srp.impl.SocialSolrConnector | 
 [**comAdobeCqSocialSyncImplDiffChangesObserver**](ConfigmgrApi.md#comAdobeCqSocialSyncImplDiffChangesObserver) | **POST** /system/console/configMgr/com.adobe.cq.social.sync.impl.DiffChangesObserver | 
@@ -169,11 +169,11 @@ Method | HTTP request | Description
 [**comAdobeCqSocialUgcbaseImplSocialUtilsImpl**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseImplSocialUtilsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl | 
 [**comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl | 
 [**comAdobeCqSocialUgcbaseModerationImplSentimentProcess**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseModerationImplSentimentProcess) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess | 
-[**comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
+[**comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
 [**comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl**](ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl | 
 [**comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet**](ConfigmgrApi.md#comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet | 
 [**comAdobeCqSocialUserImplTransportHttpToPublisher**](ConfigmgrApi.md#comAdobeCqSocialUserImplTransportHttpToPublisher) | **POST** /system/console/configMgr/com.adobe.cq.social.user.impl.transport.HttpToPublisher | 
-[**comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended**](ConfigmgrApi.md#comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
+[**comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact**](ConfigmgrApi.md#comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
 [**comAdobeCqUpgradesCleanupImplUpgradeContentCleanup**](ConfigmgrApi.md#comAdobeCqUpgradesCleanupImplUpgradeContentCleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup | 
 [**comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup**](ConfigmgrApi.md#comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup | 
 [**comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService**](ConfigmgrApi.md#comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService) | **POST** /system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService | 
@@ -187,7 +187,7 @@ Method | HTTP request | Description
 [**comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService**](ConfigmgrApi.md#comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService | 
 [**comAdobeFdFpConfigFormsPortalSchedulerService**](ConfigmgrApi.md#comAdobeFdFpConfigFormsPortalSchedulerService) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalSchedulerService | 
 [**comAdobeFormsCommonServiceImplDefaultDataProvider**](ConfigmgrApi.md#comAdobeFormsCommonServiceImplDefaultDataProvider) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.DefaultDataProvider | 
-[**comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl**](ConfigmgrApi.md#comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
+[**comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp**](ConfigmgrApi.md#comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
 [**comAdobeFormsCommonServletTempCleanUpTask**](ConfigmgrApi.md#comAdobeFormsCommonServletTempCleanUpTask) | **POST** /system/console/configMgr/com.adobe.forms.common.servlet.TempCleanUpTask | 
 [**comAdobeGraniteAcpPlatformPlatformServlet**](ConfigmgrApi.md#comAdobeGraniteAcpPlatformPlatformServlet) | **POST** /system/console/configMgr/com.adobe.granite.acp.platform.PlatformServlet | 
 [**comAdobeGraniteActivitystreamsImplActivityManagerImpl**](ConfigmgrApi.md#comAdobeGraniteActivitystreamsImplActivityManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.activitystreams.impl.ActivityManagerImpl | 
@@ -225,22 +225,22 @@ Method | HTTP request | Description
 [**comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck**](ConfigmgrApi.md#comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck | 
 [**comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck**](ConfigmgrApi.md#comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck | 
 [**comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck**](ConfigmgrApi.md#comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck | 
-[**comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory**](ConfigmgrApi.md#comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
+[**comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac**](ConfigmgrApi.md#comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
 [**comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl**](ConfigmgrApi.md#comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl | 
 [**comAdobeGraniteCompatrouterImplRoutingConfig**](ConfigmgrApi.md#comAdobeGraniteCompatrouterImplRoutingConfig) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.RoutingConfig | 
 [**comAdobeGraniteCompatrouterImplSwitchMappingConfig**](ConfigmgrApi.md#comAdobeGraniteCompatrouterImplSwitchMappingConfig) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.SwitchMappingConfig | 
-[**comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy**](ConfigmgrApi.md#comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
+[**comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving**](ConfigmgrApi.md#comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
 [**comAdobeGraniteContexthubImplContextHubImpl**](ConfigmgrApi.md#comAdobeGraniteContexthubImplContextHubImpl) | **POST** /system/console/configMgr/com.adobe.granite.contexthub.impl.ContextHubImpl | 
 [**comAdobeGraniteCorsImplCORSPolicyImpl**](ConfigmgrApi.md#comAdobeGraniteCorsImplCORSPolicyImpl) | **POST** /system/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl | 
 [**comAdobeGraniteCsrfImplCSRFFilter**](ConfigmgrApi.md#comAdobeGraniteCsrfImplCSRFFilter) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter | 
 [**comAdobeGraniteCsrfImplCSRFServlet**](ConfigmgrApi.md#comAdobeGraniteCsrfImplCSRFServlet) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFServlet | 
-[**comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
+[**comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
 [**comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver | 
 [**comAdobeGraniteDistributionCoreImplDiffDiffEventListener**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDiffDiffEventListener) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffEventListener | 
-[**comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
-[**comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
-[**comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
-[**comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
+[**comAdobeGraniteDistributionCoreImplDistributionToReplicationEven**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDistributionToReplicationEven) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
+[**comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
+[**comAdobeGraniteDistributionCoreImplReplicationDistributionTrans**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationDistributionTrans) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
+[**comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu**](ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
 [**comAdobeGraniteFragsImplCheckHttpHeaderFlag**](ConfigmgrApi.md#comAdobeGraniteFragsImplCheckHttpHeaderFlag) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.CheckHttpHeaderFlag | 
 [**comAdobeGraniteFragsImplRandomFeature**](ConfigmgrApi.md#comAdobeGraniteFragsImplRandomFeature) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.RandomFeature | 
 [**comAdobeGraniteHttpcacheFileFileCacheStore**](ConfigmgrApi.md#comAdobeGraniteHttpcacheFileFileCacheStore) | **POST** /system/console/configMgr/com.adobe.granite.httpcache.file.FileCacheStore | 
@@ -256,7 +256,7 @@ Method | HTTP request | Description
 [**comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask**](ConfigmgrApi.md#comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask | 
 [**comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask**](ConfigmgrApi.md#comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask | 
 [**comAdobeGraniteMonitoringImplScriptConfigImpl**](ConfigmgrApi.md#comAdobeGraniteMonitoringImplScriptConfigImpl) | **POST** /system/console/configMgr/com.adobe.granite.monitoring.impl.ScriptConfigImpl | 
-[**comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler**](ConfigmgrApi.md#comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
+[**comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan**](ConfigmgrApi.md#comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
 [**comAdobeGraniteOauthServerImplAccessTokenCleanupTask**](ConfigmgrApi.md#comAdobeGraniteOauthServerImplAccessTokenCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask | 
 [**comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet**](ConfigmgrApi.md#comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet | 
 [**comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet**](ConfigmgrApi.md#comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet | 
@@ -266,7 +266,7 @@ Method | HTTP request | Description
 [**comAdobeGraniteOffloadingImplOffloadingJobCloner**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplOffloadingJobCloner) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner | 
 [**comAdobeGraniteOffloadingImplOffloadingJobOffloader**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplOffloadingJobOffloader) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobOffloader | 
 [**comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager | 
-[**comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
+[**comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo**](ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
 [**comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl**](ConfigmgrApi.md#comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl | 
 [**comAdobeGraniteOptoutImplOptOutServiceImpl**](ConfigmgrApi.md#comAdobeGraniteOptoutImplOptOutServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.optout.impl.OptOutServiceImpl | 
 [**comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck**](ConfigmgrApi.md#comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck | 
@@ -275,32 +275,32 @@ Method | HTTP request | Description
 [**comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics**](ConfigmgrApi.md#comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics | 
 [**comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck**](ConfigmgrApi.md#comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck | 
 [**comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck**](ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck | 
-[**comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck**](ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
+[**comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC**](ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck | 
-[**comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
+[**comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck | 
-[**comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
+[**comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck | 
 [**comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck**](ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck | 
 [**comAdobeGraniteRepositoryImplCommitStatsConfig**](ConfigmgrApi.md#comAdobeGraniteRepositoryImplCommitStatsConfig) | **POST** /system/console/configMgr/com.adobe.granite.repository.impl.CommitStatsConfig | 
 [**comAdobeGraniteRepositoryServiceUserConfiguration**](ConfigmgrApi.md#comAdobeGraniteRepositoryServiceUserConfiguration) | **POST** /system/console/configMgr/com.adobe.granite.repository.ServiceUserConfiguration | 
-[**comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl**](ConfigmgrApi.md#comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
+[**comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm**](ConfigmgrApi.md#comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
 [**comAdobeGraniteResourcestatusImplCompositeStatusType**](ConfigmgrApi.md#comAdobeGraniteResourcestatusImplCompositeStatusType) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.CompositeStatusType | 
 [**comAdobeGraniteResourcestatusImplStatusResourceProviderImpl**](ConfigmgrApi.md#comAdobeGraniteResourcestatusImplStatusResourceProviderImpl) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl | 
 [**comAdobeGraniteRestAssetsImplAssetContentDispositionFilter**](ConfigmgrApi.md#comAdobeGraniteRestAssetsImplAssetContentDispositionFilter) | **POST** /system/console/configMgr/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter | 
 [**comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl**](ConfigmgrApi.md#comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl | 
 [**comAdobeGraniteRestImplServletDefaultGETServlet**](ConfigmgrApi.md#comAdobeGraniteRestImplServletDefaultGETServlet) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.servlet.DefaultGETServlet | 
-[**comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet**](ConfigmgrApi.md#comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
+[**comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS**](ConfigmgrApi.md#comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
 [**comAdobeGraniteSecurityUserUserPropertiesService**](ConfigmgrApi.md#comAdobeGraniteSecurityUserUserPropertiesService) | **POST** /system/console/configMgr/com.adobe.granite.security.user.UserPropertiesService | 
 [**comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl**](ConfigmgrApi.md#comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl | 
 [**comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl**](ConfigmgrApi.md#comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl) | **POST** /system/console/configMgr/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl | 
 [**comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory | 
 [**comAdobeGraniteTaskmanagementImplJcrTaskArchiveService**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplJcrTaskArchiveService) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService | 
 [**comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask | 
-[**comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
+[**comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor**](ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
 [**comAdobeGraniteThreaddumpThreadDumpCollector**](ConfigmgrApi.md#comAdobeGraniteThreaddumpThreadDumpCollector) | **POST** /system/console/configMgr/com.adobe.granite.threaddump.ThreadDumpCollector | 
-[**comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl**](ConfigmgrApi.md#comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
+[**comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl**](ConfigmgrApi.md#comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
 [**comAdobeGraniteTranslationCoreImplTranslationManagerImpl**](ConfigmgrApi.md#comAdobeGraniteTranslationCoreImplTranslationManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.translation.core.impl.TranslationManagerImpl | 
 [**comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl**](ConfigmgrApi.md#comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl | 
 [**comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature**](ConfigmgrApi.md#comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature) | **POST** /system/console/configMgr/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature | 
@@ -308,19 +308,19 @@ Method | HTTP request | Description
 [**comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager | 
 [**comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler | 
 [**comAdobeGraniteWorkflowCoreJobJobHandler**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJobJobHandler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.JobHandler | 
-[**comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
+[**comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
 [**comAdobeGraniteWorkflowCorePayloadMapCache**](ConfigmgrApi.md#comAdobeGraniteWorkflowCorePayloadMapCache) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.PayloadMapCache | 
 [**comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener**](ConfigmgrApi.md#comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener | 
 [**comAdobeGraniteWorkflowCoreWorkflowConfig**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreWorkflowConfig) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowConfig | 
 [**comAdobeGraniteWorkflowCoreWorkflowSessionFactory**](ConfigmgrApi.md#comAdobeGraniteWorkflowCoreWorkflowSessionFactory) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowSessionFactory | 
 [**comAdobeGraniteWorkflowPurgeScheduler**](ConfigmgrApi.md#comAdobeGraniteWorkflowPurgeScheduler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.purge.Scheduler | 
 [**comAdobeOctopusNcommBootstrap**](ConfigmgrApi.md#comAdobeOctopusNcommBootstrap) | **POST** /system/console/configMgr/com.adobe.octopus.ncomm.bootstrap | 
-[**comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet**](ConfigmgrApi.md#comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
+[**comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS**](ConfigmgrApi.md#comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
 [**comAdobeXmpWorkerFilesNcommXMPFilesNComm**](ConfigmgrApi.md#comAdobeXmpWorkerFilesNcommXMPFilesNComm) | **POST** /system/console/configMgr/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm | 
 [**comDayCommonsDatasourceJdbcpoolJdbcPoolService**](ConfigmgrApi.md#comDayCommonsDatasourceJdbcpoolJdbcPoolService) | **POST** /system/console/configMgr/com.day.commons.datasource.jdbcpool.JdbcPoolService | 
 [**comDayCommonsHttpclient**](ConfigmgrApi.md#comDayCommonsHttpclient) | **POST** /system/console/configMgr/com.day.commons.httpclient | 
 [**comDayCqAnalyticsImplStorePropertiesChangeListener**](ConfigmgrApi.md#comDayCqAnalyticsImplStorePropertiesChangeListener) | **POST** /system/console/configMgr/com.day.cq.analytics.impl.StorePropertiesChangeListener | 
-[**comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
+[**comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
 [**comDayCqAnalyticsSitecatalystImplImporterReportImporter**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplImporterReportImporter) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter | 
 [**comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory | 
 [**comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl**](ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl | 
@@ -335,7 +335,7 @@ Method | HTTP request | Description
 [**comDayCqAuthImplLoginSelectorHandler**](ConfigmgrApi.md#comDayCqAuthImplLoginSelectorHandler) | **POST** /system/console/configMgr/com.day.cq.auth.impl.LoginSelectorHandler | 
 [**comDayCqCommonsImplExternalizerImpl**](ConfigmgrApi.md#comDayCqCommonsImplExternalizerImpl) | **POST** /system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl | 
 [**comDayCqCommonsServletsRootMappingServlet**](ConfigmgrApi.md#comDayCqCommonsServletsRootMappingServlet) | **POST** /system/console/configMgr/com.day.cq.commons.servlets.RootMappingServlet | 
-[**comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker**](ConfigmgrApi.md#comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
+[**comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke**](ConfigmgrApi.md#comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
 [**comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList**](ConfigmgrApi.md#comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList | 
 [**comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist**](ConfigmgrApi.md#comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist | 
 [**comDayCqContentsyncImplContentSyncManagerImpl**](ConfigmgrApi.md#comDayCqContentsyncImplContentSyncManagerImpl) | **POST** /system/console/configMgr/com.day.cq.contentsync.impl.ContentSyncManagerImpl | 
@@ -352,7 +352,7 @@ Method | HTTP request | Description
 [**comDayCqDamCoreImplDamEventRecorderImpl**](ConfigmgrApi.md#comDayCqDamCoreImplDamEventRecorderImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.DamEventRecorderImpl | 
 [**comDayCqDamCoreImplEventDamEventAuditListener**](ConfigmgrApi.md#comDayCqDamCoreImplEventDamEventAuditListener) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.event.DamEventAuditListener | 
 [**comDayCqDamCoreImplExpiryNotificationJobImpl**](ConfigmgrApi.md#comDayCqDamCoreImplExpiryNotificationJobImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl | 
-[**comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag**](ConfigmgrApi.md#comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
+[**comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat**](ConfigmgrApi.md#comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
 [**comDayCqDamCoreImplGfxCommonsGfxRenderer**](ConfigmgrApi.md#comDayCqDamCoreImplGfxCommonsGfxRenderer) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer | 
 [**comDayCqDamCoreImplHandlerEPSFormatHandler**](ConfigmgrApi.md#comDayCqDamCoreImplHandlerEPSFormatHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.EPSFormatHandler | 
 [**comDayCqDamCoreImplHandlerIndesignFormatHandler**](ConfigmgrApi.md#comDayCqDamCoreImplHandlerIndesignFormatHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.IndesignFormatHandler | 
@@ -361,14 +361,14 @@ Method | HTTP request | Description
 [**comDayCqDamCoreImplJmxAssetIndexUpdateMonitor**](ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetIndexUpdateMonitor) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor | 
 [**comDayCqDamCoreImplJmxAssetMigrationMBeanImpl**](ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetMigrationMBeanImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl | 
 [**comDayCqDamCoreImplJmxAssetUpdateMonitorImpl**](ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetUpdateMonitorImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl | 
-[**comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService**](ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
-[**comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService**](ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
+[**comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig**](ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
+[**comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig**](ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
 [**comDayCqDamCoreImplLightboxLightboxServlet**](ConfigmgrApi.md#comDayCqDamCoreImplLightboxLightboxServlet) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.lightbox.LightboxServlet | 
 [**comDayCqDamCoreImplMetadataEditorSelectComponentHandler**](ConfigmgrApi.md#comDayCqDamCoreImplMetadataEditorSelectComponentHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler | 
 [**comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper**](ConfigmgrApi.md#comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper | 
 [**comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl**](ConfigmgrApi.md#comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl | 
 [**comDayCqDamCoreImplMissingMetadataNotificationJob**](ConfigmgrApi.md#comDayCqDamCoreImplMissingMetadataNotificationJob) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.MissingMetadataNotificationJob | 
-[**comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess**](ConfigmgrApi.md#comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
+[**comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr**](ConfigmgrApi.md#comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
 [**comDayCqDamCoreImplProcessTextExtractionProcess**](ConfigmgrApi.md#comDayCqDamCoreImplProcessTextExtractionProcess) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.TextExtractionProcess | 
 [**comDayCqDamCoreImplRenditionMakerImpl**](ConfigmgrApi.md#comDayCqDamCoreImplRenditionMakerImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.RenditionMakerImpl | 
 [**comDayCqDamCoreImplReportsReportExportService**](ConfigmgrApi.md#comDayCqDamCoreImplReportsReportExportService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.reports.ReportExportService | 
@@ -405,8 +405,8 @@ Method | HTTP request | Description
 [**comDayCqDamInddProcessINDDMediaExtractProcess**](ConfigmgrApi.md#comDayCqDamInddProcessINDDMediaExtractProcess) | **POST** /system/console/configMgr/com.day.cq.dam.indd.process.INDDMediaExtractProcess | 
 [**comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl**](ConfigmgrApi.md#comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl | 
 [**comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob**](ConfigmgrApi.md#comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob | 
-[**comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess**](ConfigmgrApi.md#comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
-[**comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener**](ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
+[**comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro**](ConfigmgrApi.md#comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
+[**comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven**](ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
 [**comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner**](ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner | 
 [**comDayCqDamS7damCommonPostServletsSetCreateHandler**](ConfigmgrApi.md#comDayCqDamS7damCommonPostServletsSetCreateHandler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler | 
 [**comDayCqDamS7damCommonPostServletsSetModifyHandler**](ConfigmgrApi.md#comDayCqDamS7damCommonPostServletsSetModifyHandler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler | 
@@ -420,8 +420,8 @@ Method | HTTP request | Description
 [**comDayCqDamScene7ImplScene7DamChangeEventListener**](ConfigmgrApi.md#comDayCqDamScene7ImplScene7DamChangeEventListener) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener | 
 [**comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl**](ConfigmgrApi.md#comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl | 
 [**comDayCqDamScene7ImplScene7UploadServiceImpl**](ConfigmgrApi.md#comDayCqDamScene7ImplScene7UploadServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl | 
-[**comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl**](ConfigmgrApi.md#comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
-[**comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl**](ConfigmgrApi.md#comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
+[**comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer**](ConfigmgrApi.md#comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
+[**comDayCqDamStockIntegrationImplConfigurationStockConfiguration**](ConfigmgrApi.md#comDayCqDamStockIntegrationImplConfigurationStockConfiguration) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
 [**comDayCqDamVideoImplServletVideoTestServlet**](ConfigmgrApi.md#comDayCqDamVideoImplServletVideoTestServlet) | **POST** /system/console/configMgr/com.day.cq.dam.video.impl.servlet.VideoTestServlet | 
 [**comDayCqExtwidgetServletsImageSpriteServlet**](ConfigmgrApi.md#comDayCqExtwidgetServletsImageSpriteServlet) | **POST** /system/console/configMgr/com.day.cq.extwidget.servlets.ImageSpriteServlet | 
 [**comDayCqImageInternalFontFontHelper**](ConfigmgrApi.md#comDayCqImageInternalFontFontHelper) | **POST** /system/console/configMgr/com.day.cq.image.internal.font.FontHelper | 
@@ -434,11 +434,11 @@ Method | HTTP request | Description
 [**comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory**](ConfigmgrApi.md#comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory | 
 [**comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl**](ConfigmgrApi.md#comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl) | **POST** /system/console/configMgr/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl | 
 [**comDayCqMcmImplMCMConfiguration**](ConfigmgrApi.md#comDayCqMcmImplMCMConfiguration) | **POST** /system/console/configMgr/com.day.cq.mcm.impl.MCMConfiguration | 
-[**comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
-[**comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
-[**comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
-[**comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
-[**comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
+[**comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH**](ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
 [**comDayCqNotificationImplNotificationServiceImpl**](ConfigmgrApi.md#comDayCqNotificationImplNotificationServiceImpl) | **POST** /system/console/configMgr/com.day.cq.notification.impl.NotificationServiceImpl | 
 [**comDayCqPersonalizationImplServletsTargetingConfigurationServlet**](ConfigmgrApi.md#comDayCqPersonalizationImplServletsTargetingConfigurationServlet) | **POST** /system/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet | 
 [**comDayCqPollingImporterImplManagedPollConfigImpl**](ConfigmgrApi.md#comDayCqPollingImporterImplManagedPollConfigImpl) | **POST** /system/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollConfigImpl | 
@@ -448,7 +448,7 @@ Method | HTTP request | Description
 [**comDayCqReplicationContentStaticContentBuilder**](ConfigmgrApi.md#comDayCqReplicationContentStaticContentBuilder) | **POST** /system/console/configMgr/com.day.cq.replication.content.StaticContentBuilder | 
 [**comDayCqReplicationImplAgentManagerImpl**](ConfigmgrApi.md#comDayCqReplicationImplAgentManagerImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.AgentManagerImpl | 
 [**comDayCqReplicationImplContentDurboBinaryLessContentBuilder**](ConfigmgrApi.md#comDayCqReplicationImplContentDurboBinaryLessContentBuilder) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder | 
-[**comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService**](ConfigmgrApi.md#comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
+[**comDayCqReplicationImplContentDurboDurboImportConfigurationProv**](ConfigmgrApi.md#comDayCqReplicationImplContentDurboDurboImportConfigurationProv) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
 [**comDayCqReplicationImplReplicationContentFactoryProviderImpl**](ConfigmgrApi.md#comDayCqReplicationImplReplicationContentFactoryProviderImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl | 
 [**comDayCqReplicationImplReplicationReceiverImpl**](ConfigmgrApi.md#comDayCqReplicationImplReplicationReceiverImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationReceiverImpl | 
 [**comDayCqReplicationImplReplicatorImpl**](ConfigmgrApi.md#comDayCqReplicationImplReplicatorImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicatorImpl | 
@@ -473,7 +473,7 @@ Method | HTTP request | Description
 [**comDayCqTaggingImplSearchTagPredicateEvaluator**](ConfigmgrApi.md#comDayCqTaggingImplSearchTagPredicateEvaluator) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.search.TagPredicateEvaluator | 
 [**comDayCqTaggingImplTagGarbageCollector**](ConfigmgrApi.md#comDayCqTaggingImplTagGarbageCollector) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector | 
 [**comDayCqWcmContentsyncImplHandlerPagesUpdateHandler**](ConfigmgrApi.md#comDayCqWcmContentsyncImplHandlerPagesUpdateHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler | 
-[**comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory**](ConfigmgrApi.md#comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
+[**comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor**](ConfigmgrApi.md#comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
 [**comDayCqWcmCoreImplAuthoringUIModeServiceImpl**](ConfigmgrApi.md#comDayCqWcmCoreImplAuthoringUIModeServiceImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl | 
 [**comDayCqWcmCoreImplCommandsWCMCommandServlet**](ConfigmgrApi.md#comDayCqWcmCoreImplCommandsWCMCommandServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.commands.WCMCommandServlet | 
 [**comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl**](ConfigmgrApi.md#comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl | 
@@ -487,7 +487,7 @@ Method | HTTP request | Description
 [**comDayCqWcmCoreImplPagePageManagerFactoryImpl**](ConfigmgrApi.md#comDayCqWcmCoreImplPagePageManagerFactoryImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl | 
 [**comDayCqWcmCoreImplReferencesContentContentReferenceConfig**](ConfigmgrApi.md#comDayCqWcmCoreImplReferencesContentContentReferenceConfig) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig | 
 [**comDayCqWcmCoreImplServletsContentfinderAssetViewHandler**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderAssetViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler | 
-[**comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
+[**comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
 [**comDayCqWcmCoreImplServletsContentfinderPageViewHandler**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderPageViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler | 
 [**comDayCqWcmCoreImplServletsFindReplaceServlet**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsFindReplaceServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet | 
 [**comDayCqWcmCoreImplServletsReferenceSearchServlet**](ConfigmgrApi.md#comDayCqWcmCoreImplServletsReferenceSearchServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet | 
@@ -507,23 +507,23 @@ Method | HTTP request | Description
 [**comDayCqWcmDesignimporterImplCanvasPageDeleteHandler**](ConfigmgrApi.md#comDayCqWcmDesignimporterImplCanvasPageDeleteHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler | 
 [**comDayCqWcmDesignimporterImplEntryPreprocessorImpl**](ConfigmgrApi.md#comDayCqWcmDesignimporterImplEntryPreprocessorImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl | 
 [**comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl**](ConfigmgrApi.md#comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
-[**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
+[**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl**](ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
 [**comDayCqWcmFoundationFormsImplFormChooserServlet**](ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormChooserServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet | 
 [**comDayCqWcmFoundationFormsImplFormParagraphPostProcessor**](ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormParagraphPostProcessor) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor | 
 [**comDayCqWcmFoundationFormsImplFormsHandlingServlet**](ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormsHandlingServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet | 
@@ -532,7 +532,7 @@ Method | HTTP request | Description
 [**comDayCqWcmFoundationImplHTTPAuthHandler**](ConfigmgrApi.md#comDayCqWcmFoundationImplHTTPAuthHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.HTTPAuthHandler | 
 [**comDayCqWcmFoundationImplPageImpressionsTracker**](ConfigmgrApi.md#comDayCqWcmFoundationImplPageImpressionsTracker) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageImpressionsTracker | 
 [**comDayCqWcmFoundationImplPageRedirectServlet**](ConfigmgrApi.md#comDayCqWcmFoundationImplPageRedirectServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageRedirectServlet | 
-[**comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService**](ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
+[**comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist**](ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
 [**comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl**](ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl | 
 [**comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory**](ConfigmgrApi.md#comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory | 
 [**comDayCqWcmMobileCoreImplRedirectRedirectFilter**](ConfigmgrApi.md#comDayCqWcmMobileCoreImplRedirectRedirectFilter) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter | 
@@ -576,29 +576,29 @@ Method | HTTP request | Description
 [**orgApacheFelixSystemreadySystemReadyMonitor**](ConfigmgrApi.md#orgApacheFelixSystemreadySystemReadyMonitor) | **POST** /system/console/configMgr/org.apache.felix.systemready.SystemReadyMonitor | 
 [**orgApacheFelixWebconsoleInternalServletOsgiManager**](ConfigmgrApi.md#orgApacheFelixWebconsoleInternalServletOsgiManager) | **POST** /system/console/configMgr/org.apache.felix.webconsole.internal.servlet.OsgiManager | 
 [**orgApacheFelixWebconsolePluginsEventInternalPluginServlet**](ConfigmgrApi.md#orgApacheFelixWebconsolePluginsEventInternalPluginServlet) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.event.internal.PluginServlet | 
-[**orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator**](ConfigmgrApi.md#orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
+[**orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo**](ConfigmgrApi.md#orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
 [**orgApacheHttpProxyconfigurator**](ConfigmgrApi.md#orgApacheHttpProxyconfigurator) | **POST** /system/console/configMgr/org.apache.http.proxyconfigurator | 
-[**orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
+[**orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
 [**orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore | 
 [**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService | 
-[**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
-[**orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
+[**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
+[**orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
 [**orgApacheJackrabbitOakPluginsIndexAsyncIndexerService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexAsyncIndexerService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService | 
-[**orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
-[**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
+[**orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
+[**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
 [**orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory | 
 [**orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider | 
 [**orgApacheJackrabbitOakQueryQueryEngineSettingsService**](ConfigmgrApi.md#orgApacheJackrabbitOakQueryQueryEngineSettingsService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.query.QueryEngineSettingsService | 
-[**orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
-[**orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
-[**orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
-[**orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
-[**orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
+[**orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
+[**orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
+[**orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
+[**orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
+[**orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
 [**orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName | 
 [**orgApacheJackrabbitOakSecurityUserUserConfigurationImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSecurityUserUserConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl | 
 [**orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService**](ConfigmgrApi.md#orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService | 
@@ -606,23 +606,23 @@ Method | HTTP request | Description
 [**orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService**](ConfigmgrApi.md#orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService | 
 [**orgApacheJackrabbitOakSegmentSegmentNodeStoreService**](ConfigmgrApi.md#orgApacheJackrabbitOakSegmentSegmentNodeStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService | 
 [**orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService**](ConfigmgrApi.md#orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService | 
-[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
-[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
-[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
-[**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
-[**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
-[**orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
+[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
+[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
+[**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
+[**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
+[**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
+[**orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable**](ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
 [**orgApacheJackrabbitVaultPackagingImplPackagingImpl**](ConfigmgrApi.md#orgApacheJackrabbitVaultPackagingImplPackagingImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl | 
 [**orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry**](ConfigmgrApi.md#orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry | 
 [**orgApacheSlingAuthCoreImplLogoutServlet**](ConfigmgrApi.md#orgApacheSlingAuthCoreImplLogoutServlet) | **POST** /system/console/configMgr/org.apache.sling.auth.core.impl.LogoutServlet | 
 [**orgApacheSlingCaconfigImplConfigurationBindingsValueProvider**](ConfigmgrApi.md#orgApacheSlingCaconfigImplConfigurationBindingsValueProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider | 
 [**orgApacheSlingCaconfigImplConfigurationResolverImpl**](ConfigmgrApi.md#orgApacheSlingCaconfigImplConfigurationResolverImpl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationResolverImpl | 
-[**orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy**](ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
-[**orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy**](ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
-[**orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider**](ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
-[**orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider**](ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
-[**orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl**](ConfigmgrApi.md#orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
-[**orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy**](ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
+[**orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra**](ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
+[**orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra**](ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
+[**orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi**](ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
+[**orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve**](ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
+[**orgApacheSlingCaconfigManagementImplConfigurationManagementSetti**](ConfigmgrApi.md#orgApacheSlingCaconfigManagementImplConfigurationManagementSetti) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
+[**orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour**](ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
 [**orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy**](ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy | 
 [**orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser**](ConfigmgrApi.md#orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser) | **POST** /system/console/configMgr/org.apache.sling.commons.html.internal.TagsoupHtmlParser | 
 [**orgApacheSlingCommonsLogLogManager**](ConfigmgrApi.md#orgApacheSlingCommonsLogLogManager) | **POST** /system/console/configMgr/org.apache.sling.commons.log.LogManager | 
@@ -638,30 +638,30 @@ Method | HTTP request | Description
 [**orgApacheSlingDatasourceJNDIDataSourceFactory**](ConfigmgrApi.md#orgApacheSlingDatasourceJNDIDataSourceFactory) | **POST** /system/console/configMgr/org.apache.sling.datasource.JNDIDataSourceFactory | 
 [**orgApacheSlingDiscoveryOakConfig**](ConfigmgrApi.md#orgApacheSlingDiscoveryOakConfig) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.Config | 
 [**orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck**](ConfigmgrApi.md#orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck | 
-[**orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
-[**orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
+[**orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
+[**orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
 [**orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory | 
-[**orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
-[**orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
+[**orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
+[**orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
 [**orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory**](ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory | 
 [**orgApacheSlingDistributionMonitorDistributionQueueHealthCheck**](ConfigmgrApi.md#orgApacheSlingDistributionMonitorDistributionQueueHealthCheck) | **POST** /system/console/configMgr/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck | 
-[**orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
-[**orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
-[**orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
-[**orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
-[**orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
-[**orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
-[**orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory**](ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
-[**orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory**](ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
-[**orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory**](ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
-[**orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory**](ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
-[**orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider**](ConfigmgrApi.md#orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
-[**orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
-[**orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
+[**orgApacheSlingDistributionPackagingImplExporterAgentDistributio**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterAgentDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
+[**orgApacheSlingDistributionPackagingImplExporterLocalDistributio**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterLocalDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
+[**orgApacheSlingDistributionPackagingImplExporterRemoteDistributi**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterRemoteDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
+[**orgApacheSlingDistributionPackagingImplImporterLocalDistributio**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterLocalDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
+[**orgApacheSlingDistributionPackagingImplImporterRemoteDistributi**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRemoteDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
+[**orgApacheSlingDistributionPackagingImplImporterRepositoryDistri**](ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRepositoryDistri) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
+[**orgApacheSlingDistributionResourcesImplDistributionConfiguration**](ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionConfiguration) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
+[**orgApacheSlingDistributionResourcesImplDistributionServiceResour**](ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionServiceResour) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
+[**orgApacheSlingDistributionSerializationImplDistributionPackageBu**](ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplDistributionPackageBu) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
+[**orgApacheSlingDistributionSerializationImplVltVaultDistribution**](ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplVltVaultDistribution) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
+[**orgApacheSlingDistributionTransportImplUserCredentialsDistributi**](ConfigmgrApi.md#orgApacheSlingDistributionTransportImplUserCredentialsDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
+[**orgApacheSlingDistributionTriggerImplDistributionEventDistribute**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplDistributionEventDistribute) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplResourceEventDistributionTr**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplResourceEventDistributionTr) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
+[**orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge**](ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
 [**orgApacheSlingEngineImplAuthSlingAuthenticator**](ConfigmgrApi.md#orgApacheSlingEngineImplAuthSlingAuthenticator) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.auth.SlingAuthenticator | 
 [**orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter**](ConfigmgrApi.md#orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter | 
 [**orgApacheSlingEngineImplLogRequestLogger**](ConfigmgrApi.md#orgApacheSlingEngineImplLogRequestLogger) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.log.RequestLogger | 
@@ -673,7 +673,7 @@ Method | HTTP request | Description
 [**orgApacheSlingEventImplJobsJcrPersistenceHandler**](ConfigmgrApi.md#orgApacheSlingEventImplJobsJcrPersistenceHandler) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler | 
 [**orgApacheSlingEventImplJobsJobConsumerManager**](ConfigmgrApi.md#orgApacheSlingEventImplJobsJobConsumerManager) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.JobConsumerManager | 
 [**orgApacheSlingEventJobsQueueConfiguration**](ConfigmgrApi.md#orgApacheSlingEventJobsQueueConfiguration) | **POST** /system/console/configMgr/org.apache.sling.event.jobs.QueueConfiguration | 
-[**orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider**](ConfigmgrApi.md#orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
+[**orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW**](ConfigmgrApi.md#orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
 [**orgApacheSlingFeatureflagsFeature**](ConfigmgrApi.md#orgApacheSlingFeatureflagsFeature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.Feature | 
 [**orgApacheSlingFeatureflagsImplConfiguredFeature**](ConfigmgrApi.md#orgApacheSlingFeatureflagsImplConfiguredFeature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.impl.ConfiguredFeature | 
 [**orgApacheSlingHapiImplHApiUtilImpl**](ConfigmgrApi.md#orgApacheSlingHapiImplHApiUtilImpl) | **POST** /system/console/configMgr/org.apache.sling.hapi.impl.HApiUtilImpl | 
@@ -697,20 +697,20 @@ Method | HTTP request | Description
 [**orgApacheSlingJcrResourceInternalJcrSystemUserValidator**](ConfigmgrApi.md#orgApacheSlingJcrResourceInternalJcrSystemUserValidator) | **POST** /system/console/configMgr/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator | 
 [**orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory**](ConfigmgrApi.md#orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory) | **POST** /system/console/configMgr/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory | 
 [**orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService**](ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService | 
-[**orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService**](ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
+[**orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic**](ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
 [**orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet**](ConfigmgrApi.md#orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet | 
 [**orgApacheSlingJmxProviderImplJMXResourceProvider**](ConfigmgrApi.md#orgApacheSlingJmxProviderImplJMXResourceProvider) | **POST** /system/console/configMgr/org.apache.sling.jmx.provider.impl.JMXResourceProvider | 
 [**orgApacheSlingModelsImplModelAdapterFactory**](ConfigmgrApi.md#orgApacheSlingModelsImplModelAdapterFactory) | **POST** /system/console/configMgr/org.apache.sling.models.impl.ModelAdapterFactory | 
 [**orgApacheSlingModelsJacksonexporterImplResourceModuleProvider**](ConfigmgrApi.md#orgApacheSlingModelsJacksonexporterImplResourceModuleProvider) | **POST** /system/console/configMgr/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider | 
-[**orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory**](ConfigmgrApi.md#orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
+[**orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto**](ConfigmgrApi.md#orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
 [**orgApacheSlingResourcemergerImplMergedResourceProviderFactory**](ConfigmgrApi.md#orgApacheSlingResourcemergerImplMergedResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory | 
 [**orgApacheSlingResourcemergerPickerOverriding**](ConfigmgrApi.md#orgApacheSlingResourcemergerPickerOverriding) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.picker.overriding | 
 [**orgApacheSlingScriptingCoreImplScriptCacheImpl**](ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptCacheImpl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptCacheImpl | 
-[**orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl**](ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
+[**orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider**](ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
 [**orgApacheSlingScriptingJavaImplJavaScriptEngineFactory**](ConfigmgrApi.md#orgApacheSlingScriptingJavaImplJavaScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory | 
-[**orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory**](ConfigmgrApi.md#orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
+[**orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa**](ConfigmgrApi.md#orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
 [**orgApacheSlingScriptingJspJspScriptEngineFactory**](ConfigmgrApi.md#orgApacheSlingScriptingJspJspScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.jsp.JspScriptEngineFactory | 
-[**orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider**](ConfigmgrApi.md#orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
+[**orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv**](ConfigmgrApi.md#orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
 [**orgApacheSlingSecurityImplContentDispositionFilter**](ConfigmgrApi.md#orgApacheSlingSecurityImplContentDispositionFilter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ContentDispositionFilter | 
 [**orgApacheSlingSecurityImplReferrerFilter**](ConfigmgrApi.md#orgApacheSlingSecurityImplReferrerFilter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter | 
 [**orgApacheSlingServiceusermappingImplServiceUserMapperImpl**](ConfigmgrApi.md#orgApacheSlingServiceusermappingImplServiceUserMapperImpl) | **POST** /system/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl | 
@@ -793,9 +793,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration
+## adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur
 
-> AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration(opts)
+> AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(opts)
 
 
 
@@ -814,7 +814,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'fontList': ["null"] // [String] | 
 };
-apiInstance.adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration(opts, (error, data, response) => {
+apiInstance.adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -838,7 +838,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo**](AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo.md)
+[**AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo**](AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo.md)
 
 ### Authorization
 
@@ -1877,9 +1877,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler
+## comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle
 
-> ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler(opts)
+> ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle(opts)
 
 
 
@@ -1898,7 +1898,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'flushAgents': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler(opts, (error, data, response) => {
+apiInstance.comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -1922,7 +1922,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo**](ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo.md)
+[**ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo**](ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo.md)
 
 ### Authorization
 
@@ -2514,9 +2514,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqContentinsightImplServletsReportingServicesProxyServlet
+## comAdobeCqContentinsightImplServletsReportingServicesProxyServle
 
-> ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo comAdobeCqContentinsightImplServletsReportingServicesProxyServlet(opts)
+> ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo comAdobeCqContentinsightImplServletsReportingServicesProxyServle(opts)
 
 
 
@@ -2535,7 +2535,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'reportingservicesProxyWhitelist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqContentinsightImplServletsReportingServicesProxyServlet(opts, (error, data, response) => {
+apiInstance.comAdobeCqContentinsightImplServletsReportingServicesProxyServle(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -2559,7 +2559,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo**](ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo.md)
+[**ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo**](ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo.md)
 
 ### Authorization
 
@@ -4998,9 +4998,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck
+## comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh
 
-> ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck(opts)
+> ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh(opts)
 
 
 
@@ -5019,7 +5019,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'hcTags': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck(opts, (error, data, response) => {
+apiInstance.comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5043,7 +5043,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo**](ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo.md)
+[**ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo**](ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo.md)
 
 ### Authorization
 
@@ -5291,9 +5291,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl
+## comAdobeCqSocialAccountverificationImplAccountManagementConfigIm
 
-> ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl(opts)
+> ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo comAdobeCqSocialAccountverificationImplAccountManagementConfigIm(opts)
 
 
 
@@ -5314,7 +5314,7 @@ let opts = {
   'ttl1': 56, // Number | 
   'ttl2': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialAccountverificationImplAccountManagementConfigIm(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5340,7 +5340,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo**](ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo.md)
+[**ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo**](ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo.md)
 
 ### Authorization
 
@@ -5352,9 +5352,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl
+## comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen
 
-> ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl(opts)
+> ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen(opts)
 
 
 
@@ -5373,7 +5373,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5397,7 +5397,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo.md)
+[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo.md)
 
 ### Authorization
 
@@ -5409,9 +5409,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory
+## comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo
 
-> ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory(opts)
+> ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo(opts)
 
 
 
@@ -5430,7 +5430,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5454,7 +5454,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo.md)
+[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo.md)
 
 ### Authorization
 
@@ -5525,9 +5525,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension
+## comAdobeCqSocialActivitystreamsListenerImplModerationEventExten
 
-> ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension(opts)
+> ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo comAdobeCqSocialActivitystreamsListenerImplModerationEventExten(opts)
 
 
 
@@ -5547,7 +5547,7 @@ let opts = {
   'accepted': true, // Boolean | 
   'ranked': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialActivitystreamsListenerImplModerationEventExten(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5572,7 +5572,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo**](ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo**](ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo.md)
 
 ### Authorization
 
@@ -5584,9 +5584,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor
+## comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS
 
-> ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor(opts)
+> ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS(opts)
 
 
 
@@ -5606,7 +5606,7 @@ let opts = {
   'ranking': 56, // Number | 
   'enable': true // Boolean | 
 };
-apiInstance.comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5631,7 +5631,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo**](ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo**](ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo.md)
 
 ### Authorization
 
@@ -5643,9 +5643,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory
+## comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre
 
-> ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory(opts)
+> ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre(opts)
 
 
 
@@ -5665,7 +5665,7 @@ let opts = {
   'streamPath': "streamPath_example", // String | 
   'streamName': "streamName_example" // String | 
 };
-apiInstance.comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5690,7 +5690,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo**](ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo**](ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo.md)
 
 ### Authorization
 
@@ -5702,9 +5702,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl
+## comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI
 
-> ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl(opts)
+> ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI(opts)
 
 
 
@@ -5725,7 +5725,7 @@ let opts = {
   'fieldWhitelist': ["null"], // [String] | 
   'attachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5751,7 +5751,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo**](ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo.md)
+[**ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo**](ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo.md)
 
 ### Authorization
 
@@ -5763,9 +5763,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCalendarClientOperationextensionsEventAttachment
+## comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen
 
-> ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo comAdobeCqSocialCalendarClientOperationextensionsEventAttachment(opts)
+> ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen(opts)
 
 
 
@@ -5785,7 +5785,7 @@ let opts = {
   'attachmentTypeBlacklist': "attachmentTypeBlacklist_example", // String | 
   'extensionOrder': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialCalendarClientOperationextensionsEventAttachment(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5810,7 +5810,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo**](ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo.md)
+[**ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo**](ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo.md)
 
 ### Authorization
 
@@ -5879,9 +5879,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor
+## comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent
 
-> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor(opts)
+> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent(opts)
 
 
 
@@ -5900,7 +5900,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'ranking': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5924,7 +5924,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo.md)
 
 ### Authorization
 
@@ -5936,9 +5936,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService
+## comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe
 
-> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService(opts)
+> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe(opts)
 
 
 
@@ -5958,7 +5958,7 @@ let opts = {
   'fieldWhitelist': ["null"], // [String] | 
   'attachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -5983,7 +5983,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo.md)
 
 ### Authorization
 
@@ -5995,9 +5995,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService
+## comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati
 
-> ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService(opts)
+> ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati(opts)
 
 
 
@@ -6017,7 +6017,7 @@ let opts = {
   'fieldWhitelist': ["null"], // [String] | 
   'attachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -6042,7 +6042,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo.md)
 
 ### Authorization
 
@@ -6054,9 +6054,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider
+## comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC
 
-> ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider(opts)
+> ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC(opts)
 
 
 
@@ -6075,7 +6075,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'numUserLimit': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -6099,7 +6099,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo**](ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo.md)
+[**ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo**](ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo.md)
 
 ### Authorization
 
@@ -6111,9 +6111,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts
+## comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos
 
-> ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts(opts)
+> ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos(opts)
 
 
 
@@ -6134,7 +6134,7 @@ let opts = {
   'numberOfMinutes': 56, // Number | 
   'maxSearchLimit': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -6160,7 +6160,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo**](ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo.md)
+[**ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo**](ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo.md)
 
 ### Authorization
 
@@ -6461,9 +6461,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl
+## comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp
 
-> ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl(opts)
+> ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp(opts)
 
 
 
@@ -6489,7 +6489,7 @@ let opts = {
   'patternDateTime': "patternDateTime_example", // String | 
   'patternEmail': "patternEmail_example" // String | 
 };
-apiInstance.comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -6520,7 +6520,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo.md)
+[**ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.md)
 
 ### Authorization
 
@@ -6532,9 +6532,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl
+## comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp
 
-> ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl(opts)
+> ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp(opts)
 
 
 
@@ -6563,7 +6563,7 @@ let opts = {
   'emailDefaultUserName': "emailDefaultUserName_example", // String | 
   'emailTemplatesRootPath': "emailTemplatesRootPath_example" // String | 
 };
-apiInstance.comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -6597,7 +6597,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo.md)
+[**ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.md)
 
 ### Authorization
 
@@ -7020,9 +7020,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads
+## comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload
 
-> ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads(opts)
+> ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload(opts)
 
 
 
@@ -7042,7 +7042,7 @@ let opts = {
   'numberOfDays': 56, // Number | 
   'ageOfFile': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7067,7 +7067,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo**](ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo.md)
+[**ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo**](ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo.md)
 
 ### Authorization
 
@@ -7140,9 +7140,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl
+## comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit
 
-> ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl(opts)
+> ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit(opts)
 
 
 
@@ -7165,7 +7165,7 @@ let opts = {
   'domains': ["null"], // [String] | 
   'toList': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7193,7 +7193,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo**](ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo.md)
+[**ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo**](ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo.md)
 
 ### Authorization
 
@@ -7276,9 +7276,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler
+## comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle
 
-> ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler(opts)
+> ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle(opts)
 
 
 
@@ -7298,7 +7298,7 @@ let opts = {
   'path': ["null"], // [String] | 
   'serviceRanking': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7323,7 +7323,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo**](ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo.md)
+[**ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo**](ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo.md)
 
 ### Authorization
 
@@ -7465,9 +7465,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl
+## comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen
 
-> ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl(opts)
+> ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen(opts)
 
 
 
@@ -7487,7 +7487,7 @@ let opts = {
   'cqSocialContentFragmentsServicesEnabled': true, // Boolean | 
   'cqSocialContentFragmentsServicesWaitTimeSeconds': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7512,7 +7512,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo**](ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo.md)
+[**ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo**](ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo.md)
 
 ### Authorization
 
@@ -7662,9 +7662,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory
+## comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor
 
-> ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory(opts)
+> ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor(opts)
 
 
 
@@ -7689,7 +7689,7 @@ let opts = {
   'cacheTtl': 56, // Number | 
   'cacheSize': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7719,7 +7719,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo**](ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo.md)
+[**ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo**](ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo.md)
 
 ### Authorization
 
@@ -7731,9 +7731,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory
+## comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF
 
-> ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory(opts)
+> ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF(opts)
 
 
 
@@ -7752,7 +7752,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'isMemberCheck': true // Boolean | 
 };
-apiInstance.comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7776,7 +7776,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo.md)
+[**ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo.md)
 
 ### Authorization
 
@@ -7788,9 +7788,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory
+## comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto
 
-> ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory(opts)
+> ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto(opts)
 
 
 
@@ -7809,7 +7809,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'isMemberCheck': true // Boolean | 
 };
-apiInstance.comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7833,7 +7833,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo.md)
+[**ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo.md)
 
 ### Authorization
 
@@ -7845,9 +7845,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService
+## comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL
 
-> ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService(opts)
+> ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL(opts)
 
 
 
@@ -7866,7 +7866,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'fieldWhitelist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7890,7 +7890,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo**](ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo.md)
+[**ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo**](ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo.md)
 
 ### Authorization
 
@@ -7902,9 +7902,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService
+## comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou
 
-> ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService(opts)
+> ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou(opts)
 
 
 
@@ -7923,7 +7923,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'fieldWhitelist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -7947,7 +7947,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo**](ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo.md)
+[**ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo**](ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.md)
 
 ### Authorization
 
@@ -8016,9 +8016,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet
+## comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe
 
-> ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet(opts)
+> ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe(opts)
 
 
 
@@ -8038,7 +8038,7 @@ let opts = {
   'slingServletSelectors': "slingServletSelectors_example", // String | 
   'slingServletExtensions': "slingServletExtensions_example" // String | 
 };
-apiInstance.comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8063,7 +8063,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo**](ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo.md)
+[**ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo**](ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo.md)
 
 ### Authorization
 
@@ -8075,9 +8075,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService
+## comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera
 
-> ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService(opts)
+> ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera(opts)
 
 
 
@@ -8097,7 +8097,7 @@ let opts = {
   'fieldWhitelist': ["null"], // [String] | 
   'attachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8122,7 +8122,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo**](ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo.md)
+[**ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo**](ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo.md)
 
 ### Authorization
 
@@ -8252,9 +8252,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory
+## comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen
 
-> ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory(opts)
+> ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen(opts)
 
 
 
@@ -8276,7 +8276,7 @@ let opts = {
   'pageSize': 56, // Number | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8303,7 +8303,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo**](ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo.md)
+[**ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo**](ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.md)
 
 ### Authorization
 
@@ -8437,9 +8437,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService
+## comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS
 
-> ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService(opts)
+> ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS(opts)
 
 
 
@@ -8459,7 +8459,7 @@ let opts = {
   'fieldWhitelist': ["null"], // [String] | 
   'attachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8484,7 +8484,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo**](ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo.md)
+[**ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo**](ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo.md)
 
 ### Authorization
 
@@ -8496,9 +8496,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService
+## comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer
 
-> ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService(opts)
+> ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer(opts)
 
 
 
@@ -8518,7 +8518,7 @@ let opts = {
   'fieldWhitelist': ["null"], // [String] | 
   'attachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8543,7 +8543,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo**](ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo.md)
+[**ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo**](ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo.md)
 
 ### Authorization
 
@@ -8555,9 +8555,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService
+## comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile
 
-> ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService(opts)
+> ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile(opts)
 
 
 
@@ -8576,7 +8576,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'fieldWhitelist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8600,7 +8600,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo.md)
+[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo.md)
 
 ### Authorization
 
@@ -8612,9 +8612,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService
+## comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO
 
-> ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService(opts)
+> ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO(opts)
 
 
 
@@ -8633,7 +8633,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'fieldWhitelist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8657,7 +8657,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo.md)
+[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo.md)
 
 ### Authorization
 
@@ -8669,9 +8669,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory
+## comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF
 
-> ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory(opts)
+> ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF(opts)
 
 
 
@@ -8691,7 +8691,7 @@ let opts = {
   'everyoneLimit': 56, // Number | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8716,7 +8716,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo**](ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo.md)
+[**ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo**](ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo.md)
 
 ### Authorization
 
@@ -8728,9 +8728,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl
+## comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation
 
-> ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl(opts)
+> ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation(opts)
 
 
 
@@ -8768,7 +8768,7 @@ let opts = {
   'serviceSelector': "serviceSelector_example", // String | 
   'fieldWhitelist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8811,7 +8811,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo**](ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo.md)
+[**ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo**](ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo.md)
 
 ### Authorization
 
@@ -8823,9 +8823,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory
+## comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen
 
-> ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory(opts)
+> ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen(opts)
 
 
 
@@ -8845,7 +8845,7 @@ let opts = {
   'resourceTypeFilters': ["null"], // [String] | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8870,7 +8870,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo**](ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo.md)
 
 ### Authorization
 
@@ -8882,9 +8882,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory
+## comAdobeCqSocialModerationDashboardApiModerationDashboardSocial
 
-> ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory(opts)
+> ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo comAdobeCqSocialModerationDashboardApiModerationDashboardSocial(opts)
 
 
 
@@ -8903,7 +8903,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialModerationDashboardApiModerationDashboardSocial(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8927,7 +8927,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo**](ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo.md)
 
 ### Authorization
 
@@ -8939,9 +8939,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory
+## comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen
 
-> ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory(opts)
+> ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen(opts)
 
 
 
@@ -8960,7 +8960,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -8984,7 +8984,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo**](ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo.md)
 
 ### Authorization
 
@@ -8996,9 +8996,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2
+## comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci
 
-> ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2(opts)
+> ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci(opts)
 
 
 
@@ -9018,7 +9018,7 @@ let opts = {
   'resourceTypeFilters': ["null"], // [String] | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -9043,7 +9043,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info**](ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info.md)
+[**ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo**](ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo.md)
 
 ### Authorization
 
@@ -9230,9 +9230,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService
+## comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic
 
-> ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService(opts)
+> ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic(opts)
 
 
 
@@ -9252,7 +9252,7 @@ let opts = {
   'fieldWhitelist': ["null"], // [String] | 
   'attachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -9277,7 +9277,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo**](ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo.md)
+[**ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo**](ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo.md)
 
 ### Authorization
 
@@ -9289,9 +9289,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl
+## comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI
 
-> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl(opts)
+> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI(opts)
 
 
 
@@ -9311,7 +9311,7 @@ let opts = {
   'cqSocialReportingAnalyticsPollingImporterInterval': 56, // Number | 
   'cqSocialReportingAnalyticsPollingImporterPageSize': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -9336,7 +9336,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo.md)
 
 ### Authorization
 
@@ -9348,9 +9348,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl
+## comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM
 
-> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl(opts)
+> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM(opts)
 
 
 
@@ -9369,7 +9369,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'reportFetchDelay': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -9393,7 +9393,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo.md)
 
 ### Authorization
 
@@ -9405,9 +9405,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory
+## comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS
 
-> ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory(opts)
+> ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS(opts)
 
 
 
@@ -9427,7 +9427,7 @@ let opts = {
   'cqSocialConsoleAnalyticsSitesMapping': ["null"], // [String] | 
   'priority': 56 // Number | 
 };
-apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -9452,7 +9452,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo.md)
 
 ### Authorization
 
@@ -9464,9 +9464,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService
+## comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi
 
-> ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService(opts)
+> ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi(opts)
 
 
 
@@ -9486,7 +9486,7 @@ let opts = {
   'fieldWhitelist': ["null"], // [String] | 
   'attachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -9511,7 +9511,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo**](ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo.md)
+[**ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo**](ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo.md)
 
 ### Authorization
 
@@ -9818,9 +9818,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl
+## comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm
 
-> ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl(opts)
+> ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm(opts)
 
 
 
@@ -9839,7 +9839,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'cqSocialConsoleAnalyticsComponents': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -9863,7 +9863,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo**](ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo.md)
+[**ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo**](ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo.md)
 
 ### Authorization
 
@@ -10741,9 +10741,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService
+## comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli
 
-> ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService(opts)
+> ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli(opts)
 
 
 
@@ -10763,7 +10763,7 @@ let opts = {
   'defaultAttachmentTypeBlacklist': ["null"], // [String] | 
   'baselineAttachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService(opts, (error, data, response) => {
+apiInstance.comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -10788,7 +10788,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo**](ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
+[**ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo**](ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo.md)
 
 ### Authorization
 
@@ -10997,9 +10997,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended
+## comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact
 
-> ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended(opts)
+> ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact(opts)
 
 
 
@@ -11018,7 +11018,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'resourceTypes': ["null"] // [String] | 
 };
-apiInstance.comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended(opts, (error, data, response) => {
+apiInstance.comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -11042,7 +11042,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo**](ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo.md)
+[**ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo**](ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo.md)
 
 ### Authorization
 
@@ -11837,9 +11837,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl
+## comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp
 
-> ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl(opts)
+> ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp(opts)
 
 
 
@@ -11858,7 +11858,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'tempStorageConfig': "tempStorageConfig_example" // String | 
 };
-apiInstance.comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl(opts, (error, data, response) => {
+apiInstance.comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -11882,7 +11882,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo**](ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo.md)
+[**ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo**](ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo.md)
 
 ### Authorization
 
@@ -14517,9 +14517,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory
+## comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac
 
-> ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory(opts)
+> ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac(opts)
 
 
 
@@ -14538,7 +14538,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'replicateCommentResourceTypes': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -14562,7 +14562,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo**](ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo.md)
+[**ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo**](ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo.md)
 
 ### Authorization
 
@@ -14753,9 +14753,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy
+## comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving
 
-> ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy(opts)
+> ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving(opts)
 
 
 
@@ -14775,7 +14775,7 @@ let opts = {
   'enabled': true, // Boolean | 
   'fallbackPaths': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -14800,7 +14800,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo**](ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo.md)
+[**ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo**](ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo.md)
 
 ### Authorization
 
@@ -15064,9 +15064,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider
+## comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe
 
-> ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider(opts)
+> ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe(opts)
 
 
 
@@ -15087,7 +15087,7 @@ let opts = {
   'username': "username_example", // String | 
   'encryptedPassword': "encryptedPassword_example" // String | 
 };
-apiInstance.comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -15113,7 +15113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo**](ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo**](ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo.md)
 
 ### Authorization
 
@@ -15257,9 +15257,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer
+## comAdobeGraniteDistributionCoreImplDistributionToReplicationEven
 
-> ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer(opts)
+> ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo comAdobeGraniteDistributionCoreImplDistributionToReplicationEven(opts)
 
 
 
@@ -15278,7 +15278,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'importerName': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteDistributionCoreImplDistributionToReplicationEven(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -15302,7 +15302,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo**](ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo.md)
+[**ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo**](ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo.md)
 
 ### Authorization
 
@@ -15314,9 +15314,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider
+## comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat
 
-> ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider(opts)
+> ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat(opts)
 
 
 
@@ -15336,7 +15336,7 @@ let opts = {
   'providerName': "providerName_example", // String | 
   'forwardRequests': true // Boolean | 
 };
-apiInstance.comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -15361,7 +15361,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo**](ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo**](ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo.md)
 
 ### Authorization
 
@@ -15373,9 +15373,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler
+## comAdobeGraniteDistributionCoreImplReplicationDistributionTrans
 
-> ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler(opts)
+> ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo comAdobeGraniteDistributionCoreImplReplicationDistributionTrans(opts)
 
 
 
@@ -15394,7 +15394,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'forwardRequests': true // Boolean | 
 };
-apiInstance.comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteDistributionCoreImplReplicationDistributionTrans(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -15418,7 +15418,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo**](ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo.md)
+[**ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo**](ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo.md)
 
 ### Authorization
 
@@ -15430,9 +15430,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider
+## comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu
 
-> ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider(opts)
+> ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu(opts)
 
 
 
@@ -15454,7 +15454,7 @@ let opts = {
   'userId': "userId_example", // String | 
   'accessTokenProviderTarget': "accessTokenProviderTarget_example" // String | 
 };
-apiInstance.comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -15481,7 +15481,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo**](ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo**](ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo.md)
 
 ### Authorization
 
@@ -16396,9 +16396,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler
+## comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan
 
-> ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler(opts)
+> ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan(opts)
 
 
 
@@ -16421,7 +16421,7 @@ let opts = {
   'jaasRanking': 56, // Number | 
   'oauthOfflineValidation': true // Boolean | 
 };
-apiInstance.comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -16449,7 +16449,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo**](ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo.md)
+[**ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo**](ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo.md)
 
 ### Authorization
 
@@ -16984,9 +16984,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter
+## comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo
 
-> ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter(opts)
+> ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo(opts)
 
 
 
@@ -17011,7 +17011,7 @@ let opts = {
   'defaultTransportContentpackage': true, // Boolean | 
   'offloadingTransporterDefaultEnabled': true // Boolean | 
 };
-apiInstance.comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -17041,7 +17041,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo**](ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo.md)
+[**ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo**](ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo.md)
 
 ### Authorization
 
@@ -17525,9 +17525,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck
+## comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC
 
-> ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck(opts)
+> ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC(opts)
 
 
 
@@ -17546,7 +17546,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'hcTags': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -17570,7 +17570,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo**](ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo.md)
+[**ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo**](ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.md)
 
 ### Authorization
 
@@ -17639,9 +17639,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck
+## comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC
 
-> ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck(opts)
+> ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC(opts)
 
 
 
@@ -17661,7 +17661,7 @@ let opts = {
   'hcTags': ["null"], // [String] | 
   'excludeSearchPath': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -17686,7 +17686,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo**](ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo.md)
+[**ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo**](ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo.md)
 
 ### Authorization
 
@@ -17755,9 +17755,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck
+## comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe
 
-> ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck(opts)
+> ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe(opts)
 
 
 
@@ -17776,7 +17776,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'hcTags': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -17800,7 +17800,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo.md)
+[**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.md)
 
 ### Authorization
 
@@ -18133,9 +18133,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl
+## comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm
 
-> ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl(opts)
+> ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm(opts)
 
 
 
@@ -18154,7 +18154,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'hcTags': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -18178,7 +18178,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo**](ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo.md)
+[**ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo**](ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo.md)
 
 ### Authorization
 
@@ -18481,9 +18481,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet
+## comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS
 
-> ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet(opts)
+> ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS(opts)
 
 
 
@@ -18502,7 +18502,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'hcTags': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -18526,7 +18526,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo**](ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo.md)
+[**ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo**](ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo.md)
 
 ### Authorization
 
@@ -18904,9 +18904,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory
+## comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor
 
-> ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory(opts)
+> ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor(opts)
 
 
 
@@ -18926,7 +18926,7 @@ let opts = {
   'adapterCondition': "adapterCondition_example", // String | 
   'taskmanagerAdmingroups': ["null"] // [String] | 
 };
-apiInstance.comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -18951,7 +18951,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo**](ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo.md)
+[**ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo**](ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo.md)
 
 ### Authorization
 
@@ -19036,9 +19036,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl
+## comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl
 
-> ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl(opts)
+> ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl(opts)
 
 
 
@@ -19065,7 +19065,7 @@ let opts = {
   'retryAttempts': 56, // Number | 
   'timeoutCount': 56 // Number | 
 };
-apiInstance.comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -19097,7 +19097,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo**](ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo.md)
+[**ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo**](ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.md)
 
 ### Authorization
 
@@ -19554,9 +19554,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer
+## comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum
 
-> ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer(opts)
+> ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum(opts)
 
 
 
@@ -19575,7 +19575,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'jobTopics': "jobTopics_example" // String | 
 };
-apiInstance.comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer(opts, (error, data, response) => {
+apiInstance.comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -19599,7 +19599,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo**](ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo.md)
+[**ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo**](ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo.md)
 
 ### Authorization
 
@@ -19995,9 +19995,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet
+## comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS
 
-> ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet(opts)
+> ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS(opts)
 
 
 
@@ -20016,7 +20016,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'communitiesIntegrationLivefyreSlingEventFilter': "communitiesIntegrationLivefyreSlingEventFilter_example" // String | 
 };
-apiInstance.comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet(opts, (error, data, response) => {
+apiInstance.comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -20040,7 +20040,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo**](ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo.md)
+[**ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo**](ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo.md)
 
 ### Authorization
 
@@ -20318,9 +20318,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter
+## comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte
 
-> ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter(opts)
+> ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte(opts)
 
 
 
@@ -20340,7 +20340,7 @@ let opts = {
   'allowedPaths': ["null"], // [String] | 
   'cqAnalyticsSaintExporterPagesize': 56 // Number | 
 };
-apiInstance.comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter(opts, (error, data, response) => {
+apiInstance.comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -20365,7 +20365,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo**](ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo.md)
+[**ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo**](ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo.md)
 
 ### Authorization
 
@@ -21221,9 +21221,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker
+## comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke
 
-> ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker(opts)
+> ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke(opts)
 
 
 
@@ -21243,7 +21243,7 @@ let opts = {
   'codeupgradetasks': ["null"], // [String] | 
   'codeupgradetaskfilters': ["null"] // [String] | 
 };
-apiInstance.comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker(opts, (error, data, response) => {
+apiInstance.comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -21268,7 +21268,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo**](ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo.md)
+[**ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo**](ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo.md)
 
 ### Authorization
 
@@ -22272,9 +22272,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag
+## comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat
 
-> ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag(opts)
+> ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat(opts)
 
 
 
@@ -22293,7 +22293,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'isEnabled': true // Boolean | 
 };
-apiInstance.comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag(opts, (error, data, response) => {
+apiInstance.comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -22317,7 +22317,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo**](ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo.md)
+[**ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo**](ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo.md)
 
 ### Authorization
 
@@ -22807,9 +22807,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService
+## comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig
 
-> ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService(opts)
+> ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(opts)
 
 
 
@@ -22829,7 +22829,7 @@ let opts = {
   'operation': "operation_example", // String | 
   'emailEnabled': true // Boolean | 
 };
-apiInstance.comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService(opts, (error, data, response) => {
+apiInstance.comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -22854,7 +22854,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo**](ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo.md)
+[**ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo**](ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo.md)
 
 ### Authorization
 
@@ -22866,9 +22866,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService
+## comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig
 
-> ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService(opts)
+> ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(opts)
 
 
 
@@ -22890,7 +22890,7 @@ let opts = {
   'topicName': "topicName_example", // String | 
   'emailEnabled': true // Boolean | 
 };
-apiInstance.comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService(opts, (error, data, response) => {
+apiInstance.comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -22917,7 +22917,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo**](ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo.md)
+[**ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo**](ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo.md)
 
 ### Authorization
 
@@ -23226,9 +23226,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess
+## comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr
 
-> ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess(opts)
+> ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr(opts)
 
 
 
@@ -23248,7 +23248,7 @@ let opts = {
   'processLabel': "processLabel_example", // String | 
   'notifyOnComplete': true // Boolean | 
 };
-apiInstance.comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess(opts, (error, data, response) => {
+apiInstance.comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -23273,7 +23273,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo**](ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo.md)
+[**ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo**](ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo.md)
 
 ### Authorization
 
@@ -25431,9 +25431,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess
+## comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro
 
-> ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess(opts)
+> ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro(opts)
 
 
 
@@ -25452,7 +25452,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'deleteZipFile': true // Boolean | 
 };
-apiInstance.comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess(opts, (error, data, response) => {
+apiInstance.comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -25476,7 +25476,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo**](ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo.md)
+[**ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo**](ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo.md)
 
 ### Authorization
 
@@ -25488,9 +25488,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener
+## comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven
 
-> ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener(opts)
+> ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven(opts)
 
 
 
@@ -25509,7 +25509,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'cqDamS7damDynamicmediaconfigeventlistenerEnabled': true // Boolean | 
 };
-apiInstance.comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener(opts, (error, data, response) => {
+apiInstance.comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -25533,7 +25533,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo.md)
+[**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.md)
 
 ### Authorization
 
@@ -26320,9 +26320,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl
+## comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer
 
-> ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl(opts)
+> ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer(opts)
 
 
 
@@ -26342,7 +26342,7 @@ let opts = {
   'getCacheExpirationUnit': "getCacheExpirationUnit_example", // String | 
   'getCacheExpirationValue': 56 // Number | 
 };
-apiInstance.comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl(opts, (error, data, response) => {
+apiInstance.comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -26367,7 +26367,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo**](ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo.md)
+[**ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo**](ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo.md)
 
 ### Authorization
 
@@ -26379,9 +26379,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl
+## comDayCqDamStockIntegrationImplConfigurationStockConfiguration
 
-> ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl(opts)
+> ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo comDayCqDamStockIntegrationImplConfigurationStockConfiguration(opts)
 
 
 
@@ -26402,7 +26402,7 @@ let opts = {
   'locale': "locale_example", // String | 
   'imsConfig': "imsConfig_example" // String | 
 };
-apiInstance.comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl(opts, (error, data, response) => {
+apiInstance.comDayCqDamStockIntegrationImplConfigurationStockConfiguration(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -26428,7 +26428,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo**](ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo.md)
+[**ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo**](ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo.md)
 
 ### Authorization
 
@@ -27164,9 +27164,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory
+## comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen
 
-> ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen(opts)
 
 
 
@@ -27187,7 +27187,7 @@ let opts = {
   'tagpattern': "tagpattern_example", // String | 
   'componentResourceType': "componentResourceType_example" // String | 
 };
-apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -27213,7 +27213,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo.md)
 
 ### Authorization
 
@@ -27225,9 +27225,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory
+## comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug
 
-> ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug(opts)
 
 
 
@@ -27248,7 +27248,7 @@ let opts = {
   'tagpattern': "tagpattern_example", // String | 
   'componentResourceType': "componentResourceType_example" // String | 
 };
-apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -27274,7 +27274,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo.md)
 
 ### Authorization
 
@@ -27286,9 +27286,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory
+## comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent
 
-> ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent(opts)
 
 
 
@@ -27308,7 +27308,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -27333,7 +27333,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo.md)
 
 ### Authorization
 
@@ -27345,9 +27345,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory
+## comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa
 
-> ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa(opts)
 
 
 
@@ -27367,7 +27367,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -27392,7 +27392,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.md)
 
 ### Authorization
 
@@ -27404,9 +27404,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory
+## comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH
 
-> ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory(opts)
+> ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH(opts)
 
 
 
@@ -27427,7 +27427,7 @@ let opts = {
   'tagpattern': "tagpattern_example", // String | 
   'componentResourceType': "componentResourceType_example" // String | 
 };
-apiInstance.comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -27453,7 +27453,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.md)
 
 ### Authorization
 
@@ -28006,9 +28006,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService
+## comDayCqReplicationImplContentDurboDurboImportConfigurationProv
 
-> ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService(opts)
+> ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo comDayCqReplicationImplContentDurboDurboImportConfigurationProv(opts)
 
 
 
@@ -28035,7 +28035,7 @@ let opts = {
   'preserveUuidSubtrees': ["null"], // [String] | 
   'autoCommit': true // Boolean | 
 };
-apiInstance.comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService(opts, (error, data, response) => {
+apiInstance.comDayCqReplicationImplContentDurboDurboImportConfigurationProv(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -28067,7 +28067,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo**](ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo.md)
+[**ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo**](ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo.md)
 
 ### Authorization
 
@@ -29539,9 +29539,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory
+## comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor
 
-> ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory(opts)
+> ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor(opts)
 
 
 
@@ -29565,7 +29565,7 @@ let opts = {
   'cqContentsyncPathrewritertransformerClientlibraryPattern': "cqContentsyncPathrewritertransformerClientlibraryPattern_example", // String | 
   'cqContentsyncPathrewritertransformerClientlibraryReplace': "cqContentsyncPathrewritertransformerClientlibraryReplace_example" // String | 
 };
-apiInstance.comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -29594,7 +29594,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo**](ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo.md)
+[**ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo**](ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo.md)
 
 ### Authorization
 
@@ -30383,9 +30383,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler
+## comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie
 
-> ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler(opts)
+> ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie(opts)
 
 
 
@@ -30404,7 +30404,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'itemResourceTypes': ["null"] // [String] | 
 };
-apiInstance.comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler(opts, (error, data, response) => {
+apiInstance.comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -30428,7 +30428,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo**](ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo.md)
+[**ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo**](ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo.md)
 
 ### Authorization
 
@@ -31573,9 +31573,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone(opts)
 
 
 
@@ -31595,7 +31595,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -31620,7 +31620,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.md)
 
 ### Authorization
 
@@ -31632,9 +31632,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon(opts)
 
 
 
@@ -31654,7 +31654,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -31679,7 +31679,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo.md)
 
 ### Authorization
 
@@ -31691,9 +31691,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan(opts)
 
 
 
@@ -31713,7 +31713,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -31738,7 +31738,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo.md)
 
 ### Authorization
 
@@ -31750,9 +31750,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle(opts)
 
 
 
@@ -31772,7 +31772,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -31797,7 +31797,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo.md)
 
 ### Authorization
 
@@ -31809,9 +31809,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand(opts)
 
 
 
@@ -31831,7 +31831,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -31856,7 +31856,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo.md)
 
 ### Authorization
 
@@ -31868,9 +31868,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen(opts)
 
 
 
@@ -31891,7 +31891,7 @@ let opts = {
   'tagpattern': "tagpattern_example", // String | 
   'componentResourceType': "componentResourceType_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -31917,7 +31917,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo.md)
 
 ### Authorization
 
@@ -31929,9 +31929,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler(opts)
 
 
 
@@ -31951,7 +31951,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -31976,7 +31976,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo.md)
 
 ### Authorization
 
@@ -31988,9 +31988,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT(opts)
 
 
 
@@ -32010,7 +32010,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32035,7 +32035,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo.md)
 
 ### Authorization
 
@@ -32047,9 +32047,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle(opts)
 
 
 
@@ -32069,7 +32069,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32094,7 +32094,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo.md)
 
 ### Authorization
 
@@ -32106,9 +32106,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle(opts)
 
 
 
@@ -32128,7 +32128,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32153,7 +32153,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo.md)
 
 ### Authorization
 
@@ -32165,9 +32165,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH(opts)
 
 
 
@@ -32187,7 +32187,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32212,7 +32212,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo.md)
 
 ### Authorization
 
@@ -32224,9 +32224,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone(opts)
 
 
 
@@ -32247,7 +32247,7 @@ let opts = {
   'tagpattern': "tagpattern_example", // String | 
   'componentResourceType': "componentResourceType_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32273,7 +32273,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo.md)
 
 ### Authorization
 
@@ -32285,9 +32285,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand(opts)
 
 
 
@@ -32307,7 +32307,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32332,7 +32332,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo.md)
 
 ### Authorization
 
@@ -32344,9 +32344,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl(opts)
 
 
 
@@ -32366,7 +32366,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32391,7 +32391,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.md)
 
 ### Authorization
 
@@ -32403,9 +32403,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent(opts)
 
 
 
@@ -32426,7 +32426,7 @@ let opts = {
   'tagpattern': "tagpattern_example", // String | 
   'componentResourceType': "componentResourceType_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32452,7 +32452,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo.md)
 
 ### Authorization
 
@@ -32464,9 +32464,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen(opts)
 
 
 
@@ -32487,7 +32487,7 @@ let opts = {
   'tagpattern': "tagpattern_example", // String | 
   'componentResourceType': "componentResourceType_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32513,7 +32513,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo.md)
 
 ### Authorization
 
@@ -32525,9 +32525,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory
+## comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl
 
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory(opts)
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl(opts)
 
 
 
@@ -32547,7 +32547,7 @@ let opts = {
   'serviceRanking': 56, // Number | 
   'tagpattern': "tagpattern_example" // String | 
 };
-apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory(opts, (error, data, response) => {
+apiInstance.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -32572,7 +32572,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo.md)
 
 ### Authorization
 
@@ -33068,9 +33068,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService
+## comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist
 
-> ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService(opts)
+> ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist(opts)
 
 
 
@@ -33090,7 +33090,7 @@ let opts = {
   'defaultAttachmentTypeBlacklist': ["null"], // [String] | 
   'baselineAttachmentTypeBlacklist': ["null"] // [String] | 
 };
-apiInstance.comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService(opts, (error, data, response) => {
+apiInstance.comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -33115,7 +33115,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo**](ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
+[**ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo**](ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo.md)
 
 ### Authorization
 
@@ -35908,9 +35908,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator
+## orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo
 
-> OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator(opts)
+> OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo(opts)
 
 
 
@@ -35931,7 +35931,7 @@ let opts = {
   'felixMemoryusageDumpInterval': 56, // Number | 
   'felixMemoryusageDumpLocation': "felixMemoryusageDumpLocation_example" // String | 
 };
-apiInstance.orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator(opts, (error, data, response) => {
+apiInstance.orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -35957,7 +35957,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo**](OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo.md)
+[**OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo**](OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo.md)
 
 ### Authorization
 
@@ -36036,9 +36036,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService
+## orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider
 
-> OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService(opts)
+> OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider(opts)
 
 
 
@@ -36057,7 +36057,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'dir': "dir_example" // String | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36081,7 +36081,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo**](OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo**](OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo.md)
 
 ### Authorization
 
@@ -36265,9 +36265,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset
+## orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre
 
-> OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset(opts)
+> OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre(opts)
 
 
 
@@ -36286,7 +36286,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'persistentCacheIncludes': ["null"] // [String] | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36310,7 +36310,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo**](OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo.md)
+[**OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo**](OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.md)
 
 ### Authorization
 
@@ -36322,9 +36322,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService
+## orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac
 
-> OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService(opts)
+> OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac(opts)
 
 
 
@@ -36345,7 +36345,7 @@ let opts = {
   'enableAsyncObserver': true, // Boolean | 
   'observerQueueSize': 56 // Number | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36371,7 +36371,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo**](OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo**](OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo.md)
 
 ### Authorization
 
@@ -36446,9 +36446,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService
+## orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ
 
-> OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService(opts)
+> OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ(opts)
 
 
 
@@ -36482,7 +36482,7 @@ let opts = {
   'propIndexCleanerIntervalInSecs': 56, // Number | 
   'enableSingleBlobIndexFiles': true // Boolean | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36521,7 +36521,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo**](OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo.md)
 
 ### Authorization
 
@@ -36533,9 +36533,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider
+## orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo(opts)
 
 
 
@@ -36555,7 +36555,7 @@ let opts = {
   'solrHomePath': "solrHomePath_example", // String | 
   'solrCoreName': "solrCoreName_example" // String | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36580,7 +36580,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo.md)
 
 ### Authorization
 
@@ -36592,9 +36592,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService
+## orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers(opts)
 
 
 
@@ -36613,7 +36613,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'enabled': true // Boolean | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36637,7 +36637,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo.md)
 
 ### Authorization
 
@@ -36649,9 +36649,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService
+## orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration(opts)
 
 
 
@@ -36686,7 +36686,7 @@ let opts = {
   'propertyMappings': ["null"], // [String] | 
   'collapseJcrcontentNodes': true // Boolean | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36726,7 +36726,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo.md)
 
 ### Authorization
 
@@ -36738,9 +36738,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider
+## orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf(opts)
 
 
 
@@ -36766,7 +36766,7 @@ let opts = {
   'solrReplicationFactor': 56, // Number | 
   'solrConfDir': "solrConfDir_example" // String | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36797,7 +36797,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo.md)
 
 ### Authorization
 
@@ -36809,9 +36809,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService
+## orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid(opts)
 
 
 
@@ -36830,7 +36830,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'queryAggregation': true // Boolean | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36854,7 +36854,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo.md)
 
 ### Authorization
 
@@ -36866,9 +36866,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService
+## orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe
 
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService(opts)
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe(opts)
 
 
 
@@ -36887,7 +36887,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'serverType': "serverType_example" // String | 
 };
-apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -36911,7 +36911,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo.md)
 
 ### Authorization
 
@@ -37104,9 +37104,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl
+## orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig
 
-> OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl(opts)
+> OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig(opts)
 
 
 
@@ -37126,7 +37126,7 @@ let opts = {
   'orgApacheJackrabbitOakAuthenticationAppName': "orgApacheJackrabbitOakAuthenticationAppName_example", // String | 
   'orgApacheJackrabbitOakAuthenticationConfigSpiName': "orgApacheJackrabbitOakAuthenticationConfigSpiName_example" // String | 
 };
-apiInstance.orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -37151,7 +37151,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.md)
 
 ### Authorization
 
@@ -37163,9 +37163,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider
+## orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti
 
-> OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider(opts)
+> OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti(opts)
 
 
 
@@ -37209,7 +37209,7 @@ let opts = {
   'useUidForExtId': true, // Boolean | 
   'customattributes': ["null"] // [String] | 
 };
-apiInstance.orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -37258,7 +37258,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo**](OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo**](OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo.md)
 
 ### Authorization
 
@@ -37270,9 +37270,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl
+## orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura
 
-> OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl(opts)
+> OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura(opts)
 
 
 
@@ -37297,7 +37297,7 @@ let opts = {
   'passwordHashIterations': 56, // Number | 
   'passwordSaltSize': 56 // Number | 
 };
-apiInstance.orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -37327,7 +37327,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo**](OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo.md)
 
 ### Authorization
 
@@ -37339,9 +37339,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl
+## orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur
 
-> OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl(opts)
+> OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur(opts)
 
 
 
@@ -37364,7 +37364,7 @@ let opts = {
   'administrativePrincipals': ["null"], // [String] | 
   'configurationRanking': 56 // Number | 
 };
-apiInstance.orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -37392,7 +37392,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo**](OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.md)
 
 ### Authorization
 
@@ -37404,9 +37404,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration
+## orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati
 
-> OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration(opts)
+> OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati(opts)
 
 
 
@@ -37426,7 +37426,7 @@ let opts = {
   'requiredServicePids': ["null"], // [String] | 
   'authorizationCompositionType': "authorizationCompositionType_example" // String | 
 };
-apiInstance.orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -37451,7 +37451,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo**](OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo.md)
+[**OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo**](OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo.md)
 
 ### Authorization
 
@@ -38014,9 +38014,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler
+## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe
 
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe(opts)
 
 
 
@@ -38048,7 +38048,7 @@ let opts = {
   'groupPathPrefix': "groupPathPrefix_example", // String | 
   'enableRFC7613UsercaseMappedProfile': true // Boolean | 
 };
-apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38085,7 +38085,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo.md)
 
 ### Authorization
 
@@ -38097,9 +38097,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory
+## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx
 
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx(opts)
 
 
 
@@ -38122,7 +38122,7 @@ let opts = {
   'idpName': "idpName_example", // String | 
   'syncHandlerName': "syncHandlerName_example" // String | 
 };
-apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38150,7 +38150,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo.md)
 
 ### Authorization
 
@@ -38162,9 +38162,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration
+## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr
 
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr(opts)
 
 
 
@@ -38183,7 +38183,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'protectExternalId': true // Boolean | 
 };
-apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38207,7 +38207,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo.md)
 
 ### Authorization
 
@@ -38219,9 +38219,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration
+## orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi
 
-> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi(opts)
 
 
 
@@ -38242,7 +38242,7 @@ let opts = {
   'cugEnabled': true, // Boolean | 
   'configurationRanking': 56 // Number | 
 };
-apiInstance.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38268,7 +38268,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo.md)
 
 ### Authorization
 
@@ -38280,9 +38280,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl
+## orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu
 
-> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl(opts)
+> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu(opts)
 
 
 
@@ -38301,7 +38301,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'principalNames': ["null"] // [String] | 
 };
-apiInstance.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38325,7 +38325,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo.md)
 
 ### Authorization
 
@@ -38337,9 +38337,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider
+## orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable
 
-> OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider(opts)
+> OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable(opts)
 
 
 
@@ -38361,7 +38361,7 @@ let opts = {
   'groupPrivilegeNames': ["null"], // [String] | 
   'constraint': "constraint_example" // String | 
 };
-apiInstance.orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider(opts, (error, data, response) => {
+apiInstance.orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38388,7 +38388,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo**](OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo**](OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo.md)
 
 ### Authorization
 
@@ -38687,9 +38687,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy
+## orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra
 
-> OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy(opts)
+> OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra(opts)
 
 
 
@@ -38709,7 +38709,7 @@ let opts = {
   'enabled': true, // Boolean | 
   'configPropertyInheritancePropertyNames': ["null"] // [String] | 
 };
-apiInstance.orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy(opts, (error, data, response) => {
+apiInstance.orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38734,7 +38734,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo.md)
+[**OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo.md)
 
 ### Authorization
 
@@ -38746,9 +38746,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy
+## orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra
 
-> OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy(opts)
+> OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra(opts)
 
 
 
@@ -38767,7 +38767,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'enabled': true // Boolean | 
 };
-apiInstance.orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy(opts, (error, data, response) => {
+apiInstance.orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38791,7 +38791,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo.md)
+[**OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo.md)
 
 ### Authorization
 
@@ -38803,9 +38803,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider
+## orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi
 
-> OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider(opts)
+> OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi(opts)
 
 
 
@@ -38827,7 +38827,7 @@ let opts = {
   'enabled': true, // Boolean | 
   'serviceRanking': 56 // Number | 
 };
-apiInstance.orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider(opts, (error, data, response) => {
+apiInstance.orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38854,7 +38854,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo**](OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo.md)
+[**OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo**](OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo.md)
 
 ### Authorization
 
@@ -38866,9 +38866,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider
+## orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve
 
-> OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider(opts)
+> OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve(opts)
 
 
 
@@ -38888,7 +38888,7 @@ let opts = {
   'enabled': true, // Boolean | 
   'serviceRanking': 56 // Number | 
 };
-apiInstance.orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider(opts, (error, data, response) => {
+apiInstance.orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38913,7 +38913,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo**](OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo.md)
+[**OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo**](OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo.md)
 
 ### Authorization
 
@@ -38925,9 +38925,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl
+## orgApacheSlingCaconfigManagementImplConfigurationManagementSetti
 
-> OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl(opts)
+> OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo orgApacheSlingCaconfigManagementImplConfigurationManagementSetti(opts)
 
 
 
@@ -38947,7 +38947,7 @@ let opts = {
   'ignorePropertyNameRegex': ["null"], // [String] | 
   'configCollectionPropertiesResourceNames': ["null"] // [String] | 
 };
-apiInstance.orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl(opts, (error, data, response) => {
+apiInstance.orgApacheSlingCaconfigManagementImplConfigurationManagementSetti(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -38972,7 +38972,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo**](OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo.md)
+[**OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo**](OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo.md)
 
 ### Authorization
 
@@ -38984,9 +38984,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy
+## orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour
 
-> OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy(opts)
+> OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour(opts)
 
 
 
@@ -39008,7 +39008,7 @@ let opts = {
   'fallbackPaths': ["null"], // [String] | 
   'configCollectionInheritancePropertyNames': ["null"] // [String] | 
 };
-apiInstance.orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy(opts, (error, data, response) => {
+apiInstance.orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -39035,7 +39035,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo**](OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo.md)
+[**OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo**](OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo.md)
 
 ### Authorization
 
@@ -40088,9 +40088,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory
+## orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto
 
-> OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory(opts)
+> OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto(opts)
 
 
 
@@ -40128,7 +40128,7 @@ let opts = {
   'asyncDelivery': true, // Boolean | 
   'httpConnTimeout': 56 // Number | 
 };
-apiInstance.orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40171,7 +40171,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo**](OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo.md)
 
 ### Authorization
 
@@ -40183,9 +40183,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory
+## orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA
 
-> OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory(opts)
+> OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA(opts)
 
 
 
@@ -40205,7 +40205,7 @@ let opts = {
   'name': "name_example", // String | 
   'jcrPrivilege': "jcrPrivilege_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40230,7 +40230,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo**](OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo**](OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo.md)
 
 ### Authorization
 
@@ -40321,9 +40321,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory
+## orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto
 
-> OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory(opts)
+> OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto(opts)
 
 
 
@@ -40355,7 +40355,7 @@ let opts = {
   'packageBuilderTarget': "packageBuilderTarget_example", // String | 
   'triggersTarget': "triggersTarget_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40392,7 +40392,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo**](OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.md)
 
 ### Authorization
 
@@ -40404,9 +40404,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory
+## orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor
 
-> OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory(opts)
+> OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor(opts)
 
 
 
@@ -40435,7 +40435,7 @@ let opts = {
   'requestAuthorizationStrategyTarget': "requestAuthorizationStrategyTarget_example", // String | 
   'triggersTarget': "triggersTarget_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40469,7 +40469,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo**](OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo.md)
 
 ### Authorization
 
@@ -40635,9 +40635,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory
+## orgApacheSlingDistributionPackagingImplExporterAgentDistributio
 
-> OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory(opts)
+> OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo orgApacheSlingDistributionPackagingImplExporterAgentDistributio(opts)
 
 
 
@@ -40659,7 +40659,7 @@ let opts = {
   'dropInvalidItems': true, // Boolean | 
   'agentTarget': "agentTarget_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionPackagingImplExporterAgentDistributio(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40686,7 +40686,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo**](OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo.md)
 
 ### Authorization
 
@@ -40698,9 +40698,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory
+## orgApacheSlingDistributionPackagingImplExporterLocalDistributio
 
-> OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory(opts)
+> OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo orgApacheSlingDistributionPackagingImplExporterLocalDistributio(opts)
 
 
 
@@ -40720,7 +40720,7 @@ let opts = {
   'name': "name_example", // String | 
   'packageBuilderTarget': "packageBuilderTarget_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionPackagingImplExporterLocalDistributio(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40745,7 +40745,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo**](OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo.md)
 
 ### Authorization
 
@@ -40757,9 +40757,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory
+## orgApacheSlingDistributionPackagingImplExporterRemoteDistributi
 
-> OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory(opts)
+> OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplExporterRemoteDistributi(opts)
 
 
 
@@ -40782,7 +40782,7 @@ let opts = {
   'packageBuilderTarget': "packageBuilderTarget_example", // String | 
   'transportSecretProviderTarget': "transportSecretProviderTarget_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionPackagingImplExporterRemoteDistributi(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40810,7 +40810,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.md)
 
 ### Authorization
 
@@ -40822,9 +40822,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory
+## orgApacheSlingDistributionPackagingImplImporterLocalDistributio
 
-> OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory(opts)
+> OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo orgApacheSlingDistributionPackagingImplImporterLocalDistributio(opts)
 
 
 
@@ -40844,7 +40844,7 @@ let opts = {
   'name': "name_example", // String | 
   'packageBuilderTarget': "packageBuilderTarget_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionPackagingImplImporterLocalDistributio(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40869,7 +40869,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo**](OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo.md)
 
 ### Authorization
 
@@ -40881,9 +40881,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory
+## orgApacheSlingDistributionPackagingImplImporterRemoteDistributi
 
-> OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory(opts)
+> OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplImporterRemoteDistributi(opts)
 
 
 
@@ -40904,7 +40904,7 @@ let opts = {
   'endpoints': ["null"], // [String] | 
   'transportSecretProviderTarget': "transportSecretProviderTarget_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionPackagingImplImporterRemoteDistributi(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40930,7 +40930,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo**](OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo.md)
 
 ### Authorization
 
@@ -40942,9 +40942,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory
+## orgApacheSlingDistributionPackagingImplImporterRepositoryDistri
 
-> OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory(opts)
+> OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo orgApacheSlingDistributionPackagingImplImporterRepositoryDistri(opts)
 
 
 
@@ -40966,7 +40966,7 @@ let opts = {
   'path': "path_example", // String | 
   'privilegeName': "privilegeName_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionPackagingImplImporterRepositoryDistri(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -40993,7 +40993,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo**](OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo.md)
 
 ### Authorization
 
@@ -41005,9 +41005,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory
+## orgApacheSlingDistributionResourcesImplDistributionConfiguration
 
-> OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory(opts)
+> OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo orgApacheSlingDistributionResourcesImplDistributionConfiguration(opts)
 
 
 
@@ -41027,7 +41027,7 @@ let opts = {
   'providerRoots': "providerRoots_example", // String | 
   'kind': "kind_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionResourcesImplDistributionConfiguration(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41052,7 +41052,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo**](OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo.md)
+[**OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo**](OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo.md)
 
 ### Authorization
 
@@ -41064,9 +41064,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory
+## orgApacheSlingDistributionResourcesImplDistributionServiceResour
 
-> OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory(opts)
+> OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo orgApacheSlingDistributionResourcesImplDistributionServiceResour(opts)
 
 
 
@@ -41086,7 +41086,7 @@ let opts = {
   'providerRoots': "providerRoots_example", // String | 
   'kind': "kind_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionResourcesImplDistributionServiceResour(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41111,7 +41111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo**](OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo.md)
+[**OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo**](OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo.md)
 
 ### Authorization
 
@@ -41123,9 +41123,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory
+## orgApacheSlingDistributionSerializationImplDistributionPackageBu
 
-> OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory(opts)
+> OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo orgApacheSlingDistributionSerializationImplDistributionPackageBu(opts)
 
 
 
@@ -41155,7 +41155,7 @@ let opts = {
   'packageFilters': ["null"], // [String] | 
   'propertyFilters': ["null"] // [String] | 
 };
-apiInstance.orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionSerializationImplDistributionPackageBu(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41190,7 +41190,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo**](OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo.md)
+[**OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo**](OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo.md)
 
 ### Authorization
 
@@ -41202,9 +41202,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory
+## orgApacheSlingDistributionSerializationImplVltVaultDistribution
 
-> OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory(opts)
+> OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo orgApacheSlingDistributionSerializationImplVltVaultDistribution(opts)
 
 
 
@@ -41240,7 +41240,7 @@ let opts = {
   'pathsMapping': ["null"], // [String] | 
   'strictImport': true // Boolean | 
 };
-apiInstance.orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionSerializationImplVltVaultDistribution(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41281,7 +41281,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo**](OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo.md)
+[**OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo**](OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo.md)
 
 ### Authorization
 
@@ -41293,9 +41293,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider
+## orgApacheSlingDistributionTransportImplUserCredentialsDistributi
 
-> OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider(opts)
+> OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo orgApacheSlingDistributionTransportImplUserCredentialsDistributi(opts)
 
 
 
@@ -41316,7 +41316,7 @@ let opts = {
   'username': "username_example", // String | 
   'password': "password_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionTransportImplUserCredentialsDistributi(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41342,7 +41342,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo**](OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo.md)
+[**OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo**](OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo.md)
 
 ### Authorization
 
@@ -41354,9 +41354,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory
+## orgApacheSlingDistributionTriggerImplDistributionEventDistribute
 
-> OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory(opts)
+> OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo orgApacheSlingDistributionTriggerImplDistributionEventDistribute(opts)
 
 
 
@@ -41376,7 +41376,7 @@ let opts = {
   'name': "name_example", // String | 
   'path': "path_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionTriggerImplDistributionEventDistribute(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41401,7 +41401,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo**](OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo.md)
 
 ### Authorization
 
@@ -41413,9 +41413,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory
+## orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger
 
-> OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory(opts)
+> OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger(opts)
 
 
 
@@ -41438,7 +41438,7 @@ let opts = {
   'serviceName': "serviceName_example", // String | 
   'deep': true // Boolean | 
 };
-apiInstance.orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41466,7 +41466,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo**](OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo.md)
 
 ### Authorization
 
@@ -41478,9 +41478,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory
+## orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi
 
-> OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory(opts)
+> OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi(opts)
 
 
 
@@ -41502,7 +41502,7 @@ let opts = {
   'serviceName': "serviceName_example", // String | 
   'nuggetsPath': "nuggetsPath_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41529,7 +41529,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo**](OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.md)
 
 ### Authorization
 
@@ -41541,9 +41541,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory
+## orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig
 
-> OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory(opts)
+> OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig(opts)
 
 
 
@@ -41564,7 +41564,7 @@ let opts = {
   'endpoint': "endpoint_example", // String | 
   'transportSecretProviderTarget': "transportSecretProviderTarget_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41590,7 +41590,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo**](OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo.md)
 
 ### Authorization
 
@@ -41602,9 +41602,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory
+## orgApacheSlingDistributionTriggerImplResourceEventDistributionTr
 
-> OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory(opts)
+> OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo orgApacheSlingDistributionTriggerImplResourceEventDistributionTr(opts)
 
 
 
@@ -41624,7 +41624,7 @@ let opts = {
   'name': "name_example", // String | 
   'path': "path_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionTriggerImplResourceEventDistributionTr(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41649,7 +41649,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo**](OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo.md)
 
 ### Authorization
 
@@ -41661,9 +41661,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory
+## orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge
 
-> OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory(opts)
+> OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge(opts)
 
 
 
@@ -41685,7 +41685,7 @@ let opts = {
   'seconds': "seconds_example", // String | 
   'serviceName': "serviceName_example" // String | 
 };
-apiInstance.orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -41712,7 +41712,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo**](OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.md)
 
 ### Authorization
 
@@ -42451,9 +42451,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider
+## orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW
 
-> OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider(opts)
+> OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW(opts)
 
 
 
@@ -42473,7 +42473,7 @@ let opts = {
   'users': ["null"], // [String] | 
   'groups': ["null"] // [String] | 
 };
-apiInstance.orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider(opts, (error, data, response) => {
+apiInstance.orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -42498,7 +42498,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo**](OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo.md)
+[**OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo**](OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo.md)
 
 ### Authorization
 
@@ -43957,9 +43957,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService
+## orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic
 
-> OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService(opts)
+> OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic(opts)
 
 
 
@@ -43978,7 +43978,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'serviceRanking': 56 // Number | 
 };
-apiInstance.orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService(opts, (error, data, response) => {
+apiInstance.orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -44002,7 +44002,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo**](OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo.md)
+[**OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo**](OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo.md)
 
 ### Authorization
 
@@ -44266,9 +44266,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory
+## orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto
 
-> OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory(opts)
+> OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto(opts)
 
 
 
@@ -44289,7 +44289,7 @@ let opts = {
   'felixInventoryPrinterTitle': "felixInventoryPrinterTitle_example", // String | 
   'path': "path_example" // String | 
 };
-apiInstance.orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -44315,7 +44315,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo**](OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo.md)
+[**OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo**](OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo.md)
 
 ### Authorization
 
@@ -44504,9 +44504,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl
+## orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider
 
-> OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl(opts)
+> OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider(opts)
 
 
 
@@ -44525,7 +44525,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'logStacktraceOnclose': true // Boolean | 
 };
-apiInstance.orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl(opts, (error, data, response) => {
+apiInstance.orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -44549,7 +44549,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo**](OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo.md)
+[**OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo**](OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo.md)
 
 ### Authorization
 
@@ -44624,9 +44624,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory
+## orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa
 
-> OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory(opts)
+> OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa(opts)
 
 
 
@@ -44645,7 +44645,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'orgApacheSlingScriptingJavascriptRhinoOptLevel': 56 // Number | 
 };
-apiInstance.orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory(opts, (error, data, response) => {
+apiInstance.orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -44669,7 +44669,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo**](OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo.md)
+[**OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo**](OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo.md)
 
 ### Authorization
 
@@ -44758,9 +44758,9 @@ No authorization required
 - **Accept**: application/json
 
 
-## orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider
+## orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv
 
-> OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider(opts)
+> OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv(opts)
 
 
 
@@ -44779,7 +44779,7 @@ let opts = {
   'propertylist': ["null"], // [String] | 
   'orgApacheSlingScriptingSightlyJsBindings': ["null"] // [String] | 
 };
-apiInstance.orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider(opts, (error, data, response) => {
+apiInstance.orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv(opts, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
@@ -44803,7 +44803,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo**](OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo.md)
+[**OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo**](OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo.md)
 
 ### Authorization
 
