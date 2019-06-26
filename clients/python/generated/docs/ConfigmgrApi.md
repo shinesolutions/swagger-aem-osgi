@@ -5,7 +5,7 @@ All URIs are relative to *http://localhost*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**adaptive_form_and_interactive_communication_web_channel_configuration**](ConfigmgrApi.md#adaptive_form_and_interactive_communication_web_channel_configuration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Configuration | 
-[**adaptive_form_and_interactive_communication_web_channel_theme_configuration**](ConfigmgrApi.md#adaptive_form_and_interactive_communication_web_channel_theme_configuration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
+[**adaptive_form_and_interactive_communication_web_channel_theme_configur**](ConfigmgrApi.md#adaptive_form_and_interactive_communication_web_channel_theme_configur) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
 [**analytics_component_query_cache_service**](ConfigmgrApi.md#analytics_component_query_cache_service) | **POST** /system/console/configMgr/Analytics Component Query Cache Service | 
 [**apache_sling_health_check_result_html_serializer**](ConfigmgrApi.md#apache_sling_health_check_result_html_serializer) | **POST** /system/console/configMgr/Apache Sling Health Check Result HTML Serializer | 
 [**com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration**](ConfigmgrApi.md#com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration) | **POST** /system/console/configMgr/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration | 
@@ -23,7 +23,7 @@ Method | HTTP request | Description
 [**com_adobe_cq_cdn_rewriter_impl_aws_cloud_front_rewriter**](ConfigmgrApi.md#com_adobe_cq_cdn_rewriter_impl_aws_cloud_front_rewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter | 
 [**com_adobe_cq_cdn_rewriter_impl_cdn_config_service_impl**](ConfigmgrApi.md#com_adobe_cq_cdn_rewriter_impl_cdn_config_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl | 
 [**com_adobe_cq_cdn_rewriter_impl_cdn_rewriter**](ConfigmgrApi.md#com_adobe_cq_cdn_rewriter_impl_cdn_rewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNRewriter | 
-[**com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler**](ConfigmgrApi.md#com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
+[**com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle**](ConfigmgrApi.md#com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
 [**com_adobe_cq_commerce_impl_asset_dynamic_image_handler**](ConfigmgrApi.md#com_adobe_cq_commerce_impl_asset_dynamic_image_handler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.DynamicImageHandler | 
 [**com_adobe_cq_commerce_impl_asset_product_asset_handler_provider_impl**](ConfigmgrApi.md#com_adobe_cq_commerce_impl_asset_product_asset_handler_provider_impl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl | 
 [**com_adobe_cq_commerce_impl_asset_static_image_handler**](ConfigmgrApi.md#com_adobe_cq_commerce_impl_asset_static_image_handler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.StaticImageHandler | 
@@ -34,7 +34,7 @@ Method | HTTP request | Description
 [**com_adobe_cq_commerce_pim_impl_productfeed_product_feed_service_impl**](ConfigmgrApi.md#com_adobe_cq_commerce_pim_impl_productfeed_product_feed_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl | 
 [**com_adobe_cq_contentinsight_impl_reporting_services_settings_provider**](ConfigmgrApi.md#com_adobe_cq_contentinsight_impl_reporting_services_settings_provider) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider | 
 [**com_adobe_cq_contentinsight_impl_servlets_bright_edge_proxy_servlet**](ConfigmgrApi.md#com_adobe_cq_contentinsight_impl_servlets_bright_edge_proxy_servlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet | 
-[**com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet**](ConfigmgrApi.md#com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
+[**com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle**](ConfigmgrApi.md#com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
 [**com_adobe_cq_dam_cfm_impl_component_component_config_impl**](ConfigmgrApi.md#com_adobe_cq_dam_cfm_impl_component_component_config_impl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl | 
 [**com_adobe_cq_dam_cfm_impl_conf_feature_config_impl**](ConfigmgrApi.md#com_adobe_cq_dam_cfm_impl_conf_feature_config_impl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl | 
 [**com_adobe_cq_dam_cfm_impl_content_rewriter_asset_processor**](ConfigmgrApi.md#com_adobe_cq_dam_cfm_impl_content_rewriter_asset_processor) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor | 
@@ -74,33 +74,33 @@ Method | HTTP request | Description
 [**com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl**](ConfigmgrApi.md#com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl | 
 [**com_adobe_cq_screens_offlinecontent_impl_offline_content_service_impl**](ConfigmgrApi.md#com_adobe_cq_screens_offlinecontent_impl_offline_content_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl | 
 [**com_adobe_cq_screens_segmentation_impl_segmentation_feature_flag**](ConfigmgrApi.md#com_adobe_cq_screens_segmentation_impl_segmentation_feature_flag) | **POST** /system/console/configMgr/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag | 
-[**com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
+[**com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch**](ConfigmgrApi.md#com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
 [**com_adobe_cq_security_hc_bundles_impl_wcm_filter_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_bundles_impl_wcm_filter_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck | 
 [**com_adobe_cq_security_hc_dispatcher_impl_dispatcher_access_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_dispatcher_impl_dispatcher_access_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck | 
 [**com_adobe_cq_security_hc_packages_impl_example_content_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_packages_impl_example_content_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck | 
 [**com_adobe_cq_security_hc_webserver_impl_clickjacking_health_check**](ConfigmgrApi.md#com_adobe_cq_security_hc_webserver_impl_clickjacking_health_check) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck | 
-[**com_adobe_cq_social_accountverification_impl_account_management_config_impl**](ConfigmgrApi.md#com_adobe_cq_social_accountverification_impl_account_management_config_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
-[**com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
-[**com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
+[**com_adobe_cq_social_accountverification_impl_account_management_config_im**](ConfigmgrApi.md#com_adobe_cq_social_accountverification_impl_account_management_config_im) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
+[**com_adobe_cq_social_activitystreams_client_impl_social_activity_componen**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_client_impl_social_activity_componen) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
+[**com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
 [**com_adobe_cq_social_activitystreams_listener_impl_event_listener_handler**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_event_listener_handler) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler | 
-[**com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
-[**com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
-[**com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
-[**com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl**](ConfigmgrApi.md#com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
-[**com_adobe_cq_social_calendar_client_operationextensions_event_attachment**](ConfigmgrApi.md#com_adobe_cq_social_calendar_client_operationextensions_event_attachment) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
+[**com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
+[**com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
+[**com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre**](ConfigmgrApi.md#com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
+[**com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i**](ConfigmgrApi.md#com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
+[**com_adobe_cq_social_calendar_client_operationextensions_event_attachmen**](ConfigmgrApi.md#com_adobe_cq_social_calendar_client_operationextensions_event_attachmen) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
 [**com_adobe_cq_social_calendar_servlets_time_zone_servlet**](ConfigmgrApi.md#com_adobe_cq_social_calendar_servlets_time_zone_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.servlets.TimeZoneServlet | 
-[**com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
-[**com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
-[**com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
-[**com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
-[**com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
+[**com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
+[**com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
+[**com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
+[**com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
+[**com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos**](ConfigmgrApi.md#com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
 [**com_adobe_cq_social_commons_cors_cors_authentication_filter**](ConfigmgrApi.md#com_adobe_cq_social_commons_cors_cors_authentication_filter) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter | 
 [**com_adobe_cq_social_commons_emailreply_impl_android_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_android_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider | 
 [**com_adobe_cq_social_commons_emailreply_impl_comment_email_builder_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_comment_email_builder_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl | 
 [**com_adobe_cq_social_commons_emailreply_impl_comment_email_event_listener**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_comment_email_event_listener) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener | 
 [**com_adobe_cq_social_commons_emailreply_impl_custom_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_custom_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider | 
-[**com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
-[**com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
+[**com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
+[**com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
 [**com_adobe_cq_social_commons_emailreply_impl_email_reply_importer**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_email_reply_importer) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter | 
 [**com_adobe_cq_social_commons_emailreply_impl_gmail_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_gmail_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider | 
 [**com_adobe_cq_social_commons_emailreply_impl_ios_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_ios_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider | 
@@ -108,53 +108,53 @@ Method | HTTP request | Description
 [**com_adobe_cq_social_commons_emailreply_impl_out_look_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_out_look_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider | 
 [**com_adobe_cq_social_commons_emailreply_impl_unknown_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_unknown_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider | 
 [**com_adobe_cq_social_commons_emailreply_impl_yahoo_email_client_provider**](ConfigmgrApi.md#com_adobe_cq_social_commons_emailreply_impl_yahoo_email_client_provider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider | 
-[**com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads**](ConfigmgrApi.md#com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
+[**com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload**](ConfigmgrApi.md#com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
 [**com_adobe_cq_social_commons_ugclimiter_impl_ugc_limiter_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_ugclimiter_impl_ugc_limiter_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl | 
-[**com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl**](ConfigmgrApi.md#com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
+[**com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit**](ConfigmgrApi.md#com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
 [**com_adobe_cq_social_connect_oauth_impl_facebook_provider_impl**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_facebook_provider_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl | 
-[**com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
+[**com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
 [**com_adobe_cq_social_connect_oauth_impl_social_o_auth_user_profile_mapper**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_social_o_auth_user_profile_mapper) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper | 
 [**com_adobe_cq_social_connect_oauth_impl_twitter_provider_impl**](ConfigmgrApi.md#com_adobe_cq_social_connect_oauth_impl_twitter_provider_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl | 
-[**com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
+[**com_adobe_cq_social_content_fragments_services_impl_communities_fragmen**](ConfigmgrApi.md#com_adobe_cq_social_content_fragments_services_impl_communities_fragmen) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
 [**com_adobe_cq_social_datastore_as_impl_as_resource_provider_factory**](ConfigmgrApi.md#com_adobe_cq_social_datastore_as_impl_as_resource_provider_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory | 
 [**com_adobe_cq_social_datastore_op_impl_social_ms_resource_provider_factory**](ConfigmgrApi.md#com_adobe_cq_social_datastore_op_impl_social_ms_resource_provider_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory | 
-[**com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory**](ConfigmgrApi.md#com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
-[**com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory**](ConfigmgrApi.md#com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
-[**com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory**](ConfigmgrApi.md#com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
-[**com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
-[**com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
+[**com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor**](ConfigmgrApi.md#com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
+[**com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f**](ConfigmgrApi.md#com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
+[**com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto**](ConfigmgrApi.md#com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
+[**com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l**](ConfigmgrApi.md#com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
+[**com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou**](ConfigmgrApi.md#com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
 [**com_adobe_cq_social_enablement_services_impl_author_marker_impl**](ConfigmgrApi.md#com_adobe_cq_social_enablement_services_impl_author_marker_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl | 
-[**com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet**](ConfigmgrApi.md#com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
-[**com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
+[**com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge**](ConfigmgrApi.md#com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
+[**com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera**](ConfigmgrApi.md#com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
 [**com_adobe_cq_social_forum_client_endpoints_impl_forum_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_forum_client_endpoints_impl_forum_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService | 
 [**com_adobe_cq_social_forum_dispatcher_impl_flush_operations**](ConfigmgrApi.md#com_adobe_cq_social_forum_dispatcher_impl_flush_operations) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations | 
-[**com_adobe_cq_social_group_client_impl_community_group_collection_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_group_client_impl_community_group_collection_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
+[**com_adobe_cq_social_group_client_impl_community_group_collection_componen**](ConfigmgrApi.md#com_adobe_cq_social_group_client_impl_community_group_collection_componen) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
 [**com_adobe_cq_social_group_impl_group_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_group_impl_group_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.group.impl.GroupServiceImpl | 
 [**com_adobe_cq_social_handlebars_guava_template_cache_impl**](ConfigmgrApi.md#com_adobe_cq_social_handlebars_guava_template_cache_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl | 
-[**com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
-[**com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
-[**com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
-[**com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
-[**com_adobe_cq_social_members_impl_community_member_group_profile_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_members_impl_community_member_group_profile_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
-[**com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
-[**com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
-[**com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
-[**com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
-[**com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
+[**com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s**](ConfigmgrApi.md#com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
+[**com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser**](ConfigmgrApi.md#com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
+[**com_adobe_cq_social_members_endpoints_impl_community_member_group_profile**](ConfigmgrApi.md#com_adobe_cq_social_members_endpoints_impl_community_member_group_profile) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
+[**com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o**](ConfigmgrApi.md#com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
+[**com_adobe_cq_social_members_impl_community_member_group_profile_component_f**](ConfigmgrApi.md#com_adobe_cq_social_members_impl_community_member_group_profile_component_f) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
+[**com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation**](ConfigmgrApi.md#com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
+[**com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
+[**com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
+[**com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
+[**com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci**](ConfigmgrApi.md#com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
 [**com_adobe_cq_social_notifications_impl_mentions_router**](ConfigmgrApi.md#com_adobe_cq_social_notifications_impl_mentions_router) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.MentionsRouter | 
 [**com_adobe_cq_social_notifications_impl_notification_manager_impl**](ConfigmgrApi.md#com_adobe_cq_social_notifications_impl_notification_manager_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationManagerImpl | 
 [**com_adobe_cq_social_notifications_impl_notifications_router**](ConfigmgrApi.md#com_adobe_cq_social_notifications_impl_notifications_router) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationsRouter | 
-[**com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
-[**com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
-[**com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
-[**com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
-[**com_adobe_cq_social_review_client_endpoints_impl_review_operations_service**](ConfigmgrApi.md#com_adobe_cq_social_review_client_endpoints_impl_review_operations_service) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
+[**com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic**](ConfigmgrApi.md#com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
+[**com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
+[**com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
+[**com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s**](ConfigmgrApi.md#com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
+[**com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi**](ConfigmgrApi.md#com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
 [**com_adobe_cq_social_scf_core_operations_impl_social_operations_servlet**](ConfigmgrApi.md#com_adobe_cq_social_scf_core_operations_impl_social_operations_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet | 
 [**com_adobe_cq_social_scf_endpoints_impl_default_social_get_servlet**](ConfigmgrApi.md#com_adobe_cq_social_scf_endpoints_impl_default_social_get_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet | 
 [**com_adobe_cq_social_scoring_impl_scoring_event_listener**](ConfigmgrApi.md#com_adobe_cq_social_scoring_impl_scoring_event_listener) | **POST** /system/console/configMgr/com.adobe.cq.social.scoring.impl.ScoringEventListener | 
 [**com_adobe_cq_social_serviceusers_internal_impl_service_user_wrapper_impl**](ConfigmgrApi.md#com_adobe_cq_social_serviceusers_internal_impl_service_user_wrapper_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl | 
 [**com_adobe_cq_social_site_endpoints_impl_site_operation_service**](ConfigmgrApi.md#com_adobe_cq_social_site_endpoints_impl_site_operation_service) | **POST** /system/console/configMgr/com.adobe.cq.social.site.endpoints.impl.SiteOperationService | 
-[**com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl**](ConfigmgrApi.md#com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
+[**com_adobe_cq_social_site_impl_analytics_component_configuration_service_im**](ConfigmgrApi.md#com_adobe_cq_social_site_impl_analytics_component_configuration_service_im) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
 [**com_adobe_cq_social_site_impl_site_configurator_impl**](ConfigmgrApi.md#com_adobe_cq_social_site_impl_site_configurator_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.SiteConfiguratorImpl | 
 [**com_adobe_cq_social_srp_impl_social_solr_connector**](ConfigmgrApi.md#com_adobe_cq_social_srp_impl_social_solr_connector) | **POST** /system/console/configMgr/com.adobe.cq.social.srp.impl.SocialSolrConnector | 
 [**com_adobe_cq_social_sync_impl_diff_changes_observer**](ConfigmgrApi.md#com_adobe_cq_social_sync_impl_diff_changes_observer) | **POST** /system/console/configMgr/com.adobe.cq.social.sync.impl.DiffChangesObserver | 
@@ -169,11 +169,11 @@ Method | HTTP request | Description
 [**com_adobe_cq_social_ugcbase_impl_social_utils_impl**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_impl_social_utils_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl | 
 [**com_adobe_cq_social_ugcbase_moderation_impl_auto_moderation_impl**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_moderation_impl_auto_moderation_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl | 
 [**com_adobe_cq_social_ugcbase_moderation_impl_sentiment_process**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_moderation_impl_sentiment_process) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess | 
-[**com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
+[**com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
 [**com_adobe_cq_social_ugcbase_security_impl_safer_sling_post_validator_impl**](ConfigmgrApi.md#com_adobe_cq_social_ugcbase_security_impl_safer_sling_post_validator_impl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl | 
 [**com_adobe_cq_social_user_endpoints_impl_users_group_from_publish_servlet**](ConfigmgrApi.md#com_adobe_cq_social_user_endpoints_impl_users_group_from_publish_servlet) | **POST** /system/console/configMgr/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet | 
 [**com_adobe_cq_social_user_impl_transport_http_to_publisher**](ConfigmgrApi.md#com_adobe_cq_social_user_impl_transport_http_to_publisher) | **POST** /system/console/configMgr/com.adobe.cq.social.user.impl.transport.HttpToPublisher | 
-[**com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended**](ConfigmgrApi.md#com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
+[**com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact**](ConfigmgrApi.md#com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
 [**com_adobe_cq_upgrades_cleanup_impl_upgrade_content_cleanup**](ConfigmgrApi.md#com_adobe_cq_upgrades_cleanup_impl_upgrade_content_cleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup | 
 [**com_adobe_cq_upgrades_cleanup_impl_upgrade_install_folder_cleanup**](ConfigmgrApi.md#com_adobe_cq_upgrades_cleanup_impl_upgrade_install_folder_cleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup | 
 [**com_adobe_cq_wcm_jobs_async_impl_async_delete_config_provider_service**](ConfigmgrApi.md#com_adobe_cq_wcm_jobs_async_impl_async_delete_config_provider_service) | **POST** /system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService | 
@@ -187,7 +187,7 @@ Method | HTTP request | Description
 [**com_adobe_fd_fp_config_forms_portal_draftsand_submission_config_service**](ConfigmgrApi.md#com_adobe_fd_fp_config_forms_portal_draftsand_submission_config_service) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService | 
 [**com_adobe_fd_fp_config_forms_portal_scheduler_service**](ConfigmgrApi.md#com_adobe_fd_fp_config_forms_portal_scheduler_service) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalSchedulerService | 
 [**com_adobe_forms_common_service_impl_default_data_provider**](ConfigmgrApi.md#com_adobe_forms_common_service_impl_default_data_provider) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.DefaultDataProvider | 
-[**com_adobe_forms_common_service_impl_forms_common_configuration_service_impl**](ConfigmgrApi.md#com_adobe_forms_common_service_impl_forms_common_configuration_service_impl) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
+[**com_adobe_forms_common_service_impl_forms_common_configuration_service_imp**](ConfigmgrApi.md#com_adobe_forms_common_service_impl_forms_common_configuration_service_imp) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
 [**com_adobe_forms_common_servlet_temp_clean_up_task**](ConfigmgrApi.md#com_adobe_forms_common_servlet_temp_clean_up_task) | **POST** /system/console/configMgr/com.adobe.forms.common.servlet.TempCleanUpTask | 
 [**com_adobe_granite_acp_platform_platform_servlet**](ConfigmgrApi.md#com_adobe_granite_acp_platform_platform_servlet) | **POST** /system/console/configMgr/com.adobe.granite.acp.platform.PlatformServlet | 
 [**com_adobe_granite_activitystreams_impl_activity_manager_impl**](ConfigmgrApi.md#com_adobe_granite_activitystreams_impl_activity_manager_impl) | **POST** /system/console/configMgr/com.adobe.granite.activitystreams.impl.ActivityManagerImpl | 
@@ -225,22 +225,22 @@ Method | HTTP request | Description
 [**com_adobe_granite_bundles_hc_impl_sling_jsp_script_handler_health_check**](ConfigmgrApi.md#com_adobe_granite_bundles_hc_impl_sling_jsp_script_handler_health_check) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck | 
 [**com_adobe_granite_bundles_hc_impl_sling_referrer_filter_health_check**](ConfigmgrApi.md#com_adobe_granite_bundles_hc_impl_sling_referrer_filter_health_check) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck | 
 [**com_adobe_granite_bundles_hc_impl_web_dav_bundle_health_check**](ConfigmgrApi.md#com_adobe_granite_bundles_hc_impl_web_dav_bundle_health_check) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck | 
-[**com_adobe_granite_comments_internal_comment_replication_content_filter_factory**](ConfigmgrApi.md#com_adobe_granite_comments_internal_comment_replication_content_filter_factory) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
+[**com_adobe_granite_comments_internal_comment_replication_content_filter_fac**](ConfigmgrApi.md#com_adobe_granite_comments_internal_comment_replication_content_filter_fac) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
 [**com_adobe_granite_compatrouter_impl_compat_switching_service_impl**](ConfigmgrApi.md#com_adobe_granite_compatrouter_impl_compat_switching_service_impl) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl | 
 [**com_adobe_granite_compatrouter_impl_routing_config**](ConfigmgrApi.md#com_adobe_granite_compatrouter_impl_routing_config) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.RoutingConfig | 
 [**com_adobe_granite_compatrouter_impl_switch_mapping_config**](ConfigmgrApi.md#com_adobe_granite_compatrouter_impl_switch_mapping_config) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.SwitchMappingConfig | 
-[**com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy**](ConfigmgrApi.md#com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
+[**com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving**](ConfigmgrApi.md#com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
 [**com_adobe_granite_contexthub_impl_context_hub_impl**](ConfigmgrApi.md#com_adobe_granite_contexthub_impl_context_hub_impl) | **POST** /system/console/configMgr/com.adobe.granite.contexthub.impl.ContextHubImpl | 
 [**com_adobe_granite_cors_impl_cors_policy_impl**](ConfigmgrApi.md#com_adobe_granite_cors_impl_cors_policy_impl) | **POST** /system/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl | 
 [**com_adobe_granite_csrf_impl_csrf_filter**](ConfigmgrApi.md#com_adobe_granite_csrf_impl_csrf_filter) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter | 
 [**com_adobe_granite_csrf_impl_csrf_servlet**](ConfigmgrApi.md#com_adobe_granite_csrf_impl_csrf_servlet) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFServlet | 
-[**com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
+[**com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
 [**com_adobe_granite_distribution_core_impl_diff_diff_changes_observer**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_diff_diff_changes_observer) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver | 
 [**com_adobe_granite_distribution_core_impl_diff_diff_event_listener**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_diff_diff_event_listener) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffEventListener | 
-[**com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
-[**com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
-[**com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
-[**com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
+[**com_adobe_granite_distribution_core_impl_distribution_to_replication_even**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_distribution_to_replication_even) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
+[**com_adobe_granite_distribution_core_impl_replication_adapters_replicat**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_replication_adapters_replicat) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
+[**com_adobe_granite_distribution_core_impl_replication_distribution_trans**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_replication_distribution_trans) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
+[**com_adobe_granite_distribution_core_impl_transport_access_token_distribu**](ConfigmgrApi.md#com_adobe_granite_distribution_core_impl_transport_access_token_distribu) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
 [**com_adobe_granite_frags_impl_check_http_header_flag**](ConfigmgrApi.md#com_adobe_granite_frags_impl_check_http_header_flag) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.CheckHttpHeaderFlag | 
 [**com_adobe_granite_frags_impl_random_feature**](ConfigmgrApi.md#com_adobe_granite_frags_impl_random_feature) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.RandomFeature | 
 [**com_adobe_granite_httpcache_file_file_cache_store**](ConfigmgrApi.md#com_adobe_granite_httpcache_file_file_cache_store) | **POST** /system/console/configMgr/com.adobe.granite.httpcache.file.FileCacheStore | 
@@ -256,7 +256,7 @@ Method | HTTP request | Description
 [**com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_task**](ConfigmgrApi.md#com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_task) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask | 
 [**com_adobe_granite_maintenance_crx_impl_revision_cleanup_task**](ConfigmgrApi.md#com_adobe_granite_maintenance_crx_impl_revision_cleanup_task) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask | 
 [**com_adobe_granite_monitoring_impl_script_config_impl**](ConfigmgrApi.md#com_adobe_granite_monitoring_impl_script_config_impl) | **POST** /system/console/configMgr/com.adobe.granite.monitoring.impl.ScriptConfigImpl | 
-[**com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler**](ConfigmgrApi.md#com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
+[**com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han**](ConfigmgrApi.md#com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
 [**com_adobe_granite_oauth_server_impl_access_token_cleanup_task**](ConfigmgrApi.md#com_adobe_granite_oauth_server_impl_access_token_cleanup_task) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask | 
 [**com_adobe_granite_oauth_server_impl_o_auth2_client_revocation_servlet**](ConfigmgrApi.md#com_adobe_granite_oauth_server_impl_o_auth2_client_revocation_servlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet | 
 [**com_adobe_granite_oauth_server_impl_o_auth2_revocation_endpoint_servlet**](ConfigmgrApi.md#com_adobe_granite_oauth_server_impl_o_auth2_revocation_endpoint_servlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet | 
@@ -266,7 +266,7 @@ Method | HTTP request | Description
 [**com_adobe_granite_offloading_impl_offloading_job_cloner**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_offloading_job_cloner) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner | 
 [**com_adobe_granite_offloading_impl_offloading_job_offloader**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_offloading_job_offloader) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobOffloader | 
 [**com_adobe_granite_offloading_impl_transporter_offloading_agent_manager**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_transporter_offloading_agent_manager) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager | 
-[**com_adobe_granite_offloading_impl_transporter_offloading_default_transporter**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_transporter_offloading_default_transporter) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
+[**com_adobe_granite_offloading_impl_transporter_offloading_default_transpo**](ConfigmgrApi.md#com_adobe_granite_offloading_impl_transporter_offloading_default_transpo) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
 [**com_adobe_granite_omnisearch_impl_core_omni_search_service_impl**](ConfigmgrApi.md#com_adobe_granite_omnisearch_impl_core_omni_search_service_impl) | **POST** /system/console/configMgr/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl | 
 [**com_adobe_granite_optout_impl_opt_out_service_impl**](ConfigmgrApi.md#com_adobe_granite_optout_impl_opt_out_service_impl) | **POST** /system/console/configMgr/com.adobe.granite.optout.impl.OptOutServiceImpl | 
 [**com_adobe_granite_queries_impl_hc_async_index_health_check**](ConfigmgrApi.md#com_adobe_granite_queries_impl_hc_async_index_health_check) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck | 
@@ -275,32 +275,32 @@ Method | HTTP request | Description
 [**com_adobe_granite_queries_impl_hc_query_health_check_metrics**](ConfigmgrApi.md#com_adobe_granite_queries_impl_hc_query_health_check_metrics) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics | 
 [**com_adobe_granite_queries_impl_hc_query_limits_health_check**](ConfigmgrApi.md#com_adobe_granite_queries_impl_hc_query_limits_health_check) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck | 
 [**com_adobe_granite_replication_hc_impl_replication_queue_health_check**](ConfigmgrApi.md#com_adobe_granite_replication_hc_impl_replication_queue_health_check) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck | 
-[**com_adobe_granite_replication_hc_impl_replication_transport_users_health_check**](ConfigmgrApi.md#com_adobe_granite_replication_hc_impl_replication_transport_users_health_check) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
+[**com_adobe_granite_replication_hc_impl_replication_transport_users_health_c**](ConfigmgrApi.md#com_adobe_granite_replication_hc_impl_replication_transport_users_health_c) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_authorizable_node_name_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_authorizable_node_name_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck | 
-[**com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
+[**com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_continuous_rgc_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_continuous_rgc_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck | 
-[**com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
+[**com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_default_logins_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_default_logins_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_disk_space_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_disk_space_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck | 
 [**com_adobe_granite_repository_hc_impl_observation_queue_length_health_check**](ConfigmgrApi.md#com_adobe_granite_repository_hc_impl_observation_queue_length_health_check) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck | 
 [**com_adobe_granite_repository_impl_commit_stats_config**](ConfigmgrApi.md#com_adobe_granite_repository_impl_commit_stats_config) | **POST** /system/console/configMgr/com.adobe.granite.repository.impl.CommitStatsConfig | 
 [**com_adobe_granite_repository_service_user_configuration**](ConfigmgrApi.md#com_adobe_granite_repository_service_user_configuration) | **POST** /system/console/configMgr/com.adobe.granite.repository.ServiceUserConfiguration | 
-[**com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl**](ConfigmgrApi.md#com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
+[**com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im**](ConfigmgrApi.md#com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
 [**com_adobe_granite_resourcestatus_impl_composite_status_type**](ConfigmgrApi.md#com_adobe_granite_resourcestatus_impl_composite_status_type) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.CompositeStatusType | 
 [**com_adobe_granite_resourcestatus_impl_status_resource_provider_impl**](ConfigmgrApi.md#com_adobe_granite_resourcestatus_impl_status_resource_provider_impl) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl | 
 [**com_adobe_granite_rest_assets_impl_asset_content_disposition_filter**](ConfigmgrApi.md#com_adobe_granite_rest_assets_impl_asset_content_disposition_filter) | **POST** /system/console/configMgr/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter | 
 [**com_adobe_granite_rest_impl_api_endpoint_resource_provider_factory_impl**](ConfigmgrApi.md#com_adobe_granite_rest_impl_api_endpoint_resource_provider_factory_impl) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl | 
 [**com_adobe_granite_rest_impl_servlet_default_get_servlet**](ConfigmgrApi.md#com_adobe_granite_rest_impl_servlet_default_get_servlet) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.servlet.DefaultGETServlet | 
-[**com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet**](ConfigmgrApi.md#com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
+[**com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s**](ConfigmgrApi.md#com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
 [**com_adobe_granite_security_user_user_properties_service**](ConfigmgrApi.md#com_adobe_granite_security_user_user_properties_service) | **POST** /system/console/configMgr/com.adobe.granite.security.user.UserPropertiesService | 
 [**com_adobe_granite_socialgraph_impl_social_graph_factory_impl**](ConfigmgrApi.md#com_adobe_granite_socialgraph_impl_social_graph_factory_impl) | **POST** /system/console/configMgr/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl | 
 [**com_adobe_granite_system_monitoring_impl_system_stats_m_bean_impl**](ConfigmgrApi.md#com_adobe_granite_system_monitoring_impl_system_stats_m_bean_impl) | **POST** /system/console/configMgr/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl | 
 [**com_adobe_granite_taskmanagement_impl_jcr_task_adapter_factory**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_jcr_task_adapter_factory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory | 
 [**com_adobe_granite_taskmanagement_impl_jcr_task_archive_service**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_jcr_task_archive_service) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService | 
 [**com_adobe_granite_taskmanagement_impl_purge_task_purge_maintenance_task**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_purge_task_purge_maintenance_task) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask | 
-[**com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
+[**com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor**](ConfigmgrApi.md#com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
 [**com_adobe_granite_threaddump_thread_dump_collector**](ConfigmgrApi.md#com_adobe_granite_threaddump_thread_dump_collector) | **POST** /system/console/configMgr/com.adobe.granite.threaddump.ThreadDumpCollector | 
-[**com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl**](ConfigmgrApi.md#com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
+[**com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl**](ConfigmgrApi.md#com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
 [**com_adobe_granite_translation_core_impl_translation_manager_impl**](ConfigmgrApi.md#com_adobe_granite_translation_core_impl_translation_manager_impl) | **POST** /system/console/configMgr/com.adobe.granite.translation.core.impl.TranslationManagerImpl | 
 [**com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl**](ConfigmgrApi.md#com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl) | **POST** /system/console/configMgr/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl | 
 [**com_adobe_granite_workflow_console_frags_workflow_withdraw_feature**](ConfigmgrApi.md#com_adobe_granite_workflow_console_frags_workflow_withdraw_feature) | **POST** /system/console/configMgr/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature | 
@@ -308,19 +308,19 @@ Method | HTTP request | Description
 [**com_adobe_granite_workflow_core_jcr_workflow_bucket_manager**](ConfigmgrApi.md#com_adobe_granite_workflow_core_jcr_workflow_bucket_manager) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager | 
 [**com_adobe_granite_workflow_core_job_external_process_job_handler**](ConfigmgrApi.md#com_adobe_granite_workflow_core_job_external_process_job_handler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler | 
 [**com_adobe_granite_workflow_core_job_job_handler**](ConfigmgrApi.md#com_adobe_granite_workflow_core_job_job_handler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.JobHandler | 
-[**com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer**](ConfigmgrApi.md#com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
+[**com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum**](ConfigmgrApi.md#com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
 [**com_adobe_granite_workflow_core_payload_map_cache**](ConfigmgrApi.md#com_adobe_granite_workflow_core_payload_map_cache) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.PayloadMapCache | 
 [**com_adobe_granite_workflow_core_payloadmap_payload_move_listener**](ConfigmgrApi.md#com_adobe_granite_workflow_core_payloadmap_payload_move_listener) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener | 
 [**com_adobe_granite_workflow_core_workflow_config**](ConfigmgrApi.md#com_adobe_granite_workflow_core_workflow_config) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowConfig | 
 [**com_adobe_granite_workflow_core_workflow_session_factory**](ConfigmgrApi.md#com_adobe_granite_workflow_core_workflow_session_factory) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowSessionFactory | 
 [**com_adobe_granite_workflow_purge_scheduler**](ConfigmgrApi.md#com_adobe_granite_workflow_purge_scheduler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.purge.Scheduler | 
 [**com_adobe_octopus_ncomm_bootstrap**](ConfigmgrApi.md#com_adobe_octopus_ncomm_bootstrap) | **POST** /system/console/configMgr/com.adobe.octopus.ncomm.bootstrap | 
-[**com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet**](ConfigmgrApi.md#com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
+[**com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s**](ConfigmgrApi.md#com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
 [**com_adobe_xmp_worker_files_ncomm_xmp_files_n_comm**](ConfigmgrApi.md#com_adobe_xmp_worker_files_ncomm_xmp_files_n_comm) | **POST** /system/console/configMgr/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm | 
 [**com_day_commons_datasource_jdbcpool_jdbc_pool_service**](ConfigmgrApi.md#com_day_commons_datasource_jdbcpool_jdbc_pool_service) | **POST** /system/console/configMgr/com.day.commons.datasource.jdbcpool.JdbcPoolService | 
 [**com_day_commons_httpclient**](ConfigmgrApi.md#com_day_commons_httpclient) | **POST** /system/console/configMgr/com.day.commons.httpclient | 
 [**com_day_cq_analytics_impl_store_properties_change_listener**](ConfigmgrApi.md#com_day_cq_analytics_impl_store_properties_change_listener) | **POST** /system/console/configMgr/com.day.cq.analytics.impl.StorePropertiesChangeListener | 
-[**com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
+[**com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
 [**com_day_cq_analytics_sitecatalyst_impl_importer_report_importer**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_importer_report_importer) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter | 
 [**com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_adapter_factory**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_adapter_factory) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory | 
 [**com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_http_client_impl**](ConfigmgrApi.md#com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_http_client_impl) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl | 
@@ -335,7 +335,7 @@ Method | HTTP request | Description
 [**com_day_cq_auth_impl_login_selector_handler**](ConfigmgrApi.md#com_day_cq_auth_impl_login_selector_handler) | **POST** /system/console/configMgr/com.day.cq.auth.impl.LoginSelectorHandler | 
 [**com_day_cq_commons_impl_externalizer_impl**](ConfigmgrApi.md#com_day_cq_commons_impl_externalizer_impl) | **POST** /system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl | 
 [**com_day_cq_commons_servlets_root_mapping_servlet**](ConfigmgrApi.md#com_day_cq_commons_servlets_root_mapping_servlet) | **POST** /system/console/configMgr/com.day.cq.commons.servlets.RootMappingServlet | 
-[**com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker**](ConfigmgrApi.md#com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
+[**com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke**](ConfigmgrApi.md#com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
 [**com_day_cq_compat_codeupgrade_impl_upgrade_task_ignore_list**](ConfigmgrApi.md#com_day_cq_compat_codeupgrade_impl_upgrade_task_ignore_list) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList | 
 [**com_day_cq_compat_codeupgrade_impl_version_range_task_ignorelist**](ConfigmgrApi.md#com_day_cq_compat_codeupgrade_impl_version_range_task_ignorelist) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist | 
 [**com_day_cq_contentsync_impl_content_sync_manager_impl**](ConfigmgrApi.md#com_day_cq_contentsync_impl_content_sync_manager_impl) | **POST** /system/console/configMgr/com.day.cq.contentsync.impl.ContentSyncManagerImpl | 
@@ -352,7 +352,7 @@ Method | HTTP request | Description
 [**com_day_cq_dam_core_impl_dam_event_recorder_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_dam_event_recorder_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.DamEventRecorderImpl | 
 [**com_day_cq_dam_core_impl_event_dam_event_audit_listener**](ConfigmgrApi.md#com_day_cq_dam_core_impl_event_dam_event_audit_listener) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.event.DamEventAuditListener | 
 [**com_day_cq_dam_core_impl_expiry_notification_job_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_expiry_notification_job_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl | 
-[**com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag**](ConfigmgrApi.md#com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
+[**com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat**](ConfigmgrApi.md#com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
 [**com_day_cq_dam_core_impl_gfx_commons_gfx_renderer**](ConfigmgrApi.md#com_day_cq_dam_core_impl_gfx_commons_gfx_renderer) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer | 
 [**com_day_cq_dam_core_impl_handler_eps_format_handler**](ConfigmgrApi.md#com_day_cq_dam_core_impl_handler_eps_format_handler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.EPSFormatHandler | 
 [**com_day_cq_dam_core_impl_handler_indesign_format_handler**](ConfigmgrApi.md#com_day_cq_dam_core_impl_handler_indesign_format_handler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.IndesignFormatHandler | 
@@ -361,14 +361,14 @@ Method | HTTP request | Description
 [**com_day_cq_dam_core_impl_jmx_asset_index_update_monitor**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jmx_asset_index_update_monitor) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor | 
 [**com_day_cq_dam_core_impl_jmx_asset_migration_m_bean_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jmx_asset_migration_m_bean_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl | 
 [**com_day_cq_dam_core_impl_jmx_asset_update_monitor_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jmx_asset_update_monitor_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl | 
-[**com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
-[**com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
+[**com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
+[**com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config**](ConfigmgrApi.md#com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
 [**com_day_cq_dam_core_impl_lightbox_lightbox_servlet**](ConfigmgrApi.md#com_day_cq_dam_core_impl_lightbox_lightbox_servlet) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.lightbox.LightboxServlet | 
 [**com_day_cq_dam_core_impl_metadata_editor_select_component_handler**](ConfigmgrApi.md#com_day_cq_dam_core_impl_metadata_editor_select_component_handler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler | 
 [**com_day_cq_dam_core_impl_mime_type_asset_upload_restriction_helper**](ConfigmgrApi.md#com_day_cq_dam_core_impl_mime_type_asset_upload_restriction_helper) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper | 
 [**com_day_cq_dam_core_impl_mime_type_dam_mime_type_service_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_mime_type_dam_mime_type_service_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl | 
 [**com_day_cq_dam_core_impl_missing_metadata_notification_job**](ConfigmgrApi.md#com_day_cq_dam_core_impl_missing_metadata_notification_job) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.MissingMetadataNotificationJob | 
-[**com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process**](ConfigmgrApi.md#com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
+[**com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr**](ConfigmgrApi.md#com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
 [**com_day_cq_dam_core_impl_process_text_extraction_process**](ConfigmgrApi.md#com_day_cq_dam_core_impl_process_text_extraction_process) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.TextExtractionProcess | 
 [**com_day_cq_dam_core_impl_rendition_maker_impl**](ConfigmgrApi.md#com_day_cq_dam_core_impl_rendition_maker_impl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.RenditionMakerImpl | 
 [**com_day_cq_dam_core_impl_reports_report_export_service**](ConfigmgrApi.md#com_day_cq_dam_core_impl_reports_report_export_service) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.reports.ReportExportService | 
@@ -405,8 +405,8 @@ Method | HTTP request | Description
 [**com_day_cq_dam_indd_process_indd_media_extract_process**](ConfigmgrApi.md#com_day_cq_dam_indd_process_indd_media_extract_process) | **POST** /system/console/configMgr/com.day.cq.dam.indd.process.INDDMediaExtractProcess | 
 [**com_day_cq_dam_performance_internal_asset_performance_data_handler_impl**](ConfigmgrApi.md#com_day_cq_dam_performance_internal_asset_performance_data_handler_impl) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl | 
 [**com_day_cq_dam_performance_internal_asset_performance_report_sync_job**](ConfigmgrApi.md#com_day_cq_dam_performance_internal_asset_performance_report_sync_job) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob | 
-[**com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process**](ConfigmgrApi.md#com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
-[**com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
+[**com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro**](ConfigmgrApi.md#com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
+[**com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
 [**com_day_cq_dam_s7dam_common_analytics_impl_site_catalyst_report_runner**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_analytics_impl_site_catalyst_report_runner) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner | 
 [**com_day_cq_dam_s7dam_common_post_servlets_set_create_handler**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_post_servlets_set_create_handler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler | 
 [**com_day_cq_dam_s7dam_common_post_servlets_set_modify_handler**](ConfigmgrApi.md#com_day_cq_dam_s7dam_common_post_servlets_set_modify_handler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler | 
@@ -420,8 +420,8 @@ Method | HTTP request | Description
 [**com_day_cq_dam_scene7_impl_scene7_dam_change_event_listener**](ConfigmgrApi.md#com_day_cq_dam_scene7_impl_scene7_dam_change_event_listener) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener | 
 [**com_day_cq_dam_scene7_impl_scene7_flash_templates_service_impl**](ConfigmgrApi.md#com_day_cq_dam_scene7_impl_scene7_flash_templates_service_impl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl | 
 [**com_day_cq_dam_scene7_impl_scene7_upload_service_impl**](ConfigmgrApi.md#com_day_cq_dam_scene7_impl_scene7_upload_service_impl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl | 
-[**com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl**](ConfigmgrApi.md#com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
-[**com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl**](ConfigmgrApi.md#com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
+[**com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser**](ConfigmgrApi.md#com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
+[**com_day_cq_dam_stock_integration_impl_configuration_stock_configuration**](ConfigmgrApi.md#com_day_cq_dam_stock_integration_impl_configuration_stock_configuration) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
 [**com_day_cq_dam_video_impl_servlet_video_test_servlet**](ConfigmgrApi.md#com_day_cq_dam_video_impl_servlet_video_test_servlet) | **POST** /system/console/configMgr/com.day.cq.dam.video.impl.servlet.VideoTestServlet | 
 [**com_day_cq_extwidget_servlets_image_sprite_servlet**](ConfigmgrApi.md#com_day_cq_extwidget_servlets_image_sprite_servlet) | **POST** /system/console/configMgr/com.day.cq.extwidget.servlets.ImageSpriteServlet | 
 [**com_day_cq_image_internal_font_font_helper**](ConfigmgrApi.md#com_day_cq_image_internal_font_font_helper) | **POST** /system/console/configMgr/com.day.cq.image.internal.font.FontHelper | 
@@ -434,11 +434,11 @@ Method | HTTP request | Description
 [**com_day_cq_mcm_campaign_importer_personalized_text_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_campaign_importer_personalized_text_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory | 
 [**com_day_cq_mcm_core_newsletter_newsletter_email_service_impl**](ConfigmgrApi.md#com_day_cq_mcm_core_newsletter_newsletter_email_service_impl) | **POST** /system/console/configMgr/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl | 
 [**com_day_cq_mcm_impl_mcm_configuration**](ConfigmgrApi.md#com_day_cq_mcm_impl_mcm_configuration) | **POST** /system/console/configMgr/com.day.cq.mcm.impl.MCMConfiguration | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
-[**com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
+[**com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h**](ConfigmgrApi.md#com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
 [**com_day_cq_notification_impl_notification_service_impl**](ConfigmgrApi.md#com_day_cq_notification_impl_notification_service_impl) | **POST** /system/console/configMgr/com.day.cq.notification.impl.NotificationServiceImpl | 
 [**com_day_cq_personalization_impl_servlets_targeting_configuration_servlet**](ConfigmgrApi.md#com_day_cq_personalization_impl_servlets_targeting_configuration_servlet) | **POST** /system/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet | 
 [**com_day_cq_polling_importer_impl_managed_poll_config_impl**](ConfigmgrApi.md#com_day_cq_polling_importer_impl_managed_poll_config_impl) | **POST** /system/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollConfigImpl | 
@@ -448,7 +448,7 @@ Method | HTTP request | Description
 [**com_day_cq_replication_content_static_content_builder**](ConfigmgrApi.md#com_day_cq_replication_content_static_content_builder) | **POST** /system/console/configMgr/com.day.cq.replication.content.StaticContentBuilder | 
 [**com_day_cq_replication_impl_agent_manager_impl**](ConfigmgrApi.md#com_day_cq_replication_impl_agent_manager_impl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.AgentManagerImpl | 
 [**com_day_cq_replication_impl_content_durbo_binary_less_content_builder**](ConfigmgrApi.md#com_day_cq_replication_impl_content_durbo_binary_less_content_builder) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder | 
-[**com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service**](ConfigmgrApi.md#com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
+[**com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov**](ConfigmgrApi.md#com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
 [**com_day_cq_replication_impl_replication_content_factory_provider_impl**](ConfigmgrApi.md#com_day_cq_replication_impl_replication_content_factory_provider_impl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl | 
 [**com_day_cq_replication_impl_replication_receiver_impl**](ConfigmgrApi.md#com_day_cq_replication_impl_replication_receiver_impl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationReceiverImpl | 
 [**com_day_cq_replication_impl_replicator_impl**](ConfigmgrApi.md#com_day_cq_replication_impl_replicator_impl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicatorImpl | 
@@ -473,7 +473,7 @@ Method | HTTP request | Description
 [**com_day_cq_tagging_impl_search_tag_predicate_evaluator**](ConfigmgrApi.md#com_day_cq_tagging_impl_search_tag_predicate_evaluator) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.search.TagPredicateEvaluator | 
 [**com_day_cq_tagging_impl_tag_garbage_collector**](ConfigmgrApi.md#com_day_cq_tagging_impl_tag_garbage_collector) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector | 
 [**com_day_cq_wcm_contentsync_impl_handler_pages_update_handler**](ConfigmgrApi.md#com_day_cq_wcm_contentsync_impl_handler_pages_update_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler | 
-[**com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory**](ConfigmgrApi.md#com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
+[**com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor**](ConfigmgrApi.md#com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
 [**com_day_cq_wcm_core_impl_authoring_ui_mode_service_impl**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_authoring_ui_mode_service_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl | 
 [**com_day_cq_wcm_core_impl_commands_wcm_command_servlet**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_commands_wcm_command_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.commands.WCMCommandServlet | 
 [**com_day_cq_wcm_core_impl_devicedetection_device_identification_mode_impl**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_devicedetection_device_identification_mode_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl | 
@@ -487,7 +487,7 @@ Method | HTTP request | Description
 [**com_day_cq_wcm_core_impl_page_page_manager_factory_impl**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_page_page_manager_factory_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl | 
 [**com_day_cq_wcm_core_impl_references_content_content_reference_config**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_references_content_content_reference_config) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig | 
 [**com_day_cq_wcm_core_impl_servlets_contentfinder_asset_view_handler**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_contentfinder_asset_view_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler | 
-[**com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
+[**com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
 [**com_day_cq_wcm_core_impl_servlets_contentfinder_page_view_handler**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_contentfinder_page_view_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler | 
 [**com_day_cq_wcm_core_impl_servlets_find_replace_servlet**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_find_replace_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet | 
 [**com_day_cq_wcm_core_impl_servlets_reference_search_servlet**](ConfigmgrApi.md#com_day_cq_wcm_core_impl_servlets_reference_search_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet | 
@@ -507,23 +507,23 @@ Method | HTTP request | Description
 [**com_day_cq_wcm_designimporter_impl_canvas_page_delete_handler**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_impl_canvas_page_delete_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler | 
 [**com_day_cq_wcm_designimporter_impl_entry_preprocessor_impl**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_impl_entry_preprocessor_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl | 
 [**com_day_cq_wcm_designimporter_impl_mobile_canvas_builder_impl**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_impl_mobile_canvas_builder_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
-[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
+[**com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl**](ConfigmgrApi.md#com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
 [**com_day_cq_wcm_foundation_forms_impl_form_chooser_servlet**](ConfigmgrApi.md#com_day_cq_wcm_foundation_forms_impl_form_chooser_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet | 
 [**com_day_cq_wcm_foundation_forms_impl_form_paragraph_post_processor**](ConfigmgrApi.md#com_day_cq_wcm_foundation_forms_impl_form_paragraph_post_processor) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor | 
 [**com_day_cq_wcm_foundation_forms_impl_forms_handling_servlet**](ConfigmgrApi.md#com_day_cq_wcm_foundation_forms_impl_forms_handling_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet | 
@@ -532,7 +532,7 @@ Method | HTTP request | Description
 [**com_day_cq_wcm_foundation_impl_http_auth_handler**](ConfigmgrApi.md#com_day_cq_wcm_foundation_impl_http_auth_handler) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.HTTPAuthHandler | 
 [**com_day_cq_wcm_foundation_impl_page_impressions_tracker**](ConfigmgrApi.md#com_day_cq_wcm_foundation_impl_page_impressions_tracker) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageImpressionsTracker | 
 [**com_day_cq_wcm_foundation_impl_page_redirect_servlet**](ConfigmgrApi.md#com_day_cq_wcm_foundation_impl_page_redirect_servlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageRedirectServlet | 
-[**com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service**](ConfigmgrApi.md#com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
+[**com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist**](ConfigmgrApi.md#com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
 [**com_day_cq_wcm_foundation_security_impl_safer_sling_post_validator_impl**](ConfigmgrApi.md#com_day_cq_wcm_foundation_security_impl_safer_sling_post_validator_impl) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl | 
 [**com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory**](ConfigmgrApi.md#com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory | 
 [**com_day_cq_wcm_mobile_core_impl_redirect_redirect_filter**](ConfigmgrApi.md#com_day_cq_wcm_mobile_core_impl_redirect_redirect_filter) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter | 
@@ -576,29 +576,29 @@ Method | HTTP request | Description
 [**org_apache_felix_systemready_system_ready_monitor**](ConfigmgrApi.md#org_apache_felix_systemready_system_ready_monitor) | **POST** /system/console/configMgr/org.apache.felix.systemready.SystemReadyMonitor | 
 [**org_apache_felix_webconsole_internal_servlet_osgi_manager**](ConfigmgrApi.md#org_apache_felix_webconsole_internal_servlet_osgi_manager) | **POST** /system/console/configMgr/org.apache.felix.webconsole.internal.servlet.OsgiManager | 
 [**org_apache_felix_webconsole_plugins_event_internal_plugin_servlet**](ConfigmgrApi.md#org_apache_felix_webconsole_plugins_event_internal_plugin_servlet) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.event.internal.PluginServlet | 
-[**org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator**](ConfigmgrApi.md#org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
+[**org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co**](ConfigmgrApi.md#org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
 [**org_apache_http_proxyconfigurator**](ConfigmgrApi.md#org_apache_http_proxyconfigurator) | **POST** /system/console/configMgr/org.apache.http.proxyconfigurator | 
-[**org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
+[**org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
 [**org_apache_jackrabbit_oak_plugins_blob_datastore_file_data_store**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_blob_datastore_file_data_store) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore | 
 [**org_apache_jackrabbit_oak_plugins_document_document_node_store_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_document_node_store_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService | 
-[**org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
-[**org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
+[**org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
+[**org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
 [**org_apache_jackrabbit_oak_plugins_index_async_indexer_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_async_indexer_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService | 
-[**org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
-[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
+[**org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
+[**org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
 [**org_apache_jackrabbit_oak_plugins_metric_statistics_provider_factory**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_metric_statistics_provider_factory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory | 
 [**org_apache_jackrabbit_oak_plugins_observation_change_collector_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_plugins_observation_change_collector_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider | 
 [**org_apache_jackrabbit_oak_query_query_engine_settings_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_query_query_engine_settings_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.query.QueryEngineSettingsService | 
-[**org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
-[**org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
-[**org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
-[**org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
-[**org_apache_jackrabbit_oak_security_internal_security_provider_registration**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_internal_security_provider_registration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
+[**org_apache_jackrabbit_oak_security_authentication_authentication_config**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_authentication_config) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
+[**org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
+[**org_apache_jackrabbit_oak_security_authentication_token_token_configura**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authentication_token_token_configura) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
+[**org_apache_jackrabbit_oak_security_authorization_authorization_configur**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_authorization_authorization_configur) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
+[**org_apache_jackrabbit_oak_security_internal_security_provider_registrati**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_internal_security_provider_registrati) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
 [**org_apache_jackrabbit_oak_security_user_random_authorizable_node_name**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_user_random_authorizable_node_name) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName | 
 [**org_apache_jackrabbit_oak_security_user_user_configuration_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_security_user_user_configuration_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl | 
 [**org_apache_jackrabbit_oak_segment_azure_azure_segment_store_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_segment_azure_azure_segment_store_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService | 
@@ -606,23 +606,23 @@ Method | HTTP request | Description
 [**org_apache_jackrabbit_oak_segment_segment_node_store_monitor_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_segment_segment_node_store_monitor_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService | 
 [**org_apache_jackrabbit_oak_segment_segment_node_store_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_segment_segment_node_store_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService | 
 [**org_apache_jackrabbit_oak_segment_standby_store_standby_store_service**](ConfigmgrApi.md#org_apache_jackrabbit_oak_segment_standby_store_standby_store_service) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService | 
-[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
-[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
-[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
-[**org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
-[**org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
-[**org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
+[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
+[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
+[**org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
+[**org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
+[**org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
+[**org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable**](ConfigmgrApi.md#org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
 [**org_apache_jackrabbit_vault_packaging_impl_packaging_impl**](ConfigmgrApi.md#org_apache_jackrabbit_vault_packaging_impl_packaging_impl) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl | 
 [**org_apache_jackrabbit_vault_packaging_registry_impl_fs_package_registry**](ConfigmgrApi.md#org_apache_jackrabbit_vault_packaging_registry_impl_fs_package_registry) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry | 
 [**org_apache_sling_auth_core_impl_logout_servlet**](ConfigmgrApi.md#org_apache_sling_auth_core_impl_logout_servlet) | **POST** /system/console/configMgr/org.apache.sling.auth.core.impl.LogoutServlet | 
 [**org_apache_sling_caconfig_impl_configuration_bindings_value_provider**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_configuration_bindings_value_provider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider | 
 [**org_apache_sling_caconfig_impl_configuration_resolver_impl**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_configuration_resolver_impl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationResolverImpl | 
-[**org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
-[**org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
-[**org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
-[**org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
-[**org_apache_sling_caconfig_management_impl_configuration_management_settings_impl**](ConfigmgrApi.md#org_apache_sling_caconfig_management_impl_configuration_management_settings_impl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
-[**org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy**](ConfigmgrApi.md#org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
+[**org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
+[**org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
+[**org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
+[**org_apache_sling_caconfig_impl_override_system_property_configuration_ove**](ConfigmgrApi.md#org_apache_sling_caconfig_impl_override_system_property_configuration_ove) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
+[**org_apache_sling_caconfig_management_impl_configuration_management_setti**](ConfigmgrApi.md#org_apache_sling_caconfig_management_impl_configuration_management_setti) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
+[**org_apache_sling_caconfig_resource_impl_def_default_configuration_resour**](ConfigmgrApi.md#org_apache_sling_caconfig_resource_impl_def_default_configuration_resour) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
 [**org_apache_sling_caconfig_resource_impl_def_default_context_path_strategy**](ConfigmgrApi.md#org_apache_sling_caconfig_resource_impl_def_default_context_path_strategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy | 
 [**org_apache_sling_commons_html_internal_tagsoup_html_parser**](ConfigmgrApi.md#org_apache_sling_commons_html_internal_tagsoup_html_parser) | **POST** /system/console/configMgr/org.apache.sling.commons.html.internal.TagsoupHtmlParser | 
 [**org_apache_sling_commons_log_log_manager**](ConfigmgrApi.md#org_apache_sling_commons_log_log_manager) | **POST** /system/console/configMgr/org.apache.sling.commons.log.LogManager | 
@@ -638,30 +638,30 @@ Method | HTTP request | Description
 [**org_apache_sling_datasource_jndi_data_source_factory**](ConfigmgrApi.md#org_apache_sling_datasource_jndi_data_source_factory) | **POST** /system/console/configMgr/org.apache.sling.datasource.JNDIDataSourceFactory | 
 [**org_apache_sling_discovery_oak_config**](ConfigmgrApi.md#org_apache_sling_discovery_oak_config) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.Config | 
 [**org_apache_sling_discovery_oak_synchronized_clocks_health_check**](ConfigmgrApi.md#org_apache_sling_discovery_oak_synchronized_clocks_health_check) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck | 
-[**org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
-[**org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
+[**org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
+[**org_apache_sling_distribution_agent_impl_privilege_distribution_request_a**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_privilege_distribution_request_a) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
 [**org_apache_sling_distribution_agent_impl_queue_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_queue_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory | 
-[**org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
-[**org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
+[**org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
+[**org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
 [**org_apache_sling_distribution_agent_impl_sync_distribution_agent_factory**](ConfigmgrApi.md#org_apache_sling_distribution_agent_impl_sync_distribution_agent_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory | 
 [**org_apache_sling_distribution_monitor_distribution_queue_health_check**](ConfigmgrApi.md#org_apache_sling_distribution_monitor_distribution_queue_health_check) | **POST** /system/console/configMgr/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck | 
-[**org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
-[**org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
-[**org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory**](ConfigmgrApi.md#org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
-[**org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory**](ConfigmgrApi.md#org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
-[**org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory**](ConfigmgrApi.md#org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
-[**org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory**](ConfigmgrApi.md#org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
-[**org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider**](ConfigmgrApi.md#org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
-[**org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
-[**org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
+[**org_apache_sling_distribution_packaging_impl_exporter_agent_distributio**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_agent_distributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_exporter_local_distributio**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_local_distributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_exporter_remote_distributi**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_exporter_remote_distributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_importer_local_distributio**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_local_distributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_importer_remote_distributi**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_remote_distributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
+[**org_apache_sling_distribution_packaging_impl_importer_repository_distri**](ConfigmgrApi.md#org_apache_sling_distribution_packaging_impl_importer_repository_distri) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
+[**org_apache_sling_distribution_resources_impl_distribution_configuration**](ConfigmgrApi.md#org_apache_sling_distribution_resources_impl_distribution_configuration) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
+[**org_apache_sling_distribution_resources_impl_distribution_service_resour**](ConfigmgrApi.md#org_apache_sling_distribution_resources_impl_distribution_service_resour) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
+[**org_apache_sling_distribution_serialization_impl_distribution_package_bu**](ConfigmgrApi.md#org_apache_sling_distribution_serialization_impl_distribution_package_bu) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
+[**org_apache_sling_distribution_serialization_impl_vlt_vault_distribution**](ConfigmgrApi.md#org_apache_sling_distribution_serialization_impl_vlt_vault_distribution) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
+[**org_apache_sling_distribution_transport_impl_user_credentials_distributi**](ConfigmgrApi.md#org_apache_sling_distribution_transport_impl_user_credentials_distributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
+[**org_apache_sling_distribution_trigger_impl_distribution_event_distribute**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_distribution_event_distribute) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
+[**org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge**](ConfigmgrApi.md#org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
 [**org_apache_sling_engine_impl_auth_sling_authenticator**](ConfigmgrApi.md#org_apache_sling_engine_impl_auth_sling_authenticator) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.auth.SlingAuthenticator | 
 [**org_apache_sling_engine_impl_debug_request_progress_tracker_log_filter**](ConfigmgrApi.md#org_apache_sling_engine_impl_debug_request_progress_tracker_log_filter) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter | 
 [**org_apache_sling_engine_impl_log_request_logger**](ConfigmgrApi.md#org_apache_sling_engine_impl_log_request_logger) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.log.RequestLogger | 
@@ -673,7 +673,7 @@ Method | HTTP request | Description
 [**org_apache_sling_event_impl_jobs_jcr_persistence_handler**](ConfigmgrApi.md#org_apache_sling_event_impl_jobs_jcr_persistence_handler) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler | 
 [**org_apache_sling_event_impl_jobs_job_consumer_manager**](ConfigmgrApi.md#org_apache_sling_event_impl_jobs_job_consumer_manager) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.JobConsumerManager | 
 [**org_apache_sling_event_jobs_queue_configuration**](ConfigmgrApi.md#org_apache_sling_event_jobs_queue_configuration) | **POST** /system/console/configMgr/org.apache.sling.event.jobs.QueueConfiguration | 
-[**org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider**](ConfigmgrApi.md#org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
+[**org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w**](ConfigmgrApi.md#org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
 [**org_apache_sling_featureflags_feature**](ConfigmgrApi.md#org_apache_sling_featureflags_feature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.Feature | 
 [**org_apache_sling_featureflags_impl_configured_feature**](ConfigmgrApi.md#org_apache_sling_featureflags_impl_configured_feature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.impl.ConfiguredFeature | 
 [**org_apache_sling_hapi_impl_h_api_util_impl**](ConfigmgrApi.md#org_apache_sling_hapi_impl_h_api_util_impl) | **POST** /system/console/configMgr/org.apache.sling.hapi.impl.HApiUtilImpl | 
@@ -697,20 +697,20 @@ Method | HTTP request | Description
 [**org_apache_sling_jcr_resource_internal_jcr_system_user_validator**](ConfigmgrApi.md#org_apache_sling_jcr_resource_internal_jcr_system_user_validator) | **POST** /system/console/configMgr/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator | 
 [**org_apache_sling_jcr_resourcesecurity_impl_resource_access_gate_factory**](ConfigmgrApi.md#org_apache_sling_jcr_resourcesecurity_impl_resource_access_gate_factory) | **POST** /system/console/configMgr/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory | 
 [**org_apache_sling_jcr_webdav_impl_handler_default_handler_service**](ConfigmgrApi.md#org_apache_sling_jcr_webdav_impl_handler_default_handler_service) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService | 
-[**org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service**](ConfigmgrApi.md#org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
+[**org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic**](ConfigmgrApi.md#org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
 [**org_apache_sling_jcr_webdav_impl_servlets_simple_web_dav_servlet**](ConfigmgrApi.md#org_apache_sling_jcr_webdav_impl_servlets_simple_web_dav_servlet) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet | 
 [**org_apache_sling_jmx_provider_impl_jmx_resource_provider**](ConfigmgrApi.md#org_apache_sling_jmx_provider_impl_jmx_resource_provider) | **POST** /system/console/configMgr/org.apache.sling.jmx.provider.impl.JMXResourceProvider | 
 [**org_apache_sling_models_impl_model_adapter_factory**](ConfigmgrApi.md#org_apache_sling_models_impl_model_adapter_factory) | **POST** /system/console/configMgr/org.apache.sling.models.impl.ModelAdapterFactory | 
 [**org_apache_sling_models_jacksonexporter_impl_resource_module_provider**](ConfigmgrApi.md#org_apache_sling_models_jacksonexporter_impl_resource_module_provider) | **POST** /system/console/configMgr/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider | 
-[**org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory**](ConfigmgrApi.md#org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
+[**org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto**](ConfigmgrApi.md#org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
 [**org_apache_sling_resourcemerger_impl_merged_resource_provider_factory**](ConfigmgrApi.md#org_apache_sling_resourcemerger_impl_merged_resource_provider_factory) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory | 
 [**org_apache_sling_resourcemerger_picker_overriding**](ConfigmgrApi.md#org_apache_sling_resourcemerger_picker_overriding) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.picker.overriding | 
 [**org_apache_sling_scripting_core_impl_script_cache_impl**](ConfigmgrApi.md#org_apache_sling_scripting_core_impl_script_cache_impl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptCacheImpl | 
-[**org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl**](ConfigmgrApi.md#org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
+[**org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider**](ConfigmgrApi.md#org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
 [**org_apache_sling_scripting_java_impl_java_script_engine_factory**](ConfigmgrApi.md#org_apache_sling_scripting_java_impl_java_script_engine_factory) | **POST** /system/console/configMgr/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory | 
-[**org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory**](ConfigmgrApi.md#org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
+[**org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa**](ConfigmgrApi.md#org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
 [**org_apache_sling_scripting_jsp_jsp_script_engine_factory**](ConfigmgrApi.md#org_apache_sling_scripting_jsp_jsp_script_engine_factory) | **POST** /system/console/configMgr/org.apache.sling.scripting.jsp.JspScriptEngineFactory | 
-[**org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider**](ConfigmgrApi.md#org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
+[**org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov**](ConfigmgrApi.md#org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
 [**org_apache_sling_security_impl_content_disposition_filter**](ConfigmgrApi.md#org_apache_sling_security_impl_content_disposition_filter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ContentDispositionFilter | 
 [**org_apache_sling_security_impl_referrer_filter**](ConfigmgrApi.md#org_apache_sling_security_impl_referrer_filter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter | 
 [**org_apache_sling_serviceusermapping_impl_service_user_mapper_impl**](ConfigmgrApi.md#org_apache_sling_serviceusermapping_impl_service_user_mapper_impl) | **POST** /system/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl | 
@@ -793,8 +793,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **adaptive_form_and_interactive_communication_web_channel_theme_configuration**
-> AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo adaptive_form_and_interactive_communication_web_channel_theme_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, font_list=font_list)
+# **adaptive_form_and_interactive_communication_web_channel_theme_configur**
+> AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo adaptive_form_and_interactive_communication_web_channel_theme_configur(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, font_list=font_list)
 
 
 
@@ -818,10 +818,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 font_list = ['font_list_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.adaptive_form_and_interactive_communication_web_channel_theme_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, font_list=font_list)
+    api_response = api_instance.adaptive_form_and_interactive_communication_web_channel_theme_configur(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, font_list=font_list)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->adaptive_form_and_interactive_communication_web_channel_theme_configuration: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->adaptive_form_and_interactive_communication_web_channel_theme_configur: %s\n" % e)
 ```
 
 ### Parameters
@@ -838,7 +838,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo**](AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo.md)
+[**AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo**](AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo.md)
 
 ### Authorization
 
@@ -1895,8 +1895,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler**
-> ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, flush_agents=flush_agents)
+# **com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle**
+> ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, flush_agents=flush_agents)
 
 
 
@@ -1920,10 +1920,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 flush_agents = ['flush_agents_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, flush_agents=flush_agents)
+    api_response = api_instance.com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, flush_agents=flush_agents)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle: %s\n" % e)
 ```
 
 ### Parameters
@@ -1940,7 +1940,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo**](ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo.md)
+[**ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo**](ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo.md)
 
 ### Authorization
 
@@ -2543,8 +2543,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet**
-> ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, reportingservices_proxy_whitelist=reportingservices_proxy_whitelist)
+# **com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle**
+> ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, reportingservices_proxy_whitelist=reportingservices_proxy_whitelist)
 
 
 
@@ -2568,10 +2568,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 reportingservices_proxy_whitelist = ['reportingservices_proxy_whitelist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, reportingservices_proxy_whitelist=reportingservices_proxy_whitelist)
+    api_response = api_instance.com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, reportingservices_proxy_whitelist=reportingservices_proxy_whitelist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle: %s\n" % e)
 ```
 
 ### Parameters
@@ -2588,7 +2588,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo**](ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo.md)
+[**ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo**](ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo.md)
 
 ### Authorization
 
@@ -5067,8 +5067,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check**
-> ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+# **com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch**
+> ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
 
 
 
@@ -5092,10 +5092,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 hc_tags = ['hc_tags_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+    api_response = api_instance.com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch: %s\n" % e)
 ```
 
 ### Parameters
@@ -5112,7 +5112,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo**](ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo.md)
+[**ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo**](ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo.md)
 
 ### Authorization
 
@@ -5365,8 +5365,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_accountverification_impl_account_management_config_impl**
-> ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo com_adobe_cq_social_accountverification_impl_account_management_config_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable=enable, ttl1=ttl1, ttl2=ttl2)
+# **com_adobe_cq_social_accountverification_impl_account_management_config_im**
+> ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo com_adobe_cq_social_accountverification_impl_account_management_config_im(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable=enable, ttl1=ttl1, ttl2=ttl2)
 
 
 
@@ -5392,10 +5392,10 @@ ttl1 = 56 # int |  (optional)
 ttl2 = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_accountverification_impl_account_management_config_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable=enable, ttl1=ttl1, ttl2=ttl2)
+    api_response = api_instance.com_adobe_cq_social_accountverification_impl_account_management_config_im(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable=enable, ttl1=ttl1, ttl2=ttl2)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_accountverification_impl_account_management_config_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_accountverification_impl_account_management_config_im: %s\n" % e)
 ```
 
 ### Parameters
@@ -5414,7 +5414,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo**](ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo.md)
+[**ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo**](ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo.md)
 
 ### Authorization
 
@@ -5427,8 +5427,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl**
-> ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
+# **com_adobe_cq_social_activitystreams_client_impl_social_activity_componen**
+> ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo com_adobe_cq_social_activitystreams_client_impl_social_activity_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
 
 
 
@@ -5452,10 +5452,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_activitystreams_client_impl_social_activity_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_client_impl_social_activity_componen: %s\n" % e)
 ```
 
 ### Parameters
@@ -5472,7 +5472,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo.md)
+[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo.md)
 
 ### Authorization
 
@@ -5485,8 +5485,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory**
-> ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
+# **com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co**
+> ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
 
 
 
@@ -5510,10 +5510,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co: %s\n" % e)
 ```
 
 ### Parameters
@@ -5530,7 +5530,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo.md)
+[**ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo**](ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo.md)
 
 ### Authorization
 
@@ -5603,8 +5603,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension**
-> ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, accepted=accepted, ranked=ranked)
+# **com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten**
+> ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, accepted=accepted, ranked=ranked)
 
 
 
@@ -5629,10 +5629,10 @@ accepted = True # bool |  (optional)
 ranked = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, accepted=accepted, ranked=ranked)
+    api_response = api_instance.com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, accepted=accepted, ranked=ranked)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten: %s\n" % e)
 ```
 
 ### Parameters
@@ -5650,7 +5650,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo**](ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo**](ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo.md)
 
 ### Authorization
 
@@ -5663,8 +5663,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor**
-> ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ranking=ranking, enable=enable)
+# **com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s**
+> ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ranking=ranking, enable=enable)
 
 
 
@@ -5689,10 +5689,10 @@ ranking = 56 # int |  (optional)
 enable = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ranking=ranking, enable=enable)
+    api_response = api_instance.com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ranking=ranking, enable=enable)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s: %s\n" % e)
 ```
 
 ### Parameters
@@ -5710,7 +5710,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo**](ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo**](ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo.md)
 
 ### Authorization
 
@@ -5723,8 +5723,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory**
-> ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, stream_path=stream_path, stream_name=stream_name)
+# **com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre**
+> ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, stream_path=stream_path, stream_name=stream_name)
 
 
 
@@ -5749,10 +5749,10 @@ stream_path = 'stream_path_example' # str |  (optional)
 stream_name = 'stream_name_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, stream_path=stream_path, stream_name=stream_name)
+    api_response = api_instance.com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, stream_path=stream_path, stream_name=stream_name)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre: %s\n" % e)
 ```
 
 ### Parameters
@@ -5770,7 +5770,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo**](ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo.md)
+[**ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo**](ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo.md)
 
 ### Authorization
 
@@ -5783,8 +5783,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl**
-> ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, max_retry=max_retry, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+# **com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i**
+> ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, max_retry=max_retry, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
 
 
 
@@ -5810,10 +5810,10 @@ field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 attachment_type_blacklist = ['attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, max_retry=max_retry, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, max_retry=max_retry, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i: %s\n" % e)
 ```
 
 ### Parameters
@@ -5832,7 +5832,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo**](ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo.md)
+[**ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo**](ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo.md)
 
 ### Authorization
 
@@ -5845,8 +5845,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_calendar_client_operationextensions_event_attachment**
-> ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo com_adobe_cq_social_calendar_client_operationextensions_event_attachment(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, attachment_type_blacklist=attachment_type_blacklist, extension_order=extension_order)
+# **com_adobe_cq_social_calendar_client_operationextensions_event_attachmen**
+> ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo com_adobe_cq_social_calendar_client_operationextensions_event_attachmen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, attachment_type_blacklist=attachment_type_blacklist, extension_order=extension_order)
 
 
 
@@ -5871,10 +5871,10 @@ attachment_type_blacklist = 'attachment_type_blacklist_example' # str |  (option
 extension_order = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_calendar_client_operationextensions_event_attachment(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, attachment_type_blacklist=attachment_type_blacklist, extension_order=extension_order)
+    api_response = api_instance.com_adobe_cq_social_calendar_client_operationextensions_event_attachmen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, attachment_type_blacklist=attachment_type_blacklist, extension_order=extension_order)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_calendar_client_operationextensions_event_attachment: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_calendar_client_operationextensions_event_attachmen: %s\n" % e)
 ```
 
 ### Parameters
@@ -5892,7 +5892,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo**](ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo.md)
+[**ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo**](ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo.md)
 
 ### Authorization
 
@@ -5963,8 +5963,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor**
-> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ranking=ranking)
+# **com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event**
+> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ranking=ranking)
 
 
 
@@ -5988,10 +5988,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 ranking = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ranking=ranking)
+    api_response = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ranking=ranking)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event: %s\n" % e)
 ```
 
 ### Parameters
@@ -6008,7 +6008,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo.md)
 
 ### Authorization
 
@@ -6021,8 +6021,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service**
-> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+# **com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se**
+> ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
 
 
 
@@ -6047,10 +6047,10 @@ field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 attachment_type_blacklist = ['attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se: %s\n" % e)
 ```
 
 ### Parameters
@@ -6068,7 +6068,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo.md)
 
 ### Authorization
 
@@ -6081,8 +6081,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service**
-> ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+# **com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati**
+> ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
 
 
 
@@ -6107,10 +6107,10 @@ field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 attachment_type_blacklist = ['attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati: %s\n" % e)
 ```
 
 ### Parameters
@@ -6128,7 +6128,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo.md)
+[**ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo**](ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo.md)
 
 ### Authorization
 
@@ -6141,8 +6141,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider**
-> ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, num_user_limit=num_user_limit)
+# **com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c**
+> ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, num_user_limit=num_user_limit)
 
 
 
@@ -6166,10 +6166,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 num_user_limit = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, num_user_limit=num_user_limit)
+    api_response = api_instance.com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, num_user_limit=num_user_limit)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c: %s\n" % e)
 ```
 
 ### Parameters
@@ -6186,7 +6186,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo**](ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo.md)
+[**ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo**](ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo.md)
 
 ### Authorization
 
@@ -6199,8 +6199,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts**
-> ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable_scheduled_posts_search=enable_scheduled_posts_search, number_of_minutes=number_of_minutes, max_search_limit=max_search_limit)
+# **com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos**
+> ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable_scheduled_posts_search=enable_scheduled_posts_search, number_of_minutes=number_of_minutes, max_search_limit=max_search_limit)
 
 
 
@@ -6226,10 +6226,10 @@ number_of_minutes = 56 # int |  (optional)
 max_search_limit = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable_scheduled_posts_search=enable_scheduled_posts_search, number_of_minutes=number_of_minutes, max_search_limit=max_search_limit)
+    api_response = api_instance.com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable_scheduled_posts_search=enable_scheduled_posts_search, number_of_minutes=number_of_minutes, max_search_limit=max_search_limit)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos: %s\n" % e)
 ```
 
 ### Parameters
@@ -6248,7 +6248,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo**](ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo.md)
+[**ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo**](ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo.md)
 
 ### Authorization
 
@@ -6555,8 +6555,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl**
-> ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, pattern_time=pattern_time, pattern_newline=pattern_newline, pattern_day_of_month=pattern_day_of_month, pattern_month=pattern_month, pattern_year=pattern_year, pattern_date=pattern_date, pattern_date_time=pattern_date_time, pattern_email=pattern_email)
+# **com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp**
+> ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, pattern_time=pattern_time, pattern_newline=pattern_newline, pattern_day_of_month=pattern_day_of_month, pattern_month=pattern_month, pattern_year=pattern_year, pattern_date=pattern_date, pattern_date_time=pattern_date_time, pattern_email=pattern_email)
 
 
 
@@ -6587,10 +6587,10 @@ pattern_date_time = 'pattern_date_time_example' # str |  (optional)
 pattern_email = 'pattern_email_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, pattern_time=pattern_time, pattern_newline=pattern_newline, pattern_day_of_month=pattern_day_of_month, pattern_month=pattern_month, pattern_year=pattern_year, pattern_date=pattern_date, pattern_date_time=pattern_date_time, pattern_email=pattern_email)
+    api_response = api_instance.com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, pattern_time=pattern_time, pattern_newline=pattern_newline, pattern_day_of_month=pattern_day_of_month, pattern_month=pattern_month, pattern_year=pattern_year, pattern_date=pattern_date, pattern_date_time=pattern_date_time, pattern_email=pattern_email)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp: %s\n" % e)
 ```
 
 ### Parameters
@@ -6614,7 +6614,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo.md)
+[**ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.md)
 
 ### Authorization
 
@@ -6627,8 +6627,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl**
-> ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, email_name=email_name, email_create_post_from_reply=email_create_post_from_reply, email_add_comment_id_to=email_add_comment_id_to, email_subject_maximum_length=email_subject_maximum_length, email_reply_to_address=email_reply_to_address, email_reply_to_delimiter=email_reply_to_delimiter, email_tracker_id_prefix_in_subject=email_tracker_id_prefix_in_subject, email_tracker_id_prefix_in_body=email_tracker_id_prefix_in_body, email_as_html=email_as_html, email_default_user_name=email_default_user_name, email_templates_root_path=email_templates_root_path)
+# **com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp**
+> ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, email_name=email_name, email_create_post_from_reply=email_create_post_from_reply, email_add_comment_id_to=email_add_comment_id_to, email_subject_maximum_length=email_subject_maximum_length, email_reply_to_address=email_reply_to_address, email_reply_to_delimiter=email_reply_to_delimiter, email_tracker_id_prefix_in_subject=email_tracker_id_prefix_in_subject, email_tracker_id_prefix_in_body=email_tracker_id_prefix_in_body, email_as_html=email_as_html, email_default_user_name=email_default_user_name, email_templates_root_path=email_templates_root_path)
 
 
 
@@ -6662,10 +6662,10 @@ email_default_user_name = 'email_default_user_name_example' # str |  (optional)
 email_templates_root_path = 'email_templates_root_path_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, email_name=email_name, email_create_post_from_reply=email_create_post_from_reply, email_add_comment_id_to=email_add_comment_id_to, email_subject_maximum_length=email_subject_maximum_length, email_reply_to_address=email_reply_to_address, email_reply_to_delimiter=email_reply_to_delimiter, email_tracker_id_prefix_in_subject=email_tracker_id_prefix_in_subject, email_tracker_id_prefix_in_body=email_tracker_id_prefix_in_body, email_as_html=email_as_html, email_default_user_name=email_default_user_name, email_templates_root_path=email_templates_root_path)
+    api_response = api_instance.com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, email_name=email_name, email_create_post_from_reply=email_create_post_from_reply, email_add_comment_id_to=email_add_comment_id_to, email_subject_maximum_length=email_subject_maximum_length, email_reply_to_address=email_reply_to_address, email_reply_to_delimiter=email_reply_to_delimiter, email_tracker_id_prefix_in_subject=email_tracker_id_prefix_in_subject, email_tracker_id_prefix_in_body=email_tracker_id_prefix_in_body, email_as_html=email_as_html, email_default_user_name=email_default_user_name, email_templates_root_path=email_templates_root_path)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp: %s\n" % e)
 ```
 
 ### Parameters
@@ -6692,7 +6692,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo.md)
+[**ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo**](ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.md)
 
 ### Authorization
 
@@ -7123,8 +7123,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads**
-> ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, number_of_days=number_of_days, age_of_file=age_of_file)
+# **com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload**
+> ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, number_of_days=number_of_days, age_of_file=age_of_file)
 
 
 
@@ -7149,10 +7149,10 @@ number_of_days = 56 # int |  (optional)
 age_of_file = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, number_of_days=number_of_days, age_of_file=age_of_file)
+    api_response = api_instance.com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, number_of_days=number_of_days, age_of_file=age_of_file)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload: %s\n" % e)
 ```
 
 ### Parameters
@@ -7170,7 +7170,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo**](ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo.md)
+[**ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo**](ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo.md)
 
 ### Authorization
 
@@ -7245,8 +7245,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl**
-> ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable=enable, ugc_limit=ugc_limit, ugc_limit_duration=ugc_limit_duration, domains=domains, to_list=to_list)
+# **com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit**
+> ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable=enable, ugc_limit=ugc_limit, ugc_limit_duration=ugc_limit_duration, domains=domains, to_list=to_list)
 
 
 
@@ -7274,10 +7274,10 @@ domains = ['domains_example'] # list[str] |  (optional)
 to_list = ['to_list_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable=enable, ugc_limit=ugc_limit, ugc_limit_duration=ugc_limit_duration, domains=domains, to_list=to_list)
+    api_response = api_instance.com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enable=enable, ugc_limit=ugc_limit, ugc_limit_duration=ugc_limit_duration, domains=domains, to_list=to_list)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit: %s\n" % e)
 ```
 
 ### Parameters
@@ -7298,7 +7298,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo**](ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo.md)
+[**ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo**](ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo.md)
 
 ### Authorization
 
@@ -7383,8 +7383,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler**
-> ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path=path, service_ranking=service_ranking)
+# **com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle**
+> ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path=path, service_ranking=service_ranking)
 
 
 
@@ -7409,10 +7409,10 @@ path = ['path_example'] # list[str] |  (optional)
 service_ranking = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path=path, service_ranking=service_ranking)
+    api_response = api_instance.com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path=path, service_ranking=service_ranking)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle: %s\n" % e)
 ```
 
 ### Parameters
@@ -7430,7 +7430,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo**](ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo.md)
+[**ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo**](ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo.md)
 
 ### Authorization
 
@@ -7575,8 +7575,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl**
-> ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_content_fragments_services_enabled=cq_social_content_fragments_services_enabled, cq_social_content_fragments_services_wait_time_seconds=cq_social_content_fragments_services_wait_time_seconds)
+# **com_adobe_cq_social_content_fragments_services_impl_communities_fragmen**
+> ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo com_adobe_cq_social_content_fragments_services_impl_communities_fragmen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_content_fragments_services_enabled=cq_social_content_fragments_services_enabled, cq_social_content_fragments_services_wait_time_seconds=cq_social_content_fragments_services_wait_time_seconds)
 
 
 
@@ -7601,10 +7601,10 @@ cq_social_content_fragments_services_enabled = True # bool |  (optional)
 cq_social_content_fragments_services_wait_time_seconds = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_content_fragments_services_enabled=cq_social_content_fragments_services_enabled, cq_social_content_fragments_services_wait_time_seconds=cq_social_content_fragments_services_wait_time_seconds)
+    api_response = api_instance.com_adobe_cq_social_content_fragments_services_impl_communities_fragmen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_content_fragments_services_enabled=cq_social_content_fragments_services_enabled, cq_social_content_fragments_services_wait_time_seconds=cq_social_content_fragments_services_wait_time_seconds)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_content_fragments_services_impl_communities_fragmen: %s\n" % e)
 ```
 
 ### Parameters
@@ -7622,7 +7622,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo**](ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo.md)
+[**ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo**](ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo.md)
 
 ### Authorization
 
@@ -7775,8 +7775,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory**
-> ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_zk_timeout=solr_zk_timeout, solr_commit=solr_commit, cache_on=cache_on, concurrency_level=concurrency_level, cache_start_size=cache_start_size, cache_ttl=cache_ttl, cache_size=cache_size)
+# **com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor**
+> ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_zk_timeout=solr_zk_timeout, solr_commit=solr_commit, cache_on=cache_on, concurrency_level=concurrency_level, cache_start_size=cache_start_size, cache_ttl=cache_ttl, cache_size=cache_size)
 
 
 
@@ -7806,10 +7806,10 @@ cache_ttl = 56 # int |  (optional)
 cache_size = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_zk_timeout=solr_zk_timeout, solr_commit=solr_commit, cache_on=cache_on, concurrency_level=concurrency_level, cache_start_size=cache_start_size, cache_ttl=cache_ttl, cache_size=cache_size)
+    api_response = api_instance.com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_zk_timeout=solr_zk_timeout, solr_commit=solr_commit, cache_on=cache_on, concurrency_level=concurrency_level, cache_start_size=cache_start_size, cache_ttl=cache_ttl, cache_size=cache_size)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor: %s\n" % e)
 ```
 
 ### Parameters
@@ -7832,7 +7832,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo**](ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo.md)
+[**ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo**](ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo.md)
 
 ### Authorization
 
@@ -7845,8 +7845,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory**
-> ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_member_check=is_member_check)
+# **com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f**
+> ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_member_check=is_member_check)
 
 
 
@@ -7870,10 +7870,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 is_member_check = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_member_check=is_member_check)
+    api_response = api_instance.com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_member_check=is_member_check)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f: %s\n" % e)
 ```
 
 ### Parameters
@@ -7890,7 +7890,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo.md)
+[**ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo.md)
 
 ### Authorization
 
@@ -7903,8 +7903,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory**
-> ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_member_check=is_member_check)
+# **com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto**
+> ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_member_check=is_member_check)
 
 
 
@@ -7928,10 +7928,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 is_member_check = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_member_check=is_member_check)
+    api_response = api_instance.com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_member_check=is_member_check)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto: %s\n" % e)
 ```
 
 ### Parameters
@@ -7948,7 +7948,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo.md)
+[**ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo**](ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo.md)
 
 ### Authorization
 
@@ -7961,8 +7961,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service**
-> ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
+# **com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l**
+> ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
 
 
 
@@ -7986,10 +7986,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
+    api_response = api_instance.com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l: %s\n" % e)
 ```
 
 ### Parameters
@@ -8006,7 +8006,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo**](ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo.md)
+[**ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo**](ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo.md)
 
 ### Authorization
 
@@ -8019,8 +8019,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service**
-> ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
+# **com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou**
+> ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
 
 
 
@@ -8044,10 +8044,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
+    api_response = api_instance.com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou: %s\n" % e)
 ```
 
 ### Parameters
@@ -8064,7 +8064,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo**](ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo.md)
+[**ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo**](ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.md)
 
 ### Authorization
 
@@ -8135,8 +8135,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet**
-> ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, sling_servlet_selectors=sling_servlet_selectors, sling_servlet_extensions=sling_servlet_extensions)
+# **com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge**
+> ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, sling_servlet_selectors=sling_servlet_selectors, sling_servlet_extensions=sling_servlet_extensions)
 
 
 
@@ -8161,10 +8161,10 @@ sling_servlet_selectors = 'sling_servlet_selectors_example' # str |  (optional)
 sling_servlet_extensions = 'sling_servlet_extensions_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, sling_servlet_selectors=sling_servlet_selectors, sling_servlet_extensions=sling_servlet_extensions)
+    api_response = api_instance.com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, sling_servlet_selectors=sling_servlet_selectors, sling_servlet_extensions=sling_servlet_extensions)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge: %s\n" % e)
 ```
 
 ### Parameters
@@ -8182,7 +8182,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo**](ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo.md)
+[**ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo**](ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo.md)
 
 ### Authorization
 
@@ -8195,8 +8195,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service**
-> ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+# **com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera**
+> ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
 
 
 
@@ -8221,10 +8221,10 @@ field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 attachment_type_blacklist = ['attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera: %s\n" % e)
 ```
 
 ### Parameters
@@ -8242,7 +8242,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo**](ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo.md)
+[**ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo**](ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo.md)
 
 ### Authorization
 
@@ -8375,8 +8375,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_group_client_impl_community_group_collection_component_factory**
-> ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo com_adobe_cq_social_group_client_impl_community_group_collection_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, group_listing_pagination_enable=group_listing_pagination_enable, group_listing_lazyloading_enable=group_listing_lazyloading_enable, page_size=page_size, priority=priority)
+# **com_adobe_cq_social_group_client_impl_community_group_collection_componen**
+> ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo com_adobe_cq_social_group_client_impl_community_group_collection_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, group_listing_pagination_enable=group_listing_pagination_enable, group_listing_lazyloading_enable=group_listing_lazyloading_enable, page_size=page_size, priority=priority)
 
 
 
@@ -8403,10 +8403,10 @@ page_size = 56 # int |  (optional)
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_group_client_impl_community_group_collection_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, group_listing_pagination_enable=group_listing_pagination_enable, group_listing_lazyloading_enable=group_listing_lazyloading_enable, page_size=page_size, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_group_client_impl_community_group_collection_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, group_listing_pagination_enable=group_listing_pagination_enable, group_listing_lazyloading_enable=group_listing_lazyloading_enable, page_size=page_size, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_group_client_impl_community_group_collection_component_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_group_client_impl_community_group_collection_componen: %s\n" % e)
 ```
 
 ### Parameters
@@ -8426,7 +8426,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo**](ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo.md)
+[**ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo**](ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.md)
 
 ### Authorization
 
@@ -8563,8 +8563,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service**
-> ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+# **com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s**
+> ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
 
 
 
@@ -8589,10 +8589,10 @@ field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 attachment_type_blacklist = ['attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s: %s\n" % e)
 ```
 
 ### Parameters
@@ -8610,7 +8610,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo**](ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo.md)
+[**ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo**](ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo.md)
 
 ### Authorization
 
@@ -8623,8 +8623,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service**
-> ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+# **com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser**
+> ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
 
 
 
@@ -8649,10 +8649,10 @@ field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 attachment_type_blacklist = ['attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser: %s\n" % e)
 ```
 
 ### Parameters
@@ -8670,7 +8670,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo**](ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo.md)
+[**ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo**](ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo.md)
 
 ### Authorization
 
@@ -8683,8 +8683,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service**
-> ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
+# **com_adobe_cq_social_members_endpoints_impl_community_member_group_profile**
+> ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo com_adobe_cq_social_members_endpoints_impl_community_member_group_profile(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
 
 
 
@@ -8708,10 +8708,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
+    api_response = api_instance.com_adobe_cq_social_members_endpoints_impl_community_member_group_profile(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_members_endpoints_impl_community_member_group_profile: %s\n" % e)
 ```
 
 ### Parameters
@@ -8728,7 +8728,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo.md)
+[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo.md)
 
 ### Authorization
 
@@ -8741,8 +8741,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service**
-> ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
+# **com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o**
+> ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
 
 
 
@@ -8766,10 +8766,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
+    api_response = api_instance.com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o: %s\n" % e)
 ```
 
 ### Parameters
@@ -8786,7 +8786,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo.md)
+[**ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo**](ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo.md)
 
 ### Authorization
 
@@ -8799,8 +8799,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_members_impl_community_member_group_profile_component_factory**
-> ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo com_adobe_cq_social_members_impl_community_member_group_profile_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, everyone_limit=everyone_limit, priority=priority)
+# **com_adobe_cq_social_members_impl_community_member_group_profile_component_f**
+> ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo com_adobe_cq_social_members_impl_community_member_group_profile_component_f(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, everyone_limit=everyone_limit, priority=priority)
 
 
 
@@ -8825,10 +8825,10 @@ everyone_limit = 56 # int |  (optional)
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_members_impl_community_member_group_profile_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, everyone_limit=everyone_limit, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_members_impl_community_member_group_profile_component_f(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, everyone_limit=everyone_limit, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_members_impl_community_member_group_profile_component_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_members_impl_community_member_group_profile_component_f: %s\n" % e)
 ```
 
 ### Parameters
@@ -8846,7 +8846,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo**](ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo.md)
+[**ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo**](ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo.md)
 
 ### Authorization
 
@@ -8859,8 +8859,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl**
-> ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, message_properties=message_properties, message_box_size_limit=message_box_size_limit, message_count_limit=message_count_limit, notify_failure=notify_failure, failure_message_from=failure_message_from, failure_template_path=failure_template_path, max_retries=max_retries, min_wait_between_retries=min_wait_between_retries, count_update_pool_size=count_update_pool_size, inbox_path=inbox_path, sentitems_path=sentitems_path, support_attachments=support_attachments, support_group_messaging=support_group_messaging, max_total_recipients=max_total_recipients, batch_size=batch_size, max_total_attachment_size=max_total_attachment_size, attachment_type_blacklist=attachment_type_blacklist, allowed_attachment_types=allowed_attachment_types, service_selector=service_selector, field_whitelist=field_whitelist)
+# **com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation**
+> ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, message_properties=message_properties, message_box_size_limit=message_box_size_limit, message_count_limit=message_count_limit, notify_failure=notify_failure, failure_message_from=failure_message_from, failure_template_path=failure_template_path, max_retries=max_retries, min_wait_between_retries=min_wait_between_retries, count_update_pool_size=count_update_pool_size, inbox_path=inbox_path, sentitems_path=sentitems_path, support_attachments=support_attachments, support_group_messaging=support_group_messaging, max_total_recipients=max_total_recipients, batch_size=batch_size, max_total_attachment_size=max_total_attachment_size, attachment_type_blacklist=attachment_type_blacklist, allowed_attachment_types=allowed_attachment_types, service_selector=service_selector, field_whitelist=field_whitelist)
 
 
 
@@ -8903,10 +8903,10 @@ service_selector = 'service_selector_example' # str |  (optional)
 field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, message_properties=message_properties, message_box_size_limit=message_box_size_limit, message_count_limit=message_count_limit, notify_failure=notify_failure, failure_message_from=failure_message_from, failure_template_path=failure_template_path, max_retries=max_retries, min_wait_between_retries=min_wait_between_retries, count_update_pool_size=count_update_pool_size, inbox_path=inbox_path, sentitems_path=sentitems_path, support_attachments=support_attachments, support_group_messaging=support_group_messaging, max_total_recipients=max_total_recipients, batch_size=batch_size, max_total_attachment_size=max_total_attachment_size, attachment_type_blacklist=attachment_type_blacklist, allowed_attachment_types=allowed_attachment_types, service_selector=service_selector, field_whitelist=field_whitelist)
+    api_response = api_instance.com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, message_properties=message_properties, message_box_size_limit=message_box_size_limit, message_count_limit=message_count_limit, notify_failure=notify_failure, failure_message_from=failure_message_from, failure_template_path=failure_template_path, max_retries=max_retries, min_wait_between_retries=min_wait_between_retries, count_update_pool_size=count_update_pool_size, inbox_path=inbox_path, sentitems_path=sentitems_path, support_attachments=support_attachments, support_group_messaging=support_group_messaging, max_total_recipients=max_total_recipients, batch_size=batch_size, max_total_attachment_size=max_total_attachment_size, attachment_type_blacklist=attachment_type_blacklist, allowed_attachment_types=allowed_attachment_types, service_selector=service_selector, field_whitelist=field_whitelist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation: %s\n" % e)
 ```
 
 ### Parameters
@@ -8942,7 +8942,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo**](ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo.md)
+[**ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo**](ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo.md)
 
 ### Authorization
 
@@ -8955,8 +8955,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory**
-> ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_type_filters=resource_type_filters, priority=priority)
+# **com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen**
+> ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_type_filters=resource_type_filters, priority=priority)
 
 
 
@@ -8981,10 +8981,10 @@ resource_type_filters = ['resource_type_filters_example'] # list[str] |  (option
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_type_filters=resource_type_filters, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_type_filters=resource_type_filters, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen: %s\n" % e)
 ```
 
 ### Parameters
@@ -9002,7 +9002,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo**](ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo.md)
 
 ### Authorization
 
@@ -9015,8 +9015,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory**
-> ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
+# **com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social**
+> ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
 
 
 
@@ -9040,10 +9040,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social: %s\n" % e)
 ```
 
 ### Parameters
@@ -9060,7 +9060,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo**](ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo.md)
 
 ### Authorization
 
@@ -9073,8 +9073,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory**
-> ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
+# **com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen**
+> ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
 
 
 
@@ -9098,10 +9098,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen: %s\n" % e)
 ```
 
 ### Parameters
@@ -9118,7 +9118,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo**](ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo**](ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo.md)
 
 ### Authorization
 
@@ -9131,8 +9131,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2**
-> ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_type_filters=resource_type_filters, priority=priority)
+# **com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci**
+> ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_type_filters=resource_type_filters, priority=priority)
 
 
 
@@ -9157,10 +9157,10 @@ resource_type_filters = ['resource_type_filters_example'] # list[str] |  (option
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_type_filters=resource_type_filters, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_type_filters=resource_type_filters, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci: %s\n" % e)
 ```
 
 ### Parameters
@@ -9178,7 +9178,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info**](ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info.md)
+[**ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo**](ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo.md)
 
 ### Authorization
 
@@ -9369,8 +9369,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service**
-> ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+# **com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic**
+> ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
 
 
 
@@ -9395,10 +9395,10 @@ field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 attachment_type_blacklist = ['attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic: %s\n" % e)
 ```
 
 ### Parameters
@@ -9416,7 +9416,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo**](ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo.md)
+[**ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo**](ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo.md)
 
 ### Authorization
 
@@ -9429,8 +9429,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl**
-> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_reporting_analytics_polling_importer_interval=cq_social_reporting_analytics_polling_importer_interval, cq_social_reporting_analytics_polling_importer_page_size=cq_social_reporting_analytics_polling_importer_page_size)
+# **com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i**
+> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_reporting_analytics_polling_importer_interval=cq_social_reporting_analytics_polling_importer_interval, cq_social_reporting_analytics_polling_importer_page_size=cq_social_reporting_analytics_polling_importer_page_size)
 
 
 
@@ -9455,10 +9455,10 @@ cq_social_reporting_analytics_polling_importer_interval = 56 # int |  (optional)
 cq_social_reporting_analytics_polling_importer_page_size = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_reporting_analytics_polling_importer_interval=cq_social_reporting_analytics_polling_importer_interval, cq_social_reporting_analytics_polling_importer_page_size=cq_social_reporting_analytics_polling_importer_page_size)
+    api_response = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_reporting_analytics_polling_importer_interval=cq_social_reporting_analytics_polling_importer_interval, cq_social_reporting_analytics_polling_importer_page_size=cq_social_reporting_analytics_polling_importer_page_size)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i: %s\n" % e)
 ```
 
 ### Parameters
@@ -9476,7 +9476,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo.md)
 
 ### Authorization
 
@@ -9489,8 +9489,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl**
-> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, report_fetch_delay=report_fetch_delay)
+# **com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m**
+> ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, report_fetch_delay=report_fetch_delay)
 
 
 
@@ -9514,10 +9514,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 report_fetch_delay = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, report_fetch_delay=report_fetch_delay)
+    api_response = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, report_fetch_delay=report_fetch_delay)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m: %s\n" % e)
 ```
 
 ### Parameters
@@ -9534,7 +9534,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo.md)
 
 ### Authorization
 
@@ -9547,8 +9547,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory**
-> ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_console_analytics_sites_mapping=cq_social_console_analytics_sites_mapping, priority=priority)
+# **com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s**
+> ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_console_analytics_sites_mapping=cq_social_console_analytics_sites_mapping, priority=priority)
 
 
 
@@ -9573,10 +9573,10 @@ cq_social_console_analytics_sites_mapping = ['cq_social_console_analytics_sites_
 priority = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_console_analytics_sites_mapping=cq_social_console_analytics_sites_mapping, priority=priority)
+    api_response = api_instance.com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_console_analytics_sites_mapping=cq_social_console_analytics_sites_mapping, priority=priority)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s: %s\n" % e)
 ```
 
 ### Parameters
@@ -9594,7 +9594,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo.md)
+[**ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo**](ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo.md)
 
 ### Authorization
 
@@ -9607,8 +9607,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_review_client_endpoints_impl_review_operations_service**
-> ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo com_adobe_cq_social_review_client_endpoints_impl_review_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+# **com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi**
+> ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
 
 
 
@@ -9633,10 +9633,10 @@ field_whitelist = ['field_whitelist_example'] # list[str] |  (optional)
 attachment_type_blacklist = ['attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_review_client_endpoints_impl_review_operations_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, field_whitelist=field_whitelist, attachment_type_blacklist=attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_review_client_endpoints_impl_review_operations_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi: %s\n" % e)
 ```
 
 ### Parameters
@@ -9654,7 +9654,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo**](ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo.md)
+[**ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo**](ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo.md)
 
 ### Authorization
 
@@ -9967,8 +9967,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl**
-> ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_console_analytics_components=cq_social_console_analytics_components)
+# **com_adobe_cq_social_site_impl_analytics_component_configuration_service_im**
+> ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo com_adobe_cq_social_site_impl_analytics_component_configuration_service_im(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_console_analytics_components=cq_social_console_analytics_components)
 
 
 
@@ -9992,10 +9992,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 cq_social_console_analytics_components = ['cq_social_console_analytics_components_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_console_analytics_components=cq_social_console_analytics_components)
+    api_response = api_instance.com_adobe_cq_social_site_impl_analytics_component_configuration_service_im(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_social_console_analytics_components=cq_social_console_analytics_components)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_site_impl_analytics_component_configuration_service_im: %s\n" % e)
 ```
 
 ### Parameters
@@ -10012,7 +10012,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo**](ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo.md)
+[**ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo**](ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo.md)
 
 ### Authorization
 
@@ -10905,8 +10905,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service**
-> ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_attachment_type_blacklist=default_attachment_type_blacklist, baseline_attachment_type_blacklist=baseline_attachment_type_blacklist)
+# **com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli**
+> ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_attachment_type_blacklist=default_attachment_type_blacklist, baseline_attachment_type_blacklist=baseline_attachment_type_blacklist)
 
 
 
@@ -10931,10 +10931,10 @@ default_attachment_type_blacklist = ['default_attachment_type_blacklist_example'
 baseline_attachment_type_blacklist = ['baseline_attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_attachment_type_blacklist=default_attachment_type_blacklist, baseline_attachment_type_blacklist=baseline_attachment_type_blacklist)
+    api_response = api_instance.com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_attachment_type_blacklist=default_attachment_type_blacklist, baseline_attachment_type_blacklist=baseline_attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli: %s\n" % e)
 ```
 
 ### Parameters
@@ -10952,7 +10952,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo**](ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
+[**ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo**](ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo.md)
 
 ### Authorization
 
@@ -11165,8 +11165,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended**
-> ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_types=resource_types)
+# **com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact**
+> ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_types=resource_types)
 
 
 
@@ -11190,10 +11190,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 resource_types = ['resource_types_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_types=resource_types)
+    api_response = api_instance.com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, resource_types=resource_types)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact: %s\n" % e)
 ```
 
 ### Parameters
@@ -11210,7 +11210,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo**](ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo.md)
+[**ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo**](ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo.md)
 
 ### Authorization
 
@@ -12019,8 +12019,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_forms_common_service_impl_forms_common_configuration_service_impl**
-> ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo com_adobe_forms_common_service_impl_forms_common_configuration_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, temp_storage_config=temp_storage_config)
+# **com_adobe_forms_common_service_impl_forms_common_configuration_service_imp**
+> ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo com_adobe_forms_common_service_impl_forms_common_configuration_service_imp(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, temp_storage_config=temp_storage_config)
 
 
 
@@ -12044,10 +12044,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 temp_storage_config = 'temp_storage_config_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_forms_common_service_impl_forms_common_configuration_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, temp_storage_config=temp_storage_config)
+    api_response = api_instance.com_adobe_forms_common_service_impl_forms_common_configuration_service_imp(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, temp_storage_config=temp_storage_config)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_forms_common_service_impl_forms_common_configuration_service_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_forms_common_service_impl_forms_common_configuration_service_imp: %s\n" % e)
 ```
 
 ### Parameters
@@ -12064,7 +12064,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo**](ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo.md)
+[**ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo**](ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo.md)
 
 ### Authorization
 
@@ -14737,8 +14737,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_comments_internal_comment_replication_content_filter_factory**
-> ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo com_adobe_granite_comments_internal_comment_replication_content_filter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, replicate_comment_resource_types=replicate_comment_resource_types)
+# **com_adobe_granite_comments_internal_comment_replication_content_filter_fac**
+> ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo com_adobe_granite_comments_internal_comment_replication_content_filter_fac(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, replicate_comment_resource_types=replicate_comment_resource_types)
 
 
 
@@ -14762,10 +14762,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 replicate_comment_resource_types = ['replicate_comment_resource_types_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_comments_internal_comment_replication_content_filter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, replicate_comment_resource_types=replicate_comment_resource_types)
+    api_response = api_instance.com_adobe_granite_comments_internal_comment_replication_content_filter_fac(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, replicate_comment_resource_types=replicate_comment_resource_types)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_comments_internal_comment_replication_content_filter_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_comments_internal_comment_replication_content_filter_fac: %s\n" % e)
 ```
 
 ### Parameters
@@ -14782,7 +14782,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo**](ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo.md)
+[**ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo**](ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo.md)
 
 ### Authorization
 
@@ -14977,8 +14977,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy**
-> ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, fallback_paths=fallback_paths)
+# **com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving**
+> ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, fallback_paths=fallback_paths)
 
 
 
@@ -15003,10 +15003,10 @@ enabled = True # bool |  (optional)
 fallback_paths = ['fallback_paths_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, fallback_paths=fallback_paths)
+    api_response = api_instance.com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, fallback_paths=fallback_paths)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving: %s\n" % e)
 ```
 
 ### Parameters
@@ -15024,7 +15024,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo**](ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo.md)
+[**ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo**](ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo.md)
 
 ### Authorization
 
@@ -15293,8 +15293,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider**
-> ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, username=username, encrypted_password=encrypted_password)
+# **com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se**
+> ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, username=username, encrypted_password=encrypted_password)
 
 
 
@@ -15320,10 +15320,10 @@ username = 'username_example' # str |  (optional)
 encrypted_password = 'encrypted_password_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, username=username, encrypted_password=encrypted_password)
+    api_response = api_instance.com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, username=username, encrypted_password=encrypted_password)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se: %s\n" % e)
 ```
 
 ### Parameters
@@ -15342,7 +15342,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo**](ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo**](ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo.md)
 
 ### Authorization
 
@@ -15489,8 +15489,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer**
-> ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, importer_name=importer_name)
+# **com_adobe_granite_distribution_core_impl_distribution_to_replication_even**
+> ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo com_adobe_granite_distribution_core_impl_distribution_to_replication_even(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, importer_name=importer_name)
 
 
 
@@ -15514,10 +15514,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 importer_name = ['importer_name_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, importer_name=importer_name)
+    api_response = api_instance.com_adobe_granite_distribution_core_impl_distribution_to_replication_even(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, importer_name=importer_name)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_distribution_to_replication_even: %s\n" % e)
 ```
 
 ### Parameters
@@ -15534,7 +15534,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo**](ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo.md)
+[**ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo**](ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo.md)
 
 ### Authorization
 
@@ -15547,8 +15547,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider**
-> ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_name=provider_name, forward_requests=forward_requests)
+# **com_adobe_granite_distribution_core_impl_replication_adapters_replicat**
+> ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo com_adobe_granite_distribution_core_impl_replication_adapters_replicat(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_name=provider_name, forward_requests=forward_requests)
 
 
 
@@ -15573,10 +15573,10 @@ provider_name = 'provider_name_example' # str |  (optional)
 forward_requests = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_name=provider_name, forward_requests=forward_requests)
+    api_response = api_instance.com_adobe_granite_distribution_core_impl_replication_adapters_replicat(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_name=provider_name, forward_requests=forward_requests)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_replication_adapters_replicat: %s\n" % e)
 ```
 
 ### Parameters
@@ -15594,7 +15594,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo**](ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo**](ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo.md)
 
 ### Authorization
 
@@ -15607,8 +15607,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler**
-> ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, forward_requests=forward_requests)
+# **com_adobe_granite_distribution_core_impl_replication_distribution_trans**
+> ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo com_adobe_granite_distribution_core_impl_replication_distribution_trans(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, forward_requests=forward_requests)
 
 
 
@@ -15632,10 +15632,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 forward_requests = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, forward_requests=forward_requests)
+    api_response = api_instance.com_adobe_granite_distribution_core_impl_replication_distribution_trans(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, forward_requests=forward_requests)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_replication_distribution_trans: %s\n" % e)
 ```
 
 ### Parameters
@@ -15652,7 +15652,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo**](ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo.md)
+[**ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo**](ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo.md)
 
 ### Authorization
 
@@ -15665,8 +15665,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider**
-> ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, service_name=service_name, user_id=user_id, access_token_provider_target=access_token_provider_target)
+# **com_adobe_granite_distribution_core_impl_transport_access_token_distribu**
+> ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo com_adobe_granite_distribution_core_impl_transport_access_token_distribu(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, service_name=service_name, user_id=user_id, access_token_provider_target=access_token_provider_target)
 
 
 
@@ -15693,10 +15693,10 @@ user_id = 'user_id_example' # str |  (optional)
 access_token_provider_target = 'access_token_provider_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, service_name=service_name, user_id=user_id, access_token_provider_target=access_token_provider_target)
+    api_response = api_instance.com_adobe_granite_distribution_core_impl_transport_access_token_distribu(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, service_name=service_name, user_id=user_id, access_token_provider_target=access_token_provider_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_distribution_core_impl_transport_access_token_distribu: %s\n" % e)
 ```
 
 ### Parameters
@@ -15716,7 +15716,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo**](ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo.md)
+[**ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo**](ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo.md)
 
 ### Authorization
 
@@ -16647,8 +16647,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler**
-> ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path=path, jaas_control_flag=jaas_control_flag, jaas_realm_name=jaas_realm_name, jaas_ranking=jaas_ranking, oauth_offline_validation=oauth_offline_validation)
+# **com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han**
+> ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path=path, jaas_control_flag=jaas_control_flag, jaas_realm_name=jaas_realm_name, jaas_ranking=jaas_ranking, oauth_offline_validation=oauth_offline_validation)
 
 
 
@@ -16676,10 +16676,10 @@ jaas_ranking = 56 # int |  (optional)
 oauth_offline_validation = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path=path, jaas_control_flag=jaas_control_flag, jaas_realm_name=jaas_realm_name, jaas_ranking=jaas_ranking, oauth_offline_validation=oauth_offline_validation)
+    api_response = api_instance.com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path=path, jaas_control_flag=jaas_control_flag, jaas_realm_name=jaas_realm_name, jaas_ranking=jaas_ranking, oauth_offline_validation=oauth_offline_validation)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han: %s\n" % e)
 ```
 
 ### Parameters
@@ -16700,7 +16700,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo**](ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo.md)
+[**ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo**](ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo.md)
 
 ### Authorization
 
@@ -17245,8 +17245,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_offloading_impl_transporter_offloading_default_transporter**
-> ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo com_adobe_granite_offloading_impl_transporter_offloading_default_transporter(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_transport_agent_to_worker_prefix=default_transport_agent_to_worker_prefix, default_transport_agent_to_master_prefix=default_transport_agent_to_master_prefix, default_transport_input_package=default_transport_input_package, default_transport_output_package=default_transport_output_package, default_transport_replication_synchronous=default_transport_replication_synchronous, default_transport_contentpackage=default_transport_contentpackage, offloading_transporter_default_enabled=offloading_transporter_default_enabled)
+# **com_adobe_granite_offloading_impl_transporter_offloading_default_transpo**
+> ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo com_adobe_granite_offloading_impl_transporter_offloading_default_transpo(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_transport_agent_to_worker_prefix=default_transport_agent_to_worker_prefix, default_transport_agent_to_master_prefix=default_transport_agent_to_master_prefix, default_transport_input_package=default_transport_input_package, default_transport_output_package=default_transport_output_package, default_transport_replication_synchronous=default_transport_replication_synchronous, default_transport_contentpackage=default_transport_contentpackage, offloading_transporter_default_enabled=offloading_transporter_default_enabled)
 
 
 
@@ -17276,10 +17276,10 @@ default_transport_contentpackage = True # bool |  (optional)
 offloading_transporter_default_enabled = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_offloading_impl_transporter_offloading_default_transporter(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_transport_agent_to_worker_prefix=default_transport_agent_to_worker_prefix, default_transport_agent_to_master_prefix=default_transport_agent_to_master_prefix, default_transport_input_package=default_transport_input_package, default_transport_output_package=default_transport_output_package, default_transport_replication_synchronous=default_transport_replication_synchronous, default_transport_contentpackage=default_transport_contentpackage, offloading_transporter_default_enabled=offloading_transporter_default_enabled)
+    api_response = api_instance.com_adobe_granite_offloading_impl_transporter_offloading_default_transpo(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_transport_agent_to_worker_prefix=default_transport_agent_to_worker_prefix, default_transport_agent_to_master_prefix=default_transport_agent_to_master_prefix, default_transport_input_package=default_transport_input_package, default_transport_output_package=default_transport_output_package, default_transport_replication_synchronous=default_transport_replication_synchronous, default_transport_contentpackage=default_transport_contentpackage, offloading_transporter_default_enabled=offloading_transporter_default_enabled)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_offloading_impl_transporter_offloading_default_transporter: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_offloading_impl_transporter_offloading_default_transpo: %s\n" % e)
 ```
 
 ### Parameters
@@ -17302,7 +17302,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo**](ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo.md)
+[**ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo**](ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo.md)
 
 ### Authorization
 
@@ -17795,8 +17795,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_replication_hc_impl_replication_transport_users_health_check**
-> ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo com_adobe_granite_replication_hc_impl_replication_transport_users_health_check(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+# **com_adobe_granite_replication_hc_impl_replication_transport_users_health_c**
+> ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo com_adobe_granite_replication_hc_impl_replication_transport_users_health_c(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
 
 
 
@@ -17820,10 +17820,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 hc_tags = ['hc_tags_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_replication_hc_impl_replication_transport_users_health_check(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+    api_response = api_instance.com_adobe_granite_replication_hc_impl_replication_transport_users_health_c(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_replication_hc_impl_replication_transport_users_health_check: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_replication_hc_impl_replication_transport_users_health_c: %s\n" % e)
 ```
 
 ### Parameters
@@ -17840,7 +17840,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo**](ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo.md)
+[**ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo**](ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.md)
 
 ### Authorization
 
@@ -17911,8 +17911,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check**
-> ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags, exclude_search_path=exclude_search_path)
+# **com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c**
+> ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags, exclude_search_path=exclude_search_path)
 
 
 
@@ -17937,10 +17937,10 @@ hc_tags = ['hc_tags_example'] # list[str] |  (optional)
 exclude_search_path = ['exclude_search_path_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags, exclude_search_path=exclude_search_path)
+    api_response = api_instance.com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags, exclude_search_path=exclude_search_path)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c: %s\n" % e)
 ```
 
 ### Parameters
@@ -17958,7 +17958,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo**](ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo.md)
+[**ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo**](ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo.md)
 
 ### Authorization
 
@@ -18029,8 +18029,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check**
-> ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+# **com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che**
+> ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
 
 
 
@@ -18054,10 +18054,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 hc_tags = ['hc_tags_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+    api_response = api_instance.com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che: %s\n" % e)
 ```
 
 ### Parameters
@@ -18074,7 +18074,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo.md)
+[**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.md)
 
 ### Authorization
 
@@ -18413,8 +18413,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl**
-> ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+# **com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im**
+> ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
 
 
 
@@ -18438,10 +18438,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 hc_tags = ['hc_tags_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+    api_response = api_instance.com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im: %s\n" % e)
 ```
 
 ### Parameters
@@ -18458,7 +18458,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo**](ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo.md)
+[**ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo**](ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo.md)
 
 ### Authorization
 
@@ -18767,8 +18767,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet**
-> ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+# **com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s**
+> ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
 
 
 
@@ -18792,10 +18792,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 hc_tags = ['hc_tags_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
+    api_response = api_instance.com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, hc_tags=hc_tags)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s: %s\n" % e)
 ```
 
 ### Parameters
@@ -18812,7 +18812,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo**](ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo.md)
+[**ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo**](ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo.md)
 
 ### Authorization
 
@@ -19197,8 +19197,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory**
-> ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, adapter_condition=adapter_condition, taskmanager_admingroups=taskmanager_admingroups)
+# **com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor**
+> ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, adapter_condition=adapter_condition, taskmanager_admingroups=taskmanager_admingroups)
 
 
 
@@ -19223,10 +19223,10 @@ adapter_condition = 'adapter_condition_example' # str |  (optional)
 taskmanager_admingroups = ['taskmanager_admingroups_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, adapter_condition=adapter_condition, taskmanager_admingroups=taskmanager_admingroups)
+    api_response = api_instance.com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, adapter_condition=adapter_condition, taskmanager_admingroups=taskmanager_admingroups)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor: %s\n" % e)
 ```
 
 ### Parameters
@@ -19244,7 +19244,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo**](ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo.md)
+[**ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo**](ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo.md)
 
 ### Authorization
 
@@ -19331,8 +19331,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl**
-> ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, translation_factory=translation_factory, default_connector_label=default_connector_label, default_connector_attribution=default_connector_attribution, default_connector_workspace_id=default_connector_workspace_id, default_connector_subscription_key=default_connector_subscription_key, language_map_location=language_map_location, category_map_location=category_map_location, retry_attempts=retry_attempts, timeout_count=timeout_count)
+# **com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl**
+> ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, translation_factory=translation_factory, default_connector_label=default_connector_label, default_connector_attribution=default_connector_attribution, default_connector_workspace_id=default_connector_workspace_id, default_connector_subscription_key=default_connector_subscription_key, language_map_location=language_map_location, category_map_location=category_map_location, retry_attempts=retry_attempts, timeout_count=timeout_count)
 
 
 
@@ -19364,10 +19364,10 @@ retry_attempts = 56 # int |  (optional)
 timeout_count = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, translation_factory=translation_factory, default_connector_label=default_connector_label, default_connector_attribution=default_connector_attribution, default_connector_workspace_id=default_connector_workspace_id, default_connector_subscription_key=default_connector_subscription_key, language_map_location=language_map_location, category_map_location=category_map_location, retry_attempts=retry_attempts, timeout_count=timeout_count)
+    api_response = api_instance.com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, translation_factory=translation_factory, default_connector_label=default_connector_label, default_connector_attribution=default_connector_attribution, default_connector_workspace_id=default_connector_workspace_id, default_connector_subscription_key=default_connector_subscription_key, language_map_location=language_map_location, category_map_location=category_map_location, retry_attempts=retry_attempts, timeout_count=timeout_count)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl: %s\n" % e)
 ```
 
 ### Parameters
@@ -19392,7 +19392,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo**](ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo.md)
+[**ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo**](ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.md)
 
 ### Authorization
 
@@ -19857,8 +19857,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer**
-> ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, job_topics=job_topics)
+# **com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum**
+> ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, job_topics=job_topics)
 
 
 
@@ -19882,10 +19882,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 job_topics = 'job_topics_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, job_topics=job_topics)
+    api_response = api_instance.com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, job_topics=job_topics)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum: %s\n" % e)
 ```
 
 ### Parameters
@@ -19902,7 +19902,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo**](ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo.md)
+[**ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo**](ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo.md)
 
 ### Authorization
 
@@ -20305,8 +20305,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet**
-> ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, communities_integration_livefyre_sling_event_filter=communities_integration_livefyre_sling_event_filter)
+# **com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s**
+> ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, communities_integration_livefyre_sling_event_filter=communities_integration_livefyre_sling_event_filter)
 
 
 
@@ -20330,10 +20330,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 communities_integration_livefyre_sling_event_filter = 'communities_integration_livefyre_sling_event_filter_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, communities_integration_livefyre_sling_event_filter=communities_integration_livefyre_sling_event_filter)
+    api_response = api_instance.com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, communities_integration_livefyre_sling_event_filter=communities_integration_livefyre_sling_event_filter)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s: %s\n" % e)
 ```
 
 ### Parameters
@@ -20350,7 +20350,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo**](ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo.md)
+[**ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo**](ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo.md)
 
 ### Authorization
 
@@ -20633,8 +20633,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter**
-> ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, allowed_paths=allowed_paths, cq_analytics_saint_exporter_pagesize=cq_analytics_saint_exporter_pagesize)
+# **com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte**
+> ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, allowed_paths=allowed_paths, cq_analytics_saint_exporter_pagesize=cq_analytics_saint_exporter_pagesize)
 
 
 
@@ -20659,10 +20659,10 @@ allowed_paths = ['allowed_paths_example'] # list[str] |  (optional)
 cq_analytics_saint_exporter_pagesize = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, allowed_paths=allowed_paths, cq_analytics_saint_exporter_pagesize=cq_analytics_saint_exporter_pagesize)
+    api_response = api_instance.com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, allowed_paths=allowed_paths, cq_analytics_saint_exporter_pagesize=cq_analytics_saint_exporter_pagesize)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte: %s\n" % e)
 ```
 
 ### Parameters
@@ -20680,7 +20680,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo**](ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo.md)
+[**ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo**](ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo.md)
 
 ### Authorization
 
@@ -21551,8 +21551,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker**
-> ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, codeupgradetasks=codeupgradetasks, codeupgradetaskfilters=codeupgradetaskfilters)
+# **com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke**
+> ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, codeupgradetasks=codeupgradetasks, codeupgradetaskfilters=codeupgradetaskfilters)
 
 
 
@@ -21577,10 +21577,10 @@ codeupgradetasks = ['codeupgradetasks_example'] # list[str] |  (optional)
 codeupgradetaskfilters = ['codeupgradetaskfilters_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, codeupgradetasks=codeupgradetasks, codeupgradetaskfilters=codeupgradetaskfilters)
+    api_response = api_instance.com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, codeupgradetasks=codeupgradetasks, codeupgradetaskfilters=codeupgradetaskfilters)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke: %s\n" % e)
 ```
 
 ### Parameters
@@ -21598,7 +21598,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo**](ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo.md)
+[**ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo**](ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo.md)
 
 ### Authorization
 
@@ -22619,8 +22619,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag**
-> ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_enabled=is_enabled)
+# **com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat**
+> ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_enabled=is_enabled)
 
 
 
@@ -22644,10 +22644,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 is_enabled = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_enabled=is_enabled)
+    api_response = api_instance.com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, is_enabled=is_enabled)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat: %s\n" % e)
 ```
 
 ### Parameters
@@ -22664,7 +22664,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo**](ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo.md)
+[**ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo**](ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo.md)
 
 ### Authorization
 
@@ -23163,8 +23163,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service**
-> ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, operation=operation, email_enabled=email_enabled)
+# **com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config**
+> ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, operation=operation, email_enabled=email_enabled)
 
 
 
@@ -23189,10 +23189,10 @@ operation = 'operation_example' # str |  (optional)
 email_enabled = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, operation=operation, email_enabled=email_enabled)
+    api_response = api_instance.com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, operation=operation, email_enabled=email_enabled)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config: %s\n" % e)
 ```
 
 ### Parameters
@@ -23210,7 +23210,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo**](ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo.md)
+[**ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo**](ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo.md)
 
 ### Authorization
 
@@ -23223,8 +23223,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service**
-> ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, operation=operation, operation_icon=operation_icon, topic_name=topic_name, email_enabled=email_enabled)
+# **com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config**
+> ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, operation=operation, operation_icon=operation_icon, topic_name=topic_name, email_enabled=email_enabled)
 
 
 
@@ -23251,10 +23251,10 @@ topic_name = 'topic_name_example' # str |  (optional)
 email_enabled = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, operation=operation, operation_icon=operation_icon, topic_name=topic_name, email_enabled=email_enabled)
+    api_response = api_instance.com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, operation=operation, operation_icon=operation_icon, topic_name=topic_name, email_enabled=email_enabled)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config: %s\n" % e)
 ```
 
 ### Parameters
@@ -23274,7 +23274,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo**](ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo.md)
+[**ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo**](ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo.md)
 
 ### Authorization
 
@@ -23589,8 +23589,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process**
-> ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, process_label=process_label, notify_on_complete=notify_on_complete)
+# **com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr**
+> ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, process_label=process_label, notify_on_complete=notify_on_complete)
 
 
 
@@ -23615,10 +23615,10 @@ process_label = 'process_label_example' # str |  (optional)
 notify_on_complete = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, process_label=process_label, notify_on_complete=notify_on_complete)
+    api_response = api_instance.com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, process_label=process_label, notify_on_complete=notify_on_complete)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr: %s\n" % e)
 ```
 
 ### Parameters
@@ -23636,7 +23636,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo**](ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo.md)
+[**ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo**](ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo.md)
 
 ### Authorization
 
@@ -25831,8 +25831,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process**
-> ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, delete_zip_file=delete_zip_file)
+# **com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro**
+> ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, delete_zip_file=delete_zip_file)
 
 
 
@@ -25856,10 +25856,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 delete_zip_file = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, delete_zip_file=delete_zip_file)
+    api_response = api_instance.com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, delete_zip_file=delete_zip_file)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro: %s\n" % e)
 ```
 
 ### Parameters
@@ -25876,7 +25876,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo**](ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo.md)
+[**ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo**](ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo.md)
 
 ### Authorization
 
@@ -25889,8 +25889,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener**
-> ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled=cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled)
+# **com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even**
+> ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled=cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled)
 
 
 
@@ -25914,10 +25914,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled=cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled)
+    api_response = api_instance.com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled=cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even: %s\n" % e)
 ```
 
 ### Parameters
@@ -25934,7 +25934,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo.md)
+[**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.md)
 
 ### Authorization
 
@@ -26735,8 +26735,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl**
-> ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, get_cache_expiration_unit=get_cache_expiration_unit, get_cache_expiration_value=get_cache_expiration_value)
+# **com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser**
+> ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, get_cache_expiration_unit=get_cache_expiration_unit, get_cache_expiration_value=get_cache_expiration_value)
 
 
 
@@ -26761,10 +26761,10 @@ get_cache_expiration_unit = 'get_cache_expiration_unit_example' # str |  (option
 get_cache_expiration_value = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, get_cache_expiration_unit=get_cache_expiration_unit, get_cache_expiration_value=get_cache_expiration_value)
+    api_response = api_instance.com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, get_cache_expiration_unit=get_cache_expiration_unit, get_cache_expiration_value=get_cache_expiration_value)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser: %s\n" % e)
 ```
 
 ### Parameters
@@ -26782,7 +26782,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo**](ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo.md)
+[**ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo**](ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo.md)
 
 ### Authorization
 
@@ -26795,8 +26795,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl**
-> ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, locale=locale, ims_config=ims_config)
+# **com_day_cq_dam_stock_integration_impl_configuration_stock_configuration**
+> ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo com_day_cq_dam_stock_integration_impl_configuration_stock_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, locale=locale, ims_config=ims_config)
 
 
 
@@ -26822,10 +26822,10 @@ locale = 'locale_example' # str |  (optional)
 ims_config = 'ims_config_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, locale=locale, ims_config=ims_config)
+    api_response = api_instance.com_day_cq_dam_stock_integration_impl_configuration_stock_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, locale=locale, ims_config=ims_config)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_dam_stock_integration_impl_configuration_stock_configuration: %s\n" % e)
 ```
 
 ### Parameters
@@ -26844,7 +26844,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo**](ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo.md)
+[**ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo**](ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo.md)
 
 ### Authorization
 
@@ -27593,8 +27593,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory**
-> ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+# **com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen**
+> ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
 
 
 
@@ -27620,10 +27620,10 @@ tagpattern = 'tagpattern_example' # str |  (optional)
 component_resource_type = 'component_resource_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen: %s\n" % e)
 ```
 
 ### Parameters
@@ -27642,7 +27642,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo.md)
 
 ### Authorization
 
@@ -27655,8 +27655,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory**
-> ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+# **com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug**
+> ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
 
 
 
@@ -27682,10 +27682,10 @@ tagpattern = 'tagpattern_example' # str |  (optional)
 component_resource_type = 'component_resource_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug: %s\n" % e)
 ```
 
 ### Parameters
@@ -27704,7 +27704,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo.md)
 
 ### Authorization
 
@@ -27717,8 +27717,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory**
-> ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component**
+> ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -27743,10 +27743,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component: %s\n" % e)
 ```
 
 ### Parameters
@@ -27764,7 +27764,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo**](ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo.md)
 
 ### Authorization
 
@@ -27777,8 +27777,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory**
-> ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha**
+> ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -27803,10 +27803,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha: %s\n" % e)
 ```
 
 ### Parameters
@@ -27824,7 +27824,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.md)
 
 ### Authorization
 
@@ -27837,8 +27837,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory**
-> ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+# **com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h**
+> ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
 
 
 
@@ -27864,10 +27864,10 @@ tagpattern = 'tagpattern_example' # str |  (optional)
 component_resource_type = 'component_resource_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+    api_response = api_instance.com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h: %s\n" % e)
 ```
 
 ### Parameters
@@ -27886,7 +27886,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo.md)
+[**ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo**](ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.md)
 
 ### Authorization
 
@@ -28449,8 +28449,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service**
-> ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, preserve_hierarchy_nodes=preserve_hierarchy_nodes, ignore_versioning=ignore_versioning, import_acl=import_acl, save_threshold=save_threshold, preserve_user_paths=preserve_user_paths, preserve_uuid=preserve_uuid, preserve_uuid_nodetypes=preserve_uuid_nodetypes, preserve_uuid_subtrees=preserve_uuid_subtrees, auto_commit=auto_commit)
+# **com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov**
+> ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, preserve_hierarchy_nodes=preserve_hierarchy_nodes, ignore_versioning=ignore_versioning, import_acl=import_acl, save_threshold=save_threshold, preserve_user_paths=preserve_user_paths, preserve_uuid=preserve_uuid, preserve_uuid_nodetypes=preserve_uuid_nodetypes, preserve_uuid_subtrees=preserve_uuid_subtrees, auto_commit=auto_commit)
 
 
 
@@ -28482,10 +28482,10 @@ preserve_uuid_subtrees = ['preserve_uuid_subtrees_example'] # list[str] |  (opti
 auto_commit = True # bool |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, preserve_hierarchy_nodes=preserve_hierarchy_nodes, ignore_versioning=ignore_versioning, import_acl=import_acl, save_threshold=save_threshold, preserve_user_paths=preserve_user_paths, preserve_uuid=preserve_uuid, preserve_uuid_nodetypes=preserve_uuid_nodetypes, preserve_uuid_subtrees=preserve_uuid_subtrees, auto_commit=auto_commit)
+    api_response = api_instance.com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, preserve_hierarchy_nodes=preserve_hierarchy_nodes, ignore_versioning=ignore_versioning, import_acl=import_acl, save_threshold=save_threshold, preserve_user_paths=preserve_user_paths, preserve_uuid=preserve_uuid, preserve_uuid_nodetypes=preserve_uuid_nodetypes, preserve_uuid_subtrees=preserve_uuid_subtrees, auto_commit=auto_commit)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov: %s\n" % e)
 ```
 
 ### Parameters
@@ -28510,7 +28510,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo**](ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo.md)
+[**ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo**](ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo.md)
 
 ### Authorization
 
@@ -30007,8 +30007,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory**
-> ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_contentsync_pathrewritertransformer_mapping_links=cq_contentsync_pathrewritertransformer_mapping_links, cq_contentsync_pathrewritertransformer_mapping_clientlibs=cq_contentsync_pathrewritertransformer_mapping_clientlibs, cq_contentsync_pathrewritertransformer_mapping_images=cq_contentsync_pathrewritertransformer_mapping_images, cq_contentsync_pathrewritertransformer_attribute_pattern=cq_contentsync_pathrewritertransformer_attribute_pattern, cq_contentsync_pathrewritertransformer_clientlibrary_pattern=cq_contentsync_pathrewritertransformer_clientlibrary_pattern, cq_contentsync_pathrewritertransformer_clientlibrary_replace=cq_contentsync_pathrewritertransformer_clientlibrary_replace)
+# **com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor**
+> ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_contentsync_pathrewritertransformer_mapping_links=cq_contentsync_pathrewritertransformer_mapping_links, cq_contentsync_pathrewritertransformer_mapping_clientlibs=cq_contentsync_pathrewritertransformer_mapping_clientlibs, cq_contentsync_pathrewritertransformer_mapping_images=cq_contentsync_pathrewritertransformer_mapping_images, cq_contentsync_pathrewritertransformer_attribute_pattern=cq_contentsync_pathrewritertransformer_attribute_pattern, cq_contentsync_pathrewritertransformer_clientlibrary_pattern=cq_contentsync_pathrewritertransformer_clientlibrary_pattern, cq_contentsync_pathrewritertransformer_clientlibrary_replace=cq_contentsync_pathrewritertransformer_clientlibrary_replace)
 
 
 
@@ -30037,10 +30037,10 @@ cq_contentsync_pathrewritertransformer_clientlibrary_pattern = 'cq_contentsync_p
 cq_contentsync_pathrewritertransformer_clientlibrary_replace = 'cq_contentsync_pathrewritertransformer_clientlibrary_replace_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_contentsync_pathrewritertransformer_mapping_links=cq_contentsync_pathrewritertransformer_mapping_links, cq_contentsync_pathrewritertransformer_mapping_clientlibs=cq_contentsync_pathrewritertransformer_mapping_clientlibs, cq_contentsync_pathrewritertransformer_mapping_images=cq_contentsync_pathrewritertransformer_mapping_images, cq_contentsync_pathrewritertransformer_attribute_pattern=cq_contentsync_pathrewritertransformer_attribute_pattern, cq_contentsync_pathrewritertransformer_clientlibrary_pattern=cq_contentsync_pathrewritertransformer_clientlibrary_pattern, cq_contentsync_pathrewritertransformer_clientlibrary_replace=cq_contentsync_pathrewritertransformer_clientlibrary_replace)
+    api_response = api_instance.com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cq_contentsync_pathrewritertransformer_mapping_links=cq_contentsync_pathrewritertransformer_mapping_links, cq_contentsync_pathrewritertransformer_mapping_clientlibs=cq_contentsync_pathrewritertransformer_mapping_clientlibs, cq_contentsync_pathrewritertransformer_mapping_images=cq_contentsync_pathrewritertransformer_mapping_images, cq_contentsync_pathrewritertransformer_attribute_pattern=cq_contentsync_pathrewritertransformer_attribute_pattern, cq_contentsync_pathrewritertransformer_clientlibrary_pattern=cq_contentsync_pathrewritertransformer_clientlibrary_pattern, cq_contentsync_pathrewritertransformer_clientlibrary_replace=cq_contentsync_pathrewritertransformer_clientlibrary_replace)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor: %s\n" % e)
 ```
 
 ### Parameters
@@ -30062,7 +30062,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo**](ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo.md)
+[**ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo**](ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo.md)
 
 ### Authorization
 
@@ -30865,8 +30865,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler**
-> ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, item_resource_types=item_resource_types)
+# **com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie**
+> ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, item_resource_types=item_resource_types)
 
 
 
@@ -30890,10 +30890,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 item_resource_types = ['item_resource_types_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, item_resource_types=item_resource_types)
+    api_response = api_instance.com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, item_resource_types=item_resource_types)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie: %s\n" % e)
 ```
 
 ### Parameters
@@ -30910,7 +30910,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo**](ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo.md)
+[**ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo**](ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo.md)
 
 ### Authorization
 
@@ -32075,8 +32075,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32101,10 +32101,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone: %s\n" % e)
 ```
 
 ### Parameters
@@ -32122,7 +32122,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.md)
 
 ### Authorization
 
@@ -32135,8 +32135,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32161,10 +32161,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon: %s\n" % e)
 ```
 
 ### Parameters
@@ -32182,7 +32182,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo.md)
 
 ### Authorization
 
@@ -32195,8 +32195,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32221,10 +32221,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han: %s\n" % e)
 ```
 
 ### Parameters
@@ -32242,7 +32242,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo.md)
 
 ### Authorization
 
@@ -32255,8 +32255,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32281,10 +32281,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle: %s\n" % e)
 ```
 
 ### Parameters
@@ -32302,7 +32302,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo.md)
 
 ### Authorization
 
@@ -32315,8 +32315,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32341,10 +32341,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand: %s\n" % e)
 ```
 
 ### Parameters
@@ -32362,7 +32362,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo.md)
 
 ### Authorization
 
@@ -32375,8 +32375,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
 
 
 
@@ -32402,10 +32402,10 @@ tagpattern = 'tagpattern_example' # str |  (optional)
 component_resource_type = 'component_resource_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen: %s\n" % e)
 ```
 
 ### Parameters
@@ -32424,7 +32424,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo.md)
 
 ### Authorization
 
@@ -32437,8 +32437,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32463,10 +32463,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler: %s\n" % e)
 ```
 
 ### Parameters
@@ -32484,7 +32484,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo.md)
 
 ### Authorization
 
@@ -32497,8 +32497,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32523,10 +32523,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t: %s\n" % e)
 ```
 
 ### Parameters
@@ -32544,7 +32544,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo.md)
 
 ### Authorization
 
@@ -32557,8 +32557,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32583,10 +32583,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle: %s\n" % e)
 ```
 
 ### Parameters
@@ -32604,7 +32604,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo.md)
 
 ### Authorization
 
@@ -32617,8 +32617,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32643,10 +32643,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle: %s\n" % e)
 ```
 
 ### Parameters
@@ -32664,7 +32664,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo.md)
 
 ### Authorization
 
@@ -32677,8 +32677,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32703,10 +32703,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h: %s\n" % e)
 ```
 
 ### Parameters
@@ -32724,7 +32724,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo.md)
 
 ### Authorization
 
@@ -32737,8 +32737,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
 
 
 
@@ -32764,10 +32764,10 @@ tagpattern = 'tagpattern_example' # str |  (optional)
 component_resource_type = 'component_resource_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone: %s\n" % e)
 ```
 
 ### Parameters
@@ -32786,7 +32786,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo.md)
 
 ### Authorization
 
@@ -32799,8 +32799,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32825,10 +32825,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand: %s\n" % e)
 ```
 
 ### Parameters
@@ -32846,7 +32846,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo.md)
 
 ### Authorization
 
@@ -32859,8 +32859,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -32885,10 +32885,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl: %s\n" % e)
 ```
 
 ### Parameters
@@ -32906,7 +32906,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.md)
 
 ### Authorization
 
@@ -32919,8 +32919,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
 
 
 
@@ -32946,10 +32946,10 @@ tagpattern = 'tagpattern_example' # str |  (optional)
 component_resource_type = 'component_resource_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component: %s\n" % e)
 ```
 
 ### Parameters
@@ -32968,7 +32968,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo.md)
 
 ### Authorization
 
@@ -32981,8 +32981,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
 
 
 
@@ -33008,10 +33008,10 @@ tagpattern = 'tagpattern_example' # str |  (optional)
 component_resource_type = 'component_resource_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern, component_resource_type=component_resource_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen: %s\n" % e)
 ```
 
 ### Parameters
@@ -33030,7 +33030,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo.md)
 
 ### Authorization
 
@@ -33043,8 +33043,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory**
-> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+# **com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl**
+> ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
 
 
 
@@ -33069,10 +33069,10 @@ service_ranking = 56 # int |  (optional)
 tagpattern = 'tagpattern_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
+    api_response = api_instance.com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking, tagpattern=tagpattern)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl: %s\n" % e)
 ```
 
 ### Parameters
@@ -33090,7 +33090,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo.md)
+[**ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo**](ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo.md)
 
 ### Authorization
 
@@ -33595,8 +33595,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service**
-> ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_attachment_type_blacklist=default_attachment_type_blacklist, baseline_attachment_type_blacklist=baseline_attachment_type_blacklist)
+# **com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist**
+> ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_attachment_type_blacklist=default_attachment_type_blacklist, baseline_attachment_type_blacklist=baseline_attachment_type_blacklist)
 
 
 
@@ -33621,10 +33621,10 @@ default_attachment_type_blacklist = ['default_attachment_type_blacklist_example'
 baseline_attachment_type_blacklist = ['baseline_attachment_type_blacklist_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_attachment_type_blacklist=default_attachment_type_blacklist, baseline_attachment_type_blacklist=baseline_attachment_type_blacklist)
+    api_response = api_instance.com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, default_attachment_type_blacklist=default_attachment_type_blacklist, baseline_attachment_type_blacklist=baseline_attachment_type_blacklist)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist: %s\n" % e)
 ```
 
 ### Parameters
@@ -33642,7 +33642,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo**](ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
+[**ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo**](ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo.md)
 
 ### Authorization
 
@@ -36479,8 +36479,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator**
-> OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, felix_memoryusage_dump_threshold=felix_memoryusage_dump_threshold, felix_memoryusage_dump_interval=felix_memoryusage_dump_interval, felix_memoryusage_dump_location=felix_memoryusage_dump_location)
+# **org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co**
+> OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, felix_memoryusage_dump_threshold=felix_memoryusage_dump_threshold, felix_memoryusage_dump_interval=felix_memoryusage_dump_interval, felix_memoryusage_dump_location=felix_memoryusage_dump_location)
 
 
 
@@ -36506,10 +36506,10 @@ felix_memoryusage_dump_interval = 56 # int |  (optional)
 felix_memoryusage_dump_location = 'felix_memoryusage_dump_location_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, felix_memoryusage_dump_threshold=felix_memoryusage_dump_threshold, felix_memoryusage_dump_interval=felix_memoryusage_dump_interval, felix_memoryusage_dump_location=felix_memoryusage_dump_location)
+    api_response = api_instance.org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, felix_memoryusage_dump_threshold=felix_memoryusage_dump_threshold, felix_memoryusage_dump_interval=felix_memoryusage_dump_interval, felix_memoryusage_dump_location=felix_memoryusage_dump_location)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co: %s\n" % e)
 ```
 
 ### Parameters
@@ -36528,7 +36528,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo**](OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo.md)
+[**OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo**](OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo.md)
 
 ### Authorization
 
@@ -36609,8 +36609,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service**
-> OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, dir=dir)
+# **org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider**
+> OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, dir=dir)
 
 
 
@@ -36634,10 +36634,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 dir = 'dir_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, dir=dir)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, dir=dir)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider: %s\n" % e)
 ```
 
 ### Parameters
@@ -36654,7 +36654,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo**](OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo**](OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo.md)
 
 ### Authorization
 
@@ -36841,8 +36841,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset**
-> OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, persistent_cache_includes=persistent_cache_includes)
+# **org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre**
+> OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, persistent_cache_includes=persistent_cache_includes)
 
 
 
@@ -36866,10 +36866,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 persistent_cache_includes = ['persistent_cache_includes_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, persistent_cache_includes=persistent_cache_includes)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, persistent_cache_includes=persistent_cache_includes)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre: %s\n" % e)
 ```
 
 ### Parameters
@@ -36886,7 +36886,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo**](OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo.md)
+[**OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo**](OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.md)
 
 ### Authorization
 
@@ -36899,8 +36899,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service**
-> OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, included_paths=included_paths, enable_async_observer=enable_async_observer, observer_queue_size=observer_queue_size)
+# **org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac**
+> OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, included_paths=included_paths, enable_async_observer=enable_async_observer, observer_queue_size=observer_queue_size)
 
 
 
@@ -36926,10 +36926,10 @@ enable_async_observer = True # bool |  (optional)
 observer_queue_size = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, included_paths=included_paths, enable_async_observer=enable_async_observer, observer_queue_size=observer_queue_size)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, included_paths=included_paths, enable_async_observer=enable_async_observer, observer_queue_size=observer_queue_size)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac: %s\n" % e)
 ```
 
 ### Parameters
@@ -36948,7 +36948,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo**](OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo**](OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo.md)
 
 ### Authorization
 
@@ -37025,8 +37025,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service**
-> OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, disabled=disabled, debug=debug, local_index_dir=local_index_dir, enable_open_index_async=enable_open_index_async, thread_pool_size=thread_pool_size, prefetch_index_files=prefetch_index_files, extracted_text_cache_size_in_mb=extracted_text_cache_size_in_mb, extracted_text_cache_expiry_in_secs=extracted_text_cache_expiry_in_secs, always_use_pre_extracted_cache=always_use_pre_extracted_cache, boolean_clause_limit=boolean_clause_limit, enable_hybrid_indexing=enable_hybrid_indexing, hybrid_queue_size=hybrid_queue_size, disable_stored_index_definition=disable_stored_index_definition, deleted_blobs_collection_enabled=deleted_blobs_collection_enabled, prop_index_cleaner_interval_in_secs=prop_index_cleaner_interval_in_secs, enable_single_blob_index_files=enable_single_blob_index_files)
+# **org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv**
+> OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, disabled=disabled, debug=debug, local_index_dir=local_index_dir, enable_open_index_async=enable_open_index_async, thread_pool_size=thread_pool_size, prefetch_index_files=prefetch_index_files, extracted_text_cache_size_in_mb=extracted_text_cache_size_in_mb, extracted_text_cache_expiry_in_secs=extracted_text_cache_expiry_in_secs, always_use_pre_extracted_cache=always_use_pre_extracted_cache, boolean_clause_limit=boolean_clause_limit, enable_hybrid_indexing=enable_hybrid_indexing, hybrid_queue_size=hybrid_queue_size, disable_stored_index_definition=disable_stored_index_definition, deleted_blobs_collection_enabled=deleted_blobs_collection_enabled, prop_index_cleaner_interval_in_secs=prop_index_cleaner_interval_in_secs, enable_single_blob_index_files=enable_single_blob_index_files)
 
 
 
@@ -37065,10 +37065,10 @@ prop_index_cleaner_interval_in_secs = 56 # int |  (optional)
 enable_single_blob_index_files = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, disabled=disabled, debug=debug, local_index_dir=local_index_dir, enable_open_index_async=enable_open_index_async, thread_pool_size=thread_pool_size, prefetch_index_files=prefetch_index_files, extracted_text_cache_size_in_mb=extracted_text_cache_size_in_mb, extracted_text_cache_expiry_in_secs=extracted_text_cache_expiry_in_secs, always_use_pre_extracted_cache=always_use_pre_extracted_cache, boolean_clause_limit=boolean_clause_limit, enable_hybrid_indexing=enable_hybrid_indexing, hybrid_queue_size=hybrid_queue_size, disable_stored_index_definition=disable_stored_index_definition, deleted_blobs_collection_enabled=deleted_blobs_collection_enabled, prop_index_cleaner_interval_in_secs=prop_index_cleaner_interval_in_secs, enable_single_blob_index_files=enable_single_blob_index_files)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, disabled=disabled, debug=debug, local_index_dir=local_index_dir, enable_open_index_async=enable_open_index_async, thread_pool_size=thread_pool_size, prefetch_index_files=prefetch_index_files, extracted_text_cache_size_in_mb=extracted_text_cache_size_in_mb, extracted_text_cache_expiry_in_secs=extracted_text_cache_expiry_in_secs, always_use_pre_extracted_cache=always_use_pre_extracted_cache, boolean_clause_limit=boolean_clause_limit, enable_hybrid_indexing=enable_hybrid_indexing, hybrid_queue_size=hybrid_queue_size, disable_stored_index_definition=disable_stored_index_definition, deleted_blobs_collection_enabled=deleted_blobs_collection_enabled, prop_index_cleaner_interval_in_secs=prop_index_cleaner_interval_in_secs, enable_single_blob_index_files=enable_single_blob_index_files)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv: %s\n" % e)
 ```
 
 ### Parameters
@@ -37100,7 +37100,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo**](OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo.md)
 
 ### Authorization
 
@@ -37113,8 +37113,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_home_path=solr_home_path, solr_core_name=solr_core_name)
+# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_home_path=solr_home_path, solr_core_name=solr_core_name)
 
 
 
@@ -37139,10 +37139,10 @@ solr_home_path = 'solr_home_path_example' # str |  (optional)
 solr_core_name = 'solr_core_name_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_home_path=solr_home_path, solr_core_name=solr_core_name)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_home_path=solr_home_path, solr_core_name=solr_core_name)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co: %s\n" % e)
 ```
 
 ### Parameters
@@ -37160,7 +37160,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo.md)
 
 ### Authorization
 
@@ -37173,8 +37173,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled)
+# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled)
 
 
 
@@ -37198,10 +37198,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 enabled = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers: %s\n" % e)
 ```
 
 ### Parameters
@@ -37218,7 +37218,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo.md)
 
 ### Authorization
 
@@ -37231,8 +37231,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path_desc_field=path_desc_field, path_child_field=path_child_field, path_parent_field=path_parent_field, path_exact_field=path_exact_field, catch_all_field=catch_all_field, collapsed_path_field=collapsed_path_field, path_depth_field=path_depth_field, commit_policy=commit_policy, rows=rows, path_restrictions=path_restrictions, property_restrictions=property_restrictions, primarytypes_restrictions=primarytypes_restrictions, ignored_properties=ignored_properties, used_properties=used_properties, type_mappings=type_mappings, property_mappings=property_mappings, collapse_jcrcontent_nodes=collapse_jcrcontent_nodes)
+# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path_desc_field=path_desc_field, path_child_field=path_child_field, path_parent_field=path_parent_field, path_exact_field=path_exact_field, catch_all_field=catch_all_field, collapsed_path_field=collapsed_path_field, path_depth_field=path_depth_field, commit_policy=commit_policy, rows=rows, path_restrictions=path_restrictions, property_restrictions=property_restrictions, primarytypes_restrictions=primarytypes_restrictions, ignored_properties=ignored_properties, used_properties=used_properties, type_mappings=type_mappings, property_mappings=property_mappings, collapse_jcrcontent_nodes=collapse_jcrcontent_nodes)
 
 
 
@@ -37272,10 +37272,10 @@ property_mappings = ['property_mappings_example'] # list[str] |  (optional)
 collapse_jcrcontent_nodes = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path_desc_field=path_desc_field, path_child_field=path_child_field, path_parent_field=path_parent_field, path_exact_field=path_exact_field, catch_all_field=catch_all_field, collapsed_path_field=collapsed_path_field, path_depth_field=path_depth_field, commit_policy=commit_policy, rows=rows, path_restrictions=path_restrictions, property_restrictions=property_restrictions, primarytypes_restrictions=primarytypes_restrictions, ignored_properties=ignored_properties, used_properties=used_properties, type_mappings=type_mappings, property_mappings=property_mappings, collapse_jcrcontent_nodes=collapse_jcrcontent_nodes)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, path_desc_field=path_desc_field, path_child_field=path_child_field, path_parent_field=path_parent_field, path_exact_field=path_exact_field, catch_all_field=catch_all_field, collapsed_path_field=collapsed_path_field, path_depth_field=path_depth_field, commit_policy=commit_policy, rows=rows, path_restrictions=path_restrictions, property_restrictions=property_restrictions, primarytypes_restrictions=primarytypes_restrictions, ignored_properties=ignored_properties, used_properties=used_properties, type_mappings=type_mappings, property_mappings=property_mappings, collapse_jcrcontent_nodes=collapse_jcrcontent_nodes)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration: %s\n" % e)
 ```
 
 ### Parameters
@@ -37308,7 +37308,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo.md)
 
 ### Authorization
 
@@ -37321,8 +37321,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_http_url=solr_http_url, solr_zk_host=solr_zk_host, solr_collection=solr_collection, solr_socket_timeout=solr_socket_timeout, solr_connection_timeout=solr_connection_timeout, solr_shards_no=solr_shards_no, solr_replication_factor=solr_replication_factor, solr_conf_dir=solr_conf_dir)
+# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_http_url=solr_http_url, solr_zk_host=solr_zk_host, solr_collection=solr_collection, solr_socket_timeout=solr_socket_timeout, solr_connection_timeout=solr_connection_timeout, solr_shards_no=solr_shards_no, solr_replication_factor=solr_replication_factor, solr_conf_dir=solr_conf_dir)
 
 
 
@@ -37353,10 +37353,10 @@ solr_replication_factor = 56 # int |  (optional)
 solr_conf_dir = 'solr_conf_dir_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_http_url=solr_http_url, solr_zk_host=solr_zk_host, solr_collection=solr_collection, solr_socket_timeout=solr_socket_timeout, solr_connection_timeout=solr_connection_timeout, solr_shards_no=solr_shards_no, solr_replication_factor=solr_replication_factor, solr_conf_dir=solr_conf_dir)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, solr_http_url=solr_http_url, solr_zk_host=solr_zk_host, solr_collection=solr_collection, solr_socket_timeout=solr_socket_timeout, solr_connection_timeout=solr_connection_timeout, solr_shards_no=solr_shards_no, solr_replication_factor=solr_replication_factor, solr_conf_dir=solr_conf_dir)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf: %s\n" % e)
 ```
 
 ### Parameters
@@ -37380,7 +37380,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo.md)
 
 ### Authorization
 
@@ -37393,8 +37393,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, query_aggregation=query_aggregation)
+# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, query_aggregation=query_aggregation)
 
 
 
@@ -37418,10 +37418,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 query_aggregation = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, query_aggregation=query_aggregation)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, query_aggregation=query_aggregation)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid: %s\n" % e)
 ```
 
 ### Parameters
@@ -37438,7 +37438,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo.md)
 
 ### Authorization
 
@@ -37451,8 +37451,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service**
-> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, server_type=server_type)
+# **org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se**
+> OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, server_type=server_type)
 
 
 
@@ -37476,10 +37476,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 server_type = 'server_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, server_type=server_type)
+    api_response = api_instance.org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, server_type=server_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se: %s\n" % e)
 ```
 
 ### Parameters
@@ -37496,7 +37496,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo.md)
+[**OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo**](OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo.md)
 
 ### Authorization
 
@@ -37693,8 +37693,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl**
-> OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_jackrabbit_oak_authentication_app_name=org_apache_jackrabbit_oak_authentication_app_name, org_apache_jackrabbit_oak_authentication_config_spi_name=org_apache_jackrabbit_oak_authentication_config_spi_name)
+# **org_apache_jackrabbit_oak_security_authentication_authentication_config**
+> OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo org_apache_jackrabbit_oak_security_authentication_authentication_config(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_jackrabbit_oak_authentication_app_name=org_apache_jackrabbit_oak_authentication_app_name, org_apache_jackrabbit_oak_authentication_config_spi_name=org_apache_jackrabbit_oak_authentication_config_spi_name)
 
 
 
@@ -37719,10 +37719,10 @@ org_apache_jackrabbit_oak_authentication_app_name = 'org_apache_jackrabbit_oak_a
 org_apache_jackrabbit_oak_authentication_config_spi_name = 'org_apache_jackrabbit_oak_authentication_config_spi_name_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_jackrabbit_oak_authentication_app_name=org_apache_jackrabbit_oak_authentication_app_name, org_apache_jackrabbit_oak_authentication_config_spi_name=org_apache_jackrabbit_oak_authentication_config_spi_name)
+    api_response = api_instance.org_apache_jackrabbit_oak_security_authentication_authentication_config(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_jackrabbit_oak_authentication_app_name=org_apache_jackrabbit_oak_authentication_app_name, org_apache_jackrabbit_oak_authentication_config_spi_name=org_apache_jackrabbit_oak_authentication_config_spi_name)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_authentication_config: %s\n" % e)
 ```
 
 ### Parameters
@@ -37740,7 +37740,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.md)
 
 ### Authorization
 
@@ -37753,8 +37753,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider**
-> OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_name=provider_name, host_name=host_name, host_port=host_port, host_ssl=host_ssl, host_tls=host_tls, host_no_cert_check=host_no_cert_check, bind_dn=bind_dn, bind_password=bind_password, search_timeout=search_timeout, admin_pool_max_active=admin_pool_max_active, admin_pool_lookup_on_validate=admin_pool_lookup_on_validate, user_pool_max_active=user_pool_max_active, user_pool_lookup_on_validate=user_pool_lookup_on_validate, user_base_dn=user_base_dn, user_objectclass=user_objectclass, user_id_attribute=user_id_attribute, user_extra_filter=user_extra_filter, user_make_dn_path=user_make_dn_path, group_base_dn=group_base_dn, group_objectclass=group_objectclass, group_name_attribute=group_name_attribute, group_extra_filter=group_extra_filter, group_make_dn_path=group_make_dn_path, group_member_attribute=group_member_attribute, use_uid_for_ext_id=use_uid_for_ext_id, customattributes=customattributes)
+# **org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi**
+> OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_name=provider_name, host_name=host_name, host_port=host_port, host_ssl=host_ssl, host_tls=host_tls, host_no_cert_check=host_no_cert_check, bind_dn=bind_dn, bind_password=bind_password, search_timeout=search_timeout, admin_pool_max_active=admin_pool_max_active, admin_pool_lookup_on_validate=admin_pool_lookup_on_validate, user_pool_max_active=user_pool_max_active, user_pool_lookup_on_validate=user_pool_lookup_on_validate, user_base_dn=user_base_dn, user_objectclass=user_objectclass, user_id_attribute=user_id_attribute, user_extra_filter=user_extra_filter, user_make_dn_path=user_make_dn_path, group_base_dn=group_base_dn, group_objectclass=group_objectclass, group_name_attribute=group_name_attribute, group_extra_filter=group_extra_filter, group_make_dn_path=group_make_dn_path, group_member_attribute=group_member_attribute, use_uid_for_ext_id=use_uid_for_ext_id, customattributes=customattributes)
 
 
 
@@ -37803,10 +37803,10 @@ use_uid_for_ext_id = True # bool |  (optional)
 customattributes = ['customattributes_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_name=provider_name, host_name=host_name, host_port=host_port, host_ssl=host_ssl, host_tls=host_tls, host_no_cert_check=host_no_cert_check, bind_dn=bind_dn, bind_password=bind_password, search_timeout=search_timeout, admin_pool_max_active=admin_pool_max_active, admin_pool_lookup_on_validate=admin_pool_lookup_on_validate, user_pool_max_active=user_pool_max_active, user_pool_lookup_on_validate=user_pool_lookup_on_validate, user_base_dn=user_base_dn, user_objectclass=user_objectclass, user_id_attribute=user_id_attribute, user_extra_filter=user_extra_filter, user_make_dn_path=user_make_dn_path, group_base_dn=group_base_dn, group_objectclass=group_objectclass, group_name_attribute=group_name_attribute, group_extra_filter=group_extra_filter, group_make_dn_path=group_make_dn_path, group_member_attribute=group_member_attribute, use_uid_for_ext_id=use_uid_for_ext_id, customattributes=customattributes)
+    api_response = api_instance.org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_name=provider_name, host_name=host_name, host_port=host_port, host_ssl=host_ssl, host_tls=host_tls, host_no_cert_check=host_no_cert_check, bind_dn=bind_dn, bind_password=bind_password, search_timeout=search_timeout, admin_pool_max_active=admin_pool_max_active, admin_pool_lookup_on_validate=admin_pool_lookup_on_validate, user_pool_max_active=user_pool_max_active, user_pool_lookup_on_validate=user_pool_lookup_on_validate, user_base_dn=user_base_dn, user_objectclass=user_objectclass, user_id_attribute=user_id_attribute, user_extra_filter=user_extra_filter, user_make_dn_path=user_make_dn_path, group_base_dn=group_base_dn, group_objectclass=group_objectclass, group_name_attribute=group_name_attribute, group_extra_filter=group_extra_filter, group_make_dn_path=group_make_dn_path, group_member_attribute=group_member_attribute, use_uid_for_ext_id=use_uid_for_ext_id, customattributes=customattributes)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi: %s\n" % e)
 ```
 
 ### Parameters
@@ -37848,7 +37848,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo**](OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo**](OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo.md)
 
 ### Authorization
 
@@ -37861,8 +37861,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl**
-> OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, token_expiration=token_expiration, token_length=token_length, token_refresh=token_refresh, token_cleanup_threshold=token_cleanup_threshold, password_hash_algorithm=password_hash_algorithm, password_hash_iterations=password_hash_iterations, password_salt_size=password_salt_size)
+# **org_apache_jackrabbit_oak_security_authentication_token_token_configura**
+> OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo org_apache_jackrabbit_oak_security_authentication_token_token_configura(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, token_expiration=token_expiration, token_length=token_length, token_refresh=token_refresh, token_cleanup_threshold=token_cleanup_threshold, password_hash_algorithm=password_hash_algorithm, password_hash_iterations=password_hash_iterations, password_salt_size=password_salt_size)
 
 
 
@@ -37892,10 +37892,10 @@ password_hash_iterations = 56 # int |  (optional)
 password_salt_size = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, token_expiration=token_expiration, token_length=token_length, token_refresh=token_refresh, token_cleanup_threshold=token_cleanup_threshold, password_hash_algorithm=password_hash_algorithm, password_hash_iterations=password_hash_iterations, password_salt_size=password_salt_size)
+    api_response = api_instance.org_apache_jackrabbit_oak_security_authentication_token_token_configura(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, token_expiration=token_expiration, token_length=token_length, token_refresh=token_refresh, token_cleanup_threshold=token_cleanup_threshold, password_hash_algorithm=password_hash_algorithm, password_hash_iterations=password_hash_iterations, password_salt_size=password_salt_size)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authentication_token_token_configura: %s\n" % e)
 ```
 
 ### Parameters
@@ -37918,7 +37918,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo**](OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo.md)
 
 ### Authorization
 
@@ -37931,8 +37931,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl**
-> OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, permissions_jr2=permissions_jr2, import_behavior=import_behavior, read_paths=read_paths, administrative_principals=administrative_principals, configuration_ranking=configuration_ranking)
+# **org_apache_jackrabbit_oak_security_authorization_authorization_configur**
+> OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo org_apache_jackrabbit_oak_security_authorization_authorization_configur(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, permissions_jr2=permissions_jr2, import_behavior=import_behavior, read_paths=read_paths, administrative_principals=administrative_principals, configuration_ranking=configuration_ranking)
 
 
 
@@ -37960,10 +37960,10 @@ administrative_principals = ['administrative_principals_example'] # list[str] | 
 configuration_ranking = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, permissions_jr2=permissions_jr2, import_behavior=import_behavior, read_paths=read_paths, administrative_principals=administrative_principals, configuration_ranking=configuration_ranking)
+    api_response = api_instance.org_apache_jackrabbit_oak_security_authorization_authorization_configur(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, permissions_jr2=permissions_jr2, import_behavior=import_behavior, read_paths=read_paths, administrative_principals=administrative_principals, configuration_ranking=configuration_ranking)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_authorization_authorization_configur: %s\n" % e)
 ```
 
 ### Parameters
@@ -37984,7 +37984,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo**](OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo.md)
+[**OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo**](OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.md)
 
 ### Authorization
 
@@ -37997,8 +37997,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_security_internal_security_provider_registration**
-> OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo org_apache_jackrabbit_oak_security_internal_security_provider_registration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, required_service_pids=required_service_pids, authorization_composition_type=authorization_composition_type)
+# **org_apache_jackrabbit_oak_security_internal_security_provider_registrati**
+> OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo org_apache_jackrabbit_oak_security_internal_security_provider_registrati(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, required_service_pids=required_service_pids, authorization_composition_type=authorization_composition_type)
 
 
 
@@ -38023,10 +38023,10 @@ required_service_pids = ['required_service_pids_example'] # list[str] |  (option
 authorization_composition_type = 'authorization_composition_type_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_security_internal_security_provider_registration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, required_service_pids=required_service_pids, authorization_composition_type=authorization_composition_type)
+    api_response = api_instance.org_apache_jackrabbit_oak_security_internal_security_provider_registrati(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, required_service_pids=required_service_pids, authorization_composition_type=authorization_composition_type)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_internal_security_provider_registration: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_security_internal_security_provider_registrati: %s\n" % e)
 ```
 
 ### Parameters
@@ -38044,7 +38044,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo**](OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo.md)
+[**OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo**](OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo.md)
 
 ### Authorization
 
@@ -38615,8 +38615,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler**
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, handler_name=handler_name, user_expiration_time=user_expiration_time, user_auto_membership=user_auto_membership, user_property_mapping=user_property_mapping, user_path_prefix=user_path_prefix, user_membership_exp_time=user_membership_exp_time, user_membership_nesting_depth=user_membership_nesting_depth, user_dynamic_membership=user_dynamic_membership, user_disable_missing=user_disable_missing, group_expiration_time=group_expiration_time, group_auto_membership=group_auto_membership, group_property_mapping=group_property_mapping, group_path_prefix=group_path_prefix, enable_rfc7613_usercase_mapped_profile=enable_rfc7613_usercase_mapped_profile)
+# **org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de**
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, handler_name=handler_name, user_expiration_time=user_expiration_time, user_auto_membership=user_auto_membership, user_property_mapping=user_property_mapping, user_path_prefix=user_path_prefix, user_membership_exp_time=user_membership_exp_time, user_membership_nesting_depth=user_membership_nesting_depth, user_dynamic_membership=user_dynamic_membership, user_disable_missing=user_disable_missing, group_expiration_time=group_expiration_time, group_auto_membership=group_auto_membership, group_property_mapping=group_property_mapping, group_path_prefix=group_path_prefix, enable_rfc7613_usercase_mapped_profile=enable_rfc7613_usercase_mapped_profile)
 
 
 
@@ -38653,10 +38653,10 @@ group_path_prefix = 'group_path_prefix_example' # str |  (optional)
 enable_rfc7613_usercase_mapped_profile = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, handler_name=handler_name, user_expiration_time=user_expiration_time, user_auto_membership=user_auto_membership, user_property_mapping=user_property_mapping, user_path_prefix=user_path_prefix, user_membership_exp_time=user_membership_exp_time, user_membership_nesting_depth=user_membership_nesting_depth, user_dynamic_membership=user_dynamic_membership, user_disable_missing=user_disable_missing, group_expiration_time=group_expiration_time, group_auto_membership=group_auto_membership, group_property_mapping=group_property_mapping, group_path_prefix=group_path_prefix, enable_rfc7613_usercase_mapped_profile=enable_rfc7613_usercase_mapped_profile)
+    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, handler_name=handler_name, user_expiration_time=user_expiration_time, user_auto_membership=user_auto_membership, user_property_mapping=user_property_mapping, user_path_prefix=user_path_prefix, user_membership_exp_time=user_membership_exp_time, user_membership_nesting_depth=user_membership_nesting_depth, user_dynamic_membership=user_dynamic_membership, user_disable_missing=user_disable_missing, group_expiration_time=group_expiration_time, group_auto_membership=group_auto_membership, group_property_mapping=group_property_mapping, group_path_prefix=group_path_prefix, enable_rfc7613_usercase_mapped_profile=enable_rfc7613_usercase_mapped_profile)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de: %s\n" % e)
 ```
 
 ### Parameters
@@ -38686,7 +38686,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo.md)
 
 ### Authorization
 
@@ -38699,8 +38699,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory**
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, jaas_ranking=jaas_ranking, jaas_control_flag=jaas_control_flag, jaas_realm_name=jaas_realm_name, idp_name=idp_name, sync_handler_name=sync_handler_name)
+# **org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex**
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, jaas_ranking=jaas_ranking, jaas_control_flag=jaas_control_flag, jaas_realm_name=jaas_realm_name, idp_name=idp_name, sync_handler_name=sync_handler_name)
 
 
 
@@ -38728,10 +38728,10 @@ idp_name = 'idp_name_example' # str |  (optional)
 sync_handler_name = 'sync_handler_name_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, jaas_ranking=jaas_ranking, jaas_control_flag=jaas_control_flag, jaas_realm_name=jaas_realm_name, idp_name=idp_name, sync_handler_name=sync_handler_name)
+    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, jaas_ranking=jaas_ranking, jaas_control_flag=jaas_control_flag, jaas_realm_name=jaas_realm_name, idp_name=idp_name, sync_handler_name=sync_handler_name)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex: %s\n" % e)
 ```
 
 ### Parameters
@@ -38752,7 +38752,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo.md)
 
 ### Authorization
 
@@ -38765,8 +38765,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration**
-> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, protect_external_id=protect_external_id)
+# **org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr**
+> OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, protect_external_id=protect_external_id)
 
 
 
@@ -38790,10 +38790,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 protect_external_id = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, protect_external_id=protect_external_id)
+    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, protect_external_id=protect_external_id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr: %s\n" % e)
 ```
 
 ### Parameters
@@ -38810,7 +38810,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo**](OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo.md)
 
 ### Authorization
 
@@ -38823,8 +38823,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration**
-> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cug_supported_paths=cug_supported_paths, cug_enabled=cug_enabled, configuration_ranking=configuration_ranking)
+# **org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi**
+> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cug_supported_paths=cug_supported_paths, cug_enabled=cug_enabled, configuration_ranking=configuration_ranking)
 
 
 
@@ -38850,10 +38850,10 @@ cug_enabled = True # bool |  (optional)
 configuration_ranking = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cug_supported_paths=cug_supported_paths, cug_enabled=cug_enabled, configuration_ranking=configuration_ranking)
+    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, cug_supported_paths=cug_supported_paths, cug_enabled=cug_enabled, configuration_ranking=configuration_ranking)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi: %s\n" % e)
 ```
 
 ### Parameters
@@ -38872,7 +38872,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo.md)
 
 ### Authorization
 
@@ -38885,8 +38885,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl**
-> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, principal_names=principal_names)
+# **org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu**
+> OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, principal_names=principal_names)
 
 
 
@@ -38910,10 +38910,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 principal_names = ['principal_names_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, principal_names=principal_names)
+    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, principal_names=principal_names)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu: %s\n" % e)
 ```
 
 ### Parameters
@@ -38930,7 +38930,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo**](OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo.md)
 
 ### Authorization
 
@@ -38943,8 +38943,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider**
-> OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled_actions=enabled_actions, user_privilege_names=user_privilege_names, group_privilege_names=group_privilege_names, constraint=constraint)
+# **org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable**
+> OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled_actions=enabled_actions, user_privilege_names=user_privilege_names, group_privilege_names=group_privilege_names, constraint=constraint)
 
 
 
@@ -38971,10 +38971,10 @@ group_privilege_names = ['group_privilege_names_example'] # list[str] |  (option
 constraint = 'constraint_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled_actions=enabled_actions, user_privilege_names=user_privilege_names, group_privilege_names=group_privilege_names, constraint=constraint)
+    api_response = api_instance.org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled_actions=enabled_actions, user_privilege_names=user_privilege_names, group_privilege_names=group_privilege_names, constraint=constraint)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable: %s\n" % e)
 ```
 
 ### Parameters
@@ -38994,7 +38994,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo**](OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo.md)
+[**OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo**](OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo.md)
 
 ### Authorization
 
@@ -39299,8 +39299,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy**
-> OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, config_property_inheritance_property_names=config_property_inheritance_property_names)
+# **org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra**
+> OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, config_property_inheritance_property_names=config_property_inheritance_property_names)
 
 
 
@@ -39325,10 +39325,10 @@ enabled = True # bool |  (optional)
 config_property_inheritance_property_names = ['config_property_inheritance_property_names_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, config_property_inheritance_property_names=config_property_inheritance_property_names)
+    api_response = api_instance.org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, config_property_inheritance_property_names=config_property_inheritance_property_names)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra: %s\n" % e)
 ```
 
 ### Parameters
@@ -39346,7 +39346,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo.md)
+[**OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo.md)
 
 ### Authorization
 
@@ -39359,8 +39359,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy**
-> OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled)
+# **org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra**
+> OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled)
 
 
 
@@ -39384,10 +39384,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 enabled = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled)
+    api_response = api_instance.org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra: %s\n" % e)
 ```
 
 ### Parameters
@@ -39404,7 +39404,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo.md)
+[**OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo**](OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo.md)
 
 ### Authorization
 
@@ -39417,8 +39417,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider**
-> OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, description=description, overrides=overrides, enabled=enabled, service_ranking=service_ranking)
+# **org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi**
+> OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, description=description, overrides=overrides, enabled=enabled, service_ranking=service_ranking)
 
 
 
@@ -39445,10 +39445,10 @@ enabled = True # bool |  (optional)
 service_ranking = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, description=description, overrides=overrides, enabled=enabled, service_ranking=service_ranking)
+    api_response = api_instance.org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, description=description, overrides=overrides, enabled=enabled, service_ranking=service_ranking)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi: %s\n" % e)
 ```
 
 ### Parameters
@@ -39468,7 +39468,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo**](OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo.md)
+[**OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo**](OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo.md)
 
 ### Authorization
 
@@ -39481,8 +39481,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider**
-> OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, service_ranking=service_ranking)
+# **org_apache_sling_caconfig_impl_override_system_property_configuration_ove**
+> OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo org_apache_sling_caconfig_impl_override_system_property_configuration_ove(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, service_ranking=service_ranking)
 
 
 
@@ -39507,10 +39507,10 @@ enabled = True # bool |  (optional)
 service_ranking = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, service_ranking=service_ranking)
+    api_response = api_instance.org_apache_sling_caconfig_impl_override_system_property_configuration_ove(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, service_ranking=service_ranking)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_impl_override_system_property_configuration_ove: %s\n" % e)
 ```
 
 ### Parameters
@@ -39528,7 +39528,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo**](OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo.md)
+[**OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo**](OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo.md)
 
 ### Authorization
 
@@ -39541,8 +39541,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_caconfig_management_impl_configuration_management_settings_impl**
-> OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo org_apache_sling_caconfig_management_impl_configuration_management_settings_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ignore_property_name_regex=ignore_property_name_regex, config_collection_properties_resource_names=config_collection_properties_resource_names)
+# **org_apache_sling_caconfig_management_impl_configuration_management_setti**
+> OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo org_apache_sling_caconfig_management_impl_configuration_management_setti(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ignore_property_name_regex=ignore_property_name_regex, config_collection_properties_resource_names=config_collection_properties_resource_names)
 
 
 
@@ -39567,10 +39567,10 @@ ignore_property_name_regex = ['ignore_property_name_regex_example'] # list[str] 
 config_collection_properties_resource_names = ['config_collection_properties_resource_names_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_caconfig_management_impl_configuration_management_settings_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ignore_property_name_regex=ignore_property_name_regex, config_collection_properties_resource_names=config_collection_properties_resource_names)
+    api_response = api_instance.org_apache_sling_caconfig_management_impl_configuration_management_setti(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, ignore_property_name_regex=ignore_property_name_regex, config_collection_properties_resource_names=config_collection_properties_resource_names)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_management_impl_configuration_management_settings_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_management_impl_configuration_management_setti: %s\n" % e)
 ```
 
 ### Parameters
@@ -39588,7 +39588,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo**](OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo.md)
+[**OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo**](OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo.md)
 
 ### Authorization
 
@@ -39601,8 +39601,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy**
-> OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, config_path=config_path, fallback_paths=fallback_paths, config_collection_inheritance_property_names=config_collection_inheritance_property_names)
+# **org_apache_sling_caconfig_resource_impl_def_default_configuration_resour**
+> OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo org_apache_sling_caconfig_resource_impl_def_default_configuration_resour(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, config_path=config_path, fallback_paths=fallback_paths, config_collection_inheritance_property_names=config_collection_inheritance_property_names)
 
 
 
@@ -39629,10 +39629,10 @@ fallback_paths = ['fallback_paths_example'] # list[str] |  (optional)
 config_collection_inheritance_property_names = ['config_collection_inheritance_property_names_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, config_path=config_path, fallback_paths=fallback_paths, config_collection_inheritance_property_names=config_collection_inheritance_property_names)
+    api_response = api_instance.org_apache_sling_caconfig_resource_impl_def_default_configuration_resour(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, enabled=enabled, config_path=config_path, fallback_paths=fallback_paths, config_collection_inheritance_property_names=config_collection_inheritance_property_names)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_caconfig_resource_impl_def_default_configuration_resour: %s\n" % e)
 ```
 
 ### Parameters
@@ -39652,7 +39652,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo**](OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo.md)
+[**OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo**](OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo.md)
 
 ### Authorization
 
@@ -40721,8 +40721,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory**
-> OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, allowed_roots=allowed_roots, queue_processing_enabled=queue_processing_enabled, package_importer_endpoints=package_importer_endpoints, passive_queues=passive_queues, priority_queues=priority_queues, retry_strategy=retry_strategy, retry_attempts=retry_attempts, request_authorization_strategy_target=request_authorization_strategy_target, transport_secret_provider_target=transport_secret_provider_target, package_builder_target=package_builder_target, triggers_target=triggers_target, queue_provider=queue_provider, async_delivery=async_delivery, http_conn_timeout=http_conn_timeout)
+# **org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto**
+> OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, allowed_roots=allowed_roots, queue_processing_enabled=queue_processing_enabled, package_importer_endpoints=package_importer_endpoints, passive_queues=passive_queues, priority_queues=priority_queues, retry_strategy=retry_strategy, retry_attempts=retry_attempts, request_authorization_strategy_target=request_authorization_strategy_target, transport_secret_provider_target=transport_secret_provider_target, package_builder_target=package_builder_target, triggers_target=triggers_target, queue_provider=queue_provider, async_delivery=async_delivery, http_conn_timeout=http_conn_timeout)
 
 
 
@@ -40765,10 +40765,10 @@ async_delivery = True # bool |  (optional)
 http_conn_timeout = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, allowed_roots=allowed_roots, queue_processing_enabled=queue_processing_enabled, package_importer_endpoints=package_importer_endpoints, passive_queues=passive_queues, priority_queues=priority_queues, retry_strategy=retry_strategy, retry_attempts=retry_attempts, request_authorization_strategy_target=request_authorization_strategy_target, transport_secret_provider_target=transport_secret_provider_target, package_builder_target=package_builder_target, triggers_target=triggers_target, queue_provider=queue_provider, async_delivery=async_delivery, http_conn_timeout=http_conn_timeout)
+    api_response = api_instance.org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, allowed_roots=allowed_roots, queue_processing_enabled=queue_processing_enabled, package_importer_endpoints=package_importer_endpoints, passive_queues=passive_queues, priority_queues=priority_queues, retry_strategy=retry_strategy, retry_attempts=retry_attempts, request_authorization_strategy_target=request_authorization_strategy_target, transport_secret_provider_target=transport_secret_provider_target, package_builder_target=package_builder_target, triggers_target=triggers_target, queue_provider=queue_provider, async_delivery=async_delivery, http_conn_timeout=http_conn_timeout)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto: %s\n" % e)
 ```
 
 ### Parameters
@@ -40804,7 +40804,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo**](OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo.md)
 
 ### Authorization
 
@@ -40817,8 +40817,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory**
-> OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, jcr_privilege=jcr_privilege)
+# **org_apache_sling_distribution_agent_impl_privilege_distribution_request_a**
+> OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo org_apache_sling_distribution_agent_impl_privilege_distribution_request_a(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, jcr_privilege=jcr_privilege)
 
 
 
@@ -40843,10 +40843,10 @@ name = 'name_example' # str |  (optional)
 jcr_privilege = 'jcr_privilege_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, jcr_privilege=jcr_privilege)
+    api_response = api_instance.org_apache_sling_distribution_agent_impl_privilege_distribution_request_a(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, jcr_privilege=jcr_privilege)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_privilege_distribution_request_a: %s\n" % e)
 ```
 
 ### Parameters
@@ -40864,7 +40864,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo**](OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo**](OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo.md)
 
 ### Authorization
 
@@ -40957,8 +40957,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory**
-> OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, queue_processing_enabled=queue_processing_enabled, package_exporter_endpoints=package_exporter_endpoints, pull_items=pull_items, http_conn_timeout=http_conn_timeout, request_authorization_strategy_target=request_authorization_strategy_target, transport_secret_provider_target=transport_secret_provider_target, package_builder_target=package_builder_target, triggers_target=triggers_target)
+# **org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto**
+> OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, queue_processing_enabled=queue_processing_enabled, package_exporter_endpoints=package_exporter_endpoints, pull_items=pull_items, http_conn_timeout=http_conn_timeout, request_authorization_strategy_target=request_authorization_strategy_target, transport_secret_provider_target=transport_secret_provider_target, package_builder_target=package_builder_target, triggers_target=triggers_target)
 
 
 
@@ -40995,10 +40995,10 @@ package_builder_target = 'package_builder_target_example' # str |  (optional)
 triggers_target = 'triggers_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, queue_processing_enabled=queue_processing_enabled, package_exporter_endpoints=package_exporter_endpoints, pull_items=pull_items, http_conn_timeout=http_conn_timeout, request_authorization_strategy_target=request_authorization_strategy_target, transport_secret_provider_target=transport_secret_provider_target, package_builder_target=package_builder_target, triggers_target=triggers_target)
+    api_response = api_instance.org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, queue_processing_enabled=queue_processing_enabled, package_exporter_endpoints=package_exporter_endpoints, pull_items=pull_items, http_conn_timeout=http_conn_timeout, request_authorization_strategy_target=request_authorization_strategy_target, transport_secret_provider_target=transport_secret_provider_target, package_builder_target=package_builder_target, triggers_target=triggers_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto: %s\n" % e)
 ```
 
 ### Parameters
@@ -41028,7 +41028,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo**](OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.md)
 
 ### Authorization
 
@@ -41041,8 +41041,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory**
-> OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, queue_processing_enabled=queue_processing_enabled, package_exporter_target=package_exporter_target, package_importer_target=package_importer_target, request_authorization_strategy_target=request_authorization_strategy_target, triggers_target=triggers_target)
+# **org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor**
+> OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, queue_processing_enabled=queue_processing_enabled, package_exporter_target=package_exporter_target, package_importer_target=package_importer_target, request_authorization_strategy_target=request_authorization_strategy_target, triggers_target=triggers_target)
 
 
 
@@ -41076,10 +41076,10 @@ request_authorization_strategy_target = 'request_authorization_strategy_target_e
 triggers_target = 'triggers_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, queue_processing_enabled=queue_processing_enabled, package_exporter_target=package_exporter_target, package_importer_target=package_importer_target, request_authorization_strategy_target=request_authorization_strategy_target, triggers_target=triggers_target)
+    api_response = api_instance.org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, title=title, details=details, enabled=enabled, service_name=service_name, log_level=log_level, queue_processing_enabled=queue_processing_enabled, package_exporter_target=package_exporter_target, package_importer_target=package_importer_target, request_authorization_strategy_target=request_authorization_strategy_target, triggers_target=triggers_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor: %s\n" % e)
 ```
 
 ### Parameters
@@ -41106,7 +41106,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo**](OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo.md)
+[**OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo**](OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo.md)
 
 ### Authorization
 
@@ -41275,8 +41275,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory**
-> OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, queue=queue, drop_invalid_items=drop_invalid_items, agent_target=agent_target)
+# **org_apache_sling_distribution_packaging_impl_exporter_agent_distributio**
+> OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo org_apache_sling_distribution_packaging_impl_exporter_agent_distributio(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, queue=queue, drop_invalid_items=drop_invalid_items, agent_target=agent_target)
 
 
 
@@ -41303,10 +41303,10 @@ drop_invalid_items = True # bool |  (optional)
 agent_target = 'agent_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, queue=queue, drop_invalid_items=drop_invalid_items, agent_target=agent_target)
+    api_response = api_instance.org_apache_sling_distribution_packaging_impl_exporter_agent_distributio(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, queue=queue, drop_invalid_items=drop_invalid_items, agent_target=agent_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_agent_distributio: %s\n" % e)
 ```
 
 ### Parameters
@@ -41326,7 +41326,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo**](OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo.md)
 
 ### Authorization
 
@@ -41339,8 +41339,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory**
-> OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, package_builder_target=package_builder_target)
+# **org_apache_sling_distribution_packaging_impl_exporter_local_distributio**
+> OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo org_apache_sling_distribution_packaging_impl_exporter_local_distributio(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, package_builder_target=package_builder_target)
 
 
 
@@ -41365,10 +41365,10 @@ name = 'name_example' # str |  (optional)
 package_builder_target = 'package_builder_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, package_builder_target=package_builder_target)
+    api_response = api_instance.org_apache_sling_distribution_packaging_impl_exporter_local_distributio(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, package_builder_target=package_builder_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_local_distributio: %s\n" % e)
 ```
 
 ### Parameters
@@ -41386,7 +41386,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo**](OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo.md)
 
 ### Authorization
 
@@ -41399,8 +41399,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory**
-> OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoints=endpoints, pull_items=pull_items, package_builder_target=package_builder_target, transport_secret_provider_target=transport_secret_provider_target)
+# **org_apache_sling_distribution_packaging_impl_exporter_remote_distributi**
+> OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo org_apache_sling_distribution_packaging_impl_exporter_remote_distributi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoints=endpoints, pull_items=pull_items, package_builder_target=package_builder_target, transport_secret_provider_target=transport_secret_provider_target)
 
 
 
@@ -41428,10 +41428,10 @@ package_builder_target = 'package_builder_target_example' # str |  (optional)
 transport_secret_provider_target = 'transport_secret_provider_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoints=endpoints, pull_items=pull_items, package_builder_target=package_builder_target, transport_secret_provider_target=transport_secret_provider_target)
+    api_response = api_instance.org_apache_sling_distribution_packaging_impl_exporter_remote_distributi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoints=endpoints, pull_items=pull_items, package_builder_target=package_builder_target, transport_secret_provider_target=transport_secret_provider_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_exporter_remote_distributi: %s\n" % e)
 ```
 
 ### Parameters
@@ -41452,7 +41452,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.md)
 
 ### Authorization
 
@@ -41465,8 +41465,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory**
-> OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, package_builder_target=package_builder_target)
+# **org_apache_sling_distribution_packaging_impl_importer_local_distributio**
+> OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo org_apache_sling_distribution_packaging_impl_importer_local_distributio(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, package_builder_target=package_builder_target)
 
 
 
@@ -41491,10 +41491,10 @@ name = 'name_example' # str |  (optional)
 package_builder_target = 'package_builder_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, package_builder_target=package_builder_target)
+    api_response = api_instance.org_apache_sling_distribution_packaging_impl_importer_local_distributio(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, package_builder_target=package_builder_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_local_distributio: %s\n" % e)
 ```
 
 ### Parameters
@@ -41512,7 +41512,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo**](OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo.md)
 
 ### Authorization
 
@@ -41525,8 +41525,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory**
-> OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoints=endpoints, transport_secret_provider_target=transport_secret_provider_target)
+# **org_apache_sling_distribution_packaging_impl_importer_remote_distributi**
+> OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo org_apache_sling_distribution_packaging_impl_importer_remote_distributi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoints=endpoints, transport_secret_provider_target=transport_secret_provider_target)
 
 
 
@@ -41552,10 +41552,10 @@ endpoints = ['endpoints_example'] # list[str] |  (optional)
 transport_secret_provider_target = 'transport_secret_provider_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoints=endpoints, transport_secret_provider_target=transport_secret_provider_target)
+    api_response = api_instance.org_apache_sling_distribution_packaging_impl_importer_remote_distributi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoints=endpoints, transport_secret_provider_target=transport_secret_provider_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_remote_distributi: %s\n" % e)
 ```
 
 ### Parameters
@@ -41574,7 +41574,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo**](OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo.md)
 
 ### Authorization
 
@@ -41587,8 +41587,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory**
-> OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, service_name=service_name, path=path, privilege_name=privilege_name)
+# **org_apache_sling_distribution_packaging_impl_importer_repository_distri**
+> OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo org_apache_sling_distribution_packaging_impl_importer_repository_distri(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, service_name=service_name, path=path, privilege_name=privilege_name)
 
 
 
@@ -41615,10 +41615,10 @@ path = 'path_example' # str |  (optional)
 privilege_name = 'privilege_name_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, service_name=service_name, path=path, privilege_name=privilege_name)
+    api_response = api_instance.org_apache_sling_distribution_packaging_impl_importer_repository_distri(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, service_name=service_name, path=path, privilege_name=privilege_name)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_packaging_impl_importer_repository_distri: %s\n" % e)
 ```
 
 ### Parameters
@@ -41638,7 +41638,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo**](OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo.md)
+[**OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo**](OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo.md)
 
 ### Authorization
 
@@ -41651,8 +41651,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory**
-> OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_roots=provider_roots, kind=kind)
+# **org_apache_sling_distribution_resources_impl_distribution_configuration**
+> OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo org_apache_sling_distribution_resources_impl_distribution_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_roots=provider_roots, kind=kind)
 
 
 
@@ -41677,10 +41677,10 @@ provider_roots = 'provider_roots_example' # str |  (optional)
 kind = 'kind_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_roots=provider_roots, kind=kind)
+    api_response = api_instance.org_apache_sling_distribution_resources_impl_distribution_configuration(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_roots=provider_roots, kind=kind)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_resources_impl_distribution_configuration: %s\n" % e)
 ```
 
 ### Parameters
@@ -41698,7 +41698,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo**](OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo.md)
+[**OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo**](OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo.md)
 
 ### Authorization
 
@@ -41711,8 +41711,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory**
-> OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_roots=provider_roots, kind=kind)
+# **org_apache_sling_distribution_resources_impl_distribution_service_resour**
+> OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo org_apache_sling_distribution_resources_impl_distribution_service_resour(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_roots=provider_roots, kind=kind)
 
 
 
@@ -41737,10 +41737,10 @@ provider_roots = 'provider_roots_example' # str |  (optional)
 kind = 'kind_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_roots=provider_roots, kind=kind)
+    api_response = api_instance.org_apache_sling_distribution_resources_impl_distribution_service_resour(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, provider_roots=provider_roots, kind=kind)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_resources_impl_distribution_service_resour: %s\n" % e)
 ```
 
 ### Parameters
@@ -41758,7 +41758,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo**](OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo.md)
+[**OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo**](OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo.md)
 
 ### Authorization
 
@@ -41771,8 +41771,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory**
-> OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, type=type, format_target=format_target, temp_fs_folder=temp_fs_folder, file_threshold=file_threshold, memory_unit=memory_unit, use_off_heap_memory=use_off_heap_memory, digest_algorithm=digest_algorithm, monitoring_queue_size=monitoring_queue_size, cleanup_delay=cleanup_delay, package_filters=package_filters, property_filters=property_filters)
+# **org_apache_sling_distribution_serialization_impl_distribution_package_bu**
+> OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo org_apache_sling_distribution_serialization_impl_distribution_package_bu(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, type=type, format_target=format_target, temp_fs_folder=temp_fs_folder, file_threshold=file_threshold, memory_unit=memory_unit, use_off_heap_memory=use_off_heap_memory, digest_algorithm=digest_algorithm, monitoring_queue_size=monitoring_queue_size, cleanup_delay=cleanup_delay, package_filters=package_filters, property_filters=property_filters)
 
 
 
@@ -41807,10 +41807,10 @@ package_filters = ['package_filters_example'] # list[str] |  (optional)
 property_filters = ['property_filters_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, type=type, format_target=format_target, temp_fs_folder=temp_fs_folder, file_threshold=file_threshold, memory_unit=memory_unit, use_off_heap_memory=use_off_heap_memory, digest_algorithm=digest_algorithm, monitoring_queue_size=monitoring_queue_size, cleanup_delay=cleanup_delay, package_filters=package_filters, property_filters=property_filters)
+    api_response = api_instance.org_apache_sling_distribution_serialization_impl_distribution_package_bu(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, type=type, format_target=format_target, temp_fs_folder=temp_fs_folder, file_threshold=file_threshold, memory_unit=memory_unit, use_off_heap_memory=use_off_heap_memory, digest_algorithm=digest_algorithm, monitoring_queue_size=monitoring_queue_size, cleanup_delay=cleanup_delay, package_filters=package_filters, property_filters=property_filters)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_serialization_impl_distribution_package_bu: %s\n" % e)
 ```
 
 ### Parameters
@@ -41838,7 +41838,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo**](OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo.md)
+[**OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo**](OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo.md)
 
 ### Authorization
 
@@ -41851,8 +41851,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory**
-> OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, type=type, import_mode=import_mode, acl_handling=acl_handling, package_roots=package_roots, package_filters=package_filters, property_filters=property_filters, temp_fs_folder=temp_fs_folder, use_binary_references=use_binary_references, auto_save_threshold=auto_save_threshold, cleanup_delay=cleanup_delay, file_threshold=file_threshold, mega_bytes=mega_bytes, use_off_heap_memory=use_off_heap_memory, digest_algorithm=digest_algorithm, monitoring_queue_size=monitoring_queue_size, paths_mapping=paths_mapping, strict_import=strict_import)
+# **org_apache_sling_distribution_serialization_impl_vlt_vault_distribution**
+> OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo org_apache_sling_distribution_serialization_impl_vlt_vault_distribution(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, type=type, import_mode=import_mode, acl_handling=acl_handling, package_roots=package_roots, package_filters=package_filters, property_filters=property_filters, temp_fs_folder=temp_fs_folder, use_binary_references=use_binary_references, auto_save_threshold=auto_save_threshold, cleanup_delay=cleanup_delay, file_threshold=file_threshold, mega_bytes=mega_bytes, use_off_heap_memory=use_off_heap_memory, digest_algorithm=digest_algorithm, monitoring_queue_size=monitoring_queue_size, paths_mapping=paths_mapping, strict_import=strict_import)
 
 
 
@@ -41893,10 +41893,10 @@ paths_mapping = ['paths_mapping_example'] # list[str] |  (optional)
 strict_import = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, type=type, import_mode=import_mode, acl_handling=acl_handling, package_roots=package_roots, package_filters=package_filters, property_filters=property_filters, temp_fs_folder=temp_fs_folder, use_binary_references=use_binary_references, auto_save_threshold=auto_save_threshold, cleanup_delay=cleanup_delay, file_threshold=file_threshold, mega_bytes=mega_bytes, use_off_heap_memory=use_off_heap_memory, digest_algorithm=digest_algorithm, monitoring_queue_size=monitoring_queue_size, paths_mapping=paths_mapping, strict_import=strict_import)
+    api_response = api_instance.org_apache_sling_distribution_serialization_impl_vlt_vault_distribution(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, type=type, import_mode=import_mode, acl_handling=acl_handling, package_roots=package_roots, package_filters=package_filters, property_filters=property_filters, temp_fs_folder=temp_fs_folder, use_binary_references=use_binary_references, auto_save_threshold=auto_save_threshold, cleanup_delay=cleanup_delay, file_threshold=file_threshold, mega_bytes=mega_bytes, use_off_heap_memory=use_off_heap_memory, digest_algorithm=digest_algorithm, monitoring_queue_size=monitoring_queue_size, paths_mapping=paths_mapping, strict_import=strict_import)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_serialization_impl_vlt_vault_distribution: %s\n" % e)
 ```
 
 ### Parameters
@@ -41930,7 +41930,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo**](OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo.md)
+[**OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo**](OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo.md)
 
 ### Authorization
 
@@ -41943,8 +41943,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider**
-> OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, username=username, password=password)
+# **org_apache_sling_distribution_transport_impl_user_credentials_distributi**
+> OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo org_apache_sling_distribution_transport_impl_user_credentials_distributi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, username=username, password=password)
 
 
 
@@ -41970,10 +41970,10 @@ username = 'username_example' # str |  (optional)
 password = 'password_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, username=username, password=password)
+    api_response = api_instance.org_apache_sling_distribution_transport_impl_user_credentials_distributi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, username=username, password=password)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_transport_impl_user_credentials_distributi: %s\n" % e)
 ```
 
 ### Parameters
@@ -41992,7 +41992,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo**](OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo.md)
+[**OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo**](OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo.md)
 
 ### Authorization
 
@@ -42005,8 +42005,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory**
-> OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path)
+# **org_apache_sling_distribution_trigger_impl_distribution_event_distribute**
+> OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo org_apache_sling_distribution_trigger_impl_distribution_event_distribute(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path)
 
 
 
@@ -42031,10 +42031,10 @@ name = 'name_example' # str |  (optional)
 path = 'path_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path)
+    api_response = api_instance.org_apache_sling_distribution_trigger_impl_distribution_event_distribute(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_distribution_event_distribute: %s\n" % e)
 ```
 
 ### Parameters
@@ -42052,7 +42052,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo**](OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo.md)
 
 ### Authorization
 
@@ -42065,8 +42065,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory**
-> OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, ignored_paths_patterns=ignored_paths_patterns, service_name=service_name, deep=deep)
+# **org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger**
+> OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, ignored_paths_patterns=ignored_paths_patterns, service_name=service_name, deep=deep)
 
 
 
@@ -42094,10 +42094,10 @@ service_name = 'service_name_example' # str |  (optional)
 deep = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, ignored_paths_patterns=ignored_paths_patterns, service_name=service_name, deep=deep)
+    api_response = api_instance.org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, ignored_paths_patterns=ignored_paths_patterns, service_name=service_name, deep=deep)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger: %s\n" % e)
 ```
 
 ### Parameters
@@ -42118,7 +42118,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo**](OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo.md)
 
 ### Authorization
 
@@ -42131,8 +42131,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory**
-> OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, service_name=service_name, nuggets_path=nuggets_path)
+# **org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi**
+> OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, service_name=service_name, nuggets_path=nuggets_path)
 
 
 
@@ -42159,10 +42159,10 @@ service_name = 'service_name_example' # str |  (optional)
 nuggets_path = 'nuggets_path_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, service_name=service_name, nuggets_path=nuggets_path)
+    api_response = api_instance.org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, service_name=service_name, nuggets_path=nuggets_path)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi: %s\n" % e)
 ```
 
 ### Parameters
@@ -42182,7 +42182,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo**](OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.md)
 
 ### Authorization
 
@@ -42195,8 +42195,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory**
-> OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoint=endpoint, transport_secret_provider_target=transport_secret_provider_target)
+# **org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig**
+> OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoint=endpoint, transport_secret_provider_target=transport_secret_provider_target)
 
 
 
@@ -42222,10 +42222,10 @@ endpoint = 'endpoint_example' # str |  (optional)
 transport_secret_provider_target = 'transport_secret_provider_target_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoint=endpoint, transport_secret_provider_target=transport_secret_provider_target)
+    api_response = api_instance.org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, endpoint=endpoint, transport_secret_provider_target=transport_secret_provider_target)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig: %s\n" % e)
 ```
 
 ### Parameters
@@ -42244,7 +42244,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo**](OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo.md)
 
 ### Authorization
 
@@ -42257,8 +42257,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory**
-> OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path)
+# **org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr**
+> OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path)
 
 
 
@@ -42283,10 +42283,10 @@ name = 'name_example' # str |  (optional)
 path = 'path_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path)
+    api_response = api_instance.org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr: %s\n" % e)
 ```
 
 ### Parameters
@@ -42304,7 +42304,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo**](OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo.md)
 
 ### Authorization
 
@@ -42317,8 +42317,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory**
-> OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, seconds=seconds, service_name=service_name)
+# **org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge**
+> OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, seconds=seconds, service_name=service_name)
 
 
 
@@ -42345,10 +42345,10 @@ seconds = 'seconds_example' # str |  (optional)
 service_name = 'service_name_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, seconds=seconds, service_name=service_name)
+    api_response = api_instance.org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, name=name, path=path, seconds=seconds, service_name=service_name)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge: %s\n" % e)
 ```
 
 ### Parameters
@@ -42368,7 +42368,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo**](OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo.md)
+[**OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo**](OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.md)
 
 ### Authorization
 
@@ -43119,8 +43119,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider**
-> OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, users=users, groups=groups)
+# **org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w**
+> OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, users=users, groups=groups)
 
 
 
@@ -43145,10 +43145,10 @@ users = ['users_example'] # list[str] |  (optional)
 groups = ['groups_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, users=users, groups=groups)
+    api_response = api_instance.org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, users=users, groups=groups)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w: %s\n" % e)
 ```
 
 ### Parameters
@@ -43166,7 +43166,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo**](OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo.md)
+[**OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo**](OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo.md)
 
 ### Authorization
 
@@ -44649,8 +44649,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service**
-> OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking)
+# **org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic**
+> OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking)
 
 
 
@@ -44674,10 +44674,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 service_ranking = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking)
+    api_response = api_instance.org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, service_ranking=service_ranking)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic: %s\n" % e)
 ```
 
 ### Parameters
@@ -44694,7 +44694,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo**](OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo.md)
+[**OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo**](OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo.md)
 
 ### Authorization
 
@@ -44963,8 +44963,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory**
-> OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, felix_inventory_printer_name=felix_inventory_printer_name, felix_inventory_printer_title=felix_inventory_printer_title, path=path)
+# **org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto**
+> OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, felix_inventory_printer_name=felix_inventory_printer_name, felix_inventory_printer_title=felix_inventory_printer_title, path=path)
 
 
 
@@ -44990,10 +44990,10 @@ felix_inventory_printer_title = 'felix_inventory_printer_title_example' # str | 
 path = 'path_example' # str |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, felix_inventory_printer_name=felix_inventory_printer_name, felix_inventory_printer_title=felix_inventory_printer_title, path=path)
+    api_response = api_instance.org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, felix_inventory_printer_name=felix_inventory_printer_name, felix_inventory_printer_title=felix_inventory_printer_title, path=path)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto: %s\n" % e)
 ```
 
 ### Parameters
@@ -45012,7 +45012,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo**](OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo.md)
+[**OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo**](OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo.md)
 
 ### Authorization
 
@@ -45205,8 +45205,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl**
-> OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, log_stacktrace_onclose=log_stacktrace_onclose)
+# **org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider**
+> OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, log_stacktrace_onclose=log_stacktrace_onclose)
 
 
 
@@ -45230,10 +45230,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 log_stacktrace_onclose = True # bool |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, log_stacktrace_onclose=log_stacktrace_onclose)
+    api_response = api_instance.org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, log_stacktrace_onclose=log_stacktrace_onclose)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider: %s\n" % e)
 ```
 
 ### Parameters
@@ -45250,7 +45250,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo**](OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo.md)
+[**OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo**](OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo.md)
 
 ### Authorization
 
@@ -45327,8 +45327,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory**
-> OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_sling_scripting_javascript_rhino_opt_level=org_apache_sling_scripting_javascript_rhino_opt_level)
+# **org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa**
+> OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_sling_scripting_javascript_rhino_opt_level=org_apache_sling_scripting_javascript_rhino_opt_level)
 
 
 
@@ -45352,10 +45352,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 org_apache_sling_scripting_javascript_rhino_opt_level = 56 # int |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_sling_scripting_javascript_rhino_opt_level=org_apache_sling_scripting_javascript_rhino_opt_level)
+    api_response = api_instance.org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_sling_scripting_javascript_rhino_opt_level=org_apache_sling_scripting_javascript_rhino_opt_level)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa: %s\n" % e)
 ```
 
 ### Parameters
@@ -45372,7 +45372,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo**](OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo.md)
+[**OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo**](OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo.md)
 
 ### Authorization
 
@@ -45463,8 +45463,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider**
-> OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_sling_scripting_sightly_js_bindings=org_apache_sling_scripting_sightly_js_bindings)
+# **org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov**
+> OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_sling_scripting_sightly_js_bindings=org_apache_sling_scripting_sightly_js_bindings)
 
 
 
@@ -45488,10 +45488,10 @@ propertylist = ['propertylist_example'] # list[str] |  (optional)
 org_apache_sling_scripting_sightly_js_bindings = ['org_apache_sling_scripting_sightly_js_bindings_example'] # list[str] |  (optional)
 
 try:
-    api_response = api_instance.org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_sling_scripting_sightly_js_bindings=org_apache_sling_scripting_sightly_js_bindings)
+    api_response = api_instance.org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, org_apache_sling_scripting_sightly_js_bindings=org_apache_sling_scripting_sightly_js_bindings)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling ConfigmgrApi->org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider: %s\n" % e)
+    print("Exception when calling ConfigmgrApi->org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov: %s\n" % e)
 ```
 
 ### Parameters
@@ -45508,7 +45508,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo**](OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo.md)
+[**OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo**](OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo.md)
 
 ### Authorization
 

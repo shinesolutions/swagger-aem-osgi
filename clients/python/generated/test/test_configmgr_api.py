@@ -35,8 +35,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_adaptive_form_and_interactive_communication_web_channel_theme_configuration(self):
-        """Test case for adaptive_form_and_interactive_communication_web_channel_theme_configuration
+    def test_adaptive_form_and_interactive_communication_web_channel_theme_configur(self):
+        """Test case for adaptive_form_and_interactive_communication_web_channel_theme_configur
 
         """
         pass
@@ -143,8 +143,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler(self):
-        """Test case for com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handler
+    def test_com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle(self):
+        """Test case for com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle
 
         """
         pass
@@ -209,8 +209,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet(self):
-        """Test case for com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servlet
+    def test_com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle(self):
+        """Test case for com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle
 
         """
         pass
@@ -449,8 +449,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check(self):
-        """Test case for com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_check
+    def test_com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch(self):
+        """Test case for com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch
 
         """
         pass
@@ -479,20 +479,20 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_accountverification_impl_account_management_config_impl(self):
-        """Test case for com_adobe_cq_social_accountverification_impl_account_management_config_impl
+    def test_com_adobe_cq_social_accountverification_impl_account_management_config_im(self):
+        """Test case for com_adobe_cq_social_accountverification_impl_account_management_config_im
 
         """
         pass
 
-    def test_com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl(self):
-        """Test case for com_adobe_cq_social_activitystreams_client_impl_social_activity_component_factory_impl
+    def test_com_adobe_cq_social_activitystreams_client_impl_social_activity_componen(self):
+        """Test case for com_adobe_cq_social_activitystreams_client_impl_social_activity_componen
 
         """
         pass
 
-    def test_com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory(self):
-        """Test case for com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_component_factory
+    def test_com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co(self):
+        """Test case for com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co
 
         """
         pass
@@ -503,32 +503,32 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension(self):
-        """Test case for com_adobe_cq_social_activitystreams_listener_impl_moderation_event_extension
+    def test_com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten(self):
+        """Test case for com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten
 
         """
         pass
 
-    def test_com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor(self):
-        """Test case for com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_suppressor
+    def test_com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s(self):
+        """Test case for com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s
 
         """
         pass
 
-    def test_com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory(self):
-        """Test case for com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stream_provider_factory
+    def test_com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre(self):
+        """Test case for com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre
 
         """
         pass
 
-    def test_com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl(self):
-        """Test case for com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_impl
+    def test_com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i(self):
+        """Test case for com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i
 
         """
         pass
 
-    def test_com_adobe_cq_social_calendar_client_operationextensions_event_attachment(self):
-        """Test case for com_adobe_cq_social_calendar_client_operationextensions_event_attachment
+    def test_com_adobe_cq_social_calendar_client_operationextensions_event_attachmen(self):
+        """Test case for com_adobe_cq_social_calendar_client_operationextensions_event_attachmen
 
         """
         pass
@@ -539,32 +539,32 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor(self):
-        """Test case for com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event_activity_suppressor
+    def test_com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event(self):
+        """Test case for com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event
 
         """
         pass
 
-    def test_com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service(self):
-        """Test case for com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_service
+    def test_com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se(self):
+        """Test case for com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se
 
         """
         pass
 
-    def test_com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service(self):
-        """Test case for com_adobe_cq_social_commons_comments_endpoints_impl_translation_operation_service
+    def test_com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati(self):
+        """Test case for com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati
 
         """
         pass
 
-    def test_com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider(self):
-        """Test case for com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_component_list_provider
+    def test_com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c(self):
+        """Test case for com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c
 
         """
         pass
 
-    def test_com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts(self):
-        """Test case for com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_posts
+    def test_com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos(self):
+        """Test case for com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos
 
         """
         pass
@@ -599,14 +599,14 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl(self):
-        """Test case for com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_impl
+    def test_com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp(self):
+        """Test case for com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp
 
         """
         pass
 
-    def test_com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl(self):
-        """Test case for com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_impl
+    def test_com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp(self):
+        """Test case for com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp
 
         """
         pass
@@ -653,8 +653,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads(self):
-        """Test case for com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_uploads
+    def test_com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload(self):
+        """Test case for com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload
 
         """
         pass
@@ -665,8 +665,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl(self):
-        """Test case for com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limits_config_impl
+    def test_com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit(self):
+        """Test case for com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit
 
         """
         pass
@@ -677,8 +677,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler(self):
-        """Test case for com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handler
+    def test_com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle(self):
+        """Test case for com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle
 
         """
         pass
@@ -695,8 +695,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl(self):
-        """Test case for com_adobe_cq_social_content_fragments_services_impl_communities_fragment_creation_service_impl
+    def test_com_adobe_cq_social_content_fragments_services_impl_communities_fragmen(self):
+        """Test case for com_adobe_cq_social_content_fragments_services_impl_communities_fragmen
 
         """
         pass
@@ -713,32 +713,32 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory(self):
-        """Test case for com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factory
+    def test_com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor(self):
+        """Test case for com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor
 
         """
         pass
 
-    def test_com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory(self):
-        """Test case for com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_factory
+    def test_com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f(self):
+        """Test case for com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f
 
         """
         pass
 
-    def test_com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory(self):
-        """Test case for com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_factory
+    def test_com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto(self):
+        """Test case for com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto
 
         """
         pass
 
-    def test_com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service(self):
-        """Test case for com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_learning_path_model_operation_service
+    def test_com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l(self):
+        """Test case for com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l
 
         """
         pass
 
-    def test_com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service(self):
-        """Test case for com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resource_model_operation_service
+    def test_com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou(self):
+        """Test case for com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou
 
         """
         pass
@@ -749,14 +749,14 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet(self):
-        """Test case for com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_get_servlet
+    def test_com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge(self):
+        """Test case for com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge
 
         """
         pass
 
-    def test_com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service(self):
-        """Test case for com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_operations_service
+    def test_com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera(self):
+        """Test case for com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera
 
         """
         pass
@@ -773,8 +773,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_group_client_impl_community_group_collection_component_factory(self):
-        """Test case for com_adobe_cq_social_group_client_impl_community_group_collection_component_factory
+    def test_com_adobe_cq_social_group_client_impl_community_group_collection_componen(self):
+        """Test case for com_adobe_cq_social_group_client_impl_community_group_collection_componen
 
         """
         pass
@@ -791,62 +791,62 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service(self):
-        """Test case for com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_service
+    def test_com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s(self):
+        """Test case for com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s
 
         """
         pass
 
-    def test_com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service(self):
-        """Test case for com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_service
+    def test_com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser(self):
+        """Test case for com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser
 
         """
         pass
 
-    def test_com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service(self):
-        """Test case for com_adobe_cq_social_members_endpoints_impl_community_member_group_profile_operation_service
+    def test_com_adobe_cq_social_members_endpoints_impl_community_member_group_profile(self):
+        """Test case for com_adobe_cq_social_members_endpoints_impl_community_member_group_profile
 
         """
         pass
 
-    def test_com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service(self):
-        """Test case for com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_operation_service
+    def test_com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o(self):
+        """Test case for com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o
 
         """
         pass
 
-    def test_com_adobe_cq_social_members_impl_community_member_group_profile_component_factory(self):
-        """Test case for com_adobe_cq_social_members_impl_community_member_group_profile_component_factory
+    def test_com_adobe_cq_social_members_impl_community_member_group_profile_component_f(self):
+        """Test case for com_adobe_cq_social_members_impl_community_member_group_profile_component_f
 
         """
         pass
 
-    def test_com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl(self):
-        """Test case for com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operations_service_impl
+    def test_com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation(self):
+        """Test case for com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation
 
         """
         pass
 
-    def test_com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory(self):
-        """Test case for com_adobe_cq_social_moderation_dashboard_api_filter_group_social_component_factory
+    def test_com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen(self):
+        """Test case for com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen
 
         """
         pass
 
-    def test_com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory(self):
-        """Test case for com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social_component_factory
+    def test_com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social(self):
+        """Test case for com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social
 
         """
         pass
 
-    def test_com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory(self):
-        """Test case for com_adobe_cq_social_moderation_dashboard_api_user_details_social_component_factory
+    def test_com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen(self):
+        """Test case for com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen
 
         """
         pass
 
-    def test_com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2(self):
-        """Test case for com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_social_component_factory_v2
+    def test_com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci(self):
+        """Test case for com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci
 
         """
         pass
@@ -869,32 +869,32 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service(self):
-        """Test case for com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_service
+    def test_com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic(self):
+        """Test case for com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic
 
         """
         pass
 
-    def test_com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl(self):
-        """Test case for com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_importer_service_impl
+    def test_com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i(self):
+        """Test case for com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i
 
         """
         pass
 
-    def test_com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl(self):
-        """Test case for com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_management_service_impl
+    def test_com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m(self):
+        """Test case for com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m
 
         """
         pass
 
-    def test_com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory(self):
-        """Test case for com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_social_component_factory
+    def test_com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s(self):
+        """Test case for com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s
 
         """
         pass
 
-    def test_com_adobe_cq_social_review_client_endpoints_impl_review_operations_service(self):
-        """Test case for com_adobe_cq_social_review_client_endpoints_impl_review_operations_service
+    def test_com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi(self):
+        """Test case for com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi
 
         """
         pass
@@ -929,8 +929,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl(self):
-        """Test case for com_adobe_cq_social_site_impl_analytics_component_configuration_service_impl
+    def test_com_adobe_cq_social_site_impl_analytics_component_configuration_service_im(self):
+        """Test case for com_adobe_cq_social_site_impl_analytics_component_configuration_service_im
 
         """
         pass
@@ -1019,8 +1019,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service(self):
-        """Test case for com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blacklist_service
+    def test_com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli(self):
+        """Test case for com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli
 
         """
         pass
@@ -1043,8 +1043,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended(self):
-        """Test case for com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_factory_amended
+    def test_com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact(self):
+        """Test case for com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact
 
         """
         pass
@@ -1127,8 +1127,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_forms_common_service_impl_forms_common_configuration_service_impl(self):
-        """Test case for com_adobe_forms_common_service_impl_forms_common_configuration_service_impl
+    def test_com_adobe_forms_common_service_impl_forms_common_configuration_service_imp(self):
+        """Test case for com_adobe_forms_common_service_impl_forms_common_configuration_service_imp
 
         """
         pass
@@ -1355,8 +1355,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_comments_internal_comment_replication_content_filter_factory(self):
-        """Test case for com_adobe_granite_comments_internal_comment_replication_content_filter_factory
+    def test_com_adobe_granite_comments_internal_comment_replication_content_filter_fac(self):
+        """Test case for com_adobe_granite_comments_internal_comment_replication_content_filter_fac
 
         """
         pass
@@ -1379,8 +1379,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy(self):
-        """Test case for com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving_strategy
+    def test_com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving(self):
+        """Test case for com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving
 
         """
         pass
@@ -1409,8 +1409,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider(self):
-        """Test case for com_adobe_granite_distribution_core_impl_crypto_distribution_transport_secret_provider
+    def test_com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se(self):
+        """Test case for com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se
 
         """
         pass
@@ -1427,26 +1427,26 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer(self):
-        """Test case for com_adobe_granite_distribution_core_impl_distribution_to_replication_event_transformer
+    def test_com_adobe_granite_distribution_core_impl_distribution_to_replication_even(self):
+        """Test case for com_adobe_granite_distribution_core_impl_distribution_to_replication_even
 
         """
         pass
 
-    def test_com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider(self):
-        """Test case for com_adobe_granite_distribution_core_impl_replication_adapters_replication_agent_provider
+    def test_com_adobe_granite_distribution_core_impl_replication_adapters_replicat(self):
+        """Test case for com_adobe_granite_distribution_core_impl_replication_adapters_replicat
 
         """
         pass
 
-    def test_com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler(self):
-        """Test case for com_adobe_granite_distribution_core_impl_replication_distribution_transport_handler
+    def test_com_adobe_granite_distribution_core_impl_replication_distribution_trans(self):
+        """Test case for com_adobe_granite_distribution_core_impl_replication_distribution_trans
 
         """
         pass
 
-    def test_com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider(self):
-        """Test case for com_adobe_granite_distribution_core_impl_transport_access_token_distribution_transport_secret_provider
+    def test_com_adobe_granite_distribution_core_impl_transport_access_token_distribu(self):
+        """Test case for com_adobe_granite_distribution_core_impl_transport_access_token_distribu
 
         """
         pass
@@ -1541,8 +1541,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler(self):
-        """Test case for com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_handler
+    def test_com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han(self):
+        """Test case for com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han
 
         """
         pass
@@ -1601,8 +1601,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_offloading_impl_transporter_offloading_default_transporter(self):
-        """Test case for com_adobe_granite_offloading_impl_transporter_offloading_default_transporter
+    def test_com_adobe_granite_offloading_impl_transporter_offloading_default_transpo(self):
+        """Test case for com_adobe_granite_offloading_impl_transporter_offloading_default_transpo
 
         """
         pass
@@ -1655,8 +1655,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_replication_hc_impl_replication_transport_users_health_check(self):
-        """Test case for com_adobe_granite_replication_hc_impl_replication_transport_users_health_check
+    def test_com_adobe_granite_replication_hc_impl_replication_transport_users_health_c(self):
+        """Test case for com_adobe_granite_replication_hc_impl_replication_transport_users_health_c
 
         """
         pass
@@ -1667,8 +1667,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check(self):
-        """Test case for com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_check
+    def test_com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c(self):
+        """Test case for com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c
 
         """
         pass
@@ -1679,8 +1679,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check(self):
-        """Test case for com_adobe_granite_repository_hc_impl_default_access_user_profile_health_check
+    def test_com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che(self):
+        """Test case for com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che
 
         """
         pass
@@ -1715,8 +1715,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl(self):
-        """Test case for com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_impl
+    def test_com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im(self):
+        """Test case for com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im
 
         """
         pass
@@ -1751,8 +1751,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet(self):
-        """Test case for com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_servlet
+    def test_com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s(self):
+        """Test case for com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s
 
         """
         pass
@@ -1793,8 +1793,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory(self):
-        """Test case for com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factory
+    def test_com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor(self):
+        """Test case for com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor
 
         """
         pass
@@ -1805,8 +1805,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl(self):
-        """Test case for com_adobe_granite_translation_connector_msft_core_impl_microsoft_translation_service_factory_impl
+    def test_com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl(self):
+        """Test case for com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl
 
         """
         pass
@@ -1853,8 +1853,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer(self):
-        """Test case for com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consumer
+    def test_com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum(self):
+        """Test case for com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum
 
         """
         pass
@@ -1895,8 +1895,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet(self):
-        """Test case for com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_servlet
+    def test_com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s(self):
+        """Test case for com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s
 
         """
         pass
@@ -1925,8 +1925,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter(self):
-        """Test case for com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporter
+    def test_com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte(self):
+        """Test case for com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte
 
         """
         pass
@@ -2015,8 +2015,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker(self):
-        """Test case for com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checker
+    def test_com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke(self):
+        """Test case for com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke
 
         """
         pass
@@ -2117,8 +2117,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag(self):
-        """Test case for com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feature_flag
+    def test_com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat(self):
+        """Test case for com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat
 
         """
         pass
@@ -2171,14 +2171,14 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service(self):
-        """Test case for com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config_provider_service
+    def test_com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config(self):
+        """Test case for com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config
 
         """
         pass
 
-    def test_com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service(self):
-        """Test case for com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config_provider_service
+    def test_com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config(self):
+        """Test case for com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config
 
         """
         pass
@@ -2213,8 +2213,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process(self):
-        """Test case for com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_process
+    def test_com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr(self):
+        """Test case for com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr
 
         """
         pass
@@ -2435,14 +2435,14 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process(self):
-        """Test case for com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_process
+    def test_com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro(self):
+        """Test case for com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro
 
         """
         pass
 
-    def test_com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener(self):
-        """Test case for com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_event_listener
+    def test_com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even(self):
+        """Test case for com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even
 
         """
         pass
@@ -2525,14 +2525,14 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl(self):
-        """Test case for com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_service_impl
+    def test_com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser(self):
+        """Test case for com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser
 
         """
         pass
 
-    def test_com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl(self):
-        """Test case for com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_impl
+    def test_com_day_cq_dam_stock_integration_impl_configuration_stock_configuration(self):
+        """Test case for com_day_cq_dam_stock_integration_impl_configuration_stock_configuration
 
         """
         pass
@@ -2609,32 +2609,32 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory(self):
-        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_component_tag_handler_factory
+    def test_com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen(self):
+        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen
 
         """
         pass
 
-    def test_com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory(self):
-        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_through_component_tag_handler_factory
+    def test_com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug(self):
+        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug
 
         """
         pass
 
-    def test_com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory(self):
-        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component_tag_handler_factory
+    def test_com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component(self):
+        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component
 
         """
         pass
 
-    def test_com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory(self):
-        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_handler_factory
+    def test_com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha(self):
+        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha
 
         """
         pass
 
-    def test_com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory(self):
-        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_handler_factory
+    def test_com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h(self):
+        """Test case for com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h
 
         """
         pass
@@ -2693,8 +2693,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service(self):
-        """Test case for com_day_cq_replication_impl_content_durbo_durbo_import_configuration_provider_service
+    def test_com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov(self):
+        """Test case for com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov
 
         """
         pass
@@ -2843,8 +2843,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory(self):
-        """Test case for com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factory
+    def test_com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor(self):
+        """Test case for com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor
 
         """
         pass
@@ -2927,8 +2927,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler(self):
-        """Test case for com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_view_handler
+    def test_com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie(self):
+        """Test case for com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie
 
         """
         pass
@@ -3047,104 +3047,104 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_component_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_component_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_component_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_component_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_component_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen
 
         """
         pass
 
-    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory(self):
-        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handler_factory
+    def test_com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl(self):
+        """Test case for com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl
 
         """
         pass
@@ -3197,8 +3197,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service(self):
-        """Test case for com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist_service
+    def test_com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist(self):
+        """Test case for com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist
 
         """
         pass
@@ -3461,8 +3461,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator(self):
-        """Test case for org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_configurator
+    def test_org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co(self):
+        """Test case for org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co
 
         """
         pass
@@ -3473,8 +3473,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider_service
+    def test_org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider
 
         """
         pass
@@ -3491,14 +3491,14 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_document_document_node_store_service_preset
+    def test_org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cache_service
+    def test_org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac
 
         """
         pass
@@ -3509,44 +3509,44 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_service
+    def test_org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_configuration_provider
+    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers_observer_service
+    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration_provider_service
+    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_configuration_provider
+    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provider_service
+    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service(self):
-        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_service
+    def test_org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se(self):
+        """Test case for org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se
 
         """
         pass
@@ -3569,32 +3569,32 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl(self):
-        """Test case for org_apache_jackrabbit_oak_security_authentication_authentication_configuration_impl
+    def test_org_apache_jackrabbit_oak_security_authentication_authentication_config(self):
+        """Test case for org_apache_jackrabbit_oak_security_authentication_authentication_config
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider(self):
-        """Test case for org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identity_provider
+    def test_org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi(self):
+        """Test case for org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl(self):
-        """Test case for org_apache_jackrabbit_oak_security_authentication_token_token_configuration_impl
+    def test_org_apache_jackrabbit_oak_security_authentication_token_token_configura(self):
+        """Test case for org_apache_jackrabbit_oak_security_authentication_token_token_configura
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl(self):
-        """Test case for org_apache_jackrabbit_oak_security_authorization_authorization_configuration_impl
+    def test_org_apache_jackrabbit_oak_security_authorization_authorization_configur(self):
+        """Test case for org_apache_jackrabbit_oak_security_authorization_authorization_configur
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_security_internal_security_provider_registration(self):
-        """Test case for org_apache_jackrabbit_oak_security_internal_security_provider_registration
+    def test_org_apache_jackrabbit_oak_security_internal_security_provider_registrati(self):
+        """Test case for org_apache_jackrabbit_oak_security_internal_security_provider_registrati
 
         """
         pass
@@ -3641,38 +3641,38 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler(self):
-        """Test case for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_default_sync_handler
+    def test_org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de(self):
+        """Test case for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory(self):
-        """Test case for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_external_login_module_factory
+    def test_org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex(self):
+        """Test case for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration(self):
-        """Test case for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_principal_external_principal_configuration
+    def test_org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr(self):
+        """Test case for org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration(self):
-        """Test case for org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_configuration
+    def test_org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi(self):
+        """Test case for org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl(self):
-        """Test case for org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclude_impl
+    def test_org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu(self):
+        """Test case for org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu
 
         """
         pass
 
-    def test_org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider(self):
-        """Test case for org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable_action_provider
+    def test_org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable(self):
+        """Test case for org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable
 
         """
         pass
@@ -3707,38 +3707,38 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy(self):
-        """Test case for org_apache_sling_caconfig_impl_def_default_configuration_inheritance_strategy
+    def test_org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra(self):
+        """Test case for org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra
 
         """
         pass
 
-    def test_org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy(self):
-        """Test case for org_apache_sling_caconfig_impl_def_default_configuration_persistence_strategy
+    def test_org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra(self):
+        """Test case for org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra
 
         """
         pass
 
-    def test_org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider(self):
-        """Test case for org_apache_sling_caconfig_impl_override_osgi_configuration_override_provider
+    def test_org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi(self):
+        """Test case for org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi
 
         """
         pass
 
-    def test_org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider(self):
-        """Test case for org_apache_sling_caconfig_impl_override_system_property_configuration_override_provider
+    def test_org_apache_sling_caconfig_impl_override_system_property_configuration_ove(self):
+        """Test case for org_apache_sling_caconfig_impl_override_system_property_configuration_ove
 
         """
         pass
 
-    def test_org_apache_sling_caconfig_management_impl_configuration_management_settings_impl(self):
-        """Test case for org_apache_sling_caconfig_management_impl_configuration_management_settings_impl
+    def test_org_apache_sling_caconfig_management_impl_configuration_management_setti(self):
+        """Test case for org_apache_sling_caconfig_management_impl_configuration_management_setti
 
         """
         pass
 
-    def test_org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy(self):
-        """Test case for org_apache_sling_caconfig_resource_impl_def_default_configuration_resource_resolving_strategy
+    def test_org_apache_sling_caconfig_resource_impl_def_default_configuration_resour(self):
+        """Test case for org_apache_sling_caconfig_resource_impl_def_default_configuration_resour
 
         """
         pass
@@ -3833,14 +3833,14 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory(self):
-        """Test case for org_apache_sling_distribution_agent_impl_forward_distribution_agent_factory
+    def test_org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto(self):
+        """Test case for org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto
 
         """
         pass
 
-    def test_org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory(self):
-        """Test case for org_apache_sling_distribution_agent_impl_privilege_distribution_request_authorization_strategy_factory
+    def test_org_apache_sling_distribution_agent_impl_privilege_distribution_request_a(self):
+        """Test case for org_apache_sling_distribution_agent_impl_privilege_distribution_request_a
 
         """
         pass
@@ -3851,14 +3851,14 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory(self):
-        """Test case for org_apache_sling_distribution_agent_impl_reverse_distribution_agent_factory
+    def test_org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto(self):
+        """Test case for org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto
 
         """
         pass
 
-    def test_org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory(self):
-        """Test case for org_apache_sling_distribution_agent_impl_simple_distribution_agent_factory
+    def test_org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor(self):
+        """Test case for org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor
 
         """
         pass
@@ -3875,104 +3875,104 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory(self):
-        """Test case for org_apache_sling_distribution_packaging_impl_exporter_agent_distribution_package_exporter_factory
+    def test_org_apache_sling_distribution_packaging_impl_exporter_agent_distributio(self):
+        """Test case for org_apache_sling_distribution_packaging_impl_exporter_agent_distributio
 
         """
         pass
 
-    def test_org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory(self):
-        """Test case for org_apache_sling_distribution_packaging_impl_exporter_local_distribution_package_exporter_factory
+    def test_org_apache_sling_distribution_packaging_impl_exporter_local_distributio(self):
+        """Test case for org_apache_sling_distribution_packaging_impl_exporter_local_distributio
 
         """
         pass
 
-    def test_org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory(self):
-        """Test case for org_apache_sling_distribution_packaging_impl_exporter_remote_distribution_package_exporter_factory
+    def test_org_apache_sling_distribution_packaging_impl_exporter_remote_distributi(self):
+        """Test case for org_apache_sling_distribution_packaging_impl_exporter_remote_distributi
 
         """
         pass
 
-    def test_org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory(self):
-        """Test case for org_apache_sling_distribution_packaging_impl_importer_local_distribution_package_importer_factory
+    def test_org_apache_sling_distribution_packaging_impl_importer_local_distributio(self):
+        """Test case for org_apache_sling_distribution_packaging_impl_importer_local_distributio
 
         """
         pass
 
-    def test_org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory(self):
-        """Test case for org_apache_sling_distribution_packaging_impl_importer_remote_distribution_package_importer_factory
+    def test_org_apache_sling_distribution_packaging_impl_importer_remote_distributi(self):
+        """Test case for org_apache_sling_distribution_packaging_impl_importer_remote_distributi
 
         """
         pass
 
-    def test_org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory(self):
-        """Test case for org_apache_sling_distribution_packaging_impl_importer_repository_distribution_package_importer_factory
+    def test_org_apache_sling_distribution_packaging_impl_importer_repository_distri(self):
+        """Test case for org_apache_sling_distribution_packaging_impl_importer_repository_distri
 
         """
         pass
 
-    def test_org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory(self):
-        """Test case for org_apache_sling_distribution_resources_impl_distribution_configuration_resource_provider_factory
+    def test_org_apache_sling_distribution_resources_impl_distribution_configuration(self):
+        """Test case for org_apache_sling_distribution_resources_impl_distribution_configuration
 
         """
         pass
 
-    def test_org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory(self):
-        """Test case for org_apache_sling_distribution_resources_impl_distribution_service_resource_provider_factory
+    def test_org_apache_sling_distribution_resources_impl_distribution_service_resour(self):
+        """Test case for org_apache_sling_distribution_resources_impl_distribution_service_resour
 
         """
         pass
 
-    def test_org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory(self):
-        """Test case for org_apache_sling_distribution_serialization_impl_distribution_package_builder_factory
+    def test_org_apache_sling_distribution_serialization_impl_distribution_package_bu(self):
+        """Test case for org_apache_sling_distribution_serialization_impl_distribution_package_bu
 
         """
         pass
 
-    def test_org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory(self):
-        """Test case for org_apache_sling_distribution_serialization_impl_vlt_vault_distribution_package_builder_factory
+    def test_org_apache_sling_distribution_serialization_impl_vlt_vault_distribution(self):
+        """Test case for org_apache_sling_distribution_serialization_impl_vlt_vault_distribution
 
         """
         pass
 
-    def test_org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider(self):
-        """Test case for org_apache_sling_distribution_transport_impl_user_credentials_distribution_transport_secret_provider
+    def test_org_apache_sling_distribution_transport_impl_user_credentials_distributi(self):
+        """Test case for org_apache_sling_distribution_transport_impl_user_credentials_distributi
 
         """
         pass
 
-    def test_org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory(self):
-        """Test case for org_apache_sling_distribution_trigger_impl_distribution_event_distribute_distribution_trigger_factory
+    def test_org_apache_sling_distribution_trigger_impl_distribution_event_distribute(self):
+        """Test case for org_apache_sling_distribution_trigger_impl_distribution_event_distribute
 
         """
         pass
 
-    def test_org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory(self):
-        """Test case for org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger_factory
+    def test_org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger(self):
+        """Test case for org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger
 
         """
         pass
 
-    def test_org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory(self):
-        """Test case for org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distribution_trigger_factory
+    def test_org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi(self):
+        """Test case for org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi
 
         """
         pass
 
-    def test_org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory(self):
-        """Test case for org_apache_sling_distribution_trigger_impl_remote_event_distribution_trigger_factory
+    def test_org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig(self):
+        """Test case for org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig
 
         """
         pass
 
-    def test_org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory(self):
-        """Test case for org_apache_sling_distribution_trigger_impl_resource_event_distribution_trigger_factory
+    def test_org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr(self):
+        """Test case for org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr
 
         """
         pass
 
-    def test_org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory(self):
-        """Test case for org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigger_factory
+    def test_org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge(self):
+        """Test case for org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge
 
         """
         pass
@@ -4043,8 +4043,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider(self):
-        """Test case for org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_web_console_security_provider
+    def test_org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w(self):
+        """Test case for org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w
 
         """
         pass
@@ -4187,8 +4187,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service(self):
-        """Test case for org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_service
+    def test_org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic(self):
+        """Test case for org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic
 
         """
         pass
@@ -4217,8 +4217,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory(self):
-        """Test case for org_apache_sling_resource_inventory_impl_resource_inventory_printer_factory
+    def test_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto(self):
+        """Test case for org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto
 
         """
         pass
@@ -4241,8 +4241,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl(self):
-        """Test case for org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider_impl
+    def test_org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider(self):
+        """Test case for org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider
 
         """
         pass
@@ -4253,8 +4253,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory(self):
-        """Test case for org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_factory
+    def test_org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa(self):
+        """Test case for org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa
 
         """
         pass
@@ -4265,8 +4265,8 @@ class TestConfigmgrApi(unittest.TestCase):
         """
         pass
 
-    def test_org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider(self):
-        """Test case for org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_provider
+    def test_org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov(self):
+        """Test case for org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov
 
         """
         pass
