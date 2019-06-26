@@ -7,6 +7,8 @@ clean:
 	rm -rf doc
 
 deps:
+	gem install bundler --version=1.17.3
+	bundle install --binstubs
 	npm install -g bootprint@1.0.2 bootprint-openapi@1.1.1 gh-pages@2.0.1 jsonlint@1.6.3 swagger-cli@2.2.1 swaggy-c@0.1.0
 	docker pull openapitools/openapi-generator-cli:v3.3.4
 

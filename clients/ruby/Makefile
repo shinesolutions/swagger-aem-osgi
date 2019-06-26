@@ -22,14 +22,14 @@ build:
 
 install:
 	cd generated/ && \
-	  rm -f swagger_aem-*.gem Gemfile.lock && \
+	  rm -f swagger_aem_osgi-*.gem Gemfile.lock && \
 		bundle install && \
-	  gem build swagger_aem.gemspec && \
-	  gem install `ls swagger_aem-*.gem`
+	  gem build swagger_aem_osgi.gemspec && \
+	  gem install `ls swagger_aem_osgi-*.gem`
 
 test-unit: install
 	cd generated/ && \
-	  rm -f swagger_aem-*.gem && \
+	  rm -f swagger_aem_osgi-*.gem && \
 	  bundle exec rspec spec/
 
 test-integration:
@@ -47,13 +47,13 @@ fixtures:
 # TODO: replace `yard` with `bundle exec yard` when generated Gemfile contains yard
 doc:
 	cd generated/ && \
-	  rm -f swagger_aem-*.gem && \
+	  rm -f swagger_aem_osgi-*.gem && \
 	  yard doc \
             --output-dir ../../doc/ruby/master/
 
 publish: install
 	cd generated/ && \
-	  gem push `ls swagger_aem-*.gem`
+	  gem push `ls swagger_aem_osgi-*.gem`
 
 release:
 	rtk release

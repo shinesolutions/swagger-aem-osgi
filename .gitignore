@@ -7,3 +7,8 @@ clients/ruby/.bundle
 clients/ruby/bin
 */log/
 *.pyc
+.bundle/
+.git/
+bin/
+vendor/
+inspec.lock
