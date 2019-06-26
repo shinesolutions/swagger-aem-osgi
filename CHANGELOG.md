@@ -12,3 +12,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Generate Java client
 - Generate JavaScript client
 - Generate Python client
+- Generate Ruby client
