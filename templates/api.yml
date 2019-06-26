@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: Adobe Experience Manager OSGI config (AEM) API
+  description: Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+  version: 1.0.0
+  contact:
+    name: Shine Solutions
+    url: http://shinesolutions.com
+    email: opensource@shinesolutions.com
+security:
+  - aemAuth: []
+paths:
+components:
+  securitySchemes:
+    aemAuth:
+      type: http
+      scheme: basic
+  schemas:

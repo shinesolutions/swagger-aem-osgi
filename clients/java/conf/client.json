@@ -1,0 +1,22 @@
+{
+  "artifactId": "swaggeraemosgi4j",
+  "artifactVersion": "0.10.0",
+  "artifactUrl": "https://github.com/shinesolutions/swagger-aem-osgi",
+  "artifactDescription": "Java client generated from Swagger AEM specification using Swagger Code Generator.",
+  "groupId": "com.shinesolutions",
+  "invokerPackage": "com.shinesolutions.swaggeraemosgi4j",
+  "apiPackage": "com.shinesolutions.swaggeraemosgi4j.api",
+  "modelPackage": "com.shinesolutions.swaggeraemosgi4j.model",
+  "licenseName": "Apache License, Version 2.0",
+  "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+  "developerName": "Shine Solutions",
+  "developerEmail": "opensource@shinesolutions.com",
+  "developerOrganization": "Shine Solutions",
+  "developerOrganizationUrl": "http://shinesolutions.com",
+  "scmConnection": "scm:git:git@github.com:shinesolutions/swagger-aem-osgi.git",
+  "scmDeveloperConnection": "scm:git:git@github.com:shinesolutions/swagger-aem-osgi.git",
+  "scmUrl": "https://github.com/shinesolutions/swagger-aem-osgi",
+  "distributionManagementRepositoryId": "sonatype-release",
+  "distributionManagementRepositoryName": "Sonatype Release",
+  "distributionManagementRepositoryUrl": "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+}
