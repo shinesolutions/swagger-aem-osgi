@@ -74,7 +74,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -147,7 +147,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -220,7 +220,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -293,7 +293,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -369,7 +369,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -442,7 +442,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -521,7 +521,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -600,7 +600,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -676,7 +676,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -752,7 +752,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -831,7 +831,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -907,7 +907,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -980,7 +980,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1062,7 +1062,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1144,7 +1144,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1226,7 +1226,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1311,7 +1311,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1396,7 +1396,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1475,7 +1475,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1548,7 +1548,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1624,7 +1624,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1697,7 +1697,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1773,7 +1773,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1849,7 +1849,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -1922,7 +1922,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2001,7 +2001,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2074,7 +2074,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2147,7 +2147,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2220,7 +2220,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2293,7 +2293,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2366,7 +2366,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2448,7 +2448,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2524,7 +2524,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2597,7 +2597,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2670,7 +2670,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2743,7 +2743,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2816,7 +2816,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2892,7 +2892,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -2965,7 +2965,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3047,7 +3047,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3126,7 +3126,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3214,7 +3214,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3296,7 +3296,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3375,7 +3375,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3454,7 +3454,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3527,7 +3527,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3606,7 +3606,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3682,7 +3682,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3758,7 +3758,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3837,7 +3837,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3913,7 +3913,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -3995,7 +3995,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4071,7 +4071,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4147,7 +4147,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4232,7 +4232,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4308,7 +4308,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4402,7 +4402,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4478,7 +4478,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4563,7 +4563,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4654,7 +4654,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4727,7 +4727,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4812,7 +4812,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4885,7 +4885,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -4958,7 +4958,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5031,7 +5031,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5128,7 +5128,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5297,7 +5297,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5373,7 +5373,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5446,7 +5446,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5519,7 +5519,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5592,7 +5592,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5665,7 +5665,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5747,7 +5747,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5820,7 +5820,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5896,7 +5896,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -5975,7 +5975,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6048,7 +6048,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6121,7 +6121,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6197,7 +6197,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6273,7 +6273,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6349,7 +6349,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6425,7 +6425,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6504,7 +6504,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6580,7 +6580,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6653,7 +6653,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6726,7 +6726,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6802,7 +6802,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6878,7 +6878,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -6951,7 +6951,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7030,7 +7030,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7103,7 +7103,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7179,7 +7179,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7252,7 +7252,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7325,7 +7325,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7401,7 +7401,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7495,7 +7495,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7598,7 +7598,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7671,7 +7671,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7747,7 +7747,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7823,7 +7823,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7899,7 +7899,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -7975,7 +7975,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8051,7 +8051,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8127,7 +8127,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8203,7 +8203,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8282,7 +8282,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8367,7 +8367,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8461,7 +8461,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8537,7 +8537,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8616,7 +8616,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8707,7 +8707,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8783,7 +8783,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8874,7 +8874,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -8965,7 +8965,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9056,7 +9056,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9129,7 +9129,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9202,7 +9202,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9275,7 +9275,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9348,7 +9348,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9421,7 +9421,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9497,7 +9497,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9573,7 +9573,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9649,7 +9649,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9725,7 +9725,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9807,7 +9807,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9883,7 +9883,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -9965,7 +9965,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10041,7 +10041,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10117,7 +10117,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10190,7 +10190,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10263,7 +10263,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10339,7 +10339,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10469,7 +10469,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10545,7 +10545,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10618,7 +10618,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10691,7 +10691,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10767,7 +10767,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10843,7 +10843,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10916,7 +10916,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -10992,7 +10992,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11068,7 +11068,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11144,7 +11144,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11217,7 +11217,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11293,7 +11293,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11369,7 +11369,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11445,7 +11445,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11521,7 +11521,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11597,7 +11597,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11670,7 +11670,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11749,7 +11749,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11822,7 +11822,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11895,7 +11895,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -11968,7 +11968,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12050,7 +12050,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12135,7 +12135,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12208,7 +12208,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12293,7 +12293,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12387,7 +12387,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12481,7 +12481,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12560,7 +12560,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12642,7 +12642,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12715,7 +12715,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12788,7 +12788,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12864,7 +12864,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -12946,7 +12946,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13022,7 +13022,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13116,7 +13116,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13195,7 +13195,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13280,7 +13280,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13353,7 +13353,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13429,7 +13429,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13502,7 +13502,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13581,7 +13581,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13660,7 +13660,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13739,7 +13739,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13818,7 +13818,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13900,7 +13900,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -13973,7 +13973,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14046,7 +14046,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14128,7 +14128,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14219,7 +14219,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14292,7 +14292,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14365,7 +14365,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14438,7 +14438,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14517,7 +14517,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14593,7 +14593,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14669,7 +14669,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14742,7 +14742,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -14815,7 +14815,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -15353,7 +15353,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -15429,7 +15429,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -15505,7 +15505,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -15578,7 +15578,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -15654,7 +15654,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -15736,7 +15736,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -15809,7 +15809,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -15918,7 +15918,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16030,7 +16030,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16118,7 +16118,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16191,7 +16191,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16264,7 +16264,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16346,7 +16346,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16431,7 +16431,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16507,7 +16507,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16583,7 +16583,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16656,7 +16656,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16729,7 +16729,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16847,7 +16847,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -16920,7 +16920,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17068,7 +17068,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17171,7 +17171,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17247,7 +17247,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17320,7 +17320,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17393,7 +17393,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17469,7 +17469,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17545,7 +17545,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17618,7 +17618,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17691,7 +17691,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17764,7 +17764,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17837,7 +17837,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17910,7 +17910,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -17983,7 +17983,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18059,7 +18059,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18138,7 +18138,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18214,7 +18214,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18290,7 +18290,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18366,7 +18366,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18460,7 +18460,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18542,7 +18542,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18618,7 +18618,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18697,7 +18697,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18791,7 +18791,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18870,7 +18870,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -18943,7 +18943,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19019,7 +19019,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19092,7 +19092,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19174,7 +19174,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19256,7 +19256,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19341,7 +19341,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19417,7 +19417,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19490,7 +19490,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19563,7 +19563,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19636,7 +19636,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19712,7 +19712,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19800,7 +19800,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19879,7 +19879,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -19958,7 +19958,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20031,7 +20031,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20107,7 +20107,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20180,7 +20180,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20253,7 +20253,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20341,7 +20341,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20426,7 +20426,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20499,7 +20499,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20572,7 +20572,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20648,7 +20648,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20730,7 +20730,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20803,7 +20803,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20879,7 +20879,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -20952,7 +20952,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21025,7 +21025,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21098,7 +21098,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21189,7 +21189,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21265,7 +21265,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21344,7 +21344,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21423,7 +21423,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21502,7 +21502,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21575,7 +21575,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21648,7 +21648,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21721,7 +21721,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21797,7 +21797,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21870,7 +21870,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -21943,7 +21943,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22019,7 +22019,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22092,7 +22092,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22165,7 +22165,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22244,7 +22244,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22323,7 +22323,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22396,7 +22396,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22505,7 +22505,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22584,7 +22584,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22657,7 +22657,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22733,7 +22733,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22806,7 +22806,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22882,7 +22882,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -22955,7 +22955,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23031,7 +23031,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23104,7 +23104,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23183,7 +23183,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23265,7 +23265,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23341,7 +23341,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23414,7 +23414,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23493,7 +23493,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23578,7 +23578,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23654,7 +23654,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23751,7 +23751,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23848,7 +23848,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -23924,7 +23924,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24054,7 +24054,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24127,7 +24127,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24200,7 +24200,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24273,7 +24273,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24352,7 +24352,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24428,7 +24428,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24501,7 +24501,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24577,7 +24577,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24653,7 +24653,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24732,7 +24732,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24835,7 +24835,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -24917,7 +24917,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25002,7 +25002,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25075,7 +25075,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25157,7 +25157,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25260,7 +25260,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25351,7 +25351,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25424,7 +25424,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25500,7 +25500,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25576,7 +25576,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25649,7 +25649,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25731,7 +25731,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25804,7 +25804,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25877,7 +25877,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -25950,7 +25950,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26023,7 +26023,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26102,7 +26102,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26175,7 +26175,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26260,7 +26260,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26342,7 +26342,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26436,7 +26436,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26518,7 +26518,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26591,7 +26591,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26667,7 +26667,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26740,7 +26740,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26813,7 +26813,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26889,7 +26889,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -26968,7 +26968,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27050,7 +27050,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27129,7 +27129,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27247,7 +27247,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27320,7 +27320,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27393,7 +27393,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27466,7 +27466,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27545,7 +27545,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27618,7 +27618,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27703,7 +27703,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27788,7 +27788,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27864,7 +27864,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -27955,7 +27955,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28028,7 +28028,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28101,7 +28101,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28174,7 +28174,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28247,7 +28247,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28326,7 +28326,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28399,7 +28399,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28496,7 +28496,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28569,7 +28569,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28645,7 +28645,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28721,7 +28721,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28803,7 +28803,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28882,7 +28882,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -28955,7 +28955,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29031,7 +29031,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29104,7 +29104,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29186,7 +29186,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29262,7 +29262,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29338,7 +29338,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29414,7 +29414,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29487,7 +29487,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29569,7 +29569,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29642,7 +29642,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29715,7 +29715,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29788,7 +29788,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29867,7 +29867,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -29946,7 +29946,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30022,7 +30022,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30098,7 +30098,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30174,7 +30174,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30247,7 +30247,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30323,7 +30323,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30396,7 +30396,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30472,7 +30472,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30554,7 +30554,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30627,7 +30627,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30715,7 +30715,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30797,7 +30797,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30873,7 +30873,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -30949,7 +30949,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31025,7 +31025,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31104,7 +31104,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31177,7 +31177,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31259,7 +31259,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31332,7 +31332,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31405,7 +31405,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31478,7 +31478,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31566,7 +31566,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31654,7 +31654,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31730,7 +31730,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31803,7 +31803,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31885,7 +31885,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -31958,7 +31958,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32031,7 +32031,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32104,7 +32104,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32177,7 +32177,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32253,7 +32253,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32329,7 +32329,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32405,7 +32405,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32478,7 +32478,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32551,7 +32551,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32627,7 +32627,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32718,7 +32718,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32794,7 +32794,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32867,7 +32867,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -32940,7 +32940,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33016,7 +33016,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33101,7 +33101,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33177,7 +33177,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33253,7 +33253,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33332,7 +33332,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33405,7 +33405,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33481,7 +33481,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33557,7 +33557,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33636,7 +33636,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33730,7 +33730,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33803,7 +33803,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33876,7 +33876,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -33958,7 +33958,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34037,7 +34037,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34113,7 +34113,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34192,7 +34192,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34268,7 +34268,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34347,7 +34347,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34426,7 +34426,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34502,7 +34502,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34578,7 +34578,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34657,7 +34657,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34730,7 +34730,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34803,7 +34803,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34900,7 +34900,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -34973,7 +34973,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35055,7 +35055,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35128,7 +35128,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35204,7 +35204,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35283,7 +35283,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35356,7 +35356,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35453,7 +35453,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35529,7 +35529,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35605,7 +35605,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35678,7 +35678,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35751,7 +35751,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35827,7 +35827,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35903,7 +35903,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -35982,7 +35982,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36082,7 +36082,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36155,7 +36155,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36246,7 +36246,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36334,7 +36334,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36425,7 +36425,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36501,7 +36501,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36577,7 +36577,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36659,7 +36659,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36735,7 +36735,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36808,7 +36808,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36890,7 +36890,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -36963,7 +36963,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37051,7 +37051,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37124,7 +37124,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37197,7 +37197,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37270,7 +37270,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37343,7 +37343,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37431,7 +37431,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37504,7 +37504,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37577,7 +37577,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37653,7 +37653,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37726,7 +37726,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37799,7 +37799,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37875,7 +37875,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -37948,7 +37948,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38024,7 +38024,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38124,7 +38124,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38200,7 +38200,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38276,7 +38276,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38349,7 +38349,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38434,7 +38434,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38507,7 +38507,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38583,7 +38583,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38656,7 +38656,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38732,7 +38732,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38808,7 +38808,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38881,7 +38881,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -38954,7 +38954,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39045,7 +39045,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39130,7 +39130,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39206,7 +39206,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39282,7 +39282,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39355,7 +39355,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39428,7 +39428,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39504,7 +39504,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39577,7 +39577,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39650,7 +39650,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39732,7 +39732,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39808,7 +39808,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39884,7 +39884,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -39969,7 +39969,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40045,7 +40045,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40121,7 +40121,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40197,7 +40197,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40273,7 +40273,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40349,7 +40349,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40428,7 +40428,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40504,7 +40504,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40580,7 +40580,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40656,7 +40656,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40732,7 +40732,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40808,7 +40808,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40887,7 +40887,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -40963,7 +40963,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41039,7 +41039,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41118,7 +41118,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41197,7 +41197,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41273,7 +41273,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41358,7 +41358,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41434,7 +41434,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41510,7 +41510,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41592,7 +41592,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41665,7 +41665,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41753,7 +41753,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41826,7 +41826,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41899,7 +41899,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -41975,7 +41975,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42069,7 +42069,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42145,7 +42145,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42227,7 +42227,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42309,7 +42309,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42388,7 +42388,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42470,7 +42470,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42549,7 +42549,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42631,7 +42631,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42713,7 +42713,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42792,7 +42792,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42865,7 +42865,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -42962,7 +42962,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43038,7 +43038,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43111,7 +43111,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43184,7 +43184,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43257,7 +43257,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43354,7 +43354,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43427,7 +43427,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43512,7 +43512,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43588,7 +43588,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43700,7 +43700,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43776,7 +43776,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43864,7 +43864,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -43940,7 +43940,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44025,7 +44025,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44104,7 +44104,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44180,7 +44180,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44253,7 +44253,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44326,7 +44326,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44414,7 +44414,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44643,7 +44643,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44725,7 +44725,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44810,7 +44810,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44889,7 +44889,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -44977,7 +44977,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45053,7 +45053,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45135,7 +45135,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45211,7 +45211,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45287,7 +45287,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45363,7 +45363,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45436,7 +45436,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45536,7 +45536,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45609,7 +45609,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45688,7 +45688,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45776,7 +45776,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45849,7 +45849,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -45922,7 +45922,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46082,7 +46082,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46155,7 +46155,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46234,7 +46234,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46316,7 +46316,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46434,7 +46434,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46510,7 +46510,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46583,7 +46583,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46704,7 +46704,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46798,7 +46798,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46871,7 +46871,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -46944,7 +46944,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47017,7 +47017,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47096,7 +47096,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47178,7 +47178,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47254,7 +47254,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47402,7 +47402,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47493,7 +47493,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47578,7 +47578,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47654,7 +47654,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47727,7 +47727,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47845,7 +47845,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -47930,7 +47930,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48081,7 +48081,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48154,7 +48154,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48296,7 +48296,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48393,7 +48393,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48505,7 +48505,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48590,7 +48590,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48663,7 +48663,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48742,7 +48742,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48815,7 +48815,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48897,7 +48897,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -48970,7 +48970,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49043,7 +49043,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49119,7 +49119,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49192,7 +49192,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49265,7 +49265,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49341,7 +49341,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49414,7 +49414,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49496,7 +49496,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49572,7 +49572,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49648,7 +49648,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49730,7 +49730,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49812,7 +49812,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49885,7 +49885,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -49985,7 +49985,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50070,7 +50070,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50152,7 +50152,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50243,7 +50243,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50325,7 +50325,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50398,7 +50398,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50483,7 +50483,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50556,7 +50556,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50659,7 +50659,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50816,7 +50816,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -50898,7 +50898,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51025,7 +51025,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51104,7 +51104,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51234,7 +51234,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51310,7 +51310,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51416,7 +51416,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51528,7 +51528,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51631,7 +51631,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51755,7 +51755,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51837,7 +51837,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51919,7 +51919,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -51995,7 +51995,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52080,7 +52080,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52156,7 +52156,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52235,7 +52235,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52317,7 +52317,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52393,7 +52393,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52469,7 +52469,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52575,7 +52575,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52699,7 +52699,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52778,7 +52778,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52854,7 +52854,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -52939,7 +52939,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53021,7 +53021,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53100,7 +53100,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53176,7 +53176,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53258,7 +53258,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53361,7 +53361,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53443,7 +53443,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53531,7 +53531,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53613,7 +53613,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53704,7 +53704,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53795,7 +53795,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53868,7 +53868,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -53950,7 +53950,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54029,7 +54029,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54108,7 +54108,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54211,7 +54211,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54287,7 +54287,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54366,7 +54366,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54445,7 +54445,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54530,7 +54530,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54615,7 +54615,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54694,7 +54694,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54782,7 +54782,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54867,7 +54867,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -54946,7 +54946,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55028,7 +55028,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55104,7 +55104,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55183,7 +55183,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55274,7 +55274,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55350,7 +55350,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55426,7 +55426,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55505,7 +55505,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55581,7 +55581,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55654,7 +55654,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55727,7 +55727,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55803,7 +55803,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -55936,7 +55936,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56009,7 +56009,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56088,7 +56088,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56170,7 +56170,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56243,7 +56243,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56343,7 +56343,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56416,7 +56416,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56498,7 +56498,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56571,7 +56571,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56650,7 +56650,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56726,7 +56726,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56802,7 +56802,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56878,7 +56878,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -56951,7 +56951,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57033,7 +57033,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57106,7 +57106,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57209,7 +57209,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57282,7 +57282,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57361,7 +57361,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57446,7 +57446,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57528,7 +57528,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57604,7 +57604,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57701,7 +57701,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57777,7 +57777,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57856,7 +57856,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -57947,7 +57947,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -58029,7 +58029,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -58105,7 +58105,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -58181,7 +58181,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -58257,7 +58257,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -58348,7 +58348,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}
@@ -58421,7 +58421,7 @@ module SwaggerAemOsgiClient
       # header parameters
       header_params = opts[:header_params] || {}
       # HTTP header 'Accept' (if needed)
-      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params['Accept'] = @api_client.select_header_accept(['application/json', 'text/plain'])
 
       # form parameters
       form_params = opts[:form_params] || {}

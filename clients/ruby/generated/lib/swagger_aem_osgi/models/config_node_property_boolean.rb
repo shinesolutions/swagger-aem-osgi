@@ -27,7 +27,7 @@ module SwaggerAemOsgiClient
     attr_accessor :type
 
     # Property value
-    attr_accessor :values
+    attr_accessor :value
 
     # Property description
     attr_accessor :description
@@ -39,7 +39,7 @@ module SwaggerAemOsgiClient
         :'optional' => :'optional',
         :'is_set' => :'is_set',
         :'type' => :'type',
-        :'values' => :'values',
+        :'value' => :'value',
         :'description' => :'description'
       }
     end
@@ -51,7 +51,7 @@ module SwaggerAemOsgiClient
         :'optional' => :'Boolean',
         :'is_set' => :'Boolean',
         :'type' => :'Integer',
-        :'values' => :'Boolean',
+        :'value' => :'Boolean',
         :'description' => :'String'
       }
     end
@@ -87,8 +87,8 @@ module SwaggerAemOsgiClient
         self.type = attributes[:'type']
       end
 
-      if attributes.key?(:'values')
-        self.values = attributes[:'values']
+      if attributes.key?(:'value')
+        self.value = attributes[:'value']
       end
 
       if attributes.key?(:'description')
@@ -118,7 +118,7 @@ module SwaggerAemOsgiClient
           optional == o.optional &&
           is_set == o.is_set &&
           type == o.type &&
-          values == o.values &&
+          value == o.value &&
           description == o.description
     end
 
@@ -131,7 +131,7 @@ module SwaggerAemOsgiClient
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [name, optional, is_set, type, values, description].hash
+      [name, optional, is_set, type, value, description].hash
     end
 
     # Builds the object from hash
