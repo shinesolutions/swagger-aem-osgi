@@ -36,7 +36,7 @@ class ConfigNodePropertyString(object):
         'optional': 'bool',
         'is_set': 'bool',
         'type': 'int',
-        'values': 'str',
+        'value': 'str',
         'description': 'str'
     }
 
@@ -45,18 +45,18 @@ class ConfigNodePropertyString(object):
         'optional': 'optional',
         'is_set': 'is_set',
         'type': 'type',
-        'values': 'values',
+        'value': 'value',
         'description': 'description'
     }
 
-    def __init__(self, name=None, optional=None, is_set=None, type=None, values=None, description=None):  # noqa: E501
+    def __init__(self, name=None, optional=None, is_set=None, type=None, value=None, description=None):  # noqa: E501
         """ConfigNodePropertyString - a model defined in OpenAPI"""  # noqa: E501
 
         self._name = None
         self._optional = None
         self._is_set = None
         self._type = None
-        self._values = None
+        self._value = None
         self._description = None
         self.discriminator = None
 
@@ -68,8 +68,8 @@ class ConfigNodePropertyString(object):
             self.is_set = is_set
         if type is not None:
             self.type = type
-        if values is not None:
-            self.values = values
+        if value is not None:
+            self.value = value
         if description is not None:
             self.description = description
 
@@ -166,27 +166,27 @@ class ConfigNodePropertyString(object):
         self._type = type
 
     @property
-    def values(self):
-        """Gets the values of this ConfigNodePropertyString.  # noqa: E501
+    def value(self):
+        """Gets the value of this ConfigNodePropertyString.  # noqa: E501
 
         Property value  # noqa: E501
 
-        :return: The values of this ConfigNodePropertyString.  # noqa: E501
+        :return: The value of this ConfigNodePropertyString.  # noqa: E501
         :rtype: str
         """
-        return self._values
+        return self._value
 
-    @values.setter
-    def values(self, values):
-        """Sets the values of this ConfigNodePropertyString.
+    @value.setter
+    def value(self, value):
+        """Sets the value of this ConfigNodePropertyString.
 
         Property value  # noqa: E501
 
-        :param values: The values of this ConfigNodePropertyString.  # noqa: E501
+        :param value: The value of this ConfigNodePropertyString.  # noqa: E501
         :type: str
         """
 
-        self._values = values
+        self._value = value
 
     @property
     def description(self):
