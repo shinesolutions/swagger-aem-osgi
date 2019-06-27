@@ -45505,7 +45505,13 @@ paths:
             application/json:
               schema:
                 type: string
+servers:
+- url: "/"
 components:
+  securitySchemes:
+    aemAuth:
+      type: http
+      scheme: basic
   schemas:
     configNodePropertyInteger:
       type: object
@@ -62063,6 +62069,10 @@ components:
           type: string
         properties:
           "$ref": "#/components/schemas/orgApacheSlingJcrDavexImplServletsSlingDavExServletProperties"
+        bundle_location:
+          type: string
+        service_location:
+          type: string
     orgApacheSlingJcrDavexImplServletsSlingDavExServletProperties:
       type: object
       properties:
@@ -66814,5 +66824,3 @@ components:
             to be a comma separated list of principal names. Invalid entries are logged
             and ignored. (user.mapping)
           "$ref": "#/components/schemas/configNodePropertyArray"
-servers:
-- url: "/"
