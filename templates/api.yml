@@ -34,7 +34,7 @@ components:
           description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
             12=Secrets(String)
           type: integer
-        values:
+        value:
           description: Property value
           type: integer
         description:
@@ -56,7 +56,7 @@ components:
           description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
             12=Secrets(String)
           type: integer
-        values:
+        value:
           description: Property value
           type: number
         description:
@@ -133,7 +133,7 @@ components:
           description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
             12=Secrets(String)
           type: integer
-        values:
+        value:
           description: Property value
           type: boolean
         description:
@@ -155,7 +155,7 @@ components:
           description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
             12=Secrets(String)
           type: integer
-        values:
+        value:
           description: Property value
           type: string
         description:

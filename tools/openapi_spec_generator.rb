@@ -89,6 +89,16 @@ def setup_config_node_post_schema(operation_id)
             }
           }
         },
+        '302' => {
+          'description' => 'Default response',
+          'content' => {
+            'text/plain' => {
+              'schema' => {
+                'type' => 'string'
+              }
+            }
+          }
+        },
         'default' => {
           'description' => 'Default response',
           'content' => {
