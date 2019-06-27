@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqAccountApiAccountManagementServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class ComAdobeCqAccountApiAccountManagementServiceProperties {
   public static final String SERIALIZED_NAME_CQ_ACCOUNTMANAGER_TOKEN_VALIDITY_PERIOD = "cq.accountmanager.token.validity.period";
   @SerializedName(SERIALIZED_NAME_CQ_ACCOUNTMANAGER_TOKEN_VALIDITY_PERIOD)

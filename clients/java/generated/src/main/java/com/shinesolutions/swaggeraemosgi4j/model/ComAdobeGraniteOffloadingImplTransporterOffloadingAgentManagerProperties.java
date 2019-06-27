@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties {
   public static final String SERIALIZED_NAME_OFFLOADING_AGENTMANAGER_ENABLED = "offloading.agentmanager.enabled";
   @SerializedName(SERIALIZED_NAME_OFFLOADING_AGENTMANAGER_ENABLED)

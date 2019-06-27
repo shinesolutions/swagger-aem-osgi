@@ -31,7 +31,7 @@ import java.io.IOException;
 /**
  * OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties {
   public static final String SERIALIZED_NAME_ORG_APACHE_SLING_COMMONS_LOG_LEVEL = "org.apache.sling.commons.log.level";
   @SerializedName(SERIALIZED_NAME_ORG_APACHE_SLING_COMMONS_LOG_LEVEL)

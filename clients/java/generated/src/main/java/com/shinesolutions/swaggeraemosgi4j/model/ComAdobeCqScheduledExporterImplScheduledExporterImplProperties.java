@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqScheduledExporterImplScheduledExporterImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties {
   public static final String SERIALIZED_NAME_INCLUDE_PATHS = "include.paths";
   @SerializedName(SERIALIZED_NAME_INCLUDE_PATHS)

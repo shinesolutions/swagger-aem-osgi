@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeAemTransactionCoreImplTransactionRecorderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class ComAdobeAemTransactionCoreImplTransactionRecorderProperties {
   public static final String SERIALIZED_NAME_IS_TRANSACTION_RECORDING_ENABLED = "isTransactionRecordingEnabled";
   @SerializedName(SERIALIZED_NAME_IS_TRANSACTION_RECORDING_ENABLED)

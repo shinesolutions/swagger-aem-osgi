@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties {
   public static final String SERIALIZED_NAME_PURGE_COMPLETED = "purgeCompleted";
   @SerializedName(SERIALIZED_NAME_PURGE_COMPLETED)

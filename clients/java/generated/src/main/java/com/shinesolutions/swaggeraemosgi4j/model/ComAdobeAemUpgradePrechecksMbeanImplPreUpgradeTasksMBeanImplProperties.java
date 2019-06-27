@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties {
   public static final String SERIALIZED_NAME_PRE_UPGRADE_MAINTENANCE_TASKS = "pre-upgrade.maintenance.tasks";
   @SerializedName(SERIALIZED_NAME_PRE_UPGRADE_MAINTENANCE_TASKS)

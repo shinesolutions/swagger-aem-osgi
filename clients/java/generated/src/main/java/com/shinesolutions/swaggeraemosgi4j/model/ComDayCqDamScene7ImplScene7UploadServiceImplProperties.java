@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamScene7ImplScene7UploadServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class ComDayCqDamScene7ImplScene7UploadServiceImplProperties {
   public static final String SERIALIZED_NAME_CQ_DAM_SCENE7_UPLOADSERVICE_ACTIVEJOBTIMEOUT_LABEL = "cq.dam.scene7.uploadservice.activejobtimeout.label";
   @SerializedName(SERIALIZED_NAME_CQ_DAM_SCENE7_UPLOADSERVICE_ACTIVEJOBTIMEOUT_LABEL)

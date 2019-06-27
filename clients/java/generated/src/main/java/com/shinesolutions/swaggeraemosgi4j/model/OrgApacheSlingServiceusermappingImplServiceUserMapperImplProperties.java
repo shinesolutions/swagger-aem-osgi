@@ -30,7 +30,7 @@ import java.io.IOException;
 /**
  * OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties {
   public static final String SERIALIZED_NAME_USER_MAPPING = "user.mapping";
   @SerializedName(SERIALIZED_NAME_USER_MAPPING)

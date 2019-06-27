@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * OrgApacheFelixHttpSslfilterSslFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class OrgApacheFelixHttpSslfilterSslFilterProperties {
   public static final String SERIALIZED_NAME_SSL_FORWARD_HEADER = "ssl-forward.header";
   @SerializedName(SERIALIZED_NAME_SSL_FORWARD_HEADER)

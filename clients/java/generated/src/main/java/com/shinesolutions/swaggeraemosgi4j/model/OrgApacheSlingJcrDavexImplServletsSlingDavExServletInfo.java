@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo {
   public static final String SERIALIZED_NAME_PID = "pid";
   @SerializedName(SERIALIZED_NAME_PID)
@@ -45,6 +45,14 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo {
   public static final String SERIALIZED_NAME_PROPERTIES = "properties";
   @SerializedName(SERIALIZED_NAME_PROPERTIES)
   private OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties properties = null;
+
+  public static final String SERIALIZED_NAME_BUNDLE_LOCATION = "bundle_location";
+  @SerializedName(SERIALIZED_NAME_BUNDLE_LOCATION)
+  private String bundleLocation;
+
+  public static final String SERIALIZED_NAME_SERVICE_LOCATION = "service_location";
+  @SerializedName(SERIALIZED_NAME_SERVICE_LOCATION)
+  private String serviceLocation;
 
   public OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo pid(String pid) {
     this.pid = pid;
@@ -118,6 +126,42 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo {
     this.properties = properties;
   }
 
+  public OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo bundleLocation(String bundleLocation) {
+    this.bundleLocation = bundleLocation;
+    return this;
+  }
+
+   /**
+   * Get bundleLocation
+   * @return bundleLocation
+  **/
+  @ApiModelProperty(value = "")
+  public String getBundleLocation() {
+    return bundleLocation;
+  }
+
+  public void setBundleLocation(String bundleLocation) {
+    this.bundleLocation = bundleLocation;
+  }
+
+  public OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo serviceLocation(String serviceLocation) {
+    this.serviceLocation = serviceLocation;
+    return this;
+  }
+
+   /**
+   * Get serviceLocation
+   * @return serviceLocation
+  **/
+  @ApiModelProperty(value = "")
+  public String getServiceLocation() {
+    return serviceLocation;
+  }
+
+  public void setServiceLocation(String serviceLocation) {
+    this.serviceLocation = serviceLocation;
+  }
+
 
   @Override
   public boolean equals(java.lang.Object o) {
@@ -131,12 +175,14 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo {
     return Objects.equals(this.pid, orgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.pid) &&
         Objects.equals(this.title, orgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.title) &&
         Objects.equals(this.description, orgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.description) &&
-        Objects.equals(this.properties, orgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.properties);
+        Objects.equals(this.properties, orgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.serviceLocation);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(pid, title, description, properties);
+    return Objects.hash(pid, title, description, properties, bundleLocation, serviceLocation);
   }
 
 
@@ -148,6 +194,8 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo {
     sb.append("    title: ").append(toIndentedString(title)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
     sb.append("    properties: ").append(toIndentedString(properties)).append("\n");
+    sb.append("    bundleLocation: ").append(toIndentedString(bundleLocation)).append("\n");
+    sb.append("    serviceLocation: ").append(toIndentedString(serviceLocation)).append("\n");
     sb.append("}");
     return sb.toString();
   }

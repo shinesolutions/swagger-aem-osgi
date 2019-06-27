@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * OrgApacheSlingScriptingCoreImplScriptCacheImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class OrgApacheSlingScriptingCoreImplScriptCacheImplProperties {
   public static final String SERIALIZED_NAME_ORG_APACHE_SLING_SCRIPTING_CACHE_SIZE = "org.apache.sling.scripting.cache.size";
   @SerializedName(SERIALIZED_NAME_ORG_APACHE_SLING_SCRIPTING_CACHE_SIZE)

@@ -736,9 +736,18 @@ Method | HTTP request | Description
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -783,7 +792,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -799,9 +808,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -838,7 +856,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -854,9 +872,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -893,7 +920,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -909,9 +936,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -948,7 +984,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -964,9 +1000,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1005,7 +1050,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1021,9 +1066,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1060,7 +1114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1076,9 +1130,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1119,7 +1182,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1135,9 +1198,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1178,7 +1250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1194,9 +1266,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1235,7 +1316,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1251,9 +1332,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1292,7 +1382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1308,9 +1398,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1351,7 +1450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1367,9 +1466,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1408,7 +1516,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1424,9 +1532,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1463,7 +1580,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1479,9 +1596,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1524,7 +1650,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1540,9 +1666,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1585,7 +1720,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1601,9 +1736,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1646,7 +1790,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1662,9 +1806,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1709,7 +1862,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1725,9 +1878,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1772,7 +1934,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1788,9 +1950,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1831,7 +2002,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1847,9 +2018,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1886,7 +2066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1902,9 +2082,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1943,7 +2132,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1959,9 +2148,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -1998,7 +2196,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2014,9 +2212,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2055,7 +2262,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2071,9 +2278,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2112,7 +2328,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2128,9 +2344,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2167,7 +2392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2183,9 +2408,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2226,7 +2460,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2242,9 +2476,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2281,7 +2524,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2297,9 +2540,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2336,7 +2588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2352,9 +2604,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2391,7 +2652,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2407,9 +2668,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2446,7 +2716,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2462,9 +2732,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2501,7 +2780,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2517,9 +2796,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2562,7 +2850,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2578,9 +2866,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2619,7 +2916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2635,9 +2932,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2674,7 +2980,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2690,9 +2996,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2729,7 +3044,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2745,9 +3060,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2784,7 +3108,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2800,9 +3124,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2839,7 +3172,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2855,9 +3188,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2896,7 +3238,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2912,9 +3254,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -2951,7 +3302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2967,9 +3318,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3012,7 +3372,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3028,9 +3388,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3071,7 +3440,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3087,9 +3456,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3136,7 +3514,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3152,9 +3530,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3197,7 +3584,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3213,9 +3600,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3256,7 +3652,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3272,9 +3668,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3315,7 +3720,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3331,9 +3736,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3370,7 +3784,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3386,9 +3800,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3429,7 +3852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3445,9 +3868,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3486,7 +3918,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3502,9 +3934,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3543,7 +3984,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3559,9 +4000,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3602,7 +4052,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3618,9 +4068,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3659,7 +4118,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3675,9 +4134,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3720,7 +4188,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3736,9 +4204,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3777,7 +4254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3793,9 +4270,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3834,7 +4320,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3850,9 +4336,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3897,7 +4392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3913,9 +4408,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -3954,7 +4458,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3970,9 +4474,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4023,7 +4536,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4039,9 +4552,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4080,7 +4602,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4096,9 +4618,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4143,7 +4674,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4159,9 +4690,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4210,7 +4750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4226,9 +4766,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4265,7 +4814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4281,9 +4830,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4328,7 +4886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4344,9 +4902,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4383,7 +4950,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4399,9 +4966,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4438,7 +5014,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4454,9 +5030,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4493,7 +5078,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4509,9 +5094,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4564,7 +5158,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4580,9 +5174,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4683,7 +5286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4699,9 +5302,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4740,7 +5352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4756,9 +5368,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4795,7 +5416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4811,9 +5432,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4850,7 +5480,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4866,9 +5496,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4905,7 +5544,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4921,9 +5560,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -4960,7 +5608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4976,9 +5624,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5021,7 +5678,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5037,9 +5694,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5076,7 +5742,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5092,9 +5758,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5133,7 +5808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5149,9 +5824,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5192,7 +5876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5208,9 +5892,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5247,7 +5940,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5263,9 +5956,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5302,7 +6004,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5318,9 +6020,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5359,7 +6070,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5375,9 +6086,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5416,7 +6136,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5432,9 +6152,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5473,7 +6202,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5489,9 +6218,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5530,7 +6268,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5546,9 +6284,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5589,7 +6336,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5605,9 +6352,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5646,7 +6402,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5662,9 +6418,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5701,7 +6466,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5717,9 +6482,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5756,7 +6530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5772,9 +6546,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5813,7 +6596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5829,9 +6612,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5870,7 +6662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5886,9 +6678,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5925,7 +6726,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5941,9 +6742,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -5984,7 +6794,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6000,9 +6810,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6039,7 +6858,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6055,9 +6874,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6096,7 +6924,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6112,9 +6940,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6151,7 +6988,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6167,9 +7004,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6206,7 +7052,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6222,9 +7068,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6263,7 +7118,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6279,9 +7134,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6332,7 +7196,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6348,9 +7212,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6407,7 +7280,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6423,9 +7296,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6462,7 +7344,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6478,9 +7360,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6519,7 +7410,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6535,9 +7426,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6576,7 +7476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6592,9 +7492,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6633,7 +7542,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6649,9 +7558,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6690,7 +7608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6706,9 +7624,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6747,7 +7674,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6763,9 +7690,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6804,7 +7740,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6820,9 +7756,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6861,7 +7806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6877,9 +7822,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6920,7 +7874,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6936,9 +7890,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -6983,7 +7946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6999,9 +7962,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7052,7 +8024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7068,9 +8040,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7109,7 +8090,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7125,9 +8106,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7168,7 +8158,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7184,9 +8174,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7235,7 +8234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7251,9 +8250,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7292,7 +8300,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7308,9 +8316,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7359,7 +8376,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7375,9 +8392,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7426,7 +8452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7442,9 +8468,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7493,7 +8528,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7509,9 +8544,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7548,7 +8592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7564,9 +8608,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7603,7 +8656,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7619,9 +8672,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7658,7 +8720,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7674,9 +8736,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7713,7 +8784,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7729,9 +8800,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7768,7 +8848,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7784,9 +8864,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7825,7 +8914,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7841,9 +8930,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7882,7 +8980,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7898,9 +8996,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7939,7 +9046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7955,9 +9062,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -7996,7 +9112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8012,9 +9128,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8057,7 +9182,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8073,9 +9198,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8114,7 +9248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8130,9 +9264,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8175,7 +9318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8191,9 +9334,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8232,7 +9384,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8248,9 +9400,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8289,7 +9450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8305,9 +9466,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8344,7 +9514,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8360,9 +9530,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8399,7 +9578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8415,9 +9594,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8456,7 +9644,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8472,9 +9660,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8549,7 +9746,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8565,9 +9762,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8606,7 +9812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8622,9 +9828,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8661,7 +9876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8677,9 +9892,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8716,7 +9940,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8732,9 +9956,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8773,7 +10006,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8789,9 +10022,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8830,7 +10072,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8846,9 +10088,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8885,7 +10136,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8901,9 +10152,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8942,7 +10202,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8958,9 +10218,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -8999,7 +10268,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9015,9 +10284,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9056,7 +10334,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9072,9 +10350,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9111,7 +10398,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9127,9 +10414,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9168,7 +10464,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9184,9 +10480,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9225,7 +10530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9241,9 +10546,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9282,7 +10596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9298,9 +10612,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9339,7 +10662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9355,9 +10678,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9396,7 +10728,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9412,9 +10744,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9451,7 +10792,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9467,9 +10808,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9510,7 +10860,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9526,9 +10876,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9565,7 +10924,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9581,9 +10940,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9620,7 +10988,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9636,9 +11004,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9675,7 +11052,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9691,9 +11068,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9736,7 +11122,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9752,9 +11138,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9799,7 +11194,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9815,9 +11210,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9854,7 +11258,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9870,9 +11274,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9917,7 +11330,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9933,9 +11346,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -9986,7 +11408,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10002,9 +11424,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10055,7 +11486,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10071,9 +11502,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10114,7 +11554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10130,9 +11570,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10175,7 +11624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10191,9 +11640,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10230,7 +11688,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10246,9 +11704,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10285,7 +11752,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10301,9 +11768,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10342,7 +11818,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10358,9 +11834,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10403,7 +11888,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10419,9 +11904,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10460,7 +11954,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10476,9 +11970,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10529,7 +12032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10545,9 +12048,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10588,7 +12100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10604,9 +12116,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10651,7 +12172,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10667,9 +12188,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10706,7 +12236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10722,9 +12252,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10763,7 +12302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10779,9 +12318,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10818,7 +12366,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10834,9 +12382,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10877,7 +12434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10893,9 +12450,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10936,7 +12502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10952,9 +12518,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -10995,7 +12570,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11011,9 +12586,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11054,7 +12638,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11070,9 +12654,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11115,7 +12708,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11131,9 +12724,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11170,7 +12772,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11186,9 +12788,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11225,7 +12836,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11241,9 +12852,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11286,7 +12906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11302,9 +12922,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11353,7 +12982,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11369,9 +12998,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11408,7 +13046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11424,9 +13062,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11463,7 +13110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11479,9 +13126,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11518,7 +13174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11534,9 +13190,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11577,7 +13242,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11593,9 +13258,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11634,7 +13308,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11650,9 +13324,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11691,7 +13374,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11707,9 +13390,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11746,7 +13438,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11762,9 +13454,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -11801,7 +13502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11817,9 +13518,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12166,7 +13876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12182,9 +13892,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12223,7 +13942,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12239,9 +13958,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12280,7 +14008,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12296,9 +14024,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12335,7 +14072,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12351,9 +14088,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12392,7 +14138,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12408,9 +14154,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12447,7 +14202,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12463,9 +14218,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12526,7 +14290,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12542,9 +14306,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12587,7 +14360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12603,9 +14376,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12668,7 +14450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12684,9 +14466,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12733,7 +14524,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12749,9 +14540,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12788,7 +14588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12804,9 +14604,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12843,7 +14652,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12859,9 +14668,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12904,7 +14722,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12920,9 +14738,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -12967,7 +14794,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12983,9 +14810,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13024,7 +14860,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13040,9 +14876,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13081,7 +14926,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13097,9 +14942,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13136,7 +14990,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13152,9 +15006,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13191,7 +15054,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13207,9 +15070,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13276,7 +15148,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13292,9 +15164,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13331,7 +15212,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13347,9 +15228,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13436,7 +15326,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13452,9 +15342,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13511,7 +15410,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13527,9 +15426,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13568,7 +15476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13584,9 +15492,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13623,7 +15540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13639,9 +15556,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13678,7 +15604,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13694,9 +15620,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13735,7 +15670,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13751,9 +15686,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13792,7 +15736,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13808,9 +15752,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13847,7 +15800,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13863,9 +15816,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13902,7 +15864,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13918,9 +15880,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -13957,7 +15928,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13973,9 +15944,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14012,7 +15992,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14028,9 +16008,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14067,7 +16056,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14083,9 +16072,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14122,7 +16120,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14138,9 +16136,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14179,7 +16186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14195,9 +16202,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14238,7 +16254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14254,9 +16270,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14295,7 +16320,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14311,9 +16336,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14352,7 +16386,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14368,9 +16402,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14409,7 +16452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14425,9 +16468,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14478,7 +16530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14494,9 +16546,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14539,7 +16600,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14555,9 +16616,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14596,7 +16666,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14612,9 +16682,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14655,7 +16734,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14671,9 +16750,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14724,7 +16812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14740,9 +16828,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14783,7 +16880,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14799,9 +16896,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14838,7 +16944,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14854,9 +16960,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14895,7 +17010,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14911,9 +17026,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -14950,7 +17074,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14966,9 +17090,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15011,7 +17144,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15027,9 +17160,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15072,7 +17214,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15088,9 +17230,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15135,7 +17286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15151,9 +17302,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15192,7 +17352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15208,9 +17368,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15247,7 +17416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15263,9 +17432,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15302,7 +17480,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15318,9 +17496,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15357,7 +17544,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15373,9 +17560,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15414,7 +17610,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15430,9 +17626,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15479,7 +17684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15495,9 +17700,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15538,7 +17752,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15554,9 +17768,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15597,7 +17820,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15613,9 +17836,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15652,7 +17884,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15668,9 +17900,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15709,7 +17950,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15725,9 +17966,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15764,7 +18014,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15780,9 +18030,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15819,7 +18078,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15835,9 +18094,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15884,7 +18152,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15900,9 +18168,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -15947,7 +18224,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15963,9 +18240,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16002,7 +18288,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16018,9 +18304,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16057,7 +18352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16073,9 +18368,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16114,7 +18418,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16130,9 +18434,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16175,7 +18488,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16191,9 +18504,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16230,7 +18552,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16246,9 +18568,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16287,7 +18618,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16303,9 +18634,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16342,7 +18682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16358,9 +18698,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16397,7 +18746,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16413,9 +18762,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16452,7 +18810,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16468,9 +18826,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16519,7 +18886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16535,9 +18902,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16576,7 +18952,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16592,9 +18968,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16635,7 +19020,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16651,9 +19036,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16694,7 +19088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16710,9 +19104,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16753,7 +19156,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16769,9 +19172,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16808,7 +19220,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16824,9 +19236,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16863,7 +19284,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16879,9 +19300,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16918,7 +19348,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16934,9 +19364,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -16975,7 +19414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16991,9 +19430,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17030,7 +19478,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17046,9 +19494,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17085,7 +19542,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17101,9 +19558,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17142,7 +19608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17158,9 +19624,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17197,7 +19672,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17213,9 +19688,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17252,7 +19736,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17268,9 +19752,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17311,7 +19804,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17327,9 +19820,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17370,7 +19872,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17386,9 +19888,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17425,7 +19936,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17441,9 +19952,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17504,7 +20024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17520,9 +20040,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17563,7 +20092,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17579,9 +20108,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17618,7 +20156,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17634,9 +20172,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17675,7 +20222,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17691,9 +20238,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17730,7 +20286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17746,9 +20302,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17787,7 +20352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17803,9 +20368,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17842,7 +20416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17858,9 +20432,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17899,7 +20482,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17915,9 +20498,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -17954,7 +20546,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17970,9 +20562,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18013,7 +20614,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18029,9 +20630,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18074,7 +20684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18090,9 +20700,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18131,7 +20750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18147,9 +20766,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18186,7 +20814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18202,9 +20830,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18245,7 +20882,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18261,9 +20898,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18308,7 +20954,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18324,9 +20970,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18365,7 +21020,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18381,9 +21036,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18436,7 +21100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18452,9 +21116,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18507,7 +21180,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18523,9 +21196,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18564,7 +21246,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18580,9 +21262,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18657,7 +21348,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18673,9 +21364,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18712,7 +21412,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18728,9 +21428,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18767,7 +21476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18783,9 +21492,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18822,7 +21540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18838,9 +21556,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18881,7 +21608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18897,9 +21624,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18938,7 +21674,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18954,9 +21690,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -18993,7 +21738,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19009,9 +21754,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19050,7 +21804,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19066,9 +21820,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19107,7 +21870,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19123,9 +21886,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19166,7 +21938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19182,9 +21954,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19241,7 +22022,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19257,9 +22038,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19302,7 +22092,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19318,9 +22108,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19365,7 +22164,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19381,9 +22180,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19420,7 +22228,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19436,9 +22244,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19481,7 +22298,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19497,9 +22314,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19556,7 +22382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19572,9 +22398,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19623,7 +22458,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19639,9 +22474,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19678,7 +22522,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19694,9 +22538,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19735,7 +22588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19751,9 +22604,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19792,7 +22654,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19808,9 +22670,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19847,7 +22718,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19863,9 +22734,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19908,7 +22788,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19924,9 +22804,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -19963,7 +22852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19979,9 +22868,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20018,7 +22916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20034,9 +22932,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20073,7 +22980,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20089,9 +22996,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20128,7 +23044,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20144,9 +23060,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20187,7 +23112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20203,9 +23128,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20242,7 +23176,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20258,9 +23192,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20305,7 +23248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20321,9 +23264,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20366,7 +23318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20382,9 +23334,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20435,7 +23396,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20451,9 +23412,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20496,7 +23466,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20512,9 +23482,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20551,7 +23530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20567,9 +23546,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20608,7 +23596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20624,9 +23612,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20663,7 +23660,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20679,9 +23676,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20718,7 +23724,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20734,9 +23740,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20775,7 +23790,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20791,9 +23806,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20834,7 +23858,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20850,9 +23874,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20895,7 +23928,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20911,9 +23944,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -20954,7 +23996,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20970,9 +24012,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21039,7 +24090,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21055,9 +24106,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21094,7 +24154,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21110,9 +24170,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21149,7 +24218,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21165,9 +24234,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21204,7 +24282,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21220,9 +24298,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21263,7 +24350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21279,9 +24366,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21318,7 +24414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21334,9 +24430,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21381,7 +24486,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21397,9 +24502,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21444,7 +24558,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21460,9 +24574,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21501,7 +24624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21517,9 +24640,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21568,7 +24700,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21584,9 +24716,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21623,7 +24764,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21639,9 +24780,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21678,7 +24828,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21694,9 +24844,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21733,7 +24892,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21749,9 +24908,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21788,7 +24956,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21804,9 +24972,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21847,7 +25024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21863,9 +25040,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21902,7 +25088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21918,9 +25104,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -21973,7 +25168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21989,9 +25184,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22028,7 +25232,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22044,9 +25248,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22085,7 +25298,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22101,9 +25314,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22142,7 +25364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22158,9 +25380,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22203,7 +25434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22219,9 +25450,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22262,7 +25502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22278,9 +25518,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22317,7 +25566,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22333,9 +25582,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22374,7 +25632,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22390,9 +25648,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22429,7 +25696,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22445,9 +25712,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22490,7 +25766,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22506,9 +25782,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22547,7 +25832,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22563,9 +25848,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22604,7 +25898,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22620,9 +25914,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22661,7 +25964,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22677,9 +25980,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22716,7 +26028,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22732,9 +26044,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22777,7 +26098,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22793,9 +26114,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22832,7 +26162,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22848,9 +26178,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22887,7 +26226,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22903,9 +26242,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -22942,7 +26290,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22958,9 +26306,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23001,7 +26358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23017,9 +26374,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23060,7 +26426,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23076,9 +26442,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23117,7 +26492,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23133,9 +26508,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23174,7 +26558,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23190,9 +26574,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23231,7 +26624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23247,9 +26640,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23286,7 +26688,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23302,9 +26704,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23343,7 +26754,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23359,9 +26770,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23398,7 +26818,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23414,9 +26834,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23455,7 +26884,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23471,9 +26900,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23516,7 +26954,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23532,9 +26970,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23571,7 +27018,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23587,9 +27034,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23636,7 +27092,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23652,9 +27108,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23697,7 +27162,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23713,9 +27178,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23754,7 +27228,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23770,9 +27244,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23811,7 +27294,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23827,9 +27310,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23868,7 +27360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23884,9 +27376,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23927,7 +27428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23943,9 +27444,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -23982,7 +27492,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23998,9 +27508,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24043,7 +27562,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24059,9 +27578,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24098,7 +27626,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24114,9 +27642,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24153,7 +27690,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24169,9 +27706,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24208,7 +27754,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24224,9 +27770,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24273,7 +27828,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24289,9 +27844,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24338,7 +27902,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24354,9 +27918,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24395,7 +27968,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24411,9 +27984,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24450,7 +28032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24466,9 +28048,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24511,7 +28102,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24527,9 +28118,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24566,7 +28166,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24582,9 +28182,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24621,7 +28230,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24637,9 +28246,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24676,7 +28294,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24692,9 +28310,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24731,7 +28358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24747,9 +28374,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24788,7 +28424,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24804,9 +28440,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24845,7 +28490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24861,9 +28506,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24902,7 +28556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24918,9 +28572,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -24957,7 +28620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24973,9 +28636,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25012,7 +28684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25028,9 +28700,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25069,7 +28750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25085,9 +28766,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25136,7 +28826,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25152,9 +28842,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25193,7 +28892,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25209,9 +28908,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25248,7 +28956,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25264,9 +28972,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25303,7 +29020,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25319,9 +29036,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25360,7 +29086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25376,9 +29102,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25423,7 +29158,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25439,9 +29174,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25480,7 +29224,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25496,9 +29240,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25537,7 +29290,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25553,9 +29306,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25596,7 +29358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25612,9 +29374,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25651,7 +29422,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25667,9 +29438,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25708,7 +29488,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25724,9 +29504,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25765,7 +29554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25781,9 +29570,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25824,7 +29622,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25840,9 +29638,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25893,7 +29700,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25909,9 +29716,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -25948,7 +29764,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25964,9 +29780,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26003,7 +29828,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26019,9 +29844,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26064,7 +29898,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26080,9 +29914,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26123,7 +29966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26139,9 +29982,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26180,7 +30032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26196,9 +30048,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26239,7 +30100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26255,9 +30116,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26296,7 +30166,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26312,9 +30182,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26355,7 +30234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26371,9 +30250,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26414,7 +30302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26430,9 +30318,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26471,7 +30368,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26487,9 +30384,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26528,7 +30434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26544,9 +30450,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26587,7 +30502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26603,9 +30518,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26642,7 +30566,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26658,9 +30582,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26697,7 +30630,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26713,9 +30646,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26768,7 +30710,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26784,9 +30726,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26823,7 +30774,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26839,9 +30790,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26884,7 +30844,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26900,9 +30860,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26939,7 +30908,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26955,9 +30924,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -26996,7 +30974,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27012,9 +30990,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27055,7 +31042,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27071,9 +31058,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27110,7 +31106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27126,9 +31122,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27181,7 +31186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27197,9 +31202,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27238,7 +31252,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27254,9 +31268,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27295,7 +31318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27311,9 +31334,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27350,7 +31382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27366,9 +31398,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27405,7 +31446,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27421,9 +31462,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27462,7 +31512,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27478,9 +31528,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27519,7 +31578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27535,9 +31594,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27578,7 +31646,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27594,9 +31662,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27651,7 +31728,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27667,9 +31744,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27706,7 +31792,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27722,9 +31808,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27773,7 +31868,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27789,9 +31884,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27838,7 +31942,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27854,9 +31958,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27905,7 +32018,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27921,9 +32034,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -27962,7 +32084,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27978,9 +32100,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28019,7 +32150,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28035,9 +32166,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28080,7 +32220,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28096,9 +32236,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28137,7 +32286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28153,9 +32302,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28192,7 +32350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28208,9 +32366,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28253,7 +32420,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28269,9 +32436,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28308,7 +32484,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28324,9 +32500,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28373,7 +32558,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28389,9 +32574,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28428,7 +32622,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28444,9 +32638,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28483,7 +32686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28499,9 +32702,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28538,7 +32750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28554,9 +32766,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28593,7 +32814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28609,9 +32830,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28658,7 +32888,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28674,9 +32904,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28713,7 +32952,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28729,9 +32968,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28768,7 +33016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28784,9 +33032,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28825,7 +33082,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28841,9 +33098,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28880,7 +33146,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28896,9 +33162,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28935,7 +33210,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28951,9 +33226,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -28992,7 +33276,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29008,9 +33292,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29047,7 +33340,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29063,9 +33356,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29104,7 +33406,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29120,9 +33422,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29177,7 +33488,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29193,9 +33504,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29234,7 +33554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29250,9 +33570,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29291,7 +33620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29307,9 +33636,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29346,7 +33684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29362,9 +33700,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29409,7 +33756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29425,9 +33772,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29464,7 +33820,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29480,9 +33836,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29521,7 +33886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29537,9 +33902,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29576,7 +33950,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29592,9 +33966,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29633,7 +34016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29649,9 +34032,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29690,7 +34082,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29706,9 +34098,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29745,7 +34146,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29761,9 +34162,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29800,7 +34210,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29816,9 +34226,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29867,7 +34286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29883,9 +34302,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29930,7 +34358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29946,9 +34374,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -29987,7 +34424,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30003,9 +34440,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30042,7 +34488,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30058,9 +34504,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30099,7 +34554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30115,9 +34570,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30154,7 +34618,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30170,9 +34634,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30211,7 +34684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30227,9 +34700,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30266,7 +34748,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30282,9 +34764,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30321,7 +34812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30337,9 +34828,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30382,7 +34882,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30398,9 +34898,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30439,7 +34948,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30455,9 +34964,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30496,7 +35014,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30512,9 +35030,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30559,7 +35086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30575,9 +35102,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30616,7 +35152,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30632,9 +35168,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30673,7 +35218,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30689,9 +35234,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30730,7 +35284,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30746,9 +35300,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30787,7 +35350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30803,9 +35366,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30844,7 +35416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30860,9 +35432,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30903,7 +35484,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30919,9 +35500,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -30960,7 +35550,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30976,9 +35566,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31017,7 +35616,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31033,9 +35632,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31074,7 +35682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31090,9 +35698,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31131,7 +35748,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31147,9 +35764,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31188,7 +35814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31204,9 +35830,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31247,7 +35882,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31263,9 +35898,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31304,7 +35948,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31320,9 +35964,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31361,7 +36014,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31377,9 +36030,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31420,7 +36082,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31436,9 +36098,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31479,7 +36150,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31495,9 +36166,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31536,7 +36216,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31552,9 +36232,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31599,7 +36288,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31615,9 +36304,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31656,7 +36354,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31672,9 +36370,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31713,7 +36420,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31729,9 +36436,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31774,7 +36490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31790,9 +36506,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31829,7 +36554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31845,9 +36570,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31894,7 +36628,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31910,9 +36644,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -31949,7 +36692,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31965,9 +36708,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32004,7 +36756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32020,9 +36772,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32061,7 +36822,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32077,9 +36838,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32130,7 +36900,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32146,9 +36916,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32187,7 +36966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32203,9 +36982,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32248,7 +37036,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32264,9 +37052,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32309,7 +37106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32325,9 +37122,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32368,7 +37174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32384,9 +37190,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32429,7 +37244,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32445,9 +37260,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32488,7 +37312,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32504,9 +37328,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32549,7 +37382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32565,9 +37398,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32610,7 +37452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32626,9 +37468,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32669,7 +37520,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32685,9 +37536,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32724,7 +37584,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32740,9 +37600,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32795,7 +37664,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32811,9 +37680,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32852,7 +37730,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32868,9 +37746,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32907,7 +37794,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32923,9 +37810,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -32962,7 +37858,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32978,9 +37874,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33017,7 +37922,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33033,9 +37938,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33088,7 +38002,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33104,9 +38018,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33143,7 +38066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33159,9 +38082,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33206,7 +38138,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33222,9 +38154,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33263,7 +38204,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33279,9 +38220,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33344,7 +38294,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33360,9 +38310,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33401,7 +38360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33417,9 +38376,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33466,7 +38434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33482,9 +38450,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33523,7 +38500,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33539,9 +38516,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33586,7 +38572,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33602,9 +38588,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33645,7 +38640,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33661,9 +38656,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33702,7 +38706,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33718,9 +38722,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33757,7 +38770,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33773,9 +38786,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33812,7 +38834,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33828,9 +38850,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -33877,7 +38908,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33893,9 +38924,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34036,7 +39076,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34052,9 +39092,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34097,7 +39146,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34113,9 +39162,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34160,7 +39218,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34176,9 +39234,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34219,7 +39286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34235,9 +39302,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34284,7 +39360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34300,9 +39376,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34341,7 +39426,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34357,9 +39442,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34402,7 +39496,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34418,9 +39512,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34459,7 +39562,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34475,9 +39578,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34516,7 +39628,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34532,9 +39644,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34573,7 +39694,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34589,9 +39710,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34628,7 +39758,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34644,9 +39774,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34701,7 +39840,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34717,9 +39856,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34756,7 +39904,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34772,9 +39920,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34815,7 +39972,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34831,9 +39988,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34880,7 +40046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34896,9 +40062,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34935,7 +40110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34951,9 +40126,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -34990,7 +40174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35006,9 +40190,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35103,7 +40296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35119,9 +40312,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35158,7 +40360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35174,9 +40376,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35217,7 +40428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35233,9 +40444,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35278,7 +40498,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35294,9 +40514,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35363,7 +40592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35379,9 +40608,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35420,7 +40658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35436,9 +40674,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35475,7 +40722,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35491,9 +40738,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35562,7 +40818,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35578,9 +40834,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35631,7 +40896,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35647,9 +40912,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35686,7 +40960,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35702,9 +40976,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35741,7 +41024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35757,9 +41040,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35796,7 +41088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35812,9 +41104,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35855,7 +41156,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35871,9 +41172,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35916,7 +41226,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35932,9 +41242,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -35973,7 +41292,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35989,9 +41308,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36078,7 +41406,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36094,9 +41422,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36145,7 +41482,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36161,9 +41498,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36208,7 +41554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36224,9 +41570,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36265,7 +41620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36281,9 +41636,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36320,7 +41684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36336,9 +41700,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36405,7 +41778,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36421,9 +41794,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36468,7 +41850,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36484,9 +41866,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36575,7 +41966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36591,9 +41982,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36630,7 +42030,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36646,9 +42046,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36731,7 +42140,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36747,9 +42156,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36802,7 +42220,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36818,9 +42236,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36883,7 +42310,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36899,9 +42326,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -36946,7 +42382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36962,9 +42398,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37001,7 +42446,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37017,9 +42462,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37060,7 +42514,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37076,9 +42530,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37115,7 +42578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37131,9 +42594,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37176,7 +42648,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37192,9 +42664,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37231,7 +42712,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37247,9 +42728,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37286,7 +42776,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37302,9 +42792,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37343,7 +42842,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37359,9 +42858,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37398,7 +42906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37414,9 +42922,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37453,7 +42970,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37469,9 +42986,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37510,7 +43036,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37526,9 +43052,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37565,7 +43100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37581,9 +43116,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37626,7 +43170,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37642,9 +43186,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37683,7 +43236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37699,9 +43252,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37740,7 +43302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37756,9 +43318,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37801,7 +43372,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37817,9 +43388,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37862,7 +43442,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37878,9 +43458,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37917,7 +43506,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37933,9 +43522,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -37990,7 +43588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38006,9 +43604,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38053,7 +43660,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38069,9 +43676,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38114,7 +43730,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38130,9 +43746,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38181,7 +43806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38197,9 +43822,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38242,7 +43876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38258,9 +43892,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38297,7 +43940,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38313,9 +43956,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38360,7 +44012,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38376,9 +44028,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38415,7 +44076,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38431,9 +44092,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38490,7 +44160,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38506,9 +44176,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38601,7 +44280,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38617,9 +44296,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38662,7 +44350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38678,9 +44366,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38753,7 +44450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38769,9 +44466,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38812,7 +44518,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38828,9 +44534,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38905,7 +44620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38921,9 +44636,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -38962,7 +44686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38978,9 +44702,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39039,7 +44772,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39055,9 +44788,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39120,7 +44862,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39136,9 +44878,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39195,7 +44946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39211,9 +44962,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39284,7 +45044,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39300,9 +45060,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39345,7 +45114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39361,9 +45130,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39406,7 +45184,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39422,9 +45200,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39463,7 +45250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39479,9 +45266,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39526,7 +45322,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39542,9 +45338,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39583,7 +45388,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39599,9 +45404,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39642,7 +45456,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39658,9 +45472,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39703,7 +45526,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39719,9 +45542,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39760,7 +45592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39776,9 +45608,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39817,7 +45658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39833,9 +45674,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39894,7 +45744,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39910,9 +45760,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -39983,7 +45842,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39999,9 +45858,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40042,7 +45910,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40058,9 +45926,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40099,7 +45976,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40115,9 +45992,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40162,7 +46048,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40178,9 +46064,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40223,7 +46118,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40239,9 +46134,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40282,7 +46186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40298,9 +46202,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40339,7 +46252,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40355,9 +46268,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40400,7 +46322,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40416,9 +46338,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40475,7 +46406,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40491,9 +46422,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40536,7 +46476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40552,9 +46492,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40601,7 +46550,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40617,9 +46566,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40662,7 +46620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40678,9 +46636,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40729,7 +46696,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40745,9 +46712,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40796,7 +46772,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40812,9 +46788,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40851,7 +46836,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40867,9 +46852,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40912,7 +46906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40928,9 +46922,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -40971,7 +46974,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40987,9 +46990,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41030,7 +47042,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41046,9 +47058,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41105,7 +47126,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41121,9 +47142,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41162,7 +47192,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41178,9 +47208,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41221,7 +47260,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41237,9 +47276,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41280,7 +47328,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41296,9 +47344,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41343,7 +47400,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41359,9 +47416,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41406,7 +47472,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41422,9 +47488,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41465,7 +47540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41481,9 +47556,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41530,7 +47614,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41546,9 +47630,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41593,7 +47686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41609,9 +47702,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41652,7 +47754,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41668,9 +47770,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41713,7 +47824,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41729,9 +47840,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41770,7 +47890,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41786,9 +47906,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41829,7 +47958,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41845,9 +47974,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41896,7 +48034,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41912,9 +48050,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -41953,7 +48100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41969,9 +48116,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42010,7 +48166,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42026,9 +48182,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42069,7 +48234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42085,9 +48250,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42126,7 +48300,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42142,9 +48316,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42181,7 +48364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42197,9 +48380,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42236,7 +48428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42252,9 +48444,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42293,7 +48494,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42309,9 +48510,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42388,7 +48598,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42404,9 +48614,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42443,7 +48662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42459,9 +48678,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42502,7 +48730,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42518,9 +48746,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42563,7 +48800,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42579,9 +48816,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42618,7 +48864,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42634,9 +48880,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42691,7 +48946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42707,9 +48962,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42746,7 +49010,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42762,9 +49026,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42807,7 +49080,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42823,9 +49096,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42862,7 +49144,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42878,9 +49160,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42921,7 +49212,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42937,9 +49228,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -42978,7 +49278,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42994,9 +49294,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43035,7 +49344,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43051,9 +49360,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43092,7 +49410,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43108,9 +49426,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43147,7 +49474,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43163,9 +49490,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43208,7 +49544,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43224,9 +49560,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43263,7 +49608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43279,9 +49624,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43338,7 +49692,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43354,9 +49708,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43393,7 +49756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43409,9 +49772,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43452,7 +49824,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43468,9 +49840,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43515,7 +49896,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43531,9 +49912,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43576,7 +49966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43592,9 +49982,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43633,7 +50032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43649,9 +50048,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43704,7 +50112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43720,9 +50128,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43761,7 +50178,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43777,9 +50194,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43820,7 +50246,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43836,9 +50262,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43887,7 +50322,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43903,9 +50338,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -43948,7 +50392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43964,9 +50408,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -44005,7 +50458,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44021,9 +50474,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -44062,7 +50524,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44078,9 +50540,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -44119,7 +50590,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44135,9 +50606,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -44186,7 +50666,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44202,9 +50682,18 @@ No authorization required
 ### Example
 ```java
 // Import classes:
+//import com.shinesolutions.swaggeraemosgi4j.ApiClient;
 //import com.shinesolutions.swaggeraemosgi4j.ApiException;
+//import com.shinesolutions.swaggeraemosgi4j.Configuration;
+//import com.shinesolutions.swaggeraemosgi4j.auth.*;
 //import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure HTTP basic authorization: aemAuth
+HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+aemAuth.setUsername("YOUR USERNAME");
+aemAuth.setPassword("YOUR PASSWORD");
 
 ConfigmgrApi apiInstance = new ConfigmgrApi();
 Boolean post = true; // Boolean | 
@@ -44241,7 +50730,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 

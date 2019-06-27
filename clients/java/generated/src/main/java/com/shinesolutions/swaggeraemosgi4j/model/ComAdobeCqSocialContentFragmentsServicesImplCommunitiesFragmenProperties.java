@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-26T13:44:27.963Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
 public class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties {
   public static final String SERIALIZED_NAME_CQ_SOCIAL_CONTENT_FRAGMENTS_SERVICES_ENABLED = "cq.social.content.fragments.services.enabled";
   @SerializedName(SERIALIZED_NAME_CQ_SOCIAL_CONTENT_FRAGMENTS_SERVICES_ENABLED)
