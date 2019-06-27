@@ -547,41 +547,6 @@ def gen_operation_id(config_node_id)
   operation_id
 end
 
-# Generate a template dict for post method
-#
-# @returns Returns a dict template to be used by the post method
-def generate_config_nodes_post_dict_template
-  {
-    'paths' =>
-    {
-    },
-    'servers' =>
-    [
-      'url' => '/'
-    ]
-  }
-end
-
-# Generate a template dict for response schema
-#
-# @returns Returns a dict template to be used to setup the response schema
-def generate_config_nodes_response_schema_dict_template
-  {
-    'components' =>
-    {
-      'schemas' =>
-      {
-        'configNodePropertyInteger' => setup_config_node_property_integer_response_schema,
-        'configNodePropertyFloat' => setup_config_node_property_float_response_schema,
-        'configNodePropertyArray' => setup_config_node_property_array_response_schema,
-        'configNodePropertyDropDown' => setup_config_node_property_dropdown_response_schema,
-        'configNodePropertyBoolean' => setup_config_node_property_boolean_response_schema,
-        'configNodePropertyString' => setup_config_node_property_string_response_schema
-      }
-    }
-  }
-end
-
 # Generate a list of all found configuration nodes.
 #
 # @params RubyAem::Result.data from method get_configmgr
@@ -611,11 +576,11 @@ config_nodes_pids = generate_config_node_pid_list(data.response.body)
 ############################################################
 # Create dictionary templates
 ############################################################
-# Create config nodes post dictionary template
-config_nodes_post_dict = generate_config_nodes_post_dict_template
+# Load config nodes template
+config_nodes_post_dict = YAML.load_file(@api_source_file)
 
-# Create config nodes response schema dictionary template
-config_nodes_response_schema_dict = generate_config_nodes_response_schema_dict_template
+# Create empty hash for paths
+config_nodes_post_dict['paths'] = {}
 
 # Iterate through the full list of all config nodes
 config_nodes_pids.each do |config_node|
@@ -640,14 +605,14 @@ config_nodes_pids.each do |config_node|
   config_nodes_post_dict['paths']["/system/console/configMgr/#{config_node_id}"] = setup_config_node_post_schema(operation_id)
 
   # Setup config node response schema dictionary template
-  config_nodes_response_schema_dict['components']['schemas']["#{operation_id}Info"] =
+  config_nodes_post_dict['components']['schemas']["#{operation_id}Info"] =
     {
       'type' => 'object',
       'properties' => {
 
       }
     }
-  config_nodes_response_schema_dict['components']['schemas']["#{operation_id}Properties"] =
+  config_nodes_post_dict['components']['schemas']["#{operation_id}Properties"] =
     {
       'type' => 'object',
       'properties' => {
@@ -665,14 +630,14 @@ config_nodes_pids.each do |config_node|
     # the previous set bundle_location param
     next if config_node_item[0].to_s.eql?('bundleLocation')
 
-    config_nodes_response_schema_dict['components']['schemas']["#{operation_id}Info"]['properties'][config_node_item[0].to_s] =
+    config_nodes_post_dict['components']['schemas']["#{operation_id}Info"]['properties'][config_node_item[0].to_s] =
       {
         'type' => 'string'
       }
   end
 
   # Setup config node property response schema dict
-  config_nodes_response_schema_dict['components']['schemas']["#{operation_id}Info"]['properties']['properties'] =
+  config_nodes_post_dict['components']['schemas']["#{operation_id}Info"]['properties']['properties'] =
     {
       '$ref' => "#/components/schemas/#{operation_id}Properties"
     }
@@ -698,25 +663,10 @@ config_nodes_pids.each do |config_node|
     # Set up config node property response schema
     config_node_property_response_schema = setup_config_node_property_type_response_schema(config_node_property)
     # Add config node property response schema to config node response schema
-    config_nodes_response_schema_dict['components']['schemas']["#{operation_id}Properties"]['properties'].merge!(config_node_property_response_schema)
+    config_nodes_post_dict['components']['schemas']["#{operation_id}Properties"]['properties'].merge!(config_node_property_response_schema)
   end
 end
 
-# We need to merge our created dicts where
-config_nodes_post_dict.merge!(config_nodes_response_schema_dict)
-
-# yaml_config_nodes_response_schema_dict = config_nodes_post_dict.to_yaml
-api_spec = YAML.load_file(@api_source_file)
-
-# api_spec_paths = config_nodes_post_dict['paths'].merge!(api_spec_yaml['paths'])
-# api_spec_components_schema = config_nodes_post_dict['components']['schemas'].merge!(api_spec_yaml['components']['schemas'])
-
-# api_spec_yaml['paths'].merge!(api_spec_paths)
-# api_spec_yaml['components']['schemas'].merge!(api_spec_components_schema)
-
-api_spec.merge!(config_nodes_post_dict)
-# api_spec = api_spec_yaml
-
 File.open(@api_dest_file, 'w') do |file|
-  file.write api_spec.to_yaml
+  file.write config_nodes_post_dict.to_yaml
 end

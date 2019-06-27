@@ -10,9 +10,154 @@ info:
 security:
   - aemAuth: []
 paths:
+servers:
+  - url: /
 components:
   securitySchemes:
     aemAuth:
       type: http
       scheme: basic
   schemas:
+    configNodePropertyInteger:
+      type: object
+      properties:
+        name:
+          description: property name
+          type: string
+        optional:
+          description: True if optional
+          type: boolean
+        is_set:
+          description: True if property is set
+          type: boolean
+        type:
+          description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
+            12=Secrets(String)
+          type: integer
+        values:
+          description: Property value
+          type: integer
+        description:
+          description: Property description
+          type: string
+    configNodePropertyFloat:
+      type: object
+      properties:
+        name:
+          description: property name
+          type: string
+        optional:
+          description: True if optional
+          type: boolean
+        is_set:
+          description: True if property is set
+          type: boolean
+        type:
+          description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
+            12=Secrets(String)
+          type: integer
+        values:
+          description: Property value
+          type: number
+        description:
+          description: Property description
+          type: string
+    configNodePropertyArray:
+      type: object
+      properties:
+        name:
+          description: property name
+          type: string
+        optional:
+          description: True if optional
+          type: boolean
+        is_set:
+          description: True if property is set
+          type: boolean
+        type:
+          description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
+            12=Secrets(String)
+          type: integer
+        values:
+          description: Property value
+          type: array
+          items:
+            type: string
+        description:
+          description: Property description
+          type: string
+    configNodePropertyDropDown:
+      type: object
+      properties:
+        name:
+          description: property name
+          type: string
+        optional:
+          description: True if optional
+          type: boolean
+        is_set:
+          description: True if property is set
+          type: boolean
+        type:
+          description: Property value
+          type: object
+          items:
+            type: array
+            items:
+              anyOf:
+              - string
+              - integer
+        value:
+          description: Property value
+          type: array
+          items:
+            anyOf:
+            - string
+            - integer
+        description:
+          description: Property description
+          type: string
+    configNodePropertyBoolean:
+      type: object
+      properties:
+        name:
+          description: property name
+          type: string
+        optional:
+          description: True if optional
+          type: boolean
+        is_set:
+          description: True if property is set
+          type: boolean
+        type:
+          description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
+            12=Secrets(String)
+          type: integer
+        values:
+          description: Property value
+          type: boolean
+        description:
+          description: Property description
+          type: string
+    configNodePropertyString:
+      type: object
+      properties:
+        name:
+          description: property name
+          type: string
+        optional:
+          description: True if optional
+          type: boolean
+        is_set:
+          description: True if property is set
+          type: boolean
+        type:
+          description: Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean,
+            12=Secrets(String)
+          type: integer
+        values:
+          description: Property value
+          type: string
+        description:
+          description: Property description
+          type: string
