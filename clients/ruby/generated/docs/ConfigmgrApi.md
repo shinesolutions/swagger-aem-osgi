@@ -739,6 +739,12 @@ Method | HTTP request | Description
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -786,7 +792,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -805,6 +811,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -844,7 +856,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -863,6 +875,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -902,7 +920,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -921,6 +939,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -960,7 +984,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -979,6 +1003,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1020,7 +1050,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1039,6 +1069,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1078,7 +1114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1097,6 +1133,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1140,7 +1182,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1159,6 +1201,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1202,7 +1250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1221,6 +1269,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1262,7 +1316,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1281,6 +1335,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1322,7 +1382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1341,6 +1401,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1384,7 +1450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1403,6 +1469,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1444,7 +1516,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1463,6 +1535,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1502,7 +1580,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1521,6 +1599,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1566,7 +1650,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1585,6 +1669,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1630,7 +1720,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1649,6 +1739,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1694,7 +1790,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1713,6 +1809,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1760,7 +1862,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1779,6 +1881,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1826,7 +1934,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1845,6 +1953,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1888,7 +2002,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1907,6 +2021,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -1946,7 +2066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1965,6 +2085,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2006,7 +2132,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2025,6 +2151,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2064,7 +2196,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2083,6 +2215,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2124,7 +2262,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2143,6 +2281,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2184,7 +2328,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2203,6 +2347,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2242,7 +2392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2261,6 +2411,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2304,7 +2460,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2323,6 +2479,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2362,7 +2524,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2381,6 +2543,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2420,7 +2588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2439,6 +2607,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2478,7 +2652,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2497,6 +2671,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2536,7 +2716,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2555,6 +2735,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2594,7 +2780,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2613,6 +2799,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2658,7 +2850,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2677,6 +2869,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2718,7 +2916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2737,6 +2935,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2776,7 +2980,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2795,6 +2999,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2834,7 +3044,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2853,6 +3063,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2892,7 +3108,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2911,6 +3127,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -2950,7 +3172,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2969,6 +3191,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3010,7 +3238,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3029,6 +3257,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3068,7 +3302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3087,6 +3321,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3132,7 +3372,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3151,6 +3391,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3194,7 +3440,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3213,6 +3459,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3262,7 +3514,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3281,6 +3533,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3326,7 +3584,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3345,6 +3603,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3388,7 +3652,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3407,6 +3671,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3450,7 +3720,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3469,6 +3739,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3508,7 +3784,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3527,6 +3803,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3570,7 +3852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3589,6 +3871,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3630,7 +3918,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3649,6 +3937,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3690,7 +3984,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3709,6 +4003,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3752,7 +4052,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3771,6 +4071,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3812,7 +4118,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3831,6 +4137,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3876,7 +4188,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3895,6 +4207,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3936,7 +4254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3955,6 +4273,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -3996,7 +4320,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4015,6 +4339,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4062,7 +4392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4081,6 +4411,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4122,7 +4458,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4141,6 +4477,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4194,7 +4536,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4213,6 +4555,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4254,7 +4602,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4273,6 +4621,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4320,7 +4674,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4339,6 +4693,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4390,7 +4750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4409,6 +4769,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4448,7 +4814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4467,6 +4833,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4514,7 +4886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4533,6 +4905,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4572,7 +4950,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4591,6 +4969,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4630,7 +5014,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4649,6 +5033,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4688,7 +5078,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4707,6 +5097,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4762,7 +5158,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4781,6 +5177,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4884,7 +5286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4903,6 +5305,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -4944,7 +5352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4963,6 +5371,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5002,7 +5416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5021,6 +5435,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5060,7 +5480,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5079,6 +5499,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5118,7 +5544,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5137,6 +5563,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5176,7 +5608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5195,6 +5627,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5240,7 +5678,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5259,6 +5697,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5298,7 +5742,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5317,6 +5761,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5358,7 +5808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5377,6 +5827,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5420,7 +5876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5439,6 +5895,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5478,7 +5940,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5497,6 +5959,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5536,7 +6004,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5555,6 +6023,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5596,7 +6070,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5615,6 +6089,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5656,7 +6136,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5675,6 +6155,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5716,7 +6202,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5735,6 +6221,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5776,7 +6268,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5795,6 +6287,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5838,7 +6336,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5857,6 +6355,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5898,7 +6402,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5917,6 +6421,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -5956,7 +6466,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5975,6 +6485,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6014,7 +6530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6033,6 +6549,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6074,7 +6596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6093,6 +6615,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6134,7 +6662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6153,6 +6681,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6192,7 +6726,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6211,6 +6745,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6254,7 +6794,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6273,6 +6813,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6312,7 +6858,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6331,6 +6877,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6372,7 +6924,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6391,6 +6943,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6430,7 +6988,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6449,6 +7007,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6488,7 +7052,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6507,6 +7071,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6548,7 +7118,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6567,6 +7137,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6620,7 +7196,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6639,6 +7215,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6698,7 +7280,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6717,6 +7299,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6756,7 +7344,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6775,6 +7363,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6816,7 +7410,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6835,6 +7429,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6876,7 +7476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6895,6 +7495,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6936,7 +7542,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6955,6 +7561,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -6996,7 +7608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7015,6 +7627,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7056,7 +7674,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7075,6 +7693,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7116,7 +7740,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7135,6 +7759,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7176,7 +7806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7195,6 +7825,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7238,7 +7874,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7257,6 +7893,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7304,7 +7946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7323,6 +7965,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7376,7 +8024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7395,6 +8043,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7436,7 +8090,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7455,6 +8109,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7498,7 +8158,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7517,6 +8177,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7568,7 +8234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7587,6 +8253,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7628,7 +8300,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7647,6 +8319,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7698,7 +8376,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7717,6 +8395,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7768,7 +8452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7787,6 +8471,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7838,7 +8528,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7857,6 +8547,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7896,7 +8592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7915,6 +8611,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -7954,7 +8656,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7973,6 +8675,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8012,7 +8720,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8031,6 +8739,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8070,7 +8784,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8089,6 +8803,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8128,7 +8848,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8147,6 +8867,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8188,7 +8914,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8207,6 +8933,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8248,7 +8980,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8267,6 +8999,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8308,7 +9046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8327,6 +9065,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8368,7 +9112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8387,6 +9131,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8432,7 +9182,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8451,6 +9201,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8492,7 +9248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8511,6 +9267,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8556,7 +9318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8575,6 +9337,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8616,7 +9384,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8635,6 +9403,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8676,7 +9450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8695,6 +9469,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8734,7 +9514,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8753,6 +9533,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8792,7 +9578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8811,6 +9597,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8852,7 +9644,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8871,6 +9663,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -8948,7 +9746,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8967,6 +9765,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9008,7 +9812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9027,6 +9831,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9066,7 +9876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9085,6 +9895,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9124,7 +9940,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9143,6 +9959,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9184,7 +10006,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9203,6 +10025,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9244,7 +10072,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9263,6 +10091,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9302,7 +10136,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9321,6 +10155,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9362,7 +10202,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9381,6 +10221,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9422,7 +10268,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9441,6 +10287,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9482,7 +10334,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9501,6 +10353,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9540,7 +10398,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9559,6 +10417,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9600,7 +10464,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9619,6 +10483,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9660,7 +10530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9679,6 +10549,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9720,7 +10596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9739,6 +10615,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9780,7 +10662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9799,6 +10681,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9840,7 +10728,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9859,6 +10747,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9898,7 +10792,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9917,6 +10811,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -9960,7 +10860,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9979,6 +10879,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10018,7 +10924,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10037,6 +10943,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10076,7 +10988,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10095,6 +11007,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10134,7 +11052,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10153,6 +11071,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10198,7 +11122,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10217,6 +11141,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10264,7 +11194,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10283,6 +11213,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10322,7 +11258,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10341,6 +11277,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10388,7 +11330,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10407,6 +11349,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10460,7 +11408,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10479,6 +11427,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10532,7 +11486,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10551,6 +11505,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10594,7 +11554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10613,6 +11573,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10658,7 +11624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10677,6 +11643,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10716,7 +11688,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10735,6 +11707,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10774,7 +11752,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10793,6 +11771,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10834,7 +11818,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10853,6 +11837,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10898,7 +11888,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10917,6 +11907,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -10958,7 +11954,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10977,6 +11973,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11030,7 +12032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11049,6 +12051,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11092,7 +12100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11111,6 +12119,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11158,7 +12172,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11177,6 +12191,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11216,7 +12236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11235,6 +12255,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11276,7 +12302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11295,6 +12321,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11334,7 +12366,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11353,6 +12385,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11396,7 +12434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11415,6 +12453,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11458,7 +12502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11477,6 +12521,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11520,7 +12570,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11539,6 +12589,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11582,7 +12638,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11601,6 +12657,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11646,7 +12708,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11665,6 +12727,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11704,7 +12772,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11723,6 +12791,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11762,7 +12836,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11781,6 +12855,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11826,7 +12906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11845,6 +12925,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11896,7 +12982,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11915,6 +13001,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -11954,7 +13046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11973,6 +13065,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12012,7 +13110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12031,6 +13129,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12070,7 +13174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12089,6 +13193,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12132,7 +13242,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12151,6 +13261,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12192,7 +13308,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12211,6 +13327,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12252,7 +13374,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12271,6 +13393,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12310,7 +13438,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12329,6 +13457,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12368,7 +13502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12387,6 +13521,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12736,7 +13876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12755,6 +13895,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12796,7 +13942,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12815,6 +13961,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12856,7 +14008,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12875,6 +14027,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12914,7 +14072,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12933,6 +14091,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -12974,7 +14138,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12993,6 +14157,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13038,7 +14208,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13057,6 +14227,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13096,7 +14272,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13115,6 +14291,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13178,7 +14360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13197,6 +14379,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13262,7 +14450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13281,6 +14469,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13330,7 +14524,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13349,6 +14543,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13388,7 +14588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13407,6 +14607,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13446,7 +14652,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13465,6 +14671,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13510,7 +14722,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13529,6 +14741,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13576,7 +14794,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13595,6 +14813,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13636,7 +14860,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13655,6 +14879,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13696,7 +14926,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13715,6 +14945,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13754,7 +14990,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13773,6 +15009,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13812,7 +15054,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13831,6 +15073,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13900,7 +15148,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13919,6 +15167,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -13958,7 +15212,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13977,6 +15231,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14066,7 +15326,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14085,6 +15345,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14144,7 +15410,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14163,6 +15429,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14204,7 +15476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14223,6 +15495,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14262,7 +15540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14281,6 +15559,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14320,7 +15604,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14339,6 +15623,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14380,7 +15670,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14399,6 +15689,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14440,7 +15736,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14459,6 +15755,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14498,7 +15800,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14517,6 +15819,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14556,7 +15864,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14575,6 +15883,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14614,7 +15928,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14633,6 +15947,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14672,7 +15992,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14691,6 +16011,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14730,7 +16056,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14749,6 +16075,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14788,7 +16120,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14807,6 +16139,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14848,7 +16186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14867,6 +16205,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14910,7 +16254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14929,6 +16273,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -14970,7 +16320,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14989,6 +16339,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15030,7 +16386,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15049,6 +16405,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15090,7 +16452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15109,6 +16471,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15162,7 +16530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15181,6 +16549,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15226,7 +16600,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15245,6 +16619,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15286,7 +16666,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15305,6 +16685,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15348,7 +16734,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15367,6 +16753,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15420,7 +16812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15439,6 +16831,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15482,7 +16880,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15501,6 +16899,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15540,7 +16944,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15559,6 +16963,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15600,7 +17010,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15619,6 +17029,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15658,7 +17074,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15677,6 +17093,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15722,7 +17144,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15741,6 +17163,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15786,7 +17214,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15805,6 +17233,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15852,7 +17286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15871,6 +17305,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15912,7 +17352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15931,6 +17371,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -15970,7 +17416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15989,6 +17435,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16028,7 +17480,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16047,6 +17499,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16086,7 +17544,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16105,6 +17563,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16146,7 +17610,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16165,6 +17629,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16214,7 +17684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16233,6 +17703,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16276,7 +17752,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16295,6 +17771,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16338,7 +17820,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16357,6 +17839,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16396,7 +17884,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16415,6 +17903,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16456,7 +17950,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16475,6 +17969,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16514,7 +18014,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16533,6 +18033,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16572,7 +18078,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16591,6 +18097,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16640,7 +18152,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16659,6 +18171,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16706,7 +18224,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16725,6 +18243,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16764,7 +18288,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16783,6 +18307,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16822,7 +18352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16841,6 +18371,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16882,7 +18418,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16901,6 +18437,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -16946,7 +18488,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16965,6 +18507,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17004,7 +18552,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17023,6 +18571,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17064,7 +18618,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17083,6 +18637,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17122,7 +18682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17141,6 +18701,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17180,7 +18746,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17199,6 +18765,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17238,7 +18810,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17257,6 +18829,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17308,7 +18886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17327,6 +18905,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17368,7 +18952,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17387,6 +18971,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17430,7 +19020,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17449,6 +19039,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17492,7 +19088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17511,6 +19107,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17554,7 +19156,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17573,6 +19175,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17612,7 +19220,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17631,6 +19239,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17670,7 +19284,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17689,6 +19303,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17728,7 +19348,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17747,6 +19367,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17788,7 +19414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17807,6 +19433,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17846,7 +19478,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17865,6 +19497,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17904,7 +19542,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17923,6 +19561,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -17964,7 +19608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17983,6 +19627,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18022,7 +19672,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18041,6 +19691,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18080,7 +19736,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18099,6 +19755,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18142,7 +19804,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18161,6 +19823,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18204,7 +19872,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18223,6 +19891,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18262,7 +19936,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18281,6 +19955,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18344,7 +20024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18363,6 +20043,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18406,7 +20092,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18425,6 +20111,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18464,7 +20156,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18483,6 +20175,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18524,7 +20222,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18543,6 +20241,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18582,7 +20286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18601,6 +20305,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18642,7 +20352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18661,6 +20371,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18700,7 +20416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18719,6 +20435,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18760,7 +20482,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18779,6 +20501,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18818,7 +20546,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18837,6 +20565,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18880,7 +20614,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18899,6 +20633,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -18944,7 +20684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18963,6 +20703,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19004,7 +20750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19023,6 +20769,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19062,7 +20814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19081,6 +20833,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19124,7 +20882,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19143,6 +20901,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19190,7 +20954,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19209,6 +20973,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19250,7 +21020,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19269,6 +21039,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19324,7 +21100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19343,6 +21119,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19398,7 +21180,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19417,6 +21199,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19458,7 +21246,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19477,6 +21265,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19554,7 +21348,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19573,6 +21367,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19612,7 +21412,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19631,6 +21431,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19670,7 +21476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19689,6 +21495,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19728,7 +21540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19747,6 +21559,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19790,7 +21608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19809,6 +21627,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19850,7 +21674,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19869,6 +21693,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19908,7 +21738,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19927,6 +21757,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -19968,7 +21804,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19987,6 +21823,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20028,7 +21870,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20047,6 +21889,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20090,7 +21938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20109,6 +21957,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20168,7 +22022,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20187,6 +22041,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20232,7 +22092,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20251,6 +22111,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20298,7 +22164,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20317,6 +22183,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20356,7 +22228,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20375,6 +22247,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20420,7 +22298,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20439,6 +22317,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20498,7 +22382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20517,6 +22401,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20568,7 +22458,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20587,6 +22477,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20626,7 +22522,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20645,6 +22541,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20686,7 +22588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20705,6 +22607,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20746,7 +22654,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20765,6 +22673,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20804,7 +22718,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20823,6 +22737,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20868,7 +22788,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20887,6 +22807,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20926,7 +22852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20945,6 +22871,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -20984,7 +22916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21003,6 +22935,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21042,7 +22980,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21061,6 +22999,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21100,7 +23044,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21119,6 +23063,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21162,7 +23112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21181,6 +23131,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21220,7 +23176,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21239,6 +23195,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21286,7 +23248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21305,6 +23267,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21350,7 +23318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21369,6 +23337,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21422,7 +23396,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21441,6 +23415,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21486,7 +23466,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21505,6 +23485,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21544,7 +23530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21563,6 +23549,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21604,7 +23596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21623,6 +23615,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21662,7 +23660,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21681,6 +23679,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21720,7 +23724,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21739,6 +23743,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21780,7 +23790,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21799,6 +23809,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21842,7 +23858,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21861,6 +23877,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21906,7 +23928,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21925,6 +23947,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -21968,7 +23996,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21987,6 +24015,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22056,7 +24090,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22075,6 +24109,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22114,7 +24154,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22133,6 +24173,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22172,7 +24218,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22191,6 +24237,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22230,7 +24282,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22249,6 +24301,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22292,7 +24350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22311,6 +24369,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22350,7 +24414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22369,6 +24433,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22416,7 +24486,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22435,6 +24505,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22482,7 +24558,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22501,6 +24577,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22542,7 +24624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22561,6 +24643,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22612,7 +24700,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22631,6 +24719,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22670,7 +24764,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22689,6 +24783,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22728,7 +24828,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22747,6 +24847,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22786,7 +24892,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22805,6 +24911,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22844,7 +24956,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22863,6 +24975,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22906,7 +25024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22925,6 +25043,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -22964,7 +25088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22983,6 +25107,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23038,7 +25168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23057,6 +25187,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23096,7 +25232,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23115,6 +25251,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23156,7 +25298,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23175,6 +25317,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23216,7 +25364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23235,6 +25383,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23280,7 +25434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23299,6 +25453,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23342,7 +25502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23361,6 +25521,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23400,7 +25566,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23419,6 +25585,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23460,7 +25632,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23479,6 +25651,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23518,7 +25696,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23537,6 +25715,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23582,7 +25766,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23601,6 +25785,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23642,7 +25832,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23661,6 +25851,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23702,7 +25898,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23721,6 +25917,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23762,7 +25964,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23781,6 +25983,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23820,7 +26028,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23839,6 +26047,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23884,7 +26098,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23903,6 +26117,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -23942,7 +26162,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23961,6 +26181,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24000,7 +26226,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24019,6 +26245,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24058,7 +26290,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24077,6 +26309,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24120,7 +26358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24139,6 +26377,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24182,7 +26426,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24201,6 +26445,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24242,7 +26492,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24261,6 +26511,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24302,7 +26558,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24321,6 +26577,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24362,7 +26624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24381,6 +26643,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24420,7 +26688,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24439,6 +26707,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24480,7 +26754,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24499,6 +26773,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24538,7 +26818,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24557,6 +26837,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24598,7 +26884,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24617,6 +26903,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24662,7 +26954,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24681,6 +26973,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24720,7 +27018,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24739,6 +27037,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24788,7 +27092,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24807,6 +27111,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24852,7 +27162,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24871,6 +27181,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24912,7 +27228,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24931,6 +27247,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -24972,7 +27294,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24991,6 +27313,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25032,7 +27360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25051,6 +27379,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25094,7 +27428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25113,6 +27447,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25152,7 +27492,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25171,6 +27511,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25216,7 +27562,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25235,6 +27581,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25274,7 +27626,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25293,6 +27645,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25332,7 +27690,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25351,6 +27709,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25390,7 +27754,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25409,6 +27773,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25458,7 +27828,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25477,6 +27847,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25526,7 +27902,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25545,6 +27921,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25586,7 +27968,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25605,6 +27987,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25644,7 +28032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25663,6 +28051,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25708,7 +28102,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25727,6 +28121,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25766,7 +28166,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25785,6 +28185,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25824,7 +28230,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25843,6 +28249,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25882,7 +28294,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25901,6 +28313,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -25940,7 +28358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25959,6 +28377,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26000,7 +28424,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26019,6 +28443,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26060,7 +28490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26079,6 +28509,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26120,7 +28556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26139,6 +28575,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26178,7 +28620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26197,6 +28639,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26236,7 +28684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26255,6 +28703,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26296,7 +28750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26315,6 +28769,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26366,7 +28826,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26385,6 +28845,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26426,7 +28892,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26445,6 +28911,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26484,7 +28956,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26503,6 +28975,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26542,7 +29020,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26561,6 +29039,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26602,7 +29086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26621,6 +29105,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26668,7 +29158,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26687,6 +29177,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26728,7 +29224,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26747,6 +29243,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26788,7 +29290,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26807,6 +29309,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26850,7 +29358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26869,6 +29377,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26908,7 +29422,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26927,6 +29441,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -26968,7 +29488,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26987,6 +29507,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27028,7 +29554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27047,6 +29573,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27090,7 +29622,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27109,6 +29641,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27162,7 +29700,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27181,6 +29719,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27220,7 +29764,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27239,6 +29783,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27278,7 +29828,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27297,6 +29847,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27342,7 +29898,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27361,6 +29917,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27404,7 +29966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27423,6 +29985,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27464,7 +30032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27483,6 +30051,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27526,7 +30100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27545,6 +30119,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27586,7 +30166,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27605,6 +30185,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27648,7 +30234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27667,6 +30253,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27710,7 +30302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27729,6 +30321,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27770,7 +30368,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27789,6 +30387,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27830,7 +30434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27849,6 +30453,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27892,7 +30502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27911,6 +30521,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -27950,7 +30566,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27969,6 +30585,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28008,7 +30630,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28027,6 +30649,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28082,7 +30710,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28101,6 +30729,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28140,7 +30774,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28159,6 +30793,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28204,7 +30844,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28223,6 +30863,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28262,7 +30908,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28281,6 +30927,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28322,7 +30974,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28341,6 +30993,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28384,7 +31042,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28403,6 +31061,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28442,7 +31106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28461,6 +31125,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28516,7 +31186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28535,6 +31205,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28576,7 +31252,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28595,6 +31271,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28636,7 +31318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28655,6 +31337,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28694,7 +31382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28713,6 +31401,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28752,7 +31446,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28771,6 +31465,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28812,7 +31512,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28831,6 +31531,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28872,7 +31578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28891,6 +31597,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -28934,7 +31646,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28953,6 +31665,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29010,7 +31728,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29029,6 +31747,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29068,7 +31792,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29087,6 +31811,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29138,7 +31868,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29157,6 +31887,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29206,7 +31942,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29225,6 +31961,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29276,7 +32018,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29295,6 +32037,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29336,7 +32084,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29355,6 +32103,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29396,7 +32150,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29415,6 +32169,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29460,7 +32220,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29479,6 +32239,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29520,7 +32286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29539,6 +32305,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29578,7 +32350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29597,6 +32369,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29642,7 +32420,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29661,6 +32439,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29700,7 +32484,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29719,6 +32503,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29768,7 +32558,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29787,6 +32577,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29826,7 +32622,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29845,6 +32641,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29884,7 +32686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29903,6 +32705,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -29942,7 +32750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29961,6 +32769,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30000,7 +32814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30019,6 +32833,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30068,7 +32888,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30087,6 +32907,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30126,7 +32952,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30145,6 +32971,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30184,7 +33016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30203,6 +33035,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30244,7 +33082,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30263,6 +33101,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30302,7 +33146,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30321,6 +33165,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30360,7 +33210,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30379,6 +33229,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30420,7 +33276,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30439,6 +33295,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30478,7 +33340,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30497,6 +33359,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30538,7 +33406,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30557,6 +33425,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30614,7 +33488,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30633,6 +33507,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30674,7 +33554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30693,6 +33573,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30734,7 +33620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30753,6 +33639,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30792,7 +33684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30811,6 +33703,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30858,7 +33756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30877,6 +33775,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30916,7 +33820,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30935,6 +33839,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -30976,7 +33886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30995,6 +33905,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31034,7 +33950,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31053,6 +33969,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31094,7 +34016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31113,6 +34035,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31154,7 +34082,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31173,6 +34101,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31212,7 +34146,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31231,6 +34165,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31270,7 +34210,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31289,6 +34229,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31340,7 +34286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31359,6 +34305,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31406,7 +34358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31425,6 +34377,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31466,7 +34424,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31485,6 +34443,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31526,7 +34490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31545,6 +34509,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31584,7 +34554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31603,6 +34573,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31642,7 +34618,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31661,6 +34637,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31702,7 +34684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31721,6 +34703,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31760,7 +34748,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31779,6 +34767,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31818,7 +34812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31837,6 +34831,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31882,7 +34882,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31901,6 +34901,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -31942,7 +34948,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31961,6 +34967,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32002,7 +35014,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32021,6 +35033,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32068,7 +35086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32087,6 +35105,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32128,7 +35152,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32147,6 +35171,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32188,7 +35218,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32207,6 +35237,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32248,7 +35284,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32267,6 +35303,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32308,7 +35350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32327,6 +35369,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32368,7 +35416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32387,6 +35435,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32430,7 +35484,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32449,6 +35503,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32490,7 +35550,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32509,6 +35569,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32550,7 +35616,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32569,6 +35635,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32610,7 +35682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32629,6 +35701,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32670,7 +35748,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32689,6 +35767,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32730,7 +35814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32749,6 +35833,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32792,7 +35882,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32811,6 +35901,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32852,7 +35948,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32871,6 +35967,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32912,7 +36014,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32931,6 +36033,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -32974,7 +36082,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32993,6 +36101,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33036,7 +36150,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33055,6 +36169,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33096,7 +36216,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33115,6 +36235,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33162,7 +36288,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33181,6 +36307,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33222,7 +36354,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33241,6 +36373,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33282,7 +36420,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33301,6 +36439,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33346,7 +36490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33365,6 +36509,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33404,7 +36554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33423,6 +36573,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33472,7 +36628,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33491,6 +36647,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33530,7 +36692,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33549,6 +36711,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33588,7 +36756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33607,6 +36775,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33648,7 +36822,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33667,6 +36841,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33720,7 +36900,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33739,6 +36919,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33780,7 +36966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33799,6 +36985,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33844,7 +37036,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33863,6 +37055,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33908,7 +37106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33927,6 +37125,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -33970,7 +37174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33989,6 +37193,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34034,7 +37244,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34053,6 +37263,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34096,7 +37312,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34115,6 +37331,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34160,7 +37382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34179,6 +37401,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34224,7 +37452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34243,6 +37471,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34286,7 +37520,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34305,6 +37539,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34344,7 +37584,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34363,6 +37603,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34418,7 +37664,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34437,6 +37683,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34478,7 +37730,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34497,6 +37749,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34536,7 +37794,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34555,6 +37813,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34594,7 +37858,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34613,6 +37877,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34652,7 +37922,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34671,6 +37941,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34726,7 +38002,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34745,6 +38021,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34784,7 +38066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34803,6 +38085,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34850,7 +38138,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34869,6 +38157,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34910,7 +38204,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34929,6 +38223,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -34994,7 +38294,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35013,6 +38313,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35054,7 +38360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35073,6 +38379,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35122,7 +38434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35141,6 +38453,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35182,7 +38500,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35201,6 +38519,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35248,7 +38572,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35267,6 +38591,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35310,7 +38640,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35329,6 +38659,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35370,7 +38706,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35389,6 +38725,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35428,7 +38770,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35447,6 +38789,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35486,7 +38834,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35505,6 +38853,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35554,7 +38908,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35573,6 +38927,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35716,7 +39076,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35735,6 +39095,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35780,7 +39146,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35799,6 +39165,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35846,7 +39218,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35865,6 +39237,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35908,7 +39286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35927,6 +39305,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -35976,7 +39360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35995,6 +39379,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36036,7 +39426,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36055,6 +39445,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36100,7 +39496,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36119,6 +39515,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36160,7 +39562,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36179,6 +39581,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36220,7 +39628,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36239,6 +39647,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36280,7 +39694,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36299,6 +39713,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36338,7 +39758,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36357,6 +39777,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36414,7 +39840,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36433,6 +39859,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36472,7 +39904,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36491,6 +39923,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36534,7 +39972,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36553,6 +39991,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36602,7 +40046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36621,6 +40065,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36660,7 +40110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36679,6 +40129,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36718,7 +40174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36737,6 +40193,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36834,7 +40296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36853,6 +40315,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36892,7 +40360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36911,6 +40379,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -36954,7 +40428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36973,6 +40447,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37018,7 +40498,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37037,6 +40517,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37106,7 +40592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37125,6 +40611,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37166,7 +40658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37185,6 +40677,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37224,7 +40722,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37243,6 +40741,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37314,7 +40818,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37333,6 +40837,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37386,7 +40896,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37405,6 +40915,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37444,7 +40960,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37463,6 +40979,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37502,7 +41024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37521,6 +41043,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37560,7 +41088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37579,6 +41107,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37622,7 +41156,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37641,6 +41175,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37686,7 +41226,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37705,6 +41245,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37746,7 +41292,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37765,6 +41311,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37854,7 +41406,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37873,6 +41425,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37924,7 +41482,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37943,6 +41501,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -37990,7 +41554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38009,6 +41573,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38050,7 +41620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38069,6 +41639,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38108,7 +41684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38127,6 +41703,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38196,7 +41778,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38215,6 +41797,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38262,7 +41850,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38281,6 +41869,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38372,7 +41966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38391,6 +41985,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38430,7 +42030,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38449,6 +42049,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38534,7 +42140,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38553,6 +42159,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38608,7 +42220,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38627,6 +42239,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38692,7 +42310,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38711,6 +42329,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38758,7 +42382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38777,6 +42401,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38816,7 +42446,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38835,6 +42465,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38878,7 +42514,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38897,6 +42533,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -38936,7 +42578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38955,6 +42597,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39000,7 +42648,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39019,6 +42667,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39058,7 +42712,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39077,6 +42731,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39116,7 +42776,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39135,6 +42795,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39176,7 +42842,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39195,6 +42861,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39234,7 +42906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39253,6 +42925,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39292,7 +42970,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39311,6 +42989,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39352,7 +43036,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39371,6 +43055,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39410,7 +43100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39429,6 +43119,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39474,7 +43170,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39493,6 +43189,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39534,7 +43236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39553,6 +43255,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39594,7 +43302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39613,6 +43321,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39658,7 +43372,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39677,6 +43391,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39722,7 +43442,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39741,6 +43461,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39780,7 +43506,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39799,6 +43525,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39856,7 +43588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39875,6 +43607,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39922,7 +43660,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39941,6 +43679,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -39986,7 +43730,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40005,6 +43749,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40056,7 +43806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40075,6 +43825,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40120,7 +43876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40139,6 +43895,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40178,7 +43940,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40197,6 +43959,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40244,7 +44012,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40263,6 +44031,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40302,7 +44076,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40321,6 +44095,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40380,7 +44160,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40399,6 +44179,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40494,7 +44280,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40513,6 +44299,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40558,7 +44350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40577,6 +44369,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40652,7 +44450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40671,6 +44469,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40714,7 +44518,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40733,6 +44537,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40810,7 +44620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40829,6 +44639,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40870,7 +44686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40889,6 +44705,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -40950,7 +44772,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40969,6 +44791,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41034,7 +44862,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41053,6 +44881,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41112,7 +44946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41131,6 +44965,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41204,7 +45044,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41223,6 +45063,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41268,7 +45114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41287,6 +45133,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41332,7 +45184,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41351,6 +45203,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41392,7 +45250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41411,6 +45269,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41458,7 +45322,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41477,6 +45341,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41518,7 +45388,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41537,6 +45407,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41580,7 +45456,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41599,6 +45475,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41644,7 +45526,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41663,6 +45545,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41704,7 +45592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41723,6 +45611,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41764,7 +45658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41783,6 +45677,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41844,7 +45744,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41863,6 +45763,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41936,7 +45842,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41955,6 +45861,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -41998,7 +45910,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42017,6 +45929,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42058,7 +45976,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42077,6 +45995,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42124,7 +46048,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42143,6 +46067,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42188,7 +46118,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42207,6 +46137,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42250,7 +46186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42269,6 +46205,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42310,7 +46252,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42329,6 +46271,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42374,7 +46322,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42393,6 +46341,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42452,7 +46406,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42471,6 +46425,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42516,7 +46476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42535,6 +46495,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42584,7 +46550,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42603,6 +46569,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42648,7 +46620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42667,6 +46639,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42718,7 +46696,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42737,6 +46715,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42788,7 +46772,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42807,6 +46791,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42846,7 +46836,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42865,6 +46855,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42910,7 +46906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42929,6 +46925,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -42972,7 +46974,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42991,6 +46993,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43034,7 +47042,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43053,6 +47061,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43112,7 +47126,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43131,6 +47145,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43172,7 +47192,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43191,6 +47211,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43234,7 +47260,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43253,6 +47279,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43296,7 +47328,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43315,6 +47347,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43362,7 +47400,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43381,6 +47419,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43428,7 +47472,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43447,6 +47491,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43490,7 +47540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43509,6 +47559,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43558,7 +47614,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43577,6 +47633,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43624,7 +47686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43643,6 +47705,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43686,7 +47754,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43705,6 +47773,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43750,7 +47824,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43769,6 +47843,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43810,7 +47890,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43829,6 +47909,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43872,7 +47958,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43891,6 +47977,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -43942,7 +48034,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43961,6 +48053,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44002,7 +48100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44021,6 +48119,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44062,7 +48166,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44081,6 +48185,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44124,7 +48234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44143,6 +48253,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44184,7 +48300,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44203,6 +48319,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44242,7 +48364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44261,6 +48383,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44300,7 +48428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44319,6 +48447,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44360,7 +48494,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44379,6 +48513,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44458,7 +48598,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44477,6 +48617,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44516,7 +48662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44535,6 +48681,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44578,7 +48730,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44597,6 +48749,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44642,7 +48800,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44661,6 +48819,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44700,7 +48864,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44719,6 +48883,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44776,7 +48946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44795,6 +48965,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44834,7 +49010,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44853,6 +49029,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44898,7 +49080,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44917,6 +49099,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -44956,7 +49144,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44975,6 +49163,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45018,7 +49212,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45037,6 +49231,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45078,7 +49278,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45097,6 +49297,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45138,7 +49344,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45157,6 +49363,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45198,7 +49410,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45217,6 +49429,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45256,7 +49474,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45275,6 +49493,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45320,7 +49544,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45339,6 +49563,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45378,7 +49608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45397,6 +49627,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45456,7 +49692,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45475,6 +49711,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45514,7 +49756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45533,6 +49775,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45576,7 +49824,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45595,6 +49843,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45642,7 +49896,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45661,6 +49915,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45706,7 +49966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45725,6 +49985,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45766,7 +50032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45785,6 +50051,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45840,7 +50112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45859,6 +50131,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45900,7 +50178,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45919,6 +50197,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -45962,7 +50246,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45981,6 +50265,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -46032,7 +50322,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46051,6 +50341,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -46096,7 +50392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46115,6 +50411,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -46156,7 +50458,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46175,6 +50477,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -46216,7 +50524,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46235,6 +50543,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -46276,7 +50590,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46295,6 +50609,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -46346,7 +50666,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46365,6 +50685,12 @@ No authorization required
 ```ruby
 # load the gem
 require 'swagger_aem_osgi'
+# setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR USERNAME'
+  config.password = 'YOUR PASSWORD'
+end
 
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
@@ -46404,7 +50730,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 

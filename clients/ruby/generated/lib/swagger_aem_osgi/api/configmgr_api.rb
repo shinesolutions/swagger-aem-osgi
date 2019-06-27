@@ -86,7 +86,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -159,7 +159,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -232,7 +232,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'AnalyticsComponentQueryCacheServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -305,7 +305,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ApacheSlingHealthCheckResultHTMLSerializerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -381,7 +381,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -454,7 +454,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeAemTransactionCoreImplTransactionRecorderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -533,7 +533,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -612,7 +612,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -688,7 +688,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -764,7 +764,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -843,7 +843,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqAccountApiAccountManagementServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -919,7 +919,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqAccountImplAccountManagementServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -992,7 +992,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqAddressImplLocationLocationListServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1074,7 +1074,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqAuditPurgeDamInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1156,7 +1156,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqAuditPurgePagesInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1238,7 +1238,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqAuditPurgeReplicationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1323,7 +1323,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1408,7 +1408,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1487,7 +1487,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCdnRewriterImplCDNRewriterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1560,7 +1560,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1636,7 +1636,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1709,7 +1709,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1785,7 +1785,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCommerceImplAssetStaticImageHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1861,7 +1861,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCommerceImplAssetVideoHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -1934,7 +1934,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2013,7 +2013,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2086,7 +2086,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCommercePimImplPageEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2159,7 +2159,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2232,7 +2232,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2305,7 +2305,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2378,7 +2378,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2460,7 +2460,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamCfmImplComponentComponentConfigImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2536,7 +2536,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamCfmImplConfFeatureConfigImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2609,7 +2609,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2682,7 +2682,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2755,7 +2755,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2828,7 +2828,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamDmProcessImagePTiffManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2904,7 +2904,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -2977,7 +2977,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3059,7 +3059,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3138,7 +3138,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3226,7 +3226,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamS7imagingImplIsImageServerComponentInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3308,7 +3308,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3387,7 +3387,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3466,7 +3466,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3539,7 +3539,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3618,7 +3618,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDeserfwImplDeserializationFirewallImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3694,7 +3694,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDtmImplServiceDTMWebServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3770,7 +3770,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDtmImplServletsDTMDeployHookServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3849,7 +3849,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqDtmReactorImplServiceWebServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -3925,7 +3925,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4007,7 +4007,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqHcContentPackagesHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4083,7 +4083,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqHistoryImplHistoryRequestFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4159,7 +4159,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqHistoryImplHistoryServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4244,7 +4244,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4320,7 +4320,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqProjectsImplServletProjectImageServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4414,7 +4414,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqProjectsPurgeSchedulerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4490,7 +4490,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScheduledExporterImplScheduledExporterImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4575,7 +4575,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4666,7 +4666,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensDeviceImplDeviceServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4739,7 +4739,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4824,7 +4824,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4897,7 +4897,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -4970,7 +4970,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5043,7 +5043,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensImplScreensChannelPostProcessorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5140,7 +5140,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5309,7 +5309,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5385,7 +5385,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5458,7 +5458,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5531,7 +5531,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5604,7 +5604,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5677,7 +5677,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5759,7 +5759,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5832,7 +5832,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5908,7 +5908,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -5987,7 +5987,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6060,7 +6060,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6133,7 +6133,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6209,7 +6209,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6285,7 +6285,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6361,7 +6361,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6437,7 +6437,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6516,7 +6516,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6592,7 +6592,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6665,7 +6665,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCalendarServletsTimeZoneServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6738,7 +6738,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6814,7 +6814,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6890,7 +6890,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -6963,7 +6963,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7042,7 +7042,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7115,7 +7115,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7191,7 +7191,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7264,7 +7264,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7337,7 +7337,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7413,7 +7413,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7507,7 +7507,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7610,7 +7610,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7683,7 +7683,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7759,7 +7759,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7835,7 +7835,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7911,7 +7911,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -7987,7 +7987,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8063,7 +8063,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8139,7 +8139,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8215,7 +8215,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8294,7 +8294,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8379,7 +8379,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8473,7 +8473,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8549,7 +8549,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8628,7 +8628,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8719,7 +8719,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8795,7 +8795,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8886,7 +8886,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -8977,7 +8977,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9068,7 +9068,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9141,7 +9141,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9214,7 +9214,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9287,7 +9287,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9360,7 +9360,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9433,7 +9433,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9509,7 +9509,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9585,7 +9585,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9661,7 +9661,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9737,7 +9737,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9819,7 +9819,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9895,7 +9895,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialGroupImplGroupServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -9977,7 +9977,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10053,7 +10053,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10129,7 +10129,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10202,7 +10202,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10275,7 +10275,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10351,7 +10351,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10481,7 +10481,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10557,7 +10557,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10630,7 +10630,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10703,7 +10703,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10779,7 +10779,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10855,7 +10855,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialNotificationsImplMentionsRouterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -10928,7 +10928,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11004,7 +11004,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialNotificationsImplNotificationsRouterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11080,7 +11080,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11156,7 +11156,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11229,7 +11229,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11305,7 +11305,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11381,7 +11381,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11457,7 +11457,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11533,7 +11533,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11609,7 +11609,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialScoringImplScoringEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11682,7 +11682,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11761,7 +11761,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11834,7 +11834,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11907,7 +11907,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -11980,7 +11980,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialSrpImplSocialSolrConnectorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12062,7 +12062,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialSyncImplDiffChangesObserverInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12147,7 +12147,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12220,7 +12220,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12305,7 +12305,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialSyncImplUserSyncListenerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12399,7 +12399,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12493,7 +12493,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12572,7 +12572,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12654,7 +12654,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12727,7 +12727,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12800,7 +12800,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12876,7 +12876,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -12958,7 +12958,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13034,7 +13034,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13128,7 +13128,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13207,7 +13207,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13292,7 +13292,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqSocialUserImplTransportHttpToPublisherInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13365,7 +13365,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13441,7 +13441,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13514,7 +13514,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13593,7 +13593,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13672,7 +13672,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13751,7 +13751,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13830,7 +13830,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13912,7 +13912,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -13985,7 +13985,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14058,7 +14058,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14140,7 +14140,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14231,7 +14231,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14304,7 +14304,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14377,7 +14377,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeFormsCommonServiceImplDefaultDataProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14450,7 +14450,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14529,7 +14529,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeFormsCommonServletTempCleanUpTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14605,7 +14605,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAcpPlatformPlatformServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14681,7 +14681,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14754,7 +14754,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -14827,7 +14827,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -15365,7 +15365,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -15441,7 +15441,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -15517,7 +15517,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthImsInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -15590,7 +15590,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -15666,7 +15666,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -15748,7 +15748,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -15821,7 +15821,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -15930,7 +15930,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthImsImplIMSProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16042,7 +16042,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthAccesstokenProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16130,7 +16130,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16203,7 +16203,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16276,7 +16276,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16358,7 +16358,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplGithubProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16443,7 +16443,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplGraniteProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16519,7 +16519,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16595,7 +16595,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16668,7 +16668,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16741,7 +16741,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16859,7 +16859,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthOauthProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -16932,7 +16932,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17080,7 +17080,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17183,7 +17183,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17259,7 +17259,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17332,7 +17332,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17405,7 +17405,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17481,7 +17481,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17557,7 +17557,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17630,7 +17630,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17703,7 +17703,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17776,7 +17776,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17849,7 +17849,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17922,7 +17922,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -17995,7 +17995,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18071,7 +18071,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18150,7 +18150,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteCompatrouterImplRoutingConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18226,7 +18226,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18302,7 +18302,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18378,7 +18378,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteContexthubImplContextHubImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18472,7 +18472,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteCorsImplCORSPolicyImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18554,7 +18554,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteCsrfImplCSRFFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18630,7 +18630,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteCsrfImplCSRFServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18709,7 +18709,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18803,7 +18803,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18882,7 +18882,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -18955,7 +18955,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19031,7 +19031,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19104,7 +19104,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19186,7 +19186,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19268,7 +19268,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19353,7 +19353,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteFragsImplRandomFeatureInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19429,7 +19429,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteHttpcacheFileFileCacheStoreInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19502,7 +19502,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19575,7 +19575,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19648,7 +19648,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19724,7 +19724,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteInfocollectorInfoCollectorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19812,7 +19812,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19891,7 +19891,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteLicenseImplLicenseCheckFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -19970,7 +19970,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteLoggingImplLogAnalyserImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20043,7 +20043,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20119,7 +20119,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20192,7 +20192,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20265,7 +20265,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20353,7 +20353,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteMonitoringImplScriptConfigImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20438,7 +20438,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20511,7 +20511,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20584,7 +20584,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20660,7 +20660,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20742,7 +20742,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20815,7 +20815,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20891,7 +20891,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -20964,7 +20964,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21037,7 +21037,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21110,7 +21110,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21201,7 +21201,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21277,7 +21277,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21356,7 +21356,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteOptoutImplOptOutServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21435,7 +21435,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21514,7 +21514,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21587,7 +21587,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21660,7 +21660,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21733,7 +21733,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21809,7 +21809,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21882,7 +21882,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -21955,7 +21955,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22031,7 +22031,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22104,7 +22104,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22177,7 +22177,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22256,7 +22256,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22335,7 +22335,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22408,7 +22408,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22517,7 +22517,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryImplCommitStatsConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22596,7 +22596,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRepositoryServiceUserConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22669,7 +22669,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22745,7 +22745,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22818,7 +22818,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22894,7 +22894,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -22967,7 +22967,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23043,7 +23043,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteRestImplServletDefaultGETServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23116,7 +23116,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23195,7 +23195,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteSecurityUserUserPropertiesServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23277,7 +23277,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23353,7 +23353,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23426,7 +23426,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23505,7 +23505,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23590,7 +23590,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23666,7 +23666,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23763,7 +23763,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteThreaddumpThreadDumpCollectorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23860,7 +23860,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -23936,7 +23936,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24066,7 +24066,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24139,7 +24139,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24212,7 +24212,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24285,7 +24285,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24364,7 +24364,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24440,7 +24440,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCoreJobJobHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24513,7 +24513,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24589,7 +24589,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCorePayloadMapCacheInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24665,7 +24665,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24744,7 +24744,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCoreWorkflowConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24847,7 +24847,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -24929,7 +24929,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeGraniteWorkflowPurgeSchedulerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25014,7 +25014,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeOctopusNcommBootstrapInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25087,7 +25087,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25169,7 +25169,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25272,7 +25272,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25363,7 +25363,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCommonsHttpclientInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25436,7 +25436,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25512,7 +25512,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25588,7 +25588,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25661,7 +25661,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25743,7 +25743,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25816,7 +25816,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25889,7 +25889,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -25962,7 +25962,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26035,7 +26035,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26114,7 +26114,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26187,7 +26187,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26272,7 +26272,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26354,7 +26354,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAuthImplCugCugSupportImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26448,7 +26448,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqAuthImplLoginSelectorHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26530,7 +26530,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqCommonsImplExternalizerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26603,7 +26603,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqCommonsServletsRootMappingServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26679,7 +26679,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26752,7 +26752,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26825,7 +26825,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26901,7 +26901,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqContentsyncImplContentSyncManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -26980,7 +26980,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCommonsHandlerStandardImageHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27062,7 +27062,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27141,7 +27141,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCommonsUtilImplAssetCacheImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27259,7 +27259,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27332,7 +27332,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplAssetMoveListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27405,7 +27405,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27478,7 +27478,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27557,7 +27557,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27630,7 +27630,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplDamChangeEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27715,7 +27715,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplDamEventPurgeServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27800,7 +27800,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplDamEventRecorderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27876,7 +27876,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplEventDamEventAuditListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -27967,7 +27967,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplExpiryNotificationJobImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28040,7 +28040,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28113,7 +28113,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplGfxCommonsGfxRendererInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28186,7 +28186,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28259,7 +28259,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28338,7 +28338,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplHandlerJpegHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28411,7 +28411,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28508,7 +28508,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28581,7 +28581,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28657,7 +28657,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28733,7 +28733,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28815,7 +28815,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28894,7 +28894,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplLightboxLightboxServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -28967,7 +28967,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29043,7 +29043,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29116,7 +29116,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29198,7 +29198,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplMissingMetadataNotificationJobInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29274,7 +29274,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29350,7 +29350,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplProcessTextExtractionProcessInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29426,7 +29426,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplRenditionMakerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29499,7 +29499,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplReportsReportExportServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29581,7 +29581,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplReportsReportPurgeServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29654,7 +29654,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletAssetDownloadServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29727,7 +29727,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletAssetStatusServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29800,7 +29800,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletAssetXMPSearchServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29879,7 +29879,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletBatchMetadataServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -29958,7 +29958,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletBinaryProviderServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30034,7 +30034,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletCollectionServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30110,7 +30110,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletCollectionsServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30186,7 +30186,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletCompanionServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30259,7 +30259,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletCreateAssetServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30335,7 +30335,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletDamContentDispositionFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30408,7 +30408,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletGuidLookupFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30484,7 +30484,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletHealthCheckServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30566,7 +30566,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletMetadataGetServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30639,7 +30639,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30727,7 +30727,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplServletResourceCollectionServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30809,7 +30809,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30885,7 +30885,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreImplUnzipUnzipConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -30961,7 +30961,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31037,7 +31037,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreProcessExtractMetadataProcessInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31116,7 +31116,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamCoreProcessMetadataProcessorProcessInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31189,7 +31189,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamHandlerFfmpegLocatorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31271,7 +31271,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31344,7 +31344,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamHandlerStandardPdfPdfHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31417,7 +31417,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamHandlerStandardPsPostScriptHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31490,7 +31490,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamHandlerStandardPsdPsdHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31578,7 +31578,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamIdsImplIDSJobProcessorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31666,7 +31666,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamIdsImplIDSPoolManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31742,7 +31742,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31815,7 +31815,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamInddImplServletSnippetCreationServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31897,7 +31897,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamInddProcessINDDMediaExtractProcessInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -31970,7 +31970,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32043,7 +32043,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32116,7 +32116,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32189,7 +32189,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32265,7 +32265,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32341,7 +32341,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32417,7 +32417,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32490,7 +32490,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32563,7 +32563,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32639,7 +32639,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32730,7 +32730,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32806,7 +32806,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamScene7ImplScene7APIClientImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32879,7 +32879,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -32952,7 +32952,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33028,7 +33028,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33113,7 +33113,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33189,7 +33189,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamScene7ImplScene7UploadServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33265,7 +33265,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33344,7 +33344,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33417,7 +33417,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqDamVideoImplServletVideoTestServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33493,7 +33493,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqExtwidgetServletsImageSpriteServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33569,7 +33569,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqImageInternalFontFontHelperInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33648,7 +33648,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqJcrclustersupportClusterStartLevelControllerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33742,7 +33742,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMailerDefaultMailServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33815,7 +33815,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMailerImplCqMailingServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33888,7 +33888,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -33970,7 +33970,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34049,7 +34049,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmCampaignImplIntegrationConfigImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34125,7 +34125,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34204,7 +34204,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34280,7 +34280,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmImplMCMConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34359,7 +34359,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34438,7 +34438,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34514,7 +34514,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34590,7 +34590,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34669,7 +34669,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34742,7 +34742,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqNotificationImplNotificationServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34815,7 +34815,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34912,7 +34912,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqPollingImporterImplManagedPollConfigImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -34985,7 +34985,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqPollingImporterImplManagedPollingImporterImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35067,7 +35067,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqPollingImporterImplPollingImporterImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35140,7 +35140,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationAuditReplicationEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35216,7 +35216,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationContentStaticContentBuilderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35295,7 +35295,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplAgentManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35368,7 +35368,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35465,7 +35465,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35541,7 +35541,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35617,7 +35617,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplReplicationReceiverImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35690,7 +35690,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplReplicatorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35763,7 +35763,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplReverseReplicatorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35839,7 +35839,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35915,7 +35915,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReplicationImplTransportHttpInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -35994,7 +35994,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReportingImplCacheCacheImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36094,7 +36094,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReportingImplConfigServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36167,7 +36167,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqReportingImplRLogAnalyzerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36258,7 +36258,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36346,7 +36346,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36437,7 +36437,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36513,7 +36513,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36589,7 +36589,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqRewriterProcessorImplHtmlParserFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36671,7 +36671,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqSearchImplBuilderQueryBuilderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36747,7 +36747,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36820,7 +36820,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36902,7 +36902,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -36975,7 +36975,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqSecurityACLSetupInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37063,7 +37063,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqStatisticsImplStatisticsServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37136,7 +37136,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqTaggingImplJcrTagManagerFactoryImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37209,7 +37209,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37282,7 +37282,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqTaggingImplTagGarbageCollectorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37355,7 +37355,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37443,7 +37443,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37516,7 +37516,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37589,7 +37589,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplCommandsWCMCommandServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37665,7 +37665,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37738,7 +37738,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplEventPageEventAuditListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37811,7 +37811,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplEventPagePostProcessorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37887,7 +37887,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -37960,7 +37960,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplEventTemplatePostProcessorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38036,7 +38036,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplLanguageManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38136,7 +38136,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38212,7 +38212,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38288,7 +38288,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38361,7 +38361,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38446,7 +38446,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38519,7 +38519,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38595,7 +38595,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38668,7 +38668,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplServletsFindReplaceServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38744,7 +38744,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplServletsReferenceSearchServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38820,7 +38820,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplServletsThumbnailServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38893,7 +38893,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -38966,7 +38966,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39057,7 +39057,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplVersionManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39142,7 +39142,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplVersionPurgeTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39218,7 +39218,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplWarpTimeWarpFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39294,7 +39294,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplWCMDebugFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39367,7 +39367,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39440,7 +39440,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreMvtMVTStatisticsImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39516,7 +39516,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreStatsPageViewStatisticsImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39589,7 +39589,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmCoreWCMRequestFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39662,7 +39662,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterDesignPackageImporterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39744,7 +39744,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39820,7 +39820,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39896,7 +39896,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -39981,7 +39981,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40057,7 +40057,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40133,7 +40133,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40209,7 +40209,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40285,7 +40285,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40361,7 +40361,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40440,7 +40440,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40516,7 +40516,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40592,7 +40592,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40668,7 +40668,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40744,7 +40744,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40820,7 +40820,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40899,7 +40899,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -40975,7 +40975,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41051,7 +41051,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41130,7 +41130,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41209,7 +41209,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41285,7 +41285,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41370,7 +41370,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationFormsImplFormChooserServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41446,7 +41446,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41522,7 +41522,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41604,7 +41604,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationFormsImplMailServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41677,7 +41677,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41765,7 +41765,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationImplHTTPAuthHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41838,7 +41838,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationImplPageImpressionsTrackerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41911,7 +41911,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationImplPageRedirectServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -41987,7 +41987,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42081,7 +42081,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42157,7 +42157,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42239,7 +42239,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42321,7 +42321,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42400,7 +42400,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42482,7 +42482,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42561,7 +42561,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42643,7 +42643,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42725,7 +42725,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42804,7 +42804,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42877,7 +42877,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -42974,7 +42974,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplRolloutManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43050,7 +43050,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmMsmImplServletsAuditLogServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43123,7 +43123,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmNotificationEmailImplEmailChannelInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43196,7 +43196,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmNotificationImplNotificationManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43269,7 +43269,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmScriptingImplBVPManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43366,7 +43366,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmUndoUndoConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43439,7 +43439,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43524,7 +43524,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43600,7 +43600,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43712,7 +43712,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWidgetImplHtmlLibraryManagerImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43788,7 +43788,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWidgetImplWidgetExtensionProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43876,7 +43876,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWorkflowImplEmailEMailNotificationServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -43952,7 +43952,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44037,7 +44037,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44116,7 +44116,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'ComDayCrxSecurityTokenImplTokenCleanupTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44192,7 +44192,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'GuideLocalizationServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44265,7 +44265,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'MessagingUserComponentFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44338,7 +44338,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheAriesJmxFrameworkStateConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44426,7 +44426,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixEventadminImplEventAdminInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44655,7 +44655,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixHttpInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44737,7 +44737,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixHttpSslfilterSslFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44822,7 +44822,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixJaasConfigurationFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44901,7 +44901,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixJaasConfigurationSpiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -44989,7 +44989,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixScrScrServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45065,7 +45065,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixSystemreadyImplComponentsCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45147,7 +45147,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45223,7 +45223,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixSystemreadyImplServicesCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45299,7 +45299,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45375,7 +45375,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45448,7 +45448,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixSystemreadySystemReadyMonitorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45548,7 +45548,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45621,7 +45621,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45700,7 +45700,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45788,7 +45788,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheHttpProxyconfiguratorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45861,7 +45861,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -45934,7 +45934,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46094,7 +46094,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46167,7 +46167,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46246,7 +46246,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46328,7 +46328,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46446,7 +46446,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46522,7 +46522,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46595,7 +46595,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46716,7 +46716,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46810,7 +46810,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46883,7 +46883,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -46956,7 +46956,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47029,7 +47029,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47108,7 +47108,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47190,7 +47190,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47266,7 +47266,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47414,7 +47414,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47505,7 +47505,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47590,7 +47590,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47666,7 +47666,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47739,7 +47739,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47857,7 +47857,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -47942,7 +47942,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48093,7 +48093,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48166,7 +48166,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48308,7 +48308,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48405,7 +48405,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48517,7 +48517,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48602,7 +48602,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48675,7 +48675,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48754,7 +48754,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48827,7 +48827,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48909,7 +48909,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -48982,7 +48982,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49055,7 +49055,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49131,7 +49131,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingAuthCoreImplLogoutServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49204,7 +49204,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49277,7 +49277,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplConfigurationResolverImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49353,7 +49353,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49426,7 +49426,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49508,7 +49508,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49584,7 +49584,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49660,7 +49660,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49742,7 +49742,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49824,7 +49824,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49897,7 +49897,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -49997,7 +49997,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsLogLogManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50082,7 +50082,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50164,7 +50164,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50255,7 +50255,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsMetricsInternalLogReporterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50337,7 +50337,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50410,7 +50410,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50495,7 +50495,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50568,7 +50568,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50671,7 +50671,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50828,7 +50828,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDatasourceDataSourceFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -50910,7 +50910,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51037,7 +51037,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDiscoveryOakConfigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51116,7 +51116,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51246,7 +51246,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51322,7 +51322,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51428,7 +51428,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51540,7 +51540,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51643,7 +51643,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51767,7 +51767,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51849,7 +51849,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -51931,7 +51931,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52007,7 +52007,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52092,7 +52092,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52168,7 +52168,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52247,7 +52247,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52329,7 +52329,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52405,7 +52405,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52481,7 +52481,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52587,7 +52587,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52711,7 +52711,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52790,7 +52790,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52866,7 +52866,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -52951,7 +52951,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53033,7 +53033,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53112,7 +53112,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53188,7 +53188,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53270,7 +53270,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53373,7 +53373,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53455,7 +53455,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53543,7 +53543,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEngineImplLogRequestLoggerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53625,7 +53625,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEngineImplLogRequestLoggerServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53716,7 +53716,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEngineImplSlingMainServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53807,7 +53807,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEngineParametersInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53880,7 +53880,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEventImplEventingThreadPoolInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -53962,7 +53962,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEventImplJobsDefaultJobManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54041,7 +54041,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54120,7 +54120,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEventImplJobsJobConsumerManagerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54223,7 +54223,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingEventJobsQueueConfigurationInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54299,7 +54299,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54378,7 +54378,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingFeatureflagsFeatureInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54457,7 +54457,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54542,7 +54542,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingHapiImplHApiUtilImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54627,7 +54627,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingHcCoreImplCompositeHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54706,7 +54706,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54794,7 +54794,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54879,7 +54879,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingHcCoreImplScriptableHealthCheckInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -54958,7 +54958,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55040,7 +55040,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55116,7 +55116,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingI18nImplI18NFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55195,7 +55195,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingI18nImplJcrResourceBundleProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55286,7 +55286,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55362,7 +55362,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55438,7 +55438,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55517,7 +55517,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55593,7 +55593,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55666,7 +55666,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55739,7 +55739,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55815,7 +55815,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrRepoinitRepositoryInitializerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -55948,7 +55948,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56021,7 +56021,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56100,7 +56100,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56182,7 +56182,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56255,7 +56255,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56355,7 +56355,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56428,7 +56428,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingJmxProviderImplJMXResourceProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56510,7 +56510,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingModelsImplModelAdapterFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56583,7 +56583,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56662,7 +56662,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56738,7 +56738,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56814,7 +56814,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingResourcemergerPickerOverridingInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56890,7 +56890,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingScriptingCoreImplScriptCacheImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -56963,7 +56963,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57045,7 +57045,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57118,7 +57118,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57221,7 +57221,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57294,7 +57294,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57373,7 +57373,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingSecurityImplContentDispositionFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57458,7 +57458,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingSecurityImplReferrerFilterInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57540,7 +57540,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57616,7 +57616,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57713,7 +57713,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingServletsGetDefaultGetServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57789,7 +57789,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57868,7 +57868,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -57959,7 +57959,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingServletsPostImplSlingPostServletInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -58041,7 +58041,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingServletsResolverSlingServletResolverInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -58117,7 +58117,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -58193,7 +58193,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingStartupfilterImplStartupFilterImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -58269,7 +58269,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingTenantInternalTenantProviderImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -58360,7 +58360,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingTracerInternalLogTracerInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,
@@ -58433,7 +58433,7 @@ module SwaggerAemOsgiClient
       return_type = opts[:return_type] || 'OrgApacheSlingXssImplXSSFilterImplInfo' 
 
       # auth_names
-      auth_names = opts[:auth_names] || []
+      auth_names = opts[:auth_names] || ['aemAuth']
 
       new_options = opts.merge(
         :header_params => header_params,

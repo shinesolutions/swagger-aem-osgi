@@ -22,13 +22,19 @@ module SwaggerAemOsgiClient
 
     attr_accessor :properties
 
+    attr_accessor :bundle_location
+
+    attr_accessor :service_location
+
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
         :'pid' => :'pid',
         :'title' => :'title',
         :'description' => :'description',
-        :'properties' => :'properties'
+        :'properties' => :'properties',
+        :'bundle_location' => :'bundle_location',
+        :'service_location' => :'service_location'
       }
     end
 
@@ -38,7 +44,9 @@ module SwaggerAemOsgiClient
         :'pid' => :'String',
         :'title' => :'String',
         :'description' => :'String',
-        :'properties' => :'OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties'
+        :'properties' => :'OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties',
+        :'bundle_location' => :'String',
+        :'service_location' => :'String'
       }
     end
 
@@ -72,6 +80,14 @@ module SwaggerAemOsgiClient
       if attributes.key?(:'properties')
         self.properties = attributes[:'properties']
       end
+
+      if attributes.key?(:'bundle_location')
+        self.bundle_location = attributes[:'bundle_location']
+      end
+
+      if attributes.key?(:'service_location')
+        self.service_location = attributes[:'service_location']
+      end
     end
 
     # Show invalid properties with the reasons. Usually used together with valid?
@@ -95,7 +111,9 @@ module SwaggerAemOsgiClient
           pid == o.pid &&
           title == o.title &&
           description == o.description &&
-          properties == o.properties
+          properties == o.properties &&
+          bundle_location == o.bundle_location &&
+          service_location == o.service_location
     end
 
     # @see the `==` method
@@ -107,7 +125,7 @@ module SwaggerAemOsgiClient
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [pid, title, description, properties].hash
+      [pid, title, description, properties, bundle_location, service_location].hash
     end
 
     # Builds the object from hash

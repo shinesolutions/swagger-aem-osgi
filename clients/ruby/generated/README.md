@@ -57,6 +57,13 @@ Please follow the [installation](#installation) procedure and then run the follo
 # Load the gem
 require 'swagger_aem_osgi'
 
+# Setup authorization
+SwaggerAemOsgiClient.configure do |config|
+  # Configure HTTP basic authorization: aemAuth
+  config.username = 'YOUR_USERNAME'
+  config.password = 'YOUR_PASSWORD'
+end
+
 api_instance = SwaggerAemOsgiClient::ConfigmgrApi.new
 opts = {
   post: true, # Boolean | 
@@ -2264,5 +2271,8 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Authorization
 
- All endpoints do not require authorization.
+
+### aemAuth
+
+- **Type**: HTTP basic authentication
 
