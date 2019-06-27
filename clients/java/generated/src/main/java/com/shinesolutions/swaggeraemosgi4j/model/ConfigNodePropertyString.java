@@ -27,7 +27,7 @@ import java.io.IOException;
 /**
  * ConfigNodePropertyString
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ConfigNodePropertyString {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
@@ -45,9 +45,9 @@ public class ConfigNodePropertyString {
   @SerializedName(SERIALIZED_NAME_TYPE)
   private Integer type;
 
-  public static final String SERIALIZED_NAME_VALUES = "values";
-  @SerializedName(SERIALIZED_NAME_VALUES)
-  private String values;
+  public static final String SERIALIZED_NAME_VALUE = "value";
+  @SerializedName(SERIALIZED_NAME_VALUE)
+  private String value;
 
   public static final String SERIALIZED_NAME_DESCRIPTION = "description";
   @SerializedName(SERIALIZED_NAME_DESCRIPTION)
@@ -125,22 +125,22 @@ public class ConfigNodePropertyString {
     this.type = type;
   }
 
-  public ConfigNodePropertyString values(String values) {
-    this.values = values;
+  public ConfigNodePropertyString value(String value) {
+    this.value = value;
     return this;
   }
 
    /**
    * Property value
-   * @return values
+   * @return value
   **/
   @ApiModelProperty(value = "Property value")
-  public String getValues() {
-    return values;
+  public String getValue() {
+    return value;
   }
 
-  public void setValues(String values) {
-    this.values = values;
+  public void setValue(String value) {
+    this.value = value;
   }
 
   public ConfigNodePropertyString description(String description) {
@@ -175,13 +175,13 @@ public class ConfigNodePropertyString {
         Objects.equals(this.optional, configNodePropertyString.optional) &&
         Objects.equals(this.isSet, configNodePropertyString.isSet) &&
         Objects.equals(this.type, configNodePropertyString.type) &&
-        Objects.equals(this.values, configNodePropertyString.values) &&
+        Objects.equals(this.value, configNodePropertyString.value) &&
         Objects.equals(this.description, configNodePropertyString.description);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(name, optional, isSet, type, values, description);
+    return Objects.hash(name, optional, isSet, type, value, description);
   }
 
 
@@ -193,7 +193,7 @@ public class ConfigNodePropertyString {
     sb.append("    optional: ").append(toIndentedString(optional)).append("\n");
     sb.append("    isSet: ").append(toIndentedString(isSet)).append("\n");
     sb.append("    type: ").append(toIndentedString(type)).append("\n");
-    sb.append("    values: ").append(toIndentedString(values)).append("\n");
+    sb.append("    value: ").append(toIndentedString(value)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
     sb.append("}");
     return sb.toString();

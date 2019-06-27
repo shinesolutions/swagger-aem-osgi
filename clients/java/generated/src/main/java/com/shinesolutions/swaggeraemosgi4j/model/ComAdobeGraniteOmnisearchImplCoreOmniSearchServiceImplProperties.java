@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties {
   public static final String SERIALIZED_NAME_OMNISEARCH_SUGGESTION_REQUIRETEXT_MIN = "omnisearch.suggestion.requiretext.min";
   @SerializedName(SERIALIZED_NAME_OMNISEARCH_SUGGESTION_REQUIRETEXT_MIN)

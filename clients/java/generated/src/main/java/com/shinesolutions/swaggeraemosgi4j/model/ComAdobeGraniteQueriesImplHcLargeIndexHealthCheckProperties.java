@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties {
   public static final String SERIALIZED_NAME_LARGE_INDEX_CRITICAL_THRESHOLD = "large.index.critical.threshold";
   @SerializedName(SERIALIZED_NAME_LARGE_INDEX_CRITICAL_THRESHOLD)

@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties {
   public static final String SERIALIZED_NAME_CONNECT_PROTOCOL = "connectProtocol";
   @SerializedName(SERIALIZED_NAME_CONNECT_PROTOCOL)

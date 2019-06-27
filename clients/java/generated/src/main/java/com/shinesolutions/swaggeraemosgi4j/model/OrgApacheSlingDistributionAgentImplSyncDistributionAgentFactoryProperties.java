@@ -32,7 +32,7 @@ import java.io.IOException;
 /**
  * OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)

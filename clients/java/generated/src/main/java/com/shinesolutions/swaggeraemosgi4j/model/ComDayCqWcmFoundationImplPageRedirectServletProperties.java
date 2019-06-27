@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqWcmFoundationImplPageRedirectServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqWcmFoundationImplPageRedirectServletProperties {
   public static final String SERIALIZED_NAME_EXCLUDED_RESOURCE_TYPES = "excluded.resource.types";
   @SerializedName(SERIALIZED_NAME_EXCLUDED_RESOURCE_TYPES)

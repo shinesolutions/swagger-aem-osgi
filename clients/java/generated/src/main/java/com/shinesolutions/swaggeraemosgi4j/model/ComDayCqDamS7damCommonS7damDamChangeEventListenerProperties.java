@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties {
   public static final String SERIALIZED_NAME_CQ_DAM_S7DAM_DAMCHANGEEVENTLISTENER_ENABLED = "cq.dam.s7dam.damchangeeventlistener.enabled";
   @SerializedName(SERIALIZED_NAME_CQ_DAM_S7DAM_DAMCHANGEEVENTLISTENER_ENABLED)

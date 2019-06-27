@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties {
   public static final String SERIALIZED_NAME_TEMP_STORAGE_CONFIG = "tempStorageConfig";
   @SerializedName(SERIALIZED_NAME_TEMP_STORAGE_CONFIG)

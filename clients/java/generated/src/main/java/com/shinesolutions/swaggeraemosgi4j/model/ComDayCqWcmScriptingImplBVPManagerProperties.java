@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqWcmScriptingImplBVPManagerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqWcmScriptingImplBVPManagerProperties {
   public static final String SERIALIZED_NAME_COM_DAY_CQ_WCM_SCRIPTING_BVP_SCRIPT_ENGINES = "com.day.cq.wcm.scripting.bvp.script.engines";
   @SerializedName(SERIALIZED_NAME_COM_DAY_CQ_WCM_SCRIPTING_BVP_SCRIPT_ENGINES)

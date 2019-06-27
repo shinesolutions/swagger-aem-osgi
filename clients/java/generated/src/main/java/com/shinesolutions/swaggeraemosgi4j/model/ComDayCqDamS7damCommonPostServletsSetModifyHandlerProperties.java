@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamS7damCommonPostServletsSetModifyHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqDamS7damCommonPostServletsSetModifyHandlerProperties {
   public static final String SERIALIZED_NAME_SLING_POST_OPERATION = "sling.post.operation";
   @SerializedName(SERIALIZED_NAME_SLING_POST_OPERATION)

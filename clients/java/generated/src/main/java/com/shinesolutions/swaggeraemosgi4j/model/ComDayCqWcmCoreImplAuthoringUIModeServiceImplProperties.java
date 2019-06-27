@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties {
   public static final String SERIALIZED_NAME_AUTHORING_U_I_MODE_SERVICE_DEFAULT = "authoringUIModeService.default";
   @SerializedName(SERIALIZED_NAME_AUTHORING_U_I_MODE_SERVICE_DEFAULT)

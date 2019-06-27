@@ -30,7 +30,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamCoreImplExpiryNotificationJobImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties {
   public static final String SERIALIZED_NAME_CQ_DAM_EXPIRY_NOTIFICATION_SCHEDULER_ISTIMEBASED = "cq.dam.expiry.notification.scheduler.istimebased";
   @SerializedName(SERIALIZED_NAME_CQ_DAM_EXPIRY_NOTIFICATION_SCHEDULER_ISTIMEBASED)

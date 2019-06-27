@@ -29,7 +29,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties {
   public static final String SERIALIZED_NAME_DEFAULT_TRANSPORT_AGENT_TO_WORKER_PREFIX = "default.transport.agent-to-worker.prefix";
   @SerializedName(SERIALIZED_NAME_DEFAULT_TRANSPORT_AGENT_TO_WORKER_PREFIX)

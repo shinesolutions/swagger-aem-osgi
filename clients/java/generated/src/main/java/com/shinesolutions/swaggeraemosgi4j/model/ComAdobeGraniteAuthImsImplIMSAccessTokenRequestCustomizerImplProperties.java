@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties {
   public static final String SERIALIZED_NAME_AUTH_IMS_CLIENT_SECRET = "auth.ims.client.secret";
   @SerializedName(SERIALIZED_NAME_AUTH_IMS_CLIENT_SECRET)

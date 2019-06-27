@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties {
   public static final String SERIALIZED_NAME_CQ_WCM_QRCODE_SERVLET_WHITELIST = "cq.wcm.qrcode.servlet.whitelist";
   @SerializedName(SERIALIZED_NAME_CQ_WCM_QRCODE_SERVLET_WHITELIST)

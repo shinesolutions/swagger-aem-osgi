@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties {
   public static final String SERIALIZED_NAME_OSGI_HTTP_WHITEBOARD_SERVLET_PATTERN = "osgi.http.whiteboard.servlet.pattern";
   @SerializedName(SERIALIZED_NAME_OSGI_HTTP_WHITEBOARD_SERVLET_PATTERN)

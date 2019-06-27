@@ -31,7 +31,7 @@ import java.io.IOException;
 /**
  * OrgApacheSlingServletsPostImplSlingPostServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class OrgApacheSlingServletsPostImplSlingPostServletProperties {
   public static final String SERIALIZED_NAME_SERVLET_POST_DATE_FORMATS = "servlet.post.dateFormats";
   @SerializedName(SERIALIZED_NAME_SERVLET_POST_DATE_FORMATS)

@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties {
   public static final String SERIALIZED_NAME_COMMUNITIES_INTEGRATION_LIVEFYRE_SLING_EVENT_FILTER = "communities.integration.livefyre.sling.event.filter";
   @SerializedName(SERIALIZED_NAME_COMMUNITIES_INTEGRATION_LIVEFYRE_SLING_EVENT_FILTER)

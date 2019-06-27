@@ -28,7 +28,7 @@ import java.math.BigDecimal;
 /**
  * ConfigNodePropertyFloat
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ConfigNodePropertyFloat {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
@@ -46,9 +46,9 @@ public class ConfigNodePropertyFloat {
   @SerializedName(SERIALIZED_NAME_TYPE)
   private Integer type;
 
-  public static final String SERIALIZED_NAME_VALUES = "values";
-  @SerializedName(SERIALIZED_NAME_VALUES)
-  private BigDecimal values;
+  public static final String SERIALIZED_NAME_VALUE = "value";
+  @SerializedName(SERIALIZED_NAME_VALUE)
+  private BigDecimal value;
 
   public static final String SERIALIZED_NAME_DESCRIPTION = "description";
   @SerializedName(SERIALIZED_NAME_DESCRIPTION)
@@ -126,22 +126,22 @@ public class ConfigNodePropertyFloat {
     this.type = type;
   }
 
-  public ConfigNodePropertyFloat values(BigDecimal values) {
-    this.values = values;
+  public ConfigNodePropertyFloat value(BigDecimal value) {
+    this.value = value;
     return this;
   }
 
    /**
    * Property value
-   * @return values
+   * @return value
   **/
   @ApiModelProperty(value = "Property value")
-  public BigDecimal getValues() {
-    return values;
+  public BigDecimal getValue() {
+    return value;
   }
 
-  public void setValues(BigDecimal values) {
-    this.values = values;
+  public void setValue(BigDecimal value) {
+    this.value = value;
   }
 
   public ConfigNodePropertyFloat description(String description) {
@@ -176,13 +176,13 @@ public class ConfigNodePropertyFloat {
         Objects.equals(this.optional, configNodePropertyFloat.optional) &&
         Objects.equals(this.isSet, configNodePropertyFloat.isSet) &&
         Objects.equals(this.type, configNodePropertyFloat.type) &&
-        Objects.equals(this.values, configNodePropertyFloat.values) &&
+        Objects.equals(this.value, configNodePropertyFloat.value) &&
         Objects.equals(this.description, configNodePropertyFloat.description);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(name, optional, isSet, type, values, description);
+    return Objects.hash(name, optional, isSet, type, value, description);
   }
 
 
@@ -194,7 +194,7 @@ public class ConfigNodePropertyFloat {
     sb.append("    optional: ").append(toIndentedString(optional)).append("\n");
     sb.append("    isSet: ").append(toIndentedString(isSet)).append("\n");
     sb.append("    type: ").append(toIndentedString(type)).append("\n");
-    sb.append("    values: ").append(toIndentedString(values)).append("\n");
+    sb.append("    value: ").append(toIndentedString(value)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
     sb.append("}");
     return sb.toString();

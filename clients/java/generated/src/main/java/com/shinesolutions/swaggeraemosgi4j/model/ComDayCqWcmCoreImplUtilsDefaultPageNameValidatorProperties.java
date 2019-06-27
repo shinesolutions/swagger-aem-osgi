@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorProperties {
   public static final String SERIALIZED_NAME_NON_VALID_CHARS = "nonValidChars";
   @SerializedName(SERIALIZED_NAME_NON_VALID_CHARS)

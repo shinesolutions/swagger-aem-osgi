@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeCqAddressImplLocationLocationListServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeCqAddressImplLocationLocationListServletProperties {
   public static final String SERIALIZED_NAME_CQ_ADDRESS_LOCATION_DEFAULT_MAX_RESULTS = "cq.address.location.default.maxResults";
   @SerializedName(SERIALIZED_NAME_CQ_ADDRESS_LOCATION_DEFAULT_MAX_RESULTS)

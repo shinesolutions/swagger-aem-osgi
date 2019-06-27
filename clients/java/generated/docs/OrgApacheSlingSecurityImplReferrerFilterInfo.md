@@ -10,6 +10,8 @@ Name | Type | Description | Notes
 **title** | **String** |  |  [optional]
 **description** | **String** |  |  [optional]
 **properties** | [**OrgApacheSlingSecurityImplReferrerFilterProperties**](OrgApacheSlingSecurityImplReferrerFilterProperties.md) |  |  [optional]
+**bundleLocation** | **String** |  |  [optional]
+**serviceLocation** | **String** |  |  [optional]
 
 
 

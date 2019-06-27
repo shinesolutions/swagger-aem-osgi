@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties {
   public static final String SERIALIZED_NAME_CQ_ANALYTICS_TESTANDTARGET_ACCOUNTOPTIONSUPDATER_ENABLED = "cq.analytics.testandtarget.accountoptionsupdater.enabled";
   @SerializedName(SERIALIZED_NAME_CQ_ANALYTICS_TESTANDTARGET_ACCOUNTOPTIONSUPDATER_ENABLED)

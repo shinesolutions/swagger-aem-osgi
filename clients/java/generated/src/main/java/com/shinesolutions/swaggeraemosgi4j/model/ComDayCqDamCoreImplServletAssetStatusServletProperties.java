@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamCoreImplServletAssetStatusServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqDamCoreImplServletAssetStatusServletProperties {
   public static final String SERIALIZED_NAME_CQ_DAM_BATCH_STATUS_MAXASSETS = "cq.dam.batch.status.maxassets";
   @SerializedName(SERIALIZED_NAME_CQ_DAM_BATCH_STATUS_MAXASSETS)

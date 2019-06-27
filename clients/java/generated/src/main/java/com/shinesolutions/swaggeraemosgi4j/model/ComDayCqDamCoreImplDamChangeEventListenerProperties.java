@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComDayCqDamCoreImplDamChangeEventListenerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComDayCqDamCoreImplDamChangeEventListenerProperties {
   public static final String SERIALIZED_NAME_CHANGEEVENTLISTENER_OBSERVED_PATHS = "changeeventlistener.observed.paths";
   @SerializedName(SERIALIZED_NAME_CHANGEEVENTLISTENER_OBSERVED_PATHS)

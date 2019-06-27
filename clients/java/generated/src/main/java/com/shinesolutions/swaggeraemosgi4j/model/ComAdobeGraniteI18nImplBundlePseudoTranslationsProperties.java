@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T02:21:59.870Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-06-27T11:23:34.688Z[GMT]")
 public class ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties {
   public static final String SERIALIZED_NAME_PSEUDO_PATTERNS = "pseudo.patterns";
   @SerializedName(SERIALIZED_NAME_PSEUDO_PATTERNS)
