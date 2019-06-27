@@ -59,8 +59,8 @@ class ConfigNodePropertyFloat {
             if (data.hasOwnProperty('type')) {
                 obj['type'] = ApiClient.convertToType(data['type'], 'Number');
             }
-            if (data.hasOwnProperty('values')) {
-                obj['values'] = ApiClient.convertToType(data['values'], 'Number');
+            if (data.hasOwnProperty('value')) {
+                obj['value'] = ApiClient.convertToType(data['value'], 'Number');
             }
             if (data.hasOwnProperty('description')) {
                 obj['description'] = ApiClient.convertToType(data['description'], 'String');
@@ -98,9 +98,9 @@ ConfigNodePropertyFloat.prototype['type'] = undefined;
 
 /**
  * Property value
- * @member {Number} values
+ * @member {Number} value
  */
-ConfigNodePropertyFloat.prototype['values'] = undefined;
+ConfigNodePropertyFloat.prototype['value'] = undefined;
 
 /**
  * Property description

@@ -60,6 +60,12 @@ class OrgApacheSlingSecurityImplReferrerFilterInfo {
             if (data.hasOwnProperty('properties')) {
                 obj['properties'] = OrgApacheSlingSecurityImplReferrerFilterProperties.constructFromObject(data['properties']);
             }
+            if (data.hasOwnProperty('bundle_location')) {
+                obj['bundle_location'] = ApiClient.convertToType(data['bundle_location'], 'String');
+            }
+            if (data.hasOwnProperty('service_location')) {
+                obj['service_location'] = ApiClient.convertToType(data['service_location'], 'String');
+            }
         }
         return obj;
     }
@@ -86,6 +92,16 @@ OrgApacheSlingSecurityImplReferrerFilterInfo.prototype['description'] = undefine
  * @member {module:model/OrgApacheSlingSecurityImplReferrerFilterProperties} properties
  */
 OrgApacheSlingSecurityImplReferrerFilterInfo.prototype['properties'] = undefined;
+
+/**
+ * @member {String} bundle_location
+ */
+OrgApacheSlingSecurityImplReferrerFilterInfo.prototype['bundle_location'] = undefined;
+
+/**
+ * @member {String} service_location
+ */
+OrgApacheSlingSecurityImplReferrerFilterInfo.prototype['service_location'] = undefined;
 
 
 

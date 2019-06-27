@@ -804,7 +804,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Configuration', 'POST',
@@ -855,7 +855,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration', 'POST',
@@ -906,7 +906,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = AnalyticsComponentQueryCacheServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/Analytics Component Query Cache Service', 'POST',
@@ -957,7 +957,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ApacheSlingHealthCheckResultHTMLSerializerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/Apache Sling Health Check Result HTML Serializer', 'POST',
@@ -1010,7 +1010,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration', 'POST',
@@ -1061,7 +1061,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeAemTransactionCoreImplTransactionRecorderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.aem.transaction.core.impl.TransactionRecorder', 'POST',
@@ -1116,7 +1116,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.aem.upgrade.prechecks.hc.impl.DeprecateIndexesHC', 'POST',
@@ -1171,7 +1171,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.aem.upgrade.prechecks.hc.impl.ReplicationAgentsDisabledHC', 'POST',
@@ -1224,7 +1224,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.aem.upgrade.prechecks.mbean.impl.PreUpgradeTasksMBeanImpl', 'POST',
@@ -1277,7 +1277,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.aem.upgrade.prechecks.tasks.impl.ConsistencyCheckTaskImpl', 'POST',
@@ -1332,7 +1332,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqAccountApiAccountManagementServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.account.api.AccountManagementService', 'POST',
@@ -1385,7 +1385,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqAccountImplAccountManagementServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.account.impl.AccountManagementServlet', 'POST',
@@ -1436,7 +1436,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqAddressImplLocationLocationListServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.address.impl.location.LocationListServlet', 'POST',
@@ -1493,7 +1493,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqAuditPurgeDamInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.audit.purge.Dam', 'POST',
@@ -1550,7 +1550,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqAuditPurgePagesInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.audit.purge.Pages', 'POST',
@@ -1607,7 +1607,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqAuditPurgeReplicationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.audit.purge.Replication', 'POST',
@@ -1666,7 +1666,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter', 'POST',
@@ -1725,7 +1725,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl', 'POST',
@@ -1780,7 +1780,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCdnRewriterImplCDNRewriterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNRewriter', 'POST',
@@ -1831,7 +1831,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler', 'POST',
@@ -1884,7 +1884,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.commerce.impl.asset.DynamicImageHandler', 'POST',
@@ -1935,7 +1935,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl', 'POST',
@@ -1988,7 +1988,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCommerceImplAssetStaticImageHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.commerce.impl.asset.StaticImageHandler', 'POST',
@@ -2041,7 +2041,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCommerceImplAssetVideoHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.commerce.impl.asset.VideoHandler', 'POST',
@@ -2092,7 +2092,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.commerce.impl.promotion.PromotionManagerImpl', 'POST',
@@ -2147,7 +2147,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.commerce.pim.impl.cataloggenerator.CatalogGeneratorImpl', 'POST',
@@ -2198,7 +2198,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCommercePimImplPageEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.commerce.pim.impl.PageEventListener', 'POST',
@@ -2249,7 +2249,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl', 'POST',
@@ -2300,7 +2300,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider', 'POST',
@@ -2351,7 +2351,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet', 'POST',
@@ -2402,7 +2402,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet', 'POST',
@@ -2459,7 +2459,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamCfmImplComponentComponentConfigImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl', 'POST',
@@ -2512,7 +2512,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamCfmImplConfFeatureConfigImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl', 'POST',
@@ -2563,7 +2563,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor', 'POST',
@@ -2614,7 +2614,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.ParRangeFilter', 'POST',
@@ -2665,7 +2665,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.PayloadFilter', 'POST',
@@ -2716,7 +2716,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamDmProcessImagePTiffManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.dm.process.image.PTiffManagerImpl', 'POST',
@@ -2769,7 +2769,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.ips.impl.replication.trigger.ReplicateOnModifyWorker', 'POST',
@@ -2820,7 +2820,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.mac.sync.helper.impl.MACSyncClientImpl', 'POST',
@@ -2877,7 +2877,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.mac.sync.impl.DAMSyncServiceImpl', 'POST',
@@ -2932,7 +2932,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.processor.nui.impl.NuiAssetProcessor', 'POST',
@@ -2993,7 +2993,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamS7imagingImplIsImageServerComponentInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.s7imaging.impl.is.ImageServerComponent', 'POST',
@@ -3050,7 +3050,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.s7imaging.impl.ps.PlatformServerServlet', 'POST',
@@ -3105,7 +3105,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.webdav.impl.io.AssetIOHandler', 'POST',
@@ -3160,7 +3160,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.webdav.impl.io.DamWebdavVersionLinkingJob', 'POST',
@@ -3211,7 +3211,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dam.webdav.impl.io.SpecialFilesHandler', 'POST',
@@ -3266,7 +3266,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDeserfwImplDeserializationFirewallImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl', 'POST',
@@ -3319,7 +3319,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDtmImplServiceDTMWebServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dtm.impl.service.DTMWebServiceImpl', 'POST',
@@ -3372,7 +3372,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDtmImplServletsDTMDeployHookServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dtm.impl.servlets.DTMDeployHookServlet', 'POST',
@@ -3427,7 +3427,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqDtmReactorImplServiceWebServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.dtm.reactor.impl.service.WebServiceImpl', 'POST',
@@ -3480,7 +3480,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.experiencelog.impl.ExperienceLogConfigServlet', 'POST',
@@ -3537,7 +3537,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqHcContentPackagesHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.hc.ContentPackagesHealthCheck', 'POST',
@@ -3590,7 +3590,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqHistoryImplHistoryRequestFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.history.impl.HistoryRequestFilter', 'POST',
@@ -3643,7 +3643,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqHistoryImplHistoryServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.history.impl.HistoryServiceImpl', 'POST',
@@ -3702,7 +3702,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.inbox.impl.typeprovider.ItemTypeProvider', 'POST',
@@ -3755,7 +3755,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqProjectsImplServletProjectImageServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.projects.impl.servlet.ProjectImageServlet', 'POST',
@@ -3820,7 +3820,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqProjectsPurgeSchedulerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.projects.purge.Scheduler', 'POST',
@@ -3873,7 +3873,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScheduledExporterImplScheduledExporterImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.scheduled.exporter.impl.ScheduledExporterImpl', 'POST',
@@ -3932,7 +3932,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.analytics.impl.ScreensAnalyticsServiceImpl', 'POST',
@@ -3995,7 +3995,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensDeviceImplDeviceServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService', 'POST',
@@ -4046,7 +4046,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl', 'POST',
@@ -4105,7 +4105,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.impl.handler.ChannelsUpdateHandler', 'POST',
@@ -4156,7 +4156,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob', 'POST',
@@ -4207,7 +4207,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.impl.remote.impl.DistributedHttpClientImpl', 'POST',
@@ -4258,7 +4258,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensImplScreensChannelPostProcessorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.impl.ScreensChannelPostProcessor', 'POST',
@@ -4325,7 +4325,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl', 'POST',
@@ -4440,7 +4440,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.mq.activemq.impl.ArtemisJMSProvider', 'POST',
@@ -4493,7 +4493,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl', 'POST',
@@ -4544,7 +4544,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl', 'POST',
@@ -4595,7 +4595,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag', 'POST',
@@ -4646,7 +4646,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck', 'POST',
@@ -4697,7 +4697,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck', 'POST',
@@ -4754,7 +4754,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck', 'POST',
@@ -4805,7 +4805,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck', 'POST',
@@ -4858,7 +4858,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck', 'POST',
@@ -4913,7 +4913,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl', 'POST',
@@ -4964,7 +4964,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl', 'POST',
@@ -5015,7 +5015,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory', 'POST',
@@ -5068,7 +5068,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler', 'POST',
@@ -5121,7 +5121,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension', 'POST',
@@ -5174,7 +5174,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor', 'POST',
@@ -5227,7 +5227,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory', 'POST',
@@ -5282,7 +5282,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl', 'POST',
@@ -5335,7 +5335,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment', 'POST',
@@ -5386,7 +5386,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCalendarServletsTimeZoneServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.calendar.servlets.TimeZoneServlet', 'POST',
@@ -5437,7 +5437,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor', 'POST',
@@ -5490,7 +5490,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService', 'POST',
@@ -5543,7 +5543,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService', 'POST',
@@ -5594,7 +5594,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider', 'POST',
@@ -5649,7 +5649,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts', 'POST',
@@ -5700,7 +5700,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter', 'POST',
@@ -5753,7 +5753,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider', 'POST',
@@ -5804,7 +5804,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl', 'POST',
@@ -5855,7 +5855,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener', 'POST',
@@ -5908,7 +5908,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider', 'POST',
@@ -5973,7 +5973,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl', 'POST',
@@ -6044,7 +6044,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl', 'POST',
@@ -6095,7 +6095,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter', 'POST',
@@ -6148,7 +6148,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider', 'POST',
@@ -6201,7 +6201,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider', 'POST',
@@ -6254,7 +6254,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.MacmailEmailClientProvider', 'POST',
@@ -6307,7 +6307,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider', 'POST',
@@ -6360,7 +6360,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider', 'POST',
@@ -6413,7 +6413,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider', 'POST',
@@ -6466,7 +6466,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads', 'POST',
@@ -6521,7 +6521,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl', 'POST',
@@ -6580,7 +6580,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl', 'POST',
@@ -6645,7 +6645,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl', 'POST',
@@ -6698,7 +6698,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler', 'POST',
@@ -6753,7 +6753,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper', 'POST',
@@ -6816,7 +6816,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl', 'POST',
@@ -6869,7 +6869,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl', 'POST',
@@ -6932,7 +6932,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory', 'POST',
@@ -6995,7 +6995,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory', 'POST',
@@ -7058,7 +7058,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory', 'POST',
@@ -7109,7 +7109,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory', 'POST',
@@ -7160,7 +7160,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory', 'POST',
@@ -7211,7 +7211,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService', 'POST',
@@ -7262,7 +7262,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService', 'POST',
@@ -7313,7 +7313,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl', 'POST',
@@ -7366,7 +7366,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet', 'POST',
@@ -7419,7 +7419,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService', 'POST',
@@ -7472,7 +7472,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService', 'POST',
@@ -7525,7 +7525,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations', 'POST',
@@ -7582,7 +7582,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory', 'POST',
@@ -7635,7 +7635,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialGroupImplGroupServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.group.impl.GroupServiceImpl', 'POST',
@@ -7692,7 +7692,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl', 'POST',
@@ -7745,7 +7745,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService', 'POST',
@@ -7798,7 +7798,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService', 'POST',
@@ -7849,7 +7849,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService', 'POST',
@@ -7900,7 +7900,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService', 'POST',
@@ -7953,7 +7953,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory', 'POST',
@@ -8042,7 +8042,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl', 'POST',
@@ -8095,7 +8095,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory', 'POST',
@@ -8146,7 +8146,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory', 'POST',
@@ -8197,7 +8197,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory', 'POST',
@@ -8250,7 +8250,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2', 'POST',
@@ -8303,7 +8303,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialNotificationsImplMentionsRouterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.notifications.impl.MentionsRouter', 'POST',
@@ -8354,7 +8354,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationManagerImpl', 'POST',
@@ -8407,7 +8407,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialNotificationsImplNotificationsRouterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationsRouter', 'POST',
@@ -8460,7 +8460,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService', 'POST',
@@ -8513,7 +8513,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl', 'POST',
@@ -8564,7 +8564,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl', 'POST',
@@ -8617,7 +8617,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory', 'POST',
@@ -8670,7 +8670,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService', 'POST',
@@ -8723,7 +8723,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet', 'POST',
@@ -8776,7 +8776,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet', 'POST',
@@ -8829,7 +8829,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialScoringImplScoringEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.scoring.impl.ScoringEventListener', 'POST',
@@ -8880,7 +8880,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl', 'POST',
@@ -8935,7 +8935,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.site.endpoints.impl.SiteOperationService', 'POST',
@@ -8986,7 +8986,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl', 'POST',
@@ -9037,7 +9037,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.site.impl.SiteConfiguratorImpl', 'POST',
@@ -9088,7 +9088,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialSrpImplSocialSolrConnectorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.srp.impl.SocialSolrConnector', 'POST',
@@ -9145,7 +9145,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialSyncImplDiffChangesObserverInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.sync.impl.DiffChangesObserver', 'POST',
@@ -9204,7 +9204,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.sync.impl.GroupSyncListenerImpl', 'POST',
@@ -9255,7 +9255,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.sync.impl.PublisherSyncServiceImpl', 'POST',
@@ -9314,7 +9314,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialSyncImplUserSyncListenerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.sync.impl.UserSyncListenerImpl', 'POST',
@@ -9379,7 +9379,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.translation.impl.TranslationServiceConfigManager', 'POST',
@@ -9444,7 +9444,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.translation.impl.UGCLanguageDetector', 'POST',
@@ -9499,7 +9499,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ugcbase.dispatcher.impl.FlushServiceImpl', 'POST',
@@ -9556,7 +9556,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ugcbase.impl.AysncReverseReplicatorImpl', 'POST',
@@ -9607,7 +9607,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ugcbase.impl.PublisherConfigurationImpl', 'POST',
@@ -9658,7 +9658,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl', 'POST',
@@ -9711,7 +9711,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl', 'POST',
@@ -9768,7 +9768,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess', 'POST',
@@ -9821,7 +9821,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService', 'POST',
@@ -9886,7 +9886,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl', 'POST',
@@ -9941,7 +9941,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet', 'POST',
@@ -10000,7 +10000,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqSocialUserImplTransportHttpToPublisherInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.social.user.impl.transport.HttpToPublisher', 'POST',
@@ -10051,7 +10051,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended', 'POST',
@@ -10104,7 +10104,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup', 'POST',
@@ -10155,7 +10155,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup', 'POST',
@@ -10210,7 +10210,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService', 'POST',
@@ -10265,7 +10265,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncJobCleanUpTask', 'POST',
@@ -10320,7 +10320,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncMoveConfigProviderService', 'POST',
@@ -10375,7 +10375,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncPageMoveConfigProviderService', 'POST',
@@ -10432,7 +10432,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler', 'POST',
@@ -10483,7 +10483,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.wcm.mobile.qrcode.servlet.QRCodeImageGenerator', 'POST',
@@ -10534,7 +10534,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.wcm.style.internal.ComponentStyleInfoCacheImpl', 'POST',
@@ -10591,7 +10591,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.cq.wcm.translation.impl.TranslationPlatformConfigurationImpl', 'POST',
@@ -10654,7 +10654,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService', 'POST',
@@ -10705,7 +10705,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.fd.fp.config.FormsPortalSchedulerService', 'POST',
@@ -10756,7 +10756,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeFormsCommonServiceImplDefaultDataProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.forms.common.service.impl.DefaultDataProvider', 'POST',
@@ -10807,7 +10807,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl', 'POST',
@@ -10862,7 +10862,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeFormsCommonServletTempCleanUpTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.forms.common.servlet.TempCleanUpTask', 'POST',
@@ -10915,7 +10915,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAcpPlatformPlatformServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.acp.platform.PlatformServlet', 'POST',
@@ -10968,7 +10968,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.activitystreams.impl.ActivityManagerImpl', 'POST',
@@ -11019,7 +11019,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.analyzer.base.SystemStatusServlet', 'POST',
@@ -11070,7 +11070,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.analyzer.scripts.compile.AllScriptsCompilerServlet', 'POST',
@@ -11431,7 +11431,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.apicontroller.FilterResolverHookFactory', 'POST',
@@ -11484,7 +11484,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.cert.impl.ClientCertAuthHandler', 'POST',
@@ -11537,7 +11537,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthImsInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.ims', 'POST',
@@ -11588,7 +11588,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.ims.impl.ExternalUserIdMappingProviderExtension', 'POST',
@@ -11641,7 +11641,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.ims.impl.IMSAccessTokenRequestCustomizerImpl', 'POST',
@@ -11692,7 +11692,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.ims.impl.IMSInstanceCredentialsValidator', 'POST',
@@ -11767,7 +11767,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthImsImplIMSProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.ims.impl.IMSProviderImpl', 'POST',
@@ -11824,7 +11824,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.ims.impl.ImsConfigProviderImpl', 'POST',
@@ -11901,7 +11901,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthAccesstokenProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.accesstoken.provider', 'POST',
@@ -11962,7 +11962,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.BearerAuthenticationHandler', 'POST',
@@ -12013,7 +12013,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.DefaultTokenValidatorImpl', 'POST',
@@ -12064,7 +12064,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.FacebookProviderImpl', 'POST',
@@ -12121,7 +12121,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplGithubProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.GithubProviderImpl', 'POST',
@@ -12180,7 +12180,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplGraniteProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.GraniteProvider', 'POST',
@@ -12233,7 +12233,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManager', 'POST',
@@ -12286,7 +12286,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManagerInternal', 'POST',
@@ -12337,7 +12337,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.OAuthAuthenticationHandler', 'POST',
@@ -12388,7 +12388,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.impl.TwitterProviderImpl', 'POST',
@@ -12469,7 +12469,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthOauthProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.oauth.provider', 'POST',
@@ -12520,7 +12520,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.requirement.impl.DefaultRequirementHandler', 'POST',
@@ -12621,7 +12621,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.saml.SamlAuthenticationHandler', 'POST',
@@ -12692,7 +12692,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.auth.sso.impl.SsoAuthenticationHandler', 'POST',
@@ -12745,7 +12745,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.CodeCacheHealthCheck', 'POST',
@@ -12796,7 +12796,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.CrxdeSupportBundleHealthCheck', 'POST',
@@ -12847,7 +12847,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.DavExBundleHealthCheck', 'POST',
@@ -12900,7 +12900,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.InactiveBundlesHealthCheck', 'POST',
@@ -12953,7 +12953,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.JobsHealthCheck', 'POST',
@@ -13004,7 +13004,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingGetServletHealthCheck', 'POST',
@@ -13055,7 +13055,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJavaScriptHandlerHealthCheck', 'POST',
@@ -13106,7 +13106,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck', 'POST',
@@ -13157,7 +13157,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck', 'POST',
@@ -13208,7 +13208,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck', 'POST',
@@ -13259,7 +13259,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory', 'POST',
@@ -13312,7 +13312,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl', 'POST',
@@ -13367,7 +13367,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteCompatrouterImplRoutingConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.compatrouter.impl.RoutingConfig', 'POST',
@@ -13420,7 +13420,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.compatrouter.impl.SwitchMappingConfig', 'POST',
@@ -13473,7 +13473,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy', 'POST',
@@ -13526,7 +13526,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteContexthubImplContextHubImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.contexthub.impl.ContextHubImpl', 'POST',
@@ -13591,7 +13591,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteCorsImplCORSPolicyImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl', 'POST',
@@ -13648,7 +13648,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteCsrfImplCSRFFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter', 'POST',
@@ -13701,7 +13701,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteCsrfImplCSRFServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.csrf.impl.CSRFServlet', 'POST',
@@ -13756,7 +13756,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider', 'POST',
@@ -13821,7 +13821,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver', 'POST',
@@ -13876,7 +13876,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffEventListener', 'POST',
@@ -13927,7 +13927,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer', 'POST',
@@ -13980,7 +13980,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider', 'POST',
@@ -14031,7 +14031,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler', 'POST',
@@ -14088,7 +14088,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider', 'POST',
@@ -14145,7 +14145,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.frags.impl.CheckHttpHeaderFlag', 'POST',
@@ -14204,7 +14204,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteFragsImplRandomFeatureInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.frags.impl.RandomFeature', 'POST',
@@ -14257,7 +14257,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteHttpcacheFileFileCacheStoreInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.httpcache.file.FileCacheStore', 'POST',
@@ -14308,7 +14308,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.httpcache.impl.OuterCacheFilter', 'POST',
@@ -14359,7 +14359,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.i18n.impl.bundle.PseudoTranslations', 'POST',
@@ -14410,7 +14410,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.i18n.impl.PreferencesLocaleResolverService', 'POST',
@@ -14463,7 +14463,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteInfocollectorInfoCollectorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.infocollector.InfoCollector', 'POST',
@@ -14524,7 +14524,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.jetty.ssl.internal.GraniteSslConnectorFactory', 'POST',
@@ -14579,7 +14579,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteLicenseImplLicenseCheckFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.license.impl.LicenseCheckFilter', 'POST',
@@ -14634,7 +14634,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteLoggingImplLogAnalyserImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.logging.impl.LogAnalyserImpl', 'POST',
@@ -14685,7 +14685,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.logging.impl.LogErrorHealthCheck', 'POST',
@@ -14738,7 +14738,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.maintenance.crx.impl.DataStoreGarbageCollectionTask', 'POST',
@@ -14789,7 +14789,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask', 'POST',
@@ -14840,7 +14840,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask', 'POST',
@@ -14901,7 +14901,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteMonitoringImplScriptConfigImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.monitoring.impl.ScriptConfigImpl', 'POST',
@@ -14960,7 +14960,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler', 'POST',
@@ -15011,7 +15011,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask', 'POST',
@@ -15062,7 +15062,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet', 'POST',
@@ -15115,7 +15115,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet', 'POST',
@@ -15172,7 +15172,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2TokenEndpointServlet', 'POST',
@@ -15223,7 +15223,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2TokenRevocationServlet', 'POST',
@@ -15276,7 +15276,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingConfigurator', 'POST',
@@ -15327,7 +15327,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner', 'POST',
@@ -15378,7 +15378,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobOffloader', 'POST',
@@ -15429,7 +15429,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager', 'POST',
@@ -15492,7 +15492,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter', 'POST',
@@ -15545,7 +15545,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl', 'POST',
@@ -15600,7 +15600,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteOptoutImplOptOutServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.optout.impl.OptOutServiceImpl', 'POST',
@@ -15655,7 +15655,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck', 'POST',
@@ -15710,7 +15710,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.queries.impl.hc.LargeIndexHealthCheck', 'POST',
@@ -15761,7 +15761,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.queries.impl.hc.QueriesStatusHealthCheck', 'POST',
@@ -15812,7 +15812,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics', 'POST',
@@ -15863,7 +15863,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck', 'POST',
@@ -15916,7 +15916,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck', 'POST',
@@ -15967,7 +15967,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck', 'POST',
@@ -16018,7 +16018,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck', 'POST',
@@ -16071,7 +16071,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck', 'POST',
@@ -16122,7 +16122,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck', 'POST',
@@ -16173,7 +16173,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck', 'POST',
@@ -16228,7 +16228,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck', 'POST',
@@ -16283,7 +16283,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck', 'POST',
@@ -16334,7 +16334,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck', 'POST',
@@ -16409,7 +16409,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryImplCommitStatsConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.impl.CommitStatsConfig', 'POST',
@@ -16464,7 +16464,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRepositoryServiceUserConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.repository.ServiceUserConfiguration', 'POST',
@@ -16515,7 +16515,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl', 'POST',
@@ -16568,7 +16568,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.resourcestatus.impl.CompositeStatusType', 'POST',
@@ -16619,7 +16619,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl', 'POST',
@@ -16672,7 +16672,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter', 'POST',
@@ -16723,7 +16723,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl', 'POST',
@@ -16776,7 +16776,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteRestImplServletDefaultGETServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.rest.impl.servlet.DefaultGETServlet', 'POST',
@@ -16827,7 +16827,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet', 'POST',
@@ -16882,7 +16882,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteSecurityUserUserPropertiesServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.security.user.UserPropertiesService', 'POST',
@@ -16939,7 +16939,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl', 'POST',
@@ -16992,7 +16992,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl', 'POST',
@@ -17043,7 +17043,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory', 'POST',
@@ -17098,7 +17098,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService', 'POST',
@@ -17157,7 +17157,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask', 'POST',
@@ -17210,7 +17210,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory', 'POST',
@@ -17277,7 +17277,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteThreaddumpThreadDumpCollectorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.threaddump.ThreadDumpCollector', 'POST',
@@ -17344,7 +17344,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl', 'POST',
@@ -17397,7 +17397,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.translation.core.impl.TranslationManagerImpl', 'POST',
@@ -17486,7 +17486,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl', 'POST',
@@ -17537,7 +17537,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature', 'POST',
@@ -17588,7 +17588,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.console.publish.WorkflowPublishEventService', 'POST',
@@ -17639,7 +17639,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager', 'POST',
@@ -17694,7 +17694,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler', 'POST',
@@ -17747,7 +17747,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowCoreJobJobHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.core.job.JobHandler', 'POST',
@@ -17798,7 +17798,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer', 'POST',
@@ -17851,7 +17851,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowCorePayloadMapCacheInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.core.PayloadMapCache', 'POST',
@@ -17904,7 +17904,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener', 'POST',
@@ -17959,7 +17959,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowCoreWorkflowConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.core.WorkflowConfig', 'POST',
@@ -18030,7 +18030,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.core.WorkflowSessionFactory', 'POST',
@@ -18087,7 +18087,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeGraniteWorkflowPurgeSchedulerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.granite.workflow.purge.Scheduler', 'POST',
@@ -18146,7 +18146,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeOctopusNcommBootstrapInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.octopus.ncomm.bootstrap', 'POST',
@@ -18197,7 +18197,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet', 'POST',
@@ -18254,7 +18254,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm', 'POST',
@@ -18325,7 +18325,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.commons.datasource.jdbcpool.JdbcPoolService', 'POST',
@@ -18388,7 +18388,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCommonsHttpclientInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.commons.httpclient', 'POST',
@@ -18439,7 +18439,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.impl.StorePropertiesChangeListener', 'POST',
@@ -18492,7 +18492,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter', 'POST',
@@ -18545,7 +18545,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter', 'POST',
@@ -18596,7 +18596,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory', 'POST',
@@ -18653,7 +18653,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl', 'POST',
@@ -18704,7 +18704,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.testandtarget.impl.AccountOptionsUpdater', 'POST',
@@ -18755,7 +18755,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.testandtarget.impl.DeleteAuthorActivityListener', 'POST',
@@ -18806,7 +18806,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.testandtarget.impl.PushAuthorCampaignPageListener', 'POST',
@@ -18857,7 +18857,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.testandtarget.impl.SegmentImporter', 'POST',
@@ -18912,7 +18912,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.testandtarget.impl.service.WebServiceImpl', 'POST',
@@ -18963,7 +18963,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.testandtarget.impl.servlets.AdminServerServlet', 'POST',
@@ -19022,7 +19022,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.analytics.testandtarget.impl.TestandtargetHttpClientImpl', 'POST',
@@ -19079,7 +19079,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAuthImplCugCugSupportImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.auth.impl.cug.CugSupportImpl', 'POST',
@@ -19144,7 +19144,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqAuthImplLoginSelectorHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.auth.impl.LoginSelectorHandler', 'POST',
@@ -19201,7 +19201,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqCommonsImplExternalizerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl', 'POST',
@@ -19252,7 +19252,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqCommonsServletsRootMappingServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.commons.servlets.RootMappingServlet', 'POST',
@@ -19305,7 +19305,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker', 'POST',
@@ -19356,7 +19356,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList', 'POST',
@@ -19407,7 +19407,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist', 'POST',
@@ -19460,7 +19460,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqContentsyncImplContentSyncManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.contentsync.impl.ContentSyncManagerImpl', 'POST',
@@ -19515,7 +19515,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCommonsHandlerStandardImageHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.commons.handler.StandardImageHandler', 'POST',
@@ -19572,7 +19572,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.commons.metadata.XmpFilterBlackWhite', 'POST',
@@ -19627,7 +19627,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCommonsUtilImplAssetCacheImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.commons.util.impl.AssetCacheImpl', 'POST',
@@ -19708,7 +19708,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig', 'POST',
@@ -19759,7 +19759,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplAssetMoveListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.AssetMoveListener', 'POST',
@@ -19810,7 +19810,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.assethome.AssetHomePageConfiguration', 'POST',
@@ -19861,7 +19861,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.assetlinkshare.AdhocAssetShareProxyServlet', 'POST',
@@ -19916,7 +19916,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.cache.CQBufferedImageCache', 'POST',
@@ -19967,7 +19967,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplDamChangeEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.DamChangeEventListener', 'POST',
@@ -20026,7 +20026,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplDamEventPurgeServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.DamEventPurgeService', 'POST',
@@ -20085,7 +20085,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplDamEventRecorderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.DamEventRecorderImpl', 'POST',
@@ -20138,7 +20138,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplEventDamEventAuditListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.event.DamEventAuditListener', 'POST',
@@ -20201,7 +20201,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplExpiryNotificationJobImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl', 'POST',
@@ -20252,7 +20252,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag', 'POST',
@@ -20303,7 +20303,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplGfxCommonsGfxRendererInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer', 'POST',
@@ -20354,7 +20354,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.handler.EPSFormatHandler', 'POST',
@@ -20405,7 +20405,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.handler.IndesignFormatHandler', 'POST',
@@ -20460,7 +20460,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplHandlerJpegHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.handler.JpegHandler', 'POST',
@@ -20511,7 +20511,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.handler.xmp.NCommXMPHandler', 'POST',
@@ -20578,7 +20578,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor', 'POST',
@@ -20629,7 +20629,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl', 'POST',
@@ -20682,7 +20682,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl', 'POST',
@@ -20735,7 +20735,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService', 'POST',
@@ -20792,7 +20792,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService', 'POST',
@@ -20847,7 +20847,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplLightboxLightboxServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.lightbox.LightboxServlet', 'POST',
@@ -20898,7 +20898,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler', 'POST',
@@ -20951,7 +20951,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper', 'POST',
@@ -21002,7 +21002,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl', 'POST',
@@ -21059,7 +21059,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplMissingMetadataNotificationJobInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.MissingMetadataNotificationJob', 'POST',
@@ -21112,7 +21112,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess', 'POST',
@@ -21165,7 +21165,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplProcessTextExtractionProcessInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.process.TextExtractionProcess', 'POST',
@@ -21218,7 +21218,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplRenditionMakerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.RenditionMakerImpl', 'POST',
@@ -21269,7 +21269,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplReportsReportExportServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.reports.ReportExportService', 'POST',
@@ -21326,7 +21326,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplReportsReportPurgeServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.reports.ReportPurgeService', 'POST',
@@ -21377,7 +21377,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletAssetDownloadServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetDownloadServlet', 'POST',
@@ -21428,7 +21428,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletAssetStatusServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetStatusServlet', 'POST',
@@ -21479,7 +21479,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletAssetXMPSearchServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetXMPSearchServlet', 'POST',
@@ -21534,7 +21534,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletBatchMetadataServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.BatchMetadataServlet', 'POST',
@@ -21589,7 +21589,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletBinaryProviderServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.BinaryProviderServlet', 'POST',
@@ -21642,7 +21642,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletCollectionServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.CollectionServlet', 'POST',
@@ -21695,7 +21695,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletCollectionsServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.CollectionsServlet', 'POST',
@@ -21748,7 +21748,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletCompanionServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.CompanionServlet', 'POST',
@@ -21799,7 +21799,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletCreateAssetServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.CreateAssetServlet', 'POST',
@@ -21852,7 +21852,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletDamContentDispositionFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter', 'POST',
@@ -21903,7 +21903,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletGuidLookupFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.GuidLookupFilter', 'POST',
@@ -21956,7 +21956,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletHealthCheckServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.HealthCheckServlet', 'POST',
@@ -22013,7 +22013,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletMetadataGetServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.MetadataGetServlet', 'POST',
@@ -22064,7 +22064,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.MultipleLicenseAcceptServlet', 'POST',
@@ -22125,7 +22125,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplServletResourceCollectionServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.servlet.ResourceCollectionServlet', 'POST',
@@ -22182,7 +22182,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.ui.preview.FolderPreviewUpdaterImpl', 'POST',
@@ -22235,7 +22235,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreImplUnzipUnzipConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.impl.unzip.UnzipConfig', 'POST',
@@ -22288,7 +22288,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.process.ExifToolExtractMetadataProcess', 'POST',
@@ -22341,7 +22341,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreProcessExtractMetadataProcessInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.process.ExtractMetadataProcess', 'POST',
@@ -22396,7 +22396,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamCoreProcessMetadataProcessorProcessInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.core.process.MetadataProcessorProcess', 'POST',
@@ -22447,7 +22447,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamHandlerFfmpegLocatorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.handler.ffmpeg.LocatorImpl', 'POST',
@@ -22504,7 +22504,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.handler.gibson.fontmanager.impl.FontManagerServiceImpl', 'POST',
@@ -22555,7 +22555,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamHandlerStandardPdfPdfHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.handler.standard.pdf.PdfHandler', 'POST',
@@ -22606,7 +22606,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamHandlerStandardPsPostScriptHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.handler.standard.ps.PostScriptHandler', 'POST',
@@ -22657,7 +22657,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamHandlerStandardPsdPsdHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.handler.standard.psd.PsdHandler', 'POST',
@@ -22718,7 +22718,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamIdsImplIDSJobProcessorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.ids.impl.IDSJobProcessor', 'POST',
@@ -22779,7 +22779,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamIdsImplIDSPoolManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.ids.impl.IDSPoolManagerImpl', 'POST',
@@ -22832,7 +22832,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.indd.impl.handler.IndesignXMPHandler', 'POST',
@@ -22883,7 +22883,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamInddImplServletSnippetCreationServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.indd.impl.servlet.SnippetCreationServlet', 'POST',
@@ -22940,7 +22940,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamInddProcessINDDMediaExtractProcessInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.indd.process.INDDMediaExtractProcess', 'POST',
@@ -22991,7 +22991,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl', 'POST',
@@ -23042,7 +23042,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob', 'POST',
@@ -23093,7 +23093,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess', 'POST',
@@ -23144,7 +23144,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener', 'POST',
@@ -23197,7 +23197,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner', 'POST',
@@ -23250,7 +23250,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler', 'POST',
@@ -23303,7 +23303,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler', 'POST',
@@ -23354,7 +23354,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.s7dam.common.process.VideoThumbnailDownloadProcess', 'POST',
@@ -23405,7 +23405,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.s7dam.common.S7damDamChangeEventListener', 'POST',
@@ -23458,7 +23458,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.s7dam.common.servlets.S7damProductInfoServlet', 'POST',
@@ -23521,7 +23521,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.s7dam.common.video.impl.VideoProxyClientServiceImpl', 'POST',
@@ -23574,7 +23574,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamScene7ImplScene7APIClientImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7APIClientImpl', 'POST',
@@ -23625,7 +23625,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl', 'POST',
@@ -23676,7 +23676,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7ConfigurationEventListener', 'POST',
@@ -23729,7 +23729,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener', 'POST',
@@ -23788,7 +23788,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl', 'POST',
@@ -23841,7 +23841,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamScene7ImplScene7UploadServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl', 'POST',
@@ -23894,7 +23894,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl', 'POST',
@@ -23949,7 +23949,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl', 'POST',
@@ -24000,7 +24000,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqDamVideoImplServletVideoTestServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.dam.video.impl.servlet.VideoTestServlet', 'POST',
@@ -24053,7 +24053,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqExtwidgetServletsImageSpriteServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.extwidget.servlets.ImageSpriteServlet', 'POST',
@@ -24106,7 +24106,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqImageInternalFontFontHelperInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.image.internal.font.FontHelper', 'POST',
@@ -24161,7 +24161,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqJcrclustersupportClusterStartLevelControllerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.jcrclustersupport.ClusterStartLevelController', 'POST',
@@ -24226,7 +24226,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMailerDefaultMailServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mailer.DefaultMailService', 'POST',
@@ -24277,7 +24277,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMailerImplCqMailingServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mailer.impl.CqMailingService', 'POST',
@@ -24328,7 +24328,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mailer.impl.email.CqEmailTemplateFactory', 'POST',
@@ -24385,7 +24385,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mailer.impl.email.CqRetrieverTemplateFactory', 'POST',
@@ -24440,7 +24440,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmCampaignImplIntegrationConfigImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.campaign.impl.IntegrationConfigImpl', 'POST',
@@ -24493,7 +24493,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory', 'POST',
@@ -24548,7 +24548,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl', 'POST',
@@ -24601,7 +24601,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmImplMCMConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.impl.MCMConfiguration', 'POST',
@@ -24656,7 +24656,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory', 'POST',
@@ -24711,7 +24711,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory', 'POST',
@@ -24764,7 +24764,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory', 'POST',
@@ -24817,7 +24817,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory', 'POST',
@@ -24872,7 +24872,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory', 'POST',
@@ -24923,7 +24923,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqNotificationImplNotificationServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.notification.impl.NotificationServiceImpl', 'POST',
@@ -24974,7 +24974,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet', 'POST',
@@ -25041,7 +25041,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqPollingImporterImplManagedPollConfigImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollConfigImpl', 'POST',
@@ -25092,7 +25092,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqPollingImporterImplManagedPollingImporterImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollingImporterImpl', 'POST',
@@ -25149,7 +25149,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqPollingImporterImplPollingImporterImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.polling.importer.impl.PollingImporterImpl', 'POST',
@@ -25200,7 +25200,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationAuditReplicationEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.audit.ReplicationEventListener', 'POST',
@@ -25253,7 +25253,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationContentStaticContentBuilderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.content.StaticContentBuilder', 'POST',
@@ -25308,7 +25308,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplAgentManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.AgentManagerImpl', 'POST',
@@ -25359,7 +25359,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder', 'POST',
@@ -25426,7 +25426,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService', 'POST',
@@ -25479,7 +25479,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl', 'POST',
@@ -25532,7 +25532,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplReplicationReceiverImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.ReplicationReceiverImpl', 'POST',
@@ -25583,7 +25583,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplReplicatorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.ReplicatorImpl', 'POST',
@@ -25634,7 +25634,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplReverseReplicatorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.ReverseReplicator', 'POST',
@@ -25687,7 +25687,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.transport.BinaryLessTransportHandler', 'POST',
@@ -25740,7 +25740,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReplicationImplTransportHttpInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.replication.impl.transport.Http', 'POST',
@@ -25795,7 +25795,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReportingImplCacheCacheImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.reporting.impl.cache.CacheImpl', 'POST',
@@ -25864,7 +25864,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReportingImplConfigServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.reporting.impl.ConfigServiceImpl', 'POST',
@@ -25915,7 +25915,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqReportingImplRLogAnalyzerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.reporting.impl.RLogAnalyzer', 'POST',
@@ -25978,7 +25978,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerImpl', 'POST',
@@ -26039,7 +26039,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTask', 'POST',
@@ -26102,7 +26102,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTransformerFactory', 'POST',
@@ -26155,7 +26155,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkInfoStorageImpl', 'POST',
@@ -26208,7 +26208,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqRewriterProcessorImplHtmlParserFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.rewriter.processor.impl.HtmlParserFactory', 'POST',
@@ -26265,7 +26265,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqSearchImplBuilderQueryBuilderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.search.impl.builder.QueryBuilderImpl', 'POST',
@@ -26318,7 +26318,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.search.suggest.impl.SuggestionIndexManagerImpl', 'POST',
@@ -26369,7 +26369,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.searchpromote.impl.PublishSearchPromoteConfigHandler', 'POST',
@@ -26426,7 +26426,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.searchpromote.impl.SearchPromoteServiceImpl', 'POST',
@@ -26477,7 +26477,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqSecurityACLSetupInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.security.ACLSetup', 'POST',
@@ -26538,7 +26538,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqStatisticsImplStatisticsServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.statistics.impl.StatisticsServiceImpl', 'POST',
@@ -26589,7 +26589,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqTaggingImplJcrTagManagerFactoryImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.tagging.impl.JcrTagManagerFactoryImpl', 'POST',
@@ -26640,7 +26640,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.tagging.impl.search.TagPredicateEvaluator', 'POST',
@@ -26691,7 +26691,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqTaggingImplTagGarbageCollectorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector', 'POST',
@@ -26742,7 +26742,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler', 'POST',
@@ -26803,7 +26803,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory', 'POST',
@@ -26854,7 +26854,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl', 'POST',
@@ -26905,7 +26905,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplCommandsWCMCommandServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.commands.WCMCommandServlet', 'POST',
@@ -26958,7 +26958,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl', 'POST',
@@ -27009,7 +27009,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplEventPageEventAuditListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.event.PageEventAuditListener', 'POST',
@@ -27060,7 +27060,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplEventPagePostProcessorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.event.PagePostProcessor', 'POST',
@@ -27113,7 +27113,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.event.RepositoryChangeEventListener', 'POST',
@@ -27164,7 +27164,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplEventTemplatePostProcessorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.event.TemplatePostProcessor', 'POST',
@@ -27217,7 +27217,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplLanguageManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.LanguageManagerImpl', 'POST',
@@ -27286,7 +27286,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.LinkCheckerConfigurationFactoryImpl', 'POST',
@@ -27339,7 +27339,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.page.PageInfoAggregatorImpl', 'POST',
@@ -27392,7 +27392,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl', 'POST',
@@ -27443,7 +27443,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig', 'POST',
@@ -27502,7 +27502,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler', 'POST',
@@ -27553,7 +27553,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler', 'POST',
@@ -27606,7 +27606,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler', 'POST',
@@ -27657,7 +27657,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplServletsFindReplaceServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet', 'POST',
@@ -27710,7 +27710,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplServletsReferenceSearchServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet', 'POST',
@@ -27763,7 +27763,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplServletsThumbnailServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.servlets.ThumbnailServlet', 'POST',
@@ -27814,7 +27814,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.utils.DefaultPageNameValidator', 'POST',
@@ -27865,7 +27865,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.variants.PageVariantsProviderImpl', 'POST',
@@ -27928,7 +27928,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplVersionManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.VersionManagerImpl', 'POST',
@@ -27987,7 +27987,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplVersionPurgeTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.VersionPurgeTask', 'POST',
@@ -28040,7 +28040,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplWCMDebugFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.WCMDebugFilter', 'POST',
@@ -28091,7 +28091,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.WCMDeveloperModeFilter', 'POST',
@@ -28144,7 +28144,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreImplWarpTimeWarpFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.impl.warp.TimeWarpFilter', 'POST',
@@ -28195,7 +28195,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreMvtMVTStatisticsImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.mvt.MVTStatisticsImpl', 'POST',
@@ -28248,7 +28248,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreStatsPageViewStatisticsImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.stats.PageViewStatisticsImpl', 'POST',
@@ -28299,7 +28299,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmCoreWCMRequestFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.core.WCMRequestFilter', 'POST',
@@ -28350,7 +28350,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterDesignPackageImporterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.DesignPackageImporter', 'POST',
@@ -28407,7 +28407,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasBuilderImpl', 'POST',
@@ -28460,7 +28460,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler', 'POST',
@@ -28513,7 +28513,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl', 'POST',
@@ -28572,7 +28572,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl', 'POST',
@@ -28625,7 +28625,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory', 'POST',
@@ -28678,7 +28678,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory', 'POST',
@@ -28731,7 +28731,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory', 'POST',
@@ -28784,7 +28784,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory', 'POST',
@@ -28837,7 +28837,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory', 'POST',
@@ -28892,7 +28892,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory', 'POST',
@@ -28945,7 +28945,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory', 'POST',
@@ -28998,7 +28998,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory', 'POST',
@@ -29051,7 +29051,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory', 'POST',
@@ -29104,7 +29104,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory', 'POST',
@@ -29157,7 +29157,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory', 'POST',
@@ -29212,7 +29212,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory', 'POST',
@@ -29265,7 +29265,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory', 'POST',
@@ -29318,7 +29318,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory', 'POST',
@@ -29373,7 +29373,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory', 'POST',
@@ -29428,7 +29428,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory', 'POST',
@@ -29481,7 +29481,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory', 'POST',
@@ -29540,7 +29540,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationFormsImplFormChooserServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet', 'POST',
@@ -29593,7 +29593,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor', 'POST',
@@ -29646,7 +29646,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet', 'POST',
@@ -29703,7 +29703,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationFormsImplMailServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.MailServlet', 'POST',
@@ -29754,7 +29754,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.impl.AdaptiveImageComponentServlet', 'POST',
@@ -29815,7 +29815,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationImplHTTPAuthHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.impl.HTTPAuthHandler', 'POST',
@@ -29866,7 +29866,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationImplPageImpressionsTrackerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.impl.PageImpressionsTracker', 'POST',
@@ -29917,7 +29917,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationImplPageRedirectServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.impl.PageRedirectServlet', 'POST',
@@ -29970,7 +29970,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService', 'POST',
@@ -30035,7 +30035,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl', 'POST',
@@ -30088,7 +30088,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory', 'POST',
@@ -30145,7 +30145,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter', 'POST',
@@ -30202,7 +30202,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentCopyActionFactory', 'POST',
@@ -30257,7 +30257,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentDeleteActionFactory', 'POST',
@@ -30314,7 +30314,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentUpdateActionFactory', 'POST',
@@ -30369,7 +30369,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.actions.OrderChildrenActionFactory', 'POST',
@@ -30426,7 +30426,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.actions.PageMoveActionFactory', 'POST',
@@ -30483,7 +30483,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.actions.ReferencesUpdateActionFactory', 'POST',
@@ -30538,7 +30538,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.actions.VersionCopyActionFactory', 'POST',
@@ -30589,7 +30589,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.LiveRelationshipManagerImpl', 'POST',
@@ -30656,7 +30656,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplRolloutManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.RolloutManagerImpl', 'POST',
@@ -30709,7 +30709,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmMsmImplServletsAuditLogServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.msm.impl.servlets.AuditLogServlet', 'POST',
@@ -30760,7 +30760,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmNotificationEmailImplEmailChannelInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.notification.email.impl.EmailChannel', 'POST',
@@ -30811,7 +30811,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmNotificationImplNotificationManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.notification.impl.NotificationManagerImpl', 'POST',
@@ -30862,7 +30862,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmScriptingImplBVPManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.scripting.impl.BVPManager', 'POST',
@@ -30929,7 +30929,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmUndoUndoConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.undo.UndoConfig', 'POST',
@@ -30980,7 +30980,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.webservicesupport.impl.ReplicationEventListener', 'POST',
@@ -31039,7 +31039,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.workflow.impl.WcmWorkflowServiceImpl', 'POST',
@@ -31092,7 +31092,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.wcm.workflow.impl.WorkflowPackageInfoProvider', 'POST',
@@ -31169,7 +31169,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWidgetImplHtmlLibraryManagerImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.widget.impl.HtmlLibraryManagerImpl', 'POST',
@@ -31222,7 +31222,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWidgetImplWidgetExtensionProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.widget.impl.WidgetExtensionProviderImpl', 'POST',
@@ -31283,7 +31283,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWorkflowImplEmailEMailNotificationServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.workflow.impl.email.EMailNotificationService', 'POST',
@@ -31336,7 +31336,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.cq.workflow.impl.email.TaskEMailNotificationService', 'POST',
@@ -31395,7 +31395,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.crx.security.token.impl.impl.TokenAuthenticationHandler', 'POST',
@@ -31450,7 +31450,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = ComDayCrxSecurityTokenImplTokenCleanupTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/com.day.crx.security.token.impl.TokenCleanupTask', 'POST',
@@ -31503,7 +31503,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = GuideLocalizationServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/Guide Localization Service', 'POST',
@@ -31554,7 +31554,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = MessagingUserComponentFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/MessagingUserComponentFactory', 'POST',
@@ -31605,7 +31605,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheAriesJmxFrameworkStateConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.aries.jmx.framework.StateConfig', 'POST',
@@ -31666,7 +31666,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixEventadminImplEventAdminInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.eventadmin.impl.EventAdmin', 'POST',
@@ -31821,7 +31821,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixHttpInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.http', 'POST',
@@ -31878,7 +31878,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixHttpSslfilterSslFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.http.sslfilter.SslFilter', 'POST',
@@ -31937,7 +31937,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixJaasConfigurationFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.jaas.Configuration.factory', 'POST',
@@ -31992,7 +31992,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixJaasConfigurationSpiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.jaas.ConfigurationSpi', 'POST',
@@ -32053,7 +32053,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixScrScrServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.scr.ScrService', 'POST',
@@ -32106,7 +32106,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixSystemreadyImplComponentsCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.systemready.impl.ComponentsCheck', 'POST',
@@ -32163,7 +32163,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.systemready.impl.FrameworkStartCheck', 'POST',
@@ -32216,7 +32216,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixSystemreadyImplServicesCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.systemready.impl.ServicesCheck', 'POST',
@@ -32269,7 +32269,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.systemready.impl.servlet.SystemAliveServlet', 'POST',
@@ -32322,7 +32322,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.systemready.impl.servlet.SystemReadyServlet', 'POST',
@@ -32373,7 +32373,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixSystemreadySystemReadyMonitorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.systemready.SystemReadyMonitor', 'POST',
@@ -32442,7 +32442,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.webconsole.internal.servlet.OsgiManager', 'POST',
@@ -32493,7 +32493,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.webconsole.plugins.event.internal.PluginServlet', 'POST',
@@ -32548,7 +32548,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator', 'POST',
@@ -32609,7 +32609,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheHttpProxyconfiguratorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.http.proxyconfigurator', 'POST',
@@ -32660,7 +32660,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService', 'POST',
@@ -32711,7 +32711,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore', 'POST',
@@ -32820,7 +32820,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService', 'POST',
@@ -32871,7 +32871,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset', 'POST',
@@ -32926,7 +32926,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService', 'POST',
@@ -32983,7 +32983,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService', 'POST',
@@ -33064,7 +33064,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService', 'POST',
@@ -33117,7 +33117,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider', 'POST',
@@ -33168,7 +33168,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService', 'POST',
@@ -33251,7 +33251,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService', 'POST',
@@ -33316,7 +33316,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider', 'POST',
@@ -33367,7 +33367,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService', 'POST',
@@ -33418,7 +33418,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService', 'POST',
@@ -33469,7 +33469,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory', 'POST',
@@ -33524,7 +33524,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider', 'POST',
@@ -33581,7 +33581,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.query.QueryEngineSettingsService', 'POST',
@@ -33634,7 +33634,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl', 'POST',
@@ -33735,7 +33735,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider', 'POST',
@@ -33798,7 +33798,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl', 'POST',
@@ -33857,7 +33857,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl', 'POST',
@@ -33910,7 +33910,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration', 'POST',
@@ -33961,7 +33961,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName', 'POST',
@@ -34042,7 +34042,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl', 'POST',
@@ -34101,7 +34101,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService', 'POST',
@@ -34204,7 +34204,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreFactory', 'POST',
@@ -34255,7 +34255,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService', 'POST',
@@ -34352,7 +34352,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService', 'POST',
@@ -34419,7 +34419,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService', 'POST',
@@ -34496,7 +34496,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler', 'POST',
@@ -34555,7 +34555,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory', 'POST',
@@ -34606,7 +34606,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration', 'POST',
@@ -34661,7 +34661,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration', 'POST',
@@ -34712,7 +34712,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl', 'POST',
@@ -34769,7 +34769,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider', 'POST',
@@ -34820,7 +34820,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl', 'POST',
@@ -34871,7 +34871,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry', 'POST',
@@ -34924,7 +34924,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingAuthCoreImplLogoutServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.auth.core.impl.LogoutServlet', 'POST',
@@ -34975,7 +34975,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider', 'POST',
@@ -35026,7 +35026,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigImplConfigurationResolverImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationResolverImpl', 'POST',
@@ -35079,7 +35079,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy', 'POST',
@@ -35130,7 +35130,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy', 'POST',
@@ -35187,7 +35187,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider', 'POST',
@@ -35240,7 +35240,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider', 'POST',
@@ -35293,7 +35293,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl', 'POST',
@@ -35350,7 +35350,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy', 'POST',
@@ -35407,7 +35407,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy', 'POST',
@@ -35458,7 +35458,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.html.internal.TagsoupHtmlParser', 'POST',
@@ -35527,7 +35527,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsLogLogManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.log.LogManager', 'POST',
@@ -35586,7 +35586,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.log.LogManager.factory.config', 'POST',
@@ -35643,7 +35643,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.log.LogManager.factory.writer', 'POST',
@@ -35706,7 +35706,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsMetricsInternalLogReporterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.metrics.internal.LogReporter', 'POST',
@@ -35763,7 +35763,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.metrics.rrd4j.impl.CodahaleMetricsReporter', 'POST',
@@ -35814,7 +35814,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.mime.internal.MimeTypeServiceImpl', 'POST',
@@ -35873,7 +35873,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.scheduler.impl.QuartzScheduler', 'POST',
@@ -35924,7 +35924,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.scheduler.impl.SchedulerHealthCheck', 'POST',
@@ -35995,7 +35995,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.commons.threads.impl.DefaultThreadPool.factory', 'POST',
@@ -36102,7 +36102,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDatasourceDataSourceFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.datasource.DataSourceFactory', 'POST',
@@ -36159,7 +36159,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.datasource.JNDIDataSourceFactory', 'POST',
@@ -36246,7 +36246,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDiscoveryOakConfigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.discovery.oak.Config', 'POST',
@@ -36301,7 +36301,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck', 'POST',
@@ -36390,7 +36390,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory', 'POST',
@@ -36443,7 +36443,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory', 'POST',
@@ -36516,7 +36516,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory', 'POST',
@@ -36593,7 +36593,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory', 'POST',
@@ -36664,7 +36664,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory', 'POST',
@@ -36749,7 +36749,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory', 'POST',
@@ -36806,7 +36806,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck', 'POST',
@@ -36863,7 +36863,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory', 'POST',
@@ -36916,7 +36916,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory', 'POST',
@@ -36975,7 +36975,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory', 'POST',
@@ -37028,7 +37028,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory', 'POST',
@@ -37083,7 +37083,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory', 'POST',
@@ -37140,7 +37140,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory', 'POST',
@@ -37193,7 +37193,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory', 'POST',
@@ -37246,7 +37246,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory', 'POST',
@@ -37319,7 +37319,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory', 'POST',
@@ -37404,7 +37404,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory', 'POST',
@@ -37459,7 +37459,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider', 'POST',
@@ -37512,7 +37512,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory', 'POST',
@@ -37571,7 +37571,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory', 'POST',
@@ -37628,7 +37628,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory', 'POST',
@@ -37683,7 +37683,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory', 'POST',
@@ -37736,7 +37736,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory', 'POST',
@@ -37793,7 +37793,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory', 'POST',
@@ -37864,7 +37864,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.engine.impl.auth.SlingAuthenticator', 'POST',
@@ -37921,7 +37921,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter', 'POST',
@@ -37982,7 +37982,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEngineImplLogRequestLoggerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.engine.impl.log.RequestLogger', 'POST',
@@ -38039,7 +38039,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEngineImplLogRequestLoggerServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.engine.impl.log.RequestLoggerService', 'POST',
@@ -38102,7 +38102,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEngineImplSlingMainServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet', 'POST',
@@ -38165,7 +38165,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEngineParametersInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.engine.parameters', 'POST',
@@ -38216,7 +38216,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEventImplEventingThreadPoolInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.event.impl.EventingThreadPool', 'POST',
@@ -38273,7 +38273,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEventImplJobsDefaultJobManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.event.impl.jobs.DefaultJobManager', 'POST',
@@ -38328,7 +38328,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler', 'POST',
@@ -38383,7 +38383,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEventImplJobsJobConsumerManagerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.event.impl.jobs.JobConsumerManager', 'POST',
@@ -38454,7 +38454,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingEventJobsQueueConfigurationInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.event.jobs.QueueConfiguration', 'POST',
@@ -38507,7 +38507,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider', 'POST',
@@ -38562,7 +38562,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingFeatureflagsFeatureInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.featureflags.Feature', 'POST',
@@ -38617,7 +38617,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.featureflags.impl.ConfiguredFeature', 'POST',
@@ -38676,7 +38676,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingHapiImplHApiUtilImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.hapi.impl.HApiUtilImpl', 'POST',
@@ -38735,7 +38735,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingHcCoreImplCompositeHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.hc.core.impl.CompositeHealthCheck', 'POST',
@@ -38790,7 +38790,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.hc.core.impl.executor.HealthCheckExecutorImpl', 'POST',
@@ -38851,7 +38851,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.hc.core.impl.JmxAttributeHealthCheck', 'POST',
@@ -38910,7 +38910,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingHcCoreImplScriptableHealthCheckInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.hc.core.impl.ScriptableHealthCheck', 'POST',
@@ -38965,7 +38965,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.hc.core.impl.servlet.HealthCheckExecutorServlet', 'POST',
@@ -39022,7 +39022,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.hc.core.impl.servlet.ResultTxtVerboseSerializer', 'POST',
@@ -39075,7 +39075,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingI18nImplI18NFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.i18n.impl.I18NFilter', 'POST',
@@ -39130,7 +39130,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingI18nImplJcrResourceBundleProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.i18n.impl.JcrResourceBundleProvider', 'POST',
@@ -39193,7 +39193,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.installer.provider.jcr.impl.JcrInstaller', 'POST',
@@ -39246,7 +39246,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.base.internal.LoginAdminWhitelist', 'POST',
@@ -39299,7 +39299,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment', 'POST',
@@ -39354,7 +39354,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.davex.impl.servlets.SlingDavExServlet', 'POST',
@@ -39407,7 +39407,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.jackrabbit.server.JndiRegistrationSupport', 'POST',
@@ -39458,7 +39458,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.jackrabbit.server.RmiRegistrationSupport', 'POST',
@@ -39509,7 +39509,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.repoinit.impl.RepositoryInitializer', 'POST',
@@ -39562,7 +39562,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrRepoinitRepositoryInitializerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.repoinit.RepositoryInitializer', 'POST',
@@ -39653,7 +39653,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl', 'POST',
@@ -39704,7 +39704,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator', 'POST',
@@ -39759,7 +39759,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory', 'POST',
@@ -39816,7 +39816,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService', 'POST',
@@ -39867,7 +39867,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService', 'POST',
@@ -39936,7 +39936,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet', 'POST',
@@ -39987,7 +39987,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingJmxProviderImplJMXResourceProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.jmx.provider.impl.JMXResourceProvider', 'POST',
@@ -40044,7 +40044,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingModelsImplModelAdapterFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.models.impl.ModelAdapterFactory', 'POST',
@@ -40095,7 +40095,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider', 'POST',
@@ -40150,7 +40150,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory', 'POST',
@@ -40203,7 +40203,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory', 'POST',
@@ -40256,7 +40256,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingResourcemergerPickerOverridingInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.resourcemerger.picker.overriding', 'POST',
@@ -40309,7 +40309,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingScriptingCoreImplScriptCacheImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptCacheImpl', 'POST',
@@ -40360,7 +40360,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl', 'POST',
@@ -40417,7 +40417,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory', 'POST',
@@ -40468,7 +40468,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory', 'POST',
@@ -40539,7 +40539,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.scripting.jsp.JspScriptEngineFactory', 'POST',
@@ -40590,7 +40590,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider', 'POST',
@@ -40645,7 +40645,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingSecurityImplContentDispositionFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.security.impl.ContentDispositionFilter', 'POST',
@@ -40704,7 +40704,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingSecurityImplReferrerFilterInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter', 'POST',
@@ -40761,7 +40761,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl', 'POST',
@@ -40814,7 +40814,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended', 'POST',
@@ -40881,7 +40881,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingServletsGetDefaultGetServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.servlets.get.DefaultGetServlet', 'POST',
@@ -40934,7 +40934,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.servlets.get.impl.version.VersionInfoServlet', 'POST',
@@ -40989,7 +40989,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask', 'POST',
@@ -41052,7 +41052,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingServletsPostImplSlingPostServletInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.servlets.post.impl.SlingPostServlet', 'POST',
@@ -41109,7 +41109,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingServletsResolverSlingServletResolverInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.servlets.resolver.SlingServletResolver', 'POST',
@@ -41162,7 +41162,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.settings.impl.SlingSettingsServiceImpl', 'POST',
@@ -41215,7 +41215,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingStartupfilterImplStartupFilterImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.startupfilter.impl.StartupFilterImpl', 'POST',
@@ -41268,7 +41268,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingTenantInternalTenantProviderImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.tenant.internal.TenantProviderImpl', 'POST',
@@ -41331,7 +41331,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingTracerInternalLogTracerInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.tracer.internal.LogTracer', 'POST',
@@ -41382,7 +41382,7 @@ export default class ConfigmgrApi {
 
       let authNames = ['aemAuth'];
       let contentTypes = [];
-      let accepts = ['application/json'];
+      let accepts = ['application/json', 'text/plain'];
       let returnType = OrgApacheSlingXssImplXSSFilterImplInfo;
       return this.apiClient.callApi(
         '/system/console/configMgr/org.apache.sling.xss.impl.XSSFilterImpl', 'POST',

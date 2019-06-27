@@ -795,7 +795,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur
@@ -857,7 +857,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## analyticsComponentQueryCacheService
@@ -919,7 +919,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## apacheSlingHealthCheckResultHTMLSerializer
@@ -981,7 +981,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration
@@ -1045,7 +1045,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeAemTransactionCoreImplTransactionRecorder
@@ -1107,7 +1107,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeAemUpgradePrechecksHcImplDeprecateIndexesHC
@@ -1173,7 +1173,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHC
@@ -1239,7 +1239,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImpl
@@ -1303,7 +1303,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImpl
@@ -1367,7 +1367,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqAccountApiAccountManagementService
@@ -1433,7 +1433,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqAccountImplAccountManagementServlet
@@ -1497,7 +1497,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqAddressImplLocationLocationListServlet
@@ -1559,7 +1559,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqAuditPurgeDam
@@ -1627,7 +1627,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqAuditPurgePages
@@ -1695,7 +1695,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqAuditPurgeReplication
@@ -1763,7 +1763,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCdnRewriterImplAWSCloudFrontRewriter
@@ -1833,7 +1833,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCdnRewriterImplCDNConfigServiceImpl
@@ -1903,7 +1903,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCdnRewriterImplCDNRewriter
@@ -1969,7 +1969,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle
@@ -2031,7 +2031,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCommerceImplAssetDynamicImageHandler
@@ -2095,7 +2095,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl
@@ -2157,7 +2157,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCommerceImplAssetStaticImageHandler
@@ -2221,7 +2221,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCommerceImplAssetVideoHandler
@@ -2285,7 +2285,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCommerceImplPromotionPromotionManagerImpl
@@ -2347,7 +2347,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImpl
@@ -2413,7 +2413,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCommercePimImplPageEventListener
@@ -2475,7 +2475,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl
@@ -2537,7 +2537,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqContentinsightImplReportingServicesSettingsProvider
@@ -2599,7 +2599,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet
@@ -2661,7 +2661,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqContentinsightImplServletsReportingServicesProxyServle
@@ -2723,7 +2723,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamCfmImplComponentComponentConfigImpl
@@ -2791,7 +2791,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamCfmImplConfFeatureConfigImpl
@@ -2855,7 +2855,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamCfmImplContentRewriterAssetProcessor
@@ -2917,7 +2917,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamCfmImplContentRewriterParRangeFilter
@@ -2979,7 +2979,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamCfmImplContentRewriterPayloadFilter
@@ -3041,7 +3041,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamDmProcessImagePTiffManagerImpl
@@ -3103,7 +3103,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorker
@@ -3167,7 +3167,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamMacSyncHelperImplMACSyncClientImpl
@@ -3229,7 +3229,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamMacSyncImplDAMSyncServiceImpl
@@ -3297,7 +3297,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamProcessorNuiImplNuiAssetProcessor
@@ -3363,7 +3363,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamS7imagingImplIsImageServerComponent
@@ -3435,7 +3435,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamS7imagingImplPsPlatformServerServlet
@@ -3503,7 +3503,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamWebdavImplIoAssetIOHandler
@@ -3569,7 +3569,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJob
@@ -3635,7 +3635,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDamWebdavImplIoSpecialFilesHandler
@@ -3697,7 +3697,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDeserfwImplDeserializationFirewallImpl
@@ -3763,7 +3763,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDtmImplServiceDTMWebServiceImpl
@@ -3827,7 +3827,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDtmImplServletsDTMDeployHookServlet
@@ -3891,7 +3891,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqDtmReactorImplServiceWebServiceImpl
@@ -3957,7 +3957,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqExperiencelogImplExperienceLogConfigServlet
@@ -4021,7 +4021,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqHcContentPackagesHealthCheck
@@ -4089,7 +4089,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqHistoryImplHistoryRequestFilter
@@ -4153,7 +4153,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqHistoryImplHistoryServiceImpl
@@ -4217,7 +4217,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqInboxImplTypeproviderItemTypeProvider
@@ -4287,7 +4287,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqProjectsImplServletProjectImageServlet
@@ -4351,7 +4351,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqProjectsPurgeScheduler
@@ -4427,7 +4427,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScheduledExporterImplScheduledExporterImpl
@@ -4491,7 +4491,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImpl
@@ -4561,7 +4561,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensDeviceImplDeviceService
@@ -4635,7 +4635,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensDeviceRegistrationImplRegistrationServiceImpl
@@ -4697,7 +4697,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensImplHandlerChannelsUpdateHandler
@@ -4767,7 +4767,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJob
@@ -4829,7 +4829,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensImplRemoteImplDistributedHttpClientImpl
@@ -4891,7 +4891,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensImplScreensChannelPostProcessor
@@ -4953,7 +4953,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensMonitoringImplScreensMonitoringServiceImpl
@@ -5031,7 +5031,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensMqActivemqImplArtemisJMSProvider
@@ -5157,7 +5157,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl
@@ -5221,7 +5221,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl
@@ -5283,7 +5283,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqScreensSegmentationImplSegmentationFeatureFlag
@@ -5345,7 +5345,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh
@@ -5407,7 +5407,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck
@@ -5469,7 +5469,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck
@@ -5537,7 +5537,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck
@@ -5599,7 +5599,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck
@@ -5663,7 +5663,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialAccountverificationImplAccountManagementConfigIm
@@ -5729,7 +5729,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen
@@ -5791,7 +5791,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo
@@ -5853,7 +5853,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler
@@ -5917,7 +5917,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialActivitystreamsListenerImplModerationEventExten
@@ -5981,7 +5981,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS
@@ -6045,7 +6045,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre
@@ -6109,7 +6109,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI
@@ -6175,7 +6175,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen
@@ -6239,7 +6239,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCalendarServletsTimeZoneServlet
@@ -6301,7 +6301,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent
@@ -6363,7 +6363,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe
@@ -6427,7 +6427,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati
@@ -6491,7 +6491,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC
@@ -6553,7 +6553,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos
@@ -6619,7 +6619,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsCorsCORSAuthenticationFilter
@@ -6681,7 +6681,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider
@@ -6745,7 +6745,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl
@@ -6807,7 +6807,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener
@@ -6869,7 +6869,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider
@@ -6933,7 +6933,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp
@@ -7009,7 +7009,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp
@@ -7091,7 +7091,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter
@@ -7153,7 +7153,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider
@@ -7217,7 +7217,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider
@@ -7281,7 +7281,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProvider
@@ -7345,7 +7345,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider
@@ -7409,7 +7409,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider
@@ -7473,7 +7473,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider
@@ -7537,7 +7537,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload
@@ -7601,7 +7601,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl
@@ -7667,7 +7667,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit
@@ -7737,7 +7737,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialConnectOauthImplFacebookProviderImpl
@@ -7813,7 +7813,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle
@@ -7877,7 +7877,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper
@@ -7943,7 +7943,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialConnectOauthImplTwitterProviderImpl
@@ -8017,7 +8017,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen
@@ -8081,7 +8081,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialDatastoreAsImplASResourceProviderFactory
@@ -8155,7 +8155,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory
@@ -8229,7 +8229,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor
@@ -8303,7 +8303,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF
@@ -8365,7 +8365,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto
@@ -8427,7 +8427,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL
@@ -8489,7 +8489,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou
@@ -8551,7 +8551,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl
@@ -8613,7 +8613,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe
@@ -8677,7 +8677,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera
@@ -8741,7 +8741,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialForumClientEndpointsImplForumOperationsService
@@ -8805,7 +8805,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialForumDispatcherImplFlushOperations
@@ -8869,7 +8869,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen
@@ -8937,7 +8937,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialGroupImplGroupServiceImpl
@@ -9001,7 +9001,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl
@@ -9069,7 +9069,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS
@@ -9133,7 +9133,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer
@@ -9197,7 +9197,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile
@@ -9259,7 +9259,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO
@@ -9321,7 +9321,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF
@@ -9385,7 +9385,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation
@@ -9485,7 +9485,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen
@@ -9549,7 +9549,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialModerationDashboardApiModerationDashboardSocial
@@ -9611,7 +9611,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen
@@ -9673,7 +9673,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci
@@ -9737,7 +9737,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialNotificationsImplMentionsRouter
@@ -9801,7 +9801,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialNotificationsImplNotificationManagerImpl
@@ -9863,7 +9863,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialNotificationsImplNotificationsRouter
@@ -9927,7 +9927,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic
@@ -9991,7 +9991,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI
@@ -10055,7 +10055,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM
@@ -10117,7 +10117,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS
@@ -10181,7 +10181,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi
@@ -10245,7 +10245,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet
@@ -10309,7 +10309,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet
@@ -10373,7 +10373,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialScoringImplScoringEventListener
@@ -10437,7 +10437,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl
@@ -10499,7 +10499,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialSiteEndpointsImplSiteOperationService
@@ -10565,7 +10565,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm
@@ -10627,7 +10627,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialSiteImplSiteConfiguratorImpl
@@ -10689,7 +10689,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialSrpImplSocialSolrConnector
@@ -10751,7 +10751,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialSyncImplDiffChangesObserver
@@ -10819,7 +10819,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialSyncImplGroupSyncListenerImpl
@@ -10889,7 +10889,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialSyncImplPublisherSyncServiceImpl
@@ -10951,7 +10951,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialSyncImplUserSyncListenerImpl
@@ -11021,7 +11021,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialTranslationImplTranslationServiceConfigManager
@@ -11097,7 +11097,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialTranslationImplUGCLanguageDetector
@@ -11173,7 +11173,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUgcbaseDispatcherImplFlushServiceImpl
@@ -11239,7 +11239,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImpl
@@ -11307,7 +11307,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUgcbaseImplPublisherConfigurationImpl
@@ -11369,7 +11369,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUgcbaseImplSocialUtilsImpl
@@ -11431,7 +11431,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl
@@ -11495,7 +11495,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUgcbaseModerationImplSentimentProcess
@@ -11563,7 +11563,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli
@@ -11627,7 +11627,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl
@@ -11703,7 +11703,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet
@@ -11769,7 +11769,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqSocialUserImplTransportHttpToPublisher
@@ -11839,7 +11839,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact
@@ -11901,7 +11901,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqUpgradesCleanupImplUpgradeContentCleanup
@@ -11965,7 +11965,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup
@@ -12027,7 +12027,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService
@@ -12093,7 +12093,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTask
@@ -12159,7 +12159,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderService
@@ -12225,7 +12225,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderService
@@ -12291,7 +12291,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqWcmLaunchesImplLaunchesEventHandler
@@ -12359,7 +12359,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqWcmMobileQrcodeServletQRCodeImageGenerator
@@ -12421,7 +12421,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqWcmStyleInternalComponentStyleInfoCacheImpl
@@ -12483,7 +12483,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImpl
@@ -12551,7 +12551,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService
@@ -12625,7 +12625,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeFdFpConfigFormsPortalSchedulerService
@@ -12687,7 +12687,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeFormsCommonServiceImplDefaultDataProvider
@@ -12749,7 +12749,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp
@@ -12811,7 +12811,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeFormsCommonServletTempCleanUpTask
@@ -12877,7 +12877,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAcpPlatformPlatformServlet
@@ -12941,7 +12941,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteActivitystreamsImplActivityManagerImpl
@@ -13005,7 +13005,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAnalyzerBaseSystemStatusServlet
@@ -13067,7 +13067,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServlet
@@ -13129,7 +13129,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteApicontrollerFilterResolverHookFactory
@@ -13501,7 +13501,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthCertImplClientCertAuthHandler
@@ -13565,7 +13565,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthIms
@@ -13629,7 +13629,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtension
@@ -13691,7 +13691,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImpl
@@ -13755,7 +13755,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidator
@@ -13817,7 +13817,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthImsImplIMSProviderImpl
@@ -13903,7 +13903,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthImsImplImsConfigProviderImpl
@@ -13971,7 +13971,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthAccesstokenProvider
@@ -14059,7 +14059,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplBearerAuthenticationHandler
@@ -14131,7 +14131,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplDefaultTokenValidatorImpl
@@ -14193,7 +14193,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplFacebookProviderImpl
@@ -14255,7 +14255,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplGithubProviderImpl
@@ -14323,7 +14323,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplGraniteProvider
@@ -14393,7 +14393,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplHelperProviderConfigManager
@@ -14457,7 +14457,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternal
@@ -14521,7 +14521,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplOAuthAuthenticationHandler
@@ -14583,7 +14583,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthImplTwitterProviderImpl
@@ -14645,7 +14645,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthOauthProvider
@@ -14737,7 +14737,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthRequirementImplDefaultRequirementHandler
@@ -14799,7 +14799,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthSamlSamlAuthenticationHandler
@@ -14911,7 +14911,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteAuthSsoImplSsoAuthenticationHandler
@@ -14993,7 +14993,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplCodeCacheHealthCheck
@@ -15057,7 +15057,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheck
@@ -15119,7 +15119,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplDavExBundleHealthCheck
@@ -15181,7 +15181,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheck
@@ -15245,7 +15245,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplJobsHealthCheck
@@ -15309,7 +15309,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplSlingGetServletHealthCheck
@@ -15371,7 +15371,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheck
@@ -15433,7 +15433,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck
@@ -15495,7 +15495,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck
@@ -15557,7 +15557,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck
@@ -15619,7 +15619,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac
@@ -15681,7 +15681,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl
@@ -15745,7 +15745,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteCompatrouterImplRoutingConfig
@@ -15811,7 +15811,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteCompatrouterImplSwitchMappingConfig
@@ -15875,7 +15875,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving
@@ -15939,7 +15939,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteContexthubImplContextHubImpl
@@ -16003,7 +16003,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteCorsImplCORSPolicyImpl
@@ -16079,7 +16079,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteCsrfImplCSRFFilter
@@ -16147,7 +16147,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteCsrfImplCSRFServlet
@@ -16211,7 +16211,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe
@@ -16277,7 +16277,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver
@@ -16353,7 +16353,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteDistributionCoreImplDiffDiffEventListener
@@ -16419,7 +16419,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteDistributionCoreImplDistributionToReplicationEven
@@ -16481,7 +16481,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat
@@ -16545,7 +16545,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteDistributionCoreImplReplicationDistributionTrans
@@ -16607,7 +16607,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu
@@ -16675,7 +16675,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteFragsImplCheckHttpHeaderFlag
@@ -16743,7 +16743,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteFragsImplRandomFeature
@@ -16813,7 +16813,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteHttpcacheFileFileCacheStore
@@ -16877,7 +16877,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteHttpcacheImplOuterCacheFilter
@@ -16939,7 +16939,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteI18nImplBundlePseudoTranslations
@@ -17001,7 +17001,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteI18nImplPreferencesLocaleResolverService
@@ -17063,7 +17063,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteInfocollectorInfoCollector
@@ -17127,7 +17127,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteJettySslInternalGraniteSslConnectorFactory
@@ -17199,7 +17199,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteLicenseImplLicenseCheckFilter
@@ -17265,7 +17265,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteLoggingImplLogAnalyserImpl
@@ -17331,7 +17331,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteLoggingImplLogErrorHealthCheck
@@ -17393,7 +17393,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTask
@@ -17457,7 +17457,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask
@@ -17519,7 +17519,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask
@@ -17581,7 +17581,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteMonitoringImplScriptConfigImpl
@@ -17653,7 +17653,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan
@@ -17723,7 +17723,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOauthServerImplAccessTokenCleanupTask
@@ -17785,7 +17785,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet
@@ -17847,7 +17847,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet
@@ -17911,7 +17911,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOauthServerImplOAuth2TokenEndpointServlet
@@ -17979,7 +17979,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOauthServerImplOAuth2TokenRevocationServlet
@@ -18041,7 +18041,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOffloadingImplOffloadingConfigurator
@@ -18105,7 +18105,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOffloadingImplOffloadingJobCloner
@@ -18167,7 +18167,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOffloadingImplOffloadingJobOffloader
@@ -18229,7 +18229,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager
@@ -18291,7 +18291,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo
@@ -18365,7 +18365,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl
@@ -18429,7 +18429,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteOptoutImplOptOutServiceImpl
@@ -18495,7 +18495,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck
@@ -18561,7 +18561,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteQueriesImplHcLargeIndexHealthCheck
@@ -18627,7 +18627,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteQueriesImplHcQueriesStatusHealthCheck
@@ -18689,7 +18689,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics
@@ -18751,7 +18751,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck
@@ -18813,7 +18813,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck
@@ -18877,7 +18877,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC
@@ -18939,7 +18939,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck
@@ -19001,7 +19001,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC
@@ -19065,7 +19065,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck
@@ -19127,7 +19127,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe
@@ -19189,7 +19189,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck
@@ -19255,7 +19255,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck
@@ -19321,7 +19321,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck
@@ -19383,7 +19383,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryImplCommitStatsConfig
@@ -19469,7 +19469,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRepositoryServiceUserConfiguration
@@ -19535,7 +19535,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm
@@ -19597,7 +19597,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteResourcestatusImplCompositeStatusType
@@ -19661,7 +19661,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteResourcestatusImplStatusResourceProviderImpl
@@ -19723,7 +19723,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRestAssetsImplAssetContentDispositionFilter
@@ -19787,7 +19787,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl
@@ -19849,7 +19849,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteRestImplServletDefaultGETServlet
@@ -19913,7 +19913,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS
@@ -19975,7 +19975,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteSecurityUserUserPropertiesService
@@ -20041,7 +20041,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl
@@ -20109,7 +20109,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl
@@ -20173,7 +20173,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory
@@ -20235,7 +20235,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteTaskmanagementImplJcrTaskArchiveService
@@ -20301,7 +20301,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask
@@ -20371,7 +20371,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor
@@ -20435,7 +20435,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteThreaddumpThreadDumpCollector
@@ -20513,7 +20513,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl
@@ -20591,7 +20591,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteTranslationCoreImplTranslationManagerImpl
@@ -20655,7 +20655,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl
@@ -20755,7 +20755,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature
@@ -20817,7 +20817,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventService
@@ -20879,7 +20879,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager
@@ -20941,7 +20941,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler
@@ -21007,7 +21007,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowCoreJobJobHandler
@@ -21071,7 +21071,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum
@@ -21133,7 +21133,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowCorePayloadMapCache
@@ -21197,7 +21197,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener
@@ -21261,7 +21261,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowCoreWorkflowConfig
@@ -21327,7 +21327,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowCoreWorkflowSessionFactory
@@ -21409,7 +21409,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeGraniteWorkflowPurgeScheduler
@@ -21477,7 +21477,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeOctopusNcommBootstrap
@@ -21547,7 +21547,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS
@@ -21609,7 +21609,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comAdobeXmpWorkerFilesNcommXMPFilesNComm
@@ -21677,7 +21677,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCommonsDatasourceJdbcpoolJdbcPoolService
@@ -21759,7 +21759,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCommonsHttpclient
@@ -21833,7 +21833,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsImplStorePropertiesChangeListener
@@ -21895,7 +21895,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte
@@ -21959,7 +21959,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsSitecatalystImplImporterReportImporter
@@ -22023,7 +22023,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory
@@ -22085,7 +22085,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl
@@ -22153,7 +22153,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsTestandtargetImplAccountOptionsUpdater
@@ -22215,7 +22215,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListener
@@ -22277,7 +22277,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListener
@@ -22339,7 +22339,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsTestandtargetImplSegmentImporter
@@ -22401,7 +22401,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsTestandtargetImplServiceWebServiceImpl
@@ -22467,7 +22467,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsTestandtargetImplServletsAdminServerServlet
@@ -22529,7 +22529,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImpl
@@ -22599,7 +22599,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAuthImplCugCugSupportImpl
@@ -22667,7 +22667,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqAuthImplLoginSelectorHandler
@@ -22743,7 +22743,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqCommonsImplExternalizerImpl
@@ -22811,7 +22811,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqCommonsServletsRootMappingServlet
@@ -22873,7 +22873,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke
@@ -22937,7 +22937,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList
@@ -22999,7 +22999,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist
@@ -23061,7 +23061,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqContentsyncImplContentSyncManagerImpl
@@ -23125,7 +23125,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCommonsHandlerStandardImageHandler
@@ -23191,7 +23191,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCommonsMetadataXmpFilterBlackWhite
@@ -23259,7 +23259,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCommonsUtilImplAssetCacheImpl
@@ -23325,7 +23325,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfig
@@ -23417,7 +23417,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplAssetMoveListener
@@ -23479,7 +23479,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplAssethomeAssetHomePageConfiguration
@@ -23541,7 +23541,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServlet
@@ -23603,7 +23603,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplCacheCQBufferedImageCache
@@ -23669,7 +23669,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplDamChangeEventListener
@@ -23731,7 +23731,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplDamEventPurgeService
@@ -23801,7 +23801,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplDamEventRecorderImpl
@@ -23871,7 +23871,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplEventDamEventAuditListener
@@ -23935,7 +23935,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplExpiryNotificationJobImpl
@@ -24009,7 +24009,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat
@@ -24071,7 +24071,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplGfxCommonsGfxRenderer
@@ -24133,7 +24133,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplHandlerEPSFormatHandler
@@ -24195,7 +24195,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplHandlerIndesignFormatHandler
@@ -24257,7 +24257,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplHandlerJpegHandler
@@ -24323,7 +24323,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplHandlerXmpNCommXMPHandler
@@ -24385,7 +24385,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplJmxAssetIndexUpdateMonitor
@@ -24463,7 +24463,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplJmxAssetMigrationMBeanImpl
@@ -24525,7 +24525,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplJmxAssetUpdateMonitorImpl
@@ -24589,7 +24589,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig
@@ -24653,7 +24653,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig
@@ -24721,7 +24721,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplLightboxLightboxServlet
@@ -24787,7 +24787,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplMetadataEditorSelectComponentHandler
@@ -24849,7 +24849,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper
@@ -24913,7 +24913,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl
@@ -24975,7 +24975,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplMissingMetadataNotificationJob
@@ -25043,7 +25043,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr
@@ -25107,7 +25107,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplProcessTextExtractionProcess
@@ -25171,7 +25171,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplRenditionMakerImpl
@@ -25235,7 +25235,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplReportsReportExportService
@@ -25297,7 +25297,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplReportsReportPurgeService
@@ -25365,7 +25365,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletAssetDownloadServlet
@@ -25427,7 +25427,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletAssetStatusServlet
@@ -25489,7 +25489,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletAssetXMPSearchServlet
@@ -25551,7 +25551,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletBatchMetadataServlet
@@ -25617,7 +25617,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletBinaryProviderServlet
@@ -25683,7 +25683,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletCollectionServlet
@@ -25747,7 +25747,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletCollectionsServlet
@@ -25811,7 +25811,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletCompanionServlet
@@ -25875,7 +25875,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletCreateAssetServlet
@@ -25937,7 +25937,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletDamContentDispositionFilter
@@ -26001,7 +26001,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletGuidLookupFilter
@@ -26063,7 +26063,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletHealthCheckServlet
@@ -26127,7 +26127,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletMetadataGetServlet
@@ -26195,7 +26195,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletMultipleLicenseAcceptServlet
@@ -26257,7 +26257,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplServletResourceCollectionServlet
@@ -26329,7 +26329,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImpl
@@ -26397,7 +26397,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreImplUnzipUnzipConfig
@@ -26461,7 +26461,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreProcessExifToolExtractMetadataProcess
@@ -26525,7 +26525,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreProcessExtractMetadataProcess
@@ -26589,7 +26589,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamCoreProcessMetadataProcessorProcess
@@ -26655,7 +26655,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamHandlerFfmpegLocatorImpl
@@ -26717,7 +26717,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImpl
@@ -26785,7 +26785,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamHandlerStandardPdfPdfHandler
@@ -26847,7 +26847,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamHandlerStandardPsPostScriptHandler
@@ -26909,7 +26909,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamHandlerStandardPsdPsdHandler
@@ -26971,7 +26971,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamIdsImplIDSJobProcessor
@@ -27043,7 +27043,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamIdsImplIDSPoolManagerImpl
@@ -27115,7 +27115,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamInddImplHandlerIndesignXMPHandler
@@ -27179,7 +27179,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamInddImplServletSnippetCreationServlet
@@ -27241,7 +27241,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamInddProcessINDDMediaExtractProcess
@@ -27309,7 +27309,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl
@@ -27371,7 +27371,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob
@@ -27433,7 +27433,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro
@@ -27495,7 +27495,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven
@@ -27557,7 +27557,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner
@@ -27621,7 +27621,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamS7damCommonPostServletsSetCreateHandler
@@ -27685,7 +27685,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamS7damCommonPostServletsSetModifyHandler
@@ -27749,7 +27749,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcess
@@ -27811,7 +27811,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamS7damCommonS7damDamChangeEventListener
@@ -27873,7 +27873,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamS7damCommonServletsS7damProductInfoServlet
@@ -27937,7 +27937,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImpl
@@ -28011,7 +28011,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamScene7ImplScene7APIClientImpl
@@ -28075,7 +28075,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamScene7ImplScene7AssetMimeTypeServiceImpl
@@ -28137,7 +28137,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamScene7ImplScene7ConfigurationEventListener
@@ -28199,7 +28199,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamScene7ImplScene7DamChangeEventListener
@@ -28263,7 +28263,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl
@@ -28333,7 +28333,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamScene7ImplScene7UploadServiceImpl
@@ -28397,7 +28397,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer
@@ -28461,7 +28461,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamStockIntegrationImplConfigurationStockConfiguration
@@ -28527,7 +28527,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqDamVideoImplServletVideoTestServlet
@@ -28589,7 +28589,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqExtwidgetServletsImageSpriteServlet
@@ -28653,7 +28653,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqImageInternalFontFontHelper
@@ -28717,7 +28717,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqJcrclustersupportClusterStartLevelController
@@ -28783,7 +28783,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMailerDefaultMailService
@@ -28859,7 +28859,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMailerImplCqMailingService
@@ -28921,7 +28921,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMailerImplEmailCqEmailTemplateFactory
@@ -28983,7 +28983,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMailerImplEmailCqRetrieverTemplateFactory
@@ -29051,7 +29051,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmCampaignImplIntegrationConfigImpl
@@ -29117,7 +29117,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory
@@ -29181,7 +29181,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl
@@ -29247,7 +29247,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmImplMCMConfiguration
@@ -29311,7 +29311,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen
@@ -29377,7 +29377,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug
@@ -29443,7 +29443,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent
@@ -29507,7 +29507,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa
@@ -29571,7 +29571,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH
@@ -29637,7 +29637,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqNotificationImplNotificationServiceImpl
@@ -29699,7 +29699,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqPersonalizationImplServletsTargetingConfigurationServlet
@@ -29761,7 +29761,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqPollingImporterImplManagedPollConfigImpl
@@ -29839,7 +29839,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqPollingImporterImplManagedPollingImporterImpl
@@ -29901,7 +29901,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqPollingImporterImplPollingImporterImpl
@@ -29969,7 +29969,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationAuditReplicationEventListener
@@ -30031,7 +30031,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationContentStaticContentBuilder
@@ -30095,7 +30095,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplAgentManagerImpl
@@ -30161,7 +30161,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplContentDurboBinaryLessContentBuilder
@@ -30223,7 +30223,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplContentDurboDurboImportConfigurationProv
@@ -30301,7 +30301,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplReplicationContentFactoryProviderImpl
@@ -30365,7 +30365,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplReplicationReceiverImpl
@@ -30429,7 +30429,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplReplicatorImpl
@@ -30491,7 +30491,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplReverseReplicator
@@ -30553,7 +30553,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplTransportBinaryLessTransportHandler
@@ -30617,7 +30617,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReplicationImplTransportHttp
@@ -30681,7 +30681,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReportingImplCacheCacheImpl
@@ -30747,7 +30747,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReportingImplConfigServiceImpl
@@ -30827,7 +30827,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqReportingImplRLogAnalyzer
@@ -30889,7 +30889,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqRewriterLinkcheckerImplLinkCheckerImpl
@@ -30963,7 +30963,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqRewriterLinkcheckerImplLinkCheckerTask
@@ -31035,7 +31035,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactory
@@ -31109,7 +31109,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqRewriterLinkcheckerImplLinkInfoStorageImpl
@@ -31173,7 +31173,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqRewriterProcessorImplHtmlParserFactory
@@ -31237,7 +31237,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqSearchImplBuilderQueryBuilderImpl
@@ -31305,7 +31305,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqSearchSuggestImplSuggestionIndexManagerImpl
@@ -31369,7 +31369,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqSearchpromoteImplPublishSearchPromoteConfigHandler
@@ -31431,7 +31431,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqSearchpromoteImplSearchPromoteServiceImpl
@@ -31499,7 +31499,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqSecurityACLSetup
@@ -31561,7 +31561,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqStatisticsImplStatisticsServiceImpl
@@ -31633,7 +31633,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqTaggingImplJcrTagManagerFactoryImpl
@@ -31695,7 +31695,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqTaggingImplSearchTagPredicateEvaluator
@@ -31757,7 +31757,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqTaggingImplTagGarbageCollector
@@ -31819,7 +31819,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmContentsyncImplHandlerPagesUpdateHandler
@@ -31881,7 +31881,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor
@@ -31953,7 +31953,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplAuthoringUIModeServiceImpl
@@ -32015,7 +32015,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplCommandsWCMCommandServlet
@@ -32077,7 +32077,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl
@@ -32141,7 +32141,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplEventPageEventAuditListener
@@ -32203,7 +32203,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplEventPagePostProcessor
@@ -32265,7 +32265,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplEventRepositoryChangeEventListener
@@ -32329,7 +32329,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplEventTemplatePostProcessor
@@ -32391,7 +32391,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplLanguageManagerImpl
@@ -32455,7 +32455,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImpl
@@ -32535,7 +32535,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplPagePageInfoAggregatorImpl
@@ -32599,7 +32599,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplPagePageManagerFactoryImpl
@@ -32663,7 +32663,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplReferencesContentContentReferenceConfig
@@ -32725,7 +32725,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplServletsContentfinderAssetViewHandler
@@ -32795,7 +32795,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie
@@ -32857,7 +32857,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplServletsContentfinderPageViewHandler
@@ -32921,7 +32921,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplServletsFindReplaceServlet
@@ -32983,7 +32983,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplServletsReferenceSearchServlet
@@ -33047,7 +33047,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplServletsThumbnailServlet
@@ -33111,7 +33111,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplUtilsDefaultPageNameValidator
@@ -33173,7 +33173,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplVariantsPageVariantsProviderImpl
@@ -33235,7 +33235,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplVersionManagerImpl
@@ -33309,7 +33309,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplVersionPurgeTask
@@ -33379,7 +33379,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplWCMDebugFilter
@@ -33443,7 +33443,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplWCMDeveloperModeFilter
@@ -33505,7 +33505,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreImplWarpTimeWarpFilter
@@ -33569,7 +33569,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreMvtMVTStatisticsImpl
@@ -33631,7 +33631,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreStatsPageViewStatisticsImpl
@@ -33695,7 +33695,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmCoreWCMRequestFilter
@@ -33757,7 +33757,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterDesignPackageImporter
@@ -33819,7 +33819,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterImplCanvasBuilderImpl
@@ -33887,7 +33887,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterImplCanvasPageDeleteHandler
@@ -33951,7 +33951,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterImplEntryPreprocessorImpl
@@ -34015,7 +34015,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl
@@ -34085,7 +34085,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone
@@ -34149,7 +34149,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon
@@ -34213,7 +34213,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan
@@ -34277,7 +34277,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle
@@ -34341,7 +34341,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand
@@ -34405,7 +34405,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen
@@ -34471,7 +34471,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler
@@ -34535,7 +34535,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT
@@ -34599,7 +34599,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle
@@ -34663,7 +34663,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle
@@ -34727,7 +34727,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH
@@ -34791,7 +34791,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone
@@ -34857,7 +34857,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand
@@ -34921,7 +34921,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl
@@ -34985,7 +34985,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent
@@ -35051,7 +35051,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen
@@ -35117,7 +35117,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl
@@ -35181,7 +35181,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationFormsImplFormChooserServlet
@@ -35251,7 +35251,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationFormsImplFormParagraphPostProcessor
@@ -35315,7 +35315,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationFormsImplFormsHandlingServlet
@@ -35379,7 +35379,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationFormsImplMailServlet
@@ -35447,7 +35447,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationImplAdaptiveImageComponentServlet
@@ -35509,7 +35509,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationImplHTTPAuthHandler
@@ -35581,7 +35581,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationImplPageImpressionsTracker
@@ -35643,7 +35643,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationImplPageRedirectServlet
@@ -35705,7 +35705,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist
@@ -35769,7 +35769,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl
@@ -35845,7 +35845,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory
@@ -35909,7 +35909,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMobileCoreImplRedirectRedirectFilter
@@ -35977,7 +35977,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplActionsContentCopyActionFactory
@@ -36045,7 +36045,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplActionsContentDeleteActionFactory
@@ -36111,7 +36111,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplActionsContentUpdateActionFactory
@@ -36179,7 +36179,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplActionsOrderChildrenActionFactory
@@ -36245,7 +36245,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplActionsPageMoveActionFactory
@@ -36313,7 +36313,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplActionsReferencesUpdateActionFactory
@@ -36381,7 +36381,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplActionsVersionCopyActionFactory
@@ -36447,7 +36447,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplLiveRelationshipManagerImpl
@@ -36509,7 +36509,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplRolloutManagerImpl
@@ -36587,7 +36587,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmMsmImplServletsAuditLogServlet
@@ -36651,7 +36651,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmNotificationEmailImplEmailChannel
@@ -36713,7 +36713,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmNotificationImplNotificationManagerImpl
@@ -36775,7 +36775,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmScriptingImplBVPManager
@@ -36837,7 +36837,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmUndoUndoConfig
@@ -36915,7 +36915,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmWebservicesupportImplReplicationEventListener
@@ -36977,7 +36977,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmWorkflowImplWcmWorkflowServiceImpl
@@ -37047,7 +37047,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWcmWorkflowImplWorkflowPackageInfoProvider
@@ -37111,7 +37111,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWidgetImplHtmlLibraryManagerImpl
@@ -37199,7 +37199,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWidgetImplWidgetExtensionProviderImpl
@@ -37263,7 +37263,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWorkflowImplEmailEMailNotificationService
@@ -37335,7 +37335,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCqWorkflowImplEmailTaskEMailNotificationService
@@ -37399,7 +37399,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCrxSecurityTokenImplImplTokenAuthenticationHandler
@@ -37469,7 +37469,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## comDayCrxSecurityTokenImplTokenCleanupTask
@@ -37535,7 +37535,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## guideLocalizationService
@@ -37599,7 +37599,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## messagingUserComponentFactory
@@ -37661,7 +37661,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheAriesJmxFrameworkStateConfig
@@ -37723,7 +37723,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixEventadminImplEventAdmin
@@ -37795,7 +37795,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixHttp
@@ -37961,7 +37961,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixHttpSslfilterSslFilter
@@ -38029,7 +38029,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixJaasConfigurationFactory
@@ -38099,7 +38099,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixJaasConfigurationSpi
@@ -38165,7 +38165,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixScrScrService
@@ -38237,7 +38237,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixSystemreadyImplComponentsCheck
@@ -38301,7 +38301,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixSystemreadyImplFrameworkStartCheck
@@ -38369,7 +38369,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixSystemreadyImplServicesCheck
@@ -38433,7 +38433,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixSystemreadyImplServletSystemAliveServlet
@@ -38497,7 +38497,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixSystemreadyImplServletSystemReadyServlet
@@ -38561,7 +38561,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixSystemreadySystemReadyMonitor
@@ -38623,7 +38623,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixWebconsoleInternalServletOsgiManager
@@ -38703,7 +38703,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixWebconsolePluginsEventInternalPluginServlet
@@ -38765,7 +38765,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo
@@ -38831,7 +38831,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheHttpProxyconfigurator
@@ -38903,7 +38903,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider
@@ -38965,7 +38965,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore
@@ -39027,7 +39027,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService
@@ -39147,7 +39147,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre
@@ -39209,7 +39209,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac
@@ -39275,7 +39275,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsIndexAsyncIndexerService
@@ -39343,7 +39343,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ
@@ -39435,7 +39435,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo
@@ -39499,7 +39499,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers
@@ -39561,7 +39561,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration
@@ -39655,7 +39655,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf
@@ -39731,7 +39731,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid
@@ -39793,7 +39793,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe
@@ -39855,7 +39855,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory
@@ -39917,7 +39917,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider
@@ -39983,7 +39983,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakQueryQueryEngineSettingsService
@@ -40051,7 +40051,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig
@@ -40115,7 +40115,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti
@@ -40227,7 +40227,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura
@@ -40301,7 +40301,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur
@@ -40371,7 +40371,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati
@@ -40435,7 +40435,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName
@@ -40497,7 +40497,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSecurityUserUserConfigurationImpl
@@ -40589,7 +40589,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService
@@ -40659,7 +40659,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSegmentSegmentNodeStoreFactory
@@ -40773,7 +40773,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService
@@ -40835,7 +40835,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSegmentSegmentNodeStoreService
@@ -40943,7 +40943,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService
@@ -41021,7 +41021,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe
@@ -41109,7 +41109,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx
@@ -41179,7 +41179,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr
@@ -41241,7 +41241,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi
@@ -41307,7 +41307,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu
@@ -41369,7 +41369,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable
@@ -41437,7 +41437,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitVaultPackagingImplPackagingImpl
@@ -41499,7 +41499,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry
@@ -41561,7 +41561,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingAuthCoreImplLogoutServlet
@@ -41625,7 +41625,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigImplConfigurationBindingsValueProvider
@@ -41687,7 +41687,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigImplConfigurationResolverImpl
@@ -41749,7 +41749,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra
@@ -41813,7 +41813,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra
@@ -41875,7 +41875,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi
@@ -41943,7 +41943,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve
@@ -42007,7 +42007,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigManagementImplConfigurationManagementSetti
@@ -42071,7 +42071,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour
@@ -42139,7 +42139,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy
@@ -42207,7 +42207,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser
@@ -42269,7 +42269,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsLogLogManager
@@ -42349,7 +42349,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsLogLogManagerFactoryConfig
@@ -42419,7 +42419,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsLogLogManagerFactoryWriter
@@ -42487,7 +42487,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsMetricsInternalLogReporter
@@ -42561,7 +42561,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporter
@@ -42629,7 +42629,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsMimeInternalMimeTypeServiceImpl
@@ -42691,7 +42691,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsSchedulerImplQuartzScheduler
@@ -42761,7 +42761,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsSchedulerImplSchedulerHealthCheck
@@ -42823,7 +42823,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingCommonsThreadsImplDefaultThreadPoolFactory
@@ -42905,7 +42905,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDatasourceDataSourceFactory
@@ -43023,7 +43023,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDatasourceJNDIDataSourceFactory
@@ -43091,7 +43091,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDiscoveryOakConfig
@@ -43189,7 +43189,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck
@@ -43255,7 +43255,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto
@@ -43355,7 +43355,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA
@@ -43419,7 +43419,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory
@@ -43503,7 +43503,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto
@@ -43591,7 +43591,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor
@@ -43673,7 +43673,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory
@@ -43769,7 +43769,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionMonitorDistributionQueueHealthCheck
@@ -43837,7 +43837,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionPackagingImplExporterAgentDistributio
@@ -43905,7 +43905,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionPackagingImplExporterLocalDistributio
@@ -43969,7 +43969,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionPackagingImplExporterRemoteDistributi
@@ -44039,7 +44039,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionPackagingImplImporterLocalDistributio
@@ -44103,7 +44103,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionPackagingImplImporterRemoteDistributi
@@ -44169,7 +44169,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionPackagingImplImporterRepositoryDistri
@@ -44237,7 +44237,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionResourcesImplDistributionConfiguration
@@ -44301,7 +44301,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionResourcesImplDistributionServiceResour
@@ -44365,7 +44365,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionSerializationImplDistributionPackageBu
@@ -44449,7 +44449,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionSerializationImplVltVaultDistribution
@@ -44545,7 +44545,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionTransportImplUserCredentialsDistributi
@@ -44611,7 +44611,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionTriggerImplDistributionEventDistribute
@@ -44675,7 +44675,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger
@@ -44745,7 +44745,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi
@@ -44813,7 +44813,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig
@@ -44879,7 +44879,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionTriggerImplResourceEventDistributionTr
@@ -44943,7 +44943,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge
@@ -45011,7 +45011,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEngineImplAuthSlingAuthenticator
@@ -45093,7 +45093,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter
@@ -45161,7 +45161,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEngineImplLogRequestLogger
@@ -45233,7 +45233,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEngineImplLogRequestLoggerService
@@ -45301,7 +45301,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEngineImplSlingMainServlet
@@ -45375,7 +45375,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEngineParameters
@@ -45449,7 +45449,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEventImplEventingThreadPool
@@ -45511,7 +45511,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEventImplJobsDefaultJobManager
@@ -45579,7 +45579,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEventImplJobsJcrPersistenceHandler
@@ -45645,7 +45645,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEventImplJobsJobConsumerManager
@@ -45711,7 +45711,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingEventJobsQueueConfiguration
@@ -45793,7 +45793,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW
@@ -45857,7 +45857,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingFeatureflagsFeature
@@ -45923,7 +45923,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingFeatureflagsImplConfiguredFeature
@@ -45989,7 +45989,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingHapiImplHApiUtilImpl
@@ -46059,7 +46059,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingHcCoreImplCompositeHealthCheck
@@ -46129,7 +46129,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImpl
@@ -46195,7 +46195,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingHcCoreImplJmxAttributeHealthCheck
@@ -46267,7 +46267,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingHcCoreImplScriptableHealthCheck
@@ -46337,7 +46337,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingHcCoreImplServletHealthCheckExecutorServlet
@@ -46403,7 +46403,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingHcCoreImplServletResultTxtVerboseSerializer
@@ -46471,7 +46471,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingI18nImplI18NFilter
@@ -46535,7 +46535,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingI18nImplJcrResourceBundleProvider
@@ -46601,7 +46601,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingInstallerProviderJcrImplJcrInstaller
@@ -46675,7 +46675,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrBaseInternalLoginAdminWhitelist
@@ -46739,7 +46739,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragment
@@ -46803,7 +46803,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrDavexImplServletsSlingDavExServlet
@@ -46869,7 +46869,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrJackrabbitServerJndiRegistrationSupport
@@ -46933,7 +46933,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrJackrabbitServerRmiRegistrationSupport
@@ -46995,7 +46995,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrRepoinitImplRepositoryInitializer
@@ -47057,7 +47057,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrRepoinitRepositoryInitializer
@@ -47121,7 +47121,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImpl
@@ -47223,7 +47223,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrResourceInternalJcrSystemUserValidator
@@ -47285,7 +47285,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory
@@ -47351,7 +47351,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService
@@ -47419,7 +47419,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic
@@ -47481,7 +47481,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet
@@ -47561,7 +47561,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingJmxProviderImplJMXResourceProvider
@@ -47623,7 +47623,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingModelsImplModelAdapterFactory
@@ -47691,7 +47691,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingModelsJacksonexporterImplResourceModuleProvider
@@ -47753,7 +47753,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto
@@ -47819,7 +47819,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingResourcemergerImplMergedResourceProviderFactory
@@ -47883,7 +47883,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingResourcemergerPickerOverriding
@@ -47947,7 +47947,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingScriptingCoreImplScriptCacheImpl
@@ -48011,7 +48011,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider
@@ -48073,7 +48073,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingScriptingJavaImplJavaScriptEngineFactory
@@ -48141,7 +48141,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa
@@ -48203,7 +48203,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingScriptingJspJspScriptEngineFactory
@@ -48285,7 +48285,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv
@@ -48347,7 +48347,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingSecurityImplContentDispositionFilter
@@ -48413,7 +48413,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingSecurityImplReferrerFilter
@@ -48483,7 +48483,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingServiceusermappingImplServiceUserMapperImpl
@@ -48551,7 +48551,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingServiceusermappingImplServiceUserMapperImplAmended
@@ -48615,7 +48615,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingServletsGetDefaultGetServlet
@@ -48693,7 +48693,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingServletsGetImplVersionVersionInfoServlet
@@ -48757,7 +48757,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingServletsPostImplHelperChunkCleanUpTask
@@ -48823,7 +48823,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingServletsPostImplSlingPostServlet
@@ -48897,7 +48897,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingServletsResolverSlingServletResolver
@@ -48965,7 +48965,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingSettingsImplSlingSettingsServiceImpl
@@ -49029,7 +49029,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingStartupfilterImplStartupFilterImpl
@@ -49093,7 +49093,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingTenantInternalTenantProviderImpl
@@ -49157,7 +49157,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingTracerInternalLogTracer
@@ -49231,7 +49231,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 
 
 ## orgApacheSlingXssImplXSSFilterImpl
@@ -49293,5 +49293,5 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/json
+- **Accept**: application/json, text/plain
 

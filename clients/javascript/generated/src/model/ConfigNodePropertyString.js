@@ -59,8 +59,8 @@ class ConfigNodePropertyString {
             if (data.hasOwnProperty('type')) {
                 obj['type'] = ApiClient.convertToType(data['type'], 'Number');
             }
-            if (data.hasOwnProperty('values')) {
-                obj['values'] = ApiClient.convertToType(data['values'], 'String');
+            if (data.hasOwnProperty('value')) {
+                obj['value'] = ApiClient.convertToType(data['value'], 'String');
             }
             if (data.hasOwnProperty('description')) {
                 obj['description'] = ApiClient.convertToType(data['description'], 'String');
@@ -98,9 +98,9 @@ ConfigNodePropertyString.prototype['type'] = undefined;
 
 /**
  * Property value
- * @member {String} values
+ * @member {String} value
  */
-ConfigNodePropertyString.prototype['values'] = undefined;
+ConfigNodePropertyString.prototype['value'] = undefined;
 
 /**
  * Property description
