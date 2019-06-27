@@ -52,6 +52,10 @@ import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
 
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
 api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
@@ -2258,7 +2262,11 @@ Class | Method | HTTP request | Description
 
 ## Documentation For Authorization
 
- All endpoints do not require authorization.
+
+## aemAuth
+
+- **Type**: HTTP basic authentication
+
 
 ## Author
 

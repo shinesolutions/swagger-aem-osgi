@@ -35,23 +35,29 @@ class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo(object):
         'pid': 'str',
         'title': 'str',
         'description': 'str',
-        'properties': 'OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties'
+        'properties': 'OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties',
+        'bundle_location': 'str',
+        'service_location': 'str'
     }
 
     attribute_map = {
         'pid': 'pid',
         'title': 'title',
         'description': 'description',
-        'properties': 'properties'
+        'properties': 'properties',
+        'bundle_location': 'bundle_location',
+        'service_location': 'service_location'
     }
 
-    def __init__(self, pid=None, title=None, description=None, properties=None):  # noqa: E501
+    def __init__(self, pid=None, title=None, description=None, properties=None, bundle_location=None, service_location=None):  # noqa: E501
         """OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo - a model defined in OpenAPI"""  # noqa: E501
 
         self._pid = None
         self._title = None
         self._description = None
         self._properties = None
+        self._bundle_location = None
+        self._service_location = None
         self.discriminator = None
 
         if pid is not None:
@@ -62,6 +68,10 @@ class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo(object):
             self.description = description
         if properties is not None:
             self.properties = properties
+        if bundle_location is not None:
+            self.bundle_location = bundle_location
+        if service_location is not None:
+            self.service_location = service_location
 
     @property
     def pid(self):
@@ -146,6 +156,48 @@ class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo(object):
         """
 
         self._properties = properties
+
+    @property
+    def bundle_location(self):
+        """Gets the bundle_location of this OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.  # noqa: E501
+
+
+        :return: The bundle_location of this OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.  # noqa: E501
+        :rtype: str
+        """
+        return self._bundle_location
+
+    @bundle_location.setter
+    def bundle_location(self, bundle_location):
+        """Sets the bundle_location of this OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.
+
+
+        :param bundle_location: The bundle_location of this OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.  # noqa: E501
+        :type: str
+        """
+
+        self._bundle_location = bundle_location
+
+    @property
+    def service_location(self):
+        """Gets the service_location of this OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.  # noqa: E501
+
+
+        :return: The service_location of this OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.  # noqa: E501
+        :rtype: str
+        """
+        return self._service_location
+
+    @service_location.setter
+    def service_location(self, service_location):
+        """Sets the service_location of this OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.
+
+
+        :param service_location: The service_location of this OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.  # noqa: E501
+        :type: str
+        """
+
+        self._service_location = service_location
 
     def to_dict(self):
         """Returns the model properties as a dict"""

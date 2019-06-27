@@ -734,15 +734,20 @@ Method | HTTP request | Description
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -784,7 +789,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -800,15 +805,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -842,7 +852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -858,15 +868,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -900,7 +915,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -916,15 +931,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -958,7 +978,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -974,15 +994,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1018,7 +1043,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1034,15 +1059,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1076,7 +1106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1092,15 +1122,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1138,7 +1173,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1154,15 +1189,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1200,7 +1240,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1216,15 +1256,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1260,7 +1305,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1276,15 +1321,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1320,7 +1370,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1336,15 +1386,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1382,7 +1437,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1398,15 +1453,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1442,7 +1502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1458,15 +1518,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1500,7 +1565,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1516,15 +1581,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1564,7 +1634,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1580,15 +1650,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1628,7 +1703,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1644,15 +1719,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1692,7 +1772,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1708,15 +1788,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1758,7 +1843,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1774,15 +1859,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1824,7 +1914,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1840,15 +1930,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1886,7 +1981,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1902,15 +1997,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -1944,7 +2044,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1960,15 +2060,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2004,7 +2109,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2020,15 +2125,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2062,7 +2172,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2078,15 +2188,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2122,7 +2237,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2138,15 +2253,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2182,7 +2302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2198,15 +2318,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2240,7 +2365,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2256,15 +2381,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2302,7 +2432,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2318,15 +2448,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2360,7 +2495,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2376,15 +2511,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2418,7 +2558,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2434,15 +2574,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2476,7 +2621,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2492,15 +2637,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2534,7 +2684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2550,15 +2700,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2592,7 +2747,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2608,15 +2763,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2656,7 +2816,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2672,15 +2832,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2716,7 +2881,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2732,15 +2897,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2774,7 +2944,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2790,15 +2960,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2832,7 +3007,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2848,15 +3023,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2890,7 +3070,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2906,15 +3086,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -2948,7 +3133,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2964,15 +3149,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3008,7 +3198,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3024,15 +3214,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3066,7 +3261,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3082,15 +3277,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3130,7 +3330,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3146,15 +3346,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3192,7 +3397,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3208,15 +3413,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3260,7 +3470,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3276,15 +3486,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3324,7 +3539,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3340,15 +3555,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3386,7 +3606,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3402,15 +3622,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3448,7 +3673,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3464,15 +3689,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3506,7 +3736,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3522,15 +3752,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3568,7 +3803,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3584,15 +3819,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3628,7 +3868,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3644,15 +3884,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3688,7 +3933,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3704,15 +3949,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3750,7 +4000,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3766,15 +4016,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3810,7 +4065,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3826,15 +4081,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3874,7 +4134,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3890,15 +4150,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3934,7 +4199,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3950,15 +4215,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -3994,7 +4264,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4010,15 +4280,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4060,7 +4335,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4076,15 +4351,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4120,7 +4400,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4136,15 +4416,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4192,7 +4477,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4208,15 +4493,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4252,7 +4542,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4268,15 +4558,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4318,7 +4613,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4334,15 +4629,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4388,7 +4688,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4404,15 +4704,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4446,7 +4751,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4462,15 +4767,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4512,7 +4822,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4528,15 +4838,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4570,7 +4885,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4586,15 +4901,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4628,7 +4948,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4644,15 +4964,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4686,7 +5011,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4702,15 +5027,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4760,7 +5090,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4776,15 +5106,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4882,7 +5217,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4898,15 +5233,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -4942,7 +5282,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4958,15 +5298,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5000,7 +5345,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5016,15 +5361,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5058,7 +5408,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5074,15 +5424,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5116,7 +5471,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5132,15 +5487,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5174,7 +5534,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5190,15 +5550,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5238,7 +5603,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5254,15 +5619,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5296,7 +5666,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5312,15 +5682,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5356,7 +5731,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5372,15 +5747,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5418,7 +5798,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5434,15 +5814,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5476,7 +5861,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5492,15 +5877,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5534,7 +5924,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5550,15 +5940,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5594,7 +5989,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5610,15 +6005,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5654,7 +6054,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5670,15 +6070,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5714,7 +6119,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5730,15 +6135,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5774,7 +6184,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5790,15 +6200,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5836,7 +6251,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5852,15 +6267,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5896,7 +6316,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5912,15 +6332,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -5954,7 +6379,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5970,15 +6395,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6012,7 +6442,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6028,15 +6458,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6072,7 +6507,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6088,15 +6523,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6132,7 +6572,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6148,15 +6588,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6190,7 +6635,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6206,15 +6651,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6252,7 +6702,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6268,15 +6718,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6310,7 +6765,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6326,15 +6781,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6370,7 +6830,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6386,15 +6846,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6428,7 +6893,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6444,15 +6909,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6486,7 +6956,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6502,15 +6972,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6546,7 +7021,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6562,15 +7037,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6618,7 +7098,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6634,15 +7114,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6696,7 +7181,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6712,15 +7197,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6754,7 +7244,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6770,15 +7260,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6814,7 +7309,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6830,15 +7325,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6874,7 +7374,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6890,15 +7390,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6934,7 +7439,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6950,15 +7455,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -6994,7 +7504,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7010,15 +7520,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7054,7 +7569,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7070,15 +7585,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7114,7 +7634,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7130,15 +7650,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7174,7 +7699,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7190,15 +7715,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7236,7 +7766,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7252,15 +7782,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7302,7 +7837,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7318,15 +7853,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7374,7 +7914,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7390,15 +7930,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7434,7 +7979,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7450,15 +7995,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7496,7 +8046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7512,15 +8062,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7566,7 +8121,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7582,15 +8137,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7626,7 +8186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7642,15 +8202,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7696,7 +8261,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7712,15 +8277,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7766,7 +8336,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7782,15 +8352,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7836,7 +8411,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7852,15 +8427,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7894,7 +8474,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7910,15 +8490,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -7952,7 +8537,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7968,15 +8553,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8010,7 +8600,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8026,15 +8616,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8068,7 +8663,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8084,15 +8679,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8126,7 +8726,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8142,15 +8742,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8186,7 +8791,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8202,15 +8807,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8246,7 +8856,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8262,15 +8872,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8306,7 +8921,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8322,15 +8937,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8366,7 +8986,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8382,15 +9002,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8430,7 +9055,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8446,15 +9071,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8490,7 +9120,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8506,15 +9136,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8554,7 +9189,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8570,15 +9205,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8614,7 +9254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8630,15 +9270,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8674,7 +9319,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8690,15 +9335,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8732,7 +9382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8748,15 +9398,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8790,7 +9445,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8806,15 +9461,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8850,7 +9510,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8866,15 +9526,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -8946,7 +9611,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8962,15 +9627,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9006,7 +9676,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9022,15 +9692,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9064,7 +9739,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9080,15 +9755,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9122,7 +9802,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9138,15 +9818,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9182,7 +9867,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9198,15 +9883,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9242,7 +9932,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9258,15 +9948,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9300,7 +9995,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9316,15 +10011,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9360,7 +10060,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9376,15 +10076,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9420,7 +10125,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9436,15 +10141,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9480,7 +10190,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9496,15 +10206,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9538,7 +10253,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9554,15 +10269,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9598,7 +10318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9614,15 +10334,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9658,7 +10383,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9674,15 +10399,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9718,7 +10448,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9734,15 +10464,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9778,7 +10513,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9794,15 +10529,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9838,7 +10578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9854,15 +10594,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9896,7 +10641,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9912,15 +10657,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -9958,7 +10708,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9974,15 +10724,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10016,7 +10771,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10032,15 +10787,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10074,7 +10834,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10090,15 +10850,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10132,7 +10897,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10148,15 +10913,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10196,7 +10966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10212,15 +10982,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10262,7 +11037,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10278,15 +11053,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10320,7 +11100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10336,15 +11116,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10386,7 +11171,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10402,15 +11187,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10458,7 +11248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10474,15 +11264,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10530,7 +11325,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10546,15 +11341,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10592,7 +11392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10608,15 +11408,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10656,7 +11461,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10672,15 +11477,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10714,7 +11524,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10730,15 +11540,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10772,7 +11587,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10788,15 +11603,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10832,7 +11652,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10848,15 +11668,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10896,7 +11721,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10912,15 +11737,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -10956,7 +11786,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10972,15 +11802,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11028,7 +11863,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11044,15 +11879,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11090,7 +11930,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11106,15 +11946,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11156,7 +12001,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11172,15 +12017,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11214,7 +12064,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11230,15 +12080,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11274,7 +12129,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11290,15 +12145,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11332,7 +12192,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11348,15 +12208,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11394,7 +12259,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11410,15 +12275,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11456,7 +12326,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11472,15 +12342,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11518,7 +12393,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11534,15 +12409,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11580,7 +12460,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11596,15 +12476,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11644,7 +12529,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11660,15 +12545,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11702,7 +12592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11718,15 +12608,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11760,7 +12655,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11776,15 +12671,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11824,7 +12724,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11840,15 +12740,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11894,7 +12799,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11910,15 +12815,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -11952,7 +12862,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11968,15 +12878,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12010,7 +12925,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12026,15 +12941,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12068,7 +12988,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12084,15 +13004,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12130,7 +13055,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12146,15 +13071,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12190,7 +13120,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12206,15 +13136,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12250,7 +13185,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12266,15 +13201,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12308,7 +13248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12324,15 +13264,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12366,7 +13311,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12382,15 +13327,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12734,7 +13684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12750,15 +13700,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12794,7 +13749,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12810,15 +13765,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12854,7 +13814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12870,15 +13830,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12912,7 +13877,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12928,15 +13893,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -12972,7 +13942,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12988,15 +13958,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13036,7 +14011,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13052,15 +14027,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13094,7 +14074,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13110,15 +14090,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13176,7 +14161,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13192,15 +14177,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13260,7 +14250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13276,15 +14266,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13328,7 +14323,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13344,15 +14339,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13386,7 +14386,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13402,15 +14402,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13444,7 +14449,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13460,15 +14465,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13508,7 +14518,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13524,15 +14534,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13574,7 +14589,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13590,15 +14605,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13634,7 +14654,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13650,15 +14670,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13694,7 +14719,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13710,15 +14735,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13752,7 +14782,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13768,15 +14798,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13810,7 +14845,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13826,15 +14861,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13898,7 +14938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13914,15 +14954,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -13956,7 +15001,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13972,15 +15017,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14064,7 +15114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14080,15 +15130,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14142,7 +15197,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14158,15 +15213,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14202,7 +15262,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14218,15 +15278,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14260,7 +15325,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14276,15 +15341,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14318,7 +15388,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14334,15 +15404,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14378,7 +15453,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14394,15 +15469,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14438,7 +15518,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14454,15 +15534,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14496,7 +15581,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14512,15 +15597,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14554,7 +15644,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14570,15 +15660,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14612,7 +15707,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14628,15 +15723,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14670,7 +15770,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14686,15 +15786,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14728,7 +15833,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14744,15 +15849,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14786,7 +15896,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14802,15 +15912,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14846,7 +15961,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14862,15 +15977,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14908,7 +16028,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14924,15 +16044,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -14968,7 +16093,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14984,15 +16109,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15028,7 +16158,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15044,15 +16174,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15088,7 +16223,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15104,15 +16239,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15160,7 +16300,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15176,15 +16316,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15224,7 +16369,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15240,15 +16385,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15284,7 +16434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15300,15 +16450,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15346,7 +16501,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15362,15 +16517,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15418,7 +16578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15434,15 +16594,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15480,7 +16645,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15496,15 +16661,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15538,7 +16708,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15554,15 +16724,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15598,7 +16773,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15614,15 +16789,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15656,7 +16836,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15672,15 +16852,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15720,7 +16905,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15736,15 +16921,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15784,7 +16974,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15800,15 +16990,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15850,7 +17045,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15866,15 +17061,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15910,7 +17110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15926,15 +17126,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -15968,7 +17173,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15984,15 +17189,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16026,7 +17236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16042,15 +17252,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16084,7 +17299,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16100,15 +17315,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16144,7 +17364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16160,15 +17380,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16212,7 +17437,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16228,15 +17453,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16274,7 +17504,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16290,15 +17520,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16336,7 +17571,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16352,15 +17587,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16394,7 +17634,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16410,15 +17650,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16454,7 +17699,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16470,15 +17715,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16512,7 +17762,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16528,15 +17778,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16570,7 +17825,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16586,15 +17841,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16638,7 +17898,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16654,15 +17914,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16704,7 +17969,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16720,15 +17985,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16762,7 +18032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16778,15 +18048,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16820,7 +18095,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16836,15 +18111,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16880,7 +18160,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16896,15 +18176,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -16944,7 +18229,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16960,15 +18245,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17002,7 +18292,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17018,15 +18308,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17062,7 +18357,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17078,15 +18373,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17120,7 +18420,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17136,15 +18436,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17178,7 +18483,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17194,15 +18499,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17236,7 +18546,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17252,15 +18562,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17306,7 +18621,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17322,15 +18637,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17366,7 +18686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17382,15 +18702,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17428,7 +18753,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17444,15 +18769,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17490,7 +18820,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17506,15 +18836,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17552,7 +18887,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17568,15 +18903,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17610,7 +18950,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17626,15 +18966,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17668,7 +19013,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17684,15 +19029,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17726,7 +19076,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17742,15 +19092,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17786,7 +19141,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17802,15 +19157,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17844,7 +19204,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17860,15 +19220,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17902,7 +19267,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17918,15 +19283,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -17962,7 +19332,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17978,15 +19348,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18020,7 +19395,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18036,15 +19411,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18078,7 +19458,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18094,15 +19474,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18140,7 +19525,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18156,15 +19541,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18202,7 +19592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18218,15 +19608,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18260,7 +19655,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18276,15 +19671,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18342,7 +19742,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18358,15 +19758,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18404,7 +19809,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18420,15 +19825,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18462,7 +19872,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18478,15 +19888,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18522,7 +19937,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18538,15 +19953,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18580,7 +20000,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18596,15 +20016,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18640,7 +20065,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18656,15 +20081,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18698,7 +20128,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18714,15 +20144,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18758,7 +20193,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18774,15 +20209,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18816,7 +20256,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18832,15 +20272,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18878,7 +20323,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18894,15 +20339,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -18942,7 +20392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18958,15 +20408,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19002,7 +20457,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19018,15 +20473,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19060,7 +20520,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19076,15 +20536,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19122,7 +20587,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19138,15 +20603,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19188,7 +20658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19204,15 +20674,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19248,7 +20723,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19264,15 +20739,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19322,7 +20802,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19338,15 +20818,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19396,7 +20881,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19412,15 +20897,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19456,7 +20946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19472,15 +20962,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19552,7 +21047,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19568,15 +21063,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19610,7 +21110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19626,15 +21126,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19668,7 +21173,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19684,15 +21189,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19726,7 +21236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19742,15 +21252,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19788,7 +21303,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19804,15 +21319,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19848,7 +21368,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19864,15 +21384,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19906,7 +21431,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19922,15 +21447,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -19966,7 +21496,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19982,15 +21512,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20026,7 +21561,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20042,15 +21577,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20088,7 +21628,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20104,15 +21644,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20166,7 +21711,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20182,15 +21727,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20230,7 +21780,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20246,15 +21796,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20296,7 +21851,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20312,15 +21867,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20354,7 +21914,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20370,15 +21930,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20418,7 +21983,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20434,15 +21999,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20496,7 +22066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20512,15 +22082,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20566,7 +22141,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20582,15 +22157,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20624,7 +22204,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20640,15 +22220,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20684,7 +22269,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20700,15 +22285,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20744,7 +22334,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20760,15 +22350,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20802,7 +22397,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20818,15 +22413,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20866,7 +22466,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20882,15 +22482,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20924,7 +22529,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20940,15 +22545,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -20982,7 +22592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20998,15 +22608,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21040,7 +22655,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21056,15 +22671,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21098,7 +22718,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21114,15 +22734,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21160,7 +22785,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21176,15 +22801,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21218,7 +22848,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21234,15 +22864,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21284,7 +22919,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21300,15 +22935,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21348,7 +22988,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21364,15 +23004,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21420,7 +23065,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21436,15 +23081,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21484,7 +23134,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21500,15 +23150,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21542,7 +23197,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21558,15 +23213,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21602,7 +23262,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21618,15 +23278,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21660,7 +23325,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21676,15 +23341,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21718,7 +23388,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21734,15 +23404,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21778,7 +23453,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21794,15 +23469,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21840,7 +23520,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21856,15 +23536,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21904,7 +23589,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21920,15 +23605,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -21966,7 +23656,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21982,15 +23672,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22054,7 +23749,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22070,15 +23765,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22112,7 +23812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22128,15 +23828,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22170,7 +23875,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22186,15 +23891,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22228,7 +23938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22244,15 +23954,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22290,7 +24005,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22306,15 +24021,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22348,7 +24068,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22364,15 +24084,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22414,7 +24139,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22430,15 +24155,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22480,7 +24210,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22496,15 +24226,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22540,7 +24275,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22556,15 +24291,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22610,7 +24350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22626,15 +24366,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22668,7 +24413,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22684,15 +24429,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22726,7 +24476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22742,15 +24492,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22784,7 +24539,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22800,15 +24555,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22842,7 +24602,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22858,15 +24618,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22904,7 +24669,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22920,15 +24685,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -22962,7 +24732,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22978,15 +24748,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23036,7 +24811,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23052,15 +24827,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23094,7 +24874,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23110,15 +24890,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23154,7 +24939,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23170,15 +24955,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23214,7 +25004,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23230,15 +25020,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23278,7 +25073,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23294,15 +25089,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23340,7 +25140,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23356,15 +25156,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23398,7 +25203,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23414,15 +25219,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23458,7 +25268,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23474,15 +25284,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23516,7 +25331,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23532,15 +25347,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23580,7 +25400,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23596,15 +25416,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23640,7 +25465,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23656,15 +25481,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23700,7 +25530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23716,15 +25546,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23760,7 +25595,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23776,15 +25611,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23818,7 +25658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23834,15 +25674,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23882,7 +25727,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23898,15 +25743,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23940,7 +25790,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23956,15 +25806,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -23998,7 +25853,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24014,15 +25869,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24056,7 +25916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24072,15 +25932,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24118,7 +25983,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24134,15 +25999,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24180,7 +26050,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24196,15 +26066,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24240,7 +26115,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24256,15 +26131,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24300,7 +26180,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24316,15 +26196,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24360,7 +26245,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24376,15 +26261,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24418,7 +26308,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24434,15 +26324,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24478,7 +26373,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24494,15 +26389,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24536,7 +26436,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24552,15 +26452,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24596,7 +26501,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24612,15 +26517,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24660,7 +26570,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24676,15 +26586,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24718,7 +26633,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24734,15 +26649,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24786,7 +26706,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24802,15 +26722,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24850,7 +26775,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24866,15 +26791,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24910,7 +26840,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24926,15 +26856,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -24970,7 +26905,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24986,15 +26921,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25030,7 +26970,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25046,15 +26986,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25092,7 +27037,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25108,15 +27053,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25150,7 +27100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25166,15 +27116,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25214,7 +27169,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25230,15 +27185,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25272,7 +27232,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25288,15 +27248,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25330,7 +27295,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25346,15 +27311,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25388,7 +27358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25404,15 +27374,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25456,7 +27431,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25472,15 +27447,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25524,7 +27504,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25540,15 +27520,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25584,7 +27569,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25600,15 +27585,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25642,7 +27632,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25658,15 +27648,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25706,7 +27701,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25722,15 +27717,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25764,7 +27764,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25780,15 +27780,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25822,7 +27827,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25838,15 +27843,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25880,7 +27890,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25896,15 +27906,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25938,7 +27953,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25954,15 +27969,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -25998,7 +28018,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26014,15 +28034,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26058,7 +28083,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26074,15 +28099,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26118,7 +28148,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26134,15 +28164,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26176,7 +28211,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26192,15 +28227,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26234,7 +28274,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26250,15 +28290,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26294,7 +28339,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26310,15 +28355,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26364,7 +28414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26380,15 +28430,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26424,7 +28479,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26440,15 +28495,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26482,7 +28542,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26498,15 +28558,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26540,7 +28605,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26556,15 +28621,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26600,7 +28670,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26616,15 +28686,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26666,7 +28741,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26682,15 +28757,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26726,7 +28806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26742,15 +28822,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26786,7 +28871,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26802,15 +28887,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26848,7 +28938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26864,15 +28954,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26906,7 +29001,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26922,15 +29017,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -26966,7 +29066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26982,15 +29082,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27026,7 +29131,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27042,15 +29147,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27088,7 +29198,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27104,15 +29214,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27160,7 +29275,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27176,15 +29291,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27218,7 +29338,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27234,15 +29354,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27276,7 +29401,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27292,15 +29417,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27340,7 +29470,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27356,15 +29486,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27402,7 +29537,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27418,15 +29553,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27462,7 +29602,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27478,15 +29618,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27524,7 +29669,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27540,15 +29685,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27584,7 +29734,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27600,15 +29750,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27646,7 +29801,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27662,15 +29817,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27708,7 +29868,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27724,15 +29884,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27768,7 +29933,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27784,15 +29949,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27828,7 +29998,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27844,15 +30014,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27890,7 +30065,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27906,15 +30081,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -27948,7 +30128,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27964,15 +30144,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28006,7 +30191,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28022,15 +30207,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28080,7 +30270,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28096,15 +30286,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28138,7 +30333,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28154,15 +30349,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28202,7 +30402,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28218,15 +30418,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28260,7 +30465,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28276,15 +30481,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28320,7 +30530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28336,15 +30546,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28382,7 +30597,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28398,15 +30613,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28440,7 +30660,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28456,15 +30676,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28514,7 +30739,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28530,15 +30755,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28574,7 +30804,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28590,15 +30820,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28634,7 +30869,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28650,15 +30885,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28692,7 +30932,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28708,15 +30948,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28750,7 +30995,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28766,15 +31011,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28810,7 +31060,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28826,15 +31076,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28870,7 +31125,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28886,15 +31141,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -28932,7 +31192,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28948,15 +31208,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29008,7 +31273,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29024,15 +31289,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29066,7 +31336,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29082,15 +31352,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29136,7 +31411,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29152,15 +31427,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29204,7 +31484,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29220,15 +31500,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29274,7 +31559,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29290,15 +31575,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29334,7 +31624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29350,15 +31640,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29394,7 +31689,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29410,15 +31705,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29458,7 +31758,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29474,15 +31774,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29518,7 +31823,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29534,15 +31839,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29576,7 +31886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29592,15 +31902,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29640,7 +31955,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29656,15 +31971,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29698,7 +32018,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29714,15 +32034,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29766,7 +32091,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29782,15 +32107,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29824,7 +32154,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29840,15 +32170,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29882,7 +32217,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29898,15 +32233,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29940,7 +32280,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29956,15 +32296,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -29998,7 +32343,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30014,15 +32359,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30066,7 +32416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30082,15 +32432,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30124,7 +32479,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30140,15 +32495,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30182,7 +32542,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30198,15 +32558,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30242,7 +32607,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30258,15 +32623,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30300,7 +32670,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30316,15 +32686,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30358,7 +32733,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30374,15 +32749,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30418,7 +32798,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30434,15 +32814,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30476,7 +32861,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30492,15 +32877,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30536,7 +32926,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30552,15 +32942,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30612,7 +33007,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30628,15 +33023,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30672,7 +33072,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30688,15 +33088,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30732,7 +33137,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30748,15 +33153,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30790,7 +33200,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30806,15 +33216,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30856,7 +33271,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30872,15 +33287,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30914,7 +33334,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30930,15 +33350,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -30974,7 +33399,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30990,15 +33415,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31032,7 +33462,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31048,15 +33478,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31092,7 +33527,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31108,15 +33543,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31152,7 +33592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31168,15 +33608,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31210,7 +33655,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31226,15 +33671,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31268,7 +33718,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31284,15 +33734,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31338,7 +33793,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31354,15 +33809,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31404,7 +33864,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31420,15 +33880,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31464,7 +33929,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31480,15 +33945,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31524,7 +33994,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31540,15 +34010,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31582,7 +34057,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31598,15 +34073,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31640,7 +34120,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31656,15 +34136,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31700,7 +34185,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31716,15 +34201,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31758,7 +34248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31774,15 +34264,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31816,7 +34311,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31832,15 +34327,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31880,7 +34380,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31896,15 +34396,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -31940,7 +34445,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31956,15 +34461,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32000,7 +34510,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32016,15 +34526,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32066,7 +34581,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32082,15 +34597,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32126,7 +34646,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32142,15 +34662,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32186,7 +34711,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32202,15 +34727,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32246,7 +34776,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32262,15 +34792,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32306,7 +34841,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32322,15 +34857,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32366,7 +34906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32382,15 +34922,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32428,7 +34973,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32444,15 +34989,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32488,7 +35038,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32504,15 +35054,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32548,7 +35103,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32564,15 +35119,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32608,7 +35168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32624,15 +35184,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32668,7 +35233,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32684,15 +35249,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32728,7 +35298,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32744,15 +35314,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32790,7 +35365,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32806,15 +35381,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32850,7 +35430,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32866,15 +35446,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32910,7 +35495,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32926,15 +35511,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -32972,7 +35562,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32988,15 +35578,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33034,7 +35629,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33050,15 +35645,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33094,7 +35694,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33110,15 +35710,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33160,7 +35765,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33176,15 +35781,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33220,7 +35830,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33236,15 +35846,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33280,7 +35895,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33296,15 +35911,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33344,7 +35964,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33360,15 +35980,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33402,7 +36027,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33418,15 +36043,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33470,7 +36100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33486,15 +36116,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33528,7 +36163,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33544,15 +36179,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33586,7 +36226,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33602,15 +36242,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33646,7 +36291,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33662,15 +36307,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33718,7 +36368,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33734,15 +36384,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33778,7 +36433,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33794,15 +36449,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33842,7 +36502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33858,15 +36518,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33906,7 +36571,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33922,15 +36587,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -33968,7 +36638,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33984,15 +36654,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34032,7 +36707,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34048,15 +36723,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34094,7 +36774,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34110,15 +36790,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34158,7 +36843,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34174,15 +36859,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34222,7 +36912,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34238,15 +36928,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34284,7 +36979,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34300,15 +36995,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34342,7 +37042,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34358,15 +37058,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34416,7 +37121,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34432,15 +37137,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34476,7 +37186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34492,15 +37202,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34534,7 +37249,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34550,15 +37265,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34592,7 +37312,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34608,15 +37328,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34650,7 +37375,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34666,15 +37391,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34724,7 +37454,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34740,15 +37470,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34782,7 +37517,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34798,15 +37533,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34848,7 +37588,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34864,15 +37604,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34908,7 +37653,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34924,15 +37669,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -34992,7 +37742,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35008,15 +37758,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35052,7 +37807,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35068,15 +37823,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35120,7 +37880,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35136,15 +37896,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35180,7 +37945,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35196,15 +37961,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35246,7 +38016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35262,15 +38032,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35308,7 +38083,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35324,15 +38099,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35368,7 +38148,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35384,15 +38164,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35426,7 +38211,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35442,15 +38227,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35484,7 +38274,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35500,15 +38290,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35552,7 +38347,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35568,15 +38363,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35714,7 +38514,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35730,15 +38530,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35778,7 +38583,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35794,15 +38599,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35844,7 +38654,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35860,15 +38670,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35906,7 +38721,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35922,15 +38737,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -35974,7 +38794,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35990,15 +38810,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36034,7 +38859,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36050,15 +38875,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36098,7 +38928,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36114,15 +38944,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36158,7 +38993,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36174,15 +39009,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36218,7 +39058,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36234,15 +39074,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36278,7 +39123,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36294,15 +39139,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36336,7 +39186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36352,15 +39202,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36412,7 +39267,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36428,15 +39283,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36470,7 +39330,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36486,15 +39346,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36532,7 +39397,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36548,15 +39413,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36600,7 +39470,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36616,15 +39486,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36658,7 +39533,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36674,15 +39549,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36716,7 +39596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36732,15 +39612,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36832,7 +39717,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36848,15 +39733,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36890,7 +39780,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36906,15 +39796,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -36952,7 +39847,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36968,15 +39863,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37016,7 +39916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37032,15 +39932,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37104,7 +40009,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37120,15 +40025,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37164,7 +40074,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37180,15 +40090,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37222,7 +40137,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37238,15 +40153,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37312,7 +40232,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37328,15 +40248,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37384,7 +40309,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37400,15 +40325,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37442,7 +40372,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37458,15 +40388,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37500,7 +40435,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37516,15 +40451,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37558,7 +40498,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37574,15 +40514,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37620,7 +40565,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37636,15 +40581,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37684,7 +40634,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37700,15 +40650,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37744,7 +40699,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37760,15 +40715,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37852,7 +40812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37868,15 +40828,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37922,7 +40887,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37938,15 +40903,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -37988,7 +40958,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38004,15 +40974,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38048,7 +41023,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38064,15 +41039,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38106,7 +41086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38122,15 +41102,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38194,7 +41179,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38210,15 +41195,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38260,7 +41250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38276,15 +41266,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38370,7 +41365,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38386,15 +41381,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38428,7 +41428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38444,15 +41444,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38532,7 +41537,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38548,15 +41553,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38606,7 +41616,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38622,15 +41632,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38690,7 +41705,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38706,15 +41721,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38756,7 +41776,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38772,15 +41792,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38814,7 +41839,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38830,15 +41855,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38876,7 +41906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38892,15 +41922,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38934,7 +41969,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38950,15 +41985,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -38998,7 +42038,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39014,15 +42054,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39056,7 +42101,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39072,15 +42117,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39114,7 +42164,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39130,15 +42180,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39174,7 +42229,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39190,15 +42245,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39232,7 +42292,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39248,15 +42308,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39290,7 +42355,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39306,15 +42371,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39350,7 +42420,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39366,15 +42436,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39408,7 +42483,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39424,15 +42499,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39472,7 +42552,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39488,15 +42568,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39532,7 +42617,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39548,15 +42633,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39592,7 +42682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39608,15 +42698,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39656,7 +42751,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39672,15 +42767,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39720,7 +42820,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39736,15 +42836,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39778,7 +42883,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39794,15 +42899,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39854,7 +42964,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39870,15 +42980,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39920,7 +43035,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39936,15 +43051,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -39984,7 +43104,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40000,15 +43120,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40054,7 +43179,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40070,15 +43195,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40118,7 +43248,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40134,15 +43264,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40176,7 +43311,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40192,15 +43327,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40242,7 +43382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40258,15 +43398,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40300,7 +43445,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40316,15 +43461,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40378,7 +43528,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40394,15 +43544,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40492,7 +43647,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40508,15 +43663,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40556,7 +43716,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40572,15 +43732,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40650,7 +43815,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40666,15 +43831,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40712,7 +43882,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40728,15 +43898,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40808,7 +43983,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40824,15 +43999,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40868,7 +44048,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40884,15 +44064,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -40948,7 +44133,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40964,15 +44149,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41032,7 +44222,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41048,15 +44238,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41110,7 +44305,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41126,15 +44321,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41202,7 +44402,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41218,15 +44418,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41266,7 +44471,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41282,15 +44487,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41330,7 +44540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41346,15 +44556,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41390,7 +44605,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41406,15 +44621,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41456,7 +44676,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41472,15 +44692,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41516,7 +44741,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41532,15 +44757,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41578,7 +44808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41594,15 +44824,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41642,7 +44877,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41658,15 +44893,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41702,7 +44942,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41718,15 +44958,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41762,7 +45007,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41778,15 +45023,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41842,7 +45092,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41858,15 +45108,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41934,7 +45189,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41950,15 +45205,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -41996,7 +45256,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42012,15 +45272,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42056,7 +45321,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42072,15 +45337,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42122,7 +45392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42138,15 +45408,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42186,7 +45461,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42202,15 +45477,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42248,7 +45528,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42264,15 +45544,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42308,7 +45593,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42324,15 +45609,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42372,7 +45662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42388,15 +45678,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42450,7 +45745,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42466,15 +45761,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42514,7 +45814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42530,15 +45830,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42582,7 +45887,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42598,15 +45903,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42646,7 +45956,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42662,15 +45972,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42716,7 +46031,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42732,15 +46047,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42786,7 +46106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42802,15 +46122,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42844,7 +46169,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42860,15 +46185,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42908,7 +46238,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42924,15 +46254,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -42970,7 +46305,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42986,15 +46321,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43032,7 +46372,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43048,15 +46388,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43110,7 +46455,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43126,15 +46471,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43170,7 +46520,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43186,15 +46536,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43232,7 +46587,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43248,15 +46603,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43294,7 +46654,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43310,15 +46670,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43360,7 +46725,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43376,15 +46741,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43426,7 +46796,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43442,15 +46812,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43488,7 +46863,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43504,15 +46879,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43556,7 +46936,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43572,15 +46952,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43622,7 +47007,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43638,15 +47023,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43684,7 +47074,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43700,15 +47090,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43748,7 +47143,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43764,15 +47159,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43808,7 +47208,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43824,15 +47224,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43870,7 +47275,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43886,15 +47291,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -43940,7 +47350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43956,15 +47366,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44000,7 +47415,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44016,15 +47431,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44060,7 +47480,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44076,15 +47496,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44122,7 +47547,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44138,15 +47563,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44182,7 +47612,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44198,15 +47628,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44240,7 +47675,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44256,15 +47691,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44298,7 +47738,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44314,15 +47754,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44358,7 +47803,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44374,15 +47819,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44456,7 +47906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44472,15 +47922,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44514,7 +47969,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44530,15 +47985,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44576,7 +48036,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44592,15 +48052,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44640,7 +48105,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44656,15 +48121,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44698,7 +48168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44714,15 +48184,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44774,7 +48249,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44790,15 +48265,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44832,7 +48312,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44848,15 +48328,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44896,7 +48381,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44912,15 +48397,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -44954,7 +48444,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44970,15 +48460,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45016,7 +48511,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45032,15 +48527,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45076,7 +48576,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45092,15 +48592,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45136,7 +48641,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45152,15 +48657,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45196,7 +48706,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45212,15 +48722,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45254,7 +48769,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45270,15 +48785,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45318,7 +48838,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45334,15 +48854,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45376,7 +48901,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45392,15 +48917,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45454,7 +48984,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45470,15 +49000,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45512,7 +49047,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45528,15 +49063,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45574,7 +49114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45590,15 +49130,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45640,7 +49185,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45656,15 +49201,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45704,7 +49254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45720,15 +49270,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45764,7 +49319,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45780,15 +49335,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45838,7 +49398,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45854,15 +49414,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45898,7 +49463,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45914,15 +49479,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -45960,7 +49530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45976,15 +49546,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -46030,7 +49605,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46046,15 +49621,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -46094,7 +49674,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46110,15 +49690,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -46154,7 +49739,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46170,15 +49755,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -46214,7 +49804,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46230,15 +49820,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -46274,7 +49869,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46290,15 +49885,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -46344,7 +49944,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -46360,15 +49960,20 @@ No authorization required
 
 ### Example
 
+* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
+configuration = swaggeraemosgi.Configuration()
+# Configure HTTP basic authorization: aemAuth
+configuration.username = 'YOUR_USERNAME'
+configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swaggeraemosgi.ConfigmgrApi()
+api_instance = swaggeraemosgi.ConfigmgrApi(swaggeraemosgi.ApiClient(configuration))
 post = True # bool |  (optional)
 apply = True # bool |  (optional)
 delete = True # bool |  (optional)
@@ -46402,7 +50007,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
