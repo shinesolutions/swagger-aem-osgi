@@ -60,6 +60,12 @@ class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo {
             if (data.hasOwnProperty('properties')) {
                 obj['properties'] = OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties.constructFromObject(data['properties']);
             }
+            if (data.hasOwnProperty('bundle_location')) {
+                obj['bundle_location'] = ApiClient.convertToType(data['bundle_location'], 'String');
+            }
+            if (data.hasOwnProperty('service_location')) {
+                obj['service_location'] = ApiClient.convertToType(data['service_location'], 'String');
+            }
         }
         return obj;
     }
@@ -86,6 +92,16 @@ OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.prototype['description']
  * @member {module:model/OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties} properties
  */
 OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.prototype['properties'] = undefined;
+
+/**
+ * @member {String} bundle_location
+ */
+OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.prototype['bundle_location'] = undefined;
+
+/**
+ * @member {String} service_location
+ */
+OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.prototype['service_location'] = undefined;
 
 
 

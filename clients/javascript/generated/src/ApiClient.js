@@ -41,6 +41,7 @@ class ApiClient {
          * @type {Array.<String>}
          */
         this.authentications = {
+            'aemAuth': {type: 'basic'}
         }
 
         /**

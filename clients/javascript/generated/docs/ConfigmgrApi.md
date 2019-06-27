@@ -738,6 +738,11 @@ Method | HTTP request | Description
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -785,7 +790,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -803,6 +808,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -842,7 +852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -860,6 +870,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -899,7 +914,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -917,6 +932,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -956,7 +976,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -974,6 +994,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1015,7 +1040,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1033,6 +1058,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1072,7 +1102,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1090,6 +1120,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1133,7 +1168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1151,6 +1186,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1194,7 +1234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1212,6 +1252,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1253,7 +1298,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1271,6 +1316,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1312,7 +1362,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1330,6 +1380,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1373,7 +1428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1391,6 +1446,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1432,7 +1492,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1450,6 +1510,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1489,7 +1554,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1507,6 +1572,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1552,7 +1622,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1570,6 +1640,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1615,7 +1690,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1633,6 +1708,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1678,7 +1758,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1696,6 +1776,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1743,7 +1828,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1761,6 +1846,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1808,7 +1898,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1826,6 +1916,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1869,7 +1964,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1887,6 +1982,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1926,7 +2026,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -1944,6 +2044,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -1985,7 +2090,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2003,6 +2108,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2042,7 +2152,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2060,6 +2170,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2101,7 +2216,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2119,6 +2234,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2160,7 +2280,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2178,6 +2298,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2217,7 +2342,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2235,6 +2360,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2278,7 +2408,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2296,6 +2426,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2335,7 +2470,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2353,6 +2488,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2392,7 +2532,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2410,6 +2550,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2449,7 +2594,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2467,6 +2612,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2506,7 +2656,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2524,6 +2674,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2563,7 +2718,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2581,6 +2736,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2626,7 +2786,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2644,6 +2804,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2685,7 +2850,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2703,6 +2868,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2742,7 +2912,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2760,6 +2930,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2799,7 +2974,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2817,6 +2992,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2856,7 +3036,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2874,6 +3054,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2913,7 +3098,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2931,6 +3116,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -2972,7 +3162,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -2990,6 +3180,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3029,7 +3224,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3047,6 +3242,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3092,7 +3292,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3110,6 +3310,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3153,7 +3358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3171,6 +3376,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3220,7 +3430,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3238,6 +3448,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3283,7 +3498,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3301,6 +3516,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3344,7 +3564,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3362,6 +3582,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3405,7 +3630,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3423,6 +3648,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3462,7 +3692,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3480,6 +3710,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3523,7 +3758,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3541,6 +3776,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3582,7 +3822,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3600,6 +3840,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3641,7 +3886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3659,6 +3904,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3702,7 +3952,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3720,6 +3970,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3761,7 +4016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3779,6 +4034,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3824,7 +4084,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3842,6 +4102,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3883,7 +4148,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3901,6 +4166,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -3942,7 +4212,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -3960,6 +4230,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4007,7 +4282,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4025,6 +4300,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4066,7 +4346,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4084,6 +4364,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4137,7 +4422,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4155,6 +4440,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4196,7 +4486,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4214,6 +4504,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4261,7 +4556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4279,6 +4574,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4330,7 +4630,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4348,6 +4648,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4387,7 +4692,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4405,6 +4710,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4452,7 +4762,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4470,6 +4780,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4509,7 +4824,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4527,6 +4842,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4566,7 +4886,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4584,6 +4904,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4623,7 +4948,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4641,6 +4966,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4696,7 +5026,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4714,6 +5044,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4817,7 +5152,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4835,6 +5170,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4876,7 +5216,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4894,6 +5234,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4933,7 +5278,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -4951,6 +5296,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -4990,7 +5340,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5008,6 +5358,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5047,7 +5402,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5065,6 +5420,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5104,7 +5464,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5122,6 +5482,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5167,7 +5532,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5185,6 +5550,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5224,7 +5594,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5242,6 +5612,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5283,7 +5658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5301,6 +5676,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5344,7 +5724,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5362,6 +5742,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5401,7 +5786,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5419,6 +5804,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5458,7 +5848,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5476,6 +5866,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5517,7 +5912,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5535,6 +5930,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5576,7 +5976,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5594,6 +5994,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5635,7 +6040,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5653,6 +6058,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5694,7 +6104,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5712,6 +6122,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5755,7 +6170,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5773,6 +6188,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5814,7 +6234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5832,6 +6252,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5871,7 +6296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5889,6 +6314,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5928,7 +6358,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -5946,6 +6376,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -5987,7 +6422,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6005,6 +6440,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6046,7 +6486,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6064,6 +6504,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6103,7 +6548,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6121,6 +6566,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6164,7 +6614,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6182,6 +6632,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6221,7 +6676,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6239,6 +6694,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6280,7 +6740,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6298,6 +6758,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6337,7 +6802,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6355,6 +6820,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6394,7 +6864,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6412,6 +6882,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6453,7 +6928,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6471,6 +6946,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6524,7 +7004,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6542,6 +7022,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6601,7 +7086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6619,6 +7104,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6658,7 +7148,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6676,6 +7166,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6717,7 +7212,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6735,6 +7230,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6776,7 +7276,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6794,6 +7294,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6835,7 +7340,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6853,6 +7358,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6894,7 +7404,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6912,6 +7422,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -6953,7 +7468,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -6971,6 +7486,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7012,7 +7532,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7030,6 +7550,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7071,7 +7596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7089,6 +7614,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7132,7 +7662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7150,6 +7680,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7197,7 +7732,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7215,6 +7750,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7268,7 +7808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7286,6 +7826,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7327,7 +7872,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7345,6 +7890,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7388,7 +7938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7406,6 +7956,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7457,7 +8012,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7475,6 +8030,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7516,7 +8076,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7534,6 +8094,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7585,7 +8150,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7603,6 +8168,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7654,7 +8224,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7672,6 +8242,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7723,7 +8298,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7741,6 +8316,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7780,7 +8360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7798,6 +8378,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7837,7 +8422,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7855,6 +8440,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7894,7 +8484,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7912,6 +8502,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -7951,7 +8546,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -7969,6 +8564,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8008,7 +8608,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8026,6 +8626,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8067,7 +8672,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8085,6 +8690,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8126,7 +8736,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8144,6 +8754,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8185,7 +8800,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8203,6 +8818,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8244,7 +8864,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8262,6 +8882,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8307,7 +8932,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8325,6 +8950,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8366,7 +8996,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8384,6 +9014,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8429,7 +9064,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8447,6 +9082,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8488,7 +9128,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8506,6 +9146,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8547,7 +9192,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8565,6 +9210,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8604,7 +9254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8622,6 +9272,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8661,7 +9316,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8679,6 +9334,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8720,7 +9380,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8738,6 +9398,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8815,7 +9480,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8833,6 +9498,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8874,7 +9544,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8892,6 +9562,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8931,7 +9606,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -8949,6 +9624,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -8988,7 +9668,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9006,6 +9686,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9047,7 +9732,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9065,6 +9750,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9106,7 +9796,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9124,6 +9814,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9163,7 +9858,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9181,6 +9876,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9222,7 +9922,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9240,6 +9940,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9281,7 +9986,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9299,6 +10004,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9340,7 +10050,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9358,6 +10068,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9397,7 +10112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9415,6 +10130,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9456,7 +10176,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9474,6 +10194,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9515,7 +10240,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9533,6 +10258,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9574,7 +10304,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9592,6 +10322,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9633,7 +10368,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9651,6 +10386,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9692,7 +10432,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9710,6 +10450,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9749,7 +10494,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9767,6 +10512,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9810,7 +10560,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9828,6 +10578,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9867,7 +10622,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9885,6 +10640,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9924,7 +10684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9942,6 +10702,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -9981,7 +10746,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -9999,6 +10764,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10044,7 +10814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10062,6 +10832,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10109,7 +10884,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10127,6 +10902,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10166,7 +10946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10184,6 +10964,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10231,7 +11016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10249,6 +11034,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10302,7 +11092,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10320,6 +11110,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10373,7 +11168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10391,6 +11186,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10434,7 +11234,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10452,6 +11252,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10497,7 +11302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10515,6 +11320,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10554,7 +11364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10572,6 +11382,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10611,7 +11426,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10629,6 +11444,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10670,7 +11490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10688,6 +11508,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10733,7 +11558,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10751,6 +11576,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10792,7 +11622,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10810,6 +11640,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10863,7 +11698,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10881,6 +11716,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10924,7 +11764,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -10942,6 +11782,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -10989,7 +11834,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11007,6 +11852,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11046,7 +11896,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11064,6 +11914,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11105,7 +11960,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11123,6 +11978,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11162,7 +12022,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11180,6 +12040,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11223,7 +12088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11241,6 +12106,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11284,7 +12154,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11302,6 +12172,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11345,7 +12220,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11363,6 +12238,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11406,7 +12286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11424,6 +12304,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11469,7 +12354,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11487,6 +12372,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11526,7 +12416,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11544,6 +12434,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11583,7 +12478,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11601,6 +12496,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11646,7 +12546,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11664,6 +12564,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11715,7 +12620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11733,6 +12638,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11772,7 +12682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11790,6 +12700,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11829,7 +12744,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11847,6 +12762,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11886,7 +12806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11904,6 +12824,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -11947,7 +12872,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -11965,6 +12890,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12006,7 +12936,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12024,6 +12954,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12065,7 +13000,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12083,6 +13018,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12122,7 +13062,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12140,6 +13080,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12179,7 +13124,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12197,6 +13142,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12546,7 +13496,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12564,6 +13514,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12605,7 +13560,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12623,6 +13578,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12664,7 +13624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12682,6 +13642,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12721,7 +13686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12739,6 +13704,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12780,7 +13750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12798,6 +13768,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12837,7 +13812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12855,6 +13830,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12918,7 +13898,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12936,6 +13916,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -12981,7 +13966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -12999,6 +13984,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13064,7 +14054,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13082,6 +14072,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13131,7 +14126,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13149,6 +14144,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13188,7 +14188,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13206,6 +14206,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13245,7 +14250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13263,6 +14268,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13308,7 +14318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13326,6 +14336,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13373,7 +14388,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13391,6 +14406,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13432,7 +14452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13450,6 +14470,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13491,7 +14516,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13509,6 +14534,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13548,7 +14578,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13566,6 +14596,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13605,7 +14640,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13623,6 +14658,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13692,7 +14732,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13710,6 +14750,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13749,7 +14794,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13767,6 +14812,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13856,7 +14906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13874,6 +14924,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13933,7 +14988,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -13951,6 +15006,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -13992,7 +15052,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14010,6 +15070,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14049,7 +15114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14067,6 +15132,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14106,7 +15176,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14124,6 +15194,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14165,7 +15240,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14183,6 +15258,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14224,7 +15304,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14242,6 +15322,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14281,7 +15366,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14299,6 +15384,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14338,7 +15428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14356,6 +15446,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14395,7 +15490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14413,6 +15508,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14452,7 +15552,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14470,6 +15570,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14509,7 +15614,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14527,6 +15632,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14566,7 +15676,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14584,6 +15694,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14625,7 +15740,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14643,6 +15758,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14686,7 +15806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14704,6 +15824,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14745,7 +15870,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14763,6 +15888,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14804,7 +15934,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14822,6 +15952,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14863,7 +15998,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14881,6 +16016,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14934,7 +16074,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -14952,6 +16092,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -14997,7 +16142,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15015,6 +16160,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15056,7 +16206,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15074,6 +16224,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15117,7 +16272,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15135,6 +16290,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15188,7 +16348,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15206,6 +16366,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15249,7 +16414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15267,6 +16432,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15306,7 +16476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15324,6 +16494,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15365,7 +16540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15383,6 +16558,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15422,7 +16602,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15440,6 +16620,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15485,7 +16670,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15503,6 +16688,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15548,7 +16738,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15566,6 +16756,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15613,7 +16808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15631,6 +16826,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15672,7 +16872,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15690,6 +16890,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15729,7 +16934,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15747,6 +16952,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15786,7 +16996,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15804,6 +17014,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15843,7 +17058,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15861,6 +17076,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15902,7 +17122,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15920,6 +17140,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -15969,7 +17194,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -15987,6 +17212,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16030,7 +17260,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16048,6 +17278,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16091,7 +17326,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16109,6 +17344,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16148,7 +17388,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16166,6 +17406,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16207,7 +17452,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16225,6 +17470,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16264,7 +17514,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16282,6 +17532,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16321,7 +17576,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16339,6 +17594,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16388,7 +17648,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16406,6 +17666,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16453,7 +17718,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16471,6 +17736,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16510,7 +17780,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16528,6 +17798,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16567,7 +17842,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16585,6 +17860,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16626,7 +17906,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16644,6 +17924,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16689,7 +17974,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16707,6 +17992,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16746,7 +18036,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16764,6 +18054,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16805,7 +18100,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16823,6 +18118,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16862,7 +18162,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16880,6 +18180,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16919,7 +18224,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16937,6 +18242,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -16976,7 +18286,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -16994,6 +18304,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17045,7 +18360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17063,6 +18378,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17104,7 +18424,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17122,6 +18442,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17165,7 +18490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17183,6 +18508,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17226,7 +18556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17244,6 +18574,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17287,7 +18622,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17305,6 +18640,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17344,7 +18684,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17362,6 +18702,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17401,7 +18746,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17419,6 +18764,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17458,7 +18808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17476,6 +18826,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17517,7 +18872,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17535,6 +18890,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17574,7 +18934,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17592,6 +18952,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17631,7 +18996,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17649,6 +19014,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17690,7 +19060,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17708,6 +19078,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17747,7 +19122,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17765,6 +19140,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17804,7 +19184,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17822,6 +19202,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17865,7 +19250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17883,6 +19268,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17926,7 +19316,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -17944,6 +19334,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -17983,7 +19378,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18001,6 +19396,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18064,7 +19464,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18082,6 +19482,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18125,7 +19530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18143,6 +19548,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18182,7 +19592,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18200,6 +19610,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18241,7 +19656,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18259,6 +19674,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18298,7 +19718,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18316,6 +19736,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18357,7 +19782,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18375,6 +19800,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18414,7 +19844,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18432,6 +19862,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18473,7 +19908,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18491,6 +19926,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18530,7 +19970,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18548,6 +19988,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18591,7 +20036,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18609,6 +20054,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18654,7 +20104,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18672,6 +20122,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18713,7 +20168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18731,6 +20186,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18770,7 +20230,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18788,6 +20248,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18831,7 +20296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18849,6 +20314,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18896,7 +20366,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18914,6 +20384,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -18955,7 +20430,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -18973,6 +20448,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19028,7 +20508,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19046,6 +20526,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19101,7 +20586,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19119,6 +20604,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19160,7 +20650,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19178,6 +20668,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19255,7 +20750,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19273,6 +20768,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19312,7 +20812,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19330,6 +20830,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19369,7 +20874,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19387,6 +20892,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19426,7 +20936,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19444,6 +20954,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19487,7 +21002,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19505,6 +21020,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19546,7 +21066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19564,6 +21084,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19603,7 +21128,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19621,6 +21146,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19662,7 +21192,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19680,6 +21210,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19721,7 +21256,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19739,6 +21274,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19782,7 +21322,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19800,6 +21340,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19859,7 +21404,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19877,6 +21422,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19922,7 +21472,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -19940,6 +21490,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -19987,7 +21542,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20005,6 +21560,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20044,7 +21604,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20062,6 +21622,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20107,7 +21672,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20125,6 +21690,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20184,7 +21754,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20202,6 +21772,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20253,7 +21828,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20271,6 +21846,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20310,7 +21890,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20328,6 +21908,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20369,7 +21954,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20387,6 +21972,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20428,7 +22018,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20446,6 +22036,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20485,7 +22080,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20503,6 +22098,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20548,7 +22148,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20566,6 +22166,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20605,7 +22210,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20623,6 +22228,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20662,7 +22272,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20680,6 +22290,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20719,7 +22334,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20737,6 +22352,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20776,7 +22396,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20794,6 +22414,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20837,7 +22462,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20855,6 +22480,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20894,7 +22524,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20912,6 +22542,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -20959,7 +22594,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -20977,6 +22612,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21022,7 +22662,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21040,6 +22680,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21093,7 +22738,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21111,6 +22756,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21156,7 +22806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21174,6 +22824,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21213,7 +22868,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21231,6 +22886,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21272,7 +22932,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21290,6 +22950,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21329,7 +22994,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21347,6 +23012,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21386,7 +23056,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21404,6 +23074,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21445,7 +23120,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21463,6 +23138,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21506,7 +23186,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21524,6 +23204,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21569,7 +23254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21587,6 +23272,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21630,7 +23320,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21648,6 +23338,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21717,7 +23412,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21735,6 +23430,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21774,7 +23474,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21792,6 +23492,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21831,7 +23536,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21849,6 +23554,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21888,7 +23598,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21906,6 +23616,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -21949,7 +23664,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -21967,6 +23682,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22006,7 +23726,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22024,6 +23744,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22071,7 +23796,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22089,6 +23814,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22136,7 +23866,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22154,6 +23884,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22195,7 +23930,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22213,6 +23948,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22264,7 +24004,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22282,6 +24022,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22321,7 +24066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22339,6 +24084,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22378,7 +24128,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22396,6 +24146,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22435,7 +24190,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22453,6 +24208,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22492,7 +24252,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22510,6 +24270,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22553,7 +24318,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22571,6 +24336,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22610,7 +24380,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22628,6 +24398,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22683,7 +24458,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22701,6 +24476,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22740,7 +24520,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22758,6 +24538,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22799,7 +24584,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22817,6 +24602,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22858,7 +24648,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22876,6 +24666,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22921,7 +24716,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -22939,6 +24734,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -22982,7 +24782,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23000,6 +24800,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23039,7 +24844,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23057,6 +24862,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23098,7 +24908,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23116,6 +24926,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23155,7 +24970,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23173,6 +24988,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23218,7 +25038,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23236,6 +25056,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23277,7 +25102,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23295,6 +25120,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23336,7 +25166,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23354,6 +25184,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23395,7 +25230,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23413,6 +25248,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23452,7 +25292,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23470,6 +25310,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23515,7 +25360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23533,6 +25378,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23572,7 +25422,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23590,6 +25440,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23629,7 +25484,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23647,6 +25502,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23686,7 +25546,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23704,6 +25564,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23747,7 +25612,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23765,6 +25630,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23808,7 +25678,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23826,6 +25696,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23867,7 +25742,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23885,6 +25760,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23926,7 +25806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -23944,6 +25824,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -23985,7 +25870,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24003,6 +25888,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24042,7 +25932,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24060,6 +25950,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24101,7 +25996,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24119,6 +26014,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24158,7 +26058,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24176,6 +26076,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24217,7 +26122,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24235,6 +26140,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24280,7 +26190,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24298,6 +26208,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24337,7 +26252,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24355,6 +26270,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24404,7 +26324,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24422,6 +26342,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24467,7 +26392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24485,6 +26410,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24526,7 +26456,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24544,6 +26474,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24585,7 +26520,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24603,6 +26538,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24644,7 +26584,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24662,6 +26602,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24705,7 +26650,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24723,6 +26668,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24762,7 +26712,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24780,6 +26730,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24825,7 +26780,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24843,6 +26798,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24882,7 +26842,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24900,6 +26860,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24939,7 +26904,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -24957,6 +26922,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -24996,7 +26966,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25014,6 +26984,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25063,7 +27038,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25081,6 +27056,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25130,7 +27110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25148,6 +27128,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25189,7 +27174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25207,6 +27192,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25246,7 +27236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25264,6 +27254,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25309,7 +27304,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25327,6 +27322,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25366,7 +27366,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25384,6 +27384,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25423,7 +27428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25441,6 +27446,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25480,7 +27490,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25498,6 +27508,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25537,7 +27552,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25555,6 +27570,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25596,7 +27616,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25614,6 +27634,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25655,7 +27680,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25673,6 +27698,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25714,7 +27744,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25732,6 +27762,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25771,7 +27806,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25789,6 +27824,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25828,7 +27868,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25846,6 +27886,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25887,7 +27932,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25905,6 +27950,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -25956,7 +28006,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -25974,6 +28024,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26015,7 +28070,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26033,6 +28088,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26072,7 +28132,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26090,6 +28150,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26129,7 +28194,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26147,6 +28212,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26188,7 +28258,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26206,6 +28276,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26253,7 +28328,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26271,6 +28346,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26312,7 +28392,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26330,6 +28410,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26371,7 +28456,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26389,6 +28474,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26432,7 +28522,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26450,6 +28540,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26489,7 +28584,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26507,6 +28602,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26548,7 +28648,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26566,6 +28666,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26607,7 +28712,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26625,6 +28730,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26668,7 +28778,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26686,6 +28796,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26739,7 +28854,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26757,6 +28872,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26796,7 +28916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26814,6 +28934,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26853,7 +28978,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26871,6 +28996,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26916,7 +29046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26934,6 +29064,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -26977,7 +29112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -26995,6 +29130,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27036,7 +29176,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27054,6 +29194,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27097,7 +29242,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27115,6 +29260,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27156,7 +29306,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27174,6 +29324,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27217,7 +29372,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27235,6 +29390,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27278,7 +29438,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27296,6 +29456,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27337,7 +29502,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27355,6 +29520,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27396,7 +29566,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27414,6 +29584,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27457,7 +29632,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27475,6 +29650,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27514,7 +29694,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27532,6 +29712,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27571,7 +29756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27589,6 +29774,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27644,7 +29834,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27662,6 +29852,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27701,7 +29896,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27719,6 +29914,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27764,7 +29964,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27782,6 +29982,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27821,7 +30026,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27839,6 +30044,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27880,7 +30090,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27898,6 +30108,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27941,7 +30156,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -27959,6 +30174,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -27998,7 +30218,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28016,6 +30236,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28071,7 +30296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28089,6 +30314,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28130,7 +30360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28148,6 +30378,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28189,7 +30424,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28207,6 +30442,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28246,7 +30486,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28264,6 +30504,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28303,7 +30548,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28321,6 +30566,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28362,7 +30612,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28380,6 +30630,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28421,7 +30676,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28439,6 +30694,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28482,7 +30742,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28500,6 +30760,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28557,7 +30822,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28575,6 +30840,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28614,7 +30884,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28632,6 +30902,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28683,7 +30958,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28701,6 +30976,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28750,7 +31030,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28768,6 +31048,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28819,7 +31104,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28837,6 +31122,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28878,7 +31168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28896,6 +31186,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -28937,7 +31232,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -28955,6 +31250,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29000,7 +31300,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29018,6 +31318,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29059,7 +31364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29077,6 +31382,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29116,7 +31426,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29134,6 +31444,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29179,7 +31494,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29197,6 +31512,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29236,7 +31556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29254,6 +31574,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29303,7 +31628,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29321,6 +31646,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29360,7 +31690,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29378,6 +31708,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29417,7 +31752,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29435,6 +31770,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29474,7 +31814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29492,6 +31832,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29531,7 +31876,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29549,6 +31894,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29598,7 +31948,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29616,6 +31966,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29655,7 +32010,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29673,6 +32028,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29712,7 +32072,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29730,6 +32090,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29771,7 +32136,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29789,6 +32154,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29828,7 +32198,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29846,6 +32216,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29885,7 +32260,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29903,6 +32278,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -29944,7 +32324,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -29962,6 +32342,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30001,7 +32386,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30019,6 +32404,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30060,7 +32450,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30078,6 +32468,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30135,7 +32530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30153,6 +32548,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30194,7 +32594,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30212,6 +32612,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30253,7 +32658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30271,6 +32676,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30310,7 +32720,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30328,6 +32738,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30375,7 +32790,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30393,6 +32808,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30432,7 +32852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30450,6 +32870,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30491,7 +32916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30509,6 +32934,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30548,7 +32978,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30566,6 +32996,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30607,7 +33042,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30625,6 +33060,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30666,7 +33106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30684,6 +33124,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30723,7 +33168,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30741,6 +33186,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30780,7 +33230,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30798,6 +33248,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30849,7 +33304,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30867,6 +33322,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30914,7 +33374,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30932,6 +33392,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -30973,7 +33438,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -30991,6 +33456,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31030,7 +33500,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31048,6 +33518,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31089,7 +33564,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31107,6 +33582,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31146,7 +33626,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31164,6 +33644,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31205,7 +33690,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31223,6 +33708,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31262,7 +33752,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31280,6 +33770,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31319,7 +33814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31337,6 +33832,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31382,7 +33882,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31400,6 +33900,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31441,7 +33946,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31459,6 +33964,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31500,7 +34010,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31518,6 +34028,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31565,7 +34080,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31583,6 +34098,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31624,7 +34144,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31642,6 +34162,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31683,7 +34208,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31701,6 +34226,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31742,7 +34272,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31760,6 +34290,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31801,7 +34336,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31819,6 +34354,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31860,7 +34400,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31878,6 +34418,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31921,7 +34466,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31939,6 +34484,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -31980,7 +34530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -31998,6 +34548,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32039,7 +34594,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32057,6 +34612,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32098,7 +34658,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32116,6 +34676,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32157,7 +34722,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32175,6 +34740,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32216,7 +34786,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32234,6 +34804,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32277,7 +34852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32295,6 +34870,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32336,7 +34916,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32354,6 +34934,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32395,7 +34980,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32413,6 +34998,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32456,7 +35046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32474,6 +35064,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32517,7 +35112,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32535,6 +35130,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32576,7 +35176,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32594,6 +35194,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32641,7 +35246,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32659,6 +35264,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32700,7 +35310,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32718,6 +35328,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32759,7 +35374,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32777,6 +35392,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32822,7 +35442,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32840,6 +35460,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32879,7 +35504,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32897,6 +35522,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -32946,7 +35576,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -32964,6 +35594,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33003,7 +35638,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33021,6 +35656,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33060,7 +35700,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33078,6 +35718,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33119,7 +35764,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33137,6 +35782,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33190,7 +35840,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33208,6 +35858,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33249,7 +35904,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33267,6 +35922,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33312,7 +35972,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33330,6 +35990,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33375,7 +36040,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33393,6 +36058,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33436,7 +36106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33454,6 +36124,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33499,7 +36174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33517,6 +36192,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33560,7 +36240,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33578,6 +36258,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33623,7 +36308,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33641,6 +36326,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33686,7 +36376,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33704,6 +36394,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33747,7 +36442,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33765,6 +36460,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33804,7 +36504,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33822,6 +36522,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33877,7 +36582,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33895,6 +36600,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33936,7 +36646,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -33954,6 +36664,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -33993,7 +36708,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34011,6 +36726,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34050,7 +36770,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34068,6 +36788,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34107,7 +36832,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34125,6 +36850,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34180,7 +36910,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34198,6 +36928,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34237,7 +36972,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34255,6 +36990,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34302,7 +37042,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34320,6 +37060,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34361,7 +37106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34379,6 +37124,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34444,7 +37194,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34462,6 +37212,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34503,7 +37258,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34521,6 +37276,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34570,7 +37330,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34588,6 +37348,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34629,7 +37394,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34647,6 +37412,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34694,7 +37464,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34712,6 +37482,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34755,7 +37530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34773,6 +37548,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34814,7 +37594,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34832,6 +37612,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34871,7 +37656,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34889,6 +37674,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34928,7 +37718,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -34946,6 +37736,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -34995,7 +37790,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35013,6 +37808,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35156,7 +37956,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35174,6 +37974,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35219,7 +38024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35237,6 +38042,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35284,7 +38094,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35302,6 +38112,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35345,7 +38160,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35363,6 +38178,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35412,7 +38232,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35430,6 +38250,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35471,7 +38296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35489,6 +38314,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35534,7 +38364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35552,6 +38382,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35593,7 +38428,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35611,6 +38446,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35652,7 +38492,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35670,6 +38510,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35711,7 +38556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35729,6 +38574,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35768,7 +38618,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35786,6 +38636,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35843,7 +38698,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35861,6 +38716,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35900,7 +38760,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35918,6 +38778,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -35961,7 +38826,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -35979,6 +38844,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36028,7 +38898,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36046,6 +38916,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36085,7 +38960,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36103,6 +38978,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36142,7 +39022,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36160,6 +39040,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36257,7 +39142,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36275,6 +39160,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36314,7 +39204,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36332,6 +39222,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36375,7 +39270,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36393,6 +39288,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36438,7 +39338,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36456,6 +39356,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36525,7 +39430,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36543,6 +39448,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36584,7 +39494,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36602,6 +39512,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36641,7 +39556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36659,6 +39574,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36730,7 +39650,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36748,6 +39668,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36801,7 +39726,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36819,6 +39744,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36858,7 +39788,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36876,6 +39806,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36915,7 +39850,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36933,6 +39868,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -36972,7 +39912,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -36990,6 +39930,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37033,7 +39978,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37051,6 +39996,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37096,7 +40046,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37114,6 +40064,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37155,7 +40110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37173,6 +40128,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37262,7 +40222,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37280,6 +40240,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37331,7 +40296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37349,6 +40314,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37396,7 +40366,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37414,6 +40384,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37455,7 +40430,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37473,6 +40448,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37512,7 +40492,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37530,6 +40510,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37599,7 +40584,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37617,6 +40602,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37664,7 +40654,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37682,6 +40672,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37773,7 +40768,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37791,6 +40786,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37830,7 +40830,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37848,6 +40848,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -37933,7 +40938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -37951,6 +40956,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38006,7 +41016,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38024,6 +41034,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38089,7 +41104,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38107,6 +41122,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38154,7 +41174,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38172,6 +41192,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38211,7 +41236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38229,6 +41254,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38272,7 +41302,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38290,6 +41320,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38329,7 +41364,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38347,6 +41382,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38392,7 +41432,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38410,6 +41450,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38449,7 +41494,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38467,6 +41512,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38506,7 +41556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38524,6 +41574,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38565,7 +41620,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38583,6 +41638,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38622,7 +41682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38640,6 +41700,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38679,7 +41744,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38697,6 +41762,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38738,7 +41808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38756,6 +41826,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38795,7 +41870,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38813,6 +41888,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38858,7 +41938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38876,6 +41956,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38917,7 +42002,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38935,6 +42020,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -38976,7 +42066,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -38994,6 +42084,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39039,7 +42134,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39057,6 +42152,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39102,7 +42202,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39120,6 +42220,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39159,7 +42264,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39177,6 +42282,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39234,7 +42344,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39252,6 +42362,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39299,7 +42414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39317,6 +42432,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39362,7 +42482,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39380,6 +42500,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39431,7 +42556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39449,6 +42574,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39494,7 +42624,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39512,6 +42642,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39551,7 +42686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39569,6 +42704,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39616,7 +42756,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39634,6 +42774,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39673,7 +42818,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39691,6 +42836,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39750,7 +42900,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39768,6 +42918,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39863,7 +43018,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39881,6 +43036,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -39926,7 +43086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -39944,6 +43104,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40019,7 +43184,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40037,6 +43202,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40080,7 +43250,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40098,6 +43268,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40175,7 +43350,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40193,6 +43368,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40234,7 +43414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40252,6 +43432,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40313,7 +43498,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40331,6 +43516,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40396,7 +43586,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40414,6 +43604,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40473,7 +43668,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40491,6 +43686,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40564,7 +43764,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40582,6 +43782,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40627,7 +43832,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40645,6 +43850,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40690,7 +43900,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40708,6 +43918,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40749,7 +43964,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40767,6 +43982,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40814,7 +44034,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40832,6 +44052,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40873,7 +44098,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40891,6 +44116,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40934,7 +44164,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -40952,6 +44182,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -40997,7 +44232,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41015,6 +44250,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41056,7 +44296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41074,6 +44314,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41115,7 +44360,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41133,6 +44378,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41194,7 +44444,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41212,6 +44462,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41285,7 +44540,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41303,6 +44558,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41346,7 +44606,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41364,6 +44624,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41405,7 +44670,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41423,6 +44688,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41470,7 +44740,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41488,6 +44758,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41533,7 +44808,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41551,6 +44826,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41594,7 +44874,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41612,6 +44892,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41653,7 +44938,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41671,6 +44956,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41716,7 +45006,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41734,6 +45024,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41793,7 +45088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41811,6 +45106,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41856,7 +45156,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41874,6 +45174,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41923,7 +45228,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -41941,6 +45246,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -41986,7 +45296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42004,6 +45314,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42055,7 +45370,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42073,6 +45388,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42124,7 +45444,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42142,6 +45462,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42181,7 +45506,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42199,6 +45524,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42244,7 +45574,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42262,6 +45592,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42305,7 +45640,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42323,6 +45658,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42366,7 +45706,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42384,6 +45724,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42443,7 +45788,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42461,6 +45806,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42502,7 +45852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42520,6 +45870,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42563,7 +45918,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42581,6 +45936,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42624,7 +45984,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42642,6 +46002,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42689,7 +46054,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42707,6 +46072,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42754,7 +46124,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42772,6 +46142,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42815,7 +46190,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42833,6 +46208,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42882,7 +46262,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42900,6 +46280,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -42947,7 +46332,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -42965,6 +46350,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43008,7 +46398,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43026,6 +46416,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43071,7 +46466,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43089,6 +46484,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43130,7 +46530,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43148,6 +46548,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43191,7 +46596,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43209,6 +46614,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43260,7 +46670,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43278,6 +46688,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43319,7 +46734,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43337,6 +46752,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43378,7 +46798,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43396,6 +46816,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43439,7 +46864,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43457,6 +46882,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43498,7 +46928,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43516,6 +46946,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43555,7 +46990,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43573,6 +47008,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43612,7 +47052,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43630,6 +47070,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43671,7 +47116,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43689,6 +47134,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43768,7 +47218,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43786,6 +47236,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43825,7 +47280,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43843,6 +47298,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43886,7 +47346,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43904,6 +47364,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -43949,7 +47414,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -43967,6 +47432,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44006,7 +47476,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44024,6 +47494,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44081,7 +47556,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44099,6 +47574,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44138,7 +47618,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44156,6 +47636,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44201,7 +47686,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44219,6 +47704,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44258,7 +47748,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44276,6 +47766,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44319,7 +47814,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44337,6 +47832,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44378,7 +47878,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44396,6 +47896,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44437,7 +47942,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44455,6 +47960,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44496,7 +48006,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44514,6 +48024,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44553,7 +48068,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44571,6 +48086,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44616,7 +48136,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44634,6 +48154,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44673,7 +48198,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44691,6 +48216,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44750,7 +48280,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44768,6 +48298,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44807,7 +48342,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44825,6 +48360,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44868,7 +48408,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44886,6 +48426,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44933,7 +48478,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -44951,6 +48496,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -44996,7 +48546,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45014,6 +48564,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45055,7 +48610,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45073,6 +48628,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45128,7 +48688,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45146,6 +48706,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45187,7 +48752,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45205,6 +48770,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45248,7 +48818,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45266,6 +48836,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45317,7 +48892,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45335,6 +48910,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45380,7 +48960,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45398,6 +48978,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45439,7 +49024,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45457,6 +49042,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45498,7 +49088,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45516,6 +49106,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45557,7 +49152,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45575,6 +49170,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45626,7 +49226,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 
@@ -45644,6 +49244,11 @@ No authorization required
 
 ```javascript
 import NodeSwaggerAemOsgi from 'node-swagger-aem-osgi';
+let defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+let aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME';
+aemAuth.password = 'YOUR PASSWORD';
 
 let apiInstance = new NodeSwaggerAemOsgi.ConfigmgrApi();
 let opts = {
@@ -45683,7 +49288,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[aemAuth](../README.md#aemAuth)
 
 ### HTTP request headers
 

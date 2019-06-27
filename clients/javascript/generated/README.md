@@ -101,6 +101,11 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
 var NodeSwaggerAemOsgi = require('node-swagger-aem-osgi');
 
+var defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
+// Configure HTTP basic authorization: aemAuth
+var aemAuth = defaultClient.authentications['aemAuth'];
+aemAuth.username = 'YOUR USERNAME'
+aemAuth.password = 'YOUR PASSWORD'
 
 var api = new NodeSwaggerAemOsgi.ConfigmgrApi()
 var opts = {
@@ -2310,4 +2315,9 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Authorization
 
-All endpoints do not require authorization.
+
+
+### aemAuth
+
+- **Type**: HTTP basic authentication
+

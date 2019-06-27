@@ -802,7 +802,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo;
@@ -853,7 +853,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo;
@@ -904,7 +904,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = AnalyticsComponentQueryCacheServiceInfo;
@@ -955,7 +955,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ApacheSlingHealthCheckResultHTMLSerializerInfo;
@@ -1008,7 +1008,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo;
@@ -1059,7 +1059,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeAemTransactionCoreImplTransactionRecorderInfo;
@@ -1114,7 +1114,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo;
@@ -1169,7 +1169,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo;
@@ -1222,7 +1222,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo;
@@ -1275,7 +1275,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo;
@@ -1330,7 +1330,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqAccountApiAccountManagementServiceInfo;
@@ -1383,7 +1383,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqAccountImplAccountManagementServletInfo;
@@ -1434,7 +1434,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqAddressImplLocationLocationListServletInfo;
@@ -1491,7 +1491,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqAuditPurgeDamInfo;
@@ -1548,7 +1548,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqAuditPurgePagesInfo;
@@ -1605,7 +1605,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqAuditPurgeReplicationInfo;
@@ -1664,7 +1664,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo;
@@ -1723,7 +1723,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo;
@@ -1778,7 +1778,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCdnRewriterImplCDNRewriterInfo;
@@ -1829,7 +1829,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo;
@@ -1882,7 +1882,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo;
@@ -1933,7 +1933,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo;
@@ -1986,7 +1986,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCommerceImplAssetStaticImageHandlerInfo;
@@ -2039,7 +2039,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCommerceImplAssetVideoHandlerInfo;
@@ -2090,7 +2090,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo;
@@ -2145,7 +2145,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo;
@@ -2196,7 +2196,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCommercePimImplPageEventListenerInfo;
@@ -2247,7 +2247,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo;
@@ -2298,7 +2298,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo;
@@ -2349,7 +2349,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo;
@@ -2400,7 +2400,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo;
@@ -2457,7 +2457,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamCfmImplComponentComponentConfigImplInfo;
@@ -2510,7 +2510,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamCfmImplConfFeatureConfigImplInfo;
@@ -2561,7 +2561,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo;
@@ -2612,7 +2612,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo;
@@ -2663,7 +2663,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo;
@@ -2714,7 +2714,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamDmProcessImagePTiffManagerImplInfo;
@@ -2767,7 +2767,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo;
@@ -2818,7 +2818,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo;
@@ -2875,7 +2875,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo;
@@ -2930,7 +2930,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo;
@@ -2991,7 +2991,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamS7imagingImplIsImageServerComponentInfo;
@@ -3048,7 +3048,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo;
@@ -3103,7 +3103,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo;
@@ -3158,7 +3158,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo;
@@ -3209,7 +3209,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo;
@@ -3264,7 +3264,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDeserfwImplDeserializationFirewallImplInfo;
@@ -3317,7 +3317,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDtmImplServiceDTMWebServiceImplInfo;
@@ -3370,7 +3370,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDtmImplServletsDTMDeployHookServletInfo;
@@ -3425,7 +3425,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqDtmReactorImplServiceWebServiceImplInfo;
@@ -3478,7 +3478,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo;
@@ -3535,7 +3535,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqHcContentPackagesHealthCheckInfo;
@@ -3588,7 +3588,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqHistoryImplHistoryRequestFilterInfo;
@@ -3641,7 +3641,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqHistoryImplHistoryServiceImplInfo;
@@ -3700,7 +3700,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo;
@@ -3753,7 +3753,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqProjectsImplServletProjectImageServletInfo;
@@ -3818,7 +3818,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqProjectsPurgeSchedulerInfo;
@@ -3871,7 +3871,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScheduledExporterImplScheduledExporterImplInfo;
@@ -3930,7 +3930,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo;
@@ -3993,7 +3993,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensDeviceImplDeviceServiceInfo;
@@ -4044,7 +4044,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo;
@@ -4103,7 +4103,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo;
@@ -4154,7 +4154,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo;
@@ -4205,7 +4205,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo;
@@ -4256,7 +4256,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensImplScreensChannelPostProcessorInfo;
@@ -4323,7 +4323,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo;
@@ -4438,7 +4438,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo;
@@ -4491,7 +4491,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo;
@@ -4542,7 +4542,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo;
@@ -4593,7 +4593,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo;
@@ -4644,7 +4644,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo;
@@ -4695,7 +4695,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo;
@@ -4752,7 +4752,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo;
@@ -4803,7 +4803,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo;
@@ -4856,7 +4856,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo;
@@ -4911,7 +4911,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo;
@@ -4962,7 +4962,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo;
@@ -5013,7 +5013,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo;
@@ -5066,7 +5066,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo;
@@ -5119,7 +5119,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo;
@@ -5172,7 +5172,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo;
@@ -5225,7 +5225,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo;
@@ -5280,7 +5280,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo;
@@ -5333,7 +5333,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo;
@@ -5384,7 +5384,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCalendarServletsTimeZoneServletInfo;
@@ -5435,7 +5435,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo;
@@ -5488,7 +5488,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo;
@@ -5541,7 +5541,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo;
@@ -5592,7 +5592,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo;
@@ -5647,7 +5647,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo;
@@ -5698,7 +5698,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo;
@@ -5751,7 +5751,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo;
@@ -5802,7 +5802,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo;
@@ -5853,7 +5853,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo;
@@ -5906,7 +5906,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo;
@@ -5971,7 +5971,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo;
@@ -6042,7 +6042,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo;
@@ -6093,7 +6093,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo;
@@ -6146,7 +6146,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo;
@@ -6199,7 +6199,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo;
@@ -6252,7 +6252,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo;
@@ -6305,7 +6305,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo;
@@ -6358,7 +6358,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo;
@@ -6411,7 +6411,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo;
@@ -6464,7 +6464,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo;
@@ -6519,7 +6519,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo;
@@ -6578,7 +6578,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo;
@@ -6643,7 +6643,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo;
@@ -6696,7 +6696,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo;
@@ -6751,7 +6751,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo;
@@ -6814,7 +6814,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo;
@@ -6867,7 +6867,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo;
@@ -6930,7 +6930,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo;
@@ -6993,7 +6993,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo;
@@ -7056,7 +7056,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo;
@@ -7107,7 +7107,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo;
@@ -7158,7 +7158,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo;
@@ -7209,7 +7209,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo;
@@ -7260,7 +7260,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo;
@@ -7311,7 +7311,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo;
@@ -7364,7 +7364,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo;
@@ -7417,7 +7417,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo;
@@ -7470,7 +7470,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo;
@@ -7523,7 +7523,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo;
@@ -7580,7 +7580,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo;
@@ -7633,7 +7633,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialGroupImplGroupServiceImplInfo;
@@ -7690,7 +7690,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo;
@@ -7743,7 +7743,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo;
@@ -7796,7 +7796,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo;
@@ -7847,7 +7847,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo;
@@ -7898,7 +7898,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo;
@@ -7951,7 +7951,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo;
@@ -8040,7 +8040,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo;
@@ -8093,7 +8093,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo;
@@ -8144,7 +8144,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo;
@@ -8195,7 +8195,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo;
@@ -8248,7 +8248,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo;
@@ -8301,7 +8301,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialNotificationsImplMentionsRouterInfo;
@@ -8352,7 +8352,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo;
@@ -8405,7 +8405,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialNotificationsImplNotificationsRouterInfo;
@@ -8458,7 +8458,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo;
@@ -8511,7 +8511,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo;
@@ -8562,7 +8562,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo;
@@ -8615,7 +8615,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo;
@@ -8668,7 +8668,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo;
@@ -8721,7 +8721,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo;
@@ -8774,7 +8774,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo;
@@ -8827,7 +8827,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialScoringImplScoringEventListenerInfo;
@@ -8878,7 +8878,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo;
@@ -8933,7 +8933,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo;
@@ -8984,7 +8984,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo;
@@ -9035,7 +9035,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo;
@@ -9086,7 +9086,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialSrpImplSocialSolrConnectorInfo;
@@ -9143,7 +9143,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialSyncImplDiffChangesObserverInfo;
@@ -9202,7 +9202,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo;
@@ -9253,7 +9253,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo;
@@ -9312,7 +9312,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialSyncImplUserSyncListenerImplInfo;
@@ -9377,7 +9377,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo;
@@ -9442,7 +9442,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo;
@@ -9497,7 +9497,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo;
@@ -9554,7 +9554,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo;
@@ -9605,7 +9605,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo;
@@ -9656,7 +9656,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo;
@@ -9709,7 +9709,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo;
@@ -9766,7 +9766,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo;
@@ -9819,7 +9819,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo;
@@ -9884,7 +9884,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo;
@@ -9939,7 +9939,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo;
@@ -9998,7 +9998,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqSocialUserImplTransportHttpToPublisherInfo;
@@ -10049,7 +10049,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo;
@@ -10102,7 +10102,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo;
@@ -10153,7 +10153,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo;
@@ -10208,7 +10208,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo;
@@ -10263,7 +10263,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo;
@@ -10318,7 +10318,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo;
@@ -10373,7 +10373,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo;
@@ -10430,7 +10430,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo;
@@ -10481,7 +10481,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo;
@@ -10532,7 +10532,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo;
@@ -10589,7 +10589,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo;
@@ -10652,7 +10652,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo;
@@ -10703,7 +10703,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo;
@@ -10754,7 +10754,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeFormsCommonServiceImplDefaultDataProviderInfo;
@@ -10805,7 +10805,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo;
@@ -10860,7 +10860,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeFormsCommonServletTempCleanUpTaskInfo;
@@ -10913,7 +10913,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAcpPlatformPlatformServletInfo;
@@ -10966,7 +10966,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo;
@@ -11017,7 +11017,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo;
@@ -11068,7 +11068,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo;
@@ -11429,7 +11429,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo;
@@ -11482,7 +11482,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo;
@@ -11535,7 +11535,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthImsInfo;
@@ -11586,7 +11586,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo;
@@ -11639,7 +11639,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo;
@@ -11690,7 +11690,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo;
@@ -11765,7 +11765,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthImsImplIMSProviderImplInfo;
@@ -11822,7 +11822,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo;
@@ -11899,7 +11899,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthAccesstokenProviderInfo;
@@ -11960,7 +11960,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo;
@@ -12011,7 +12011,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo;
@@ -12062,7 +12062,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo;
@@ -12119,7 +12119,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplGithubProviderImplInfo;
@@ -12178,7 +12178,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplGraniteProviderInfo;
@@ -12231,7 +12231,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo;
@@ -12284,7 +12284,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo;
@@ -12335,7 +12335,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo;
@@ -12386,7 +12386,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo;
@@ -12467,7 +12467,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthOauthProviderInfo;
@@ -12518,7 +12518,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo;
@@ -12619,7 +12619,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo;
@@ -12690,7 +12690,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo;
@@ -12743,7 +12743,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo;
@@ -12794,7 +12794,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo;
@@ -12845,7 +12845,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo;
@@ -12898,7 +12898,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo;
@@ -12951,7 +12951,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo;
@@ -13002,7 +13002,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo;
@@ -13053,7 +13053,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo;
@@ -13104,7 +13104,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo;
@@ -13155,7 +13155,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo;
@@ -13206,7 +13206,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo;
@@ -13257,7 +13257,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo;
@@ -13310,7 +13310,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo;
@@ -13365,7 +13365,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteCompatrouterImplRoutingConfigInfo;
@@ -13418,7 +13418,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo;
@@ -13471,7 +13471,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo;
@@ -13524,7 +13524,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteContexthubImplContextHubImplInfo;
@@ -13589,7 +13589,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteCorsImplCORSPolicyImplInfo;
@@ -13646,7 +13646,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteCsrfImplCSRFFilterInfo;
@@ -13699,7 +13699,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteCsrfImplCSRFServletInfo;
@@ -13754,7 +13754,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo;
@@ -13819,7 +13819,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo;
@@ -13874,7 +13874,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo;
@@ -13925,7 +13925,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo;
@@ -13978,7 +13978,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo;
@@ -14029,7 +14029,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo;
@@ -14086,7 +14086,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo;
@@ -14143,7 +14143,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo;
@@ -14202,7 +14202,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteFragsImplRandomFeatureInfo;
@@ -14255,7 +14255,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteHttpcacheFileFileCacheStoreInfo;
@@ -14306,7 +14306,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo;
@@ -14357,7 +14357,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo;
@@ -14408,7 +14408,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo;
@@ -14461,7 +14461,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteInfocollectorInfoCollectorInfo;
@@ -14522,7 +14522,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo;
@@ -14577,7 +14577,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteLicenseImplLicenseCheckFilterInfo;
@@ -14632,7 +14632,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteLoggingImplLogAnalyserImplInfo;
@@ -14683,7 +14683,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo;
@@ -14736,7 +14736,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo;
@@ -14787,7 +14787,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo;
@@ -14838,7 +14838,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo;
@@ -14899,7 +14899,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteMonitoringImplScriptConfigImplInfo;
@@ -14958,7 +14958,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo;
@@ -15009,7 +15009,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo;
@@ -15060,7 +15060,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo;
@@ -15113,7 +15113,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo;
@@ -15170,7 +15170,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo;
@@ -15221,7 +15221,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo;
@@ -15274,7 +15274,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo;
@@ -15325,7 +15325,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo;
@@ -15376,7 +15376,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo;
@@ -15427,7 +15427,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo;
@@ -15490,7 +15490,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo;
@@ -15543,7 +15543,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo;
@@ -15598,7 +15598,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteOptoutImplOptOutServiceImplInfo;
@@ -15653,7 +15653,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo;
@@ -15708,7 +15708,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo;
@@ -15759,7 +15759,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo;
@@ -15810,7 +15810,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo;
@@ -15861,7 +15861,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo;
@@ -15914,7 +15914,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo;
@@ -15965,7 +15965,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo;
@@ -16016,7 +16016,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo;
@@ -16069,7 +16069,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo;
@@ -16120,7 +16120,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo;
@@ -16171,7 +16171,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo;
@@ -16226,7 +16226,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo;
@@ -16281,7 +16281,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo;
@@ -16332,7 +16332,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo;
@@ -16407,7 +16407,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryImplCommitStatsConfigInfo;
@@ -16462,7 +16462,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRepositoryServiceUserConfigurationInfo;
@@ -16513,7 +16513,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo;
@@ -16566,7 +16566,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo;
@@ -16617,7 +16617,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo;
@@ -16670,7 +16670,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo;
@@ -16721,7 +16721,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo;
@@ -16774,7 +16774,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteRestImplServletDefaultGETServletInfo;
@@ -16825,7 +16825,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo;
@@ -16880,7 +16880,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteSecurityUserUserPropertiesServiceInfo;
@@ -16937,7 +16937,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo;
@@ -16990,7 +16990,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo;
@@ -17041,7 +17041,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo;
@@ -17096,7 +17096,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo;
@@ -17155,7 +17155,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo;
@@ -17208,7 +17208,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo;
@@ -17275,7 +17275,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteThreaddumpThreadDumpCollectorInfo;
@@ -17342,7 +17342,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo;
@@ -17395,7 +17395,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo;
@@ -17484,7 +17484,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo;
@@ -17535,7 +17535,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo;
@@ -17586,7 +17586,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo;
@@ -17637,7 +17637,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo;
@@ -17692,7 +17692,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo;
@@ -17745,7 +17745,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowCoreJobJobHandlerInfo;
@@ -17796,7 +17796,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo;
@@ -17849,7 +17849,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowCorePayloadMapCacheInfo;
@@ -17902,7 +17902,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo;
@@ -17957,7 +17957,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowCoreWorkflowConfigInfo;
@@ -18028,7 +18028,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo;
@@ -18085,7 +18085,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeGraniteWorkflowPurgeSchedulerInfo;
@@ -18144,7 +18144,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeOctopusNcommBootstrapInfo;
@@ -18195,7 +18195,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo;
@@ -18252,7 +18252,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo;
@@ -18323,7 +18323,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo;
@@ -18386,7 +18386,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCommonsHttpclientInfo;
@@ -18437,7 +18437,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo;
@@ -18490,7 +18490,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo;
@@ -18543,7 +18543,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo;
@@ -18594,7 +18594,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo;
@@ -18651,7 +18651,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo;
@@ -18702,7 +18702,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo;
@@ -18753,7 +18753,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo;
@@ -18804,7 +18804,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo;
@@ -18855,7 +18855,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo;
@@ -18910,7 +18910,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo;
@@ -18961,7 +18961,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo;
@@ -19020,7 +19020,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo;
@@ -19077,7 +19077,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAuthImplCugCugSupportImplInfo;
@@ -19142,7 +19142,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqAuthImplLoginSelectorHandlerInfo;
@@ -19199,7 +19199,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqCommonsImplExternalizerImplInfo;
@@ -19250,7 +19250,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqCommonsServletsRootMappingServletInfo;
@@ -19303,7 +19303,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo;
@@ -19354,7 +19354,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo;
@@ -19405,7 +19405,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo;
@@ -19458,7 +19458,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqContentsyncImplContentSyncManagerImplInfo;
@@ -19513,7 +19513,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCommonsHandlerStandardImageHandlerInfo;
@@ -19570,7 +19570,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo;
@@ -19625,7 +19625,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCommonsUtilImplAssetCacheImplInfo;
@@ -19706,7 +19706,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo;
@@ -19757,7 +19757,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplAssetMoveListenerInfo;
@@ -19808,7 +19808,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo;
@@ -19859,7 +19859,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo;
@@ -19914,7 +19914,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo;
@@ -19965,7 +19965,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplDamChangeEventListenerInfo;
@@ -20024,7 +20024,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplDamEventPurgeServiceInfo;
@@ -20083,7 +20083,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplDamEventRecorderImplInfo;
@@ -20136,7 +20136,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplEventDamEventAuditListenerInfo;
@@ -20199,7 +20199,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplExpiryNotificationJobImplInfo;
@@ -20250,7 +20250,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo;
@@ -20301,7 +20301,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplGfxCommonsGfxRendererInfo;
@@ -20352,7 +20352,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo;
@@ -20403,7 +20403,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo;
@@ -20458,7 +20458,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplHandlerJpegHandlerInfo;
@@ -20509,7 +20509,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo;
@@ -20576,7 +20576,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo;
@@ -20627,7 +20627,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo;
@@ -20680,7 +20680,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo;
@@ -20733,7 +20733,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo;
@@ -20790,7 +20790,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo;
@@ -20845,7 +20845,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplLightboxLightboxServletInfo;
@@ -20896,7 +20896,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo;
@@ -20949,7 +20949,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo;
@@ -21000,7 +21000,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo;
@@ -21057,7 +21057,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplMissingMetadataNotificationJobInfo;
@@ -21110,7 +21110,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo;
@@ -21163,7 +21163,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplProcessTextExtractionProcessInfo;
@@ -21216,7 +21216,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplRenditionMakerImplInfo;
@@ -21267,7 +21267,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplReportsReportExportServiceInfo;
@@ -21324,7 +21324,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplReportsReportPurgeServiceInfo;
@@ -21375,7 +21375,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletAssetDownloadServletInfo;
@@ -21426,7 +21426,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletAssetStatusServletInfo;
@@ -21477,7 +21477,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletAssetXMPSearchServletInfo;
@@ -21532,7 +21532,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletBatchMetadataServletInfo;
@@ -21587,7 +21587,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletBinaryProviderServletInfo;
@@ -21640,7 +21640,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletCollectionServletInfo;
@@ -21693,7 +21693,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletCollectionsServletInfo;
@@ -21746,7 +21746,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletCompanionServletInfo;
@@ -21797,7 +21797,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletCreateAssetServletInfo;
@@ -21850,7 +21850,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletDamContentDispositionFilterInfo;
@@ -21901,7 +21901,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletGuidLookupFilterInfo;
@@ -21954,7 +21954,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletHealthCheckServletInfo;
@@ -22011,7 +22011,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletMetadataGetServletInfo;
@@ -22062,7 +22062,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo;
@@ -22123,7 +22123,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplServletResourceCollectionServletInfo;
@@ -22180,7 +22180,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo;
@@ -22233,7 +22233,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreImplUnzipUnzipConfigInfo;
@@ -22286,7 +22286,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo;
@@ -22339,7 +22339,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreProcessExtractMetadataProcessInfo;
@@ -22394,7 +22394,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamCoreProcessMetadataProcessorProcessInfo;
@@ -22445,7 +22445,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamHandlerFfmpegLocatorImplInfo;
@@ -22502,7 +22502,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo;
@@ -22553,7 +22553,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamHandlerStandardPdfPdfHandlerInfo;
@@ -22604,7 +22604,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamHandlerStandardPsPostScriptHandlerInfo;
@@ -22655,7 +22655,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamHandlerStandardPsdPsdHandlerInfo;
@@ -22716,7 +22716,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamIdsImplIDSJobProcessorInfo;
@@ -22777,7 +22777,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamIdsImplIDSPoolManagerImplInfo;
@@ -22830,7 +22830,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo;
@@ -22881,7 +22881,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamInddImplServletSnippetCreationServletInfo;
@@ -22938,7 +22938,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamInddProcessINDDMediaExtractProcessInfo;
@@ -22989,7 +22989,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo;
@@ -23040,7 +23040,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo;
@@ -23091,7 +23091,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo;
@@ -23142,7 +23142,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo;
@@ -23195,7 +23195,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo;
@@ -23248,7 +23248,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo;
@@ -23301,7 +23301,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo;
@@ -23352,7 +23352,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo;
@@ -23403,7 +23403,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo;
@@ -23456,7 +23456,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo;
@@ -23519,7 +23519,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo;
@@ -23572,7 +23572,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamScene7ImplScene7APIClientImplInfo;
@@ -23623,7 +23623,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo;
@@ -23674,7 +23674,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo;
@@ -23727,7 +23727,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo;
@@ -23786,7 +23786,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo;
@@ -23839,7 +23839,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamScene7ImplScene7UploadServiceImplInfo;
@@ -23892,7 +23892,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo;
@@ -23947,7 +23947,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo;
@@ -23998,7 +23998,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqDamVideoImplServletVideoTestServletInfo;
@@ -24051,7 +24051,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqExtwidgetServletsImageSpriteServletInfo;
@@ -24104,7 +24104,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqImageInternalFontFontHelperInfo;
@@ -24159,7 +24159,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqJcrclustersupportClusterStartLevelControllerInfo;
@@ -24224,7 +24224,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMailerDefaultMailServiceInfo;
@@ -24275,7 +24275,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMailerImplCqMailingServiceInfo;
@@ -24326,7 +24326,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo;
@@ -24383,7 +24383,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo;
@@ -24438,7 +24438,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmCampaignImplIntegrationConfigImplInfo;
@@ -24491,7 +24491,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo;
@@ -24546,7 +24546,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo;
@@ -24599,7 +24599,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmImplMCMConfigurationInfo;
@@ -24654,7 +24654,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo;
@@ -24709,7 +24709,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo;
@@ -24762,7 +24762,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo;
@@ -24815,7 +24815,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo;
@@ -24870,7 +24870,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo;
@@ -24921,7 +24921,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqNotificationImplNotificationServiceImplInfo;
@@ -24972,7 +24972,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo;
@@ -25039,7 +25039,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqPollingImporterImplManagedPollConfigImplInfo;
@@ -25090,7 +25090,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqPollingImporterImplManagedPollingImporterImplInfo;
@@ -25147,7 +25147,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqPollingImporterImplPollingImporterImplInfo;
@@ -25198,7 +25198,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationAuditReplicationEventListenerInfo;
@@ -25251,7 +25251,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationContentStaticContentBuilderInfo;
@@ -25306,7 +25306,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplAgentManagerImplInfo;
@@ -25357,7 +25357,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo;
@@ -25424,7 +25424,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo;
@@ -25477,7 +25477,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo;
@@ -25530,7 +25530,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplReplicationReceiverImplInfo;
@@ -25581,7 +25581,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplReplicatorImplInfo;
@@ -25632,7 +25632,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplReverseReplicatorInfo;
@@ -25685,7 +25685,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo;
@@ -25738,7 +25738,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReplicationImplTransportHttpInfo;
@@ -25793,7 +25793,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReportingImplCacheCacheImplInfo;
@@ -25862,7 +25862,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReportingImplConfigServiceImplInfo;
@@ -25913,7 +25913,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqReportingImplRLogAnalyzerInfo;
@@ -25976,7 +25976,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo;
@@ -26037,7 +26037,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo;
@@ -26100,7 +26100,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo;
@@ -26153,7 +26153,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo;
@@ -26206,7 +26206,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqRewriterProcessorImplHtmlParserFactoryInfo;
@@ -26263,7 +26263,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqSearchImplBuilderQueryBuilderImplInfo;
@@ -26316,7 +26316,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo;
@@ -26367,7 +26367,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo;
@@ -26424,7 +26424,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo;
@@ -26475,7 +26475,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqSecurityACLSetupInfo;
@@ -26536,7 +26536,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqStatisticsImplStatisticsServiceImplInfo;
@@ -26587,7 +26587,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqTaggingImplJcrTagManagerFactoryImplInfo;
@@ -26638,7 +26638,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo;
@@ -26689,7 +26689,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqTaggingImplTagGarbageCollectorInfo;
@@ -26740,7 +26740,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo;
@@ -26801,7 +26801,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo;
@@ -26852,7 +26852,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo;
@@ -26903,7 +26903,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplCommandsWCMCommandServletInfo;
@@ -26956,7 +26956,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo;
@@ -27007,7 +27007,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplEventPageEventAuditListenerInfo;
@@ -27058,7 +27058,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplEventPagePostProcessorInfo;
@@ -27111,7 +27111,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo;
@@ -27162,7 +27162,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplEventTemplatePostProcessorInfo;
@@ -27215,7 +27215,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplLanguageManagerImplInfo;
@@ -27284,7 +27284,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo;
@@ -27337,7 +27337,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo;
@@ -27390,7 +27390,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo;
@@ -27441,7 +27441,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo;
@@ -27500,7 +27500,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo;
@@ -27551,7 +27551,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo;
@@ -27604,7 +27604,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo;
@@ -27655,7 +27655,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplServletsFindReplaceServletInfo;
@@ -27708,7 +27708,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplServletsReferenceSearchServletInfo;
@@ -27761,7 +27761,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplServletsThumbnailServletInfo;
@@ -27812,7 +27812,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo;
@@ -27863,7 +27863,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo;
@@ -27926,7 +27926,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplVersionManagerImplInfo;
@@ -27985,7 +27985,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplVersionPurgeTaskInfo;
@@ -28038,7 +28038,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplWCMDebugFilterInfo;
@@ -28089,7 +28089,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo;
@@ -28142,7 +28142,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreImplWarpTimeWarpFilterInfo;
@@ -28193,7 +28193,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreMvtMVTStatisticsImplInfo;
@@ -28246,7 +28246,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreStatsPageViewStatisticsImplInfo;
@@ -28297,7 +28297,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmCoreWCMRequestFilterInfo;
@@ -28348,7 +28348,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterDesignPackageImporterInfo;
@@ -28405,7 +28405,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo;
@@ -28458,7 +28458,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo;
@@ -28511,7 +28511,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo;
@@ -28570,7 +28570,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo;
@@ -28623,7 +28623,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo;
@@ -28676,7 +28676,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo;
@@ -28729,7 +28729,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo;
@@ -28782,7 +28782,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo;
@@ -28835,7 +28835,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo;
@@ -28890,7 +28890,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo;
@@ -28943,7 +28943,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo;
@@ -28996,7 +28996,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo;
@@ -29049,7 +29049,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo;
@@ -29102,7 +29102,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo;
@@ -29155,7 +29155,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo;
@@ -29210,7 +29210,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo;
@@ -29263,7 +29263,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo;
@@ -29316,7 +29316,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo;
@@ -29371,7 +29371,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo;
@@ -29426,7 +29426,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo;
@@ -29479,7 +29479,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo;
@@ -29538,7 +29538,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationFormsImplFormChooserServletInfo;
@@ -29591,7 +29591,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo;
@@ -29644,7 +29644,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo;
@@ -29701,7 +29701,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationFormsImplMailServletInfo;
@@ -29752,7 +29752,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo;
@@ -29813,7 +29813,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationImplHTTPAuthHandlerInfo;
@@ -29864,7 +29864,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationImplPageImpressionsTrackerInfo;
@@ -29915,7 +29915,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationImplPageRedirectServletInfo;
@@ -29968,7 +29968,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo;
@@ -30033,7 +30033,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo;
@@ -30086,7 +30086,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo;
@@ -30143,7 +30143,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo;
@@ -30200,7 +30200,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo;
@@ -30255,7 +30255,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo;
@@ -30312,7 +30312,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo;
@@ -30367,7 +30367,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo;
@@ -30424,7 +30424,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo;
@@ -30481,7 +30481,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo;
@@ -30536,7 +30536,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo;
@@ -30587,7 +30587,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo;
@@ -30654,7 +30654,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplRolloutManagerImplInfo;
@@ -30707,7 +30707,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmMsmImplServletsAuditLogServletInfo;
@@ -30758,7 +30758,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmNotificationEmailImplEmailChannelInfo;
@@ -30809,7 +30809,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmNotificationImplNotificationManagerImplInfo;
@@ -30860,7 +30860,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmScriptingImplBVPManagerInfo;
@@ -30927,7 +30927,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmUndoUndoConfigInfo;
@@ -30978,7 +30978,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo;
@@ -31037,7 +31037,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo;
@@ -31090,7 +31090,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo;
@@ -31167,7 +31167,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWidgetImplHtmlLibraryManagerImplInfo;
@@ -31220,7 +31220,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWidgetImplWidgetExtensionProviderImplInfo;
@@ -31281,7 +31281,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWorkflowImplEmailEMailNotificationServiceInfo;
@@ -31334,7 +31334,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo;
@@ -31393,7 +31393,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo;
@@ -31448,7 +31448,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = ComDayCrxSecurityTokenImplTokenCleanupTaskInfo;
@@ -31501,7 +31501,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = GuideLocalizationServiceInfo;
@@ -31552,7 +31552,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = MessagingUserComponentFactoryInfo;
@@ -31603,7 +31603,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheAriesJmxFrameworkStateConfigInfo;
@@ -31664,7 +31664,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixEventadminImplEventAdminInfo;
@@ -31819,7 +31819,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixHttpInfo;
@@ -31876,7 +31876,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixHttpSslfilterSslFilterInfo;
@@ -31935,7 +31935,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixJaasConfigurationFactoryInfo;
@@ -31990,7 +31990,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixJaasConfigurationSpiInfo;
@@ -32051,7 +32051,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixScrScrServiceInfo;
@@ -32104,7 +32104,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixSystemreadyImplComponentsCheckInfo;
@@ -32161,7 +32161,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo;
@@ -32214,7 +32214,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixSystemreadyImplServicesCheckInfo;
@@ -32267,7 +32267,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo;
@@ -32320,7 +32320,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo;
@@ -32371,7 +32371,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixSystemreadySystemReadyMonitorInfo;
@@ -32440,7 +32440,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo;
@@ -32491,7 +32491,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo;
@@ -32546,7 +32546,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo;
@@ -32607,7 +32607,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheHttpProxyconfiguratorInfo;
@@ -32658,7 +32658,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo;
@@ -32709,7 +32709,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo;
@@ -32818,7 +32818,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo;
@@ -32869,7 +32869,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo;
@@ -32924,7 +32924,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo;
@@ -32981,7 +32981,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo;
@@ -33062,7 +33062,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo;
@@ -33115,7 +33115,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo;
@@ -33166,7 +33166,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo;
@@ -33249,7 +33249,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo;
@@ -33314,7 +33314,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo;
@@ -33365,7 +33365,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo;
@@ -33416,7 +33416,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo;
@@ -33467,7 +33467,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo;
@@ -33522,7 +33522,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo;
@@ -33579,7 +33579,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo;
@@ -33632,7 +33632,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo;
@@ -33733,7 +33733,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo;
@@ -33796,7 +33796,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo;
@@ -33855,7 +33855,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo;
@@ -33908,7 +33908,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo;
@@ -33959,7 +33959,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo;
@@ -34040,7 +34040,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo;
@@ -34099,7 +34099,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo;
@@ -34202,7 +34202,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo;
@@ -34253,7 +34253,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo;
@@ -34350,7 +34350,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo;
@@ -34417,7 +34417,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo;
@@ -34494,7 +34494,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo;
@@ -34553,7 +34553,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo;
@@ -34604,7 +34604,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo;
@@ -34659,7 +34659,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo;
@@ -34710,7 +34710,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo;
@@ -34767,7 +34767,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo;
@@ -34818,7 +34818,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo;
@@ -34869,7 +34869,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo;
@@ -34922,7 +34922,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingAuthCoreImplLogoutServletInfo;
@@ -34973,7 +34973,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo;
@@ -35024,7 +35024,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigImplConfigurationResolverImplInfo;
@@ -35077,7 +35077,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo;
@@ -35128,7 +35128,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo;
@@ -35185,7 +35185,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo;
@@ -35238,7 +35238,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo;
@@ -35291,7 +35291,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo;
@@ -35348,7 +35348,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo;
@@ -35405,7 +35405,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo;
@@ -35456,7 +35456,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo;
@@ -35525,7 +35525,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsLogLogManagerInfo;
@@ -35584,7 +35584,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo;
@@ -35641,7 +35641,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo;
@@ -35704,7 +35704,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsMetricsInternalLogReporterInfo;
@@ -35761,7 +35761,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo;
@@ -35812,7 +35812,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo;
@@ -35871,7 +35871,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo;
@@ -35922,7 +35922,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo;
@@ -35993,7 +35993,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo;
@@ -36100,7 +36100,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDatasourceDataSourceFactoryInfo;
@@ -36157,7 +36157,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo;
@@ -36244,7 +36244,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDiscoveryOakConfigInfo;
@@ -36299,7 +36299,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo;
@@ -36388,7 +36388,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo;
@@ -36441,7 +36441,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo;
@@ -36514,7 +36514,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo;
@@ -36591,7 +36591,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo;
@@ -36662,7 +36662,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo;
@@ -36747,7 +36747,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo;
@@ -36804,7 +36804,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo;
@@ -36861,7 +36861,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo;
@@ -36914,7 +36914,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo;
@@ -36973,7 +36973,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo;
@@ -37026,7 +37026,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo;
@@ -37081,7 +37081,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo;
@@ -37138,7 +37138,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo;
@@ -37191,7 +37191,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo;
@@ -37244,7 +37244,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo;
@@ -37317,7 +37317,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo;
@@ -37402,7 +37402,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo;
@@ -37457,7 +37457,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo;
@@ -37510,7 +37510,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo;
@@ -37569,7 +37569,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo;
@@ -37626,7 +37626,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo;
@@ -37681,7 +37681,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo;
@@ -37734,7 +37734,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo;
@@ -37791,7 +37791,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo;
@@ -37862,7 +37862,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo;
@@ -37919,7 +37919,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo;
@@ -37980,7 +37980,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEngineImplLogRequestLoggerInfo;
@@ -38037,7 +38037,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEngineImplLogRequestLoggerServiceInfo;
@@ -38100,7 +38100,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEngineImplSlingMainServletInfo;
@@ -38163,7 +38163,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEngineParametersInfo;
@@ -38214,7 +38214,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEventImplEventingThreadPoolInfo;
@@ -38271,7 +38271,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEventImplJobsDefaultJobManagerInfo;
@@ -38326,7 +38326,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo;
@@ -38381,7 +38381,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEventImplJobsJobConsumerManagerInfo;
@@ -38452,7 +38452,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingEventJobsQueueConfigurationInfo;
@@ -38505,7 +38505,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo;
@@ -38560,7 +38560,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingFeatureflagsFeatureInfo;
@@ -38615,7 +38615,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo;
@@ -38674,7 +38674,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingHapiImplHApiUtilImplInfo;
@@ -38733,7 +38733,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingHcCoreImplCompositeHealthCheckInfo;
@@ -38788,7 +38788,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo;
@@ -38849,7 +38849,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo;
@@ -38908,7 +38908,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingHcCoreImplScriptableHealthCheckInfo;
@@ -38963,7 +38963,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo;
@@ -39020,7 +39020,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo;
@@ -39073,7 +39073,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingI18nImplI18NFilterInfo;
@@ -39128,7 +39128,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingI18nImplJcrResourceBundleProviderInfo;
@@ -39191,7 +39191,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo;
@@ -39244,7 +39244,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo;
@@ -39297,7 +39297,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo;
@@ -39352,7 +39352,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo;
@@ -39405,7 +39405,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo;
@@ -39456,7 +39456,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo;
@@ -39507,7 +39507,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo;
@@ -39560,7 +39560,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrRepoinitRepositoryInitializerInfo;
@@ -39651,7 +39651,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo;
@@ -39702,7 +39702,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo;
@@ -39757,7 +39757,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo;
@@ -39814,7 +39814,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo;
@@ -39865,7 +39865,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo;
@@ -39934,7 +39934,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo;
@@ -39985,7 +39985,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingJmxProviderImplJMXResourceProviderInfo;
@@ -40042,7 +40042,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingModelsImplModelAdapterFactoryInfo;
@@ -40093,7 +40093,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo;
@@ -40148,7 +40148,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo;
@@ -40201,7 +40201,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo;
@@ -40254,7 +40254,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingResourcemergerPickerOverridingInfo;
@@ -40307,7 +40307,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingScriptingCoreImplScriptCacheImplInfo;
@@ -40358,7 +40358,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo;
@@ -40415,7 +40415,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo;
@@ -40466,7 +40466,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo;
@@ -40537,7 +40537,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo;
@@ -40588,7 +40588,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo;
@@ -40643,7 +40643,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingSecurityImplContentDispositionFilterInfo;
@@ -40702,7 +40702,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingSecurityImplReferrerFilterInfo;
@@ -40759,7 +40759,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo;
@@ -40812,7 +40812,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo;
@@ -40879,7 +40879,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingServletsGetDefaultGetServletInfo;
@@ -40932,7 +40932,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo;
@@ -40987,7 +40987,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo;
@@ -41050,7 +41050,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingServletsPostImplSlingPostServletInfo;
@@ -41107,7 +41107,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingServletsResolverSlingServletResolverInfo;
@@ -41160,7 +41160,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo;
@@ -41213,7 +41213,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingStartupfilterImplStartupFilterImplInfo;
@@ -41266,7 +41266,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingTenantInternalTenantProviderImplInfo;
@@ -41329,7 +41329,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingTracerInternalLogTracerInfo;
@@ -41380,7 +41380,7 @@ export default class ConfigmgrApi {
       let formParams = {
       };
 
-      let authNames = [];
+      let authNames = ['aemAuth'];
       let contentTypes = [];
       let accepts = ['application/json'];
       let returnType = OrgApacheSlingXssImplXSSFilterImplInfo;

@@ -8,5 +8,7 @@ Name | Type | Description | Notes
 **title** | **String** |  | [optional] 
 **description** | **String** |  | [optional] 
 **properties** | [**OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties**](OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties.md) |  | [optional] 
+**bundleLocation** | **String** |  | [optional] 
+**serviceLocation** | **String** |  | [optional] 
 
 
