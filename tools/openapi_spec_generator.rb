@@ -64,7 +64,7 @@ def setup_config_node_post_schema(operation_id)
           'name' => 'propertylist',
           'in' => 'query',
           'style' => 'form',
-          'explode' => 'false',
+          'explode' => false,
           'schema' => {
             'type' => 'array',
             'items' => {
@@ -336,6 +336,8 @@ def setup_config_node_property_type_response_schema(config_node_property)
   config_node_property_name = config_node_property[0]
   config_node_property_type = get_config_node_property_type_response_schema(config_node_property)
   config_node_property_description = config_node_property[1]['description']
+
+  config_node_property_description = 'No description available' if config_node_property_description.nil?
 
   case config_node_property_type
   when Integer

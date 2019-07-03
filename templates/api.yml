@@ -99,21 +99,14 @@ components:
           description: True if property is set
           type: boolean
         type:
-          description: Property value
           type: object
-          items:
-            type: array
-            items:
-              anyOf:
-              - string
-              - integer
+          properties:
+            labels:
+              description: Drop Down label
+            values:
+              description: Drown Down value
         value:
           description: Property value
-          type: array
-          items:
-            anyOf:
-            - string
-            - integer
         description:
           description: Property description
           type: string
