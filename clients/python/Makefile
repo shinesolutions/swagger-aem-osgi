@@ -32,7 +32,7 @@ test-integration:
 
 doc:
 	cd generated/ && \
-	  sphinx-apidoc -o ../../doc/python/master/stage/ --full -H "Swagger AEM" -A "Shine Solutions" swaggeraem && \
+	  sphinx-apidoc -o ../../doc/python/master/stage/ --full -H "Swagger AEM OSGI" -A "Shine Solutions" swaggeraemosgi && \
 		cd ../../doc/python/master/stage/ && \
 		make html && \
 		cd .. && \
@@ -41,7 +41,7 @@ doc:
 
 publish:
 	cd generated/ && \
-	  gem push `ls swagger_aem-*.gem`
+	  gem push `ls swagger_aem_osgi-*.gem`
 
 publish-test:
 	cd generated/ && \
