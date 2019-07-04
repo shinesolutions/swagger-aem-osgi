@@ -1130,6 +1130,7 @@ require 'swagger_aem_osgi/models/com_day_crx_security_token_impl_token_cleanup_t
 require 'swagger_aem_osgi/models/config_node_property_array'
 require 'swagger_aem_osgi/models/config_node_property_boolean'
 require 'swagger_aem_osgi/models/config_node_property_drop_down'
+require 'swagger_aem_osgi/models/config_node_property_drop_down_type'
 require 'swagger_aem_osgi/models/config_node_property_float'
 require 'swagger_aem_osgi/models/config_node_property_integer'
 require 'swagger_aem_osgi/models/config_node_property_string'

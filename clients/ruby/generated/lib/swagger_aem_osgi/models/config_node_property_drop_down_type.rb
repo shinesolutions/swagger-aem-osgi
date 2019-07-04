@@ -13,40 +13,26 @@ OpenAPI Generator version: 4.0.1-SNAPSHOT
 require 'date'
 
 module SwaggerAemOsgiClient
-  class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo
-    attr_accessor :pid
+  class ConfigNodePropertyDropDownType
+    # Drop Down label
+    attr_accessor :labels
 
-    attr_accessor :title
-
-    attr_accessor :description
-
-    attr_accessor :properties
-
-    attr_accessor :bundle_location
-
-    attr_accessor :service_location
+    # Drown Down value
+    attr_accessor :values
 
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'pid' => :'pid',
-        :'title' => :'title',
-        :'description' => :'description',
-        :'properties' => :'properties',
-        :'bundle_location' => :'bundle_location',
-        :'service_location' => :'service_location'
+        :'labels' => :'labels',
+        :'values' => :'values'
       }
     end
 
     # Attribute type mapping.
     def self.openapi_types
       {
-        :'pid' => :'String',
-        :'title' => :'String',
-        :'description' => :'String',
-        :'properties' => :'ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties',
-        :'bundle_location' => :'String',
-        :'service_location' => :'String'
+        :'labels' => :'Object',
+        :'values' => :'Object'
       }
     end
 
@@ -54,39 +40,23 @@ module SwaggerAemOsgiClient
     # @param [Hash] attributes Model attributes in the form of hash
     def initialize(attributes = {})
       if (!attributes.is_a?(Hash))
-        fail ArgumentError, "The input argument (attributes) must be a hash in `SwaggerAemOsgiClient::ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo` initialize method"
+        fail ArgumentError, "The input argument (attributes) must be a hash in `SwaggerAemOsgiClient::ConfigNodePropertyDropDownType` initialize method"
       end
 
       # check to see if the attribute exists and convert string to symbol for hash key
       attributes = attributes.each_with_object({}) { |(k, v), h|
         if (!self.class.attribute_map.key?(k.to_sym))
-          fail ArgumentError, "`#{k}` is not a valid attribute in `SwaggerAemOsgiClient::ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
+          fail ArgumentError, "`#{k}` is not a valid attribute in `SwaggerAemOsgiClient::ConfigNodePropertyDropDownType`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
         end
         h[k.to_sym] = v
       }
 
-      if attributes.key?(:'pid')
-        self.pid = attributes[:'pid']
+      if attributes.key?(:'labels')
+        self.labels = attributes[:'labels']
       end
 
-      if attributes.key?(:'title')
-        self.title = attributes[:'title']
-      end
-
-      if attributes.key?(:'description')
-        self.description = attributes[:'description']
-      end
-
-      if attributes.key?(:'properties')
-        self.properties = attributes[:'properties']
-      end
-
-      if attributes.key?(:'bundle_location')
-        self.bundle_location = attributes[:'bundle_location']
-      end
-
-      if attributes.key?(:'service_location')
-        self.service_location = attributes[:'service_location']
+      if attributes.key?(:'values')
+        self.values = attributes[:'values']
       end
     end
 
@@ -108,12 +78,8 @@ module SwaggerAemOsgiClient
     def ==(o)
       return true if self.equal?(o)
       self.class == o.class &&
-          pid == o.pid &&
-          title == o.title &&
-          description == o.description &&
-          properties == o.properties &&
-          bundle_location == o.bundle_location &&
-          service_location == o.service_location
+          labels == o.labels &&
+          values == o.values
     end
 
     # @see the `==` method
@@ -125,7 +91,7 @@ module SwaggerAemOsgiClient
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [pid, title, description, properties, bundle_location, service_location].hash
+      [labels, values].hash
     end
 
     # Builds the object from hash

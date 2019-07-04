@@ -22,22 +22,13 @@ module SwaggerAemOsgiClient
 
     attr_accessor :properties
 
-    attr_accessor :additional_properties
-
-    attr_accessor :bundle_location
-
-    attr_accessor :service_location
-
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
         :'pid' => :'pid',
         :'title' => :'title',
         :'description' => :'description',
-        :'properties' => :'properties',
-        :'additional_properties' => :'additionalProperties',
-        :'bundle_location' => :'bundle_location',
-        :'service_location' => :'service_location'
+        :'properties' => :'properties'
       }
     end
 
@@ -47,10 +38,7 @@ module SwaggerAemOsgiClient
         :'pid' => :'String',
         :'title' => :'String',
         :'description' => :'String',
-        :'properties' => :'ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties',
-        :'additional_properties' => :'String',
-        :'bundle_location' => :'String',
-        :'service_location' => :'String'
+        :'properties' => :'ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties'
       }
     end
 
@@ -84,18 +72,6 @@ module SwaggerAemOsgiClient
       if attributes.key?(:'properties')
         self.properties = attributes[:'properties']
       end
-
-      if attributes.key?(:'additional_properties')
-        self.additional_properties = attributes[:'additional_properties']
-      end
-
-      if attributes.key?(:'bundle_location')
-        self.bundle_location = attributes[:'bundle_location']
-      end
-
-      if attributes.key?(:'service_location')
-        self.service_location = attributes[:'service_location']
-      end
     end
 
     # Show invalid properties with the reasons. Usually used together with valid?
@@ -119,10 +95,7 @@ module SwaggerAemOsgiClient
           pid == o.pid &&
           title == o.title &&
           description == o.description &&
-          properties == o.properties &&
-          additional_properties == o.additional_properties &&
-          bundle_location == o.bundle_location &&
-          service_location == o.service_location
+          properties == o.properties
     end
 
     # @see the `==` method
@@ -134,7 +107,7 @@ module SwaggerAemOsgiClient
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [pid, title, description, properties, additional_properties, bundle_location, service_location].hash
+      [pid, title, description, properties].hash
     end
 
     # Builds the object from hash

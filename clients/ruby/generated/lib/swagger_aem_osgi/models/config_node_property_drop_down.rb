@@ -23,7 +23,6 @@ module SwaggerAemOsgiClient
     # True if property is set
     attr_accessor :is_set
 
-    # Property value
     attr_accessor :type
 
     # Property value
@@ -50,8 +49,8 @@ module SwaggerAemOsgiClient
         :'name' => :'String',
         :'optional' => :'Boolean',
         :'is_set' => :'Boolean',
-        :'type' => :'Array<Array<Object>>',
-        :'value' => :'Array<Object>',
+        :'type' => :'ConfigNodePropertyDropDownType',
+        :'value' => :'Object',
         :'description' => :'String'
       }
     end
@@ -84,15 +83,11 @@ module SwaggerAemOsgiClient
       end
 
       if attributes.key?(:'type')
-        if (value = attributes[:'type']).is_a?(Array)
-          self.type = value
-        end
+        self.type = attributes[:'type']
       end
 
       if attributes.key?(:'value')
-        if (value = attributes[:'value']).is_a?(Array)
-          self.value = value
-        end
+        self.value = attributes[:'value']
       end
 
       if attributes.key?(:'description')

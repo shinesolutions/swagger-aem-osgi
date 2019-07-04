@@ -1932,6 +1932,7 @@ Class | Method | HTTP request | Description
  - [SwaggerAemOsgiClient::ConfigNodePropertyArray](docs/ConfigNodePropertyArray.md)
  - [SwaggerAemOsgiClient::ConfigNodePropertyBoolean](docs/ConfigNodePropertyBoolean.md)
  - [SwaggerAemOsgiClient::ConfigNodePropertyDropDown](docs/ConfigNodePropertyDropDown.md)
+ - [SwaggerAemOsgiClient::ConfigNodePropertyDropDownType](docs/ConfigNodePropertyDropDownType.md)
  - [SwaggerAemOsgiClient::ConfigNodePropertyFloat](docs/ConfigNodePropertyFloat.md)
  - [SwaggerAemOsgiClient::ConfigNodePropertyInteger](docs/ConfigNodePropertyInteger.md)
  - [SwaggerAemOsgiClient::ConfigNodePropertyString](docs/ConfigNodePropertyString.md)

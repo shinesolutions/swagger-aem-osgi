@@ -7,8 +7,8 @@ Name | Type | Description | Notes
 **name** | **String** | property name | [optional] 
 **optional** | **Boolean** | True if optional | [optional] 
 **is_set** | **Boolean** | True if property is set | [optional] 
-**type** | **Array&lt;Array&lt;Object&gt;&gt;** | Property value | [optional] 
-**value** | **Array&lt;Object&gt;** | Property value | [optional] 
+**type** | [**ConfigNodePropertyDropDownType**](ConfigNodePropertyDropDownType.md) |  | [optional] 
+**value** | **Object** | Property value | [optional] 
 **description** | **String** | Property description | [optional] 
 
 ## Code Sample

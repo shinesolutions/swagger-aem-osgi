@@ -8,8 +8,6 @@ Name | Type | Description | Notes
 **title** | **String** |  | [optional] 
 **description** | **String** |  | [optional] 
 **properties** | [**OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties**](OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties.md) |  | [optional] 
-**bundle_location** | **String** |  | [optional] 
-**service_location** | **String** |  | [optional] 
 
 ## Code Sample
 
@@ -19,9 +17,7 @@ require 'SwaggerAemOsgiClient'
 instance = SwaggerAemOsgiClient::OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.new(pid: null,
                                  title: null,
                                  description: null,
-                                 properties: null,
-                                 bundle_location: null,
-                                 service_location: null)
+                                 properties: null)
 ```
 
 
