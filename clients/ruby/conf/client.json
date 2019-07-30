@@ -1,7 +1,7 @@
 {
   "gemName": "swagger_aem_osgi",
   "moduleName": "SwaggerAemOsgiClient",
-  "gemVersion": "1.0.0",
+  "gemVersion": "1.1.0-pre.0",
   "gemAuthor": "Shine Solutions",
   "gemAuthorEmail": "opensource@shinesolutions.com",
   "gemHomepage": "https://github.com/shinesolutions/swagger-aem-osgi/tree/master/clients/ruby",
