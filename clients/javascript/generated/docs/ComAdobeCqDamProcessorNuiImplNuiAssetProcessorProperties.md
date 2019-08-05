@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **nuiEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties._
+
+case class ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties (
+  upgradeTaskIgnoreList: Option[ConfigNodePropertyArray])
+
+object ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListPropertiesCodecJson: CodecJson[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties] = CodecJson.derive[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties]
+  implicit val ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListPropertiesDecoder: EntityDecoder[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties] = jsonOf[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties]
+  implicit val ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListPropertiesEncoder: EntityEncoder[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties] = jsonEncoderOf[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties]
+}

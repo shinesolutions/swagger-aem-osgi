@@ -1,0 +1,18 @@
+package org.openapitools.model;
+
+import groovy.transform.Canonical
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyString;
+
+@Canonical
+class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties {
+    ConfigNodePropertyString name = null
+
+    ConfigNodePropertyString serviceName = null
+
+    ConfigNodePropertyString path = null
+
+    ConfigNodePropertyString privilegeName = null
+
+}

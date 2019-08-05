@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **davRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

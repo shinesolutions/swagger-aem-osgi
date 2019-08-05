@@ -1,0 +1,13 @@
+# ORG_APACHE_SLING_COMMONS_METRICS_RRD4J_IMPL_CODAHALE_METRICS_REPORTER_PROPERTIES
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**datasources** | [**CONFIG_NODE_PROPERTY_ARRAY**](configNodePropertyArray.md) |  | [optional] [default to null]
+**step** | [**CONFIG_NODE_PROPERTY_INTEGER**](configNodePropertyInteger.md) |  | [optional] [default to null]
+**archives** | [**CONFIG_NODE_PROPERTY_ARRAY**](configNodePropertyArray.md) |  | [optional] [default to null]
+**path** | [**CONFIG_NODE_PROPERTY_STRING**](configNodePropertyString.md) |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

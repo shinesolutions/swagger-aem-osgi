@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **indexingCriticalThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties._
+
+case class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties (
+  totalWidth: Option[ConfigNodePropertyInteger],
+colWidthName: Option[ConfigNodePropertyInteger],
+colWidthResult: Option[ConfigNodePropertyInteger],
+colWidthTiming: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerPropertiesCodecJson: CodecJson[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties] = CodecJson.derive[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties]
+  implicit val OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerPropertiesDecoder: EntityDecoder[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties] = jsonOf[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties]
+  implicit val OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerPropertiesEncoder: EntityEncoder[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties] = jsonEncoderOf[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties]
+}

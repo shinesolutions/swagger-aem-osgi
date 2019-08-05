@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo._
+
+case class ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties])
+
+object ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfoCodecJson: CodecJson[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo] = CodecJson.derive[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo]
+  implicit val ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfoDecoder: EntityDecoder[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo] = jsonOf[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo]
+  implicit val ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfoEncoder: EntityEncoder[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo] = jsonEncoderOf[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo]
+}

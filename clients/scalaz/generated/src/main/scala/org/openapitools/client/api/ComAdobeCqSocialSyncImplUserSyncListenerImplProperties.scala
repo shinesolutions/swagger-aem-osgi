@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialSyncImplUserSyncListenerImplProperties._
+
+case class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties (
+  nodetypes: Option[ConfigNodePropertyArray],
+ignorableprops: Option[ConfigNodePropertyArray],
+ignorablenodes: Option[ConfigNodePropertyArray],
+enabled: Option[ConfigNodePropertyBoolean],
+distfolders: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqSocialSyncImplUserSyncListenerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialSyncImplUserSyncListenerImplPropertiesCodecJson: CodecJson[ComAdobeCqSocialSyncImplUserSyncListenerImplProperties] = CodecJson.derive[ComAdobeCqSocialSyncImplUserSyncListenerImplProperties]
+  implicit val ComAdobeCqSocialSyncImplUserSyncListenerImplPropertiesDecoder: EntityDecoder[ComAdobeCqSocialSyncImplUserSyncListenerImplProperties] = jsonOf[ComAdobeCqSocialSyncImplUserSyncListenerImplProperties]
+  implicit val ComAdobeCqSocialSyncImplUserSyncListenerImplPropertiesEncoder: EntityEncoder[ComAdobeCqSocialSyncImplUserSyncListenerImplProperties] = jsonEncoderOf[ComAdobeCqSocialSyncImplUserSyncListenerImplProperties]
+}

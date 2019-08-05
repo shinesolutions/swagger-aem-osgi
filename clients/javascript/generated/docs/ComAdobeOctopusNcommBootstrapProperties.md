@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeOctopusNcommBootstrapProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **maxConnections** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

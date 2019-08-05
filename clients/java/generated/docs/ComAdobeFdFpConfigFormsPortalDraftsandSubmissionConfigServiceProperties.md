@@ -1,9 +1,7 @@
 
-
 # ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **portalOutboxes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

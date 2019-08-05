@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties._
+
+case class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties (
+  groupListingPaginationEnable: Option[ConfigNodePropertyBoolean],
+groupListingLazyloadingEnable: Option[ConfigNodePropertyBoolean],
+pageSize: Option[ConfigNodePropertyInteger],
+priority: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenPropertiesCodecJson: CodecJson[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties] = CodecJson.derive[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties]
+  implicit val ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenPropertiesDecoder: EntityDecoder[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties] = jsonOf[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties]
+  implicit val ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenPropertiesEncoder: EntityEncoder[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties] = jsonEncoderOf[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties]
+}

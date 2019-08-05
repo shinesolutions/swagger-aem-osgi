@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties._
+
+case class ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties (
+  binaryThreshold: Option[ConfigNodePropertyInteger])
+
+object ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqReplicationImplContentDurboBinaryLessContentBuilderPropertiesCodecJson: CodecJson[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties] = CodecJson.derive[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties]
+  implicit val ComDayCqReplicationImplContentDurboBinaryLessContentBuilderPropertiesDecoder: EntityDecoder[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties] = jsonOf[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties]
+  implicit val ComDayCqReplicationImplContentDurboBinaryLessContentBuilderPropertiesEncoder: EntityEncoder[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties] = jsonEncoderOf[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties]
+}

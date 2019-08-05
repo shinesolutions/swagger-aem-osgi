@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties._
+
+case class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties (
+  name: Option[ConfigNodePropertyString],
+`path`: Option[ConfigNodePropertyString],
+seconds: Option[ConfigNodePropertyString],
+serviceName: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePropertiesCodecJson: CodecJson[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties] = CodecJson.derive[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties]
+  implicit val OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePropertiesDecoder: EntityDecoder[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties] = jsonOf[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties]
+  implicit val OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePropertiesEncoder: EntityEncoder[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties] = jsonEncoderOf[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties]
+}

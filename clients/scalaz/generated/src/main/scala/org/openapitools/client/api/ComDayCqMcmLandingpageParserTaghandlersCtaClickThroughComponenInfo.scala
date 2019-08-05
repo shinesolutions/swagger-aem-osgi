@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo._
+
+case class ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties])
+
+object ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfoCodecJson: CodecJson[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo] = CodecJson.derive[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo]
+  implicit val ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfoDecoder: EntityDecoder[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo] = jsonOf[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo]
+  implicit val ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfoEncoder: EntityEncoder[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo] = jsonEncoderOf[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo]
+}

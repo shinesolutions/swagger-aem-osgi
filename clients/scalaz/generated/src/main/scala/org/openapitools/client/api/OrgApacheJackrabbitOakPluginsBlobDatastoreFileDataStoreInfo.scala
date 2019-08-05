@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo._
+
+case class OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfoCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo] = CodecJson.derive[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo]
+  implicit val OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfoDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo] = jsonOf[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo]
+  implicit val OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfoEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo]
+}

@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties._
+
+case class ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties (
+  schedulerExpression: Option[ConfigNodePropertyString])
+
+object ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobPropertiesCodecJson: CodecJson[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties] = CodecJson.derive[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties]
+  implicit val ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobPropertiesDecoder: EntityDecoder[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties] = jsonOf[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties]
+  implicit val ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobPropertiesEncoder: EntityEncoder[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties] = jsonEncoderOf[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties]
+}

@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties._
+
+case class ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties (
+  providerRoot: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteResourcestatusImplStatusResourceProviderImplPropertiesCodecJson: CodecJson[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties] = CodecJson.derive[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties]
+  implicit val ComAdobeGraniteResourcestatusImplStatusResourceProviderImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties] = jsonOf[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties]
+  implicit val ComAdobeGraniteResourcestatusImplStatusResourceProviderImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties] = jsonEncoderOf[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties]
+}

@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingAuthCoreImplLogoutServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingServletMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

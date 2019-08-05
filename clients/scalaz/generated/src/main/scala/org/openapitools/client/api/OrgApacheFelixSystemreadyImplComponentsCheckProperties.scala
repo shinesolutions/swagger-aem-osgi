@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheFelixSystemreadyImplComponentsCheckProperties._
+
+case class OrgApacheFelixSystemreadyImplComponentsCheckProperties (
+  componentsList: Option[ConfigNodePropertyArray],
+`type`: Option[ConfigNodePropertyDropDown])
+
+object OrgApacheFelixSystemreadyImplComponentsCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheFelixSystemreadyImplComponentsCheckPropertiesCodecJson: CodecJson[OrgApacheFelixSystemreadyImplComponentsCheckProperties] = CodecJson.derive[OrgApacheFelixSystemreadyImplComponentsCheckProperties]
+  implicit val OrgApacheFelixSystemreadyImplComponentsCheckPropertiesDecoder: EntityDecoder[OrgApacheFelixSystemreadyImplComponentsCheckProperties] = jsonOf[OrgApacheFelixSystemreadyImplComponentsCheckProperties]
+  implicit val OrgApacheFelixSystemreadyImplComponentsCheckPropertiesEncoder: EntityEncoder[OrgApacheFelixSystemreadyImplComponentsCheckProperties] = jsonEncoderOf[OrgApacheFelixSystemreadyImplComponentsCheckProperties]
+}

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo._
+
+case class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties])
+
+object OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfoCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo] = CodecJson.derive[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo]
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfoDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo] = jsonOf[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo]
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfoEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo]
+}

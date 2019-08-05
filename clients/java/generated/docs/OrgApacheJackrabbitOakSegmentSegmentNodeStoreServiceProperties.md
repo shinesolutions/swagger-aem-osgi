@@ -1,9 +1,7 @@
 
-
 # OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **repositoryHome** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

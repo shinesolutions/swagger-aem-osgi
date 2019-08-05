@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplServletAssetDownloadServletInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

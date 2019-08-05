@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo._
+
+case class ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties])
+
+object ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfoCodecJson: CodecJson[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo] = CodecJson.derive[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo]
+  implicit val ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfoDecoder: EntityDecoder[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo] = jsonOf[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo]
+  implicit val ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfoEncoder: EntityEncoder[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo] = jsonEncoderOf[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo]
+}

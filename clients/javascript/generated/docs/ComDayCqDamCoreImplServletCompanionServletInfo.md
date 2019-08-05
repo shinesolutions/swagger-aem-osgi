@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplServletCompanionServletInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

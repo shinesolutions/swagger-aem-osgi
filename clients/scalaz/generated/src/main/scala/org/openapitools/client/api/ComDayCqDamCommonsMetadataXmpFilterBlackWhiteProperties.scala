@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties._
+
+case class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties (
+  xmpFilterApplyWhitelist: Option[ConfigNodePropertyBoolean],
+xmpFilterWhitelist: Option[ConfigNodePropertyArray],
+xmpFilterApplyBlacklist: Option[ConfigNodePropertyBoolean],
+xmpFilterBlacklist: Option[ConfigNodePropertyArray])
+
+object ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCommonsMetadataXmpFilterBlackWhitePropertiesCodecJson: CodecJson[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties] = CodecJson.derive[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties]
+  implicit val ComDayCqDamCommonsMetadataXmpFilterBlackWhitePropertiesDecoder: EntityDecoder[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties] = jsonOf[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties]
+  implicit val ComDayCqDamCommonsMetadataXmpFilterBlackWhitePropertiesEncoder: EntityEncoder[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties] = jsonEncoderOf[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties]
+}

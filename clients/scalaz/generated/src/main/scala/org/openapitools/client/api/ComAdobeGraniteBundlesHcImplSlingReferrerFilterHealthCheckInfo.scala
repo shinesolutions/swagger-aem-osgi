@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo._
+
+case class ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties])
+
+object ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfoCodecJson: CodecJson[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo] = CodecJson.derive[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo]
+  implicit val ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfoDecoder: EntityDecoder[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo] = jsonOf[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo]
+  implicit val ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfoEncoder: EntityEncoder[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo] = jsonEncoderOf[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo]
+}

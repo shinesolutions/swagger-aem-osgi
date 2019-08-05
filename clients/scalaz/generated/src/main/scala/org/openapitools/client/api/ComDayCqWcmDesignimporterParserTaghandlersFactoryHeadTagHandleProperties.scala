@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties._
+
+case class ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties (
+  serviceRanking: Option[ConfigNodePropertyInteger],
+tagpattern: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlePropertiesCodecJson: CodecJson[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties] = CodecJson.derive[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties]
+  implicit val ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlePropertiesDecoder: EntityDecoder[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties] = jsonOf[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties]
+  implicit val ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlePropertiesEncoder: EntityEncoder[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties] = jsonEncoderOf[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties]
+}

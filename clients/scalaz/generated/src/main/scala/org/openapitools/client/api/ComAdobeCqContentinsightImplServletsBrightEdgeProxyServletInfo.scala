@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo._
+
+case class ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties])
+
+object ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfoCodecJson: CodecJson[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo] = CodecJson.derive[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo]
+  implicit val ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfoDecoder: EntityDecoder[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo] = jsonOf[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo]
+  implicit val ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfoEncoder: EntityEncoder[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo] = jsonEncoderOf[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo]
+}

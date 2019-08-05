@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

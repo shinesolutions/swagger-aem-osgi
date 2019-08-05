@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplServletGuidLookupFilterProperties._
+
+case class ComDayCqDamCoreImplServletGuidLookupFilterProperties (
+  cqDamCoreGuidlookupfilterEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamCoreImplServletGuidLookupFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplServletGuidLookupFilterPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplServletGuidLookupFilterProperties] = CodecJson.derive[ComDayCqDamCoreImplServletGuidLookupFilterProperties]
+  implicit val ComDayCqDamCoreImplServletGuidLookupFilterPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplServletGuidLookupFilterProperties] = jsonOf[ComDayCqDamCoreImplServletGuidLookupFilterProperties]
+  implicit val ComDayCqDamCoreImplServletGuidLookupFilterPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplServletGuidLookupFilterProperties] = jsonEncoderOf[ComDayCqDamCoreImplServletGuidLookupFilterProperties]
+}

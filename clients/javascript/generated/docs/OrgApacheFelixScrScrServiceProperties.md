@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheFelixScrScrServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **dsLoglevel** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 

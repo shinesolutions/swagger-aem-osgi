@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties._
+
+case class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties (
+  poolName: Option[ConfigNodePropertyString],
+allowedPoolNames: Option[ConfigNodePropertyArray],
+schedulerUseleaderforsingle: Option[ConfigNodePropertyBoolean],
+metricsFilters: Option[ConfigNodePropertyArray],
+slowThresholdMillis: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsSchedulerImplQuartzSchedulerPropertiesCodecJson: CodecJson[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties] = CodecJson.derive[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties]
+  implicit val OrgApacheSlingCommonsSchedulerImplQuartzSchedulerPropertiesDecoder: EntityDecoder[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties] = jsonOf[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties]
+  implicit val OrgApacheSlingCommonsSchedulerImplQuartzSchedulerPropertiesEncoder: EntityEncoder[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties] = jsonEncoderOf[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties]
+}

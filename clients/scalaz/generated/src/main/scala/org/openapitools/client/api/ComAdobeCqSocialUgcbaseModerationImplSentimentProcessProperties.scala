@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties._
+
+case class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties (
+  watchwordsPositive: Option[ConfigNodePropertyArray],
+watchwordsNegative: Option[ConfigNodePropertyArray],
+watchwordsPath: Option[ConfigNodePropertyString],
+sentimentPath: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialUgcbaseModerationImplSentimentProcessPropertiesCodecJson: CodecJson[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties] = CodecJson.derive[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties]
+  implicit val ComAdobeCqSocialUgcbaseModerationImplSentimentProcessPropertiesDecoder: EntityDecoder[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties] = jsonOf[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties]
+  implicit val ComAdobeCqSocialUgcbaseModerationImplSentimentProcessPropertiesEncoder: EntityEncoder[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties] = jsonEncoderOf[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties]
+}

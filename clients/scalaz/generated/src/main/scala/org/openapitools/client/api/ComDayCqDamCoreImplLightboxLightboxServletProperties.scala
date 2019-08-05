@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplLightboxLightboxServletProperties._
+
+case class ComDayCqDamCoreImplLightboxLightboxServletProperties (
+  slingServletPaths: Option[ConfigNodePropertyString],
+slingServletMethods: Option[ConfigNodePropertyArray],
+cqDamEnableAnonymous: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamCoreImplLightboxLightboxServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplLightboxLightboxServletPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplLightboxLightboxServletProperties] = CodecJson.derive[ComDayCqDamCoreImplLightboxLightboxServletProperties]
+  implicit val ComDayCqDamCoreImplLightboxLightboxServletPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplLightboxLightboxServletProperties] = jsonOf[ComDayCqDamCoreImplLightboxLightboxServletProperties]
+  implicit val ComDayCqDamCoreImplLightboxLightboxServletPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplLightboxLightboxServletProperties] = jsonEncoderOf[ComDayCqDamCoreImplLightboxLightboxServletProperties]
+}

@@ -1,9 +1,7 @@
 
-
 # ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **filepattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

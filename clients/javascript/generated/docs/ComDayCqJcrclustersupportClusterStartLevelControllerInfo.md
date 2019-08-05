@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqJcrclustersupportClusterStartLevelControllerInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties._
+
+case class ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties (
+  granitedata: Option[ConfigNodePropertyArray])
+
+object ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties] = CodecJson.derive[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties]
+  implicit val ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties] = jsonOf[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties]
+  implicit val ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties] = jsonEncoderOf[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties]
+}

@@ -1,0 +1,14 @@
+# OrgApacheSlingHcCoreImplScriptableHealthCheckProperties
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**hc_name** | [**\OpenAPI\Client\Model\ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**hc_tags** | [**\OpenAPI\Client\Model\ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+**hc_mbean_name** | [**\OpenAPI\Client\Model\ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**expression** | [**\OpenAPI\Client\Model\ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**language_extension** | [**\OpenAPI\Client\Model\ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

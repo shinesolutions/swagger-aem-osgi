@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthConfigmanagerImsConfigid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties._
+
+case class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties (
+  `path`: Option[ConfigNodePropertyString],
+oauthClientIdsAllowed: Option[ConfigNodePropertyArray],
+authBearerSyncIms: Option[ConfigNodePropertyBoolean],
+authTokenRequestParameter: Option[ConfigNodePropertyString],
+oauthBearerConfigid: Option[ConfigNodePropertyString],
+oauthJwtSupport: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerPropertiesCodecJson: CodecJson[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties] = CodecJson.derive[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties]
+  implicit val ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerPropertiesDecoder: EntityDecoder[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties] = jsonOf[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties]
+  implicit val ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerPropertiesEncoder: EntityEncoder[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties] = jsonEncoderOf[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties]
+}

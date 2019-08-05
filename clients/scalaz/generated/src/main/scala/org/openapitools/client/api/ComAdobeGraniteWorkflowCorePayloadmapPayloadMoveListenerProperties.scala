@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties._
+
+case class ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties (
+  payloadMoveWhiteList: Option[ConfigNodePropertyArray],
+payloadMoveHandleFromWorkflowProcess: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerPropertiesCodecJson: CodecJson[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties] = CodecJson.derive[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties]
+  implicit val ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerPropertiesDecoder: EntityDecoder[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties] = jsonOf[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties]
+  implicit val ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerPropertiesEncoder: EntityEncoder[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties] = jsonEncoderOf[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties]
+}

@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties._
+
+case class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties (
+  rootPath: Option[ConfigNodePropertyString],
+fixInconsistencies: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplPropertiesCodecJson: CodecJson[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties] = CodecJson.derive[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties]
+  implicit val ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplPropertiesDecoder: EntityDecoder[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties] = jsonOf[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties]
+  implicit val ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplPropertiesEncoder: EntityEncoder[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties] = jsonEncoderOf[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties]
+}

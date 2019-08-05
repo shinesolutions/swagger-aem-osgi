@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties._
+
+case class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties (
+  pathBuilderTarget: Option[ConfigNodePropertyString],
+suggestBasepath: Option[ConfigNodePropertyString])
+
+object ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqSearchSuggestImplSuggestionIndexManagerImplPropertiesCodecJson: CodecJson[ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties] = CodecJson.derive[ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties]
+  implicit val ComDayCqSearchSuggestImplSuggestionIndexManagerImplPropertiesDecoder: EntityDecoder[ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties] = jsonOf[ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties]
+  implicit val ComDayCqSearchSuggestImplSuggestionIndexManagerImplPropertiesEncoder: EntityEncoder[ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties] = jsonEncoderOf[ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties]
+}

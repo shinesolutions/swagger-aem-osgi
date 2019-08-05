@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties._
+
+case class ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties (
+  getCacheExpirationUnit: Option[ConfigNodePropertyDropDown],
+getCacheExpirationValue: Option[ConfigNodePropertyInteger])
+
+object ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerPropertiesCodecJson: CodecJson[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties] = CodecJson.derive[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties]
+  implicit val ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerPropertiesDecoder: EntityDecoder[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties] = jsonOf[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties]
+  implicit val ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerPropertiesEncoder: EntityEncoder[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties] = jsonEncoderOf[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties]
+}

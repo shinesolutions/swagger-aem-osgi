@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCommonsHandlerStandardImageHandlerProperties._
+
+case class ComDayCqDamCommonsHandlerStandardImageHandlerProperties (
+  largeFileThreshold: Option[ConfigNodePropertyInteger],
+largeCommentThreshold: Option[ConfigNodePropertyInteger],
+cqDamEnableExtMetaExtraction: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamCommonsHandlerStandardImageHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCommonsHandlerStandardImageHandlerPropertiesCodecJson: CodecJson[ComDayCqDamCommonsHandlerStandardImageHandlerProperties] = CodecJson.derive[ComDayCqDamCommonsHandlerStandardImageHandlerProperties]
+  implicit val ComDayCqDamCommonsHandlerStandardImageHandlerPropertiesDecoder: EntityDecoder[ComDayCqDamCommonsHandlerStandardImageHandlerProperties] = jsonOf[ComDayCqDamCommonsHandlerStandardImageHandlerProperties]
+  implicit val ComDayCqDamCommonsHandlerStandardImageHandlerPropertiesEncoder: EntityEncoder[ComDayCqDamCommonsHandlerStandardImageHandlerProperties] = jsonEncoderOf[ComDayCqDamCommonsHandlerStandardImageHandlerProperties]
+}

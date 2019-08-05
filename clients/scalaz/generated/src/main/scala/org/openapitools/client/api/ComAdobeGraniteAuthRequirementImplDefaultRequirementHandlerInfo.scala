@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo._
+
+case class ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties])
+
+object ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfoCodecJson: CodecJson[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo] = CodecJson.derive[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo]
+  implicit val ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfoDecoder: EntityDecoder[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo] = jsonOf[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo]
+  implicit val ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfoEncoder: EntityEncoder[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo] = jsonEncoderOf[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo]
+}

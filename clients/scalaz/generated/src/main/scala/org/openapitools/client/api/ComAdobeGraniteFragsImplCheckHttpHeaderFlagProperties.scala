@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties._
+
+case class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties (
+  featureName: Option[ConfigNodePropertyString],
+featureDescription: Option[ConfigNodePropertyString],
+httpHeaderName: Option[ConfigNodePropertyString],
+httpHeaderValuepattern: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteFragsImplCheckHttpHeaderFlagPropertiesCodecJson: CodecJson[ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties] = CodecJson.derive[ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties]
+  implicit val ComAdobeGraniteFragsImplCheckHttpHeaderFlagPropertiesDecoder: EntityDecoder[ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties] = jsonOf[ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties]
+  implicit val ComAdobeGraniteFragsImplCheckHttpHeaderFlagPropertiesEncoder: EntityEncoder[ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties] = jsonEncoderOf[ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties]
+}

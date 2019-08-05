@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqAddressImplLocationLocationListServletProperties._
+
+case class ComAdobeCqAddressImplLocationLocationListServletProperties (
+  cqAddressLocationDefaultMaxResults: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqAddressImplLocationLocationListServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqAddressImplLocationLocationListServletPropertiesCodecJson: CodecJson[ComAdobeCqAddressImplLocationLocationListServletProperties] = CodecJson.derive[ComAdobeCqAddressImplLocationLocationListServletProperties]
+  implicit val ComAdobeCqAddressImplLocationLocationListServletPropertiesDecoder: EntityDecoder[ComAdobeCqAddressImplLocationLocationListServletProperties] = jsonOf[ComAdobeCqAddressImplLocationLocationListServletProperties]
+  implicit val ComAdobeCqAddressImplLocationLocationListServletPropertiesEncoder: EntityEncoder[ComAdobeCqAddressImplLocationLocationListServletProperties] = jsonEncoderOf[ComAdobeCqAddressImplLocationLocationListServletProperties]
+}

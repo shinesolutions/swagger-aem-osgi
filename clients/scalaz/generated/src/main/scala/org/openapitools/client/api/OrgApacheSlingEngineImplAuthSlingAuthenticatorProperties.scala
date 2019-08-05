@@ -1,0 +1,31 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties._
+
+case class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties (
+  osgiHttpWhiteboardContextSelect: Option[ConfigNodePropertyString],
+osgiHttpWhiteboardListener: Option[ConfigNodePropertyString],
+authSudoCookie: Option[ConfigNodePropertyString],
+authSudoParameter: Option[ConfigNodePropertyString],
+authAnnonymous: Option[ConfigNodePropertyBoolean],
+slingAuthRequirements: Option[ConfigNodePropertyArray],
+slingAuthAnonymousUser: Option[ConfigNodePropertyString],
+slingAuthAnonymousPassword: Option[ConfigNodePropertyString],
+authHttp: Option[ConfigNodePropertyDropDown],
+authHttpRealm: Option[ConfigNodePropertyString],
+authUriSuffix: Option[ConfigNodePropertyArray])
+
+object OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingEngineImplAuthSlingAuthenticatorPropertiesCodecJson: CodecJson[OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties] = CodecJson.derive[OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties]
+  implicit val OrgApacheSlingEngineImplAuthSlingAuthenticatorPropertiesDecoder: EntityDecoder[OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties] = jsonOf[OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties]
+  implicit val OrgApacheSlingEngineImplAuthSlingAuthenticatorPropertiesEncoder: EntityEncoder[OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties] = jsonEncoderOf[OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties]
+}

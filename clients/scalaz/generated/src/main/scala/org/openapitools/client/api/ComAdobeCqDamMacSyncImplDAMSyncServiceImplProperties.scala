@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties._
+
+case class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties (
+  comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths: Option[ConfigNodePropertyArray],
+comAdobeCqDamMacSyncDamsyncserviceSyncRenditions: Option[ConfigNodePropertyBoolean],
+comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs: Option[ConfigNodePropertyInteger],
+comAdobeCqDamMacSyncDamsyncservicePlatform: Option[ConfigNodePropertyDropDown])
+
+object ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDamMacSyncImplDAMSyncServiceImplPropertiesCodecJson: CodecJson[ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties] = CodecJson.derive[ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties]
+  implicit val ComAdobeCqDamMacSyncImplDAMSyncServiceImplPropertiesDecoder: EntityDecoder[ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties] = jsonOf[ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties]
+  implicit val ComAdobeCqDamMacSyncImplDAMSyncServiceImplPropertiesEncoder: EntityEncoder[ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties] = jsonEncoderOf[ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties]
+}

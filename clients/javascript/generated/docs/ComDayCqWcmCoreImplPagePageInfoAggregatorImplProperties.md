@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pageInfoProviderPropertyRegexDefault** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

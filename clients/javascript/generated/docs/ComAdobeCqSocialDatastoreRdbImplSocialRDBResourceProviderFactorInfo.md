@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

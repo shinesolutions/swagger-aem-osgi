@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties._
+
+case class ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties (
+  deleteNameRegexps: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupPropertiesCodecJson: CodecJson[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties] = CodecJson.derive[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties]
+  implicit val ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupPropertiesDecoder: EntityDecoder[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties] = jsonOf[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties]
+  implicit val ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupPropertiesEncoder: EntityEncoder[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties] = jsonEncoderOf[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties]
+}

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo._
+
+case class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties])
+
+object OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfoCodecJson: CodecJson[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo] = CodecJson.derive[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo]
+  implicit val OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfoDecoder: EntityDecoder[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo] = jsonOf[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo]
+  implicit val OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfoEncoder: EntityEncoder[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo] = jsonEncoderOf[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo]
+}

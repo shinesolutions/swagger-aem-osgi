@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties._
+
+case class ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties (
+  cqDamAllowAllMime: Option[ConfigNodePropertyBoolean],
+cqDamAllowedAssetMimes: Option[ConfigNodePropertyArray])
+
+object ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties] = CodecJson.derive[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties]
+  implicit val ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties] = jsonOf[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties]
+  implicit val ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties] = jsonEncoderOf[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties]
+}

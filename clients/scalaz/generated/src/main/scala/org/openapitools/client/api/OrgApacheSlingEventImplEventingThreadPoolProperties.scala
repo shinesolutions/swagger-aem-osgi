@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingEventImplEventingThreadPoolProperties._
+
+case class OrgApacheSlingEventImplEventingThreadPoolProperties (
+  minPoolSize: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingEventImplEventingThreadPoolProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingEventImplEventingThreadPoolPropertiesCodecJson: CodecJson[OrgApacheSlingEventImplEventingThreadPoolProperties] = CodecJson.derive[OrgApacheSlingEventImplEventingThreadPoolProperties]
+  implicit val OrgApacheSlingEventImplEventingThreadPoolPropertiesDecoder: EntityDecoder[OrgApacheSlingEventImplEventingThreadPoolProperties] = jsonOf[OrgApacheSlingEventImplEventingThreadPoolProperties]
+  implicit val OrgApacheSlingEventImplEventingThreadPoolPropertiesEncoder: EntityEncoder[OrgApacheSlingEventImplEventingThreadPoolProperties] = jsonEncoderOf[OrgApacheSlingEventImplEventingThreadPoolProperties]
+}

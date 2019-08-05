@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDtmReactorImplServiceWebServiceImplProperties._
+
+case class ComAdobeCqDtmReactorImplServiceWebServiceImplProperties (
+  endpointUri: Option[ConfigNodePropertyString],
+connectionTimeout: Option[ConfigNodePropertyInteger],
+socketTimeout: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqDtmReactorImplServiceWebServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDtmReactorImplServiceWebServiceImplPropertiesCodecJson: CodecJson[ComAdobeCqDtmReactorImplServiceWebServiceImplProperties] = CodecJson.derive[ComAdobeCqDtmReactorImplServiceWebServiceImplProperties]
+  implicit val ComAdobeCqDtmReactorImplServiceWebServiceImplPropertiesDecoder: EntityDecoder[ComAdobeCqDtmReactorImplServiceWebServiceImplProperties] = jsonOf[ComAdobeCqDtmReactorImplServiceWebServiceImplProperties]
+  implicit val ComAdobeCqDtmReactorImplServiceWebServiceImplPropertiesEncoder: EntityEncoder[ComAdobeCqDtmReactorImplServiceWebServiceImplProperties] = jsonEncoderOf[ComAdobeCqDtmReactorImplServiceWebServiceImplProperties]
+}

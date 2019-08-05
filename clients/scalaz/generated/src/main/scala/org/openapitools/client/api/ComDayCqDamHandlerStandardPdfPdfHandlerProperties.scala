@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamHandlerStandardPdfPdfHandlerProperties._
+
+case class ComDayCqDamHandlerStandardPdfPdfHandlerProperties (
+  rasterAnnotation: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamHandlerStandardPdfPdfHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamHandlerStandardPdfPdfHandlerPropertiesCodecJson: CodecJson[ComDayCqDamHandlerStandardPdfPdfHandlerProperties] = CodecJson.derive[ComDayCqDamHandlerStandardPdfPdfHandlerProperties]
+  implicit val ComDayCqDamHandlerStandardPdfPdfHandlerPropertiesDecoder: EntityDecoder[ComDayCqDamHandlerStandardPdfPdfHandlerProperties] = jsonOf[ComDayCqDamHandlerStandardPdfPdfHandlerProperties]
+  implicit val ComDayCqDamHandlerStandardPdfPdfHandlerPropertiesEncoder: EntityEncoder[ComDayCqDamHandlerStandardPdfPdfHandlerProperties] = jsonEncoderOf[ComDayCqDamHandlerStandardPdfPdfHandlerProperties]
+}

@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties._
+
+case class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties (
+  oauthProviderId: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorPropertiesCodecJson: CodecJson[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties] = CodecJson.derive[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties]
+  implicit val ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorPropertiesDecoder: EntityDecoder[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties] = jsonOf[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties]
+  implicit val ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorPropertiesEncoder: EntityEncoder[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties] = jsonEncoderOf[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties]
+}

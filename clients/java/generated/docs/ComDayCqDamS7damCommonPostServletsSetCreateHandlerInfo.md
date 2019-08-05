@@ -1,9 +1,7 @@
 
-
 # ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]

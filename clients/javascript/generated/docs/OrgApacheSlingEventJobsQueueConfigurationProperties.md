@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingEventJobsQueueConfigurationProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **queueName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

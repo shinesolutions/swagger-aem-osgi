@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqAccountImplAccountManagementServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqAccountmanagerConfigInformnewaccountMail** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

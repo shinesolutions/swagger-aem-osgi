@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **codeupgradetasks** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

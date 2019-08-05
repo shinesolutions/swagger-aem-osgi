@@ -1,9 +1,7 @@
 
-
 # ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

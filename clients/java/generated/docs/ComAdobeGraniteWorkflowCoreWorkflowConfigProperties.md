@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteWorkflowCoreWorkflowConfigProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqWorkflowConfigWorkflowPackagesRootPath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

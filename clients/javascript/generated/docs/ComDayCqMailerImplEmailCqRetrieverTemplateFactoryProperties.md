@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mailerEmailEmbed** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

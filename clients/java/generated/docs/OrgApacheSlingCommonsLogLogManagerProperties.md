@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingCommonsLogLogManagerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheSlingCommonsLogLevel** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]

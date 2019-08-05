@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties._
+
+case class ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties (
+  isEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties] = CodecJson.derive[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties]
+  implicit val ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties] = jsonOf[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties]
+  implicit val ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties] = jsonEncoderOf[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties]
+}

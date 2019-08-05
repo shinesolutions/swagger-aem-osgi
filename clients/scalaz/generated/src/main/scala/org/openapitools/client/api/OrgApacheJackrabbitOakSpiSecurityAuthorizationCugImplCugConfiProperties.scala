@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties._
+
+case class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties (
+  cugSupportedPaths: Option[ConfigNodePropertyArray],
+cugEnabled: Option[ConfigNodePropertyBoolean],
+configurationRanking: Option[ConfigNodePropertyInteger])
+
+object OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties] = CodecJson.derive[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties]
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties] = jsonOf[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties]
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties] = jsonEncoderOf[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties]
+}

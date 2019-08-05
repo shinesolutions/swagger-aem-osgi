@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties._
+
+case class OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties (
+  osgiHttpWhiteboardServletPattern: Option[ConfigNodePropertyString],
+osgiHttpWhiteboardContextSelect: Option[ConfigNodePropertyString])
+
+object OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheFelixSystemreadyImplServletSystemAliveServletPropertiesCodecJson: CodecJson[OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties] = CodecJson.derive[OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties]
+  implicit val OrgApacheFelixSystemreadyImplServletSystemAliveServletPropertiesDecoder: EntityDecoder[OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties] = jsonOf[OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties]
+  implicit val OrgApacheFelixSystemreadyImplServletSystemAliveServletPropertiesEncoder: EntityEncoder[OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties] = jsonEncoderOf[OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties]
+}

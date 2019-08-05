@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo._
+
+case class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfoCodecJson: CodecJson[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo] = CodecJson.derive[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo]
+  implicit val OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfoDecoder: EntityDecoder[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo] = jsonOf[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo]
+  implicit val OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfoEncoder: EntityEncoder[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo] = jsonEncoderOf[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo]
+}

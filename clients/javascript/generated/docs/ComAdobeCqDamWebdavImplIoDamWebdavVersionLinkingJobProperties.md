@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamWebdavVersionLinkingEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

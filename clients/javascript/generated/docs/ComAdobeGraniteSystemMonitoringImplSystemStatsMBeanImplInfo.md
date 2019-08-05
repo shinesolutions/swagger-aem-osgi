@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

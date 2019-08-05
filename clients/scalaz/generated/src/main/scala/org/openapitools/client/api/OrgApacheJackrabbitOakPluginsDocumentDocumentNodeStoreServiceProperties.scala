@@ -1,0 +1,50 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties._
+
+case class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties (
+  mongouri: Option[ConfigNodePropertyString],
+db: Option[ConfigNodePropertyString],
+socketKeepAlive: Option[ConfigNodePropertyBoolean],
+cache: Option[ConfigNodePropertyInteger],
+nodeCachePercentage: Option[ConfigNodePropertyInteger],
+prevDocCachePercentage: Option[ConfigNodePropertyInteger],
+childrenCachePercentage: Option[ConfigNodePropertyInteger],
+diffCachePercentage: Option[ConfigNodePropertyInteger],
+cacheSegmentCount: Option[ConfigNodePropertyInteger],
+cacheStackMoveDistance: Option[ConfigNodePropertyInteger],
+blobCacheSize: Option[ConfigNodePropertyInteger],
+persistentCache: Option[ConfigNodePropertyString],
+journalCache: Option[ConfigNodePropertyString],
+customBlobStore: Option[ConfigNodePropertyBoolean],
+journalGCInterval: Option[ConfigNodePropertyInteger],
+journalGCMaxAge: Option[ConfigNodePropertyInteger],
+prefetchExternalChanges: Option[ConfigNodePropertyBoolean],
+role: Option[ConfigNodePropertyString],
+versionGcMaxAgeInSecs: Option[ConfigNodePropertyInteger],
+versionGCExpression: Option[ConfigNodePropertyString],
+versionGCTimeLimitInSecs: Option[ConfigNodePropertyInteger],
+blobGcMaxAgeInSecs: Option[ConfigNodePropertyInteger],
+blobTrackSnapshotIntervalInSecs: Option[ConfigNodePropertyInteger],
+repositoryHome: Option[ConfigNodePropertyString],
+maxReplicationLagInSecs: Option[ConfigNodePropertyInteger],
+documentStoreType: Option[ConfigNodePropertyDropDown],
+bundlingDisabled: Option[ConfigNodePropertyBoolean],
+updateLimit: Option[ConfigNodePropertyInteger],
+persistentCacheIncludes: Option[ConfigNodePropertyArray],
+leaseCheckMode: Option[ConfigNodePropertyDropDown])
+
+object OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties] = CodecJson.derive[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties]
+  implicit val OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties] = jsonOf[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties]
+  implicit val OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties]
+}

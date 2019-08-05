@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteLicenseImplLicenseCheckFilterProperties._
+
+case class ComAdobeGraniteLicenseImplLicenseCheckFilterProperties (
+  checkInternval: Option[ConfigNodePropertyInteger],
+excludeIds: Option[ConfigNodePropertyArray],
+encryptPing: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteLicenseImplLicenseCheckFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteLicenseImplLicenseCheckFilterPropertiesCodecJson: CodecJson[ComAdobeGraniteLicenseImplLicenseCheckFilterProperties] = CodecJson.derive[ComAdobeGraniteLicenseImplLicenseCheckFilterProperties]
+  implicit val ComAdobeGraniteLicenseImplLicenseCheckFilterPropertiesDecoder: EntityDecoder[ComAdobeGraniteLicenseImplLicenseCheckFilterProperties] = jsonOf[ComAdobeGraniteLicenseImplLicenseCheckFilterProperties]
+  implicit val ComAdobeGraniteLicenseImplLicenseCheckFilterPropertiesEncoder: EntityEncoder[ComAdobeGraniteLicenseImplLicenseCheckFilterProperties] = jsonEncoderOf[ComAdobeGraniteLicenseImplLicenseCheckFilterProperties]
+}

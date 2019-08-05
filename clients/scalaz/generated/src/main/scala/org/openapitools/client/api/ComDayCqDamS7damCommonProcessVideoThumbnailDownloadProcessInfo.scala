@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo._
+
+case class ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties])
+
+object ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfoCodecJson: CodecJson[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo] = CodecJson.derive[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo]
+  implicit val ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfoDecoder: EntityDecoder[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo] = jsonOf[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo]
+  implicit val ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfoEncoder: EntityEncoder[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo] = jsonEncoderOf[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo]
+}

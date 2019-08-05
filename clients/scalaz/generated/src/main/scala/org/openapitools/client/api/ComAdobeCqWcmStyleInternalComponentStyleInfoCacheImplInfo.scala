@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo._
+
+case class ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties])
+
+object ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfoCodecJson: CodecJson[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo] = CodecJson.derive[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo]
+  implicit val ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfoDecoder: EntityDecoder[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo] = jsonOf[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo]
+  implicit val ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfoEncoder: EntityEncoder[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo] = jsonEncoderOf[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo]
+}

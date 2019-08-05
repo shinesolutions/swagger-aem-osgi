@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingServletsPostImplSlingPostServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **servletPostDateFormats** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

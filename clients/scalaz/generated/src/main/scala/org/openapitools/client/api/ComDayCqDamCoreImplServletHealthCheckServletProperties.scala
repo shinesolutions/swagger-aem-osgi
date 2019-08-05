@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplServletHealthCheckServletProperties._
+
+case class ComDayCqDamCoreImplServletHealthCheckServletProperties (
+  cqDamSyncWorkflowId: Option[ConfigNodePropertyString],
+cqDamSyncFolderTypes: Option[ConfigNodePropertyArray])
+
+object ComDayCqDamCoreImplServletHealthCheckServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplServletHealthCheckServletPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplServletHealthCheckServletProperties] = CodecJson.derive[ComDayCqDamCoreImplServletHealthCheckServletProperties]
+  implicit val ComDayCqDamCoreImplServletHealthCheckServletPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplServletHealthCheckServletProperties] = jsonOf[ComDayCqDamCoreImplServletHealthCheckServletProperties]
+  implicit val ComDayCqDamCoreImplServletHealthCheckServletPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplServletHealthCheckServletProperties] = jsonEncoderOf[ComDayCqDamCoreImplServletHealthCheckServletProperties]
+}

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplServletBatchMetadataServletInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

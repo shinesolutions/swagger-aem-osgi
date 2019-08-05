@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqSearchpromoteConfigurationServerUri** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

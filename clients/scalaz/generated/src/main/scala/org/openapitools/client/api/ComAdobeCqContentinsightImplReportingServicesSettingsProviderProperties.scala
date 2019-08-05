@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties._
+
+case class ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties (
+  reportingservicesUrl: Option[ConfigNodePropertyString])
+
+object ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqContentinsightImplReportingServicesSettingsProviderPropertiesCodecJson: CodecJson[ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties] = CodecJson.derive[ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties]
+  implicit val ComAdobeCqContentinsightImplReportingServicesSettingsProviderPropertiesDecoder: EntityDecoder[ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties] = jsonOf[ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties]
+  implicit val ComAdobeCqContentinsightImplReportingServicesSettingsProviderPropertiesEncoder: EntityEncoder[ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties] = jsonEncoderOf[ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties]
+}

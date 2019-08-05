@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo._
+
+case class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties])
+
+object OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfoCodecJson: CodecJson[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo] = CodecJson.derive[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo]
+  implicit val OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfoDecoder: EntityDecoder[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo] = jsonOf[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo]
+  implicit val OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfoEncoder: EntityEncoder[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo] = jsonEncoderOf[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo]
+}

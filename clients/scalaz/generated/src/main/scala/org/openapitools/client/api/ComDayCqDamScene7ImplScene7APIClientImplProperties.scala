@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamScene7ImplScene7APIClientImplProperties._
+
+case class ComDayCqDamScene7ImplScene7APIClientImplProperties (
+  cqDamScene7ApiclientRecordsperpageNofilterName: Option[ConfigNodePropertyInteger],
+cqDamScene7ApiclientRecordsperpageWithfilterName: Option[ConfigNodePropertyInteger])
+
+object ComDayCqDamScene7ImplScene7APIClientImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamScene7ImplScene7APIClientImplPropertiesCodecJson: CodecJson[ComDayCqDamScene7ImplScene7APIClientImplProperties] = CodecJson.derive[ComDayCqDamScene7ImplScene7APIClientImplProperties]
+  implicit val ComDayCqDamScene7ImplScene7APIClientImplPropertiesDecoder: EntityDecoder[ComDayCqDamScene7ImplScene7APIClientImplProperties] = jsonOf[ComDayCqDamScene7ImplScene7APIClientImplProperties]
+  implicit val ComDayCqDamScene7ImplScene7APIClientImplPropertiesEncoder: EntityEncoder[ComDayCqDamScene7ImplScene7APIClientImplProperties] = jsonEncoderOf[ComDayCqDamScene7ImplScene7APIClientImplProperties]
+}

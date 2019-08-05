@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqScreensDeviceImplDeviceServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeAemScreensPlayerPingfrequency** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

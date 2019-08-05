@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheFelixEventadminImplEventAdminProperties._
+
+case class OrgApacheFelixEventadminImplEventAdminProperties (
+  orgApacheFelixEventadminThreadPoolSize: Option[ConfigNodePropertyInteger],
+orgApacheFelixEventadminAsyncToSyncThreadRatio: Option[ConfigNodePropertyFloat],
+orgApacheFelixEventadminTimeout: Option[ConfigNodePropertyInteger],
+orgApacheFelixEventadminRequireTopic: Option[ConfigNodePropertyBoolean],
+orgApacheFelixEventadminIgnoreTimeout: Option[ConfigNodePropertyArray],
+orgApacheFelixEventadminIgnoreTopic: Option[ConfigNodePropertyArray])
+
+object OrgApacheFelixEventadminImplEventAdminProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheFelixEventadminImplEventAdminPropertiesCodecJson: CodecJson[OrgApacheFelixEventadminImplEventAdminProperties] = CodecJson.derive[OrgApacheFelixEventadminImplEventAdminProperties]
+  implicit val OrgApacheFelixEventadminImplEventAdminPropertiesDecoder: EntityDecoder[OrgApacheFelixEventadminImplEventAdminProperties] = jsonOf[OrgApacheFelixEventadminImplEventAdminProperties]
+  implicit val OrgApacheFelixEventadminImplEventAdminPropertiesEncoder: EntityEncoder[OrgApacheFelixEventadminImplEventAdminProperties] = jsonEncoderOf[OrgApacheFelixEventadminImplEventAdminProperties]
+}

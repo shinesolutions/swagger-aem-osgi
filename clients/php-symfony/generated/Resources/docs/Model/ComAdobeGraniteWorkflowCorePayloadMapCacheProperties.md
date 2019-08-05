@@ -1,0 +1,11 @@
+# ComAdobeGraniteWorkflowCorePayloadMapCacheProperties
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**getSystemWorkflowModels** | [**OpenAPI\Server\Model\ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+**getPackageRootPath** | [**OpenAPI\Server\Model\ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

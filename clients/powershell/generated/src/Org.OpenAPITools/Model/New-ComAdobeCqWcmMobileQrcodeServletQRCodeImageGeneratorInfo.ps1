@@ -1,0 +1,29 @@
+function New-ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo {
+    [CmdletBinding()]
+    Param (
+        [Parameter(Position = 0, ValueFromPipelineByPropertyName = $true)]
+        [String]
+        ${pid},
+        [Parameter(Position = 0, ValueFromPipelineByPropertyName = $true)]
+        [String]
+        ${title},
+        [Parameter(Position = 0, ValueFromPipelineByPropertyName = $true)]
+        [String]
+        ${description},
+        [Parameter(Position = 0, ValueFromPipelineByPropertyName = $true)]
+        [System.Nullable[Org.OpenAPITools.Model.ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties]]
+        ${properties}
+    )
+
+    Process {
+        'Creating object: Org.OpenAPITools.Model.ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo' | Write-Verbose
+        $PSBoundParameters | Out-DebugParameter | Write-Debug
+
+        New-Object -TypeName Org.OpenAPITools.Model.ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo -ArgumentList @(
+            ${pid},
+            ${title},
+            ${description},
+            ${properties}
+        )
+    }
+}

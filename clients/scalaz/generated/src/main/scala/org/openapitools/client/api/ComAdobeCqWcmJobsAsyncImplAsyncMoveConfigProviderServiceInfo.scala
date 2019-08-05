@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo._
+
+case class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties])
+
+object ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfoCodecJson: CodecJson[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo] = CodecJson.derive[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo]
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfoDecoder: EntityDecoder[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo] = jsonOf[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo]
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfoEncoder: EntityEncoder[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo] = jsonEncoderOf[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo]
+}

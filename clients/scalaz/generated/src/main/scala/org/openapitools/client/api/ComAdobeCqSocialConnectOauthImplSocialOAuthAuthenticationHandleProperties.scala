@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties._
+
+case class ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties (
+  `path`: Option[ConfigNodePropertyArray],
+serviceRanking: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlePropertiesCodecJson: CodecJson[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties] = CodecJson.derive[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties]
+  implicit val ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlePropertiesDecoder: EntityDecoder[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties] = jsonOf[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties]
+  implicit val ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlePropertiesEncoder: EntityEncoder[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties] = jsonEncoderOf[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties]
+}

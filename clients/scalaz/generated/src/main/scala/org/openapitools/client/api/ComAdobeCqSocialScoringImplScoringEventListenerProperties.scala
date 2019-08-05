@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialScoringImplScoringEventListenerProperties._
+
+case class ComAdobeCqSocialScoringImplScoringEventListenerProperties (
+  eventTopics: Option[ConfigNodePropertyString],
+eventFilter: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSocialScoringImplScoringEventListenerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialScoringImplScoringEventListenerPropertiesCodecJson: CodecJson[ComAdobeCqSocialScoringImplScoringEventListenerProperties] = CodecJson.derive[ComAdobeCqSocialScoringImplScoringEventListenerProperties]
+  implicit val ComAdobeCqSocialScoringImplScoringEventListenerPropertiesDecoder: EntityDecoder[ComAdobeCqSocialScoringImplScoringEventListenerProperties] = jsonOf[ComAdobeCqSocialScoringImplScoringEventListenerProperties]
+  implicit val ComAdobeCqSocialScoringImplScoringEventListenerPropertiesEncoder: EntityEncoder[ComAdobeCqSocialScoringImplScoringEventListenerProperties] = jsonEncoderOf[ComAdobeCqSocialScoringImplScoringEventListenerProperties]
+}

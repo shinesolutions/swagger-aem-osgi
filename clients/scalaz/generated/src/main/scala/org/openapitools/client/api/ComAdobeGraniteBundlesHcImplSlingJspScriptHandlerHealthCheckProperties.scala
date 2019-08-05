@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties._
+
+case class ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties (
+  hcTags: Option[ConfigNodePropertyArray])
+
+object ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckPropertiesCodecJson: CodecJson[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties] = CodecJson.derive[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties]
+  implicit val ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckPropertiesDecoder: EntityDecoder[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties] = jsonOf[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties]
+  implicit val ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckPropertiesEncoder: EntityEncoder[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties] = jsonEncoderOf[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties]
+}

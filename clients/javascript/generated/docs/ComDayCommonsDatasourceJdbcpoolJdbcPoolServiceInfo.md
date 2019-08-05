@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

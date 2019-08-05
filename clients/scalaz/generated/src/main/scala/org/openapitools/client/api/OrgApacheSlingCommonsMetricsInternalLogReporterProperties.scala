@@ -1,0 +1,27 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsMetricsInternalLogReporterProperties._
+
+case class OrgApacheSlingCommonsMetricsInternalLogReporterProperties (
+  period: Option[ConfigNodePropertyInteger],
+timeUnit: Option[ConfigNodePropertyDropDown],
+level: Option[ConfigNodePropertyDropDown],
+loggerName: Option[ConfigNodePropertyString],
+prefix: Option[ConfigNodePropertyString],
+pattern: Option[ConfigNodePropertyString],
+registryName: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingCommonsMetricsInternalLogReporterProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsMetricsInternalLogReporterPropertiesCodecJson: CodecJson[OrgApacheSlingCommonsMetricsInternalLogReporterProperties] = CodecJson.derive[OrgApacheSlingCommonsMetricsInternalLogReporterProperties]
+  implicit val OrgApacheSlingCommonsMetricsInternalLogReporterPropertiesDecoder: EntityDecoder[OrgApacheSlingCommonsMetricsInternalLogReporterProperties] = jsonOf[OrgApacheSlingCommonsMetricsInternalLogReporterProperties]
+  implicit val OrgApacheSlingCommonsMetricsInternalLogReporterPropertiesEncoder: EntityEncoder[OrgApacheSlingCommonsMetricsInternalLogReporterProperties] = jsonEncoderOf[OrgApacheSlingCommonsMetricsInternalLogReporterProperties]
+}

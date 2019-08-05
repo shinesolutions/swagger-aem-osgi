@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties._
+
+case class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties (
+  graniteMaintenanceMandatory: Option[ConfigNodePropertyBoolean],
+jobTopics: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskPropertiesCodecJson: CodecJson[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties] = CodecJson.derive[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties]
+  implicit val ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskPropertiesDecoder: EntityDecoder[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties] = jsonOf[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties]
+  implicit val ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskPropertiesEncoder: EntityEncoder[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties] = jsonEncoderOf[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties]
+}

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties._
+
+case class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties (
+  queryLimitInMemory: Option[ConfigNodePropertyInteger],
+queryLimitReads: Option[ConfigNodePropertyInteger],
+queryFailTraversal: Option[ConfigNodePropertyBoolean],
+fastQuerySize: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakQueryQueryEngineSettingsServicePropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties] = CodecJson.derive[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties]
+  implicit val OrgApacheJackrabbitOakQueryQueryEngineSettingsServicePropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties] = jsonOf[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties]
+  implicit val OrgApacheJackrabbitOakQueryQueryEngineSettingsServicePropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties] = jsonEncoderOf[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties]
+}

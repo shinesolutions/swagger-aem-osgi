@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **solrHomePath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

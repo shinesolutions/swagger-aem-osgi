@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamIdsImplIDSPoolManagerImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **maxErrorsToBlacklist** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

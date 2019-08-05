@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enableScheduledPostsSearch** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

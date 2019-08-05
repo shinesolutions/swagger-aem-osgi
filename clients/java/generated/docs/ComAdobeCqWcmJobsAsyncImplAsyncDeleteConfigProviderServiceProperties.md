@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **threshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

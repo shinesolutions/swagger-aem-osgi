@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqPollingImporterImplPollingImporterImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **importerMinInterval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

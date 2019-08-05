@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties._
+
+case class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties (
+  jaasRanking: Option[ConfigNodePropertyInteger],
+jaasControlFlag: Option[ConfigNodePropertyString],
+jaasRealmName: Option[ConfigNodePropertyString],
+idpName: Option[ConfigNodePropertyString],
+syncHandlerName: Option[ConfigNodePropertyString])
+
+object OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties] = CodecJson.derive[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties]
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties] = jsonOf[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties]
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties] = jsonEncoderOf[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties]
+}

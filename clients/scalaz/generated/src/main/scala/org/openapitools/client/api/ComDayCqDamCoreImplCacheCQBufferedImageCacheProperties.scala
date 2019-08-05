@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties._
+
+case class ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties (
+  cqDamImageCacheMaxMemory: Option[ConfigNodePropertyInteger],
+cqDamImageCacheMaxAge: Option[ConfigNodePropertyInteger],
+cqDamImageCacheMaxDimension: Option[ConfigNodePropertyString])
+
+object ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplCacheCQBufferedImageCachePropertiesCodecJson: CodecJson[ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties] = CodecJson.derive[ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties]
+  implicit val ComDayCqDamCoreImplCacheCQBufferedImageCachePropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties] = jsonOf[ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties]
+  implicit val ComDayCqDamCoreImplCacheCQBufferedImageCachePropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties] = jsonEncoderOf[ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties]
+}

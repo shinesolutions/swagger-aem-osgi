@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **queryLimitInMemory** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

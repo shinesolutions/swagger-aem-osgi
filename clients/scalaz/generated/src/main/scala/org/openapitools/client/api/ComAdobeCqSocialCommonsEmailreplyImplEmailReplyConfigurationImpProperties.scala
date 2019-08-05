@@ -1,0 +1,31 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties._
+
+case class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties (
+  emailName: Option[ConfigNodePropertyString],
+emailCreatePostFromReply: Option[ConfigNodePropertyBoolean],
+emailAddCommentIdTo: Option[ConfigNodePropertyDropDown],
+emailSubjectMaximumLength: Option[ConfigNodePropertyInteger],
+emailReplyToAddress: Option[ConfigNodePropertyString],
+emailReplyToDelimiter: Option[ConfigNodePropertyString],
+emailTrackerIdPrefixInSubject: Option[ConfigNodePropertyString],
+emailTrackerIdPrefixInBody: Option[ConfigNodePropertyString],
+emailAsHTML: Option[ConfigNodePropertyBoolean],
+emailDefaultUserName: Option[ConfigNodePropertyString],
+emailTemplatesRootPath: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpPropertiesCodecJson: CodecJson[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties] = CodecJson.derive[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties]
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpPropertiesDecoder: EntityDecoder[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties] = jsonOf[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties]
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpPropertiesEncoder: EntityEncoder[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties] = jsonEncoderOf[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties]
+}

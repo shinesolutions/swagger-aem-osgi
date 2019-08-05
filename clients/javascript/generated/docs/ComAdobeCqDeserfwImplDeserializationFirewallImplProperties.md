@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqDeserfwImplDeserializationFirewallImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **firewallDeserializationWhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

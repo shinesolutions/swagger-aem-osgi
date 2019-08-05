@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties._
+
+case class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties (
+  cdnConfigDistributionDomain: Option[ConfigNodePropertyString],
+cdnConfigEnableRewriting: Option[ConfigNodePropertyBoolean],
+cdnConfigPathPrefixes: Option[ConfigNodePropertyArray],
+cdnConfigCdnttl: Option[ConfigNodePropertyInteger],
+cdnConfigApplicationProtocol: Option[ConfigNodePropertyString])
+
+object ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqCdnRewriterImplCDNConfigServiceImplPropertiesCodecJson: CodecJson[ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties] = CodecJson.derive[ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties]
+  implicit val ComAdobeCqCdnRewriterImplCDNConfigServiceImplPropertiesDecoder: EntityDecoder[ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties] = jsonOf[ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties]
+  implicit val ComAdobeCqCdnRewriterImplCDNConfigServiceImplPropertiesEncoder: EntityEncoder[ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties] = jsonEncoderOf[ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties]
+}

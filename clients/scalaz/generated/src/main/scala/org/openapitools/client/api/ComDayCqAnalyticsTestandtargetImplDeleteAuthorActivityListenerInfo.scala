@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo._
+
+case class ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties])
+
+object ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfoCodecJson: CodecJson[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo] = CodecJson.derive[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo]
+  implicit val ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfoDecoder: EntityDecoder[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo] = jsonOf[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo]
+  implicit val ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfoEncoder: EntityEncoder[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo] = jsonEncoderOf[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo]
+}

@@ -1,0 +1,73 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheFelixHttpProperties._
+
+case class OrgApacheFelixHttpProperties (
+  orgApacheFelixHttpHost: Option[ConfigNodePropertyString],
+orgApacheFelixHttpEnable: Option[ConfigNodePropertyBoolean],
+orgOsgiServiceHttpPort: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpTimeout: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpsEnable: Option[ConfigNodePropertyBoolean],
+orgOsgiServiceHttpPortSecure: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpsKeystore: Option[ConfigNodePropertyString],
+orgApacheFelixHttpsKeystorePassword: Option[ConfigNodePropertyString],
+orgApacheFelixHttpsKeystoreKeyPassword: Option[ConfigNodePropertyString],
+orgApacheFelixHttpsTruststore: Option[ConfigNodePropertyString],
+orgApacheFelixHttpsTruststorePassword: Option[ConfigNodePropertyString],
+orgApacheFelixHttpsClientcertificate: Option[ConfigNodePropertyDropDown],
+orgApacheFelixHttpContextPath: Option[ConfigNodePropertyString],
+orgApacheFelixHttpMbeans: Option[ConfigNodePropertyBoolean],
+orgApacheFelixHttpSessionTimeout: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpJettyThreadpoolMax: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpJettyAcceptors: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpJettySelectors: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpJettyHeaderBufferSize: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpJettyRequestBufferSize: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpJettyResponseBufferSize: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpJettyMaxFormSize: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpPathExclusions: Option[ConfigNodePropertyArray],
+orgApacheFelixHttpsJettyCiphersuitesExcluded: Option[ConfigNodePropertyArray],
+orgApacheFelixHttpsJettyCiphersuitesIncluded: Option[ConfigNodePropertyArray],
+orgApacheFelixHttpJettySendServerHeader: Option[ConfigNodePropertyBoolean],
+orgApacheFelixHttpsJettyProtocolsIncluded: Option[ConfigNodePropertyArray],
+orgApacheFelixHttpsJettyProtocolsExcluded: Option[ConfigNodePropertyArray],
+orgApacheFelixProxyLoadBalancerConnectionEnable: Option[ConfigNodePropertyBoolean],
+orgApacheFelixHttpsJettyRenegotiateAllowed: Option[ConfigNodePropertyBoolean],
+orgApacheFelixHttpsJettySessionCookieHttpOnly: Option[ConfigNodePropertyBoolean],
+orgApacheFelixHttpsJettySessionCookieSecure: Option[ConfigNodePropertyBoolean],
+orgEclipseJettyServletSessionIdPathParameterName: Option[ConfigNodePropertyString],
+orgEclipseJettyServletCheckingRemoteSessionIdEncoding: Option[ConfigNodePropertyBoolean],
+orgEclipseJettyServletSessionCookie: Option[ConfigNodePropertyString],
+orgEclipseJettyServletSessionDomain: Option[ConfigNodePropertyString],
+orgEclipseJettyServletSessionPath: Option[ConfigNodePropertyString],
+orgEclipseJettyServletMaxAge: Option[ConfigNodePropertyInteger],
+orgApacheFelixHttpName: Option[ConfigNodePropertyString],
+orgApacheFelixJettyGziphandlerEnable: Option[ConfigNodePropertyBoolean],
+orgApacheFelixJettyGzipMinGzipSize: Option[ConfigNodePropertyInteger],
+orgApacheFelixJettyGzipCompressionLevel: Option[ConfigNodePropertyInteger],
+orgApacheFelixJettyGzipInflateBufferSize: Option[ConfigNodePropertyInteger],
+orgApacheFelixJettyGzipSyncFlush: Option[ConfigNodePropertyBoolean],
+orgApacheFelixJettyGzipExcludedUserAgents: Option[ConfigNodePropertyArray],
+orgApacheFelixJettyGzipIncludedMethods: Option[ConfigNodePropertyArray],
+orgApacheFelixJettyGzipExcludedMethods: Option[ConfigNodePropertyArray],
+orgApacheFelixJettyGzipIncludedPaths: Option[ConfigNodePropertyArray],
+orgApacheFelixJettyGzipExcludedPaths: Option[ConfigNodePropertyArray],
+orgApacheFelixJettyGzipIncludedMimeTypes: Option[ConfigNodePropertyArray],
+orgApacheFelixJettyGzipExcludedMimeTypes: Option[ConfigNodePropertyArray],
+orgApacheFelixHttpSessionInvalidate: Option[ConfigNodePropertyBoolean],
+orgApacheFelixHttpSessionUniqueid: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheFelixHttpProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheFelixHttpPropertiesCodecJson: CodecJson[OrgApacheFelixHttpProperties] = CodecJson.derive[OrgApacheFelixHttpProperties]
+  implicit val OrgApacheFelixHttpPropertiesDecoder: EntityDecoder[OrgApacheFelixHttpProperties] = jsonOf[OrgApacheFelixHttpProperties]
+  implicit val OrgApacheFelixHttpPropertiesEncoder: EntityEncoder[OrgApacheFelixHttpProperties] = jsonEncoderOf[OrgApacheFelixHttpProperties]
+}

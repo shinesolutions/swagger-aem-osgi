@@ -1,0 +1,46 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties._
+
+case class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties (
+  providerName: Option[ConfigNodePropertyString],
+hostName: Option[ConfigNodePropertyString],
+hostPort: Option[ConfigNodePropertyInteger],
+hostSsl: Option[ConfigNodePropertyBoolean],
+hostTls: Option[ConfigNodePropertyBoolean],
+hostNoCertCheck: Option[ConfigNodePropertyBoolean],
+bindDn: Option[ConfigNodePropertyString],
+bindPassword: Option[ConfigNodePropertyString],
+searchTimeout: Option[ConfigNodePropertyString],
+adminPoolMaxActive: Option[ConfigNodePropertyInteger],
+adminPoolLookupOnValidate: Option[ConfigNodePropertyBoolean],
+userPoolMaxActive: Option[ConfigNodePropertyInteger],
+userPoolLookupOnValidate: Option[ConfigNodePropertyBoolean],
+userBaseDN: Option[ConfigNodePropertyString],
+userObjectclass: Option[ConfigNodePropertyArray],
+userIdAttribute: Option[ConfigNodePropertyString],
+userExtraFilter: Option[ConfigNodePropertyString],
+userMakeDnPath: Option[ConfigNodePropertyBoolean],
+groupBaseDN: Option[ConfigNodePropertyString],
+groupObjectclass: Option[ConfigNodePropertyArray],
+groupNameAttribute: Option[ConfigNodePropertyString],
+groupExtraFilter: Option[ConfigNodePropertyString],
+groupMakeDnPath: Option[ConfigNodePropertyBoolean],
+groupMemberAttribute: Option[ConfigNodePropertyString],
+useUidForExtId: Option[ConfigNodePropertyBoolean],
+customattributes: Option[ConfigNodePropertyArray])
+
+object OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties] = CodecJson.derive[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties]
+  implicit val OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties] = jsonOf[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties]
+  implicit val OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties] = jsonEncoderOf[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties]
+}

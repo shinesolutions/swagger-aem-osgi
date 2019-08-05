@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties._
+
+case class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties (
+  alias: Option[ConfigNodePropertyString],
+davCreateAbsoluteUri: Option[ConfigNodePropertyBoolean],
+davProtectedhandlers: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJcrDavexImplServletsSlingDavExServletPropertiesCodecJson: CodecJson[OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties] = CodecJson.derive[OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties]
+  implicit val OrgApacheSlingJcrDavexImplServletsSlingDavExServletPropertiesDecoder: EntityDecoder[OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties] = jsonOf[OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties]
+  implicit val OrgApacheSlingJcrDavexImplServletsSlingDavExServletPropertiesEncoder: EntityEncoder[OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties] = jsonEncoderOf[OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties]
+}

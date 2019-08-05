@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo._
+
+case class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties])
+
+object ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfoCodecJson: CodecJson[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo] = CodecJson.derive[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo]
+  implicit val ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfoDecoder: EntityDecoder[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo] = jsonOf[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo]
+  implicit val ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfoEncoder: EntityEncoder[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo] = jsonEncoderOf[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo]
+}

@@ -52,8 +52,8 @@ import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
 
-configuration = swaggeraemosgi.Configuration()
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 

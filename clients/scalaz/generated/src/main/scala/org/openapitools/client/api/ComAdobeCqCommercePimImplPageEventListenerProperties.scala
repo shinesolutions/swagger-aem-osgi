@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqCommercePimImplPageEventListenerProperties._
+
+case class ComAdobeCqCommercePimImplPageEventListenerProperties (
+  cqCommercePageeventlistenerEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeCqCommercePimImplPageEventListenerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqCommercePimImplPageEventListenerPropertiesCodecJson: CodecJson[ComAdobeCqCommercePimImplPageEventListenerProperties] = CodecJson.derive[ComAdobeCqCommercePimImplPageEventListenerProperties]
+  implicit val ComAdobeCqCommercePimImplPageEventListenerPropertiesDecoder: EntityDecoder[ComAdobeCqCommercePimImplPageEventListenerProperties] = jsonOf[ComAdobeCqCommercePimImplPageEventListenerProperties]
+  implicit val ComAdobeCqCommercePimImplPageEventListenerPropertiesEncoder: EntityEncoder[ComAdobeCqCommercePimImplPageEventListenerProperties] = jsonEncoderOf[ComAdobeCqCommercePimImplPageEventListenerProperties]
+}

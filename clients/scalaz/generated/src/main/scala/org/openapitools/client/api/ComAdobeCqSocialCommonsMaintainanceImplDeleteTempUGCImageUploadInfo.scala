@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo._
+
+case class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties])
+
+object ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfoCodecJson: CodecJson[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo] = CodecJson.derive[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo]
+  implicit val ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfoDecoder: EntityDecoder[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo] = jsonOf[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo]
+  implicit val ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfoEncoder: EntityEncoder[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo] = jsonEncoderOf[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo]
+}

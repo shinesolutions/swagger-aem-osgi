@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties._
+
+case class ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties (
+  securityPreferencesName: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteI18nImplPreferencesLocaleResolverServicePropertiesCodecJson: CodecJson[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties] = CodecJson.derive[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties]
+  implicit val ComAdobeGraniteI18nImplPreferencesLocaleResolverServicePropertiesDecoder: EntityDecoder[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties] = jsonOf[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties]
+  implicit val ComAdobeGraniteI18nImplPreferencesLocaleResolverServicePropertiesEncoder: EntityEncoder[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties] = jsonEncoderOf[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties]
+}

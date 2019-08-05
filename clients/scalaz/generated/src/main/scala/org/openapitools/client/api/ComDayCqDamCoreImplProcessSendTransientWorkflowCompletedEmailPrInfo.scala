@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo._
+
+case class ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties])
+
+object ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfoCodecJson: CodecJson[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo] = CodecJson.derive[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo]
+  implicit val ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfoDecoder: EntityDecoder[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo] = jsonOf[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo]
+  implicit val ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfoEncoder: EntityEncoder[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo] = jsonEncoderOf[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo]
+}

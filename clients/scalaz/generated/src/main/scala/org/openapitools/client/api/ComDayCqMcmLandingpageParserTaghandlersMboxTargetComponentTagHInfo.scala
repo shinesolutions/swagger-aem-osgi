@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo._
+
+case class ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties])
+
+object ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfoCodecJson: CodecJson[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo] = CodecJson.derive[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo]
+  implicit val ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfoDecoder: EntityDecoder[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo] = jsonOf[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo]
+  implicit val ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfoEncoder: EntityEncoder[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo] = jsonEncoderOf[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo]
+}

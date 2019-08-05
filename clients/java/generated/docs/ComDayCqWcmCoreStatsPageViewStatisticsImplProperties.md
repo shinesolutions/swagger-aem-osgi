@@ -1,9 +1,7 @@
 
-
 # ComDayCqWcmCoreStatsPageViewStatisticsImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pageviewstatisticsTrackingurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

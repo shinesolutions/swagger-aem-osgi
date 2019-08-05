@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqSocialReportingAnalyticsPollingImporterInterval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

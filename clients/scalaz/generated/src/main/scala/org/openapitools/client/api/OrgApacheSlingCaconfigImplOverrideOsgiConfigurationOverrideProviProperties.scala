@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties._
+
+case class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties (
+  description: Option[ConfigNodePropertyString],
+overrides: Option[ConfigNodePropertyArray],
+enabled: Option[ConfigNodePropertyBoolean],
+serviceRanking: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPropertiesCodecJson: CodecJson[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties] = CodecJson.derive[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties]
+  implicit val OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPropertiesDecoder: EntityDecoder[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties] = jsonOf[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties]
+  implicit val OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPropertiesEncoder: EntityEncoder[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties] = jsonEncoderOf[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties]
+}

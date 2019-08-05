@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo._
+
+case class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties])
+
+object OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfoCodecJson: CodecJson[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo] = CodecJson.derive[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo]
+  implicit val OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfoDecoder: EntityDecoder[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo] = jsonOf[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo]
+  implicit val OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfoEncoder: EntityEncoder[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo] = jsonEncoderOf[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo]
+}

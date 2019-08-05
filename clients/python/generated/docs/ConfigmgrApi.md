@@ -733,16 +733,15 @@ Method | HTTP request | Description
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -804,16 +803,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -867,16 +865,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -930,16 +927,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -993,16 +989,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1058,16 +1053,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1121,16 +1115,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1188,16 +1181,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1255,16 +1247,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1320,16 +1311,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1385,16 +1375,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1452,16 +1441,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1517,16 +1505,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1580,16 +1567,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1649,16 +1635,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1718,16 +1703,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1787,16 +1771,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1858,16 +1841,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1929,16 +1911,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -1996,16 +1977,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2059,16 +2039,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2124,16 +2103,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2187,16 +2165,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2252,16 +2229,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2317,16 +2293,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2380,16 +2355,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2447,16 +2421,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2510,16 +2483,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2573,16 +2545,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2636,16 +2607,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2699,16 +2669,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2762,16 +2731,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2831,16 +2799,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2896,16 +2863,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -2959,16 +2925,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3022,16 +2987,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3085,16 +3049,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3148,16 +3111,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3213,16 +3175,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3276,16 +3237,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3345,16 +3305,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3412,16 +3371,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3485,16 +3443,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3554,16 +3511,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3621,16 +3577,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3688,16 +3643,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3751,16 +3705,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3818,16 +3771,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3883,16 +3835,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -3948,16 +3899,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4015,16 +3965,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4080,16 +4029,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4149,16 +4097,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4214,16 +4161,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4279,16 +4225,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4350,16 +4295,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4415,16 +4359,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4492,16 +4435,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4557,16 +4499,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4628,16 +4569,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4703,16 +4643,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4766,16 +4705,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4837,16 +4775,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4900,16 +4837,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -4963,16 +4899,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5026,16 +4961,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5105,16 +5039,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5232,16 +5165,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5297,16 +5229,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5360,16 +5291,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5423,16 +5353,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5486,16 +5415,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5549,16 +5477,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5618,16 +5545,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5681,16 +5607,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5746,16 +5671,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5813,16 +5737,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5876,16 +5799,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -5939,16 +5861,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6004,16 +5925,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6069,16 +5989,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6134,16 +6053,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6199,16 +6117,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6266,16 +6183,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6331,16 +6247,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6394,16 +6309,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6457,16 +6371,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6522,16 +6435,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6587,16 +6499,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6650,16 +6561,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6717,16 +6627,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6780,16 +6689,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6845,16 +6753,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6908,16 +6815,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -6971,16 +6877,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7036,16 +6941,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7113,16 +7017,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7196,16 +7099,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7259,16 +7161,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7324,16 +7225,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7389,16 +7289,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7454,16 +7353,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7519,16 +7417,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7584,16 +7481,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7649,16 +7545,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7714,16 +7609,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7781,16 +7675,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7852,16 +7745,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7929,16 +7821,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -7994,16 +7885,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8061,16 +7951,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8136,16 +8025,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8201,16 +8089,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8276,16 +8163,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8351,16 +8237,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8426,16 +8311,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8489,16 +8373,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8552,16 +8435,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8615,16 +8497,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8678,16 +8559,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8741,16 +8621,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8806,16 +8685,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8871,16 +8749,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -8936,16 +8813,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9001,16 +8877,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9070,16 +8945,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9135,16 +9009,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9204,16 +9077,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9269,16 +9141,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9334,16 +9205,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9397,16 +9267,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9460,16 +9329,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9525,16 +9393,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9626,16 +9493,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9691,16 +9557,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9754,16 +9619,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9817,16 +9681,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9882,16 +9745,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -9947,16 +9809,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10010,16 +9871,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10075,16 +9935,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10140,16 +9999,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10205,16 +10063,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10268,16 +10125,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10333,16 +10189,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10398,16 +10253,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10463,16 +10317,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10528,16 +10381,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10593,16 +10445,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10656,16 +10507,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10723,16 +10573,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10786,16 +10635,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10849,16 +10697,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10912,16 +10759,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -10981,16 +10827,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11052,16 +10897,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11115,16 +10959,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11186,16 +11029,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11263,16 +11105,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11340,16 +11181,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11407,16 +11247,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11476,16 +11315,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11539,16 +11377,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11602,16 +11439,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11667,16 +11503,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11736,16 +11571,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11801,16 +11635,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11878,16 +11711,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -11945,16 +11777,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12016,16 +11847,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12079,16 +11909,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12144,16 +11973,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12207,16 +12035,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12274,16 +12101,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12341,16 +12167,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12408,16 +12233,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12475,16 +12299,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12544,16 +12367,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12607,16 +12429,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12670,16 +12491,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12739,16 +12559,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12814,16 +12633,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12877,16 +12695,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -12940,16 +12757,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13003,16 +12819,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13070,16 +12885,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13135,16 +12949,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13200,16 +13013,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13263,16 +13075,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13326,16 +13137,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13699,16 +13509,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13764,16 +13573,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13829,16 +13637,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13892,16 +13699,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -13957,16 +13763,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14026,16 +13831,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14089,16 +13893,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14176,16 +13979,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14265,16 +14067,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14338,16 +14139,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14401,16 +14201,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14464,16 +14263,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14533,16 +14331,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14604,16 +14401,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14669,16 +14465,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14734,16 +14529,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14797,16 +14591,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14860,16 +14653,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -14953,16 +14745,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15016,16 +14807,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15129,16 +14919,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15212,16 +15001,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15277,16 +15065,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15340,16 +15127,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15403,16 +15189,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15468,16 +15253,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15533,16 +15317,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15596,16 +15379,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15659,16 +15441,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15722,16 +15503,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15785,16 +15565,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15848,16 +15627,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15911,16 +15689,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -15976,16 +15753,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16043,16 +15819,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16108,16 +15883,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16173,16 +15947,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16238,16 +16011,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16315,16 +16087,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16384,16 +16155,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16449,16 +16219,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16516,16 +16285,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16593,16 +16361,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16660,16 +16427,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16723,16 +16489,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16788,16 +16553,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16851,16 +16615,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16920,16 +16683,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -16989,16 +16751,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17060,16 +16821,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17125,16 +16885,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17188,16 +16947,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17251,16 +17009,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17314,16 +17071,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17379,16 +17135,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17452,16 +17207,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17519,16 +17273,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17586,16 +17339,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17649,16 +17401,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17714,16 +17465,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17777,16 +17527,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17840,16 +17589,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17913,16 +17661,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -17984,16 +17731,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18047,16 +17793,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18110,16 +17855,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18175,16 +17919,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18244,16 +17987,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18307,16 +18049,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18372,16 +18113,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18435,16 +18175,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18498,16 +18237,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18561,16 +18299,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18636,16 +18373,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18701,16 +18437,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18768,16 +18503,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18835,16 +18569,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18902,16 +18635,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -18965,16 +18697,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19028,16 +18759,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19091,16 +18821,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19156,16 +18885,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19219,16 +18947,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19282,16 +19009,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19347,16 +19073,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19410,16 +19135,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19473,16 +19197,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19540,16 +19263,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19607,16 +19329,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19670,16 +19391,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19757,16 +19477,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19824,16 +19543,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19887,16 +19605,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -19952,16 +19669,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20015,16 +19731,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20080,16 +19795,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20143,16 +19857,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20208,16 +19921,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20271,16 +19983,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20338,16 +20049,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20407,16 +20117,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20472,16 +20181,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20535,16 +20243,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20602,16 +20309,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20673,16 +20379,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20738,16 +20443,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20817,16 +20521,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20896,16 +20599,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -20961,16 +20663,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21062,16 +20763,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21125,16 +20825,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21188,16 +20887,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21251,16 +20949,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21318,16 +21015,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21383,16 +21079,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21446,16 +21141,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21511,16 +21205,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21576,16 +21269,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21643,16 +21335,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21726,16 +21417,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21795,16 +21485,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21866,16 +21555,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21929,16 +21617,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -21998,16 +21685,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22081,16 +21767,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22156,16 +21841,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22219,16 +21903,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22284,16 +21967,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22349,16 +22031,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22412,16 +22093,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22481,16 +22161,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22544,16 +22223,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22607,16 +22285,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22670,16 +22347,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22733,16 +22409,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22800,16 +22475,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22863,16 +22537,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -22934,16 +22607,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23003,16 +22675,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23080,16 +22751,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23149,16 +22819,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23212,16 +22881,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23277,16 +22945,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23340,16 +23007,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23403,16 +23069,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23468,16 +23133,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23535,16 +23199,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23604,16 +23267,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23671,16 +23333,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23764,16 +23425,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23827,16 +23487,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23890,16 +23549,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -23953,16 +23611,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24020,16 +23677,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24083,16 +23739,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24154,16 +23809,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24225,16 +23879,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24290,16 +23943,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24365,16 +24017,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24428,16 +24079,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24491,16 +24141,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24554,16 +24203,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24617,16 +24265,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24684,16 +24331,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24747,16 +24393,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24826,16 +24471,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24889,16 +24533,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -24954,16 +24597,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25019,16 +24661,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25088,16 +24729,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25155,16 +24795,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25218,16 +24857,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25283,16 +24921,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25346,16 +24983,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25415,16 +25051,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25480,16 +25115,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25545,16 +25179,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25610,16 +25243,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25673,16 +25305,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25742,16 +25373,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25805,16 +25435,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25868,16 +25497,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25931,16 +25559,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -25998,16 +25625,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26065,16 +25691,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26130,16 +25755,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26190,21 +25814,20 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **com_day_cq_dam_core_impl_servlet_companion_servlet**
-> ComDayCqDamCoreImplServletCompanionServletInfo com_day_cq_dam_core_impl_servlet_companion_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, more_info=more_info, mnt_overlay_dam_gui_content_assets_moreinfo_html_path=mnt_overlay_dam_gui_content_assets_moreinfo_html_path)
+> ComDayCqDamCoreImplServletCompanionServletInfo com_day_cq_dam_core_impl_servlet_companion_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, more_info=more_info, mntoverlaydamguicontentassetsmoreinfo_htmlpath=mntoverlaydamguicontentassetsmoreinfo_htmlpath)
 
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26217,10 +25840,10 @@ action = 'action_example' # str |  (optional)
 location = 'location_example' # str |  (optional)
 propertylist = ['propertylist_example'] # list[str] |  (optional)
 more_info = 'more_info_example' # str |  (optional)
-mnt_overlay_dam_gui_content_assets_moreinfo_html_path = 'mnt_overlay_dam_gui_content_assets_moreinfo_html_path_example' # str |  (optional)
+mntoverlaydamguicontentassetsmoreinfo_htmlpath = 'mntoverlaydamguicontentassetsmoreinfo_htmlpath_example' # str |  (optional)
 
 try:
-    api_response = api_instance.com_day_cq_dam_core_impl_servlet_companion_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, more_info=more_info, mnt_overlay_dam_gui_content_assets_moreinfo_html_path=mnt_overlay_dam_gui_content_assets_moreinfo_html_path)
+    api_response = api_instance.com_day_cq_dam_core_impl_servlet_companion_servlet(post=post, apply=apply, delete=delete, action=action, location=location, propertylist=propertylist, more_info=more_info, mntoverlaydamguicontentassetsmoreinfo_htmlpath=mntoverlaydamguicontentassetsmoreinfo_htmlpath)
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling ConfigmgrApi->com_day_cq_dam_core_impl_servlet_companion_servlet: %s\n" % e)
@@ -26237,7 +25860,7 @@ Name | Type | Description  | Notes
  **location** | **str**|  | [optional] 
  **propertylist** | [**list[str]**](str.md)|  | [optional] 
  **more_info** | **str**|  | [optional] 
- **mnt_overlay_dam_gui_content_assets_moreinfo_html_path** | **str**|  | [optional] 
+ **mntoverlaydamguicontentassetsmoreinfo_htmlpath** | **str**|  | [optional] 
 
 ### Return type
 
@@ -26260,16 +25883,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26323,16 +25945,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26388,16 +26009,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26451,16 +26071,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26516,16 +26135,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26585,16 +26203,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26648,16 +26265,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26721,16 +26337,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26790,16 +26405,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26855,16 +26469,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26920,16 +26533,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -26985,16 +26597,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27052,16 +26663,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27115,16 +26725,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27184,16 +26793,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27247,16 +26855,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27310,16 +26917,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27373,16 +26979,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27446,16 +27051,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27519,16 +27123,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27584,16 +27187,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27647,16 +27249,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27716,16 +27317,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27779,16 +27379,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27842,16 +27441,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27905,16 +27503,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -27968,16 +27565,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28033,16 +27629,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28098,16 +27693,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28163,16 +27757,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28226,16 +27819,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28289,16 +27881,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28354,16 +27945,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28429,16 +28019,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28494,16 +28083,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28557,16 +28145,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28620,16 +28207,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28685,16 +28271,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28756,16 +28341,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28821,16 +28405,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28886,16 +28469,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -28953,16 +28535,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29016,16 +28597,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29081,16 +28661,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29146,16 +28725,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29213,16 +28791,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29290,16 +28867,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29353,16 +28929,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29416,16 +28991,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29485,16 +29059,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29552,16 +29125,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29617,16 +29189,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29684,16 +29255,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29749,16 +29319,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29816,16 +29385,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29883,16 +29451,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -29948,16 +29515,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30013,16 +29579,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30080,16 +29645,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30143,16 +29707,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30206,16 +29769,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30285,16 +29847,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30348,16 +29909,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30417,16 +29977,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30480,16 +30039,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30545,16 +30103,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30612,16 +30169,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30675,16 +30231,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30754,16 +30309,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30819,16 +30373,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30884,16 +30437,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -30947,16 +30499,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31010,16 +30561,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31075,16 +30625,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31140,16 +30689,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31207,16 +30755,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31288,16 +30835,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31351,16 +30897,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31426,16 +30971,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31499,16 +31043,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31574,16 +31117,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31639,16 +31181,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31704,16 +31245,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31773,16 +31313,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31838,16 +31377,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31901,16 +31439,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -31970,16 +31507,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32033,16 +31569,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32106,16 +31641,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32169,16 +31703,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32232,16 +31765,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32295,16 +31827,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32358,16 +31889,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32431,16 +31961,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32494,16 +32023,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32557,16 +32085,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32622,16 +32149,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32685,16 +32211,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32748,16 +32273,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32813,16 +32337,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32876,16 +32399,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -32941,16 +32463,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33022,16 +32543,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33087,16 +32607,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33152,16 +32671,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33215,16 +32733,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33286,16 +32803,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33349,16 +32865,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33414,16 +32929,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33477,16 +32991,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33542,16 +33055,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33607,16 +33119,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33670,16 +33181,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33733,16 +33243,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33808,16 +33317,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33879,16 +33387,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -33944,16 +33451,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34009,16 +33515,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34072,16 +33577,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34135,16 +33639,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34200,16 +33703,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34263,16 +33765,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34326,16 +33827,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34395,16 +33895,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34460,16 +33959,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34525,16 +34023,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34596,16 +34093,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34661,16 +34157,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34726,16 +34221,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34791,16 +34285,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34856,16 +34349,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34921,16 +34413,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -34988,16 +34479,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35053,16 +34543,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35118,16 +34607,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35183,16 +34671,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35248,16 +34735,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35313,16 +34799,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35380,16 +34865,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35445,16 +34929,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35510,16 +34993,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35577,16 +35059,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35644,16 +35125,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35709,16 +35189,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35780,16 +35259,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35845,16 +35323,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35910,16 +35387,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -35979,16 +35455,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36042,16 +35517,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36115,16 +35589,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36178,16 +35651,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36241,16 +35713,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36306,16 +35777,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36383,16 +35853,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36448,16 +35917,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36517,16 +35985,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36586,16 +36053,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36653,16 +36119,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36722,16 +36187,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36789,16 +36253,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36858,16 +36321,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36927,16 +36389,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -36994,16 +36455,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37057,16 +36517,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37136,16 +36595,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37201,16 +36659,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37264,16 +36721,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37327,16 +36783,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37390,16 +36845,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37469,16 +36923,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37532,16 +36985,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37603,16 +37055,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37668,16 +37119,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37757,16 +37207,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37822,16 +37271,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37895,16 +37343,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -37960,16 +37407,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38031,16 +37477,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38098,16 +37543,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38163,16 +37607,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38226,16 +37669,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38289,16 +37731,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38362,16 +37803,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38529,16 +37969,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38598,16 +38037,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38669,16 +38107,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38736,16 +38173,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38809,16 +38245,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38874,16 +38309,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -38943,16 +38377,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39008,16 +38441,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39073,16 +38505,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39138,16 +38569,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39201,16 +38631,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39282,16 +38711,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39345,16 +38773,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39412,16 +38839,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39485,16 +38911,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39548,16 +38973,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39611,16 +39035,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39732,16 +39155,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39795,16 +39217,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39862,16 +39283,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -39931,16 +39351,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40024,16 +39443,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40089,16 +39507,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40152,16 +39569,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40247,16 +39663,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40324,16 +39739,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40387,16 +39801,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40450,16 +39863,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40513,16 +39925,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40580,16 +39991,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40649,16 +40059,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40714,16 +40123,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40827,16 +40235,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40902,16 +40309,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -40973,16 +40379,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41038,16 +40443,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41101,16 +40505,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41194,16 +40597,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41265,16 +40667,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41380,16 +40781,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41443,16 +40843,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41552,16 +40951,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41631,16 +41029,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41720,16 +41117,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41791,16 +41187,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41854,16 +41249,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41921,16 +41315,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -41984,16 +41377,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42053,16 +41445,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42116,16 +41507,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42179,16 +41569,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42244,16 +41633,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42307,16 +41695,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42370,16 +41757,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42435,16 +41821,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42498,16 +41883,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42567,16 +41951,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42632,16 +42015,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42697,16 +42079,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42766,16 +42147,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42835,16 +42215,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42898,16 +42277,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -42979,16 +42357,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43050,16 +42427,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43119,16 +42495,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43194,16 +42569,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43263,16 +42637,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43326,16 +42699,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43397,16 +42769,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43460,16 +42831,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43543,16 +42913,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43662,16 +43031,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43731,16 +43099,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43830,16 +43197,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43897,16 +43263,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -43998,16 +43363,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44063,16 +43427,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44148,16 +43511,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44237,16 +43599,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44320,16 +43681,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44417,16 +43777,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44486,16 +43845,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44555,16 +43913,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44620,16 +43977,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44691,16 +44047,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44756,16 +44111,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44823,16 +44177,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44892,16 +44245,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -44957,16 +44309,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45022,16 +44373,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45107,16 +44457,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45204,16 +44553,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45271,16 +44619,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45336,16 +44683,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45407,16 +44753,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45476,16 +44821,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45543,16 +44887,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45608,16 +44951,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45677,16 +45019,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45760,16 +45101,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45829,16 +45169,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45902,16 +45241,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -45971,16 +45309,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46046,16 +45383,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46121,16 +45457,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46184,16 +45519,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46253,16 +45587,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46320,16 +45653,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46387,16 +45719,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46470,16 +45801,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46535,16 +45865,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46602,16 +45931,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46669,16 +45997,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46740,16 +46067,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46811,16 +46137,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46878,16 +46203,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -46951,16 +46275,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47022,16 +46345,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47089,16 +46411,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47158,16 +46479,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47223,16 +46543,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47290,16 +46609,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47365,16 +46683,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47430,16 +46747,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47495,16 +46811,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47562,16 +46877,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47627,16 +46941,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47690,16 +47003,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47753,16 +47065,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47818,16 +47129,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47921,16 +47231,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -47984,16 +47293,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48051,16 +47359,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48120,16 +47427,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48183,16 +47489,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48264,16 +47569,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48327,16 +47631,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48396,16 +47699,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48459,16 +47761,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48526,16 +47827,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48591,16 +47891,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48656,16 +47955,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48721,16 +48019,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48784,16 +48081,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48853,16 +48149,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48916,16 +48211,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -48999,16 +48293,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49062,16 +48355,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49129,16 +48421,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49200,16 +48491,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49269,16 +48559,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49334,16 +48623,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49413,16 +48701,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49478,16 +48765,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49545,16 +48831,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49620,16 +48905,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49689,16 +48973,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49754,16 +49037,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49819,16 +49101,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49884,16 +49165,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 
@@ -49959,16 +49239,15 @@ Name | Type | Description  | Notes
 
 
 ### Example
-
-* Basic Authentication (aemAuth):
 ```python
 from __future__ import print_function
 import time
 import swaggeraemosgi
 from swaggeraemosgi.rest import ApiException
 from pprint import pprint
-configuration = swaggeraemosgi.Configuration()
+
 # Configure HTTP basic authorization: aemAuth
+configuration = swaggeraemosgi.Configuration()
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
 

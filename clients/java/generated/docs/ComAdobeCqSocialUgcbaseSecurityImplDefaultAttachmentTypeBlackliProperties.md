@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **defaultAttachmentTypeBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

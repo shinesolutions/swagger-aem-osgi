@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties._
+
+case class ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties (
+  comAdobeDamMacSyncClientSoTimeout: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDamMacSyncHelperImplMACSyncClientImplPropertiesCodecJson: CodecJson[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties] = CodecJson.derive[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties]
+  implicit val ComAdobeCqDamMacSyncHelperImplMACSyncClientImplPropertiesDecoder: EntityDecoder[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties] = jsonOf[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties]
+  implicit val ComAdobeCqDamMacSyncHelperImplMACSyncClientImplPropertiesEncoder: EntityEncoder[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties] = jsonEncoderOf[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties]
+}

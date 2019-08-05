@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplServletsReferenceSearchServletProperties._
+
+case class ComDayCqWcmCoreImplServletsReferenceSearchServletProperties (
+  referencesearchservletMaxReferencesPerPage: Option[ConfigNodePropertyInteger],
+referencesearchservletMaxPages: Option[ConfigNodePropertyInteger])
+
+object ComDayCqWcmCoreImplServletsReferenceSearchServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplServletsReferenceSearchServletPropertiesCodecJson: CodecJson[ComDayCqWcmCoreImplServletsReferenceSearchServletProperties] = CodecJson.derive[ComDayCqWcmCoreImplServletsReferenceSearchServletProperties]
+  implicit val ComDayCqWcmCoreImplServletsReferenceSearchServletPropertiesDecoder: EntityDecoder[ComDayCqWcmCoreImplServletsReferenceSearchServletProperties] = jsonOf[ComDayCqWcmCoreImplServletsReferenceSearchServletProperties]
+  implicit val ComDayCqWcmCoreImplServletsReferenceSearchServletPropertiesEncoder: EntityEncoder[ComDayCqWcmCoreImplServletsReferenceSearchServletProperties] = jsonEncoderOf[ComDayCqWcmCoreImplServletsReferenceSearchServletProperties]
+}

@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties._
+
+case class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties (
+  cqPagesupdatehandlerImageresourcetypes: Option[ConfigNodePropertyArray],
+cqPagesupdatehandlerProductresourcetypes: Option[ConfigNodePropertyArray],
+cqPagesupdatehandlerVideoresourcetypes: Option[ConfigNodePropertyArray],
+cqPagesupdatehandlerDynamicsequenceresourcetypes: Option[ConfigNodePropertyArray],
+cqPagesupdatehandlerPreviewmodepaths: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensImplHandlerChannelsUpdateHandlerPropertiesCodecJson: CodecJson[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties] = CodecJson.derive[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties]
+  implicit val ComAdobeCqScreensImplHandlerChannelsUpdateHandlerPropertiesDecoder: EntityDecoder[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties] = jsonOf[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties]
+  implicit val ComAdobeCqScreensImplHandlerChannelsUpdateHandlerPropertiesEncoder: EntityEncoder[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties] = jsonEncoderOf[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties]
+}

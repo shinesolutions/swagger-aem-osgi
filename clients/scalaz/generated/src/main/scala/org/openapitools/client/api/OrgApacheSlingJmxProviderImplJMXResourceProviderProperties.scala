@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJmxProviderImplJMXResourceProviderProperties._
+
+case class OrgApacheSlingJmxProviderImplJMXResourceProviderProperties (
+  providerRoots: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingJmxProviderImplJMXResourceProviderProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJmxProviderImplJMXResourceProviderPropertiesCodecJson: CodecJson[OrgApacheSlingJmxProviderImplJMXResourceProviderProperties] = CodecJson.derive[OrgApacheSlingJmxProviderImplJMXResourceProviderProperties]
+  implicit val OrgApacheSlingJmxProviderImplJMXResourceProviderPropertiesDecoder: EntityDecoder[OrgApacheSlingJmxProviderImplJMXResourceProviderProperties] = jsonOf[OrgApacheSlingJmxProviderImplJMXResourceProviderProperties]
+  implicit val OrgApacheSlingJmxProviderImplJMXResourceProviderPropertiesEncoder: EntityEncoder[OrgApacheSlingJmxProviderImplJMXResourceProviderProperties] = jsonEncoderOf[OrgApacheSlingJmxProviderImplJMXResourceProviderProperties]
+}

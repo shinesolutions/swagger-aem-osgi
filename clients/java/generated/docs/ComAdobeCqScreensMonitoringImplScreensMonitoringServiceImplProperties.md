@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties._
+
+case class ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties (
+  notifyOnupdate: Option[ConfigNodePropertyBoolean],
+notifyOncomplete: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWorkflowImplEmailTaskEMailNotificationServicePropertiesCodecJson: CodecJson[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties] = CodecJson.derive[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties]
+  implicit val ComDayCqWorkflowImplEmailTaskEMailNotificationServicePropertiesDecoder: EntityDecoder[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties] = jsonOf[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties]
+  implicit val ComDayCqWorkflowImplEmailTaskEMailNotificationServicePropertiesEncoder: EntityEncoder[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties] = jsonEncoderOf[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties]
+}

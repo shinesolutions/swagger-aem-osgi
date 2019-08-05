@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

@@ -1,0 +1,29 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmMsmImplRolloutManagerImplProperties._
+
+case class ComDayCqWcmMsmImplRolloutManagerImplProperties (
+  eventFilter: Option[ConfigNodePropertyString],
+rolloutmgrExcludedpropsDefault: Option[ConfigNodePropertyArray],
+rolloutmgrExcludedparagraphpropsDefault: Option[ConfigNodePropertyArray],
+rolloutmgrExcludednodetypesDefault: Option[ConfigNodePropertyArray],
+rolloutmgrThreadpoolMaxsize: Option[ConfigNodePropertyInteger],
+rolloutmgrThreadpoolMaxshutdowntime: Option[ConfigNodePropertyInteger],
+rolloutmgrThreadpoolPriority: Option[ConfigNodePropertyDropDown],
+rolloutmgrCommitSize: Option[ConfigNodePropertyInteger],
+rolloutmgrConflicthandlingEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqWcmMsmImplRolloutManagerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmMsmImplRolloutManagerImplPropertiesCodecJson: CodecJson[ComDayCqWcmMsmImplRolloutManagerImplProperties] = CodecJson.derive[ComDayCqWcmMsmImplRolloutManagerImplProperties]
+  implicit val ComDayCqWcmMsmImplRolloutManagerImplPropertiesDecoder: EntityDecoder[ComDayCqWcmMsmImplRolloutManagerImplProperties] = jsonOf[ComDayCqWcmMsmImplRolloutManagerImplProperties]
+  implicit val ComDayCqWcmMsmImplRolloutManagerImplPropertiesEncoder: EntityEncoder[ComDayCqWcmMsmImplRolloutManagerImplProperties] = jsonEncoderOf[ComDayCqWcmMsmImplRolloutManagerImplProperties]
+}

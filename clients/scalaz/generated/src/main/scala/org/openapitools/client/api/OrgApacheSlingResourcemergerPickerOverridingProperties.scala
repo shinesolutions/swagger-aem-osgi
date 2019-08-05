@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingResourcemergerPickerOverridingProperties._
+
+case class OrgApacheSlingResourcemergerPickerOverridingProperties (
+  mergeRoot: Option[ConfigNodePropertyString],
+mergeReadOnly: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingResourcemergerPickerOverridingProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingResourcemergerPickerOverridingPropertiesCodecJson: CodecJson[OrgApacheSlingResourcemergerPickerOverridingProperties] = CodecJson.derive[OrgApacheSlingResourcemergerPickerOverridingProperties]
+  implicit val OrgApacheSlingResourcemergerPickerOverridingPropertiesDecoder: EntityDecoder[OrgApacheSlingResourcemergerPickerOverridingProperties] = jsonOf[OrgApacheSlingResourcemergerPickerOverridingProperties]
+  implicit val OrgApacheSlingResourcemergerPickerOverridingPropertiesEncoder: EntityEncoder[OrgApacheSlingResourcemergerPickerOverridingProperties] = jsonEncoderOf[OrgApacheSlingResourcemergerPickerOverridingProperties]
+}

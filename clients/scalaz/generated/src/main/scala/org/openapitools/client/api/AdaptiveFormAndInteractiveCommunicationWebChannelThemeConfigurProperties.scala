@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties._
+
+case class AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties (
+  fontList: Option[ConfigNodePropertyArray])
+
+object AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties {
+  import DateTimeCodecs._
+
+  implicit val AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurPropertiesCodecJson: CodecJson[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties] = CodecJson.derive[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties]
+  implicit val AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurPropertiesDecoder: EntityDecoder[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties] = jsonOf[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties]
+  implicit val AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurPropertiesEncoder: EntityEncoder[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties] = jsonEncoderOf[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties]
+}

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **operation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

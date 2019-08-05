@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo._
+
+case class ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialProperties])
+
+object ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfoCodecJson: CodecJson[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo] = CodecJson.derive[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo]
+  implicit val ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfoDecoder: EntityDecoder[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo] = jsonOf[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo]
+  implicit val ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfoEncoder: EntityEncoder[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo] = jsonEncoderOf[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo]
+}

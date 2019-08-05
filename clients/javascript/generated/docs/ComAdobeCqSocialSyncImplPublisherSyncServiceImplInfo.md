@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

@@ -1,0 +1,33 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteAuthImsImplIMSProviderImplProperties._
+
+case class ComAdobeGraniteAuthImsImplIMSProviderImplProperties (
+  oauthProviderId: Option[ConfigNodePropertyString],
+oauthProviderImsAuthorizationUrl: Option[ConfigNodePropertyString],
+oauthProviderImsTokenUrl: Option[ConfigNodePropertyString],
+oauthProviderImsProfileUrl: Option[ConfigNodePropertyString],
+oauthProviderImsExtendedDetailsUrls: Option[ConfigNodePropertyArray],
+oauthProviderImsValidateTokenUrl: Option[ConfigNodePropertyString],
+oauthProviderImsSessionProperty: Option[ConfigNodePropertyString],
+oauthProviderImsServiceTokenClientId: Option[ConfigNodePropertyString],
+oauthProviderImsServiceTokenClientSecret: Option[ConfigNodePropertyString],
+oauthProviderImsServiceToken: Option[ConfigNodePropertyString],
+imsOrgRef: Option[ConfigNodePropertyString],
+imsGroupMapping: Option[ConfigNodePropertyArray],
+oauthProviderImsOnlyLicenseGroup: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteAuthImsImplIMSProviderImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteAuthImsImplIMSProviderImplPropertiesCodecJson: CodecJson[ComAdobeGraniteAuthImsImplIMSProviderImplProperties] = CodecJson.derive[ComAdobeGraniteAuthImsImplIMSProviderImplProperties]
+  implicit val ComAdobeGraniteAuthImsImplIMSProviderImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteAuthImsImplIMSProviderImplProperties] = jsonOf[ComAdobeGraniteAuthImsImplIMSProviderImplProperties]
+  implicit val ComAdobeGraniteAuthImsImplIMSProviderImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteAuthImsImplIMSProviderImplProperties] = jsonEncoderOf[ComAdobeGraniteAuthImsImplIMSProviderImplProperties]
+}

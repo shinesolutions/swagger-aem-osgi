@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo._
+
+case class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties])
+
+object OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfoCodecJson: CodecJson[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo] = CodecJson.derive[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo]
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfoDecoder: EntityDecoder[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo] = jsonOf[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo]
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfoEncoder: EntityEncoder[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo] = jsonEncoderOf[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo]
+}

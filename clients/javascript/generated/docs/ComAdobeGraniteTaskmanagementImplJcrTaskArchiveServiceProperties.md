@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **archivingEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

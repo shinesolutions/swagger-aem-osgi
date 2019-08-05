@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqSearchImplBuilderQueryBuilderImplProperties._
+
+case class ComDayCqSearchImplBuilderQueryBuilderImplProperties (
+  excerptProperties: Option[ConfigNodePropertyArray],
+cacheMaxEntries: Option[ConfigNodePropertyInteger],
+cacheEntryLifetime: Option[ConfigNodePropertyInteger],
+xpathUnion: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqSearchImplBuilderQueryBuilderImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqSearchImplBuilderQueryBuilderImplPropertiesCodecJson: CodecJson[ComDayCqSearchImplBuilderQueryBuilderImplProperties] = CodecJson.derive[ComDayCqSearchImplBuilderQueryBuilderImplProperties]
+  implicit val ComDayCqSearchImplBuilderQueryBuilderImplPropertiesDecoder: EntityDecoder[ComDayCqSearchImplBuilderQueryBuilderImplProperties] = jsonOf[ComDayCqSearchImplBuilderQueryBuilderImplProperties]
+  implicit val ComDayCqSearchImplBuilderQueryBuilderImplPropertiesEncoder: EntityEncoder[ComDayCqSearchImplBuilderQueryBuilderImplProperties] = jsonEncoderOf[ComDayCqSearchImplBuilderQueryBuilderImplProperties]
+}

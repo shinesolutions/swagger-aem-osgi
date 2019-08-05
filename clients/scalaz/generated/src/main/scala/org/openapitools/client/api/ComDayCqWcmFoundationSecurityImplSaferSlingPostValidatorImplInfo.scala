@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo._
+
+case class ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfoCodecJson: CodecJson[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo] = CodecJson.derive[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo]
+  implicit val ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfoDecoder: EntityDecoder[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo] = jsonOf[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo]
+  implicit val ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfoEncoder: EntityEncoder[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo] = jsonEncoderOf[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo]
+}

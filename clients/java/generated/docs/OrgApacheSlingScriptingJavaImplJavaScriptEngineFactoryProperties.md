@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **javaClassdebuginfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

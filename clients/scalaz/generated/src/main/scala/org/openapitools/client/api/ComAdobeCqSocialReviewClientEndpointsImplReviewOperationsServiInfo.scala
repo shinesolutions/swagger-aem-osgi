@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo._
+
+case class ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiProperties])
+
+object ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfoCodecJson: CodecJson[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo] = CodecJson.derive[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo]
+  implicit val ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfoDecoder: EntityDecoder[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo] = jsonOf[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo]
+  implicit val ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfoEncoder: EntityEncoder[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo] = jsonEncoderOf[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo]
+}

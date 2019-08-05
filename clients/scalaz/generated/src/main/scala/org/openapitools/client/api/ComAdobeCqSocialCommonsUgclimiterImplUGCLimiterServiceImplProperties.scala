@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties._
+
+case class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties (
+  eventTopics: Option[ConfigNodePropertyString],
+eventFilter: Option[ConfigNodePropertyString],
+verbs: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertiesCodecJson: CodecJson[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties] = CodecJson.derive[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties]
+  implicit val ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertiesDecoder: EntityDecoder[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties] = jsonOf[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties]
+  implicit val ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertiesEncoder: EntityEncoder[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties] = jsonEncoderOf[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties]
+}

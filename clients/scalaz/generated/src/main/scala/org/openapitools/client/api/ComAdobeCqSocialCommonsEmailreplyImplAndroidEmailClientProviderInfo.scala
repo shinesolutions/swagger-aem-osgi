@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo._
+
+case class ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties])
+
+object ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfoCodecJson: CodecJson[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo] = CodecJson.derive[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo]
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfoDecoder: EntityDecoder[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo] = jsonOf[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo]
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfoEncoder: EntityEncoder[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo] = jsonEncoderOf[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo]
+}

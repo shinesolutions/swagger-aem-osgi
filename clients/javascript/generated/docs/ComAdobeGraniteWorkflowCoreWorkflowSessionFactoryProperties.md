@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **graniteWorkflowinboxSortPropertyName** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 

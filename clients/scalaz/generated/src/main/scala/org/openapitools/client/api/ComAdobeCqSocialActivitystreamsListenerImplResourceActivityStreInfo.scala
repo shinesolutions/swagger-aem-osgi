@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo._
+
+case class ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfoCodecJson: CodecJson[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo] = CodecJson.derive[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo]
+  implicit val ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfoDecoder: EntityDecoder[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo] = jsonOf[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo]
+  implicit val ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfoEncoder: EntityEncoder[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo] = jsonEncoderOf[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo]
+}

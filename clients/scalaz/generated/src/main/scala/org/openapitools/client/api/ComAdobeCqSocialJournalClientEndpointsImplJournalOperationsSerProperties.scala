@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties._
+
+case class ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties (
+  fieldWhitelist: Option[ConfigNodePropertyArray],
+attachmentTypeBlacklist: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerPropertiesCodecJson: CodecJson[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties] = CodecJson.derive[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties]
+  implicit val ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerPropertiesDecoder: EntityDecoder[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties] = jsonOf[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties]
+  implicit val ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerPropertiesEncoder: EntityEncoder[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties] = jsonEncoderOf[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties]
+}

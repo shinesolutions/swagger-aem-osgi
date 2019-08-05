@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqAccountApiAccountManagementServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqAccountmanagerTokenValidityPeriod** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

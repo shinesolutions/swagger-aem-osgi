@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo._
+
+case class ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties])
+
+object ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfoCodecJson: CodecJson[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo] = CodecJson.derive[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo]
+  implicit val ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfoDecoder: EntityDecoder[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo] = jsonOf[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo]
+  implicit val ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfoEncoder: EntityEncoder[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo] = jsonEncoderOf[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo]
+}

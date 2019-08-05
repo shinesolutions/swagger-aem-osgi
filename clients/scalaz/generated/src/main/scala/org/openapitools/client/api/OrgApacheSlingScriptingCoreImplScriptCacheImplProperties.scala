@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingScriptingCoreImplScriptCacheImplProperties._
+
+case class OrgApacheSlingScriptingCoreImplScriptCacheImplProperties (
+  orgApacheSlingScriptingCacheSize: Option[ConfigNodePropertyInteger],
+orgApacheSlingScriptingCacheAdditionalExtensions: Option[ConfigNodePropertyArray])
+
+object OrgApacheSlingScriptingCoreImplScriptCacheImplProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingScriptingCoreImplScriptCacheImplPropertiesCodecJson: CodecJson[OrgApacheSlingScriptingCoreImplScriptCacheImplProperties] = CodecJson.derive[OrgApacheSlingScriptingCoreImplScriptCacheImplProperties]
+  implicit val OrgApacheSlingScriptingCoreImplScriptCacheImplPropertiesDecoder: EntityDecoder[OrgApacheSlingScriptingCoreImplScriptCacheImplProperties] = jsonOf[OrgApacheSlingScriptingCoreImplScriptCacheImplProperties]
+  implicit val OrgApacheSlingScriptingCoreImplScriptCacheImplPropertiesEncoder: EntityEncoder[OrgApacheSlingScriptingCoreImplScriptCacheImplProperties] = jsonEncoderOf[OrgApacheSlingScriptingCoreImplScriptCacheImplProperties]
+}

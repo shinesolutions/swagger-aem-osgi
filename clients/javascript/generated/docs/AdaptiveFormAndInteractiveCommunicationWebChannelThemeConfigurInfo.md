@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamVideoImplServletVideoTestServletProperties._
+
+case class ComDayCqDamVideoImplServletVideoTestServletProperties (
+  enabled: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamVideoImplServletVideoTestServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamVideoImplServletVideoTestServletPropertiesCodecJson: CodecJson[ComDayCqDamVideoImplServletVideoTestServletProperties] = CodecJson.derive[ComDayCqDamVideoImplServletVideoTestServletProperties]
+  implicit val ComDayCqDamVideoImplServletVideoTestServletPropertiesDecoder: EntityDecoder[ComDayCqDamVideoImplServletVideoTestServletProperties] = jsonOf[ComDayCqDamVideoImplServletVideoTestServletProperties]
+  implicit val ComDayCqDamVideoImplServletVideoTestServletPropertiesEncoder: EntityEncoder[ComDayCqDamVideoImplServletVideoTestServletProperties] = jsonEncoderOf[ComDayCqDamVideoImplServletVideoTestServletProperties]
+}

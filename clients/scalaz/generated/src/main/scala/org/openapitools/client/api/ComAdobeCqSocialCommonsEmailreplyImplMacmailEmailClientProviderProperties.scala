@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties._
+
+case class ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties (
+  priorityOrder: Option[ConfigNodePropertyInteger],
+replyEmailPatterns: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderPropertiesCodecJson: CodecJson[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties] = CodecJson.derive[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties]
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderPropertiesDecoder: EntityDecoder[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties] = jsonOf[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties]
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderPropertiesEncoder: EntityEncoder[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties] = jsonEncoderOf[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties]
+}

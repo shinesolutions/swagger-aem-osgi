@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties._
+
+case class ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties (
+  cqDamAdhocAssetSharePrezipMaxcontentsize: Option[ConfigNodePropertyInteger])
+
+object ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties] = CodecJson.derive[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties]
+  implicit val ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties] = jsonOf[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties]
+  implicit val ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties] = jsonEncoderOf[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties]
+}

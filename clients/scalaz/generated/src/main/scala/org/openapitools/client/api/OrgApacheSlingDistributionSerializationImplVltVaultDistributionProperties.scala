@@ -1,0 +1,38 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties._
+
+case class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties (
+  name: Option[ConfigNodePropertyString],
+`type`: Option[ConfigNodePropertyDropDown],
+importMode: Option[ConfigNodePropertyString],
+aclHandling: Option[ConfigNodePropertyString],
+packageRoots: Option[ConfigNodePropertyString],
+packageFilters: Option[ConfigNodePropertyArray],
+propertyFilters: Option[ConfigNodePropertyArray],
+tempFsFolder: Option[ConfigNodePropertyString],
+useBinaryReferences: Option[ConfigNodePropertyBoolean],
+autoSaveThreshold: Option[ConfigNodePropertyInteger],
+cleanupDelay: Option[ConfigNodePropertyInteger],
+fileThreshold: Option[ConfigNodePropertyInteger],
+MEGA_BYTES: Option[ConfigNodePropertyDropDown],
+useOffHeapMemory: Option[ConfigNodePropertyBoolean],
+digestAlgorithm: Option[ConfigNodePropertyDropDown],
+monitoringQueueSize: Option[ConfigNodePropertyInteger],
+pathsMapping: Option[ConfigNodePropertyArray],
+strictImport: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionSerializationImplVltVaultDistributionPropertiesCodecJson: CodecJson[OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties] = CodecJson.derive[OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties]
+  implicit val OrgApacheSlingDistributionSerializationImplVltVaultDistributionPropertiesDecoder: EntityDecoder[OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties] = jsonOf[OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties]
+  implicit val OrgApacheSlingDistributionSerializationImplVltVaultDistributionPropertiesEncoder: EntityEncoder[OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties] = jsonEncoderOf[OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties]
+}

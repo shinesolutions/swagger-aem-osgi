@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **datasources** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

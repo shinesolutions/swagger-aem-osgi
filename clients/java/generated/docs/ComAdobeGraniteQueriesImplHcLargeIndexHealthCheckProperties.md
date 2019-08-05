@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **largeIndexCriticalThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

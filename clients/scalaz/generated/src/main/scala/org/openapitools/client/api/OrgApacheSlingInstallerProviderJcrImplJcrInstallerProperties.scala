@@ -1,0 +1,27 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties._
+
+case class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties (
+  handlerSchemes: Option[ConfigNodePropertyArray],
+slingJcrinstallFolderNameRegexp: Option[ConfigNodePropertyString],
+slingJcrinstallFolderMaxDepth: Option[ConfigNodePropertyInteger],
+slingJcrinstallSearchPath: Option[ConfigNodePropertyArray],
+slingJcrinstallNewConfigPath: Option[ConfigNodePropertyString],
+slingJcrinstallSignalPath: Option[ConfigNodePropertyString],
+slingJcrinstallEnableWriteback: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingInstallerProviderJcrImplJcrInstallerPropertiesCodecJson: CodecJson[OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties] = CodecJson.derive[OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties]
+  implicit val OrgApacheSlingInstallerProviderJcrImplJcrInstallerPropertiesDecoder: EntityDecoder[OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties] = jsonOf[OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties]
+  implicit val OrgApacheSlingInstallerProviderJcrImplJcrInstallerPropertiesEncoder: EntityEncoder[OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties] = jsonEncoderOf[OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties]
+}

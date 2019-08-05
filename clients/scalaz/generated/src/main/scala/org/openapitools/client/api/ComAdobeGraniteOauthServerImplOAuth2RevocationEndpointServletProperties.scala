@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties._
+
+case class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties (
+  slingServletPaths: Option[ConfigNodePropertyString],
+oauthRevocationActive: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletPropertiesCodecJson: CodecJson[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties] = CodecJson.derive[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties]
+  implicit val ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletPropertiesDecoder: EntityDecoder[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties] = jsonOf[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties]
+  implicit val ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletPropertiesEncoder: EntityEncoder[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties] = jsonEncoderOf[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties]
+}

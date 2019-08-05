@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo._
+
+case class ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties])
+
+object ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfoCodecJson: CodecJson[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo] = CodecJson.derive[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo]
+  implicit val ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfoDecoder: EntityDecoder[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo] = jsonOf[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo]
+  implicit val ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfoEncoder: EntityEncoder[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo] = jsonEncoderOf[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo]
+}

@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialNotificationsImplMentionsRouterProperties._
+
+case class ComAdobeCqSocialNotificationsImplMentionsRouterProperties (
+  eventTopics: Option[ConfigNodePropertyString],
+eventFilter: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSocialNotificationsImplMentionsRouterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialNotificationsImplMentionsRouterPropertiesCodecJson: CodecJson[ComAdobeCqSocialNotificationsImplMentionsRouterProperties] = CodecJson.derive[ComAdobeCqSocialNotificationsImplMentionsRouterProperties]
+  implicit val ComAdobeCqSocialNotificationsImplMentionsRouterPropertiesDecoder: EntityDecoder[ComAdobeCqSocialNotificationsImplMentionsRouterProperties] = jsonOf[ComAdobeCqSocialNotificationsImplMentionsRouterProperties]
+  implicit val ComAdobeCqSocialNotificationsImplMentionsRouterPropertiesEncoder: EntityEncoder[ComAdobeCqSocialNotificationsImplMentionsRouterProperties] = jsonEncoderOf[ComAdobeCqSocialNotificationsImplMentionsRouterProperties]
+}

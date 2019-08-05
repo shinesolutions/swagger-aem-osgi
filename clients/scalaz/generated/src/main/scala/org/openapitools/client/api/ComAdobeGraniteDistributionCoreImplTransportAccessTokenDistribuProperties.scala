@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties._
+
+case class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties (
+  name: Option[ConfigNodePropertyString],
+serviceName: Option[ConfigNodePropertyString],
+userId: Option[ConfigNodePropertyString],
+accessTokenProviderTarget: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuPropertiesCodecJson: CodecJson[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties] = CodecJson.derive[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties]
+  implicit val ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuPropertiesDecoder: EntityDecoder[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties] = jsonOf[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties]
+  implicit val ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuPropertiesEncoder: EntityEncoder[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties] = jsonEncoderOf[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties]
+}

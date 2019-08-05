@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo._
+
+case class ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaProperties])
+
+object ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfoCodecJson: CodecJson[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo] = CodecJson.derive[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo]
+  implicit val ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfoDecoder: EntityDecoder[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo] = jsonOf[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo]
+  implicit val ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfoEncoder: EntityEncoder[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo] = jsonEncoderOf[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo]
+}

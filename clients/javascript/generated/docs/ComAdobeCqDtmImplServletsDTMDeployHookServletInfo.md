@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqDtmImplServletsDTMDeployHookServletInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

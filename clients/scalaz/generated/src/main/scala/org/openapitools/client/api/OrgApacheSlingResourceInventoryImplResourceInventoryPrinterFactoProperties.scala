@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties._
+
+case class OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties (
+  felixInventoryPrinterName: Option[ConfigNodePropertyString],
+felixInventoryPrinterTitle: Option[ConfigNodePropertyString],
+`path`: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoPropertiesCodecJson: CodecJson[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties] = CodecJson.derive[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties]
+  implicit val OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoPropertiesDecoder: EntityDecoder[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties] = jsonOf[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties]
+  implicit val OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoPropertiesEncoder: EntityEncoder[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties] = jsonEncoderOf[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties]
+}

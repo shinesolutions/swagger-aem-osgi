@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo._
+
+case class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties])
+
+object ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfoCodecJson: CodecJson[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo] = CodecJson.derive[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo]
+  implicit val ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfoDecoder: EntityDecoder[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo] = jsonOf[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo]
+  implicit val ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfoEncoder: EntityEncoder[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo] = jsonEncoderOf[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo]
+}

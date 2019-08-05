@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties._
+
+case class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties (
+  cqSearchpromoteConfigurationServerUri: Option[ConfigNodePropertyString],
+cqSearchpromoteConfigurationEnvironment: Option[ConfigNodePropertyString],
+connectionTimeout: Option[ConfigNodePropertyInteger],
+socketTimeout: Option[ConfigNodePropertyInteger])
+
+object ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqSearchpromoteImplSearchPromoteServiceImplPropertiesCodecJson: CodecJson[ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties] = CodecJson.derive[ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties]
+  implicit val ComDayCqSearchpromoteImplSearchPromoteServiceImplPropertiesDecoder: EntityDecoder[ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties] = jsonOf[ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties]
+  implicit val ComDayCqSearchpromoteImplSearchPromoteServiceImplPropertiesEncoder: EntityEncoder[ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties] = jsonEncoderOf[ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties]
+}

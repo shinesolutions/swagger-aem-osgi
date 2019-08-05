@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **resourceResolverSearchpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

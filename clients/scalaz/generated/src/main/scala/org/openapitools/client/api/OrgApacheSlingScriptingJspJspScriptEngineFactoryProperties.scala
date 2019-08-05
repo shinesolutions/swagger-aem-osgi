@@ -1,0 +1,31 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties._
+
+case class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties (
+  jasperCompilerTargetVM: Option[ConfigNodePropertyString],
+jasperCompilerSourceVM: Option[ConfigNodePropertyString],
+jasperClassdebuginfo: Option[ConfigNodePropertyBoolean],
+jasperEnablePooling: Option[ConfigNodePropertyBoolean],
+jasperIeClassId: Option[ConfigNodePropertyString],
+jasperGenStringAsCharArray: Option[ConfigNodePropertyBoolean],
+jasperKeepgenerated: Option[ConfigNodePropertyBoolean],
+jasperMappedfile: Option[ConfigNodePropertyBoolean],
+jasperTrimSpaces: Option[ConfigNodePropertyBoolean],
+jasperDisplaySourceFragments: Option[ConfigNodePropertyBoolean],
+defaultIsSession: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingScriptingJspJspScriptEngineFactoryPropertiesCodecJson: CodecJson[OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties] = CodecJson.derive[OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties]
+  implicit val OrgApacheSlingScriptingJspJspScriptEngineFactoryPropertiesDecoder: EntityDecoder[OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties] = jsonOf[OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties]
+  implicit val OrgApacheSlingScriptingJspJspScriptEngineFactoryPropertiesEncoder: EntityEncoder[OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties] = jsonEncoderOf[OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties]
+}

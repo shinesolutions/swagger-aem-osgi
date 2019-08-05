@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmMsmImplServletsAuditLogServletProperties._
+
+case class ComDayCqWcmMsmImplServletsAuditLogServletProperties (
+  auditlogservletDefaultEventsCount: Option[ConfigNodePropertyInteger],
+auditlogservletDefaultPath: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmMsmImplServletsAuditLogServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmMsmImplServletsAuditLogServletPropertiesCodecJson: CodecJson[ComDayCqWcmMsmImplServletsAuditLogServletProperties] = CodecJson.derive[ComDayCqWcmMsmImplServletsAuditLogServletProperties]
+  implicit val ComDayCqWcmMsmImplServletsAuditLogServletPropertiesDecoder: EntityDecoder[ComDayCqWcmMsmImplServletsAuditLogServletProperties] = jsonOf[ComDayCqWcmMsmImplServletsAuditLogServletProperties]
+  implicit val ComDayCqWcmMsmImplServletsAuditLogServletPropertiesEncoder: EntityEncoder[ComDayCqWcmMsmImplServletsAuditLogServletProperties] = jsonEncoderOf[ComDayCqWcmMsmImplServletsAuditLogServletProperties]
+}

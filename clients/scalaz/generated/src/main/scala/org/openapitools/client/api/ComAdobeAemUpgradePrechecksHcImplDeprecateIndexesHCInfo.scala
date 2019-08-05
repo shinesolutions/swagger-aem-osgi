@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo._
+
+case class ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties])
+
+object ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfoCodecJson: CodecJson[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo] = CodecJson.derive[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo]
+  implicit val ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfoDecoder: EntityDecoder[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo] = jsonOf[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo]
+  implicit val ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfoEncoder: EntityEncoder[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo] = jsonEncoderOf[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo]
+}

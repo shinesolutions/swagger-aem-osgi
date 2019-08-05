@@ -1,0 +1,29 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteThreaddumpThreadDumpCollectorProperties._
+
+case class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties (
+  schedulerPeriod: Option[ConfigNodePropertyInteger],
+schedulerRunOn: Option[ConfigNodePropertyDropDown],
+graniteThreaddumpEnabled: Option[ConfigNodePropertyBoolean],
+graniteThreaddumpDumpsPerFile: Option[ConfigNodePropertyInteger],
+graniteThreaddumpEnableGzipCompression: Option[ConfigNodePropertyBoolean],
+graniteThreaddumpEnableDirectoriesCompression: Option[ConfigNodePropertyBoolean],
+graniteThreaddumpEnableJStack: Option[ConfigNodePropertyBoolean],
+graniteThreaddumpMaxBackupDays: Option[ConfigNodePropertyInteger],
+graniteThreaddumpBackupCleanTrigger: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteThreaddumpThreadDumpCollectorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteThreaddumpThreadDumpCollectorPropertiesCodecJson: CodecJson[ComAdobeGraniteThreaddumpThreadDumpCollectorProperties] = CodecJson.derive[ComAdobeGraniteThreaddumpThreadDumpCollectorProperties]
+  implicit val ComAdobeGraniteThreaddumpThreadDumpCollectorPropertiesDecoder: EntityDecoder[ComAdobeGraniteThreaddumpThreadDumpCollectorProperties] = jsonOf[ComAdobeGraniteThreaddumpThreadDumpCollectorProperties]
+  implicit val ComAdobeGraniteThreaddumpThreadDumpCollectorPropertiesEncoder: EntityEncoder[ComAdobeGraniteThreaddumpThreadDumpCollectorProperties] = jsonEncoderOf[ComAdobeGraniteThreaddumpThreadDumpCollectorProperties]
+}

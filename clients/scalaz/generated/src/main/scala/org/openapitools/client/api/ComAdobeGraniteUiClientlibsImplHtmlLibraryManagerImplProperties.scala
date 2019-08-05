@@ -1,0 +1,40 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties._
+
+case class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties (
+  htmllibmanagerTiming: Option[ConfigNodePropertyBoolean],
+htmllibmanagerDebugInitJs: Option[ConfigNodePropertyString],
+htmllibmanagerMinify: Option[ConfigNodePropertyBoolean],
+htmllibmanagerDebug: Option[ConfigNodePropertyBoolean],
+htmllibmanagerGzip: Option[ConfigNodePropertyBoolean],
+htmllibmanagerMaxDataUriSize: Option[ConfigNodePropertyInteger],
+htmllibmanagerMaxage: Option[ConfigNodePropertyInteger],
+htmllibmanagerForceCQUrlInfo: Option[ConfigNodePropertyBoolean],
+htmllibmanagerDefaultthemename: Option[ConfigNodePropertyString],
+htmllibmanagerDefaultuserthemename: Option[ConfigNodePropertyString],
+htmllibmanagerClientmanager: Option[ConfigNodePropertyString],
+htmllibmanagerPathList: Option[ConfigNodePropertyArray],
+htmllibmanagerExcludedPathList: Option[ConfigNodePropertyArray],
+htmllibmanagerProcessorJs: Option[ConfigNodePropertyArray],
+htmllibmanagerProcessorCss: Option[ConfigNodePropertyArray],
+htmllibmanagerLongcachePatterns: Option[ConfigNodePropertyArray],
+htmllibmanagerLongcacheFormat: Option[ConfigNodePropertyString],
+htmllibmanagerUseFileSystemOutputCache: Option[ConfigNodePropertyBoolean],
+htmllibmanagerFileSystemOutputCacheLocation: Option[ConfigNodePropertyString],
+htmllibmanagerDisableReplacement: Option[ConfigNodePropertyArray])
+
+object ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplPropertiesCodecJson: CodecJson[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties] = CodecJson.derive[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties]
+  implicit val ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties] = jsonOf[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties]
+  implicit val ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties] = jsonEncoderOf[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties]
+}

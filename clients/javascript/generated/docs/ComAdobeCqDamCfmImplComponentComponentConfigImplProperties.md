@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **damCfmComponentResourceType** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

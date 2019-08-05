@@ -1,9 +1,7 @@
 
-
 # ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **illegalCharMapping** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

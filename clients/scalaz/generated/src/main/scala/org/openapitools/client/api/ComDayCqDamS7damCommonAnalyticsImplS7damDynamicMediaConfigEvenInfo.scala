@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo._
+
+case class ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties])
+
+object ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfoCodecJson: CodecJson[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo] = CodecJson.derive[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo]
+  implicit val ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfoDecoder: EntityDecoder[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo] = jsonOf[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo]
+  implicit val ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfoEncoder: EntityEncoder[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo] = jsonEncoderOf[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo]
+}

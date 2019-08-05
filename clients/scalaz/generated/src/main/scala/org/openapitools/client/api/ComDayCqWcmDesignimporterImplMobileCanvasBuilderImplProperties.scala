@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties._
+
+case class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties (
+  filepattern: Option[ConfigNodePropertyString],
+deviceGroups: Option[ConfigNodePropertyArray],
+buildPageNodes: Option[ConfigNodePropertyBoolean],
+buildClientLibs: Option[ConfigNodePropertyBoolean],
+buildCanvasComponent: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplPropertiesCodecJson: CodecJson[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties] = CodecJson.derive[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties]
+  implicit val ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplPropertiesDecoder: EntityDecoder[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties] = jsonOf[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties]
+  implicit val ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplPropertiesEncoder: EntityEncoder[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties] = jsonEncoderOf[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties]
+}

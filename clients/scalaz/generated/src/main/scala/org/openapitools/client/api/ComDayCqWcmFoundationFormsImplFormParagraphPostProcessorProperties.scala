@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties._
+
+case class ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties (
+  formsFormparagraphpostprocessorEnabled: Option[ConfigNodePropertyBoolean],
+formsFormparagraphpostprocessorFormresourcetypes: Option[ConfigNodePropertyArray])
+
+object ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorPropertiesCodecJson: CodecJson[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties] = CodecJson.derive[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties]
+  implicit val ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorPropertiesDecoder: EntityDecoder[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties] = jsonOf[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties]
+  implicit val ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorPropertiesEncoder: EntityEncoder[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties] = jsonEncoderOf[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties]
+}

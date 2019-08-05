@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **inboxImplTypeproviderRegistrypaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo._
+
+case class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties])
+
+object ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfoCodecJson: CodecJson[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo] = CodecJson.derive[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo]
+  implicit val ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfoDecoder: EntityDecoder[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo] = jsonOf[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo]
+  implicit val ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfoEncoder: EntityEncoder[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo] = jsonEncoderOf[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo]
+}

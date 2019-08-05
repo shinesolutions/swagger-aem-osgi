@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

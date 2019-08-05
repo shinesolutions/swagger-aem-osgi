@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo._
+
+case class OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfoCodecJson: CodecJson[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo] = CodecJson.derive[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo]
+  implicit val OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfoDecoder: EntityDecoder[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo] = jsonOf[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo]
+  implicit val OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfoEncoder: EntityEncoder[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo] = jsonEncoderOf[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo]
+}

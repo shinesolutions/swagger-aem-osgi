@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties._
+
+case class ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties (
+  jmxObjectname: Option[ConfigNodePropertyString],
+active: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplJmxAssetUpdateMonitorImplPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties] = CodecJson.derive[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties]
+  implicit val ComDayCqDamCoreImplJmxAssetUpdateMonitorImplPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties] = jsonOf[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties]
+  implicit val ComDayCqDamCoreImplJmxAssetUpdateMonitorImplPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties] = jsonEncoderOf[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties]
+}

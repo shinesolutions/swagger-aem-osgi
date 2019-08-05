@@ -1,9 +1,7 @@
 
-
 # OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **accountName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

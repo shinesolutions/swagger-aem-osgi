@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties._
+
+case class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties (
+  `path`: Option[ConfigNodePropertyString],
+tokenRequiredAttr: Option[ConfigNodePropertyDropDown],
+tokenAlternateUrl: Option[ConfigNodePropertyString],
+tokenEncapsulated: Option[ConfigNodePropertyBoolean],
+skipTokenRefresh: Option[ConfigNodePropertyArray])
+
+object ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerPropertiesCodecJson: CodecJson[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties] = CodecJson.derive[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties]
+  implicit val ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerPropertiesDecoder: EntityDecoder[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties] = jsonOf[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties]
+  implicit val ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerPropertiesEncoder: EntityEncoder[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties] = jsonEncoderOf[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties]
+}

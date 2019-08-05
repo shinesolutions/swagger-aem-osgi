@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties._
+
+case class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties (
+  comAdobeCqScreensAnalyticsImplUrl: Option[ConfigNodePropertyString],
+comAdobeCqScreensAnalyticsImplApikey: Option[ConfigNodePropertyString],
+comAdobeCqScreensAnalyticsImplProject: Option[ConfigNodePropertyString],
+comAdobeCqScreensAnalyticsImplEnvironment: Option[ConfigNodePropertyDropDown],
+comAdobeCqScreensAnalyticsImplSendFrequency: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplPropertiesCodecJson: CodecJson[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties] = CodecJson.derive[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties]
+  implicit val ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplPropertiesDecoder: EntityDecoder[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties] = jsonOf[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties]
+  implicit val ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplPropertiesEncoder: EntityEncoder[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties] = jsonEncoderOf[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties]
+}

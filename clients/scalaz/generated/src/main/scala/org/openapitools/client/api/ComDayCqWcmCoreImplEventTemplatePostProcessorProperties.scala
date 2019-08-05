@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplEventTemplatePostProcessorProperties._
+
+case class ComDayCqWcmCoreImplEventTemplatePostProcessorProperties (
+  paths: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmCoreImplEventTemplatePostProcessorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplEventTemplatePostProcessorPropertiesCodecJson: CodecJson[ComDayCqWcmCoreImplEventTemplatePostProcessorProperties] = CodecJson.derive[ComDayCqWcmCoreImplEventTemplatePostProcessorProperties]
+  implicit val ComDayCqWcmCoreImplEventTemplatePostProcessorPropertiesDecoder: EntityDecoder[ComDayCqWcmCoreImplEventTemplatePostProcessorProperties] = jsonOf[ComDayCqWcmCoreImplEventTemplatePostProcessorProperties]
+  implicit val ComDayCqWcmCoreImplEventTemplatePostProcessorPropertiesEncoder: EntityEncoder[ComDayCqWcmCoreImplEventTemplatePostProcessorProperties] = jsonEncoderOf[ComDayCqWcmCoreImplEventTemplatePostProcessorProperties]
+}

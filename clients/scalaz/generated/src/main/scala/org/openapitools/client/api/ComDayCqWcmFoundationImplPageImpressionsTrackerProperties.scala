@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmFoundationImplPageImpressionsTrackerProperties._
+
+case class ComDayCqWcmFoundationImplPageImpressionsTrackerProperties (
+  slingAuthRequirements: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmFoundationImplPageImpressionsTrackerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmFoundationImplPageImpressionsTrackerPropertiesCodecJson: CodecJson[ComDayCqWcmFoundationImplPageImpressionsTrackerProperties] = CodecJson.derive[ComDayCqWcmFoundationImplPageImpressionsTrackerProperties]
+  implicit val ComDayCqWcmFoundationImplPageImpressionsTrackerPropertiesDecoder: EntityDecoder[ComDayCqWcmFoundationImplPageImpressionsTrackerProperties] = jsonOf[ComDayCqWcmFoundationImplPageImpressionsTrackerProperties]
+  implicit val ComDayCqWcmFoundationImplPageImpressionsTrackerPropertiesEncoder: EntityEncoder[ComDayCqWcmFoundationImplPageImpressionsTrackerProperties] = jsonEncoderOf[ComDayCqWcmFoundationImplPageImpressionsTrackerProperties]
+}

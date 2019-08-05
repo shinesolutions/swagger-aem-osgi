@@ -1,9 +1,7 @@
 
-
 # ComDayCqDamScene7ImplScene7UploadServiceImplInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]

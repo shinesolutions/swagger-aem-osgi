@@ -1,0 +1,34 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWidgetImplHtmlLibraryManagerImplProperties._
+
+case class ComDayCqWidgetImplHtmlLibraryManagerImplProperties (
+  htmllibmanagerClientmanager: Option[ConfigNodePropertyString],
+htmllibmanagerDebug: Option[ConfigNodePropertyBoolean],
+htmllibmanagerDebugConsole: Option[ConfigNodePropertyBoolean],
+htmllibmanagerDebugInitJs: Option[ConfigNodePropertyString],
+htmllibmanagerDefaultthemename: Option[ConfigNodePropertyString],
+htmllibmanagerDefaultuserthemename: Option[ConfigNodePropertyString],
+htmllibmanagerFirebuglitePath: Option[ConfigNodePropertyString],
+htmllibmanagerForceCQUrlInfo: Option[ConfigNodePropertyBoolean],
+htmllibmanagerGzip: Option[ConfigNodePropertyBoolean],
+htmllibmanagerMaxage: Option[ConfigNodePropertyInteger],
+htmllibmanagerMaxDataUriSize: Option[ConfigNodePropertyInteger],
+htmllibmanagerMinify: Option[ConfigNodePropertyBoolean],
+htmllibmanagerPathList: Option[ConfigNodePropertyArray],
+htmllibmanagerTiming: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqWidgetImplHtmlLibraryManagerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWidgetImplHtmlLibraryManagerImplPropertiesCodecJson: CodecJson[ComDayCqWidgetImplHtmlLibraryManagerImplProperties] = CodecJson.derive[ComDayCqWidgetImplHtmlLibraryManagerImplProperties]
+  implicit val ComDayCqWidgetImplHtmlLibraryManagerImplPropertiesDecoder: EntityDecoder[ComDayCqWidgetImplHtmlLibraryManagerImplProperties] = jsonOf[ComDayCqWidgetImplHtmlLibraryManagerImplProperties]
+  implicit val ComDayCqWidgetImplHtmlLibraryManagerImplPropertiesEncoder: EntityEncoder[ComDayCqWidgetImplHtmlLibraryManagerImplProperties] = jsonEncoderOf[ComDayCqWidgetImplHtmlLibraryManagerImplProperties]
+}

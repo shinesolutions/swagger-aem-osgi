@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties._
+
+case class ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties (
+  numUserLimit: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCPropertiesCodecJson: CodecJson[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties] = CodecJson.derive[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties]
+  implicit val ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCPropertiesDecoder: EntityDecoder[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties] = jsonOf[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties]
+  implicit val ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCPropertiesEncoder: EntityEncoder[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties] = jsonEncoderOf[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties]
+}

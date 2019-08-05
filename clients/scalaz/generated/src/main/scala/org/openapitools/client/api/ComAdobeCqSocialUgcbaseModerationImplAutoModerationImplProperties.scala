@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties._
+
+case class ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties (
+  automoderationSequence: Option[ConfigNodePropertyArray],
+automoderationOnfailurestop: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplPropertiesCodecJson: CodecJson[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties] = CodecJson.derive[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties]
+  implicit val ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplPropertiesDecoder: EntityDecoder[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties] = jsonOf[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties]
+  implicit val ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplPropertiesEncoder: EntityEncoder[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties] = jsonEncoderOf[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties]
+}

@@ -1,9 +1,7 @@
 
-
 # ComDayCqRewriterProcessorImplHtmlParserFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **htmlparserProcessTags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamScene7ImplScene7UploadServiceImplProperties._
+
+case class ComDayCqDamScene7ImplScene7UploadServiceImplProperties (
+  cqDamScene7UploadserviceActivejobtimeoutLabel: Option[ConfigNodePropertyInteger],
+cqDamScene7UploadserviceConnectionmaxperrouteLabel: Option[ConfigNodePropertyInteger])
+
+object ComDayCqDamScene7ImplScene7UploadServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamScene7ImplScene7UploadServiceImplPropertiesCodecJson: CodecJson[ComDayCqDamScene7ImplScene7UploadServiceImplProperties] = CodecJson.derive[ComDayCqDamScene7ImplScene7UploadServiceImplProperties]
+  implicit val ComDayCqDamScene7ImplScene7UploadServiceImplPropertiesDecoder: EntityDecoder[ComDayCqDamScene7ImplScene7UploadServiceImplProperties] = jsonOf[ComDayCqDamScene7ImplScene7UploadServiceImplProperties]
+  implicit val ComDayCqDamScene7ImplScene7UploadServiceImplPropertiesEncoder: EntityEncoder[ComDayCqDamScene7ImplScene7UploadServiceImplProperties] = jsonEncoderOf[ComDayCqDamScene7ImplScene7UploadServiceImplProperties]
+}

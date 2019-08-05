@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **damShowexpired** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

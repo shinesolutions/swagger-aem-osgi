@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties._
+
+case class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties (
+  allowOnlySystemUser: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorPropertiesCodecJson: CodecJson[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties] = CodecJson.derive[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties]
+  implicit val OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorPropertiesDecoder: EntityDecoder[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties] = jsonOf[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties]
+  implicit val OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorPropertiesEncoder: EntityEncoder[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties] = jsonEncoderOf[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties]
+}

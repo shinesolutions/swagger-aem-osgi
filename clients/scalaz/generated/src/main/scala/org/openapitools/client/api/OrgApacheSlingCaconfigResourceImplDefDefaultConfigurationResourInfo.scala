@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo._
+
+case class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfoCodecJson: CodecJson[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo] = CodecJson.derive[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo]
+  implicit val OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfoDecoder: EntityDecoder[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo] = jsonOf[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo]
+  implicit val OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfoEncoder: EntityEncoder[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo] = jsonEncoderOf[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo]
+}

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingEngineParametersProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingDefaultParameterEncoding** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo._
+
+case class ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties])
+
+object ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfoCodecJson: CodecJson[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo] = CodecJson.derive[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo]
+  implicit val ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfoDecoder: EntityDecoder[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo] = jsonOf[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo]
+  implicit val ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfoEncoder: EntityEncoder[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo] = jsonEncoderOf[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo]
+}

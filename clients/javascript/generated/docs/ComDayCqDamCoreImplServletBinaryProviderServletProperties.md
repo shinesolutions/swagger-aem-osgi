@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplServletBinaryProviderServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingServletResourceTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

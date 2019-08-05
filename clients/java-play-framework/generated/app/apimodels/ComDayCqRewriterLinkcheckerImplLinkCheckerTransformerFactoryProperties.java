@@ -1,0 +1,217 @@
+package apimodels;
+
+import apimodels.ConfigNodePropertyArray;
+import apimodels.ConfigNodePropertyBoolean;
+import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.*;
+import java.util.Set;
+import javax.validation.*;
+import java.util.Objects;
+import javax.validation.constraints.*;
+/**
+ * ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
+ */
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
+
+@SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
+public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties   {
+  @JsonProperty("linkcheckertransformer.disableRewriting")
+  private ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting = null;
+
+  @JsonProperty("linkcheckertransformer.disableChecking")
+  private ConfigNodePropertyBoolean linkcheckertransformerDisableChecking = null;
+
+  @JsonProperty("linkcheckertransformer.mapCacheSize")
+  private ConfigNodePropertyInteger linkcheckertransformerMapCacheSize = null;
+
+  @JsonProperty("linkcheckertransformer.strictExtensionCheck")
+  private ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck = null;
+
+  @JsonProperty("linkcheckertransformer.stripHtmltExtension")
+  private ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension = null;
+
+  @JsonProperty("linkcheckertransformer.rewriteElements")
+  private ConfigNodePropertyArray linkcheckertransformerRewriteElements = null;
+
+  @JsonProperty("linkcheckertransformer.stripExtensionPathBlacklist")
+  private ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist = null;
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerDisableRewriting(ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting) {
+    this.linkcheckertransformerDisableRewriting = linkcheckertransformerDisableRewriting;
+    return this;
+  }
+
+   /**
+   * Get linkcheckertransformerDisableRewriting
+   * @return linkcheckertransformerDisableRewriting
+  **/
+  @Valid
+  public ConfigNodePropertyBoolean getLinkcheckertransformerDisableRewriting() {
+    return linkcheckertransformerDisableRewriting;
+  }
+
+  public void setLinkcheckertransformerDisableRewriting(ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting) {
+    this.linkcheckertransformerDisableRewriting = linkcheckertransformerDisableRewriting;
+  }
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerDisableChecking(ConfigNodePropertyBoolean linkcheckertransformerDisableChecking) {
+    this.linkcheckertransformerDisableChecking = linkcheckertransformerDisableChecking;
+    return this;
+  }
+
+   /**
+   * Get linkcheckertransformerDisableChecking
+   * @return linkcheckertransformerDisableChecking
+  **/
+  @Valid
+  public ConfigNodePropertyBoolean getLinkcheckertransformerDisableChecking() {
+    return linkcheckertransformerDisableChecking;
+  }
+
+  public void setLinkcheckertransformerDisableChecking(ConfigNodePropertyBoolean linkcheckertransformerDisableChecking) {
+    this.linkcheckertransformerDisableChecking = linkcheckertransformerDisableChecking;
+  }
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerMapCacheSize(ConfigNodePropertyInteger linkcheckertransformerMapCacheSize) {
+    this.linkcheckertransformerMapCacheSize = linkcheckertransformerMapCacheSize;
+    return this;
+  }
+
+   /**
+   * Get linkcheckertransformerMapCacheSize
+   * @return linkcheckertransformerMapCacheSize
+  **/
+  @Valid
+  public ConfigNodePropertyInteger getLinkcheckertransformerMapCacheSize() {
+    return linkcheckertransformerMapCacheSize;
+  }
+
+  public void setLinkcheckertransformerMapCacheSize(ConfigNodePropertyInteger linkcheckertransformerMapCacheSize) {
+    this.linkcheckertransformerMapCacheSize = linkcheckertransformerMapCacheSize;
+  }
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStrictExtensionCheck(ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck) {
+    this.linkcheckertransformerStrictExtensionCheck = linkcheckertransformerStrictExtensionCheck;
+    return this;
+  }
+
+   /**
+   * Get linkcheckertransformerStrictExtensionCheck
+   * @return linkcheckertransformerStrictExtensionCheck
+  **/
+  @Valid
+  public ConfigNodePropertyBoolean getLinkcheckertransformerStrictExtensionCheck() {
+    return linkcheckertransformerStrictExtensionCheck;
+  }
+
+  public void setLinkcheckertransformerStrictExtensionCheck(ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck) {
+    this.linkcheckertransformerStrictExtensionCheck = linkcheckertransformerStrictExtensionCheck;
+  }
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStripHtmltExtension(ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension) {
+    this.linkcheckertransformerStripHtmltExtension = linkcheckertransformerStripHtmltExtension;
+    return this;
+  }
+
+   /**
+   * Get linkcheckertransformerStripHtmltExtension
+   * @return linkcheckertransformerStripHtmltExtension
+  **/
+  @Valid
+  public ConfigNodePropertyBoolean getLinkcheckertransformerStripHtmltExtension() {
+    return linkcheckertransformerStripHtmltExtension;
+  }
+
+  public void setLinkcheckertransformerStripHtmltExtension(ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension) {
+    this.linkcheckertransformerStripHtmltExtension = linkcheckertransformerStripHtmltExtension;
+  }
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerRewriteElements(ConfigNodePropertyArray linkcheckertransformerRewriteElements) {
+    this.linkcheckertransformerRewriteElements = linkcheckertransformerRewriteElements;
+    return this;
+  }
+
+   /**
+   * Get linkcheckertransformerRewriteElements
+   * @return linkcheckertransformerRewriteElements
+  **/
+  @Valid
+  public ConfigNodePropertyArray getLinkcheckertransformerRewriteElements() {
+    return linkcheckertransformerRewriteElements;
+  }
+
+  public void setLinkcheckertransformerRewriteElements(ConfigNodePropertyArray linkcheckertransformerRewriteElements) {
+    this.linkcheckertransformerRewriteElements = linkcheckertransformerRewriteElements;
+  }
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStripExtensionPathBlacklist(ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist) {
+    this.linkcheckertransformerStripExtensionPathBlacklist = linkcheckertransformerStripExtensionPathBlacklist;
+    return this;
+  }
+
+   /**
+   * Get linkcheckertransformerStripExtensionPathBlacklist
+   * @return linkcheckertransformerStripExtensionPathBlacklist
+  **/
+  @Valid
+  public ConfigNodePropertyArray getLinkcheckertransformerStripExtensionPathBlacklist() {
+    return linkcheckertransformerStripExtensionPathBlacklist;
+  }
+
+  public void setLinkcheckertransformerStripExtensionPathBlacklist(ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist) {
+    this.linkcheckertransformerStripExtensionPathBlacklist = linkcheckertransformerStripExtensionPathBlacklist;
+  }
+
+
+  @Override
+  public boolean equals(java.lang.Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties = (ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties) o;
+    return Objects.equals(linkcheckertransformerDisableRewriting, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableRewriting) &&
+        Objects.equals(linkcheckertransformerDisableChecking, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableChecking) &&
+        Objects.equals(linkcheckertransformerMapCacheSize, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerMapCacheSize) &&
+        Objects.equals(linkcheckertransformerStrictExtensionCheck, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStrictExtensionCheck) &&
+        Objects.equals(linkcheckertransformerStripHtmltExtension, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripHtmltExtension) &&
+        Objects.equals(linkcheckertransformerRewriteElements, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerRewriteElements) &&
+        Objects.equals(linkcheckertransformerStripExtensionPathBlacklist, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripExtensionPathBlacklist);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(linkcheckertransformerDisableRewriting, linkcheckertransformerDisableChecking, linkcheckertransformerMapCacheSize, linkcheckertransformerStrictExtensionCheck, linkcheckertransformerStripHtmltExtension, linkcheckertransformerRewriteElements, linkcheckertransformerStripExtensionPathBlacklist);
+  }
+
+  @SuppressWarnings("StringBufferReplaceableByString")
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties {\n");
+    
+    sb.append("    linkcheckertransformerDisableRewriting: ").append(toIndentedString(linkcheckertransformerDisableRewriting)).append("\n");
+    sb.append("    linkcheckertransformerDisableChecking: ").append(toIndentedString(linkcheckertransformerDisableChecking)).append("\n");
+    sb.append("    linkcheckertransformerMapCacheSize: ").append(toIndentedString(linkcheckertransformerMapCacheSize)).append("\n");
+    sb.append("    linkcheckertransformerStrictExtensionCheck: ").append(toIndentedString(linkcheckertransformerStrictExtensionCheck)).append("\n");
+    sb.append("    linkcheckertransformerStripHtmltExtension: ").append(toIndentedString(linkcheckertransformerStripHtmltExtension)).append("\n");
+    sb.append("    linkcheckertransformerRewriteElements: ").append(toIndentedString(linkcheckertransformerRewriteElements)).append("\n");
+    sb.append("    linkcheckertransformerStripExtensionPathBlacklist: ").append(toIndentedString(linkcheckertransformerStripExtensionPathBlacklist)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(java.lang.Object o) {
+    if (o == null) {
+      return "null";
+    }
+    return o.toString().replace("\n", "\n    ");
+  }
+}
+

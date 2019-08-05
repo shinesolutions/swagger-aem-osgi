@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo._
+
+case class OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties])
+
+object OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfoCodecJson: CodecJson[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo] = CodecJson.derive[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo]
+  implicit val OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfoDecoder: EntityDecoder[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo] = jsonOf[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo]
+  implicit val OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfoEncoder: EntityEncoder[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo] = jsonEncoderOf[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo]
+}

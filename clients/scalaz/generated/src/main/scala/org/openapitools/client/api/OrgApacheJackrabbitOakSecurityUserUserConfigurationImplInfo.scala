@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo._
+
+case class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfoCodecJson: CodecJson[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo] = CodecJson.derive[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo]
+  implicit val OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfoDecoder: EntityDecoder[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo] = jsonOf[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo]
+  implicit val OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfoEncoder: EntityEncoder[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo] = jsonEncoderOf[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo]
+}

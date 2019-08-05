@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties._
+
+case class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties (
+  comAdobeGraniteJettySslPort: Option[ConfigNodePropertyInteger],
+comAdobeGraniteJettySslKeystoreUser: Option[ConfigNodePropertyString],
+comAdobeGraniteJettySslKeystorePassword: Option[ConfigNodePropertyString],
+comAdobeGraniteJettySslCiphersuitesExcluded: Option[ConfigNodePropertyArray],
+comAdobeGraniteJettySslCiphersuitesIncluded: Option[ConfigNodePropertyArray],
+comAdobeGraniteJettySslClientCertificate: Option[ConfigNodePropertyDropDown])
+
+object ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryPropertiesCodecJson: CodecJson[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties] = CodecJson.derive[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties]
+  implicit val ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryPropertiesDecoder: EntityDecoder[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties] = jsonOf[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties]
+  implicit val ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryPropertiesEncoder: EntityEncoder[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties] = jsonEncoderOf[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties]
+}

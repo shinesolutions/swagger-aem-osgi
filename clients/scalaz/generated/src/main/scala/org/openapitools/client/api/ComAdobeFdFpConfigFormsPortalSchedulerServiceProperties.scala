@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties._
+
+case class ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties (
+  formportalInterval: Option[ConfigNodePropertyString])
+
+object ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeFdFpConfigFormsPortalSchedulerServicePropertiesCodecJson: CodecJson[ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties] = CodecJson.derive[ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties]
+  implicit val ComAdobeFdFpConfigFormsPortalSchedulerServicePropertiesDecoder: EntityDecoder[ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties] = jsonOf[ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties]
+  implicit val ComAdobeFdFpConfigFormsPortalSchedulerServicePropertiesEncoder: EntityEncoder[ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties] = jsonEncoderOf[ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties]
+}

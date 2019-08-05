@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties._
+
+case class ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties (
+  enableDataTriggeredContent: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagPropertiesCodecJson: CodecJson[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties] = CodecJson.derive[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties]
+  implicit val ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagPropertiesDecoder: EntityDecoder[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties] = jsonOf[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties]
+  implicit val ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagPropertiesEncoder: EntityEncoder[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties] = jsonEncoderOf[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties]
+}

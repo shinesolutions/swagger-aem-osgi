@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

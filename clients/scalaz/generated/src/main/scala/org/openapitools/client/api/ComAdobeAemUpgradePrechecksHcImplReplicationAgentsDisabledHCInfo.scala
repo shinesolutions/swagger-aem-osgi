@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo._
+
+case class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties])
+
+object ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfoCodecJson: CodecJson[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo] = CodecJson.derive[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo]
+  implicit val ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfoDecoder: EntityDecoder[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo] = jsonOf[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo]
+  implicit val ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfoEncoder: EntityEncoder[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo] = jsonEncoderOf[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo]
+}

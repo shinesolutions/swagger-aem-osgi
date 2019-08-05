@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties._
+
+case class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties (
+  enable: Option[ConfigNodePropertyBoolean],
+uGCLimit: Option[ConfigNodePropertyInteger],
+ugcLimitDuration: Option[ConfigNodePropertyInteger],
+domains: Option[ConfigNodePropertyArray],
+toList: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitPropertiesCodecJson: CodecJson[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties] = CodecJson.derive[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties]
+  implicit val ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitPropertiesDecoder: EntityDecoder[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties] = jsonOf[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties]
+  implicit val ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitPropertiesEncoder: EntityEncoder[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties] = jsonEncoderOf[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties]
+}

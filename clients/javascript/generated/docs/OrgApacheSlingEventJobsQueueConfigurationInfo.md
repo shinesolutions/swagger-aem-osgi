@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingEventJobsQueueConfigurationInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

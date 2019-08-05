@@ -1,9 +1,7 @@
 
-
 # ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamImageCacheMaxMemory** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

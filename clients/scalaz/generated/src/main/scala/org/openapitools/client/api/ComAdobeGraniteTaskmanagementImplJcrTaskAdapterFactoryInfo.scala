@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo._
+
+case class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties])
+
+object ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfoCodecJson: CodecJson[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo] = CodecJson.derive[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo]
+  implicit val ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfoDecoder: EntityDecoder[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo] = jsonOf[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo]
+  implicit val ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfoEncoder: EntityEncoder[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo] = jsonEncoderOf[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo]
+}

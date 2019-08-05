@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties._
+
+case class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties (
+  userMapping: Option[ConfigNodePropertyArray],
+userDefault: Option[ConfigNodePropertyString],
+userEnableDefaultMapping: Option[ConfigNodePropertyBoolean],
+requireValidation: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingServiceusermappingImplServiceUserMapperImplPropertiesCodecJson: CodecJson[OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties] = CodecJson.derive[OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties]
+  implicit val OrgApacheSlingServiceusermappingImplServiceUserMapperImplPropertiesDecoder: EntityDecoder[OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties] = jsonOf[OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties]
+  implicit val OrgApacheSlingServiceusermappingImplServiceUserMapperImplPropertiesEncoder: EntityEncoder[OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties] = jsonEncoderOf[OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties]
+}

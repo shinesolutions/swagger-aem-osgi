@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteFragsImplRandomFeatureProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **featureName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

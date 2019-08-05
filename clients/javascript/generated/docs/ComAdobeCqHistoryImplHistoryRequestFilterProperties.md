@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqHistoryImplHistoryRequestFilterProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **historyRequestFilterExcludedSelectors** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

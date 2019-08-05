@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

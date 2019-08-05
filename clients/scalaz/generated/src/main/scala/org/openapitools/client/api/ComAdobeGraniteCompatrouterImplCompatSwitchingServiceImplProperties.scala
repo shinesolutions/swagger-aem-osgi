@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties._
+
+case class ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties (
+  compatgroups: Option[ConfigNodePropertyArray],
+enabled: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplPropertiesCodecJson: CodecJson[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties] = CodecJson.derive[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties]
+  implicit val ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties] = jsonOf[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties]
+  implicit val ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties] = jsonEncoderOf[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties]
+}

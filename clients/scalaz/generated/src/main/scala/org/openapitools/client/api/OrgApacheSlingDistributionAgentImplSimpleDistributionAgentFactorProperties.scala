@@ -1,0 +1,31 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties._
+
+case class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties (
+  name: Option[ConfigNodePropertyString],
+title: Option[ConfigNodePropertyString],
+details: Option[ConfigNodePropertyString],
+enabled: Option[ConfigNodePropertyBoolean],
+serviceName: Option[ConfigNodePropertyString],
+logLevel: Option[ConfigNodePropertyDropDown],
+queueProcessingEnabled: Option[ConfigNodePropertyBoolean],
+packageExporterTarget: Option[ConfigNodePropertyString],
+packageImporterTarget: Option[ConfigNodePropertyString],
+requestAuthorizationStrategyTarget: Option[ConfigNodePropertyString],
+triggersTarget: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPropertiesCodecJson: CodecJson[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties] = CodecJson.derive[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties]
+  implicit val OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPropertiesDecoder: EntityDecoder[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties] = jsonOf[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties]
+  implicit val OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPropertiesEncoder: EntityEncoder[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties] = jsonEncoderOf[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties]
+}

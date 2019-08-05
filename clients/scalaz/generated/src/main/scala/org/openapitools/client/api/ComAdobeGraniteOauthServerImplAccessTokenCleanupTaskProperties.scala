@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties._
+
+case class ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties (
+  schedulerExpression: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskPropertiesCodecJson: CodecJson[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties] = CodecJson.derive[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties]
+  implicit val ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskPropertiesDecoder: EntityDecoder[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties] = jsonOf[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties]
+  implicit val ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskPropertiesEncoder: EntityEncoder[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties] = jsonEncoderOf[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties]
+}

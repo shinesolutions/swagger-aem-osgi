@@ -1,9 +1,7 @@
 
-
 # OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cugSupportedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

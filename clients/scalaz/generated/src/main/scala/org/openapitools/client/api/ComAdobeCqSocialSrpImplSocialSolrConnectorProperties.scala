@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialSrpImplSocialSolrConnectorProperties._
+
+case class ComAdobeCqSocialSrpImplSocialSolrConnectorProperties (
+  srpType: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSocialSrpImplSocialSolrConnectorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialSrpImplSocialSolrConnectorPropertiesCodecJson: CodecJson[ComAdobeCqSocialSrpImplSocialSolrConnectorProperties] = CodecJson.derive[ComAdobeCqSocialSrpImplSocialSolrConnectorProperties]
+  implicit val ComAdobeCqSocialSrpImplSocialSolrConnectorPropertiesDecoder: EntityDecoder[ComAdobeCqSocialSrpImplSocialSolrConnectorProperties] = jsonOf[ComAdobeCqSocialSrpImplSocialSolrConnectorProperties]
+  implicit val ComAdobeCqSocialSrpImplSocialSolrConnectorPropertiesEncoder: EntityEncoder[ComAdobeCqSocialSrpImplSocialSolrConnectorProperties] = jsonEncoderOf[ComAdobeCqSocialSrpImplSocialSolrConnectorProperties]
+}

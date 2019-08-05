@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties._
+
+case class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties (
+  damShowexpired: Option[ConfigNodePropertyBoolean],
+damShowhidden: Option[ConfigNodePropertyBoolean],
+tagTitleSearch: Option[ConfigNodePropertyBoolean],
+guessTotal: Option[ConfigNodePropertyString],
+damExpiryProperty: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerPropertiesCodecJson: CodecJson[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties] = CodecJson.derive[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties]
+  implicit val ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerPropertiesDecoder: EntityDecoder[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties] = jsonOf[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties]
+  implicit val ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerPropertiesEncoder: EntityEncoder[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties] = jsonEncoderOf[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties]
+}

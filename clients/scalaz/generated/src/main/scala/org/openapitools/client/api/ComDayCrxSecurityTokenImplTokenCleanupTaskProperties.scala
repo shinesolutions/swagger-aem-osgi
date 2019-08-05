@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCrxSecurityTokenImplTokenCleanupTaskProperties._
+
+case class ComDayCrxSecurityTokenImplTokenCleanupTaskProperties (
+  enableTokenCleanupTask: Option[ConfigNodePropertyBoolean],
+schedulerExpression: Option[ConfigNodePropertyString],
+batchSize: Option[ConfigNodePropertyInteger])
+
+object ComDayCrxSecurityTokenImplTokenCleanupTaskProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCrxSecurityTokenImplTokenCleanupTaskPropertiesCodecJson: CodecJson[ComDayCrxSecurityTokenImplTokenCleanupTaskProperties] = CodecJson.derive[ComDayCrxSecurityTokenImplTokenCleanupTaskProperties]
+  implicit val ComDayCrxSecurityTokenImplTokenCleanupTaskPropertiesDecoder: EntityDecoder[ComDayCrxSecurityTokenImplTokenCleanupTaskProperties] = jsonOf[ComDayCrxSecurityTokenImplTokenCleanupTaskProperties]
+  implicit val ComDayCrxSecurityTokenImplTokenCleanupTaskPropertiesEncoder: EntityEncoder[ComDayCrxSecurityTokenImplTokenCleanupTaskProperties] = jsonEncoderOf[ComDayCrxSecurityTokenImplTokenCleanupTaskProperties]
+}

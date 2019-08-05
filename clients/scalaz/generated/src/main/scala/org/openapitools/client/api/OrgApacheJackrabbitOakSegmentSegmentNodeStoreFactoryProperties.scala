@@ -1,0 +1,47 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties._
+
+case class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties (
+  repositoryHome: Option[ConfigNodePropertyString],
+tarmkMode: Option[ConfigNodePropertyString],
+tarmkSize: Option[ConfigNodePropertyInteger],
+segmentCacheSize: Option[ConfigNodePropertyInteger],
+stringCacheSize: Option[ConfigNodePropertyInteger],
+templateCacheSize: Option[ConfigNodePropertyInteger],
+stringDeduplicationCacheSize: Option[ConfigNodePropertyInteger],
+templateDeduplicationCacheSize: Option[ConfigNodePropertyInteger],
+nodeDeduplicationCacheSize: Option[ConfigNodePropertyInteger],
+pauseCompaction: Option[ConfigNodePropertyBoolean],
+compactionRetryCount: Option[ConfigNodePropertyInteger],
+compactionForceTimeout: Option[ConfigNodePropertyInteger],
+compactionSizeDeltaEstimation: Option[ConfigNodePropertyInteger],
+compactionDisableEstimation: Option[ConfigNodePropertyBoolean],
+compactionRetainedGenerations: Option[ConfigNodePropertyInteger],
+compactionMemoryThreshold: Option[ConfigNodePropertyInteger],
+compactionProgressLog: Option[ConfigNodePropertyInteger],
+standby: Option[ConfigNodePropertyBoolean],
+customBlobStore: Option[ConfigNodePropertyBoolean],
+customSegmentStore: Option[ConfigNodePropertyBoolean],
+splitPersistence: Option[ConfigNodePropertyBoolean],
+repositoryBackupDir: Option[ConfigNodePropertyString],
+blobGcMaxAgeInSecs: Option[ConfigNodePropertyInteger],
+blobTrackSnapshotIntervalInSecs: Option[ConfigNodePropertyInteger],
+role: Option[ConfigNodePropertyString],
+registerDescriptors: Option[ConfigNodePropertyBoolean],
+dispatchChanges: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties] = CodecJson.derive[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties]
+  implicit val OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties] = jsonOf[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties]
+  implicit val OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties] = jsonEncoderOf[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties]
+}

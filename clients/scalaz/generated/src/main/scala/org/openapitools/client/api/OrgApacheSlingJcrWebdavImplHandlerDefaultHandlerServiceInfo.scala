@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo._
+
+case class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties])
+
+object OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfoCodecJson: CodecJson[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo] = CodecJson.derive[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo]
+  implicit val OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfoDecoder: EntityDecoder[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo] = jsonOf[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo]
+  implicit val OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfoEncoder: EntityEncoder[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo] = jsonEncoderOf[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo]
+}

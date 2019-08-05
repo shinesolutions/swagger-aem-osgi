@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteWorkflowCorePayloadMapCacheProperties._
+
+case class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties (
+  getSystemWorkflowModels: Option[ConfigNodePropertyArray],
+getPackageRootPath: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteWorkflowCorePayloadMapCacheProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteWorkflowCorePayloadMapCachePropertiesCodecJson: CodecJson[ComAdobeGraniteWorkflowCorePayloadMapCacheProperties] = CodecJson.derive[ComAdobeGraniteWorkflowCorePayloadMapCacheProperties]
+  implicit val ComAdobeGraniteWorkflowCorePayloadMapCachePropertiesDecoder: EntityDecoder[ComAdobeGraniteWorkflowCorePayloadMapCacheProperties] = jsonOf[ComAdobeGraniteWorkflowCorePayloadMapCacheProperties]
+  implicit val ComAdobeGraniteWorkflowCorePayloadMapCachePropertiesEncoder: EntityEncoder[ComAdobeGraniteWorkflowCorePayloadMapCacheProperties] = jsonEncoderOf[ComAdobeGraniteWorkflowCorePayloadMapCacheProperties]
+}

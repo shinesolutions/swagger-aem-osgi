@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheAriesJmxFrameworkStateConfigProperties._
+
+case class OrgApacheAriesJmxFrameworkStateConfigProperties (
+  attributeChangeNotificationEnabled: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheAriesJmxFrameworkStateConfigProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheAriesJmxFrameworkStateConfigPropertiesCodecJson: CodecJson[OrgApacheAriesJmxFrameworkStateConfigProperties] = CodecJson.derive[OrgApacheAriesJmxFrameworkStateConfigProperties]
+  implicit val OrgApacheAriesJmxFrameworkStateConfigPropertiesDecoder: EntityDecoder[OrgApacheAriesJmxFrameworkStateConfigProperties] = jsonOf[OrgApacheAriesJmxFrameworkStateConfigProperties]
+  implicit val OrgApacheAriesJmxFrameworkStateConfigPropertiesEncoder: EntityEncoder[OrgApacheAriesJmxFrameworkStateConfigProperties] = jsonEncoderOf[OrgApacheAriesJmxFrameworkStateConfigProperties]
+}

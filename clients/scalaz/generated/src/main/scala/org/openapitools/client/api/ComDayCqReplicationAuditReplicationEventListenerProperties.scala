@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqReplicationAuditReplicationEventListenerProperties._
+
+case class ComDayCqReplicationAuditReplicationEventListenerProperties (
+  serviceRanking: Option[ConfigNodePropertyInteger])
+
+object ComDayCqReplicationAuditReplicationEventListenerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqReplicationAuditReplicationEventListenerPropertiesCodecJson: CodecJson[ComDayCqReplicationAuditReplicationEventListenerProperties] = CodecJson.derive[ComDayCqReplicationAuditReplicationEventListenerProperties]
+  implicit val ComDayCqReplicationAuditReplicationEventListenerPropertiesDecoder: EntityDecoder[ComDayCqReplicationAuditReplicationEventListenerProperties] = jsonOf[ComDayCqReplicationAuditReplicationEventListenerProperties]
+  implicit val ComDayCqReplicationAuditReplicationEventListenerPropertiesEncoder: EntityEncoder[ComDayCqReplicationAuditReplicationEventListenerProperties] = jsonEncoderOf[ComDayCqReplicationAuditReplicationEventListenerProperties]
+}

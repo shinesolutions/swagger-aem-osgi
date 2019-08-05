@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteAuthImsProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **configid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

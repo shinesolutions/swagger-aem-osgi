@@ -1,0 +1,91 @@
+<?php
+
+namespace App\DTO;
+
+use Articus\DataTransfer\Annotation as DTA;
+
+/**
+ * Query parameters for comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl
+ */
+class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplQueryData
+{
+    /**
+     * @DTA\Data(field="propertylist", nullable=true)
+     * TODO check validator and strategy are correct and can handle container item type
+     * @DTA\Strategy(name="QueryParameterArray", options={"type":"string", "format":"csv"})
+     * @DTA\Validator(name="QueryParameterArrayType", options={"type":"string", "format":"csv"})
+     * @var string[]
+     */
+    public $propertylist;
+    /**
+     * @DTA\Data(field="post", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"bool"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"bool"})
+     * @var bool
+     */
+    public $post;
+    /**
+     * @DTA\Data(field="device.groups", nullable=true)
+     * TODO check validator and strategy are correct and can handle container item type
+     * @DTA\Strategy(name="QueryParameterArray", options={"type":"string", "format":"multi"})
+     * @DTA\Validator(name="QueryParameterArrayType", options={"type":"string", "format":"multi"})
+     * @var string[]
+     */
+    public $device_groups;
+    /**
+     * @DTA\Data(field="apply", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"bool"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"bool"})
+     * @var bool
+     */
+    public $apply;
+    /**
+     * @DTA\Data(field="$location", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"string"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"string"})
+     * @var string
+     */
+    public $location;
+    /**
+     * @DTA\Data(field="action", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"string"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"string"})
+     * @var string
+     */
+    public $action;
+    /**
+     * @DTA\Data(field="filepattern", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"string"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"string"})
+     * @var string
+     */
+    public $filepattern;
+    /**
+     * @DTA\Data(field="build.page.nodes", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"bool"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"bool"})
+     * @var bool
+     */
+    public $build_page_nodes;
+    /**
+     * @DTA\Data(field="build.client.libs", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"bool"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"bool"})
+     * @var bool
+     */
+    public $build_client_libs;
+    /**
+     * @DTA\Data(field="delete", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"bool"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"bool"})
+     * @var bool
+     */
+    public $delete;
+    /**
+     * @DTA\Data(field="build.canvas.component", nullable=true)
+     * @DTA\Strategy(name="QueryParameter", options={"type":"bool"})
+     * @DTA\Validator(name="QueryParameterType", options={"type":"bool"})
+     * @var bool
+     */
+    public $build_canvas_component;
+}

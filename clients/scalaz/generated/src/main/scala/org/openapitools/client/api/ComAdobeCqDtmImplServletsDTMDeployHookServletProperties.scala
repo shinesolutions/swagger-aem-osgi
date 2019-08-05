@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDtmImplServletsDTMDeployHookServletProperties._
+
+case class ComAdobeCqDtmImplServletsDTMDeployHookServletProperties (
+  dtmStagingIpWhitelist: Option[ConfigNodePropertyArray],
+dtmProductionIpWhitelist: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqDtmImplServletsDTMDeployHookServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDtmImplServletsDTMDeployHookServletPropertiesCodecJson: CodecJson[ComAdobeCqDtmImplServletsDTMDeployHookServletProperties] = CodecJson.derive[ComAdobeCqDtmImplServletsDTMDeployHookServletProperties]
+  implicit val ComAdobeCqDtmImplServletsDTMDeployHookServletPropertiesDecoder: EntityDecoder[ComAdobeCqDtmImplServletsDTMDeployHookServletProperties] = jsonOf[ComAdobeCqDtmImplServletsDTMDeployHookServletProperties]
+  implicit val ComAdobeCqDtmImplServletsDTMDeployHookServletPropertiesEncoder: EntityEncoder[ComAdobeCqDtmImplServletsDTMDeployHookServletProperties] = jsonEncoderOf[ComAdobeCqDtmImplServletsDTMDeployHookServletProperties]
+}

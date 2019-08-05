@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties._
+
+case class ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties (
+  largeIndexCriticalThreshold: Option[ConfigNodePropertyInteger],
+largeIndexWarnThreshold: Option[ConfigNodePropertyInteger],
+hcTags: Option[ConfigNodePropertyArray])
+
+object ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckPropertiesCodecJson: CodecJson[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties] = CodecJson.derive[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties]
+  implicit val ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckPropertiesDecoder: EntityDecoder[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties] = jsonOf[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties]
+  implicit val ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckPropertiesEncoder: EntityEncoder[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties] = jsonEncoderOf[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties]
+}

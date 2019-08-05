@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo._
+
+case class ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties])
+
+object ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfoCodecJson: CodecJson[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo] = CodecJson.derive[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo]
+  implicit val ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfoDecoder: EntityDecoder[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo] = jsonOf[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo]
+  implicit val ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfoEncoder: EntityEncoder[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo] = jsonEncoderOf[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo]
+}

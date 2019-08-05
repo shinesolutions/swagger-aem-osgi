@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ApacheSlingHealthCheckResultHTMLSerializerProperties._
+
+case class ApacheSlingHealthCheckResultHTMLSerializerProperties (
+  styleString: Option[ConfigNodePropertyString])
+
+object ApacheSlingHealthCheckResultHTMLSerializerProperties {
+  import DateTimeCodecs._
+
+  implicit val ApacheSlingHealthCheckResultHTMLSerializerPropertiesCodecJson: CodecJson[ApacheSlingHealthCheckResultHTMLSerializerProperties] = CodecJson.derive[ApacheSlingHealthCheckResultHTMLSerializerProperties]
+  implicit val ApacheSlingHealthCheckResultHTMLSerializerPropertiesDecoder: EntityDecoder[ApacheSlingHealthCheckResultHTMLSerializerProperties] = jsonOf[ApacheSlingHealthCheckResultHTMLSerializerProperties]
+  implicit val ApacheSlingHealthCheckResultHTMLSerializerPropertiesEncoder: EntityEncoder[ApacheSlingHealthCheckResultHTMLSerializerProperties] = jsonEncoderOf[ApacheSlingHealthCheckResultHTMLSerializerProperties]
+}

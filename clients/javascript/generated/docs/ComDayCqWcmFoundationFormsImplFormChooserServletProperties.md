@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmFoundationFormsImplFormChooserServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **serviceName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties._
+
+case class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties (
+  reportFetchAttempts: Option[ConfigNodePropertyInteger],
+reportFetchDelay: Option[ConfigNodePropertyInteger])
+
+object ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqAnalyticsSitecatalystImplImporterReportImporterPropertiesCodecJson: CodecJson[ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties] = CodecJson.derive[ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties]
+  implicit val ComDayCqAnalyticsSitecatalystImplImporterReportImporterPropertiesDecoder: EntityDecoder[ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties] = jsonOf[ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties]
+  implicit val ComDayCqAnalyticsSitecatalystImplImporterReportImporterPropertiesEncoder: EntityEncoder[ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties] = jsonEncoderOf[ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties]
+}

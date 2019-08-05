@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **omnisearchSuggestionRequiretextMin** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

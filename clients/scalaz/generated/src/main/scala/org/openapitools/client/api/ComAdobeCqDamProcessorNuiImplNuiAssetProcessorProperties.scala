@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties._
+
+case class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties (
+  nuiEnabled: Option[ConfigNodePropertyBoolean],
+nuiServiceUrl: Option[ConfigNodePropertyString],
+nuiApiKey: Option[ConfigNodePropertyString])
+
+object ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDamProcessorNuiImplNuiAssetProcessorPropertiesCodecJson: CodecJson[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties] = CodecJson.derive[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties]
+  implicit val ComAdobeCqDamProcessorNuiImplNuiAssetProcessorPropertiesDecoder: EntityDecoder[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties] = jsonOf[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties]
+  implicit val ComAdobeCqDamProcessorNuiImplNuiAssetProcessorPropertiesEncoder: EntityEncoder[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties] = jsonEncoderOf[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties]
+}

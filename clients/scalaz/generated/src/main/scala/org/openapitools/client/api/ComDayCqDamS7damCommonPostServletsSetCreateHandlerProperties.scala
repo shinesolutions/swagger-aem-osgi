@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties._
+
+case class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties (
+  slingPostOperation: Option[ConfigNodePropertyString],
+slingServletMethods: Option[ConfigNodePropertyString])
+
+object ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamS7damCommonPostServletsSetCreateHandlerPropertiesCodecJson: CodecJson[ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties] = CodecJson.derive[ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties]
+  implicit val ComDayCqDamS7damCommonPostServletsSetCreateHandlerPropertiesDecoder: EntityDecoder[ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties] = jsonOf[ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties]
+  implicit val ComDayCqDamS7damCommonPostServletsSetCreateHandlerPropertiesEncoder: EntityEncoder[ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties] = jsonEncoderOf[ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties]
+}

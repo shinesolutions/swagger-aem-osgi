@@ -1,9 +1,7 @@
 
-
 # OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **handlerName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

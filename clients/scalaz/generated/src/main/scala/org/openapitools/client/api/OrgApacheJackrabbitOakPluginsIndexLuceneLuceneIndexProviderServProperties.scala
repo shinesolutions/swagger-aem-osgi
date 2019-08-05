@@ -1,0 +1,36 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties._
+
+case class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties (
+  disabled: Option[ConfigNodePropertyBoolean],
+debug: Option[ConfigNodePropertyBoolean],
+localIndexDir: Option[ConfigNodePropertyString],
+enableOpenIndexAsync: Option[ConfigNodePropertyBoolean],
+threadPoolSize: Option[ConfigNodePropertyInteger],
+prefetchIndexFiles: Option[ConfigNodePropertyBoolean],
+extractedTextCacheSizeInMB: Option[ConfigNodePropertyInteger],
+extractedTextCacheExpiryInSecs: Option[ConfigNodePropertyInteger],
+alwaysUsePreExtractedCache: Option[ConfigNodePropertyBoolean],
+booleanClauseLimit: Option[ConfigNodePropertyInteger],
+enableHybridIndexing: Option[ConfigNodePropertyBoolean],
+hybridQueueSize: Option[ConfigNodePropertyInteger],
+disableStoredIndexDefinition: Option[ConfigNodePropertyBoolean],
+deletedBlobsCollectionEnabled: Option[ConfigNodePropertyBoolean],
+propIndexCleanerIntervalInSecs: Option[ConfigNodePropertyInteger],
+enableSingleBlobIndexFiles: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties] = CodecJson.derive[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties]
+  implicit val OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties] = jsonOf[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties]
+  implicit val OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties]
+}

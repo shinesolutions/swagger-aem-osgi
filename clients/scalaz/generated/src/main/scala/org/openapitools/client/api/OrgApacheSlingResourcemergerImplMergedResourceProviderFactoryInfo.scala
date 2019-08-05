@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo._
+
+case class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties])
+
+object OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfoCodecJson: CodecJson[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo] = CodecJson.derive[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo]
+  implicit val OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfoDecoder: EntityDecoder[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo] = jsonOf[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo]
+  implicit val OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfoEncoder: EntityEncoder[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo] = jsonEncoderOf[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo]
+}

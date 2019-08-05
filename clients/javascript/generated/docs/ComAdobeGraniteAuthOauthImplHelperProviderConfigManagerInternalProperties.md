@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthCookieLoginTimeout** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

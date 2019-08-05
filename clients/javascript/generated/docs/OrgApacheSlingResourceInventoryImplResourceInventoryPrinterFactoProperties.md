@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **felixInventoryPrinterName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

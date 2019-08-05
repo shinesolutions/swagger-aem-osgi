@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqReplicationImplReverseReplicatorProperties._
+
+case class ComDayCqReplicationImplReverseReplicatorProperties (
+  schedulerPeriod: Option[ConfigNodePropertyInteger])
+
+object ComDayCqReplicationImplReverseReplicatorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqReplicationImplReverseReplicatorPropertiesCodecJson: CodecJson[ComDayCqReplicationImplReverseReplicatorProperties] = CodecJson.derive[ComDayCqReplicationImplReverseReplicatorProperties]
+  implicit val ComDayCqReplicationImplReverseReplicatorPropertiesDecoder: EntityDecoder[ComDayCqReplicationImplReverseReplicatorProperties] = jsonOf[ComDayCqReplicationImplReverseReplicatorProperties]
+  implicit val ComDayCqReplicationImplReverseReplicatorPropertiesEncoder: EntityEncoder[ComDayCqReplicationImplReverseReplicatorProperties] = jsonEncoderOf[ComDayCqReplicationImplReverseReplicatorProperties]
+}

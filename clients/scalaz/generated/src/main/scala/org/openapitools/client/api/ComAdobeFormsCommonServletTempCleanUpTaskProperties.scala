@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeFormsCommonServletTempCleanUpTaskProperties._
+
+case class ComAdobeFormsCommonServletTempCleanUpTaskProperties (
+  schedulerExpression: Option[ConfigNodePropertyString],
+durationForTemporaryStorage: Option[ConfigNodePropertyString],
+durationForAnonymousStorage: Option[ConfigNodePropertyString])
+
+object ComAdobeFormsCommonServletTempCleanUpTaskProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeFormsCommonServletTempCleanUpTaskPropertiesCodecJson: CodecJson[ComAdobeFormsCommonServletTempCleanUpTaskProperties] = CodecJson.derive[ComAdobeFormsCommonServletTempCleanUpTaskProperties]
+  implicit val ComAdobeFormsCommonServletTempCleanUpTaskPropertiesDecoder: EntityDecoder[ComAdobeFormsCommonServletTempCleanUpTaskProperties] = jsonOf[ComAdobeFormsCommonServletTempCleanUpTaskProperties]
+  implicit val ComAdobeFormsCommonServletTempCleanUpTaskPropertiesEncoder: EntityEncoder[ComAdobeFormsCommonServletTempCleanUpTaskProperties] = jsonEncoderOf[ComAdobeFormsCommonServletTempCleanUpTaskProperties]
+}

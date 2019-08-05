@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties._
+
+case class OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties (
+  homePath: Option[ConfigNodePropertyString])
+
+object OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryPropertiesCodecJson: CodecJson[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties] = CodecJson.derive[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties]
+  implicit val OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties] = jsonOf[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties]
+  implicit val OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties] = jsonEncoderOf[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties]
+}

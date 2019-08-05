@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **usersPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

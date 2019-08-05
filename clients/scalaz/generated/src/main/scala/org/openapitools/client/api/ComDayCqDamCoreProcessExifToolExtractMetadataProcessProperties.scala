@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties._
+
+case class ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties (
+  processLabel: Option[ConfigNodePropertyString],
+cqDamEnableSha1: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreProcessExifToolExtractMetadataProcessPropertiesCodecJson: CodecJson[ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties] = CodecJson.derive[ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties]
+  implicit val ComDayCqDamCoreProcessExifToolExtractMetadataProcessPropertiesDecoder: EntityDecoder[ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties] = jsonOf[ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties]
+  implicit val ComDayCqDamCoreProcessExifToolExtractMetadataProcessPropertiesEncoder: EntityEncoder[ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties] = jsonEncoderOf[ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties]
+}

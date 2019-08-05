@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties._
+
+case class ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties (
+  hcTags: Option[ConfigNodePropertyArray])
+
+object ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSPropertiesCodecJson: CodecJson[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties] = CodecJson.derive[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties]
+  implicit val ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSPropertiesDecoder: EntityDecoder[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties] = jsonOf[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties]
+  implicit val ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSPropertiesEncoder: EntityEncoder[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties] = jsonEncoderOf[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties]
+}

@@ -1,9 +1,7 @@
 
-
 # OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **felixMemoryusageDumpThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

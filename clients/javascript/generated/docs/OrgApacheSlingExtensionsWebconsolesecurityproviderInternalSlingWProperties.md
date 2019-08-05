@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **users** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

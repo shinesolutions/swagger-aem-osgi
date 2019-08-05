@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties._
+
+case class ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties (
+  minThreadPoolSize: Option[ConfigNodePropertyInteger],
+maxThreadPoolSize: Option[ConfigNodePropertyInteger])
+
+object ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerPropertiesCodecJson: CodecJson[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties] = CodecJson.derive[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties]
+  implicit val ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerPropertiesDecoder: EntityDecoder[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties] = jsonOf[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties]
+  implicit val ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerPropertiesEncoder: EntityEncoder[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties] = jsonEncoderOf[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties]
+}

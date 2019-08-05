@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jasperCompilerTargetVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties._
+
+case class ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties (
+  hcTags: Option[ConfigNodePropertyArray],
+accountLogins: Option[ConfigNodePropertyArray],
+consoleLogins: Option[ConfigNodePropertyArray])
+
+object ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckPropertiesCodecJson: CodecJson[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties] = CodecJson.derive[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties]
+  implicit val ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckPropertiesDecoder: EntityDecoder[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties] = jsonOf[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties]
+  implicit val ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckPropertiesEncoder: EntityEncoder[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties] = jsonEncoderOf[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties]
+}

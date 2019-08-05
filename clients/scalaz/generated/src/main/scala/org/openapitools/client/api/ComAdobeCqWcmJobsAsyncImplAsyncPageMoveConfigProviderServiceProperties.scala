@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties._
+
+case class ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties (
+  threshold: Option[ConfigNodePropertyInteger],
+jobTopicName: Option[ConfigNodePropertyString],
+emailEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServicePropertiesCodecJson: CodecJson[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties] = CodecJson.derive[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties]
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServicePropertiesDecoder: EntityDecoder[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties] = jsonOf[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties]
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServicePropertiesEncoder: EntityEncoder[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties] = jsonEncoderOf[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceProperties]
+}

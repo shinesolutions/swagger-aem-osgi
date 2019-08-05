@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqCommerceImplAssetStaticImageHandlerProperties._
+
+case class ComAdobeCqCommerceImplAssetStaticImageHandlerProperties (
+  cqCommerceAssetHandlerActive: Option[ConfigNodePropertyBoolean],
+cqCommerceAssetHandlerName: Option[ConfigNodePropertyString])
+
+object ComAdobeCqCommerceImplAssetStaticImageHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqCommerceImplAssetStaticImageHandlerPropertiesCodecJson: CodecJson[ComAdobeCqCommerceImplAssetStaticImageHandlerProperties] = CodecJson.derive[ComAdobeCqCommerceImplAssetStaticImageHandlerProperties]
+  implicit val ComAdobeCqCommerceImplAssetStaticImageHandlerPropertiesDecoder: EntityDecoder[ComAdobeCqCommerceImplAssetStaticImageHandlerProperties] = jsonOf[ComAdobeCqCommerceImplAssetStaticImageHandlerProperties]
+  implicit val ComAdobeCqCommerceImplAssetStaticImageHandlerPropertiesEncoder: EntityEncoder[ComAdobeCqCommerceImplAssetStaticImageHandlerProperties] = jsonEncoderOf[ComAdobeCqCommerceImplAssetStaticImageHandlerProperties]
+}

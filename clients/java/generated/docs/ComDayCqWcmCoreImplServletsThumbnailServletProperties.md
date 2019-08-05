@@ -1,9 +1,7 @@
 
-
 # ComDayCqWcmCoreImplServletsThumbnailServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **workspace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

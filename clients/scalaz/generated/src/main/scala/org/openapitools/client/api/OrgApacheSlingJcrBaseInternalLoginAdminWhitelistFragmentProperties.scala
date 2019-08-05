@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties._
+
+case class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties (
+  whitelistName: Option[ConfigNodePropertyString],
+whitelistBundles: Option[ConfigNodePropertyArray])
+
+object OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentPropertiesCodecJson: CodecJson[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties] = CodecJson.derive[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties]
+  implicit val OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentPropertiesDecoder: EntityDecoder[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties] = jsonOf[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties]
+  implicit val OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentPropertiesEncoder: EntityEncoder[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties] = jsonEncoderOf[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties]
+}

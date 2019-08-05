@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingModelsImplModelAdapterFactoryProperties._
+
+case class OrgApacheSlingModelsImplModelAdapterFactoryProperties (
+  osgiHttpWhiteboardListener: Option[ConfigNodePropertyString],
+osgiHttpWhiteboardContextSelect: Option[ConfigNodePropertyString],
+maxRecursionDepth: Option[ConfigNodePropertyInteger],
+cleanupJobPeriod: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingModelsImplModelAdapterFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingModelsImplModelAdapterFactoryPropertiesCodecJson: CodecJson[OrgApacheSlingModelsImplModelAdapterFactoryProperties] = CodecJson.derive[OrgApacheSlingModelsImplModelAdapterFactoryProperties]
+  implicit val OrgApacheSlingModelsImplModelAdapterFactoryPropertiesDecoder: EntityDecoder[OrgApacheSlingModelsImplModelAdapterFactoryProperties] = jsonOf[OrgApacheSlingModelsImplModelAdapterFactoryProperties]
+  implicit val OrgApacheSlingModelsImplModelAdapterFactoryPropertiesEncoder: EntityEncoder[OrgApacheSlingModelsImplModelAdapterFactoryProperties] = jsonEncoderOf[OrgApacheSlingModelsImplModelAdapterFactoryProperties]
+}

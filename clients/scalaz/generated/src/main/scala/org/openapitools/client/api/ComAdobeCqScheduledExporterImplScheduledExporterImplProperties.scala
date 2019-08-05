@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScheduledExporterImplScheduledExporterImplProperties._
+
+case class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties (
+  includePaths: Option[ConfigNodePropertyArray],
+exporterUser: Option[ConfigNodePropertyString])
+
+object ComAdobeCqScheduledExporterImplScheduledExporterImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScheduledExporterImplScheduledExporterImplPropertiesCodecJson: CodecJson[ComAdobeCqScheduledExporterImplScheduledExporterImplProperties] = CodecJson.derive[ComAdobeCqScheduledExporterImplScheduledExporterImplProperties]
+  implicit val ComAdobeCqScheduledExporterImplScheduledExporterImplPropertiesDecoder: EntityDecoder[ComAdobeCqScheduledExporterImplScheduledExporterImplProperties] = jsonOf[ComAdobeCqScheduledExporterImplScheduledExporterImplProperties]
+  implicit val ComAdobeCqScheduledExporterImplScheduledExporterImplPropertiesEncoder: EntityEncoder[ComAdobeCqScheduledExporterImplScheduledExporterImplProperties] = jsonEncoderOf[ComAdobeCqScheduledExporterImplScheduledExporterImplProperties]
+}

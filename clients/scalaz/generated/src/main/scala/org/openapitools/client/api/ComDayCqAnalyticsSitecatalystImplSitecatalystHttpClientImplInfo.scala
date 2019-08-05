@@ -1,0 +1,27 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo._
+
+case class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties],
+additionalProperties: Option[String],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfoCodecJson: CodecJson[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo] = CodecJson.derive[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo]
+  implicit val ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfoDecoder: EntityDecoder[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo] = jsonOf[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo]
+  implicit val ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfoEncoder: EntityEncoder[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo] = jsonEncoderOf[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo]
+}

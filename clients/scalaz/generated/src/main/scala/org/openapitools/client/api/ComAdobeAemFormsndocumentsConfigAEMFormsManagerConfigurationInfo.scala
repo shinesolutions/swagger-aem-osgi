@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo._
+
+case class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties])
+
+object ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfoCodecJson: CodecJson[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo] = CodecJson.derive[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo]
+  implicit val ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfoDecoder: EntityDecoder[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo] = jsonOf[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo]
+  implicit val ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfoEncoder: EntityEncoder[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo] = jsonEncoderOf[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo]
+}

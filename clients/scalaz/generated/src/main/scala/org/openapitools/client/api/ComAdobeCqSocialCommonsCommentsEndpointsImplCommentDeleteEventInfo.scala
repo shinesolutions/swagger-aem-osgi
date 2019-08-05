@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo._
+
+case class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties])
+
+object ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfoCodecJson: CodecJson[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo] = CodecJson.derive[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo]
+  implicit val ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfoDecoder: EntityDecoder[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo] = jsonOf[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo]
+  implicit val ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfoEncoder: EntityEncoder[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo] = jsonEncoderOf[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo]
+}

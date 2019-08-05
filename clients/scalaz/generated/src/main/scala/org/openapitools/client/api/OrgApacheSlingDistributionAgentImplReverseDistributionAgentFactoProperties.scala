@@ -1,0 +1,34 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties._
+
+case class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties (
+  name: Option[ConfigNodePropertyString],
+title: Option[ConfigNodePropertyString],
+details: Option[ConfigNodePropertyString],
+enabled: Option[ConfigNodePropertyBoolean],
+serviceName: Option[ConfigNodePropertyString],
+logLevel: Option[ConfigNodePropertyDropDown],
+queueProcessingEnabled: Option[ConfigNodePropertyBoolean],
+packageExporterEndpoints: Option[ConfigNodePropertyArray],
+pullItems: Option[ConfigNodePropertyInteger],
+httpConnTimeout: Option[ConfigNodePropertyInteger],
+requestAuthorizationStrategyTarget: Option[ConfigNodePropertyString],
+transportSecretProviderTarget: Option[ConfigNodePropertyString],
+packageBuilderTarget: Option[ConfigNodePropertyString],
+triggersTarget: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPropertiesCodecJson: CodecJson[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties] = CodecJson.derive[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties]
+  implicit val OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPropertiesDecoder: EntityDecoder[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties] = jsonOf[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties]
+  implicit val OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPropertiesEncoder: EntityEncoder[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties] = jsonEncoderOf[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties]
+}

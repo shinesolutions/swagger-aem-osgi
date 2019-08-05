@@ -1,9 +1,7 @@
 
-
 # ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]

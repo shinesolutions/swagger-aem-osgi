@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties._
+
+case class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties (
+  group2memberRelationshipOutgoing: Option[ConfigNodePropertyString],
+group2memberExcludedOutgoing: Option[ConfigNodePropertyArray],
+group2memberRelationshipIncoming: Option[ConfigNodePropertyString],
+group2memberExcludedIncoming: Option[ConfigNodePropertyArray])
+
+object ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplPropertiesCodecJson: CodecJson[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties] = CodecJson.derive[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties]
+  implicit val ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties] = jsonOf[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties]
+  implicit val ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties] = jsonEncoderOf[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties]
+}

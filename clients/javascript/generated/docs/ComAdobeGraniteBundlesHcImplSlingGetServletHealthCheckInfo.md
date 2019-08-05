@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

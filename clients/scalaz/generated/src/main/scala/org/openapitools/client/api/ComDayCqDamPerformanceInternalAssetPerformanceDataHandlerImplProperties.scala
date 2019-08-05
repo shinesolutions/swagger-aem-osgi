@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties._
+
+case class ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties (
+  batchCommitSize: Option[ConfigNodePropertyInteger])
+
+object ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplPropertiesCodecJson: CodecJson[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties] = CodecJson.derive[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties]
+  implicit val ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplPropertiesDecoder: EntityDecoder[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties] = jsonOf[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties]
+  implicit val ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplPropertiesEncoder: EntityEncoder[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties] = jsonEncoderOf[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties]
+}

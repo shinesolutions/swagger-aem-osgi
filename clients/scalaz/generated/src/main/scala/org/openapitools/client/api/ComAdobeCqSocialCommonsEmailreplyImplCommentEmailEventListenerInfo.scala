@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo._
+
+case class ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerProperties])
+
+object ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfoCodecJson: CodecJson[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo] = CodecJson.derive[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo]
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfoDecoder: EntityDecoder[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo] = jsonOf[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo]
+  implicit val ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfoEncoder: EntityEncoder[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo] = jsonEncoderOf[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo]
+}

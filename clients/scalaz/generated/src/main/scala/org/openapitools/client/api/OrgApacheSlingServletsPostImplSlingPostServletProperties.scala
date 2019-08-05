@@ -1,0 +1,27 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingServletsPostImplSlingPostServletProperties._
+
+case class OrgApacheSlingServletsPostImplSlingPostServletProperties (
+  servletPostDateFormats: Option[ConfigNodePropertyArray],
+servletPostNodeNameHints: Option[ConfigNodePropertyArray],
+servletPostNodeNameMaxLength: Option[ConfigNodePropertyInteger],
+servletPostCheckinNewVersionableNodes: Option[ConfigNodePropertyBoolean],
+servletPostAutoCheckout: Option[ConfigNodePropertyBoolean],
+servletPostAutoCheckin: Option[ConfigNodePropertyBoolean],
+servletPostIgnorePattern: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingServletsPostImplSlingPostServletProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingServletsPostImplSlingPostServletPropertiesCodecJson: CodecJson[OrgApacheSlingServletsPostImplSlingPostServletProperties] = CodecJson.derive[OrgApacheSlingServletsPostImplSlingPostServletProperties]
+  implicit val OrgApacheSlingServletsPostImplSlingPostServletPropertiesDecoder: EntityDecoder[OrgApacheSlingServletsPostImplSlingPostServletProperties] = jsonOf[OrgApacheSlingServletsPostImplSlingPostServletProperties]
+  implicit val OrgApacheSlingServletsPostImplSlingPostServletPropertiesEncoder: EntityEncoder[OrgApacheSlingServletsPostImplSlingPostServletProperties] = jsonEncoderOf[OrgApacheSlingServletsPostImplSlingPostServletProperties]
+}

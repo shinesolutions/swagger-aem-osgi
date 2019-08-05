@@ -1,0 +1,31 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties._
+
+case class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties (
+  name: Option[ConfigNodePropertyString],
+minPoolSize: Option[ConfigNodePropertyInteger],
+maxPoolSize: Option[ConfigNodePropertyInteger],
+queueSize: Option[ConfigNodePropertyInteger],
+maxThreadAge: Option[ConfigNodePropertyInteger],
+keepAliveTime: Option[ConfigNodePropertyInteger],
+blockPolicy: Option[ConfigNodePropertyDropDown],
+shutdownGraceful: Option[ConfigNodePropertyBoolean],
+daemon: Option[ConfigNodePropertyBoolean],
+shutdownWaitTime: Option[ConfigNodePropertyInteger],
+priority: Option[ConfigNodePropertyDropDown])
+
+object OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryPropertiesCodecJson: CodecJson[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties] = CodecJson.derive[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties]
+  implicit val OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryPropertiesDecoder: EntityDecoder[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties] = jsonOf[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties]
+  implicit val OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryPropertiesEncoder: EntityEncoder[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties] = jsonEncoderOf[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties]
+}

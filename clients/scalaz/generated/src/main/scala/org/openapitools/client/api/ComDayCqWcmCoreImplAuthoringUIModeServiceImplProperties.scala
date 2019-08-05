@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties._
+
+case class ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties (
+  authoringUIModeServiceDefault: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplAuthoringUIModeServiceImplPropertiesCodecJson: CodecJson[ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties] = CodecJson.derive[ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties]
+  implicit val ComDayCqWcmCoreImplAuthoringUIModeServiceImplPropertiesDecoder: EntityDecoder[ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties] = jsonOf[ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties]
+  implicit val ComDayCqWcmCoreImplAuthoringUIModeServiceImplPropertiesEncoder: EntityEncoder[ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties] = jsonEncoderOf[ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties]
+}

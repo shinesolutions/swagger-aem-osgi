@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingEngineImplLogRequestLoggerServiceProperties._
+
+case class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties (
+  requestLogServiceFormat: Option[ConfigNodePropertyString],
+requestLogServiceOutput: Option[ConfigNodePropertyString],
+requestLogServiceOutputtype: Option[ConfigNodePropertyDropDown],
+requestLogServiceOnentry: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingEngineImplLogRequestLoggerServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingEngineImplLogRequestLoggerServicePropertiesCodecJson: CodecJson[OrgApacheSlingEngineImplLogRequestLoggerServiceProperties] = CodecJson.derive[OrgApacheSlingEngineImplLogRequestLoggerServiceProperties]
+  implicit val OrgApacheSlingEngineImplLogRequestLoggerServicePropertiesDecoder: EntityDecoder[OrgApacheSlingEngineImplLogRequestLoggerServiceProperties] = jsonOf[OrgApacheSlingEngineImplLogRequestLoggerServiceProperties]
+  implicit val OrgApacheSlingEngineImplLogRequestLoggerServicePropertiesEncoder: EntityEncoder[OrgApacheSlingEngineImplLogRequestLoggerServiceProperties] = jsonEncoderOf[OrgApacheSlingEngineImplLogRequestLoggerServiceProperties]
+}

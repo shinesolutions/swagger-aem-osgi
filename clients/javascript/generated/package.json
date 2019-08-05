@@ -3,28 +3,19 @@
   "version": "1.0.0",
   "description": "Swagger_AEM_OSGI_is_an_OpenAPI_specification_for_Adobe_Experience_Manager__AEM_OSGI_Configurations_API",
   "license": "Unlicense",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "babel src -d dist",
-    "prepack": "npm run build",
-    "test": "mocha --compilers js:babel-core/register --recursive"
+    "test": "./node_modules/mocha/bin/mocha --recursive"
   },
   "browser": {
     "fs": false
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "superagent": "3.7.0"
+    "superagent": "3.5.2"
   },
   "devDependencies": {
-    "babel-core": "6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "expect.js": "^0.3.1",
-    "mocha": "^5.2.0",
-    "sinon": "^7.2.0"
-  },
-  "files": [
-    "dist"
-  ]
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
 }

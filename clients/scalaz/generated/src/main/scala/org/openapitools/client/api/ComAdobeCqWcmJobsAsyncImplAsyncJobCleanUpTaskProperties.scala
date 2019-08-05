@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties._
+
+case class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties (
+  schedulerExpression: Option[ConfigNodePropertyString],
+jobPurgeThreshold: Option[ConfigNodePropertyInteger],
+jobPurgeMaxJobs: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskPropertiesCodecJson: CodecJson[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties] = CodecJson.derive[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties]
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskPropertiesDecoder: EntityDecoder[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties] = jsonOf[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties]
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskPropertiesEncoder: EntityEncoder[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties] = jsonEncoderOf[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties]
+}

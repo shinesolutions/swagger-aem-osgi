@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **automoderationSequence** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

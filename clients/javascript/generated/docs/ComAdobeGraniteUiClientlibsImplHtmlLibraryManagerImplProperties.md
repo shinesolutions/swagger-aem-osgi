@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **htmllibmanagerTiming** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

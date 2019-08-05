@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties._
+
+case class ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties (
+  cqDamScene7AssetmimetypeserviceMapping: Option[ConfigNodePropertyArray])
+
+object ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplPropertiesCodecJson: CodecJson[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties] = CodecJson.derive[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties]
+  implicit val ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplPropertiesDecoder: EntityDecoder[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties] = jsonOf[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties]
+  implicit val ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplPropertiesEncoder: EntityEncoder[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties] = jsonEncoderOf[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties]
+}

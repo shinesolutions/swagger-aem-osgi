@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo._
+
+case class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfoCodecJson: CodecJson[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo] = CodecJson.derive[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo]
+  implicit val ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfoDecoder: EntityDecoder[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo] = jsonOf[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo]
+  implicit val ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfoEncoder: EntityEncoder[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo] = jsonEncoderOf[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo]
+}

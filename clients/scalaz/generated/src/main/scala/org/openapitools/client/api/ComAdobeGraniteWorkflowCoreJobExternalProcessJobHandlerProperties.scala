@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties._
+
+case class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties (
+  defaultTimeout: Option[ConfigNodePropertyInteger],
+maxTimeout: Option[ConfigNodePropertyInteger],
+defaultPeriod: Option[ConfigNodePropertyInteger])
+
+object ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerPropertiesCodecJson: CodecJson[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties] = CodecJson.derive[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties]
+  implicit val ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerPropertiesDecoder: EntityDecoder[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties] = jsonOf[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties]
+  implicit val ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerPropertiesEncoder: EntityEncoder[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties] = jsonEncoderOf[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties]
+}

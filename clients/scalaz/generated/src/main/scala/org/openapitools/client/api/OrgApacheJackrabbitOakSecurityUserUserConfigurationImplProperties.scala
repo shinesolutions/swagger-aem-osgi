@@ -1,0 +1,36 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties._
+
+case class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties (
+  usersPath: Option[ConfigNodePropertyString],
+groupsPath: Option[ConfigNodePropertyString],
+systemRelativePath: Option[ConfigNodePropertyString],
+defaultDepth: Option[ConfigNodePropertyInteger],
+importBehavior: Option[ConfigNodePropertyDropDown],
+passwordHashAlgorithm: Option[ConfigNodePropertyString],
+passwordHashIterations: Option[ConfigNodePropertyInteger],
+passwordSaltSize: Option[ConfigNodePropertyInteger],
+omitAdminPw: Option[ConfigNodePropertyBoolean],
+supportAutoSave: Option[ConfigNodePropertyBoolean],
+passwordMaxAge: Option[ConfigNodePropertyInteger],
+initialPasswordChange: Option[ConfigNodePropertyBoolean],
+passwordHistorySize: Option[ConfigNodePropertyInteger],
+passwordExpiryForAdmin: Option[ConfigNodePropertyBoolean],
+cacheExpiration: Option[ConfigNodePropertyInteger],
+enableRFC7613UsercaseMappedProfile: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSecurityUserUserConfigurationImplPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties] = CodecJson.derive[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties]
+  implicit val OrgApacheJackrabbitOakSecurityUserUserConfigurationImplPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties] = jsonOf[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties]
+  implicit val OrgApacheJackrabbitOakSecurityUserUserConfigurationImplPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties] = jsonEncoderOf[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties]
+}

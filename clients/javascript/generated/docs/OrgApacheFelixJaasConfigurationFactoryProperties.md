@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheFelixJaasConfigurationFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jaasControlFlag** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 

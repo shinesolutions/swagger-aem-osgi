@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo._
+
+case class OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioProperties])
+
+object OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfoCodecJson: CodecJson[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo] = CodecJson.derive[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo]
+  implicit val OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfoDecoder: EntityDecoder[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo] = jsonOf[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo]
+  implicit val OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfoEncoder: EntityEncoder[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo] = jsonEncoderOf[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo]
+}

@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties._
+
+case class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties (
+  `path`: Option[ConfigNodePropertyString],
+checkpathPrefix: Option[ConfigNodePropertyString],
+jcrPath: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPropertiesCodecJson: CodecJson[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties] = CodecJson.derive[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties]
+  implicit val OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPropertiesDecoder: EntityDecoder[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties] = jsonOf[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties]
+  implicit val OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPropertiesEncoder: EntityEncoder[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties] = jsonEncoderOf[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties]
+}

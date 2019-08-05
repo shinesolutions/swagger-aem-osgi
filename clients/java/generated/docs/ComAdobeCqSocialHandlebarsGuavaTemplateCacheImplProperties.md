@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **parameterGuavaCacheEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pathBuilderTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

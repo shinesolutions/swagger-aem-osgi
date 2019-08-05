@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingServletsGetDefaultGetServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **aliases** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

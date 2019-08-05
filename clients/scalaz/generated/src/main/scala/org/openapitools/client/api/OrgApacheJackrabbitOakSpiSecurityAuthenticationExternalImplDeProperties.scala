@@ -1,0 +1,34 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties._
+
+case class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties (
+  handlerName: Option[ConfigNodePropertyString],
+userExpirationTime: Option[ConfigNodePropertyString],
+userAutoMembership: Option[ConfigNodePropertyArray],
+userPropertyMapping: Option[ConfigNodePropertyArray],
+userPathPrefix: Option[ConfigNodePropertyString],
+userMembershipExpTime: Option[ConfigNodePropertyString],
+userMembershipNestingDepth: Option[ConfigNodePropertyInteger],
+userDynamicMembership: Option[ConfigNodePropertyBoolean],
+userDisableMissing: Option[ConfigNodePropertyBoolean],
+groupExpirationTime: Option[ConfigNodePropertyString],
+groupAutoMembership: Option[ConfigNodePropertyArray],
+groupPropertyMapping: Option[ConfigNodePropertyArray],
+groupPathPrefix: Option[ConfigNodePropertyString],
+enableRFC7613UsercaseMappedProfile: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDePropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties] = CodecJson.derive[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties]
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDePropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties] = jsonOf[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties]
+  implicit val OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDePropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties] = jsonEncoderOf[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties]
+}

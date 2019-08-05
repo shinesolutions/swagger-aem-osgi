@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqProjectsImplServletProjectImageServletProperties._
+
+case class ComAdobeCqProjectsImplServletProjectImageServletProperties (
+  imageQuality: Option[ConfigNodePropertyString],
+imageSupportedResolutions: Option[ConfigNodePropertyString])
+
+object ComAdobeCqProjectsImplServletProjectImageServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqProjectsImplServletProjectImageServletPropertiesCodecJson: CodecJson[ComAdobeCqProjectsImplServletProjectImageServletProperties] = CodecJson.derive[ComAdobeCqProjectsImplServletProjectImageServletProperties]
+  implicit val ComAdobeCqProjectsImplServletProjectImageServletPropertiesDecoder: EntityDecoder[ComAdobeCqProjectsImplServletProjectImageServletProperties] = jsonOf[ComAdobeCqProjectsImplServletProjectImageServletProperties]
+  implicit val ComAdobeCqProjectsImplServletProjectImageServletPropertiesEncoder: EntityEncoder[ComAdobeCqProjectsImplServletProjectImageServletProperties] = jsonEncoderOf[ComAdobeCqProjectsImplServletProjectImageServletProperties]
+}

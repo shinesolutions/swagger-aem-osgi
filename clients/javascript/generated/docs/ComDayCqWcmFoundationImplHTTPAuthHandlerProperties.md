@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

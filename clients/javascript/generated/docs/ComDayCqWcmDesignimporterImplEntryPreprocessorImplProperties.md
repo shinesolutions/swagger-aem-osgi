@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **searchPattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

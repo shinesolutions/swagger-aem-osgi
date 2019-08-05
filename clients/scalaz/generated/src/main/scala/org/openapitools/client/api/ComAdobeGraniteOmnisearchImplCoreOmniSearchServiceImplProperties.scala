@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties._
+
+case class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties (
+  omnisearchSuggestionRequiretextMin: Option[ConfigNodePropertyInteger],
+omnisearchSuggestionSpellcheckRequire: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplPropertiesCodecJson: CodecJson[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties] = CodecJson.derive[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties]
+  implicit val ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties] = jsonOf[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties]
+  implicit val ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties] = jsonEncoderOf[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties]
+}

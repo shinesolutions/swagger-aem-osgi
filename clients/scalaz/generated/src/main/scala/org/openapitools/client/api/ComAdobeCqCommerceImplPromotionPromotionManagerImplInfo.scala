@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo._
+
+case class ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties])
+
+object ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqCommerceImplPromotionPromotionManagerImplInfoCodecJson: CodecJson[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo] = CodecJson.derive[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo]
+  implicit val ComAdobeCqCommerceImplPromotionPromotionManagerImplInfoDecoder: EntityDecoder[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo] = jsonOf[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo]
+  implicit val ComAdobeCqCommerceImplPromotionPromotionManagerImplInfoEncoder: EntityEncoder[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo] = jsonEncoderOf[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo]
+}

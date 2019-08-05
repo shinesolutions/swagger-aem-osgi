@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties._
+
+case class ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties (
+  cqWcmMsmActionExcludednodetypes: Option[ConfigNodePropertyArray],
+cqWcmMsmActionExcludedparagraphitems: Option[ConfigNodePropertyArray],
+cqWcmMsmActionExcludedprops: Option[ConfigNodePropertyArray])
+
+object ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmMsmImplActionsVersionCopyActionFactoryPropertiesCodecJson: CodecJson[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties] = CodecJson.derive[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties]
+  implicit val ComDayCqWcmMsmImplActionsVersionCopyActionFactoryPropertiesDecoder: EntityDecoder[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties] = jsonOf[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties]
+  implicit val ComDayCqWcmMsmImplActionsVersionCopyActionFactoryPropertiesEncoder: EntityEncoder[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties] = jsonEncoderOf[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties]
+}

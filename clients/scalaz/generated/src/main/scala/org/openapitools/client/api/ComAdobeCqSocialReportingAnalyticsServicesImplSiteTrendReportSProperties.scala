@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties._
+
+case class ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties (
+  cqSocialConsoleAnalyticsSitesMapping: Option[ConfigNodePropertyArray],
+priority: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSPropertiesCodecJson: CodecJson[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties] = CodecJson.derive[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties]
+  implicit val ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSPropertiesDecoder: EntityDecoder[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties] = jsonOf[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties]
+  implicit val ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSPropertiesEncoder: EntityEncoder[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties] = jsonEncoderOf[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties]
+}

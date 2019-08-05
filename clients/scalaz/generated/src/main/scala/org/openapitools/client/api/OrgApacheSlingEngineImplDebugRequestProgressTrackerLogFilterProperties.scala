@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties._
+
+case class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties (
+  extensions: Option[ConfigNodePropertyArray],
+minDurationMs: Option[ConfigNodePropertyInteger],
+maxDurationMs: Option[ConfigNodePropertyInteger],
+compactLogFormat: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropertiesCodecJson: CodecJson[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties] = CodecJson.derive[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties]
+  implicit val OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropertiesDecoder: EntityDecoder[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties] = jsonOf[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties]
+  implicit val OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropertiesEncoder: EntityEncoder[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties] = jsonEncoderOf[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties]
+}

@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties._
+
+case class ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties (
+  cqPagesupdatehandlerImageresourcetypes: Option[ConfigNodePropertyArray])
+
+object ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerPropertiesCodecJson: CodecJson[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties] = CodecJson.derive[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties]
+  implicit val ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerPropertiesDecoder: EntityDecoder[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties] = jsonOf[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties]
+  implicit val ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerPropertiesEncoder: EntityEncoder[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties] = jsonEncoderOf[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties]
+}

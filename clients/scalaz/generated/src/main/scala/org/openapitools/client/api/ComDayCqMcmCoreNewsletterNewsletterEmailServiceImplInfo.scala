@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo._
+
+case class ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties])
+
+object ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfoCodecJson: CodecJson[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo] = CodecJson.derive[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo]
+  implicit val ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfoDecoder: EntityDecoder[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo] = jsonOf[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo]
+  implicit val ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfoEncoder: EntityEncoder[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo] = jsonEncoderOf[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo]
+}

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteMonitoringImplScriptConfigImplInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties._
+
+case class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties (
+  diffPath: Option[ConfigNodePropertyString],
+serviceName: Option[ConfigNodePropertyString],
+serviceUserTarget: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerPropertiesCodecJson: CodecJson[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties] = CodecJson.derive[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties]
+  implicit val ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerPropertiesDecoder: EntityDecoder[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties] = jsonOf[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties]
+  implicit val ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerPropertiesEncoder: EntityEncoder[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties] = jsonEncoderOf[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties]
+}

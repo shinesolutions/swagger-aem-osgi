@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **compatgroups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

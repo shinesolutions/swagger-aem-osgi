@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqHistoryImplHistoryRequestFilterProperties._
+
+case class ComAdobeCqHistoryImplHistoryRequestFilterProperties (
+  historyRequestFilterExcludedSelectors: Option[ConfigNodePropertyArray],
+historyRequestFilterExcludedExtensions: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqHistoryImplHistoryRequestFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqHistoryImplHistoryRequestFilterPropertiesCodecJson: CodecJson[ComAdobeCqHistoryImplHistoryRequestFilterProperties] = CodecJson.derive[ComAdobeCqHistoryImplHistoryRequestFilterProperties]
+  implicit val ComAdobeCqHistoryImplHistoryRequestFilterPropertiesDecoder: EntityDecoder[ComAdobeCqHistoryImplHistoryRequestFilterProperties] = jsonOf[ComAdobeCqHistoryImplHistoryRequestFilterProperties]
+  implicit val ComAdobeCqHistoryImplHistoryRequestFilterPropertiesEncoder: EntityEncoder[ComAdobeCqHistoryImplHistoryRequestFilterProperties] = jsonEncoderOf[ComAdobeCqHistoryImplHistoryRequestFilterProperties]
+}

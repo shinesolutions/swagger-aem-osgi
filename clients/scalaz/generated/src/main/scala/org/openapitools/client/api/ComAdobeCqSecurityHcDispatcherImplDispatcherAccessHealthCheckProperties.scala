@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties._
+
+case class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties (
+  hcTags: Option[ConfigNodePropertyArray],
+dispatcherAddress: Option[ConfigNodePropertyString],
+dispatcherFilterAllowed: Option[ConfigNodePropertyArray],
+dispatcherFilterBlocked: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckPropertiesCodecJson: CodecJson[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties] = CodecJson.derive[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties]
+  implicit val ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckPropertiesDecoder: EntityDecoder[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties] = jsonOf[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties]
+  implicit val ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckPropertiesEncoder: EntityEncoder[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties] = jsonEncoderOf[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties]
+}

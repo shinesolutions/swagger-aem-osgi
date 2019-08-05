@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **watchwordsPositive** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

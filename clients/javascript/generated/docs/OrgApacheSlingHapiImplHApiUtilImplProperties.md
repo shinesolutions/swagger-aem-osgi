@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingHapiImplHApiUtilImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheSlingHapiToolsResourcetype** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

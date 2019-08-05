@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingEventImplEventingThreadPoolInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

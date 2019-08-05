@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqCommonsImplExternalizerImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **externalizerDomains** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

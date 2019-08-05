@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheFelixHttpProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheFelixHttpHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

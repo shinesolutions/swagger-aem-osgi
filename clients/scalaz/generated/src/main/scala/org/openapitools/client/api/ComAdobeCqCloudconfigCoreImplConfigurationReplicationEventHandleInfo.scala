@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo._
+
+case class ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleProperties])
+
+object ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfoCodecJson: CodecJson[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo] = CodecJson.derive[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo]
+  implicit val ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfoDecoder: EntityDecoder[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo] = jsonOf[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo]
+  implicit val ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfoEncoder: EntityEncoder[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo] = jsonEncoderOf[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo]
+}

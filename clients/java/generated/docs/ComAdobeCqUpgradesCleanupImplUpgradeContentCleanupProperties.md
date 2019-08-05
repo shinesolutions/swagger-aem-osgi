@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **deletePathRegexps** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

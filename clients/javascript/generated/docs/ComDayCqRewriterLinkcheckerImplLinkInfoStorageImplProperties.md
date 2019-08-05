@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **serviceMaxLinksPerHost** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

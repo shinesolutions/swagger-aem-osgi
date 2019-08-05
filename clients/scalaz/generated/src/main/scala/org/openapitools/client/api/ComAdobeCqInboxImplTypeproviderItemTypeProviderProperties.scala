@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties._
+
+case class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties (
+  inboxImplTypeproviderRegistrypaths: Option[ConfigNodePropertyArray],
+inboxImplTypeproviderLegacypaths: Option[ConfigNodePropertyArray],
+inboxImplTypeproviderDefaulturlFailureitem: Option[ConfigNodePropertyString],
+inboxImplTypeproviderDefaulturlWorkitem: Option[ConfigNodePropertyString],
+inboxImplTypeproviderDefaulturlTask: Option[ConfigNodePropertyString])
+
+object ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqInboxImplTypeproviderItemTypeProviderPropertiesCodecJson: CodecJson[ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties] = CodecJson.derive[ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties]
+  implicit val ComAdobeCqInboxImplTypeproviderItemTypeProviderPropertiesDecoder: EntityDecoder[ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties] = jsonOf[ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties]
+  implicit val ComAdobeCqInboxImplTypeproviderItemTypeProviderPropertiesEncoder: EntityEncoder[ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties] = jsonEncoderOf[ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties]
+}

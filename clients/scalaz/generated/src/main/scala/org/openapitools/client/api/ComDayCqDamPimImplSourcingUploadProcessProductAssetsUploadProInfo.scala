@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo._
+
+case class ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties])
+
+object ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfoCodecJson: CodecJson[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo] = CodecJson.derive[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo]
+  implicit val ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfoDecoder: EntityDecoder[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo] = jsonOf[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo]
+  implicit val ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfoEncoder: EntityEncoder[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo] = jsonEncoderOf[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo]
+}

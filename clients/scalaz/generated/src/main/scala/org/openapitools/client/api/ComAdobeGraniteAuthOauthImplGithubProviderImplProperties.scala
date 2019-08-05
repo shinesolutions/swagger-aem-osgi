@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteAuthOauthImplGithubProviderImplProperties._
+
+case class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties (
+  oauthProviderId: Option[ConfigNodePropertyString],
+oauthProviderGithubAuthorizationUrl: Option[ConfigNodePropertyString],
+oauthProviderGithubTokenUrl: Option[ConfigNodePropertyString],
+oauthProviderGithubProfileUrl: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteAuthOauthImplGithubProviderImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteAuthOauthImplGithubProviderImplPropertiesCodecJson: CodecJson[ComAdobeGraniteAuthOauthImplGithubProviderImplProperties] = CodecJson.derive[ComAdobeGraniteAuthOauthImplGithubProviderImplProperties]
+  implicit val ComAdobeGraniteAuthOauthImplGithubProviderImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteAuthOauthImplGithubProviderImplProperties] = jsonOf[ComAdobeGraniteAuthOauthImplGithubProviderImplProperties]
+  implicit val ComAdobeGraniteAuthOauthImplGithubProviderImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteAuthOauthImplGithubProviderImplProperties] = jsonEncoderOf[ComAdobeGraniteAuthOauthImplGithubProviderImplProperties]
+}

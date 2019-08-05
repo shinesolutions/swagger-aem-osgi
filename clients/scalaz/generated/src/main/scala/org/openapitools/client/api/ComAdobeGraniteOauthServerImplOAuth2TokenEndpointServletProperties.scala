@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties._
+
+case class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties (
+  oauthIssuer: Option[ConfigNodePropertyString],
+oauthAccessTokenExpiresIn: Option[ConfigNodePropertyString],
+osgiHttpWhiteboardServletPattern: Option[ConfigNodePropertyString],
+osgiHttpWhiteboardContextSelect: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletPropertiesCodecJson: CodecJson[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties] = CodecJson.derive[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties]
+  implicit val ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletPropertiesDecoder: EntityDecoder[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties] = jsonOf[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties]
+  implicit val ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletPropertiesEncoder: EntityEncoder[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties] = jsonEncoderOf[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties]
+}

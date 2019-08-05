@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo._
+
+case class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties])
+
+object ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfoCodecJson: CodecJson[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo] = CodecJson.derive[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo]
+  implicit val ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfoDecoder: EntityDecoder[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo] = jsonOf[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo]
+  implicit val ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfoEncoder: EntityEncoder[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo] = jsonEncoderOf[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo]
+}

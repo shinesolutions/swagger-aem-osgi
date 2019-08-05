@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo._
+
+case class ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheProperties])
+
+object ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfoCodecJson: CodecJson[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo] = CodecJson.derive[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo]
+  implicit val ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfoDecoder: EntityDecoder[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo] = jsonOf[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo]
+  implicit val ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfoEncoder: EntityEncoder[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo] = jsonEncoderOf[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo]
+}

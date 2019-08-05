@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo._
+
+case class ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties])
+
+object ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfoCodecJson: CodecJson[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo] = CodecJson.derive[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo]
+  implicit val ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfoDecoder: EntityDecoder[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo] = jsonOf[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo]
+  implicit val ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfoEncoder: EntityEncoder[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo] = jsonEncoderOf[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo]
+}

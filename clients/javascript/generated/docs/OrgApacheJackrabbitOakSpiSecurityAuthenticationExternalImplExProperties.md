@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jaasRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

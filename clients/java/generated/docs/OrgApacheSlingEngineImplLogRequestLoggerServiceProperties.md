@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingEngineImplLogRequestLoggerServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **requestLogServiceFormat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

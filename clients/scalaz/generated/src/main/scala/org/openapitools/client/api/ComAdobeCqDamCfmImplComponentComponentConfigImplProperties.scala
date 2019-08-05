@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDamCfmImplComponentComponentConfigImplProperties._
+
+case class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties (
+  damCfmComponentResourceType: Option[ConfigNodePropertyString],
+damCfmComponentFileReferenceProp: Option[ConfigNodePropertyString],
+damCfmComponentElementsProp: Option[ConfigNodePropertyString],
+damCfmComponentVariationProp: Option[ConfigNodePropertyString])
+
+object ComAdobeCqDamCfmImplComponentComponentConfigImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDamCfmImplComponentComponentConfigImplPropertiesCodecJson: CodecJson[ComAdobeCqDamCfmImplComponentComponentConfigImplProperties] = CodecJson.derive[ComAdobeCqDamCfmImplComponentComponentConfigImplProperties]
+  implicit val ComAdobeCqDamCfmImplComponentComponentConfigImplPropertiesDecoder: EntityDecoder[ComAdobeCqDamCfmImplComponentComponentConfigImplProperties] = jsonOf[ComAdobeCqDamCfmImplComponentComponentConfigImplProperties]
+  implicit val ComAdobeCqDamCfmImplComponentComponentConfigImplPropertiesEncoder: EntityEncoder[ComAdobeCqDamCfmImplComponentComponentConfigImplProperties] = jsonEncoderOf[ComAdobeCqDamCfmImplComponentComponentConfigImplProperties]
+}

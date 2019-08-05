@@ -1,9 +1,7 @@
 
-
 # ComDayCqWorkflowImplEmailEMailNotificationServiceProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **fromAddress** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

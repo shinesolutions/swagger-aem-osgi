@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingI18nImplJcrResourceBundleProviderInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]

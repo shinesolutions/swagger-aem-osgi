@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo._
+
+case class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties])
+
+object OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfoCodecJson: CodecJson[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo] = CodecJson.derive[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo]
+  implicit val OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfoDecoder: EntityDecoder[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo] = jsonOf[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo]
+  implicit val OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfoEncoder: EntityEncoder[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo] = jsonEncoderOf[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo]
+}

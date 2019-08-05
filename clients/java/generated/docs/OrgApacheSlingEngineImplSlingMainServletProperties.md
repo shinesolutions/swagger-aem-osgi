@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingEngineImplSlingMainServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingMaxCalls** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

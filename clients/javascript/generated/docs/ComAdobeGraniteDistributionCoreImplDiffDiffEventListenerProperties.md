@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **diffPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

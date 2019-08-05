@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties._
+
+case class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties (
+  `path`: Option[ConfigNodePropertyString],
+jaasControlFlag: Option[ConfigNodePropertyString],
+jaasRealmName: Option[ConfigNodePropertyString],
+jaasRanking: Option[ConfigNodePropertyInteger],
+oauthOfflineValidation: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanPropertiesCodecJson: CodecJson[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties] = CodecJson.derive[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties]
+  implicit val ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanPropertiesDecoder: EntityDecoder[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties] = jsonOf[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties]
+  implicit val ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanPropertiesEncoder: EntityEncoder[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties] = jsonEncoderOf[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties]
+}

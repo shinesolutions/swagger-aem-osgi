@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqWcmMsmActionExcludednodetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

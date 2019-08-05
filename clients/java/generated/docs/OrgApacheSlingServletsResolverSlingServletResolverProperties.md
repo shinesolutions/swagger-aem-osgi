@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingServletsResolverSlingServletResolverProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **servletresolverServletRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

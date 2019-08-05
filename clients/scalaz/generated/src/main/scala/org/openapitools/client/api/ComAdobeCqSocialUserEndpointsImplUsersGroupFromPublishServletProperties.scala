@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties._
+
+case class ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties (
+  slingServletExtensions: Option[ConfigNodePropertyString],
+slingServletPaths: Option[ConfigNodePropertyString],
+slingServletMethods: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletPropertiesCodecJson: CodecJson[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties] = CodecJson.derive[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties]
+  implicit val ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletPropertiesDecoder: EntityDecoder[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties] = jsonOf[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties]
+  implicit val ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletPropertiesEncoder: EntityEncoder[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties] = jsonEncoderOf[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties]
+}

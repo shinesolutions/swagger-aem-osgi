@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties._
+
+case class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties (
+  parameterGuavaCacheEnabled: Option[ConfigNodePropertyBoolean],
+parameterGuavaCacheParams: Option[ConfigNodePropertyString],
+parameterGuavaCacheReload: Option[ConfigNodePropertyBoolean],
+serviceRanking: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplPropertiesCodecJson: CodecJson[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties] = CodecJson.derive[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties]
+  implicit val ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplPropertiesDecoder: EntityDecoder[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties] = jsonOf[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties]
+  implicit val ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplPropertiesEncoder: EntityEncoder[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties] = jsonEncoderOf[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties]
+}

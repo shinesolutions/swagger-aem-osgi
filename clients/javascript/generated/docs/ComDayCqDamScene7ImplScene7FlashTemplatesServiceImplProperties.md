@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **scene7FlashTemplatesRti** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

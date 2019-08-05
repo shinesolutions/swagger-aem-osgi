@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties._
+
+case class ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties (
+  enabled: Option[ConfigNodePropertyBoolean],
+disabledForGroups: Option[ConfigNodePropertyArray])
+
+object ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqExperiencelogImplExperienceLogConfigServletPropertiesCodecJson: CodecJson[ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties] = CodecJson.derive[ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties]
+  implicit val ComAdobeCqExperiencelogImplExperienceLogConfigServletPropertiesDecoder: EntityDecoder[ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties] = jsonOf[ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties]
+  implicit val ComAdobeCqExperiencelogImplExperienceLogConfigServletPropertiesEncoder: EntityEncoder[ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties] = jsonEncoderOf[ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties]
+}

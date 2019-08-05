@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties._
+
+case class ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties (
+  preUpgradeMaintenanceTasks: Option[ConfigNodePropertyArray],
+preUpgradeHcTags: Option[ConfigNodePropertyArray])
+
+object ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplPropertiesCodecJson: CodecJson[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties] = CodecJson.derive[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties]
+  implicit val ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplPropertiesDecoder: EntityDecoder[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties] = jsonOf[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties]
+  implicit val ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplPropertiesEncoder: EntityEncoder[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties] = jsonEncoderOf[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties]
+}

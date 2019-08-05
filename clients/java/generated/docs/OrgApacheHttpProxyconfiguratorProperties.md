@@ -1,9 +1,7 @@
 
-
 # OrgApacheHttpProxyconfiguratorProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **proxyEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

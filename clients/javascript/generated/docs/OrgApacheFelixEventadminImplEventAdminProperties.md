@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheFelixEventadminImplEventAdminProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheFelixEventadminThreadPoolSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

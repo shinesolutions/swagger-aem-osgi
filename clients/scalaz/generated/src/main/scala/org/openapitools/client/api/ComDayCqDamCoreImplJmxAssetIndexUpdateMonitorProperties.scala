@@ -1,0 +1,29 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties._
+
+case class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties (
+  jmxObjectname: Option[ConfigNodePropertyString],
+propertyMeasureEnabled: Option[ConfigNodePropertyBoolean],
+propertyName: Option[ConfigNodePropertyString],
+propertyMaxWaitMs: Option[ConfigNodePropertyInteger],
+propertyMaxRate: Option[ConfigNodePropertyFloat],
+fulltextMeasureEnabled: Option[ConfigNodePropertyBoolean],
+fulltextName: Option[ConfigNodePropertyString],
+fulltextMaxWaitMs: Option[ConfigNodePropertyInteger],
+fulltextMaxRate: Option[ConfigNodePropertyFloat])
+
+object ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties] = CodecJson.derive[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties]
+  implicit val ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties] = jsonOf[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties]
+  implicit val ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties] = jsonEncoderOf[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties]
+}

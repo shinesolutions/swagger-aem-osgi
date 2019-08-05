@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties._
+
+case class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties (
+  scene7FlashTemplatesRti: Option[ConfigNodePropertyString],
+scene7FlashTemplatesRsi: Option[ConfigNodePropertyString],
+scene7FlashTemplatesRb: Option[ConfigNodePropertyString],
+scene7FlashTemplatesRurl: Option[ConfigNodePropertyString],
+scene7FlashTemplateUrlFormatParameter: Option[ConfigNodePropertyString])
+
+object ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplPropertiesCodecJson: CodecJson[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties] = CodecJson.derive[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties]
+  implicit val ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplPropertiesDecoder: EntityDecoder[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties] = jsonOf[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties]
+  implicit val ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplPropertiesEncoder: EntityEncoder[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties] = jsonEncoderOf[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties]
+}

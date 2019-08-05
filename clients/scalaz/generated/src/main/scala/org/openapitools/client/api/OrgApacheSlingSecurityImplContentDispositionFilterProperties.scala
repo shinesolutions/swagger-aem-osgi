@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingSecurityImplContentDispositionFilterProperties._
+
+case class OrgApacheSlingSecurityImplContentDispositionFilterProperties (
+  slingContentDispositionPaths: Option[ConfigNodePropertyArray],
+slingContentDispositionExcludedPaths: Option[ConfigNodePropertyArray],
+slingContentDispositionAllPaths: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingSecurityImplContentDispositionFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingSecurityImplContentDispositionFilterPropertiesCodecJson: CodecJson[OrgApacheSlingSecurityImplContentDispositionFilterProperties] = CodecJson.derive[OrgApacheSlingSecurityImplContentDispositionFilterProperties]
+  implicit val OrgApacheSlingSecurityImplContentDispositionFilterPropertiesDecoder: EntityDecoder[OrgApacheSlingSecurityImplContentDispositionFilterProperties] = jsonOf[OrgApacheSlingSecurityImplContentDispositionFilterProperties]
+  implicit val OrgApacheSlingSecurityImplContentDispositionFilterPropertiesEncoder: EntityEncoder[OrgApacheSlingSecurityImplContentDispositionFilterProperties] = jsonEncoderOf[OrgApacheSlingSecurityImplContentDispositionFilterProperties]
+}

@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **patternTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties._
+
+case class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties (
+  hcTags: Option[ConfigNodePropertyArray],
+diskSpaceWarnThreshold: Option[ConfigNodePropertyInteger],
+diskSpaceErrorThreshold: Option[ConfigNodePropertyInteger])
+
+object ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckPropertiesCodecJson: CodecJson[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties] = CodecJson.derive[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties]
+  implicit val ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckPropertiesDecoder: EntityDecoder[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties] = jsonOf[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties]
+  implicit val ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckPropertiesEncoder: EntityEncoder[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties] = jsonEncoderOf[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties]
+}

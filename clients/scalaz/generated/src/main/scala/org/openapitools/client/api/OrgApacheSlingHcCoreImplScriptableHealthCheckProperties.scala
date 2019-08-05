@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingHcCoreImplScriptableHealthCheckProperties._
+
+case class OrgApacheSlingHcCoreImplScriptableHealthCheckProperties (
+  hcName: Option[ConfigNodePropertyString],
+hcTags: Option[ConfigNodePropertyArray],
+hcMbeanName: Option[ConfigNodePropertyString],
+expression: Option[ConfigNodePropertyString],
+languageExtension: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingHcCoreImplScriptableHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingHcCoreImplScriptableHealthCheckPropertiesCodecJson: CodecJson[OrgApacheSlingHcCoreImplScriptableHealthCheckProperties] = CodecJson.derive[OrgApacheSlingHcCoreImplScriptableHealthCheckProperties]
+  implicit val OrgApacheSlingHcCoreImplScriptableHealthCheckPropertiesDecoder: EntityDecoder[OrgApacheSlingHcCoreImplScriptableHealthCheckProperties] = jsonOf[OrgApacheSlingHcCoreImplScriptableHealthCheckProperties]
+  implicit val OrgApacheSlingHcCoreImplScriptableHealthCheckPropertiesEncoder: EntityEncoder[OrgApacheSlingHcCoreImplScriptableHealthCheckProperties] = jsonEncoderOf[OrgApacheSlingHcCoreImplScriptableHealthCheckProperties]
+}

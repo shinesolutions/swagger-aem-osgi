@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqAuditPurgePagesInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

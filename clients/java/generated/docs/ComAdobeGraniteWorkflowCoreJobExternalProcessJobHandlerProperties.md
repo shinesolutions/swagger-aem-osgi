@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **defaultTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

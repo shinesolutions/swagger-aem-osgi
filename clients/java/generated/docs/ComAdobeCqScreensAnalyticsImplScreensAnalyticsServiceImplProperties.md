@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeCqScreensAnalyticsImplUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

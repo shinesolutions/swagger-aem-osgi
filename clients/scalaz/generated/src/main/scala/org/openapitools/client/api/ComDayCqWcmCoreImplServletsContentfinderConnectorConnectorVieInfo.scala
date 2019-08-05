@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo._
+
+case class ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties])
+
+object ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfoCodecJson: CodecJson[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo] = CodecJson.derive[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo]
+  implicit val ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfoDecoder: EntityDecoder[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo] = jsonOf[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo]
+  implicit val ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfoEncoder: EntityEncoder[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo] = jsonEncoderOf[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo]
+}

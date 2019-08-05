@@ -1,0 +1,27 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties._
+
+case class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties (
+  schedulerPeriod: Option[ConfigNodePropertyInteger],
+schedulerConcurrent: Option[ConfigNodePropertyBoolean],
+serviceBadLinkToleranceInterval: Option[ConfigNodePropertyInteger],
+serviceCheckOverridePatterns: Option[ConfigNodePropertyArray],
+serviceCacheBrokenInternalLinks: Option[ConfigNodePropertyBoolean],
+serviceSpecialLinkPrefix: Option[ConfigNodePropertyArray],
+serviceSpecialLinkPatterns: Option[ConfigNodePropertyArray])
+
+object ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqRewriterLinkcheckerImplLinkCheckerImplPropertiesCodecJson: CodecJson[ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties] = CodecJson.derive[ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties]
+  implicit val ComDayCqRewriterLinkcheckerImplLinkCheckerImplPropertiesDecoder: EntityDecoder[ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties] = jsonOf[ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties]
+  implicit val ComDayCqRewriterLinkcheckerImplLinkCheckerImplPropertiesEncoder: EntityEncoder[ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties] = jsonEncoderOf[ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties]
+}

@@ -1,9 +1,7 @@
 
-
 # OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enabledActions** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]

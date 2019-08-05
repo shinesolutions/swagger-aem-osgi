@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties._
+
+case class OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties (
+  parserFeatures: Option[ConfigNodePropertyArray])
+
+object OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserPropertiesCodecJson: CodecJson[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties] = CodecJson.derive[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties]
+  implicit val OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserPropertiesDecoder: EntityDecoder[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties] = jsonOf[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties]
+  implicit val OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserPropertiesEncoder: EntityEncoder[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties] = jsonEncoderOf[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties]
+}

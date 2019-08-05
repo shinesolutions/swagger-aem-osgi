@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqPollingImporterImplManagedPollingImporterImplProperties._
+
+case class ComDayCqPollingImporterImplManagedPollingImporterImplProperties (
+  importerUser: Option[ConfigNodePropertyString])
+
+object ComDayCqPollingImporterImplManagedPollingImporterImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqPollingImporterImplManagedPollingImporterImplPropertiesCodecJson: CodecJson[ComDayCqPollingImporterImplManagedPollingImporterImplProperties] = CodecJson.derive[ComDayCqPollingImporterImplManagedPollingImporterImplProperties]
+  implicit val ComDayCqPollingImporterImplManagedPollingImporterImplPropertiesDecoder: EntityDecoder[ComDayCqPollingImporterImplManagedPollingImporterImplProperties] = jsonOf[ComDayCqPollingImporterImplManagedPollingImporterImplProperties]
+  implicit val ComDayCqPollingImporterImplManagedPollingImporterImplPropertiesEncoder: EntityEncoder[ComDayCqPollingImporterImplManagedPollingImporterImplProperties] = jsonEncoderOf[ComDayCqPollingImporterImplManagedPollingImporterImplProperties]
+}

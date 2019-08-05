@@ -1,0 +1,32 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties._
+
+case class OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties (
+  name: Option[ConfigNodePropertyString],
+title: Option[ConfigNodePropertyString],
+details: Option[ConfigNodePropertyString],
+enabled: Option[ConfigNodePropertyBoolean],
+serviceName: Option[ConfigNodePropertyString],
+logLevel: Option[ConfigNodePropertyDropDown],
+allowedRoots: Option[ConfigNodePropertyArray],
+requestAuthorizationStrategyTarget: Option[ConfigNodePropertyString],
+queueProviderFactoryTarget: Option[ConfigNodePropertyString],
+packageBuilderTarget: Option[ConfigNodePropertyString],
+triggersTarget: Option[ConfigNodePropertyString],
+priorityQueues: Option[ConfigNodePropertyArray])
+
+object OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryPropertiesCodecJson: CodecJson[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties] = CodecJson.derive[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties]
+  implicit val OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryPropertiesDecoder: EntityDecoder[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties] = jsonOf[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties]
+  implicit val OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryPropertiesEncoder: EntityEncoder[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties] = jsonEncoderOf[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties]
+}

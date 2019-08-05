@@ -1,0 +1,27 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties._
+
+case class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties (
+  solrZkTimeout: Option[ConfigNodePropertyString],
+solrCommit: Option[ConfigNodePropertyString],
+cacheOn: Option[ConfigNodePropertyBoolean],
+concurrencyLevel: Option[ConfigNodePropertyInteger],
+cacheStartSize: Option[ConfigNodePropertyInteger],
+cacheTtl: Option[ConfigNodePropertyInteger],
+cacheSize: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorPropertiesCodecJson: CodecJson[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties] = CodecJson.derive[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties]
+  implicit val ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorPropertiesDecoder: EntityDecoder[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties] = jsonOf[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties]
+  implicit val ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorPropertiesEncoder: EntityEncoder[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties] = jsonEncoderOf[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties]
+}

@@ -1,0 +1,31 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties._
+
+case class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties (
+  jdbcDriverClass: Option[ConfigNodePropertyString],
+jdbcConnectionUri: Option[ConfigNodePropertyString],
+jdbcUsername: Option[ConfigNodePropertyString],
+jdbcPassword: Option[ConfigNodePropertyString],
+jdbcValidationQuery: Option[ConfigNodePropertyString],
+defaultReadonly: Option[ConfigNodePropertyBoolean],
+defaultAutocommit: Option[ConfigNodePropertyBoolean],
+poolSize: Option[ConfigNodePropertyInteger],
+poolMaxWaitMsec: Option[ConfigNodePropertyInteger],
+datasourceName: Option[ConfigNodePropertyString],
+datasourceSvcProperties: Option[ConfigNodePropertyArray])
+
+object ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCommonsDatasourceJdbcpoolJdbcPoolServicePropertiesCodecJson: CodecJson[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties] = CodecJson.derive[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties]
+  implicit val ComDayCommonsDatasourceJdbcpoolJdbcPoolServicePropertiesDecoder: EntityDecoder[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties] = jsonOf[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties]
+  implicit val ComDayCommonsDatasourceJdbcpoolJdbcPoolServicePropertiesEncoder: EntityEncoder[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties] = jsonEncoderOf[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties]
+}

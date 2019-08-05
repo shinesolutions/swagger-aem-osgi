@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties._
+
+case class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties (
+  accountName: Option[ConfigNodePropertyString],
+containerName: Option[ConfigNodePropertyString],
+accessKey: Option[ConfigNodePropertyString],
+rootPath: Option[ConfigNodePropertyString],
+connectionURL: Option[ConfigNodePropertyString])
+
+object OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties] = CodecJson.derive[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties]
+  implicit val OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties] = jsonOf[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties]
+  implicit val OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties] = jsonEncoderOf[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties]
+}

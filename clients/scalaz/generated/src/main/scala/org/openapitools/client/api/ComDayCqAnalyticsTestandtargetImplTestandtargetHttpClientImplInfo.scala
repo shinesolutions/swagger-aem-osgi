@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo._
+
+case class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties])
+
+object ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfoCodecJson: CodecJson[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo] = CodecJson.derive[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo]
+  implicit val ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfoDecoder: EntityDecoder[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo] = jsonOf[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo]
+  implicit val ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfoEncoder: EntityEncoder[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo] = jsonEncoderOf[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo]
+}

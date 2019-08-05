@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **getCacheExpirationUnit** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 

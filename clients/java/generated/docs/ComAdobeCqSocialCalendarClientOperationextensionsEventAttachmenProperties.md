@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **attachmentTypeBlacklist** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

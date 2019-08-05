@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties._
+
+case class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties (
+  hcName: Option[ConfigNodePropertyString],
+hcTags: Option[ConfigNodePropertyArray],
+hcMbeanName: Option[ConfigNodePropertyString],
+numberOfRetriesAllowed: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckPropertiesCodecJson: CodecJson[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties] = CodecJson.derive[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties]
+  implicit val OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckPropertiesDecoder: EntityDecoder[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties] = jsonOf[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties]
+  implicit val OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckPropertiesEncoder: EntityEncoder[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties] = jsonEncoderOf[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties]
+}

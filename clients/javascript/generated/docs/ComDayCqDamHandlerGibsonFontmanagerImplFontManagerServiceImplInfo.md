@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

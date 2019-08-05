@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo._
+
+case class OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportProperties])
+
+object OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfoCodecJson: CodecJson[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo] = CodecJson.derive[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo]
+  implicit val OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfoDecoder: EntityDecoder[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo] = jsonOf[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo]
+  implicit val OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfoEncoder: EntityEncoder[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo] = jsonEncoderOf[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo]
+}

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

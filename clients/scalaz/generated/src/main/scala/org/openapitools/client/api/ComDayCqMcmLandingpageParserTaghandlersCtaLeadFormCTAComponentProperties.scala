@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties._
+
+case class ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties (
+  serviceRanking: Option[ConfigNodePropertyInteger],
+tagpattern: Option[ConfigNodePropertyString])
+
+object ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentPropertiesCodecJson: CodecJson[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties] = CodecJson.derive[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties]
+  implicit val ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentPropertiesDecoder: EntityDecoder[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties] = jsonOf[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties]
+  implicit val ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentPropertiesEncoder: EntityEncoder[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties] = jsonEncoderOf[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties]
+}

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

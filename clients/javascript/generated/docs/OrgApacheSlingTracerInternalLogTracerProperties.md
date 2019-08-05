@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingTracerInternalLogTracerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **tracerSets** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

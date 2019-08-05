@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **endpointUri** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

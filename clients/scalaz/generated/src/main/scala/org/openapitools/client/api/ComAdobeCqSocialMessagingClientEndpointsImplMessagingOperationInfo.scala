@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo._
+
+case class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties])
+
+object ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfoCodecJson: CodecJson[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo] = CodecJson.derive[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo]
+  implicit val ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfoDecoder: EntityDecoder[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo] = jsonOf[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo]
+  implicit val ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfoEncoder: EntityEncoder[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo] = jsonEncoderOf[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo]
+}

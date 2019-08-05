@@ -1,0 +1,30 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsLogLogManagerProperties._
+
+case class OrgApacheSlingCommonsLogLogManagerProperties (
+  orgApacheSlingCommonsLogLevel: Option[ConfigNodePropertyDropDown],
+orgApacheSlingCommonsLogFile: Option[ConfigNodePropertyString],
+orgApacheSlingCommonsLogFileNumber: Option[ConfigNodePropertyInteger],
+orgApacheSlingCommonsLogFileSize: Option[ConfigNodePropertyString],
+orgApacheSlingCommonsLogPattern: Option[ConfigNodePropertyString],
+orgApacheSlingCommonsLogConfigurationFile: Option[ConfigNodePropertyString],
+orgApacheSlingCommonsLogPackagingDataEnabled: Option[ConfigNodePropertyBoolean],
+orgApacheSlingCommonsLogMaxCallerDataDepth: Option[ConfigNodePropertyInteger],
+orgApacheSlingCommonsLogMaxOldFileCountInDump: Option[ConfigNodePropertyInteger],
+orgApacheSlingCommonsLogNumOfLines: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingCommonsLogLogManagerProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsLogLogManagerPropertiesCodecJson: CodecJson[OrgApacheSlingCommonsLogLogManagerProperties] = CodecJson.derive[OrgApacheSlingCommonsLogLogManagerProperties]
+  implicit val OrgApacheSlingCommonsLogLogManagerPropertiesDecoder: EntityDecoder[OrgApacheSlingCommonsLogLogManagerProperties] = jsonOf[OrgApacheSlingCommonsLogLogManagerProperties]
+  implicit val OrgApacheSlingCommonsLogLogManagerPropertiesEncoder: EntityEncoder[OrgApacheSlingCommonsLogLogManagerProperties] = jsonEncoderOf[OrgApacheSlingCommonsLogLogManagerProperties]
+}

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **servletPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

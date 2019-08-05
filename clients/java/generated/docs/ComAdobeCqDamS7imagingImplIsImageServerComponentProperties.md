@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **tcpPort** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

@@ -1,0 +1,30 @@
+<?php
+/**
+ * ComDayCqWidgetImplWidgetExtensionProviderImplInfo
+ */
+namespace app\Models;
+
+/**
+ * ComDayCqWidgetImplWidgetExtensionProviderImplInfo
+ */
+class ComDayCqWidgetImplWidgetExtensionProviderImplInfo {
+
+    /** @var string $pid */
+    private $pid;
+
+    /** @var string $title */
+    private $title;
+
+    /** @var string $description */
+    private $description;
+
+    /** @var \app\Models\ComDayCqWidgetImplWidgetExtensionProviderImplProperties $properties */
+    private $properties;
+
+    /** @var string $bundle_location */
+    private $bundle_location;
+
+    /** @var string $service_location */
+    private $service_location;
+
+}

@@ -1,0 +1,29 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties._
+
+case class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties (
+  translationFactory: Option[ConfigNodePropertyString],
+defaultConnectorLabel: Option[ConfigNodePropertyString],
+defaultConnectorAttribution: Option[ConfigNodePropertyString],
+defaultConnectorWorkspaceId: Option[ConfigNodePropertyString],
+defaultConnectorSubscriptionKey: Option[ConfigNodePropertyString],
+languageMapLocation: Option[ConfigNodePropertyString],
+categoryMapLocation: Option[ConfigNodePropertyString],
+retryAttempts: Option[ConfigNodePropertyInteger],
+timeoutCount: Option[ConfigNodePropertyInteger])
+
+object ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPropertiesCodecJson: CodecJson[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties] = CodecJson.derive[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties]
+  implicit val ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPropertiesDecoder: EntityDecoder[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties] = jsonOf[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties]
+  implicit val ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPropertiesEncoder: EntityEncoder[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties] = jsonEncoderOf[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties]
+}

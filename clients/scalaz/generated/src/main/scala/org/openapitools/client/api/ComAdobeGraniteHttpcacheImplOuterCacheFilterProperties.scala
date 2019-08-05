@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties._
+
+case class ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties (
+  comAdobeGraniteHttpcacheUrlPaths: Option[ConfigNodePropertyArray])
+
+object ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteHttpcacheImplOuterCacheFilterPropertiesCodecJson: CodecJson[ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties] = CodecJson.derive[ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties]
+  implicit val ComAdobeGraniteHttpcacheImplOuterCacheFilterPropertiesDecoder: EntityDecoder[ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties] = jsonOf[ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties]
+  implicit val ComAdobeGraniteHttpcacheImplOuterCacheFilterPropertiesEncoder: EntityEncoder[ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties] = jsonEncoderOf[ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties]
+}

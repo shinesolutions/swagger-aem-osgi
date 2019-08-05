@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo._
+
+case class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties])
+
+object ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfoCodecJson: CodecJson[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo] = CodecJson.derive[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo]
+  implicit val ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfoDecoder: EntityDecoder[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo] = jsonOf[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo]
+  implicit val ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfoEncoder: EntityEncoder[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo] = jsonEncoderOf[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo]
+}

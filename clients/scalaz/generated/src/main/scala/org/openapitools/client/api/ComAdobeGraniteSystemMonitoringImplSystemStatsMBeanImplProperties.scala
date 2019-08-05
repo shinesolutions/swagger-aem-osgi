@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties._
+
+case class ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties (
+  schedulerExpression: Option[ConfigNodePropertyString],
+jmxObjectname: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplPropertiesCodecJson: CodecJson[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties] = CodecJson.derive[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties]
+  implicit val ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties] = jsonOf[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties]
+  implicit val ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties] = jsonEncoderOf[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties]
+}

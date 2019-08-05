@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties._
+
+case class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties (
+  enabledActions: Option[ConfigNodePropertyDropDown],
+userPrivilegeNames: Option[ConfigNodePropertyArray],
+groupPrivilegeNames: Option[ConfigNodePropertyArray],
+constraint: Option[ConfigNodePropertyString])
+
+object OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties] = CodecJson.derive[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties]
+  implicit val OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties] = jsonOf[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties]
+  implicit val OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties] = jsonEncoderOf[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties]
+}

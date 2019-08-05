@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]

@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteWorkflowCoreWorkflowConfigProperties._
+
+case class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties (
+  cqWorkflowConfigWorkflowPackagesRootPath: Option[ConfigNodePropertyArray],
+cqWorkflowConfigWorkflowProcessLegacyMode: Option[ConfigNodePropertyBoolean],
+cqWorkflowConfigAllowLocking: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeGraniteWorkflowCoreWorkflowConfigProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteWorkflowCoreWorkflowConfigPropertiesCodecJson: CodecJson[ComAdobeGraniteWorkflowCoreWorkflowConfigProperties] = CodecJson.derive[ComAdobeGraniteWorkflowCoreWorkflowConfigProperties]
+  implicit val ComAdobeGraniteWorkflowCoreWorkflowConfigPropertiesDecoder: EntityDecoder[ComAdobeGraniteWorkflowCoreWorkflowConfigProperties] = jsonOf[ComAdobeGraniteWorkflowCoreWorkflowConfigProperties]
+  implicit val ComAdobeGraniteWorkflowCoreWorkflowConfigPropertiesEncoder: EntityEncoder[ComAdobeGraniteWorkflowCoreWorkflowConfigProperties] = jsonEncoderOf[ComAdobeGraniteWorkflowCoreWorkflowConfigProperties]
+}

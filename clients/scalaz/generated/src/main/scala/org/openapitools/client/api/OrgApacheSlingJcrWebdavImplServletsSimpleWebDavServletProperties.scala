@@ -1,0 +1,30 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties._
+
+case class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties (
+  davRoot: Option[ConfigNodePropertyString],
+davCreateAbsoluteUri: Option[ConfigNodePropertyBoolean],
+davRealm: Option[ConfigNodePropertyString],
+collectionTypes: Option[ConfigNodePropertyArray],
+filterPrefixes: Option[ConfigNodePropertyArray],
+filterTypes: Option[ConfigNodePropertyString],
+filterUris: Option[ConfigNodePropertyString],
+typeCollections: Option[ConfigNodePropertyString],
+typeNoncollections: Option[ConfigNodePropertyString],
+typeContent: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletPropertiesCodecJson: CodecJson[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties] = CodecJson.derive[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties]
+  implicit val OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletPropertiesDecoder: EntityDecoder[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties] = jsonOf[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties]
+  implicit val OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletPropertiesEncoder: EntityEncoder[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties] = jsonEncoderOf[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties]
+}

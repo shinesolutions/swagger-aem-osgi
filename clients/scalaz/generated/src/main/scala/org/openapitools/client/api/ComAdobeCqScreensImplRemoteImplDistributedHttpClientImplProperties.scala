@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties._
+
+case class ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties (
+  comAdobeAemScreensImplRemoteRequestTimeout: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplPropertiesCodecJson: CodecJson[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties] = CodecJson.derive[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties]
+  implicit val ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplPropertiesDecoder: EntityDecoder[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties] = jsonOf[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties]
+  implicit val ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplPropertiesEncoder: EntityEncoder[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties] = jsonEncoderOf[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties]
+}

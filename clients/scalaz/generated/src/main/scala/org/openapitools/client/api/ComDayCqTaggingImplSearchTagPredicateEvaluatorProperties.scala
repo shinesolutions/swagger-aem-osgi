@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties._
+
+case class ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties (
+  ignorePath: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqTaggingImplSearchTagPredicateEvaluatorPropertiesCodecJson: CodecJson[ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties] = CodecJson.derive[ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties]
+  implicit val ComDayCqTaggingImplSearchTagPredicateEvaluatorPropertiesDecoder: EntityDecoder[ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties] = jsonOf[ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties]
+  implicit val ComDayCqTaggingImplSearchTagPredicateEvaluatorPropertiesEncoder: EntityEncoder[ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties] = jsonEncoderOf[ComDayCqTaggingImplSearchTagPredicateEvaluatorProperties]
+}

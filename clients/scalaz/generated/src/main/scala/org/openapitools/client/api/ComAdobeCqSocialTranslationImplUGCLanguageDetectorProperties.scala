@@ -1,0 +1,28 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties._
+
+case class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties (
+  eventTopics: Option[ConfigNodePropertyString],
+eventFilter: Option[ConfigNodePropertyString],
+translateListenerType: Option[ConfigNodePropertyArray],
+translatePropertyList: Option[ConfigNodePropertyArray],
+poolSize: Option[ConfigNodePropertyInteger],
+maxPoolSize: Option[ConfigNodePropertyInteger],
+queueSize: Option[ConfigNodePropertyInteger],
+keepAliveTime: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialTranslationImplUGCLanguageDetectorPropertiesCodecJson: CodecJson[ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties] = CodecJson.derive[ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties]
+  implicit val ComAdobeCqSocialTranslationImplUGCLanguageDetectorPropertiesDecoder: EntityDecoder[ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties] = jsonOf[ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties]
+  implicit val ComAdobeCqSocialTranslationImplUGCLanguageDetectorPropertiesEncoder: EntityEncoder[ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties] = jsonEncoderOf[ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties]
+}

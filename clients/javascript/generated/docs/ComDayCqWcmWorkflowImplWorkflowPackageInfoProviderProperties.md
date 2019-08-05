@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **workflowpackageinfoproviderFilter** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

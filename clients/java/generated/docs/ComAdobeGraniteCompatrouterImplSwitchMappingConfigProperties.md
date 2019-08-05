@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **group** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

@@ -1,9 +1,7 @@
 
-
 # OrgApacheSlingEventImplJobsDefaultJobManagerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **queuePriority** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]

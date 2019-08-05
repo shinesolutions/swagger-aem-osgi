@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo._
+
+case class OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties])
+
+object OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfoCodecJson: CodecJson[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo] = CodecJson.derive[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo]
+  implicit val OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfoDecoder: EntityDecoder[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo] = jsonOf[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo]
+  implicit val OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfoEncoder: EntityEncoder[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo] = jsonEncoderOf[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo]
+}

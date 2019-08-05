@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteLicenseImplLicenseCheckFilterProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **checkInternval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

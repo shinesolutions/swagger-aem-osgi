@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties._
+
+case class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties (
+  pageInfoProviderPropertyRegexDefault: Option[ConfigNodePropertyString],
+pageInfoProviderPropertyName: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplPagePageInfoAggregatorImplPropertiesCodecJson: CodecJson[ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties] = CodecJson.derive[ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties]
+  implicit val ComDayCqWcmCoreImplPagePageInfoAggregatorImplPropertiesDecoder: EntityDecoder[ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties] = jsonOf[ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties]
+  implicit val ComDayCqWcmCoreImplPagePageInfoAggregatorImplPropertiesEncoder: EntityEncoder[ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties] = jsonEncoderOf[ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties]
+}

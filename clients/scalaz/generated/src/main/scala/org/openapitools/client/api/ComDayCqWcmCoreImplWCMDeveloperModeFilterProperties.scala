@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties._
+
+case class ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties (
+  wcmdevmodefilterEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplWCMDeveloperModeFilterPropertiesCodecJson: CodecJson[ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties] = CodecJson.derive[ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties]
+  implicit val ComDayCqWcmCoreImplWCMDeveloperModeFilterPropertiesDecoder: EntityDecoder[ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties] = jsonOf[ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties]
+  implicit val ComDayCqWcmCoreImplWCMDeveloperModeFilterPropertiesEncoder: EntityEncoder[ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties] = jsonEncoderOf[ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties]
+}

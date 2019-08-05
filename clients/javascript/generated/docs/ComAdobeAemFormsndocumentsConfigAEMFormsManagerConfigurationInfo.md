@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties._
+
+case class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties (
+  orgApacheSlingCommonsLogFile: Option[ConfigNodePropertyString],
+orgApacheSlingCommonsLogFileNumber: Option[ConfigNodePropertyInteger],
+orgApacheSlingCommonsLogFileSize: Option[ConfigNodePropertyString],
+orgApacheSlingCommonsLogFileBuffered: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsLogLogManagerFactoryWriterPropertiesCodecJson: CodecJson[OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties] = CodecJson.derive[OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties]
+  implicit val OrgApacheSlingCommonsLogLogManagerFactoryWriterPropertiesDecoder: EntityDecoder[OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties] = jsonOf[OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties]
+  implicit val OrgApacheSlingCommonsLogLogManagerFactoryWriterPropertiesEncoder: EntityEncoder[OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties] = jsonEncoderOf[OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties]
+}

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo._
+
+case class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties])
+
+object ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfoCodecJson: CodecJson[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo] = CodecJson.derive[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo]
+  implicit val ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfoDecoder: EntityDecoder[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo] = jsonOf[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo]
+  implicit val ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfoEncoder: EntityEncoder[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo] = jsonEncoderOf[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo]
+}

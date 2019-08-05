@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties._
+
+case class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties (
+  asyncConfigs: Option[ConfigNodePropertyArray],
+leaseTimeOutMinutes: Option[ConfigNodePropertyInteger],
+failingIndexTimeoutSeconds: Option[ConfigNodePropertyInteger],
+errorWarnIntervalSeconds: Option[ConfigNodePropertyInteger])
+
+object OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServicePropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties] = CodecJson.derive[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties]
+  implicit val OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServicePropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties] = jsonOf[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties]
+  implicit val OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServicePropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties]
+}

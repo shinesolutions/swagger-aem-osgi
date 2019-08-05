@@ -1,0 +1,27 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensDeviceImplDeviceServiceProperties._
+
+case class ComAdobeCqScreensDeviceImplDeviceServiceProperties (
+  comAdobeAemScreensPlayerPingfrequency: Option[ConfigNodePropertyInteger],
+comAdobeAemScreensDevicePaswordSpecialchars: Option[ConfigNodePropertyString],
+comAdobeAemScreensDevicePaswordMinlowercasechars: Option[ConfigNodePropertyInteger],
+comAdobeAemScreensDevicePaswordMinuppercasechars: Option[ConfigNodePropertyInteger],
+comAdobeAemScreensDevicePaswordMinnumberchars: Option[ConfigNodePropertyInteger],
+comAdobeAemScreensDevicePaswordMinspecialchars: Option[ConfigNodePropertyInteger],
+comAdobeAemScreensDevicePaswordMinlength: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqScreensDeviceImplDeviceServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensDeviceImplDeviceServicePropertiesCodecJson: CodecJson[ComAdobeCqScreensDeviceImplDeviceServiceProperties] = CodecJson.derive[ComAdobeCqScreensDeviceImplDeviceServiceProperties]
+  implicit val ComAdobeCqScreensDeviceImplDeviceServicePropertiesDecoder: EntityDecoder[ComAdobeCqScreensDeviceImplDeviceServiceProperties] = jsonOf[ComAdobeCqScreensDeviceImplDeviceServiceProperties]
+  implicit val ComAdobeCqScreensDeviceImplDeviceServicePropertiesEncoder: EntityEncoder[ComAdobeCqScreensDeviceImplDeviceServiceProperties] = jsonEncoderOf[ComAdobeCqScreensDeviceImplDeviceServiceProperties]
+}

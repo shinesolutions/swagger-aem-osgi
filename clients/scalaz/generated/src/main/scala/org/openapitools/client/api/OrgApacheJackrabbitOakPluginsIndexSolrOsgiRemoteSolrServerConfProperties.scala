@@ -1,0 +1,28 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties._
+
+case class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties (
+  solrHttpUrl: Option[ConfigNodePropertyString],
+solrZkHost: Option[ConfigNodePropertyString],
+solrCollection: Option[ConfigNodePropertyString],
+solrSocketTimeout: Option[ConfigNodePropertyInteger],
+solrConnectionTimeout: Option[ConfigNodePropertyInteger],
+solrShardsNo: Option[ConfigNodePropertyInteger],
+solrReplicationFactor: Option[ConfigNodePropertyInteger],
+solrConfDir: Option[ConfigNodePropertyString])
+
+object OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties] = CodecJson.derive[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties]
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties] = jsonOf[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties]
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties]
+}

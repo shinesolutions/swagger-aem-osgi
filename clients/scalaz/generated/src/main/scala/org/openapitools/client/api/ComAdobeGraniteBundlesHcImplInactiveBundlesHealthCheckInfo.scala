@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo._
+
+case class ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties])
+
+object ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfoCodecJson: CodecJson[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo] = CodecJson.derive[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo]
+  implicit val ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfoDecoder: EntityDecoder[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo] = jsonOf[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo]
+  implicit val ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfoEncoder: EntityEncoder[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo] = jsonEncoderOf[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo]
+}

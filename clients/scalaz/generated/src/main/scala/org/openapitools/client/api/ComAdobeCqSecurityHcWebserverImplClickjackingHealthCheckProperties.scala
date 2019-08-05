@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties._
+
+case class ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties (
+  hcTags: Option[ConfigNodePropertyArray],
+webserverAddress: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckPropertiesCodecJson: CodecJson[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties] = CodecJson.derive[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties]
+  implicit val ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckPropertiesDecoder: EntityDecoder[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties] = jsonOf[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties]
+  implicit val ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckPropertiesEncoder: EntityEncoder[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties] = jsonEncoderOf[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties]
+}

@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeAemTransactionCoreImplTransactionRecorderProperties._
+
+case class ComAdobeAemTransactionCoreImplTransactionRecorderProperties (
+  isTransactionRecordingEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeAemTransactionCoreImplTransactionRecorderProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeAemTransactionCoreImplTransactionRecorderPropertiesCodecJson: CodecJson[ComAdobeAemTransactionCoreImplTransactionRecorderProperties] = CodecJson.derive[ComAdobeAemTransactionCoreImplTransactionRecorderProperties]
+  implicit val ComAdobeAemTransactionCoreImplTransactionRecorderPropertiesDecoder: EntityDecoder[ComAdobeAemTransactionCoreImplTransactionRecorderProperties] = jsonOf[ComAdobeAemTransactionCoreImplTransactionRecorderProperties]
+  implicit val ComAdobeAemTransactionCoreImplTransactionRecorderPropertiesEncoder: EntityEncoder[ComAdobeAemTransactionCoreImplTransactionRecorderProperties] = jsonEncoderOf[ComAdobeAemTransactionCoreImplTransactionRecorderProperties]
+}

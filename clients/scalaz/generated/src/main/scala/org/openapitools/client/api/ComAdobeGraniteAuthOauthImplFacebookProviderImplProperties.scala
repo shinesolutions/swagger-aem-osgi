@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties._
+
+case class ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties (
+  oauthProviderId: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteAuthOauthImplFacebookProviderImplPropertiesCodecJson: CodecJson[ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties] = CodecJson.derive[ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties]
+  implicit val ComAdobeGraniteAuthOauthImplFacebookProviderImplPropertiesDecoder: EntityDecoder[ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties] = jsonOf[ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties]
+  implicit val ComAdobeGraniteAuthOauthImplFacebookProviderImplPropertiesEncoder: EntityEncoder[ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties] = jsonEncoderOf[ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties]
+}

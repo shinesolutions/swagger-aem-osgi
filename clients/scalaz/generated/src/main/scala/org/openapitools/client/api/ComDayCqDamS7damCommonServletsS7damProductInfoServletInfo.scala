@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo._
+
+case class ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties])
+
+object ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamS7damCommonServletsS7damProductInfoServletInfoCodecJson: CodecJson[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo] = CodecJson.derive[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo]
+  implicit val ComDayCqDamS7damCommonServletsS7damProductInfoServletInfoDecoder: EntityDecoder[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo] = jsonOf[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo]
+  implicit val ComDayCqDamS7damCommonServletsS7damProductInfoServletInfoEncoder: EntityEncoder[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo] = jsonEncoderOf[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo]
+}

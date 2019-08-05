@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteCorsImplCORSPolicyImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **alloworigin** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

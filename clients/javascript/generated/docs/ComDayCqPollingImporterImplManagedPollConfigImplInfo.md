@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqPollingImporterImplManagedPollConfigImplInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

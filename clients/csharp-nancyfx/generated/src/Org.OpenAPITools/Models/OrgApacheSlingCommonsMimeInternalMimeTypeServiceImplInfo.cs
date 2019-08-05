@@ -1,0 +1,245 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using Sharpility.Extensions;
+using NodaTime;
+
+namespace Org.OpenAPITools..Models
+{
+    /// <summary>
+    /// OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo
+    /// </summary>
+    public sealed class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo:  IEquatable<OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo>
+    { 
+        /// <summary>
+        /// Pid
+        /// </summary>
+        public string Pid { get; private set; }
+
+        /// <summary>
+        /// Title
+        /// </summary>
+        public string Title { get; private set; }
+
+        /// <summary>
+        /// Description
+        /// </summary>
+        public string Description { get; private set; }
+
+        /// <summary>
+        /// Properties
+        /// </summary>
+        public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties Properties { get; private set; }
+
+        /// <summary>
+        /// BundleLocation
+        /// </summary>
+        public string BundleLocation { get; private set; }
+
+        /// <summary>
+        /// ServiceLocation
+        /// </summary>
+        public string ServiceLocation { get; private set; }
+
+
+        /// <summary>
+        /// Empty constructor required by some serializers.
+        /// Use OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.Builder() for instance creation instead.
+        /// </summary>
+        [Obsolete]
+        public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo()
+        {
+        }
+
+        private OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo(string Pid, string Title, string Description, OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties Properties, string BundleLocation, string ServiceLocation)
+        {
+            
+            this.Pid = Pid;
+            
+            this.Title = Title;
+            
+            this.Description = Description;
+            
+            this.Properties = Properties;
+            
+            this.BundleLocation = BundleLocation;
+            
+            this.ServiceLocation = ServiceLocation;
+            
+        }
+
+        /// <summary>
+        /// Returns builder of OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.
+        /// </summary>
+        /// <returns>OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder</returns>
+        public static OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder Builder()
+        {
+            return new OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder();
+        }
+
+        /// <summary>
+        /// Returns OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder with properties set.
+        /// Use it to change properties.
+        /// </summary>
+        /// <returns>OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder</returns>
+        public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder With()
+        {
+            return Builder()
+                .Pid(Pid)
+                .Title(Title)
+                .Description(Description)
+                .Properties(Properties)
+                .BundleLocation(BundleLocation)
+                .ServiceLocation(ServiceLocation);
+        }
+
+        public override string ToString()
+        {
+            return this.PropertiesToString();
+        }
+
+        public override bool Equals(object obj)
+        {
+            return this.EqualsByProperties(obj);
+        }
+
+        public bool Equals(OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo other)
+        {
+            return Equals((object) other);
+        }
+
+        public override int GetHashCode()
+        {
+            return this.PropertiesHash();
+        }
+
+        /// <summary>
+        /// Implementation of == operator for (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.
+        /// </summary>
+        /// <param name="left">Compared (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo</param>
+        /// <param name="right">Compared (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo</param>
+        /// <returns>true if compared items are equals, false otherwise</returns>
+        public static bool operator == (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo left, OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo right)
+        {
+            return Equals(left, right);
+        }
+
+        /// <summary>
+        /// Implementation of != operator for (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.
+        /// </summary>
+        /// <param name="left">Compared (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo</param>
+        /// <param name="right">Compared (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo</param>
+        /// <returns>true if compared items are not equals, false otherwise</returns>
+        public static bool operator != (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo left, OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo right)
+        {
+            return !Equals(left, right);
+        }
+
+        /// <summary>
+        /// Builder of OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.
+        /// </summary>
+        public sealed class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder
+        {
+            private string _Pid;
+            private string _Title;
+            private string _Description;
+            private OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties _Properties;
+            private string _BundleLocation;
+            private string _ServiceLocation;
+
+            internal OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder()
+            {
+                SetupDefaults();
+            }
+
+            private void SetupDefaults()
+            {
+            }
+
+            /// <summary>
+            /// Sets value for OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.Pid property.
+            /// </summary>
+            /// <param name="value">Pid</param>
+            public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder Pid(string value)
+            {
+                _Pid = value;
+                return this;
+            }
+
+            /// <summary>
+            /// Sets value for OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.Title property.
+            /// </summary>
+            /// <param name="value">Title</param>
+            public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder Title(string value)
+            {
+                _Title = value;
+                return this;
+            }
+
+            /// <summary>
+            /// Sets value for OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.Description property.
+            /// </summary>
+            /// <param name="value">Description</param>
+            public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder Description(string value)
+            {
+                _Description = value;
+                return this;
+            }
+
+            /// <summary>
+            /// Sets value for OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.Properties property.
+            /// </summary>
+            /// <param name="value">Properties</param>
+            public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder Properties(OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties value)
+            {
+                _Properties = value;
+                return this;
+            }
+
+            /// <summary>
+            /// Sets value for OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.BundleLocation property.
+            /// </summary>
+            /// <param name="value">BundleLocation</param>
+            public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder BundleLocation(string value)
+            {
+                _BundleLocation = value;
+                return this;
+            }
+
+            /// <summary>
+            /// Sets value for OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.ServiceLocation property.
+            /// </summary>
+            /// <param name="value">ServiceLocation</param>
+            public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoBuilder ServiceLocation(string value)
+            {
+                _ServiceLocation = value;
+                return this;
+            }
+
+
+            /// <summary>
+            /// Builds instance of OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.
+            /// </summary>
+            /// <returns>OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo</returns>
+            public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo Build()
+            {
+                Validate();
+                return new OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo(
+                    Pid: _Pid,
+                    Title: _Title,
+                    Description: _Description,
+                    Properties: _Properties,
+                    BundleLocation: _BundleLocation,
+                    ServiceLocation: _ServiceLocation
+                );
+            }
+
+            private void Validate()
+            { 
+            }
+        }
+
+        
+    }
+}

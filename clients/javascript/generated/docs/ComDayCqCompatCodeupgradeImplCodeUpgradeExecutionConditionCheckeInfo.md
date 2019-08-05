@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

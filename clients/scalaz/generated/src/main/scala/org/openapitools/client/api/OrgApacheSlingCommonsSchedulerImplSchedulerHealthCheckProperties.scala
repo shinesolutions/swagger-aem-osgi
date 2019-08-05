@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties._
+
+case class OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties (
+  maxQuartzJobDurationAcceptable: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckPropertiesCodecJson: CodecJson[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties] = CodecJson.derive[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties]
+  implicit val OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckPropertiesDecoder: EntityDecoder[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties] = jsonOf[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties]
+  implicit val OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckPropertiesEncoder: EntityEncoder[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties] = jsonEncoderOf[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties]
+}

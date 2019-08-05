@@ -1,0 +1,31 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties._
+
+case class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties (
+  graniteWorkflowinboxSortPropertyName: Option[ConfigNodePropertyDropDown],
+graniteWorkflowinboxSortOrder: Option[ConfigNodePropertyString],
+cqWorkflowJobRetry: Option[ConfigNodePropertyInteger],
+cqWorkflowSuperuser: Option[ConfigNodePropertyArray],
+graniteWorkflowInboxQuerySize: Option[ConfigNodePropertyInteger],
+graniteWorkflowAdminUserGroupFilter: Option[ConfigNodePropertyBoolean],
+graniteWorkflowEnforceWorkitemAssigneePermissions: Option[ConfigNodePropertyBoolean],
+graniteWorkflowEnforceWorkflowInitiatorPermissions: Option[ConfigNodePropertyBoolean],
+graniteWorkflowInjectTenantIdInJobTopics: Option[ConfigNodePropertyBoolean],
+graniteWorkflowMaxPurgeSaveThreshold: Option[ConfigNodePropertyInteger],
+graniteWorkflowMaxPurgeQueryCount: Option[ConfigNodePropertyInteger])
+
+object ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryPropertiesCodecJson: CodecJson[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties] = CodecJson.derive[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties]
+  implicit val ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryPropertiesDecoder: EntityDecoder[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties] = jsonOf[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties]
+  implicit val ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryPropertiesEncoder: EntityEncoder[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties] = jsonEncoderOf[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties]
+}

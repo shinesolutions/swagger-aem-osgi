@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **totalWidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

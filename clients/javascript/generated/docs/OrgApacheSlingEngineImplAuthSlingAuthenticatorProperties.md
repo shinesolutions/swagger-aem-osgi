@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **osgiHttpWhiteboardContextSelect** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

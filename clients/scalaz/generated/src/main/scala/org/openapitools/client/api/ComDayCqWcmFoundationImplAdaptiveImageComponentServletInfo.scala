@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo._
+
+case class ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComDayCqWcmFoundationImplAdaptiveImageComponentServletProperties])
+
+object ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfoCodecJson: CodecJson[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo] = CodecJson.derive[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo]
+  implicit val ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfoDecoder: EntityDecoder[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo] = jsonOf[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo]
+  implicit val ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfoEncoder: EntityEncoder[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo] = jsonEncoderOf[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo]
+}

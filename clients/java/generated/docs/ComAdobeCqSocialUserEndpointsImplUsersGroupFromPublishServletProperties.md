@@ -1,9 +1,7 @@
 
-
 # ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingServletExtensions** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

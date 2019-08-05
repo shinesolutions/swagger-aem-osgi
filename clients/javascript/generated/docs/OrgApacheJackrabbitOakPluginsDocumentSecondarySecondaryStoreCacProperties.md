@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **includedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeCqCdnCdnRewriter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

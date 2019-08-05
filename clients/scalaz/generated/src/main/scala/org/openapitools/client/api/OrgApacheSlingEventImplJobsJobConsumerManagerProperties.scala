@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingEventImplJobsJobConsumerManagerProperties._
+
+case class OrgApacheSlingEventImplJobsJobConsumerManagerProperties (
+  orgApacheSlingInstallerConfigurationPersist: Option[ConfigNodePropertyBoolean],
+jobConsumermanagerWhitelist: Option[ConfigNodePropertyArray],
+jobConsumermanagerBlacklist: Option[ConfigNodePropertyArray])
+
+object OrgApacheSlingEventImplJobsJobConsumerManagerProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingEventImplJobsJobConsumerManagerPropertiesCodecJson: CodecJson[OrgApacheSlingEventImplJobsJobConsumerManagerProperties] = CodecJson.derive[OrgApacheSlingEventImplJobsJobConsumerManagerProperties]
+  implicit val OrgApacheSlingEventImplJobsJobConsumerManagerPropertiesDecoder: EntityDecoder[OrgApacheSlingEventImplJobsJobConsumerManagerProperties] = jsonOf[OrgApacheSlingEventImplJobsJobConsumerManagerProperties]
+  implicit val OrgApacheSlingEventImplJobsJobConsumerManagerPropertiesEncoder: EntityEncoder[OrgApacheSlingEventImplJobsJobConsumerManagerProperties] = jsonEncoderOf[OrgApacheSlingEventImplJobsJobConsumerManagerProperties]
+}

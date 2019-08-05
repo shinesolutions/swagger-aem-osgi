@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo._
+
+case class OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfoCodecJson: CodecJson[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo] = CodecJson.derive[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo]
+  implicit val OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfoDecoder: EntityDecoder[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo] = jsonOf[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo]
+  implicit val OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfoEncoder: EntityEncoder[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo] = jsonEncoderOf[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo]
+}

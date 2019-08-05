@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDamDmProcessImagePTiffManagerImplProperties._
+
+case class ComAdobeCqDamDmProcessImagePTiffManagerImplProperties (
+  maxMemory: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqDamDmProcessImagePTiffManagerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDamDmProcessImagePTiffManagerImplPropertiesCodecJson: CodecJson[ComAdobeCqDamDmProcessImagePTiffManagerImplProperties] = CodecJson.derive[ComAdobeCqDamDmProcessImagePTiffManagerImplProperties]
+  implicit val ComAdobeCqDamDmProcessImagePTiffManagerImplPropertiesDecoder: EntityDecoder[ComAdobeCqDamDmProcessImagePTiffManagerImplProperties] = jsonOf[ComAdobeCqDamDmProcessImagePTiffManagerImplProperties]
+  implicit val ComAdobeCqDamDmProcessImagePTiffManagerImplPropertiesEncoder: EntityEncoder[ComAdobeCqDamDmProcessImagePTiffManagerImplProperties] = jsonEncoderOf[ComAdobeCqDamDmProcessImagePTiffManagerImplProperties]
+}

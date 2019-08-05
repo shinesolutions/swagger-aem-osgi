@@ -1,9 +1,7 @@
 
-
 # ComDayCqAuthImplCugCugSupportImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cugExemptedPrincipals** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

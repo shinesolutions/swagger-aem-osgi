@@ -1,0 +1,53 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties._
+
+case class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties (
+  serviceRanking: Option[ConfigNodePropertyInteger],
+globalSize: Option[ConfigNodePropertyInteger],
+maxDiskUsage: Option[ConfigNodePropertyInteger],
+persistenceEnabled: Option[ConfigNodePropertyBoolean],
+threadPoolMaxSize: Option[ConfigNodePropertyInteger],
+scheduledThreadPoolMaxSize: Option[ConfigNodePropertyInteger],
+gracefulShutdownTimeout: Option[ConfigNodePropertyInteger],
+queues: Option[ConfigNodePropertyArray],
+topics: Option[ConfigNodePropertyArray],
+addressesMaxDeliveryAttempts: Option[ConfigNodePropertyInteger],
+addressesExpiryDelay: Option[ConfigNodePropertyInteger],
+addressesAddressFullMessagePolicy: Option[ConfigNodePropertyDropDown],
+addressesMaxSizeBytes: Option[ConfigNodePropertyInteger],
+addressesPageSizeBytes: Option[ConfigNodePropertyInteger],
+addressesPageCacheMaxSize: Option[ConfigNodePropertyInteger],
+clusterUser: Option[ConfigNodePropertyString],
+clusterPassword: Option[ConfigNodePropertyString],
+clusterCallTimeout: Option[ConfigNodePropertyInteger],
+clusterCallFailoverTimeout: Option[ConfigNodePropertyInteger],
+clusterClientFailureCheckPeriod: Option[ConfigNodePropertyInteger],
+clusterNotificationAttempts: Option[ConfigNodePropertyInteger],
+clusterNotificationInterval: Option[ConfigNodePropertyInteger],
+idCacheSize: Option[ConfigNodePropertyInteger],
+clusterConfirmationWindowSize: Option[ConfigNodePropertyInteger],
+clusterConnectionTtl: Option[ConfigNodePropertyInteger],
+clusterDuplicateDetection: Option[ConfigNodePropertyBoolean],
+clusterInitialConnectAttempts: Option[ConfigNodePropertyInteger],
+clusterMaxRetryInterval: Option[ConfigNodePropertyInteger],
+clusterMinLargeMessageSize: Option[ConfigNodePropertyInteger],
+clusterProducerWindowSize: Option[ConfigNodePropertyInteger],
+clusterReconnectAttempts: Option[ConfigNodePropertyInteger],
+clusterRetryInterval: Option[ConfigNodePropertyInteger],
+clusterRetryIntervalMultiplier: Option[ConfigNodePropertyFloat])
+
+object ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqScreensMqActivemqImplArtemisJMSProviderPropertiesCodecJson: CodecJson[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties] = CodecJson.derive[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties]
+  implicit val ComAdobeCqScreensMqActivemqImplArtemisJMSProviderPropertiesDecoder: EntityDecoder[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties] = jsonOf[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties]
+  implicit val ComAdobeCqScreensMqActivemqImplArtemisJMSProviderPropertiesEncoder: EntityEncoder[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties] = jsonEncoderOf[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties]
+}

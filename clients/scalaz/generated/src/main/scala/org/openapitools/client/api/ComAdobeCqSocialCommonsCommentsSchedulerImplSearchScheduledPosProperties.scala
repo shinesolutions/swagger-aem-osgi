@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties._
+
+case class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties (
+  enableScheduledPostsSearch: Option[ConfigNodePropertyBoolean],
+numberOfMinutes: Option[ConfigNodePropertyInteger],
+maxSearchLimit: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPropertiesCodecJson: CodecJson[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties] = CodecJson.derive[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties]
+  implicit val ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPropertiesDecoder: EntityDecoder[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties] = jsonOf[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties]
+  implicit val ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPropertiesEncoder: EntityEncoder[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties] = jsonEncoderOf[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties]
+}

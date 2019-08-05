@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComDayCqReportingImplCacheCacheImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **repcacheEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

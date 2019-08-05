@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties._
+
+case class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties (
+  cacheEnable: Option[ConfigNodePropertyBoolean],
+cacheRootPaths: Option[ConfigNodePropertyArray],
+cacheMaxSize: Option[ConfigNodePropertyInteger],
+cacheMaxEntries: Option[ConfigNodePropertyInteger])
+
+object ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqDamS7imagingImplPsPlatformServerServletPropertiesCodecJson: CodecJson[ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties] = CodecJson.derive[ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties]
+  implicit val ComAdobeCqDamS7imagingImplPsPlatformServerServletPropertiesDecoder: EntityDecoder[ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties] = jsonOf[ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties]
+  implicit val ComAdobeCqDamS7imagingImplPsPlatformServerServletPropertiesEncoder: EntityEncoder[ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties] = jsonEncoderOf[ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties]
+}

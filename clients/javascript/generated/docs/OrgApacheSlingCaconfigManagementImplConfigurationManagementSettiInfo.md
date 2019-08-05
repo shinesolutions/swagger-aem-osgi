@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

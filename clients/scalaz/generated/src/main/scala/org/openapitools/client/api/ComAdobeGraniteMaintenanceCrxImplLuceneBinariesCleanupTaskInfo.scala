@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo._
+
+case class ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties],
+bundleLocation: Option[String],
+serviceLocation: Option[String])
+
+object ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfoCodecJson: CodecJson[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo] = CodecJson.derive[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo]
+  implicit val ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfoDecoder: EntityDecoder[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo] = jsonOf[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo]
+  implicit val ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfoEncoder: EntityEncoder[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo] = jsonEncoderOf[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo]
+}

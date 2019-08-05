@@ -1,0 +1,333 @@
+#include <map>
+#include <cstdlib>
+#include <glib-object.h>
+#include <json-glib/json-glib.h>
+#include "Helpers.h"
+
+
+#include "ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo.h"
+
+using namespace std;
+using namespace Tizen::ArtikCloud;
+
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo()
+{
+	//__init();
+}
+
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::~ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo()
+{
+	//__cleanup();
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::__init()
+{
+	//pid = std::string();
+	//title = std::string();
+	//description = std::string();
+	//properties = new ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties();
+	//additionalProperties = std::string();
+	//bundle_location = std::string();
+	//service_location = std::string();
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::__cleanup()
+{
+	//if(pid != NULL) {
+	//
+	//delete pid;
+	//pid = NULL;
+	//}
+	//if(title != NULL) {
+	//
+	//delete title;
+	//title = NULL;
+	//}
+	//if(description != NULL) {
+	//
+	//delete description;
+	//description = NULL;
+	//}
+	//if(properties != NULL) {
+	//
+	//delete properties;
+	//properties = NULL;
+	//}
+	//if(additionalProperties != NULL) {
+	//
+	//delete additionalProperties;
+	//additionalProperties = NULL;
+	//}
+	//if(bundle_location != NULL) {
+	//
+	//delete bundle_location;
+	//bundle_location = NULL;
+	//}
+	//if(service_location != NULL) {
+	//
+	//delete service_location;
+	//service_location = NULL;
+	//}
+	//
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::fromJson(char* jsonStr)
+{
+	JsonObject *pJsonObject = json_node_get_object(json_from_string(jsonStr,NULL));
+	JsonNode *node;
+	const gchar *pidKey = "pid";
+	node = json_object_get_member(pJsonObject, pidKey);
+	if (node !=NULL) {
+	
+
+		if (isprimitive("std::string")) {
+			jsonToValue(&pid, node, "std::string", "");
+		} else {
+			
+		}
+	}
+	const gchar *titleKey = "title";
+	node = json_object_get_member(pJsonObject, titleKey);
+	if (node !=NULL) {
+	
+
+		if (isprimitive("std::string")) {
+			jsonToValue(&title, node, "std::string", "");
+		} else {
+			
+		}
+	}
+	const gchar *descriptionKey = "description";
+	node = json_object_get_member(pJsonObject, descriptionKey);
+	if (node !=NULL) {
+	
+
+		if (isprimitive("std::string")) {
+			jsonToValue(&description, node, "std::string", "");
+		} else {
+			
+		}
+	}
+	const gchar *propertiesKey = "properties";
+	node = json_object_get_member(pJsonObject, propertiesKey);
+	if (node !=NULL) {
+	
+
+		if (isprimitive("ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties")) {
+			jsonToValue(&properties, node, "ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties", "ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties");
+		} else {
+			
+			ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties* obj = static_cast<ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties*> (&properties);
+			obj->fromJson(json_to_string(node, false));
+			
+		}
+	}
+	const gchar *additionalPropertiesKey = "additionalProperties";
+	node = json_object_get_member(pJsonObject, additionalPropertiesKey);
+	if (node !=NULL) {
+	
+
+		if (isprimitive("std::string")) {
+			jsonToValue(&additionalProperties, node, "std::string", "");
+		} else {
+			
+		}
+	}
+	const gchar *bundle_locationKey = "bundle_location";
+	node = json_object_get_member(pJsonObject, bundle_locationKey);
+	if (node !=NULL) {
+	
+
+		if (isprimitive("std::string")) {
+			jsonToValue(&bundle_location, node, "std::string", "");
+		} else {
+			
+		}
+	}
+	const gchar *service_locationKey = "service_location";
+	node = json_object_get_member(pJsonObject, service_locationKey);
+	if (node !=NULL) {
+	
+
+		if (isprimitive("std::string")) {
+			jsonToValue(&service_location, node, "std::string", "");
+		} else {
+			
+		}
+	}
+}
+
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo(char* json)
+{
+	this->fromJson(json);
+}
+
+char*
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::toJson()
+{
+	JsonObject *pJsonObject = json_object_new();
+	JsonNode *node;
+	if (isprimitive("std::string")) {
+		std::string obj = getPid();
+		node = converttoJson(&obj, "std::string", "");
+	}
+	else {
+		
+	}
+	const gchar *pidKey = "pid";
+	json_object_set_member(pJsonObject, pidKey, node);
+	if (isprimitive("std::string")) {
+		std::string obj = getTitle();
+		node = converttoJson(&obj, "std::string", "");
+	}
+	else {
+		
+	}
+	const gchar *titleKey = "title";
+	json_object_set_member(pJsonObject, titleKey, node);
+	if (isprimitive("std::string")) {
+		std::string obj = getDescription();
+		node = converttoJson(&obj, "std::string", "");
+	}
+	else {
+		
+	}
+	const gchar *descriptionKey = "description";
+	json_object_set_member(pJsonObject, descriptionKey, node);
+	if (isprimitive("ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties")) {
+		ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties obj = getProperties();
+		node = converttoJson(&obj, "ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties", "");
+	}
+	else {
+		
+		ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties obj = static_cast<ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties> (getProperties());
+		GError *mygerror;
+		mygerror = NULL;
+		node = json_from_string(obj.toJson(), &mygerror);
+		
+	}
+	const gchar *propertiesKey = "properties";
+	json_object_set_member(pJsonObject, propertiesKey, node);
+	if (isprimitive("std::string")) {
+		std::string obj = getAdditionalProperties();
+		node = converttoJson(&obj, "std::string", "");
+	}
+	else {
+		
+	}
+	const gchar *additionalPropertiesKey = "additionalProperties";
+	json_object_set_member(pJsonObject, additionalPropertiesKey, node);
+	if (isprimitive("std::string")) {
+		std::string obj = getBundleLocation();
+		node = converttoJson(&obj, "std::string", "");
+	}
+	else {
+		
+	}
+	const gchar *bundle_locationKey = "bundle_location";
+	json_object_set_member(pJsonObject, bundle_locationKey, node);
+	if (isprimitive("std::string")) {
+		std::string obj = getServiceLocation();
+		node = converttoJson(&obj, "std::string", "");
+	}
+	else {
+		
+	}
+	const gchar *service_locationKey = "service_location";
+	json_object_set_member(pJsonObject, service_locationKey, node);
+	node = json_node_alloc();
+	json_node_init(node, JSON_NODE_OBJECT);
+	json_node_take_object(node, pJsonObject);
+	char * ret = json_to_string(node, false);
+	json_node_free(node);
+	return ret;
+}
+
+std::string
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::getPid()
+{
+	return pid;
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::setPid(std::string  pid)
+{
+	this->pid = pid;
+}
+
+std::string
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::getTitle()
+{
+	return title;
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::setTitle(std::string  title)
+{
+	this->title = title;
+}
+
+std::string
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::getDescription()
+{
+	return description;
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::setDescription(std::string  description)
+{
+	this->description = description;
+}
+
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::getProperties()
+{
+	return properties;
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::setProperties(ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties  properties)
+{
+	this->properties = properties;
+}
+
+std::string
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::getAdditionalProperties()
+{
+	return additionalProperties;
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::setAdditionalProperties(std::string  additionalProperties)
+{
+	this->additionalProperties = additionalProperties;
+}
+
+std::string
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::getBundleLocation()
+{
+	return bundle_location;
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::setBundleLocation(std::string  bundle_location)
+{
+	this->bundle_location = bundle_location;
+}
+
+std::string
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::getServiceLocation()
+{
+	return service_location;
+}
+
+void
+ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo::setServiceLocation(std::string  service_location)
+{
+	this->service_location = service_location;
+}
+
+

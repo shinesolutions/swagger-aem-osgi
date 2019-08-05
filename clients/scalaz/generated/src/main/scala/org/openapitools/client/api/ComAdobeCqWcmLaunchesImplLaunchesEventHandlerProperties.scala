@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties._
+
+case class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties (
+  eventFilter: Option[ConfigNodePropertyString],
+launchesEventhandlerThreadpoolMaxsize: Option[ConfigNodePropertyInteger],
+launchesEventhandlerThreadpoolPriority: Option[ConfigNodePropertyDropDown],
+launchesEventhandlerUpdatelastmodification: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqWcmLaunchesImplLaunchesEventHandlerPropertiesCodecJson: CodecJson[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties] = CodecJson.derive[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties]
+  implicit val ComAdobeCqWcmLaunchesImplLaunchesEventHandlerPropertiesDecoder: EntityDecoder[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties] = jsonOf[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties]
+  implicit val ComAdobeCqWcmLaunchesImplLaunchesEventHandlerPropertiesEncoder: EntityEncoder[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties] = jsonEncoderOf[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties]
+}

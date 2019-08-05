@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties._
+
+case class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties (
+  includedPaths: Option[ConfigNodePropertyArray],
+enableAsyncObserver: Option[ConfigNodePropertyBoolean],
+observerQueueSize: Option[ConfigNodePropertyInteger])
+
+object OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties] = CodecJson.derive[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties]
+  implicit val OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties] = jsonOf[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties]
+  implicit val OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties]
+}

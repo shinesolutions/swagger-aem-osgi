@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplServletDamContentDispositionFilterProperties._
+
+case class ComDayCqDamCoreImplServletDamContentDispositionFilterProperties (
+  cqMimeTypeBlacklist: Option[ConfigNodePropertyArray],
+cqDamEmptyMime: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamCoreImplServletDamContentDispositionFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplServletDamContentDispositionFilterPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplServletDamContentDispositionFilterProperties] = CodecJson.derive[ComDayCqDamCoreImplServletDamContentDispositionFilterProperties]
+  implicit val ComDayCqDamCoreImplServletDamContentDispositionFilterPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplServletDamContentDispositionFilterProperties] = jsonOf[ComDayCqDamCoreImplServletDamContentDispositionFilterProperties]
+  implicit val ComDayCqDamCoreImplServletDamContentDispositionFilterPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplServletDamContentDispositionFilterProperties] = jsonEncoderOf[ComDayCqDamCoreImplServletDamContentDispositionFilterProperties]
+}

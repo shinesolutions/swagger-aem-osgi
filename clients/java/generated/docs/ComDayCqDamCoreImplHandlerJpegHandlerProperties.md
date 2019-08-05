@@ -1,9 +1,7 @@
 
-
 # ComDayCqDamCoreImplHandlerJpegHandlerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamEnableExtMetaExtraction** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

@@ -1,0 +1,27 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmCoreImplVersionManagerImplProperties._
+
+case class ComDayCqWcmCoreImplVersionManagerImplProperties (
+  versionmanagerCreateVersionOnActivation: Option[ConfigNodePropertyBoolean],
+versionmanagerPurgingEnabled: Option[ConfigNodePropertyBoolean],
+versionmanagerPurgePaths: Option[ConfigNodePropertyArray],
+versionmanagerIvPaths: Option[ConfigNodePropertyArray],
+versionmanagerMaxAgeDays: Option[ConfigNodePropertyInteger],
+versionmanagerMaxNumberVersions: Option[ConfigNodePropertyInteger],
+versionmanagerMinNumberVersions: Option[ConfigNodePropertyInteger])
+
+object ComDayCqWcmCoreImplVersionManagerImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmCoreImplVersionManagerImplPropertiesCodecJson: CodecJson[ComDayCqWcmCoreImplVersionManagerImplProperties] = CodecJson.derive[ComDayCqWcmCoreImplVersionManagerImplProperties]
+  implicit val ComDayCqWcmCoreImplVersionManagerImplPropertiesDecoder: EntityDecoder[ComDayCqWcmCoreImplVersionManagerImplProperties] = jsonOf[ComDayCqWcmCoreImplVersionManagerImplProperties]
+  implicit val ComDayCqWcmCoreImplVersionManagerImplPropertiesEncoder: EntityEncoder[ComDayCqWcmCoreImplVersionManagerImplProperties] = jsonEncoderOf[ComDayCqWcmCoreImplVersionManagerImplProperties]
+}

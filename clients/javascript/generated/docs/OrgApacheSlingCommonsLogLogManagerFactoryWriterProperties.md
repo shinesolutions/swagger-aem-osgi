@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheSlingCommonsLogFile** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

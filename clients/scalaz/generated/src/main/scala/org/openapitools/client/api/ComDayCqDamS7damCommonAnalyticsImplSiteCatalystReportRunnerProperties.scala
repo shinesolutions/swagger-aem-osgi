@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties._
+
+case class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties (
+  schedulerExpression: Option[ConfigNodePropertyString],
+schedulerConcurrent: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerPropertiesCodecJson: CodecJson[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties] = CodecJson.derive[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties]
+  implicit val ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerPropertiesDecoder: EntityDecoder[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties] = jsonOf[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties]
+  implicit val ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerPropertiesEncoder: EntityEncoder[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties] = jsonEncoderOf[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties]
+}

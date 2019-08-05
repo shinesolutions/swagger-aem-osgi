@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties._
+
+case class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties (
+  serviceMaxLinksPerHost: Option[ConfigNodePropertyInteger],
+serviceSaveExternalLinkReferences: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplPropertiesCodecJson: CodecJson[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties] = CodecJson.derive[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties]
+  implicit val ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplPropertiesDecoder: EntityDecoder[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties] = jsonOf[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties]
+  implicit val ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplPropertiesEncoder: EntityEncoder[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties] = jsonEncoderOf[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties]
+}

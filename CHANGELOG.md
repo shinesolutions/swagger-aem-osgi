@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Generate Ruby client
 - Add Gemfile
 - Reduce operation id to 70 chars
+- Generate all clients supported by OpenAPI Generator
 
 ### Changed
 - Changed api template file

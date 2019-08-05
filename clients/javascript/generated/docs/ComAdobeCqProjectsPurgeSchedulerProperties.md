@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqProjectsPurgeSchedulerProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **scheduledpurgeName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

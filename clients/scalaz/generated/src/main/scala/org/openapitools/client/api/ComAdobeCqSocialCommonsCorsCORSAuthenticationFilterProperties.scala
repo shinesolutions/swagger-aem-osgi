@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties._
+
+case class ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties (
+  corsEnabling: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterPropertiesCodecJson: CodecJson[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties] = CodecJson.derive[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties]
+  implicit val ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterPropertiesDecoder: EntityDecoder[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties] = jsonOf[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties]
+  implicit val ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterPropertiesEncoder: EntityEncoder[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties] = jsonEncoderOf[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties]
+}

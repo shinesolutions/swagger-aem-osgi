@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteLoggingImplLogAnalyserImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **messagesQueueSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

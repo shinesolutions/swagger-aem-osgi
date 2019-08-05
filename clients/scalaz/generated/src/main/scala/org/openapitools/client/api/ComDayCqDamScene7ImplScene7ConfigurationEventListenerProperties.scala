@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties._
+
+case class ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties (
+  cqDamScene7ConfigurationeventlistenerEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamScene7ImplScene7ConfigurationEventListenerPropertiesCodecJson: CodecJson[ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties] = CodecJson.derive[ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties]
+  implicit val ComDayCqDamScene7ImplScene7ConfigurationEventListenerPropertiesDecoder: EntityDecoder[ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties] = jsonOf[ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties]
+  implicit val ComDayCqDamScene7ImplScene7ConfigurationEventListenerPropertiesEncoder: EntityEncoder[ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties] = jsonEncoderOf[ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties]
+}

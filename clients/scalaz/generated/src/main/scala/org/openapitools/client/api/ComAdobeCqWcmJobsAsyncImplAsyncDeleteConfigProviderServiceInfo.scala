@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo._
+
+case class ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties])
+
+object ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfoCodecJson: CodecJson[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo] = CodecJson.derive[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo]
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfoDecoder: EntityDecoder[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo] = jsonOf[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo]
+  implicit val ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfoEncoder: EntityEncoder[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo] = jsonEncoderOf[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo]
+}

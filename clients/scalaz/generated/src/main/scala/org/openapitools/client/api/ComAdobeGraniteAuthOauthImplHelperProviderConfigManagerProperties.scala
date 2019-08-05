@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties._
+
+case class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties (
+  oauthCookieLoginTimeout: Option[ConfigNodePropertyString],
+oauthCookieMaxAge: Option[ConfigNodePropertyString])
+
+object ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerPropertiesCodecJson: CodecJson[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties] = CodecJson.derive[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties]
+  implicit val ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerPropertiesDecoder: EntityDecoder[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties] = jsonOf[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties]
+  implicit val ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerPropertiesEncoder: EntityEncoder[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties] = jsonEncoderOf[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties]
+}

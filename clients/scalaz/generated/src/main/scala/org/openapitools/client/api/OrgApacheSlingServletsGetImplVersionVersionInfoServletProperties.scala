@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties._
+
+case class OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties (
+  slingServletSelectors: Option[ConfigNodePropertyArray],
+ecmaSuport: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingServletsGetImplVersionVersionInfoServletPropertiesCodecJson: CodecJson[OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties] = CodecJson.derive[OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties]
+  implicit val OrgApacheSlingServletsGetImplVersionVersionInfoServletPropertiesDecoder: EntityDecoder[OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties] = jsonOf[OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties]
+  implicit val OrgApacheSlingServletsGetImplVersionVersionInfoServletPropertiesEncoder: EntityEncoder[OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties] = jsonEncoderOf[OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties]
+}

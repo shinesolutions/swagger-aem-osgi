@@ -1,0 +1,40 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties._
+
+case class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties (
+  name: Option[ConfigNodePropertyString],
+title: Option[ConfigNodePropertyString],
+details: Option[ConfigNodePropertyString],
+enabled: Option[ConfigNodePropertyBoolean],
+serviceName: Option[ConfigNodePropertyString],
+logLevel: Option[ConfigNodePropertyDropDown],
+allowedRoots: Option[ConfigNodePropertyArray],
+queueProcessingEnabled: Option[ConfigNodePropertyBoolean],
+packageImporterEndpoints: Option[ConfigNodePropertyArray],
+passiveQueues: Option[ConfigNodePropertyArray],
+priorityQueues: Option[ConfigNodePropertyArray],
+retryStrategy: Option[ConfigNodePropertyDropDown],
+retryAttempts: Option[ConfigNodePropertyInteger],
+requestAuthorizationStrategyTarget: Option[ConfigNodePropertyString],
+transportSecretProviderTarget: Option[ConfigNodePropertyString],
+packageBuilderTarget: Option[ConfigNodePropertyString],
+triggersTarget: Option[ConfigNodePropertyString],
+queueProvider: Option[ConfigNodePropertyDropDown],
+asyncDelivery: Option[ConfigNodePropertyBoolean],
+httpConnTimeout: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPropertiesCodecJson: CodecJson[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties] = CodecJson.derive[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties]
+  implicit val OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPropertiesDecoder: EntityDecoder[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties] = jsonOf[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties]
+  implicit val OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPropertiesEncoder: EntityEncoder[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties] = jsonEncoderOf[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties]
+}

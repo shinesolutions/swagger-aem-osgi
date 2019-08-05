@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties._
+
+case class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties (
+  timeoutInMs: Option[ConfigNodePropertyInteger],
+longRunningFutureThresholdForCriticalMs: Option[ConfigNodePropertyInteger],
+resultCacheTtlInMs: Option[ConfigNodePropertyInteger])
+
+object OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplPropertiesCodecJson: CodecJson[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties] = CodecJson.derive[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties]
+  implicit val OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplPropertiesDecoder: EntityDecoder[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties] = jsonOf[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties]
+  implicit val OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplPropertiesEncoder: EntityEncoder[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties] = jsonEncoderOf[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties]
+}

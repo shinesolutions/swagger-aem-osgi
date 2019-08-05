@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqAccountApiAccountManagementServiceProperties._
+
+case class ComAdobeCqAccountApiAccountManagementServiceProperties (
+  cqAccountmanagerTokenValidityPeriod: Option[ConfigNodePropertyInteger],
+cqAccountmanagerConfigRequestnewaccountMail: Option[ConfigNodePropertyString],
+cqAccountmanagerConfigRequestnewpwdMail: Option[ConfigNodePropertyString])
+
+object ComAdobeCqAccountApiAccountManagementServiceProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqAccountApiAccountManagementServicePropertiesCodecJson: CodecJson[ComAdobeCqAccountApiAccountManagementServiceProperties] = CodecJson.derive[ComAdobeCqAccountApiAccountManagementServiceProperties]
+  implicit val ComAdobeCqAccountApiAccountManagementServicePropertiesDecoder: EntityDecoder[ComAdobeCqAccountApiAccountManagementServiceProperties] = jsonOf[ComAdobeCqAccountApiAccountManagementServiceProperties]
+  implicit val ComAdobeCqAccountApiAccountManagementServicePropertiesEncoder: EntityEncoder[ComAdobeCqAccountApiAccountManagementServiceProperties] = jsonEncoderOf[ComAdobeCqAccountApiAccountManagementServiceProperties]
+}

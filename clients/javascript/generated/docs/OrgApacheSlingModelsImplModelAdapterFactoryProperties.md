@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingModelsImplModelAdapterFactoryProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **osgiHttpWhiteboardListener** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

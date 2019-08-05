@@ -1,0 +1,25 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties._
+
+case class OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties (
+  name: Option[ConfigNodePropertyString],
+`path`: Option[ConfigNodePropertyString],
+ignoredPathsPatterns: Option[ConfigNodePropertyArray],
+serviceName: Option[ConfigNodePropertyString],
+deep: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerPropertiesCodecJson: CodecJson[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties] = CodecJson.derive[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties]
+  implicit val OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerPropertiesDecoder: EntityDecoder[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties] = jsonOf[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties]
+  implicit val OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerPropertiesEncoder: EntityEncoder[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties] = jsonEncoderOf[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties]
+}

@@ -1,0 +1,28 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties._
+
+case class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties (
+  oauthProviderId: Option[ConfigNodePropertyString],
+oauthCloudConfigRoot: Option[ConfigNodePropertyString],
+providerConfigRoot: Option[ConfigNodePropertyString],
+providerConfigCreateTagsEnabled: Option[ConfigNodePropertyBoolean],
+providerConfigUserFolder: Option[ConfigNodePropertyDropDown],
+providerConfigFacebookFetchFields: Option[ConfigNodePropertyBoolean],
+providerConfigFacebookFields: Option[ConfigNodePropertyArray],
+providerConfigRefreshUserdataEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialConnectOauthImplFacebookProviderImplPropertiesCodecJson: CodecJson[ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties] = CodecJson.derive[ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties]
+  implicit val ComAdobeCqSocialConnectOauthImplFacebookProviderImplPropertiesDecoder: EntityDecoder[ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties] = jsonOf[ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties]
+  implicit val ComAdobeCqSocialConnectOauthImplFacebookProviderImplPropertiesEncoder: EntityEncoder[ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties] = jsonEncoderOf[ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties]
+}

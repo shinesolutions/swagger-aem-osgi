@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties._
+
+case class ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties (
+  deviceInfoTransformerEnabled: Option[ConfigNodePropertyBoolean],
+deviceInfoTransformerCssStyle: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryPropertiesCodecJson: CodecJson[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties] = CodecJson.derive[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties]
+  implicit val ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryPropertiesDecoder: EntityDecoder[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties] = jsonOf[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties]
+  implicit val ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryPropertiesEncoder: EntityEncoder[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties] = jsonEncoderOf[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties]
+}

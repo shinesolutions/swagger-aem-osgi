@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties._
+
+case class ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties (
+  slingServletSelectors: Option[ConfigNodePropertyArray],
+slingServletExtensions: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletPropertiesCodecJson: CodecJson[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties] = CodecJson.derive[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties]
+  implicit val ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletPropertiesDecoder: EntityDecoder[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties] = jsonOf[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties]
+  implicit val ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletPropertiesEncoder: EntityEncoder[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties] = jsonEncoderOf[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties]
+}

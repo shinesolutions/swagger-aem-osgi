@@ -1,0 +1,37 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties._
+
+case class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties (
+  pathDescField: Option[ConfigNodePropertyString],
+pathChildField: Option[ConfigNodePropertyString],
+pathParentField: Option[ConfigNodePropertyString],
+pathExactField: Option[ConfigNodePropertyString],
+catchAllField: Option[ConfigNodePropertyString],
+collapsedPathField: Option[ConfigNodePropertyString],
+pathDepthField: Option[ConfigNodePropertyString],
+commitPolicy: Option[ConfigNodePropertyDropDown],
+rows: Option[ConfigNodePropertyInteger],
+pathRestrictions: Option[ConfigNodePropertyBoolean],
+propertyRestrictions: Option[ConfigNodePropertyBoolean],
+primarytypesRestrictions: Option[ConfigNodePropertyBoolean],
+ignoredProperties: Option[ConfigNodePropertyArray],
+usedProperties: Option[ConfigNodePropertyArray],
+typeMappings: Option[ConfigNodePropertyArray],
+propertyMappings: Option[ConfigNodePropertyArray],
+collapseJcrcontentNodes: Option[ConfigNodePropertyBoolean])
+
+object OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties] = CodecJson.derive[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties]
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties] = jsonOf[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties]
+  implicit val OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties]
+}

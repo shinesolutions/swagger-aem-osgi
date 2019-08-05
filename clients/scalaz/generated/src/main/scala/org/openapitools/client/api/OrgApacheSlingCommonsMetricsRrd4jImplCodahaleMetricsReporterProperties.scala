@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties._
+
+case class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties (
+  datasources: Option[ConfigNodePropertyArray],
+step: Option[ConfigNodePropertyInteger],
+archives: Option[ConfigNodePropertyArray],
+`path`: Option[ConfigNodePropertyString])
+
+object OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropertiesCodecJson: CodecJson[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties] = CodecJson.derive[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties]
+  implicit val OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropertiesDecoder: EntityDecoder[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties] = jsonOf[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties]
+  implicit val OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropertiesEncoder: EntityEncoder[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties] = jsonEncoderOf[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties]
+}

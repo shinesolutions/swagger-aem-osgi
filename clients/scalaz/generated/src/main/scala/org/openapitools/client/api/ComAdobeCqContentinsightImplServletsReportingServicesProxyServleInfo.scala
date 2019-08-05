@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo._
+
+case class ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties])
+
+object ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfoCodecJson: CodecJson[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo] = CodecJson.derive[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo]
+  implicit val ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfoDecoder: EntityDecoder[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo] = jsonOf[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo]
+  implicit val ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfoEncoder: EntityEncoder[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo] = jsonEncoderOf[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo]
+}

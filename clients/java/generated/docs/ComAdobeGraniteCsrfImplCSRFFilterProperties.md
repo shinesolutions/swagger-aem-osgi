@@ -1,9 +1,7 @@
 
-
 # ComAdobeGraniteCsrfImplCSRFFilterProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **filterMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

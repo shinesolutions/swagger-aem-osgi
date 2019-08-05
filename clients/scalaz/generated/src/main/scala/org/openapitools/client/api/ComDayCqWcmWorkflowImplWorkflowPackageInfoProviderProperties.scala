@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties._
+
+case class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties (
+  workflowpackageinfoproviderFilter: Option[ConfigNodePropertyArray],
+workflowpackageinfoproviderFilterRootpath: Option[ConfigNodePropertyString])
+
+object ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderPropertiesCodecJson: CodecJson[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties] = CodecJson.derive[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties]
+  implicit val ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderPropertiesDecoder: EntityDecoder[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties] = jsonOf[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties]
+  implicit val ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderPropertiesEncoder: EntityEncoder[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties] = jsonEncoderOf[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties]
+}

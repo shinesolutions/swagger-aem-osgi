@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties._
+
+case class ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties (
+  cqAnalyticsTestandtargetAccountoptionsupdaterEnabled: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterPropertiesCodecJson: CodecJson[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties] = CodecJson.derive[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties]
+  implicit val ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterPropertiesDecoder: EntityDecoder[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties] = jsonOf[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties]
+  implicit val ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterPropertiesEncoder: EntityEncoder[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties] = jsonEncoderOf[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties]
+}

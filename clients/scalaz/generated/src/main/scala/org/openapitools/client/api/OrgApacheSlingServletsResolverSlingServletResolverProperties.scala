@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheSlingServletsResolverSlingServletResolverProperties._
+
+case class OrgApacheSlingServletsResolverSlingServletResolverProperties (
+  servletresolverServletRoot: Option[ConfigNodePropertyString],
+servletresolverCacheSize: Option[ConfigNodePropertyInteger],
+servletresolverPaths: Option[ConfigNodePropertyArray],
+servletresolverDefaultExtensions: Option[ConfigNodePropertyArray])
+
+object OrgApacheSlingServletsResolverSlingServletResolverProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheSlingServletsResolverSlingServletResolverPropertiesCodecJson: CodecJson[OrgApacheSlingServletsResolverSlingServletResolverProperties] = CodecJson.derive[OrgApacheSlingServletsResolverSlingServletResolverProperties]
+  implicit val OrgApacheSlingServletsResolverSlingServletResolverPropertiesDecoder: EntityDecoder[OrgApacheSlingServletsResolverSlingServletResolverProperties] = jsonOf[OrgApacheSlingServletsResolverSlingServletResolverProperties]
+  implicit val OrgApacheSlingServletsResolverSlingServletResolverPropertiesEncoder: EntityEncoder[OrgApacheSlingServletsResolverSlingServletResolverProperties] = jsonEncoderOf[OrgApacheSlingServletsResolverSlingServletResolverProperties]
+}

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo._
+
+case class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo (
+  pid: Option[String],
+title: Option[String],
+description: Option[String],
+properties: Option[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties])
+
+object ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfoCodecJson: CodecJson[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo] = CodecJson.derive[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo]
+  implicit val ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfoDecoder: EntityDecoder[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo] = jsonOf[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo]
+  implicit val ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfoEncoder: EntityEncoder[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo] = jsonEncoderOf[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo]
+}

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComAdobeCqSocialSyncImplDiffChangesObserverProperties._
+
+case class ComAdobeCqSocialSyncImplDiffChangesObserverProperties (
+  enabled: Option[ConfigNodePropertyBoolean],
+agentName: Option[ConfigNodePropertyString],
+diffPath: Option[ConfigNodePropertyString],
+propertyNames: Option[ConfigNodePropertyString])
+
+object ComAdobeCqSocialSyncImplDiffChangesObserverProperties {
+  import DateTimeCodecs._
+
+  implicit val ComAdobeCqSocialSyncImplDiffChangesObserverPropertiesCodecJson: CodecJson[ComAdobeCqSocialSyncImplDiffChangesObserverProperties] = CodecJson.derive[ComAdobeCqSocialSyncImplDiffChangesObserverProperties]
+  implicit val ComAdobeCqSocialSyncImplDiffChangesObserverPropertiesDecoder: EntityDecoder[ComAdobeCqSocialSyncImplDiffChangesObserverProperties] = jsonOf[ComAdobeCqSocialSyncImplDiffChangesObserverProperties]
+  implicit val ComAdobeCqSocialSyncImplDiffChangesObserverPropertiesEncoder: EntityEncoder[ComAdobeCqSocialSyncImplDiffChangesObserverProperties] = jsonEncoderOf[ComAdobeCqSocialSyncImplDiffChangesObserverProperties]
+}

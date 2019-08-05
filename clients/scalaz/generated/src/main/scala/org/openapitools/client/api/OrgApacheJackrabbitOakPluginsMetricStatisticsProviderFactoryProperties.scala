@@ -1,0 +1,21 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties._
+
+case class OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties (
+  providerType: Option[ConfigNodePropertyDropDown])
+
+object OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryPropertiesCodecJson: CodecJson[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties] = CodecJson.derive[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties]
+  implicit val OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryPropertiesDecoder: EntityDecoder[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties] = jsonOf[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties]
+  implicit val OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryPropertiesEncoder: EntityEncoder[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties] = jsonEncoderOf[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties]
+}

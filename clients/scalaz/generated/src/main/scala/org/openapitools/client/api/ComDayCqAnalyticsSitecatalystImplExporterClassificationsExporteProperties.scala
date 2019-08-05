@@ -1,0 +1,22 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties._
+
+case class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties (
+  allowedPaths: Option[ConfigNodePropertyArray],
+cqAnalyticsSaintExporterPagesize: Option[ConfigNodePropertyInteger])
+
+object ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqAnalyticsSitecatalystImplExporterClassificationsExportePropertiesCodecJson: CodecJson[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties] = CodecJson.derive[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties]
+  implicit val ComDayCqAnalyticsSitecatalystImplExporterClassificationsExportePropertiesDecoder: EntityDecoder[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties] = jsonOf[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties]
+  implicit val ComDayCqAnalyticsSitecatalystImplExporterClassificationsExportePropertiesEncoder: EntityEncoder[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties] = jsonEncoderOf[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties]
+}

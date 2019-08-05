@@ -1,0 +1,26 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqDamCoreImplServletResourceCollectionServletProperties._
+
+case class ComDayCqDamCoreImplServletResourceCollectionServletProperties (
+  slingServletResourceTypes: Option[ConfigNodePropertyArray],
+slingServletMethods: Option[ConfigNodePropertyString],
+slingServletSelectors: Option[ConfigNodePropertyString],
+downloadConfig: Option[ConfigNodePropertyString],
+viewSelector: Option[ConfigNodePropertyString],
+sendEmail: Option[ConfigNodePropertyBoolean])
+
+object ComDayCqDamCoreImplServletResourceCollectionServletProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqDamCoreImplServletResourceCollectionServletPropertiesCodecJson: CodecJson[ComDayCqDamCoreImplServletResourceCollectionServletProperties] = CodecJson.derive[ComDayCqDamCoreImplServletResourceCollectionServletProperties]
+  implicit val ComDayCqDamCoreImplServletResourceCollectionServletPropertiesDecoder: EntityDecoder[ComDayCqDamCoreImplServletResourceCollectionServletProperties] = jsonOf[ComDayCqDamCoreImplServletResourceCollectionServletProperties]
+  implicit val ComDayCqDamCoreImplServletResourceCollectionServletPropertiesEncoder: EntityEncoder[ComDayCqDamCoreImplServletResourceCollectionServletProperties] = jsonEncoderOf[ComDayCqDamCoreImplServletResourceCollectionServletProperties]
+}

@@ -1,0 +1,23 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+import ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties._
+
+case class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties (
+  cqWcmMsmActionExcludednodetypes: Option[ConfigNodePropertyArray],
+cqWcmMsmActionExcludedparagraphitems: Option[ConfigNodePropertyArray],
+cqWcmMsmActionExcludedprops: Option[ConfigNodePropertyArray])
+
+object ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties {
+  import DateTimeCodecs._
+
+  implicit val ComDayCqWcmMsmImplActionsContentDeleteActionFactoryPropertiesCodecJson: CodecJson[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties] = CodecJson.derive[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties]
+  implicit val ComDayCqWcmMsmImplActionsContentDeleteActionFactoryPropertiesDecoder: EntityDecoder[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties] = jsonOf[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties]
+  implicit val ComDayCqWcmMsmImplActionsContentDeleteActionFactoryPropertiesEncoder: EntityEncoder[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties] = jsonEncoderOf[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties]
+}

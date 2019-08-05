@@ -1,7 +1,6 @@
 # NodeSwaggerAemOsgi.ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties
 
 ## Properties
-
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqCommerceCataloggeneratorBucketsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
