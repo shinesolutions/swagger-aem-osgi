@@ -64,6 +64,7 @@ __A:__ To run the OpenAPI Spec generator against a defined AEM Host or to define
 
 usage:
 ```
+aem_verify_ssl=false
 aem_protocol=https \
 aem_host=author.sandpit.aemopencloud.net \
 aem_port=443 \
