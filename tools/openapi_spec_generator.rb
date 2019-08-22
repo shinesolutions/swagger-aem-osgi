@@ -17,12 +17,24 @@ call_usage unless ARGV[2].eql?('--out')
 api_source_file = ARGV[1]
 api_dest_file = ARGV[3]
 
-@client = RubyAem::Aem.new
+@client = RubyAem::Aem.new(
+                            username: ENV['aem_username'] || 'admin',
+                            password: ENV['aem_password'] || 'admin',
+                            protocol: ENV['aem_protocol'] || 'http',
+                            host: ENV['aem_host'] || 'localhost',
+                            port: ENV['aem_port'] ? ENV['aem_port'].to_i : 4502,
+                            debug: ENV['aem_debug'] ? ENV['aem_debug'] == 'true' : false,
+                            verify_ssl: ENV['aem_verify_ssl'] ? ENV['aem_verify_ssl'] == 'true' : false
+                          )
 
 @scheme = SwaggerAemClient.configure.scheme
 @host = SwaggerAemClient.configure.host
 @username = SwaggerAemClient.configure.username
 @password = SwaggerAemClient.configure.password
+@verify_ssl = SwaggerAemClient.configure.verify_ssl
+@verify_ssl_host = 0 if !SwaggerAemClient.configure.verify_ssl_host
+@verify_ssl_host = 1 if SwaggerAemClient.configure.verify_ssl_host
+
 @api_source_file = api_source_file
 @api_dest_file = api_dest_file
 
@@ -379,14 +391,15 @@ end
 def get_config_node(config_node_id)
   # Make config node id html compatible
   config_node_id_url = config_node_id.gsub(' ', '%20')
-
   request = Typhoeus::Request.new(
     "#{@scheme}://#{@host}/system/console/configMgr/#{config_node_id_url}",
     method: :post,
     body: 'this is a request body',
     params: { post: 'true' },
     headers: { ContentType: 'application/json' },
-    userpwd: "#{@username}:#{@password}"
+    userpwd: "#{@username}:#{@password}",
+    ssl_verifyhost: @verify_ssl_host,
+    ssl_verifypeer: @verify_ssl,
   )
   response_body = request.run.body
   JSON.parse(response_body)
