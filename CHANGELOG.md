@@ -21,3 +21,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Changed api template file
 - Update OpenAPI spec generator tool
+- Update OpenAPI spec generator tool to pass ruby_aem environment variables
+- Update OpenAPI spec generator tool to allow to disable ssl verification
