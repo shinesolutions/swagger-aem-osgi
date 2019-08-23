@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Gemfile
 - Reduce operation id to 70 chars
 - Generate all clients supported by OpenAPI Generator
+- Add new FAQ item to define own AEM host parameters
 
 ### Changed
 - Changed api template file
