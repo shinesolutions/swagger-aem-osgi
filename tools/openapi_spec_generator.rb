@@ -582,7 +582,7 @@ def generate_config_node_pid_list(data)
   # value configData in the page source code which
   # contains all config nodes which exists in AEM.
   config_data = data.match('configData(.*)')
-  sub_config_data = config_data.to_s.sub('configData = ', '').gsub(/\;$/, '')
+  sub_config_data = config_data.to_s.sub('configData = ', '').gsub(/\}\]\}\;/, '}]}')
   config_data_json = JSON.parse(sub_config_data)
   config_nodes_pids = config_data_json['pids']
   config_nodes_fpids = config_data_json['fpids']
