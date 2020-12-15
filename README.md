@@ -1,5 +1,7 @@
+[![Build Status](https://github.com/shinesolutions/swagger-aem-osgi/workflows/CI/badge.svg)](https://github.com/shinesolutions/swagger-aem-osgi/actions?query=workflow%3ACI)
+
 Swagger AEM OSGI
------------
+----------------
 
 Swagger AEM OSGI is an OpenAPI specification for configuring [Adobe Experience Manager (AEM)](http://www.adobe.com/au/marketing-cloud/enterprise-content-management.html) API.
 
