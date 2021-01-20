@@ -12,3 +12,4 @@ clients/ruby/bin
 bin/
 vendor/
 inspec.lock
+stage/
