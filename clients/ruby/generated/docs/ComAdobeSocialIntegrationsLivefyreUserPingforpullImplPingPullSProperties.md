@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**communities_integration_livefyre_sling_event_filter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **communities_integration_livefyre_sling_event_filter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties.new(communities_integration_livefyre_sling_event_filter: null)
+instance = SwaggerAemOsgiClient::ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties.new(
+  communities_integration_livefyre_sling_event_filter: null
+)
 ```
-
 

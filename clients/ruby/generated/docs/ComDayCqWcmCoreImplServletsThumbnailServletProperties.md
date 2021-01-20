@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**workspace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**dimensions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **workspace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **dimensions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmCoreImplServletsThumbnailServletProperties.new(workspace: null,
-                                 dimensions: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmCoreImplServletsThumbnailServletProperties.new(
+  workspace: null,
+  dimensions: null
+)
 ```
-
 

@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**log_stacktrace_onclose** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **log_stacktrace_onclose** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties.new(log_stacktrace_onclose: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties.new(
+  log_stacktrace_onclose: null
+)
 ```
-
 

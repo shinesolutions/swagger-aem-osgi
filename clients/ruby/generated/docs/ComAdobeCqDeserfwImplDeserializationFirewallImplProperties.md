@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**firewall_deserialization_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**firewall_deserialization_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**firewall_deserialization_diagnostics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **firewall_deserialization_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **firewall_deserialization_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **firewall_deserialization_diagnostics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqDeserfwImplDeserializationFirewallImplProperties.new(firewall_deserialization_whitelist: null,
-                                 firewall_deserialization_blacklist: null,
-                                 firewall_deserialization_diagnostics: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqDeserfwImplDeserializationFirewallImplProperties.new(
+  firewall_deserialization_whitelist: null,
+  firewall_deserialization_blacklist: null,
+  firewall_deserialization_diagnostics: null
+)
 ```
-
 

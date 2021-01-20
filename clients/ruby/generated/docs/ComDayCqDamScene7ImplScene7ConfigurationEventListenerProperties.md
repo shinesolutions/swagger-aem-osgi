@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_dam_scene7_configurationeventlistener_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_dam_scene7_configurationeventlistener_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties.new(cq_dam_scene7_configurationeventlistener_enabled: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties.new(
+  cq_dam_scene7_configurationeventlistener_enabled: null
+)
 ```
-
 

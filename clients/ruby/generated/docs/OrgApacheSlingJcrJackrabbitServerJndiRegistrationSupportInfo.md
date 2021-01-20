@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **String** |  | [optional] 
-**title** | **String** |  | [optional] 
-**description** | **String** |  | [optional] 
-**properties** | [**OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties**](OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pid** | **String** |  | [optional] |
+| **title** | **String** |  | [optional] |
+| **description** | **String** |  | [optional] |
+| **properties** | [**OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties**](OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo.new(pid: null,
-                                 title: null,
-                                 description: null,
-                                 properties: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo.new(
+  pid: null,
+  title: null,
+  description: null,
+  properties: null
+)
 ```
-
 

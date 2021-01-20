@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_analytics_testandtarget_deleteauthoractivitylistener_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_analytics_testandtarget_deleteauthoractivitylistener_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties.new(cq_analytics_testandtarget_deleteauthoractivitylistener_enabled: null)
+instance = SwaggerAemOsgiClient::ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties.new(
+  cq_analytics_testandtarget_deleteauthoractivitylistener_enabled: null
+)
 ```
-
 

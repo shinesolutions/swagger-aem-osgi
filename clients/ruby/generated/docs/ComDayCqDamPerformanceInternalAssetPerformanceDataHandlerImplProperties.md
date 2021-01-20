@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**batch_commit_size** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **batch_commit_size** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties.new(batch_commit_size: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties.new(
+  batch_commit_size: null
+)
 ```
-
 

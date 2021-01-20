@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**disable_smart_sync** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **disable_smart_sync** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties.new(disable_smart_sync: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties.new(
+  disable_smart_sync: null
+)
 ```
-
 

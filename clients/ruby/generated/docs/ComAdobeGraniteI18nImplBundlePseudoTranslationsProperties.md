@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pseudo_patterns** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pseudo_patterns** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties.new(pseudo_patterns: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties.new(
+  pseudo_patterns: null
+)
 ```
-
 

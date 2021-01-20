@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**sling_servlet_selectors** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**ecma_suport** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **sling_servlet_selectors** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **ecma_suport** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties.new(sling_servlet_selectors: null,
-                                 ecma_suport: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties.new(
+  sling_servlet_selectors: null,
+  ecma_suport: null
+)
 ```
-
 

@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**enable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**ttl1** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**ttl2** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **enable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **ttl1** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **ttl2** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties.new(enable: null,
-                                 ttl1: null,
-                                 ttl2: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties.new(
+  enable: null,
+  ttl1: null,
+  ttl2: null
+)
 ```
-
 

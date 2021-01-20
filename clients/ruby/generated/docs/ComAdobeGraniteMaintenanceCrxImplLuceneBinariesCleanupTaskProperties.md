@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**job_topics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **job_topics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties.new(job_topics: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties.new(
+  job_topics: null
+)
 ```
-
 

@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**get_cache_expiration_unit** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
-**get_cache_expiration_value** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **get_cache_expiration_unit** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] |
+| **get_cache_expiration_value** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties.new(get_cache_expiration_unit: null,
-                                 get_cache_expiration_value: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties.new(
+  get_cache_expiration_unit: null,
+  get_cache_expiration_value: null
+)
 ```
-
 

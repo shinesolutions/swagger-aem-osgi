@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**auth_ims_client_secret** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**customizer_type** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **auth_ims_client_secret** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **customizer_type** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties.new(auth_ims_client_secret: null,
-                                 customizer_type: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties.new(
+  auth_ims_client_secret: null,
+  customizer_type: null
+)
 ```
-
 

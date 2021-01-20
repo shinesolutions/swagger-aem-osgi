@@ -2,24 +2,25 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**nodetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**ignorableprops** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**ignorablenodes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**distfolders** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **nodetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **ignorableprops** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **ignorablenodes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **distfolders** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties.new(nodetypes: null,
-                                 ignorableprops: null,
-                                 ignorablenodes: null,
-                                 enabled: null,
-                                 distfolders: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties.new(
+  nodetypes: null,
+  ignorableprops: null,
+  ignorablenodes: null,
+  enabled: null,
+  distfolders: null
+)
 ```
-
 

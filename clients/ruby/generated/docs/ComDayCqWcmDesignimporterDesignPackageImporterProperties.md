@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**extract_filter** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **extract_filter** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmDesignimporterDesignPackageImporterProperties.new(extract_filter: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmDesignimporterDesignPackageImporterProperties.new(
+  extract_filter: null
+)
 ```
-
 

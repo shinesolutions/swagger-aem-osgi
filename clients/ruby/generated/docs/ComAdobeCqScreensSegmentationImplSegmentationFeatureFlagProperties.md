@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**enable_data_triggered_content** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **enable_data_triggered_content** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties.new(enable_data_triggered_content: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties.new(
+  enable_data_triggered_content: null
+)
 ```
-
 

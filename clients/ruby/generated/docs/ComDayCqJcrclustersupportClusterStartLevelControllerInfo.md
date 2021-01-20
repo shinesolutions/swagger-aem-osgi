@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **String** |  | [optional] 
-**title** | **String** |  | [optional] 
-**description** | **String** |  | [optional] 
-**properties** | [**ComDayCqJcrclustersupportClusterStartLevelControllerProperties**](ComDayCqJcrclustersupportClusterStartLevelControllerProperties.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pid** | **String** |  | [optional] |
+| **title** | **String** |  | [optional] |
+| **description** | **String** |  | [optional] |
+| **properties** | [**ComDayCqJcrclustersupportClusterStartLevelControllerProperties**](ComDayCqJcrclustersupportClusterStartLevelControllerProperties.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqJcrclustersupportClusterStartLevelControllerInfo.new(pid: null,
-                                 title: null,
-                                 description: null,
-                                 properties: null)
+instance = SwaggerAemOsgiClient::ComDayCqJcrclustersupportClusterStartLevelControllerInfo.new(
+  pid: null,
+  title: null,
+  description: null,
+  properties: null
+)
 ```
-
 

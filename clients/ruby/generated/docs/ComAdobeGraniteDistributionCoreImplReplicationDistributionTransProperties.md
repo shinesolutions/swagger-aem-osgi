@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**forward_requests** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **forward_requests** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteDistributionCoreImplReplicationDistributionTransProperties.new(forward_requests: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteDistributionCoreImplReplicationDistributionTransProperties.new(
+  forward_requests: null
+)
 ```
-
 

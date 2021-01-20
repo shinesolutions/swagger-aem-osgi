@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**max_items** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**max_path_depth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **max_items** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **max_path_depth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.new(max_items: null,
-                                 max_path_depth: null,
-                                 enabled: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.new(
+  max_items: null,
+  max_path_depth: null,
+  enabled: null
+)
 ```
-
 

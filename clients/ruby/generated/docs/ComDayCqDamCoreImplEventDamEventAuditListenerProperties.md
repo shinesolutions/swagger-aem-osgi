@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**event_filter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **event_filter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplEventDamEventAuditListenerProperties.new(event_filter: null,
-                                 enabled: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplEventDamEventAuditListenerProperties.new(
+  event_filter: null,
+  enabled: null
+)
 ```
-
 

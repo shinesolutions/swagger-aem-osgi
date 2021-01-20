@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**dir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **dir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderProperties.new(dir: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderProperties.new(
+  dir: null
+)
 ```
-
 

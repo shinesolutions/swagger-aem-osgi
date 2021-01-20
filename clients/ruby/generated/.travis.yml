@@ -8,4 +8,4 @@ script:
   - bundle install --path vendor/bundle
   - bundle exec rspec
   - gem build swagger_aem_osgi.gemspec
-  - gem install ./swagger_aem_osgi-1.0.0-pre.0.gem
+  - gem install ./swagger_aem_osgi-1.1.0-pre.0.gem

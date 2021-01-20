@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**labels** | **Object** | Drop Down label | [optional] 
-**values** | **Object** | Drown Down value | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **labels** | [**AnyType**](.md) | Drop Down label | [optional] |
+| **values** | [**AnyType**](.md) | Drown Down value | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ConfigNodePropertyDropDownType.new(labels: null,
-                                 values: null)
+instance = SwaggerAemOsgiClient::ConfigNodePropertyDropDownType.new(
+  labels: null,
+  values: null
+)
 ```
-
 

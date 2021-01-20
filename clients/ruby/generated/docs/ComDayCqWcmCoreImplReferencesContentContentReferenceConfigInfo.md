@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **String** |  | [optional] 
-**title** | **String** |  | [optional] 
-**description** | **String** |  | [optional] 
-**properties** | [**ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties**](ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pid** | **String** |  | [optional] |
+| **title** | **String** |  | [optional] |
+| **description** | **String** |  | [optional] |
+| **properties** | [**ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties**](ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo.new(pid: null,
-                                 title: null,
-                                 description: null,
-                                 properties: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo.new(
+  pid: null,
+  title: null,
+  description: null,
+  properties: null
+)
 ```
-
 

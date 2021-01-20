@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**compatgroups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **compatgroups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties.new(compatgroups: null,
-                                 enabled: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties.new(
+  compatgroups: null,
+  enabled: null
+)
 ```
-
 

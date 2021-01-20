@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**feed_generator_algorithm** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **feed_generator_algorithm** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties.new(feed_generator_algorithm: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties.new(
+  feed_generator_algorithm: null
+)
 ```
-
 

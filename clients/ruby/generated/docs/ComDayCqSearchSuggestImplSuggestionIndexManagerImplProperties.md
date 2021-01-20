@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**path_builder_target** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**suggest_basepath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **path_builder_target** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **suggest_basepath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties.new(path_builder_target: null,
-                                 suggest_basepath: null)
+instance = SwaggerAemOsgiClient::ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties.new(
+  path_builder_target: null,
+  suggest_basepath: null
+)
 ```
-
 

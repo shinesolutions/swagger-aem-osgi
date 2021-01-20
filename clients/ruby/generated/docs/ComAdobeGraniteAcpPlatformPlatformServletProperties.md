@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**query_limit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**file_type_extension_map** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **query_limit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **file_type_extension_map** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteAcpPlatformPlatformServletProperties.new(query_limit: null,
-                                 file_type_extension_map: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteAcpPlatformPlatformServletProperties.new(
+  query_limit: null,
+  file_type_extension_map: null
+)
 ```
-
 

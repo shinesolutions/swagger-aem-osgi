@@ -2,26 +2,27 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **String** |  | [optional] 
-**title** | **String** |  | [optional] 
-**description** | **String** |  | [optional] 
-**properties** | [**OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties**](OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties.md) |  | [optional] 
-**bundle_location** | **String** |  | [optional] 
-**service_location** | **String** |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pid** | **String** |  | [optional] |
+| **title** | **String** |  | [optional] |
+| **description** | **String** |  | [optional] |
+| **properties** | [**OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties**](OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties.md) |  | [optional] |
+| **bundle_location** | **String** |  | [optional] |
+| **service_location** | **String** |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo.new(pid: null,
-                                 title: null,
-                                 description: null,
-                                 properties: null,
-                                 bundle_location: null,
-                                 service_location: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo.new(
+  pid: null,
+  title: null,
+  description: null,
+  properties: null,
+  bundle_location: null,
+  service_location: null
+)
 ```
-
 

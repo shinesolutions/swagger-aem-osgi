@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**report_fetch_attempts** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**report_fetch_delay** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **report_fetch_attempts** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **report_fetch_delay** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties.new(report_fetch_attempts: null,
-                                 report_fetch_delay: null)
+instance = SwaggerAemOsgiClient::ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties.new(
+  report_fetch_attempts: null,
+  report_fetch_delay: null
+)
 ```
-
 

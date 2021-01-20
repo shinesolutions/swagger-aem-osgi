@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**sling_servlet_selectors** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**sling_servlet_extensions** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **sling_servlet_selectors** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **sling_servlet_extensions** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties.new(sling_servlet_selectors: null,
-                                 sling_servlet_extensions: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties.new(
+  sling_servlet_selectors: null,
+  sling_servlet_extensions: null
+)
 ```
-
 

@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**process_label** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **process_label** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties.new(process_label: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties.new(
+  process_label: null
+)
 ```
-
 

@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_analytics_adapterfactory_contextstores** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_analytics_adapterfactory_contextstores** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryProperties.new(cq_analytics_adapterfactory_contextstores: null)
+instance = SwaggerAemOsgiClient::ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryProperties.new(
+  cq_analytics_adapterfactory_contextstores: null
+)
 ```
-
 

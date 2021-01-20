@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**csrf_token_expires_in** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**sling_auth_requirements** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **csrf_token_expires_in** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **sling_auth_requirements** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteCsrfImplCSRFServletProperties.new(csrf_token_expires_in: null,
-                                 sling_auth_requirements: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteCsrfImplCSRFServletProperties.new(
+  csrf_token_expires_in: null,
+  sling_auth_requirements: null
+)
 ```
-
 

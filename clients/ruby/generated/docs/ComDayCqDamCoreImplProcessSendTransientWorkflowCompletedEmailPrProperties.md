@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**process_label** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**notify_on_complete** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **process_label** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **notify_on_complete** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.new(process_label: null,
-                                 notify_on_complete: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.new(
+  process_label: null,
+  notify_on_complete: null
+)
 ```
-
 

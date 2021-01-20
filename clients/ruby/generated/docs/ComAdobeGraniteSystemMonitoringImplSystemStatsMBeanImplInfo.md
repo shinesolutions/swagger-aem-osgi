@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **String** |  | [optional] 
-**title** | **String** |  | [optional] 
-**description** | **String** |  | [optional] 
-**properties** | [**ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties**](ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pid** | **String** |  | [optional] |
+| **title** | **String** |  | [optional] |
+| **description** | **String** |  | [optional] |
+| **properties** | [**ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties**](ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo.new(pid: null,
-                                 title: null,
-                                 description: null,
-                                 properties: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo.new(
+  pid: null,
+  title: null,
+  description: null,
+  properties: null
+)
 ```
-
 

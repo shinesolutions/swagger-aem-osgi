@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**screens_channels_properties_to_remove** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **screens_channels_properties_to_remove** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqScreensImplScreensChannelPostProcessorProperties.new(screens_channels_properties_to_remove: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqScreensImplScreensChannelPostProcessorProperties.new(
+  screens_channels_properties_to_remove: null
+)
 ```
-
 

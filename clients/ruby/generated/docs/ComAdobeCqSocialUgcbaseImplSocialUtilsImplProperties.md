@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**legacy_cloud_ugc_path_mapping** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **legacy_cloud_ugc_path_mapping** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties.new(legacy_cloud_ugc_path_mapping: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties.new(
+  legacy_cloud_ugc_path_mapping: null
+)
 ```
-
 

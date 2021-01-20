@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**configid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**scope** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **configid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **scope** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteAuthImsProperties.new(configid: null,
-                                 scope: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteAuthImsProperties.new(
+  configid: null,
+  scope: null
+)
 ```
-
 
