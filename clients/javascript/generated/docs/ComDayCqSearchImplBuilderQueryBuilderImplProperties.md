@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqSearchImplBuilderQueryBuilderImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **excerptProperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

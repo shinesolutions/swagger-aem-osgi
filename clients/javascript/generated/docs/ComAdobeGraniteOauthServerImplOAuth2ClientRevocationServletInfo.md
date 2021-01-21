@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

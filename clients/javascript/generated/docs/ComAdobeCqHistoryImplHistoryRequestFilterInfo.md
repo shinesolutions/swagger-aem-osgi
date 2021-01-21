@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqHistoryImplHistoryRequestFilterInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

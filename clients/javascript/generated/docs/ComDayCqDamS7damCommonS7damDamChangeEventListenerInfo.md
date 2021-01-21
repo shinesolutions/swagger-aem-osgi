@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

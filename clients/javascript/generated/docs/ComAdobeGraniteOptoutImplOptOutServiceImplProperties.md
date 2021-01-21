@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteOptoutImplOptOutServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **optoutCookies** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

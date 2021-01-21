@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqDtmReactorImplServiceWebServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **endpointUri** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

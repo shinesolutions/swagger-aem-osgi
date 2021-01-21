@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingI18nImplJcrResourceBundleProviderProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **localeDefault** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

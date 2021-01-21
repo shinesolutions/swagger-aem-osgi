@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

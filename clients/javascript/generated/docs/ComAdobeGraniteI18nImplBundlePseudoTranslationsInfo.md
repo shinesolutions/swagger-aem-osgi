@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

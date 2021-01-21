@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

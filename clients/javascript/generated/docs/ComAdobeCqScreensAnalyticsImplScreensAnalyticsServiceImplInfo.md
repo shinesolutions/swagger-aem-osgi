@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

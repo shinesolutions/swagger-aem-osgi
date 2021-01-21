@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheHttpProxyconfiguratorInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 
