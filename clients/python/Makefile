@@ -29,7 +29,8 @@ doc:
 
 publish:
 	cd generated/ && \
-	  gem push `ls swagger_aem_osgi-*.gem`
+	  python setup.py register -r pypi && \
+	  python setup.py sdist upload -r pypi
 
 publish-test:
 	cd generated/ && \
