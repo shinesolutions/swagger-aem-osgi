@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmFoundationFormsImplMailServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingServletResourceTypes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

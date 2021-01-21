@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **javaNamingFactoryInitial** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

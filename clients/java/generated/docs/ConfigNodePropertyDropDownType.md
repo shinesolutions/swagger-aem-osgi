@@ -1,7 +1,9 @@
 
+
 # ConfigNodePropertyDropDownType
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **labels** | **Object** | Drop Down label |  [optional]

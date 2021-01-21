@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **solrZkTimeout** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

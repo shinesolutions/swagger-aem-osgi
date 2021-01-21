@@ -1,7 +1,9 @@
 
+
 # ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enableTokenCleanupTask** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

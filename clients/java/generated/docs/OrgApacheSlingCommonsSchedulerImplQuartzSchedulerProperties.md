@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **poolName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

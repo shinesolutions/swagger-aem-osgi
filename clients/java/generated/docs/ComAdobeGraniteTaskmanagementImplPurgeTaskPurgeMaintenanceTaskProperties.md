@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **purgeCompleted** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]

@@ -1,7 +1,9 @@
 
+
 # ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **reportFetchAttempts** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

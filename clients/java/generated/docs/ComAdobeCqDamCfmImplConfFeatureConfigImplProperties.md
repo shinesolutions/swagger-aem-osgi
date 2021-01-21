@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqDamCfmImplConfFeatureConfigImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **damCfmResourceTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

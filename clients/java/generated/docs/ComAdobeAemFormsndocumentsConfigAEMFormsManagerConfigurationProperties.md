@@ -1,7 +1,9 @@
 
+
 # ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **formsManagerConfigIncludeOOTBTemplates** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

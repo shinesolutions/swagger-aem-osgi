@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingSecurityImplReferrerFilterProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **allowEmpty** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

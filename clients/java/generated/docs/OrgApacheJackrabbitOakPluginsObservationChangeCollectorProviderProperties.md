@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **maxItems** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

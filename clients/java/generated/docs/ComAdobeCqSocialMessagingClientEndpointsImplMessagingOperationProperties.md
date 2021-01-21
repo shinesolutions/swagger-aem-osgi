@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **messageProperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

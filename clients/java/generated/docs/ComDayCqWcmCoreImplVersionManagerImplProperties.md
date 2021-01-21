@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmCoreImplVersionManagerImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **versionmanagerCreateVersionOnActivation** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

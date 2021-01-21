@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pathDescField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
