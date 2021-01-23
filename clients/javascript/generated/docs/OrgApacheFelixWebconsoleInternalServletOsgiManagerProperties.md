@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **managerRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

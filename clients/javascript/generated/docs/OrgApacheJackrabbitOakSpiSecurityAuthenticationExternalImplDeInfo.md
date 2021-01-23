@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

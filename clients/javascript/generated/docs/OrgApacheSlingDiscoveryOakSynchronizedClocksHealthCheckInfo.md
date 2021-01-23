@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

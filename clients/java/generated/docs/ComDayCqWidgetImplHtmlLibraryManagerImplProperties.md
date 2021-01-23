@@ -1,7 +1,9 @@
 
+
 # ComDayCqWidgetImplHtmlLibraryManagerImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **htmllibmanagerClientmanager** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

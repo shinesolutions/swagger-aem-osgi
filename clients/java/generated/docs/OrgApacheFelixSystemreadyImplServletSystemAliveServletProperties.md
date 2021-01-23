@@ -1,7 +1,9 @@
 
+
 # OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **osgiHttpWhiteboardServletPattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

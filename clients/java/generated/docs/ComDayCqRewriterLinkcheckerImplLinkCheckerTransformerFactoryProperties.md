@@ -1,7 +1,9 @@
 
+
 # ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **linkcheckertransformerDisableRewriting** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

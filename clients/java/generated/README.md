@@ -1,8 +1,8 @@
 # swaggeraemosgi4j
 
 Adobe Experience Manager OSGI config (AEM) API
-- API version: 1.0.0
-  - Build date: 2019-06-26T12:10:03.209Z[GMT]
+- API version: 1.0.0-pre.0
+  - Build date: 2021-01-21T11:01:16.126+11:00[Australia/Melbourne]
 
 Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
 
@@ -73,38 +73,47 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 
-import com.shinesolutions.swaggeraemosgi4j.*;
+// Import classes:
+import com.shinesolutions.swaggeraemosgi4j.ApiClient;
+import com.shinesolutions.swaggeraemosgi4j.ApiException;
+import com.shinesolutions.swaggeraemosgi4j.Configuration;
 import com.shinesolutions.swaggeraemosgi4j.auth.*;
-import com.shinesolutions.swaggeraemosgi4j.model.*;
+import com.shinesolutions.swaggeraemosgi4j.models.*;
 import com.shinesolutions.swaggeraemosgi4j.api.ConfigmgrApi;
 
-import java.io.File;
-import java.util.*;
+public class Example {
+  public static void main(String[] args) {
+    ApiClient defaultClient = Configuration.getDefaultApiClient();
+    defaultClient.setBasePath("http://localhost");
+    
+    // Configure HTTP basic authorization: aemAuth
+    HttpBasicAuth aemAuth = (HttpBasicAuth) defaultClient.getAuthentication("aemAuth");
+    aemAuth.setUsername("YOUR USERNAME");
+    aemAuth.setPassword("YOUR PASSWORD");
 
-public class ConfigmgrApiExample {
-
-    public static void main(String[] args) {
-        
-        ConfigmgrApi apiInstance = new ConfigmgrApi();
-        Boolean post = true; // Boolean | 
-        Boolean apply = true; // Boolean | 
-        Boolean delete = true; // Boolean | 
-        String action = "action_example"; // String | 
-        String $location = "$location_example"; // String | 
-        List<String> propertylist = Arrays.asList(); // List<String> | 
-        Boolean showPlaceholder = true; // Boolean | 
-        Integer maximumCacheEntries = 56; // Integer | 
-        String afScriptingCompatversion = "afScriptingCompatversion_example"; // String | 
-        Boolean makeFileNameUnique = true; // Boolean | 
-        Boolean generatingCompliantData = true; // Boolean | 
-        try {
-            AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo result = apiInstance.adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(post, apply, delete, action, $location, propertylist, showPlaceholder, maximumCacheEntries, afScriptingCompatversion, makeFileNameUnique, generatingCompliantData);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling ConfigmgrApi#adaptiveFormAndInteractiveCommunicationWebChannelConfiguration");
-            e.printStackTrace();
-        }
+    ConfigmgrApi apiInstance = new ConfigmgrApi(defaultClient);
+    Boolean post = true; // Boolean | 
+    Boolean apply = true; // Boolean | 
+    Boolean delete = true; // Boolean | 
+    String action = "action_example"; // String | 
+    String $location = "$location_example"; // String | 
+    List<String> propertylist = Arrays.asList(); // List<String> | 
+    Boolean showPlaceholder = true; // Boolean | 
+    Integer maximumCacheEntries = 56; // Integer | 
+    String afScriptingCompatversion = "afScriptingCompatversion_example"; // String | 
+    Boolean makeFileNameUnique = true; // Boolean | 
+    Boolean generatingCompliantData = true; // Boolean | 
+    try {
+      AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo result = apiInstance.adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(post, apply, delete, action, $location, propertylist, showPlaceholder, maximumCacheEntries, afScriptingCompatversion, makeFileNameUnique, generatingCompliantData);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling ConfigmgrApi#adaptiveFormAndInteractiveCommunicationWebChannelConfiguration");
+      System.err.println("Status code: " + e.getCode());
+      System.err.println("Reason: " + e.getResponseBody());
+      System.err.println("Response headers: " + e.getResponseHeaders());
+      e.printStackTrace();
     }
+  }
 }
 
 ```
@@ -116,7 +125,7 @@ All URIs are relative to *http://localhost*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *ConfigmgrApi* | [**adaptiveFormAndInteractiveCommunicationWebChannelConfiguration**](docs/ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelConfiguration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Configuration | 
-*ConfigmgrApi* | [**adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration**](docs/ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelThemeConfiguration) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
+*ConfigmgrApi* | [**adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur**](docs/ConfigmgrApi.md#adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur) | **POST** /system/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration | 
 *ConfigmgrApi* | [**analyticsComponentQueryCacheService**](docs/ConfigmgrApi.md#analyticsComponentQueryCacheService) | **POST** /system/console/configMgr/Analytics Component Query Cache Service | 
 *ConfigmgrApi* | [**apacheSlingHealthCheckResultHTMLSerializer**](docs/ConfigmgrApi.md#apacheSlingHealthCheckResultHTMLSerializer) | **POST** /system/console/configMgr/Apache Sling Health Check Result HTML Serializer | 
 *ConfigmgrApi* | [**comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration**](docs/ConfigmgrApi.md#comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration) | **POST** /system/console/configMgr/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration | 
@@ -134,7 +143,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeCqCdnRewriterImplAWSCloudFrontRewriter**](docs/ConfigmgrApi.md#comAdobeCqCdnRewriterImplAWSCloudFrontRewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter | 
 *ConfigmgrApi* | [**comAdobeCqCdnRewriterImplCDNConfigServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqCdnRewriterImplCDNConfigServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl | 
 *ConfigmgrApi* | [**comAdobeCqCdnRewriterImplCDNRewriter**](docs/ConfigmgrApi.md#comAdobeCqCdnRewriterImplCDNRewriter) | **POST** /system/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNRewriter | 
-*ConfigmgrApi* | [**comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler**](docs/ConfigmgrApi.md#comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandler) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
+*ConfigmgrApi* | [**comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle**](docs/ConfigmgrApi.md#comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle) | **POST** /system/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler | 
 *ConfigmgrApi* | [**comAdobeCqCommerceImplAssetDynamicImageHandler**](docs/ConfigmgrApi.md#comAdobeCqCommerceImplAssetDynamicImageHandler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.DynamicImageHandler | 
 *ConfigmgrApi* | [**comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl**](docs/ConfigmgrApi.md#comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl | 
 *ConfigmgrApi* | [**comAdobeCqCommerceImplAssetStaticImageHandler**](docs/ConfigmgrApi.md#comAdobeCqCommerceImplAssetStaticImageHandler) | **POST** /system/console/configMgr/com.adobe.cq.commerce.impl.asset.StaticImageHandler | 
@@ -145,7 +154,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl | 
 *ConfigmgrApi* | [**comAdobeCqContentinsightImplReportingServicesSettingsProvider**](docs/ConfigmgrApi.md#comAdobeCqContentinsightImplReportingServicesSettingsProvider) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider | 
 *ConfigmgrApi* | [**comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet**](docs/ConfigmgrApi.md#comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet | 
-*ConfigmgrApi* | [**comAdobeCqContentinsightImplServletsReportingServicesProxyServlet**](docs/ConfigmgrApi.md#comAdobeCqContentinsightImplServletsReportingServicesProxyServlet) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
+*ConfigmgrApi* | [**comAdobeCqContentinsightImplServletsReportingServicesProxyServle**](docs/ConfigmgrApi.md#comAdobeCqContentinsightImplServletsReportingServicesProxyServle) | **POST** /system/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet | 
 *ConfigmgrApi* | [**comAdobeCqDamCfmImplComponentComponentConfigImpl**](docs/ConfigmgrApi.md#comAdobeCqDamCfmImplComponentComponentConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl | 
 *ConfigmgrApi* | [**comAdobeCqDamCfmImplConfFeatureConfigImpl**](docs/ConfigmgrApi.md#comAdobeCqDamCfmImplConfFeatureConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl | 
 *ConfigmgrApi* | [**comAdobeCqDamCfmImplContentRewriterAssetProcessor**](docs/ConfigmgrApi.md#comAdobeCqDamCfmImplContentRewriterAssetProcessor) | **POST** /system/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor | 
@@ -185,33 +194,33 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl | 
 *ConfigmgrApi* | [**comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl | 
 *ConfigmgrApi* | [**comAdobeCqScreensSegmentationImplSegmentationFeatureFlag**](docs/ConfigmgrApi.md#comAdobeCqScreensSegmentationImplSegmentationFeatureFlag) | **POST** /system/console/configMgr/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag | 
-*ConfigmgrApi* | [**comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck**](docs/ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
+*ConfigmgrApi* | [**comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh**](docs/ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck | 
 *ConfigmgrApi* | [**comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck**](docs/ConfigmgrApi.md#comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck | 
 *ConfigmgrApi* | [**comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck**](docs/ConfigmgrApi.md#comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck | 
 *ConfigmgrApi* | [**comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck**](docs/ConfigmgrApi.md#comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck | 
 *ConfigmgrApi* | [**comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck**](docs/ConfigmgrApi.md#comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck) | **POST** /system/console/configMgr/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck | 
-*ConfigmgrApi* | [**comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialAccountverificationImplAccountManagementConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialAccountverificationImplAccountManagementConfigIm**](docs/ConfigmgrApi.md#comAdobeCqSocialAccountverificationImplAccountManagementConfigIm) | **POST** /system/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory | 
 *ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler | 
-*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplModerationEventExtension) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
-*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
-*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialCalendarClientOperationextensionsEventAttachment**](docs/ConfigmgrApi.md#comAdobeCqSocialCalendarClientOperationextensionsEventAttachment) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
+*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsListenerImplModerationEventExten**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplModerationEventExten) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension | 
+*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor | 
+*ConfigmgrApi* | [**comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre**](docs/ConfigmgrApi.md#comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre) | **POST** /system/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI**](docs/ConfigmgrApi.md#comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen**](docs/ConfigmgrApi.md#comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment | 
 *ConfigmgrApi* | [**comAdobeCqSocialCalendarServletsTimeZoneServlet**](docs/ConfigmgrApi.md#comAdobeCqSocialCalendarServletsTimeZoneServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.calendar.servlets.TimeZoneServlet | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressor) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosts) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsCorsCORSAuthenticationFilter**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsCorsCORSAuthenticationFilter) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider | 
@@ -219,53 +228,53 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploads) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads | 
 *ConfigmgrApi* | [**comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit**](docs/ConfigmgrApi.md#comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit) | **POST** /system/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialConnectOauthImplFacebookProviderImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplFacebookProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler**](docs/ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandler) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
+*ConfigmgrApi* | [**comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle**](docs/ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler | 
 *ConfigmgrApi* | [**comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper**](docs/ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper | 
 *ConfigmgrApi* | [**comAdobeCqSocialConnectOauthImplTwitterProviderImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialConnectOauthImplTwitterProviderImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen**](docs/ConfigmgrApi.md#comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen) | **POST** /system/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialDatastoreAsImplASResourceProviderFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialDatastoreAsImplASResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory | 
 *ConfigmgrApi* | [**comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
-*ConfigmgrApi* | [**comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
+*ConfigmgrApi* | [**comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor**](docs/ConfigmgrApi.md#comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor) | **POST** /system/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService | 
+*ConfigmgrApi* | [**comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService | 
 *ConfigmgrApi* | [**comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet**](docs/ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
-*ConfigmgrApi* | [**comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService**](docs/ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
+*ConfigmgrApi* | [**comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe**](docs/ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet | 
+*ConfigmgrApi* | [**comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera**](docs/ConfigmgrApi.md#comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera) | **POST** /system/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService | 
 *ConfigmgrApi* | [**comAdobeCqSocialForumClientEndpointsImplForumOperationsService**](docs/ConfigmgrApi.md#comAdobeCqSocialForumClientEndpointsImplForumOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService | 
 *ConfigmgrApi* | [**comAdobeCqSocialForumDispatcherImplFlushOperations**](docs/ConfigmgrApi.md#comAdobeCqSocialForumDispatcherImplFlushOperations) | **POST** /system/console/configMgr/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations | 
-*ConfigmgrApi* | [**comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen**](docs/ConfigmgrApi.md#comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory | 
 *ConfigmgrApi* | [**comAdobeCqSocialGroupImplGroupServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialGroupImplGroupServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.group.impl.GroupServiceImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService**](docs/ConfigmgrApi.md#comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
-*ConfigmgrApi* | [**comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService**](docs/ConfigmgrApi.md#comAdobeCqSocialJournalClientEndpointsImplJournalOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
-*ConfigmgrApi* | [**comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService**](docs/ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
-*ConfigmgrApi* | [**comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService**](docs/ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
-*ConfigmgrApi* | [**comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2**](docs/ConfigmgrApi.md#comAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
+*ConfigmgrApi* | [**comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS**](docs/ConfigmgrApi.md#comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS) | **POST** /system/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService | 
+*ConfigmgrApi* | [**comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer**](docs/ConfigmgrApi.md#comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer) | **POST** /system/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService | 
+*ConfigmgrApi* | [**comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile**](docs/ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService | 
+*ConfigmgrApi* | [**comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO**](docs/ConfigmgrApi.md#comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO) | **POST** /system/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService | 
+*ConfigmgrApi* | [**comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF**](docs/ConfigmgrApi.md#comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF) | **POST** /system/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation**](docs/ConfigmgrApi.md#comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation) | **POST** /system/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen**](docs/ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialModerationDashboardApiModerationDashboardSocial**](docs/ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiModerationDashboardSocial) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen**](docs/ConfigmgrApi.md#comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci**](docs/ConfigmgrApi.md#comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci) | **POST** /system/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2 | 
 *ConfigmgrApi* | [**comAdobeCqSocialNotificationsImplMentionsRouter**](docs/ConfigmgrApi.md#comAdobeCqSocialNotificationsImplMentionsRouter) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.MentionsRouter | 
 *ConfigmgrApi* | [**comAdobeCqSocialNotificationsImplNotificationManagerImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialNotificationsImplNotificationManagerImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationManagerImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialNotificationsImplNotificationsRouter**](docs/ConfigmgrApi.md#comAdobeCqSocialNotificationsImplNotificationsRouter) | **POST** /system/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationsRouter | 
-*ConfigmgrApi* | [**comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService**](docs/ConfigmgrApi.md#comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
-*ConfigmgrApi* | [**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
-*ConfigmgrApi* | [**comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory**](docs/ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactory) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
-*ConfigmgrApi* | [**comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService**](docs/ConfigmgrApi.md#comAdobeCqSocialReviewClientEndpointsImplReviewOperationsService) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
+*ConfigmgrApi* | [**comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic**](docs/ConfigmgrApi.md#comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic) | **POST** /system/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService | 
+*ConfigmgrApi* | [**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI**](docs/ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM**](docs/ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS**](docs/ConfigmgrApi.md#comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS) | **POST** /system/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory | 
+*ConfigmgrApi* | [**comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi**](docs/ConfigmgrApi.md#comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi) | **POST** /system/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService | 
 *ConfigmgrApi* | [**comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet**](docs/ConfigmgrApi.md#comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet | 
 *ConfigmgrApi* | [**comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet**](docs/ConfigmgrApi.md#comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet | 
 *ConfigmgrApi* | [**comAdobeCqSocialScoringImplScoringEventListener**](docs/ConfigmgrApi.md#comAdobeCqSocialScoringImplScoringEventListener) | **POST** /system/console/configMgr/com.adobe.cq.social.scoring.impl.ScoringEventListener | 
 *ConfigmgrApi* | [**comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialSiteEndpointsImplSiteOperationService**](docs/ConfigmgrApi.md#comAdobeCqSocialSiteEndpointsImplSiteOperationService) | **POST** /system/console/configMgr/com.adobe.cq.social.site.endpoints.impl.SiteOperationService | 
-*ConfigmgrApi* | [**comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
+*ConfigmgrApi* | [**comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm**](docs/ConfigmgrApi.md#comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialSiteImplSiteConfiguratorImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialSiteImplSiteConfiguratorImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.site.impl.SiteConfiguratorImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialSrpImplSocialSolrConnector**](docs/ConfigmgrApi.md#comAdobeCqSocialSrpImplSocialSolrConnector) | **POST** /system/console/configMgr/com.adobe.cq.social.srp.impl.SocialSolrConnector | 
 *ConfigmgrApi* | [**comAdobeCqSocialSyncImplDiffChangesObserver**](docs/ConfigmgrApi.md#comAdobeCqSocialSyncImplDiffChangesObserver) | **POST** /system/console/configMgr/com.adobe.cq.social.sync.impl.DiffChangesObserver | 
@@ -280,11 +289,11 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeCqSocialUgcbaseImplSocialUtilsImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialUgcbaseImplSocialUtilsImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialUgcbaseModerationImplSentimentProcess**](docs/ConfigmgrApi.md#comAdobeCqSocialUgcbaseModerationImplSentimentProcess) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess | 
-*ConfigmgrApi* | [**comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService**](docs/ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistService) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
+*ConfigmgrApi* | [**comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli**](docs/ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService | 
 *ConfigmgrApi* | [**comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl**](docs/ConfigmgrApi.md#comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl) | **POST** /system/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl | 
 *ConfigmgrApi* | [**comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet**](docs/ConfigmgrApi.md#comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet) | **POST** /system/console/configMgr/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet | 
 *ConfigmgrApi* | [**comAdobeCqSocialUserImplTransportHttpToPublisher**](docs/ConfigmgrApi.md#comAdobeCqSocialUserImplTransportHttpToPublisher) | **POST** /system/console/configMgr/com.adobe.cq.social.user.impl.transport.HttpToPublisher | 
-*ConfigmgrApi* | [**comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended**](docs/ConfigmgrApi.md#comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmended) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
+*ConfigmgrApi* | [**comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact**](docs/ConfigmgrApi.md#comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact) | **POST** /system/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended | 
 *ConfigmgrApi* | [**comAdobeCqUpgradesCleanupImplUpgradeContentCleanup**](docs/ConfigmgrApi.md#comAdobeCqUpgradesCleanupImplUpgradeContentCleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup | 
 *ConfigmgrApi* | [**comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup**](docs/ConfigmgrApi.md#comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup) | **POST** /system/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup | 
 *ConfigmgrApi* | [**comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService**](docs/ConfigmgrApi.md#comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService) | **POST** /system/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService | 
@@ -298,7 +307,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService**](docs/ConfigmgrApi.md#comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService | 
 *ConfigmgrApi* | [**comAdobeFdFpConfigFormsPortalSchedulerService**](docs/ConfigmgrApi.md#comAdobeFdFpConfigFormsPortalSchedulerService) | **POST** /system/console/configMgr/com.adobe.fd.fp.config.FormsPortalSchedulerService | 
 *ConfigmgrApi* | [**comAdobeFormsCommonServiceImplDefaultDataProvider**](docs/ConfigmgrApi.md#comAdobeFormsCommonServiceImplDefaultDataProvider) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.DefaultDataProvider | 
-*ConfigmgrApi* | [**comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl**](docs/ConfigmgrApi.md#comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpl) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
+*ConfigmgrApi* | [**comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp**](docs/ConfigmgrApi.md#comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp) | **POST** /system/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl | 
 *ConfigmgrApi* | [**comAdobeFormsCommonServletTempCleanUpTask**](docs/ConfigmgrApi.md#comAdobeFormsCommonServletTempCleanUpTask) | **POST** /system/console/configMgr/com.adobe.forms.common.servlet.TempCleanUpTask | 
 *ConfigmgrApi* | [**comAdobeGraniteAcpPlatformPlatformServlet**](docs/ConfigmgrApi.md#comAdobeGraniteAcpPlatformPlatformServlet) | **POST** /system/console/configMgr/com.adobe.granite.acp.platform.PlatformServlet | 
 *ConfigmgrApi* | [**comAdobeGraniteActivitystreamsImplActivityManagerImpl**](docs/ConfigmgrApi.md#comAdobeGraniteActivitystreamsImplActivityManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.activitystreams.impl.ActivityManagerImpl | 
@@ -336,22 +345,22 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck | 
-*ConfigmgrApi* | [**comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory**](docs/ConfigmgrApi.md#comAdobeGraniteCommentsInternalCommentReplicationContentFilterFactory) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
+*ConfigmgrApi* | [**comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac**](docs/ConfigmgrApi.md#comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac) | **POST** /system/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory | 
 *ConfigmgrApi* | [**comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl**](docs/ConfigmgrApi.md#comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteCompatrouterImplRoutingConfig**](docs/ConfigmgrApi.md#comAdobeGraniteCompatrouterImplRoutingConfig) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.RoutingConfig | 
 *ConfigmgrApi* | [**comAdobeGraniteCompatrouterImplSwitchMappingConfig**](docs/ConfigmgrApi.md#comAdobeGraniteCompatrouterImplSwitchMappingConfig) | **POST** /system/console/configMgr/com.adobe.granite.compatrouter.impl.SwitchMappingConfig | 
-*ConfigmgrApi* | [**comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy**](docs/ConfigmgrApi.md#comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategy) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
+*ConfigmgrApi* | [**comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving**](docs/ConfigmgrApi.md#comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving) | **POST** /system/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy | 
 *ConfigmgrApi* | [**comAdobeGraniteContexthubImplContextHubImpl**](docs/ConfigmgrApi.md#comAdobeGraniteContexthubImplContextHubImpl) | **POST** /system/console/configMgr/com.adobe.granite.contexthub.impl.ContextHubImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteCorsImplCORSPolicyImpl**](docs/ConfigmgrApi.md#comAdobeGraniteCorsImplCORSPolicyImpl) | **POST** /system/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteCsrfImplCSRFFilter**](docs/ConfigmgrApi.md#comAdobeGraniteCsrfImplCSRFFilter) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter | 
 *ConfigmgrApi* | [**comAdobeGraniteCsrfImplCSRFServlet**](docs/ConfigmgrApi.md#comAdobeGraniteCsrfImplCSRFServlet) | **POST** /system/console/configMgr/com.adobe.granite.csrf.impl.CSRFServlet | 
-*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
+*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider | 
 *ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver | 
 *ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplDiffDiffEventListener**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDiffDiffEventListener) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffEventListener | 
-*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformer) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
-*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
-*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandler) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
-*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProvider) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
+*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplDistributionToReplicationEven**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplDistributionToReplicationEven) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer | 
+*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider | 
+*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplReplicationDistributionTrans**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplReplicationDistributionTrans) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler | 
+*ConfigmgrApi* | [**comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu**](docs/ConfigmgrApi.md#comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu) | **POST** /system/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider | 
 *ConfigmgrApi* | [**comAdobeGraniteFragsImplCheckHttpHeaderFlag**](docs/ConfigmgrApi.md#comAdobeGraniteFragsImplCheckHttpHeaderFlag) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.CheckHttpHeaderFlag | 
 *ConfigmgrApi* | [**comAdobeGraniteFragsImplRandomFeature**](docs/ConfigmgrApi.md#comAdobeGraniteFragsImplRandomFeature) | **POST** /system/console/configMgr/com.adobe.granite.frags.impl.RandomFeature | 
 *ConfigmgrApi* | [**comAdobeGraniteHttpcacheFileFileCacheStore**](docs/ConfigmgrApi.md#comAdobeGraniteHttpcacheFileFileCacheStore) | **POST** /system/console/configMgr/com.adobe.granite.httpcache.file.FileCacheStore | 
@@ -367,7 +376,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask**](docs/ConfigmgrApi.md#comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask | 
 *ConfigmgrApi* | [**comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask**](docs/ConfigmgrApi.md#comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask | 
 *ConfigmgrApi* | [**comAdobeGraniteMonitoringImplScriptConfigImpl**](docs/ConfigmgrApi.md#comAdobeGraniteMonitoringImplScriptConfigImpl) | **POST** /system/console/configMgr/com.adobe.granite.monitoring.impl.ScriptConfigImpl | 
-*ConfigmgrApi* | [**comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler**](docs/ConfigmgrApi.md#comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandler) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
+*ConfigmgrApi* | [**comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan**](docs/ConfigmgrApi.md#comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler | 
 *ConfigmgrApi* | [**comAdobeGraniteOauthServerImplAccessTokenCleanupTask**](docs/ConfigmgrApi.md#comAdobeGraniteOauthServerImplAccessTokenCleanupTask) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask | 
 *ConfigmgrApi* | [**comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet**](docs/ConfigmgrApi.md#comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet | 
 *ConfigmgrApi* | [**comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet**](docs/ConfigmgrApi.md#comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet) | **POST** /system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet | 
@@ -377,7 +386,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeGraniteOffloadingImplOffloadingJobCloner**](docs/ConfigmgrApi.md#comAdobeGraniteOffloadingImplOffloadingJobCloner) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner | 
 *ConfigmgrApi* | [**comAdobeGraniteOffloadingImplOffloadingJobOffloader**](docs/ConfigmgrApi.md#comAdobeGraniteOffloadingImplOffloadingJobOffloader) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobOffloader | 
 *ConfigmgrApi* | [**comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager**](docs/ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager | 
-*ConfigmgrApi* | [**comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter**](docs/ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporter) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
+*ConfigmgrApi* | [**comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo**](docs/ConfigmgrApi.md#comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo) | **POST** /system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter | 
 *ConfigmgrApi* | [**comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl**](docs/ConfigmgrApi.md#comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteOptoutImplOptOutServiceImpl**](docs/ConfigmgrApi.md#comAdobeGraniteOptoutImplOptOutServiceImpl) | **POST** /system/console/configMgr/com.adobe.granite.optout.impl.OptOutServiceImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck | 
@@ -386,32 +395,32 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics**](docs/ConfigmgrApi.md#comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics | 
 *ConfigmgrApi* | [**comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck | 
-*ConfigmgrApi* | [**comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
+*ConfigmgrApi* | [**comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC**](docs/ConfigmgrApi.md#comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC) | **POST** /system/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck | 
-*ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
+*ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck | 
-*ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
+*ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck) | **POST** /system/console/configMgr/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck | 
 *ConfigmgrApi* | [**comAdobeGraniteRepositoryImplCommitStatsConfig**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryImplCommitStatsConfig) | **POST** /system/console/configMgr/com.adobe.granite.repository.impl.CommitStatsConfig | 
 *ConfigmgrApi* | [**comAdobeGraniteRepositoryServiceUserConfiguration**](docs/ConfigmgrApi.md#comAdobeGraniteRepositoryServiceUserConfiguration) | **POST** /system/console/configMgr/com.adobe.granite.repository.ServiceUserConfiguration | 
-*ConfigmgrApi* | [**comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl**](docs/ConfigmgrApi.md#comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImpl) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
+*ConfigmgrApi* | [**comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm**](docs/ConfigmgrApi.md#comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm) | **POST** /system/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteResourcestatusImplCompositeStatusType**](docs/ConfigmgrApi.md#comAdobeGraniteResourcestatusImplCompositeStatusType) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.CompositeStatusType | 
 *ConfigmgrApi* | [**comAdobeGraniteResourcestatusImplStatusResourceProviderImpl**](docs/ConfigmgrApi.md#comAdobeGraniteResourcestatusImplStatusResourceProviderImpl) | **POST** /system/console/configMgr/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteRestAssetsImplAssetContentDispositionFilter**](docs/ConfigmgrApi.md#comAdobeGraniteRestAssetsImplAssetContentDispositionFilter) | **POST** /system/console/configMgr/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter | 
 *ConfigmgrApi* | [**comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl**](docs/ConfigmgrApi.md#comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteRestImplServletDefaultGETServlet**](docs/ConfigmgrApi.md#comAdobeGraniteRestImplServletDefaultGETServlet) | **POST** /system/console/configMgr/com.adobe.granite.rest.impl.servlet.DefaultGETServlet | 
-*ConfigmgrApi* | [**comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet**](docs/ConfigmgrApi.md#comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServlet) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
+*ConfigmgrApi* | [**comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS**](docs/ConfigmgrApi.md#comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS) | **POST** /system/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet | 
 *ConfigmgrApi* | [**comAdobeGraniteSecurityUserUserPropertiesService**](docs/ConfigmgrApi.md#comAdobeGraniteSecurityUserUserPropertiesService) | **POST** /system/console/configMgr/com.adobe.granite.security.user.UserPropertiesService | 
 *ConfigmgrApi* | [**comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl**](docs/ConfigmgrApi.md#comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl**](docs/ConfigmgrApi.md#comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl) | **POST** /system/console/configMgr/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory**](docs/ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory | 
 *ConfigmgrApi* | [**comAdobeGraniteTaskmanagementImplJcrTaskArchiveService**](docs/ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplJcrTaskArchiveService) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService | 
 *ConfigmgrApi* | [**comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask**](docs/ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask | 
-*ConfigmgrApi* | [**comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory**](docs/ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactory) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
+*ConfigmgrApi* | [**comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor**](docs/ConfigmgrApi.md#comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor) | **POST** /system/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory | 
 *ConfigmgrApi* | [**comAdobeGraniteThreaddumpThreadDumpCollector**](docs/ConfigmgrApi.md#comAdobeGraniteThreaddumpThreadDumpCollector) | **POST** /system/console/configMgr/com.adobe.granite.threaddump.ThreadDumpCollector | 
-*ConfigmgrApi* | [**comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl**](docs/ConfigmgrApi.md#comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImpl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
+*ConfigmgrApi* | [**comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl**](docs/ConfigmgrApi.md#comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl) | **POST** /system/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteTranslationCoreImplTranslationManagerImpl**](docs/ConfigmgrApi.md#comAdobeGraniteTranslationCoreImplTranslationManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.translation.core.impl.TranslationManagerImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl**](docs/ConfigmgrApi.md#comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl) | **POST** /system/console/configMgr/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl | 
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature) | **POST** /system/console/configMgr/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature | 
@@ -419,19 +428,19 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager | 
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler | 
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowCoreJobJobHandler**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCoreJobJobHandler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.job.JobHandler | 
-*ConfigmgrApi* | [**comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumer) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
+*ConfigmgrApi* | [**comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer | 
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowCorePayloadMapCache**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCorePayloadMapCache) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.PayloadMapCache | 
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener | 
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowCoreWorkflowConfig**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCoreWorkflowConfig) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowConfig | 
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowCoreWorkflowSessionFactory**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowCoreWorkflowSessionFactory) | **POST** /system/console/configMgr/com.adobe.granite.workflow.core.WorkflowSessionFactory | 
 *ConfigmgrApi* | [**comAdobeGraniteWorkflowPurgeScheduler**](docs/ConfigmgrApi.md#comAdobeGraniteWorkflowPurgeScheduler) | **POST** /system/console/configMgr/com.adobe.granite.workflow.purge.Scheduler | 
 *ConfigmgrApi* | [**comAdobeOctopusNcommBootstrap**](docs/ConfigmgrApi.md#comAdobeOctopusNcommBootstrap) | **POST** /system/console/configMgr/com.adobe.octopus.ncomm.bootstrap | 
-*ConfigmgrApi* | [**comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet**](docs/ConfigmgrApi.md#comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServlet) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
+*ConfigmgrApi* | [**comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS**](docs/ConfigmgrApi.md#comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS) | **POST** /system/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet | 
 *ConfigmgrApi* | [**comAdobeXmpWorkerFilesNcommXMPFilesNComm**](docs/ConfigmgrApi.md#comAdobeXmpWorkerFilesNcommXMPFilesNComm) | **POST** /system/console/configMgr/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm | 
 *ConfigmgrApi* | [**comDayCommonsDatasourceJdbcpoolJdbcPoolService**](docs/ConfigmgrApi.md#comDayCommonsDatasourceJdbcpoolJdbcPoolService) | **POST** /system/console/configMgr/com.day.commons.datasource.jdbcpool.JdbcPoolService | 
 *ConfigmgrApi* | [**comDayCommonsHttpclient**](docs/ConfigmgrApi.md#comDayCommonsHttpclient) | **POST** /system/console/configMgr/com.day.commons.httpclient | 
 *ConfigmgrApi* | [**comDayCqAnalyticsImplStorePropertiesChangeListener**](docs/ConfigmgrApi.md#comDayCqAnalyticsImplStorePropertiesChangeListener) | **POST** /system/console/configMgr/com.day.cq.analytics.impl.StorePropertiesChangeListener | 
-*ConfigmgrApi* | [**comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter**](docs/ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplExporterClassificationsExporter) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
+*ConfigmgrApi* | [**comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte**](docs/ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter | 
 *ConfigmgrApi* | [**comDayCqAnalyticsSitecatalystImplImporterReportImporter**](docs/ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplImporterReportImporter) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter | 
 *ConfigmgrApi* | [**comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory**](docs/ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory | 
 *ConfigmgrApi* | [**comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl**](docs/ConfigmgrApi.md#comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl) | **POST** /system/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl | 
@@ -446,7 +455,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqAuthImplLoginSelectorHandler**](docs/ConfigmgrApi.md#comDayCqAuthImplLoginSelectorHandler) | **POST** /system/console/configMgr/com.day.cq.auth.impl.LoginSelectorHandler | 
 *ConfigmgrApi* | [**comDayCqCommonsImplExternalizerImpl**](docs/ConfigmgrApi.md#comDayCqCommonsImplExternalizerImpl) | **POST** /system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl | 
 *ConfigmgrApi* | [**comDayCqCommonsServletsRootMappingServlet**](docs/ConfigmgrApi.md#comDayCqCommonsServletsRootMappingServlet) | **POST** /system/console/configMgr/com.day.cq.commons.servlets.RootMappingServlet | 
-*ConfigmgrApi* | [**comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker**](docs/ConfigmgrApi.md#comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecker) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
+*ConfigmgrApi* | [**comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke**](docs/ConfigmgrApi.md#comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker | 
 *ConfigmgrApi* | [**comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList**](docs/ConfigmgrApi.md#comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList | 
 *ConfigmgrApi* | [**comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist**](docs/ConfigmgrApi.md#comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist) | **POST** /system/console/configMgr/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist | 
 *ConfigmgrApi* | [**comDayCqContentsyncImplContentSyncManagerImpl**](docs/ConfigmgrApi.md#comDayCqContentsyncImplContentSyncManagerImpl) | **POST** /system/console/configMgr/com.day.cq.contentsync.impl.ContentSyncManagerImpl | 
@@ -463,7 +472,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqDamCoreImplDamEventRecorderImpl**](docs/ConfigmgrApi.md#comDayCqDamCoreImplDamEventRecorderImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.DamEventRecorderImpl | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplEventDamEventAuditListener**](docs/ConfigmgrApi.md#comDayCqDamCoreImplEventDamEventAuditListener) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.event.DamEventAuditListener | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplExpiryNotificationJobImpl**](docs/ConfigmgrApi.md#comDayCqDamCoreImplExpiryNotificationJobImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl | 
-*ConfigmgrApi* | [**comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag**](docs/ConfigmgrApi.md#comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlag) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
+*ConfigmgrApi* | [**comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat**](docs/ConfigmgrApi.md#comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplGfxCommonsGfxRenderer**](docs/ConfigmgrApi.md#comDayCqDamCoreImplGfxCommonsGfxRenderer) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplHandlerEPSFormatHandler**](docs/ConfigmgrApi.md#comDayCqDamCoreImplHandlerEPSFormatHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.EPSFormatHandler | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplHandlerIndesignFormatHandler**](docs/ConfigmgrApi.md#comDayCqDamCoreImplHandlerIndesignFormatHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.handler.IndesignFormatHandler | 
@@ -472,14 +481,14 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqDamCoreImplJmxAssetIndexUpdateMonitor**](docs/ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetIndexUpdateMonitor) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplJmxAssetMigrationMBeanImpl**](docs/ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetMigrationMBeanImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplJmxAssetUpdateMonitorImpl**](docs/ConfigmgrApi.md#comDayCqDamCoreImplJmxAssetUpdateMonitorImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl | 
-*ConfigmgrApi* | [**comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService**](docs/ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
-*ConfigmgrApi* | [**comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService**](docs/ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
+*ConfigmgrApi* | [**comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig**](docs/ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService | 
+*ConfigmgrApi* | [**comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig**](docs/ConfigmgrApi.md#comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplLightboxLightboxServlet**](docs/ConfigmgrApi.md#comDayCqDamCoreImplLightboxLightboxServlet) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.lightbox.LightboxServlet | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplMetadataEditorSelectComponentHandler**](docs/ConfigmgrApi.md#comDayCqDamCoreImplMetadataEditorSelectComponentHandler) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper**](docs/ConfigmgrApi.md#comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl**](docs/ConfigmgrApi.md#comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplMissingMetadataNotificationJob**](docs/ConfigmgrApi.md#comDayCqDamCoreImplMissingMetadataNotificationJob) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.MissingMetadataNotificationJob | 
-*ConfigmgrApi* | [**comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess**](docs/ConfigmgrApi.md#comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcess) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
+*ConfigmgrApi* | [**comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr**](docs/ConfigmgrApi.md#comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplProcessTextExtractionProcess**](docs/ConfigmgrApi.md#comDayCqDamCoreImplProcessTextExtractionProcess) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.process.TextExtractionProcess | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplRenditionMakerImpl**](docs/ConfigmgrApi.md#comDayCqDamCoreImplRenditionMakerImpl) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.RenditionMakerImpl | 
 *ConfigmgrApi* | [**comDayCqDamCoreImplReportsReportExportService**](docs/ConfigmgrApi.md#comDayCqDamCoreImplReportsReportExportService) | **POST** /system/console/configMgr/com.day.cq.dam.core.impl.reports.ReportExportService | 
@@ -516,8 +525,8 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqDamInddProcessINDDMediaExtractProcess**](docs/ConfigmgrApi.md#comDayCqDamInddProcessINDDMediaExtractProcess) | **POST** /system/console/configMgr/com.day.cq.dam.indd.process.INDDMediaExtractProcess | 
 *ConfigmgrApi* | [**comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl**](docs/ConfigmgrApi.md#comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl | 
 *ConfigmgrApi* | [**comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob**](docs/ConfigmgrApi.md#comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob) | **POST** /system/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob | 
-*ConfigmgrApi* | [**comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess**](docs/ConfigmgrApi.md#comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcess) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
-*ConfigmgrApi* | [**comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener**](docs/ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListener) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
+*ConfigmgrApi* | [**comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro**](docs/ConfigmgrApi.md#comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro) | **POST** /system/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess | 
+*ConfigmgrApi* | [**comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven**](docs/ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener | 
 *ConfigmgrApi* | [**comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner**](docs/ConfigmgrApi.md#comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner | 
 *ConfigmgrApi* | [**comDayCqDamS7damCommonPostServletsSetCreateHandler**](docs/ConfigmgrApi.md#comDayCqDamS7damCommonPostServletsSetCreateHandler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler | 
 *ConfigmgrApi* | [**comDayCqDamS7damCommonPostServletsSetModifyHandler**](docs/ConfigmgrApi.md#comDayCqDamS7damCommonPostServletsSetModifyHandler) | **POST** /system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler | 
@@ -531,8 +540,8 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqDamScene7ImplScene7DamChangeEventListener**](docs/ConfigmgrApi.md#comDayCqDamScene7ImplScene7DamChangeEventListener) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener | 
 *ConfigmgrApi* | [**comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl**](docs/ConfigmgrApi.md#comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl | 
 *ConfigmgrApi* | [**comDayCqDamScene7ImplScene7UploadServiceImpl**](docs/ConfigmgrApi.md#comDayCqDamScene7ImplScene7UploadServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl | 
-*ConfigmgrApi* | [**comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl**](docs/ConfigmgrApi.md#comDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImpl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
-*ConfigmgrApi* | [**comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl**](docs/ConfigmgrApi.md#comDayCqDamStockIntegrationImplConfigurationStockConfigurationImpl) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
+*ConfigmgrApi* | [**comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer**](docs/ConfigmgrApi.md#comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl | 
+*ConfigmgrApi* | [**comDayCqDamStockIntegrationImplConfigurationStockConfiguration**](docs/ConfigmgrApi.md#comDayCqDamStockIntegrationImplConfigurationStockConfiguration) | **POST** /system/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl | 
 *ConfigmgrApi* | [**comDayCqDamVideoImplServletVideoTestServlet**](docs/ConfigmgrApi.md#comDayCqDamVideoImplServletVideoTestServlet) | **POST** /system/console/configMgr/com.day.cq.dam.video.impl.servlet.VideoTestServlet | 
 *ConfigmgrApi* | [**comDayCqExtwidgetServletsImageSpriteServlet**](docs/ConfigmgrApi.md#comDayCqExtwidgetServletsImageSpriteServlet) | **POST** /system/console/configMgr/com.day.cq.extwidget.servlets.ImageSpriteServlet | 
 *ConfigmgrApi* | [**comDayCqImageInternalFontFontHelper**](docs/ConfigmgrApi.md#comDayCqImageInternalFontFontHelper) | **POST** /system/console/configMgr/com.day.cq.image.internal.font.FontHelper | 
@@ -545,11 +554,11 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory**](docs/ConfigmgrApi.md#comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory | 
 *ConfigmgrApi* | [**comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl**](docs/ConfigmgrApi.md#comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl) | **POST** /system/console/configMgr/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl | 
 *ConfigmgrApi* | [**comDayCqMcmImplMCMConfiguration**](docs/ConfigmgrApi.md#comDayCqMcmImplMCMConfiguration) | **POST** /system/console/configMgr/com.day.cq.mcm.impl.MCMConfiguration | 
-*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH**](docs/ConfigmgrApi.md#comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH) | **POST** /system/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory | 
 *ConfigmgrApi* | [**comDayCqNotificationImplNotificationServiceImpl**](docs/ConfigmgrApi.md#comDayCqNotificationImplNotificationServiceImpl) | **POST** /system/console/configMgr/com.day.cq.notification.impl.NotificationServiceImpl | 
 *ConfigmgrApi* | [**comDayCqPersonalizationImplServletsTargetingConfigurationServlet**](docs/ConfigmgrApi.md#comDayCqPersonalizationImplServletsTargetingConfigurationServlet) | **POST** /system/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet | 
 *ConfigmgrApi* | [**comDayCqPollingImporterImplManagedPollConfigImpl**](docs/ConfigmgrApi.md#comDayCqPollingImporterImplManagedPollConfigImpl) | **POST** /system/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollConfigImpl | 
@@ -559,7 +568,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqReplicationContentStaticContentBuilder**](docs/ConfigmgrApi.md#comDayCqReplicationContentStaticContentBuilder) | **POST** /system/console/configMgr/com.day.cq.replication.content.StaticContentBuilder | 
 *ConfigmgrApi* | [**comDayCqReplicationImplAgentManagerImpl**](docs/ConfigmgrApi.md#comDayCqReplicationImplAgentManagerImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.AgentManagerImpl | 
 *ConfigmgrApi* | [**comDayCqReplicationImplContentDurboBinaryLessContentBuilder**](docs/ConfigmgrApi.md#comDayCqReplicationImplContentDurboBinaryLessContentBuilder) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder | 
-*ConfigmgrApi* | [**comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService**](docs/ConfigmgrApi.md#comDayCqReplicationImplContentDurboDurboImportConfigurationProviderService) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
+*ConfigmgrApi* | [**comDayCqReplicationImplContentDurboDurboImportConfigurationProv**](docs/ConfigmgrApi.md#comDayCqReplicationImplContentDurboDurboImportConfigurationProv) | **POST** /system/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService | 
 *ConfigmgrApi* | [**comDayCqReplicationImplReplicationContentFactoryProviderImpl**](docs/ConfigmgrApi.md#comDayCqReplicationImplReplicationContentFactoryProviderImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl | 
 *ConfigmgrApi* | [**comDayCqReplicationImplReplicationReceiverImpl**](docs/ConfigmgrApi.md#comDayCqReplicationImplReplicationReceiverImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicationReceiverImpl | 
 *ConfigmgrApi* | [**comDayCqReplicationImplReplicatorImpl**](docs/ConfigmgrApi.md#comDayCqReplicationImplReplicatorImpl) | **POST** /system/console/configMgr/com.day.cq.replication.impl.ReplicatorImpl | 
@@ -584,7 +593,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqTaggingImplSearchTagPredicateEvaluator**](docs/ConfigmgrApi.md#comDayCqTaggingImplSearchTagPredicateEvaluator) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.search.TagPredicateEvaluator | 
 *ConfigmgrApi* | [**comDayCqTaggingImplTagGarbageCollector**](docs/ConfigmgrApi.md#comDayCqTaggingImplTagGarbageCollector) | **POST** /system/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector | 
 *ConfigmgrApi* | [**comDayCqWcmContentsyncImplHandlerPagesUpdateHandler**](docs/ConfigmgrApi.md#comDayCqWcmContentsyncImplHandlerPagesUpdateHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler | 
-*ConfigmgrApi* | [**comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory**](docs/ConfigmgrApi.md#comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor**](docs/ConfigmgrApi.md#comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor) | **POST** /system/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory | 
 *ConfigmgrApi* | [**comDayCqWcmCoreImplAuthoringUIModeServiceImpl**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplAuthoringUIModeServiceImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl | 
 *ConfigmgrApi* | [**comDayCqWcmCoreImplCommandsWCMCommandServlet**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplCommandsWCMCommandServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.commands.WCMCommandServlet | 
 *ConfigmgrApi* | [**comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl | 
@@ -598,7 +607,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqWcmCoreImplPagePageManagerFactoryImpl**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplPagePageManagerFactoryImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl | 
 *ConfigmgrApi* | [**comDayCqWcmCoreImplReferencesContentContentReferenceConfig**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplReferencesContentContentReferenceConfig) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig | 
 *ConfigmgrApi* | [**comDayCqWcmCoreImplServletsContentfinderAssetViewHandler**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderAssetViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler | 
-*ConfigmgrApi* | [**comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
+*ConfigmgrApi* | [**comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler | 
 *ConfigmgrApi* | [**comDayCqWcmCoreImplServletsContentfinderPageViewHandler**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplServletsContentfinderPageViewHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler | 
 *ConfigmgrApi* | [**comDayCqWcmCoreImplServletsFindReplaceServlet**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplServletsFindReplaceServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet | 
 *ConfigmgrApi* | [**comDayCqWcmCoreImplServletsReferenceSearchServlet**](docs/ConfigmgrApi.md#comDayCqWcmCoreImplServletsReferenceSearchServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet | 
@@ -618,23 +627,23 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqWcmDesignimporterImplCanvasPageDeleteHandler**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterImplCanvasPageDeleteHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler | 
 *ConfigmgrApi* | [**comDayCqWcmDesignimporterImplEntryPreprocessorImpl**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterImplEntryPreprocessorImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl | 
 *ConfigmgrApi* | [**comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
-*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory | 
+*ConfigmgrApi* | [**comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl**](docs/ConfigmgrApi.md#comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl) | **POST** /system/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory | 
 *ConfigmgrApi* | [**comDayCqWcmFoundationFormsImplFormChooserServlet**](docs/ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormChooserServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet | 
 *ConfigmgrApi* | [**comDayCqWcmFoundationFormsImplFormParagraphPostProcessor**](docs/ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormParagraphPostProcessor) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor | 
 *ConfigmgrApi* | [**comDayCqWcmFoundationFormsImplFormsHandlingServlet**](docs/ConfigmgrApi.md#comDayCqWcmFoundationFormsImplFormsHandlingServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet | 
@@ -643,7 +652,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**comDayCqWcmFoundationImplHTTPAuthHandler**](docs/ConfigmgrApi.md#comDayCqWcmFoundationImplHTTPAuthHandler) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.HTTPAuthHandler | 
 *ConfigmgrApi* | [**comDayCqWcmFoundationImplPageImpressionsTracker**](docs/ConfigmgrApi.md#comDayCqWcmFoundationImplPageImpressionsTracker) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageImpressionsTracker | 
 *ConfigmgrApi* | [**comDayCqWcmFoundationImplPageRedirectServlet**](docs/ConfigmgrApi.md#comDayCqWcmFoundationImplPageRedirectServlet) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.impl.PageRedirectServlet | 
-*ConfigmgrApi* | [**comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService**](docs/ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistService) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
+*ConfigmgrApi* | [**comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist**](docs/ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService | 
 *ConfigmgrApi* | [**comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl**](docs/ConfigmgrApi.md#comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl) | **POST** /system/console/configMgr/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl | 
 *ConfigmgrApi* | [**comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory**](docs/ConfigmgrApi.md#comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory | 
 *ConfigmgrApi* | [**comDayCqWcmMobileCoreImplRedirectRedirectFilter**](docs/ConfigmgrApi.md#comDayCqWcmMobileCoreImplRedirectRedirectFilter) | **POST** /system/console/configMgr/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter | 
@@ -687,29 +696,29 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**orgApacheFelixSystemreadySystemReadyMonitor**](docs/ConfigmgrApi.md#orgApacheFelixSystemreadySystemReadyMonitor) | **POST** /system/console/configMgr/org.apache.felix.systemready.SystemReadyMonitor | 
 *ConfigmgrApi* | [**orgApacheFelixWebconsoleInternalServletOsgiManager**](docs/ConfigmgrApi.md#orgApacheFelixWebconsoleInternalServletOsgiManager) | **POST** /system/console/configMgr/org.apache.felix.webconsole.internal.servlet.OsgiManager | 
 *ConfigmgrApi* | [**orgApacheFelixWebconsolePluginsEventInternalPluginServlet**](docs/ConfigmgrApi.md#orgApacheFelixWebconsolePluginsEventInternalPluginServlet) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.event.internal.PluginServlet | 
-*ConfigmgrApi* | [**orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator**](docs/ConfigmgrApi.md#orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfigurator) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
+*ConfigmgrApi* | [**orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo**](docs/ConfigmgrApi.md#orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo) | **POST** /system/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator | 
 *ConfigmgrApi* | [**orgApacheHttpProxyconfigurator**](docs/ConfigmgrApi.md#orgApacheHttpProxyconfigurator) | **POST** /system/console/configMgr/org.apache.http.proxyconfigurator | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreset) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexAsyncIndexerService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexAsyncIndexerService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakQueryQueryEngineSettingsService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakQueryQueryEngineSettingsService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.query.QueryEngineSettingsService | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakSecurityUserUserConfigurationImpl**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSecurityUserUserConfigurationImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService | 
@@ -717,23 +726,23 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakSegmentSegmentNodeStoreService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSegmentSegmentNodeStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService | 
 *ConfigmgrApi* | [**orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandler) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactory) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiguration) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
-*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProvider) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl | 
+*ConfigmgrApi* | [**orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable**](docs/ConfigmgrApi.md#orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable) | **POST** /system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider | 
 *ConfigmgrApi* | [**orgApacheJackrabbitVaultPackagingImplPackagingImpl**](docs/ConfigmgrApi.md#orgApacheJackrabbitVaultPackagingImplPackagingImpl) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl | 
 *ConfigmgrApi* | [**orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry**](docs/ConfigmgrApi.md#orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry) | **POST** /system/console/configMgr/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry | 
 *ConfigmgrApi* | [**orgApacheSlingAuthCoreImplLogoutServlet**](docs/ConfigmgrApi.md#orgApacheSlingAuthCoreImplLogoutServlet) | **POST** /system/console/configMgr/org.apache.sling.auth.core.impl.LogoutServlet | 
 *ConfigmgrApi* | [**orgApacheSlingCaconfigImplConfigurationBindingsValueProvider**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplConfigurationBindingsValueProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider | 
 *ConfigmgrApi* | [**orgApacheSlingCaconfigImplConfigurationResolverImpl**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplConfigurationResolverImpl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationResolverImpl | 
-*ConfigmgrApi* | [**orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
-*ConfigmgrApi* | [**orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
-*ConfigmgrApi* | [**orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
-*ConfigmgrApi* | [**orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProvider) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
-*ConfigmgrApi* | [**orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImpl) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
-*ConfigmgrApi* | [**orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
+*ConfigmgrApi* | [**orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy | 
+*ConfigmgrApi* | [**orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy | 
+*ConfigmgrApi* | [**orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider | 
+*ConfigmgrApi* | [**orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve) | **POST** /system/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider | 
+*ConfigmgrApi* | [**orgApacheSlingCaconfigManagementImplConfigurationManagementSetti**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigManagementImplConfigurationManagementSetti) | **POST** /system/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl | 
+*ConfigmgrApi* | [**orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy | 
 *ConfigmgrApi* | [**orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy**](docs/ConfigmgrApi.md#orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy) | **POST** /system/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy | 
 *ConfigmgrApi* | [**orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser**](docs/ConfigmgrApi.md#orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser) | **POST** /system/console/configMgr/org.apache.sling.commons.html.internal.TagsoupHtmlParser | 
 *ConfigmgrApi* | [**orgApacheSlingCommonsLogLogManager**](docs/ConfigmgrApi.md#orgApacheSlingCommonsLogLogManager) | **POST** /system/console/configMgr/org.apache.sling.commons.log.LogManager | 
@@ -749,30 +758,30 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**orgApacheSlingDatasourceJNDIDataSourceFactory**](docs/ConfigmgrApi.md#orgApacheSlingDatasourceJNDIDataSourceFactory) | **POST** /system/console/configMgr/org.apache.sling.datasource.JNDIDataSourceFactory | 
 *ConfigmgrApi* | [**orgApacheSlingDiscoveryOakConfig**](docs/ConfigmgrApi.md#orgApacheSlingDiscoveryOakConfig) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.Config | 
 *ConfigmgrApi* | [**orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck**](docs/ConfigmgrApi.md#orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck) | **POST** /system/console/configMgr/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplForwardDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory | 
 *ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplReverseDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory | 
 *ConfigmgrApi* | [**orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory | 
 *ConfigmgrApi* | [**orgApacheSlingDistributionMonitorDistributionQueueHealthCheck**](docs/ConfigmgrApi.md#orgApacheSlingDistributionMonitorDistributionQueueHealthCheck) | **POST** /system/console/configMgr/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProvider) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
-*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactory) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplExporterAgentDistributio**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterAgentDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplExporterLocalDistributio**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterLocalDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplExporterRemoteDistributi**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplExporterRemoteDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplImporterLocalDistributio**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterLocalDistributio) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplImporterRemoteDistributi**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRemoteDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionPackagingImplImporterRepositoryDistri**](docs/ConfigmgrApi.md#orgApacheSlingDistributionPackagingImplImporterRepositoryDistri) | **POST** /system/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionResourcesImplDistributionConfiguration**](docs/ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionConfiguration) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionResourcesImplDistributionServiceResour**](docs/ConfigmgrApi.md#orgApacheSlingDistributionResourcesImplDistributionServiceResour) | **POST** /system/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionSerializationImplDistributionPackageBu**](docs/ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplDistributionPackageBu) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionSerializationImplVltVaultDistribution**](docs/ConfigmgrApi.md#orgApacheSlingDistributionSerializationImplVltVaultDistribution) | **POST** /system/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionTransportImplUserCredentialsDistributi**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTransportImplUserCredentialsDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplDistributionEventDistribute**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplDistributionEventDistribute) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplResourceEventDistributionTr**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplResourceEventDistributionTr) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory | 
+*ConfigmgrApi* | [**orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge**](docs/ConfigmgrApi.md#orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge) | **POST** /system/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory | 
 *ConfigmgrApi* | [**orgApacheSlingEngineImplAuthSlingAuthenticator**](docs/ConfigmgrApi.md#orgApacheSlingEngineImplAuthSlingAuthenticator) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.auth.SlingAuthenticator | 
 *ConfigmgrApi* | [**orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter**](docs/ConfigmgrApi.md#orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter | 
 *ConfigmgrApi* | [**orgApacheSlingEngineImplLogRequestLogger**](docs/ConfigmgrApi.md#orgApacheSlingEngineImplLogRequestLogger) | **POST** /system/console/configMgr/org.apache.sling.engine.impl.log.RequestLogger | 
@@ -784,7 +793,7 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**orgApacheSlingEventImplJobsJcrPersistenceHandler**](docs/ConfigmgrApi.md#orgApacheSlingEventImplJobsJcrPersistenceHandler) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler | 
 *ConfigmgrApi* | [**orgApacheSlingEventImplJobsJobConsumerManager**](docs/ConfigmgrApi.md#orgApacheSlingEventImplJobsJobConsumerManager) | **POST** /system/console/configMgr/org.apache.sling.event.impl.jobs.JobConsumerManager | 
 *ConfigmgrApi* | [**orgApacheSlingEventJobsQueueConfiguration**](docs/ConfigmgrApi.md#orgApacheSlingEventJobsQueueConfiguration) | **POST** /system/console/configMgr/org.apache.sling.event.jobs.QueueConfiguration | 
-*ConfigmgrApi* | [**orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider**](docs/ConfigmgrApi.md#orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProvider) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
+*ConfigmgrApi* | [**orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW**](docs/ConfigmgrApi.md#orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW) | **POST** /system/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider | 
 *ConfigmgrApi* | [**orgApacheSlingFeatureflagsFeature**](docs/ConfigmgrApi.md#orgApacheSlingFeatureflagsFeature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.Feature | 
 *ConfigmgrApi* | [**orgApacheSlingFeatureflagsImplConfiguredFeature**](docs/ConfigmgrApi.md#orgApacheSlingFeatureflagsImplConfiguredFeature) | **POST** /system/console/configMgr/org.apache.sling.featureflags.impl.ConfiguredFeature | 
 *ConfigmgrApi* | [**orgApacheSlingHapiImplHApiUtilImpl**](docs/ConfigmgrApi.md#orgApacheSlingHapiImplHApiUtilImpl) | **POST** /system/console/configMgr/org.apache.sling.hapi.impl.HApiUtilImpl | 
@@ -808,20 +817,20 @@ Class | Method | HTTP request | Description
 *ConfigmgrApi* | [**orgApacheSlingJcrResourceInternalJcrSystemUserValidator**](docs/ConfigmgrApi.md#orgApacheSlingJcrResourceInternalJcrSystemUserValidator) | **POST** /system/console/configMgr/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator | 
 *ConfigmgrApi* | [**orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory**](docs/ConfigmgrApi.md#orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory) | **POST** /system/console/configMgr/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory | 
 *ConfigmgrApi* | [**orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService**](docs/ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService | 
-*ConfigmgrApi* | [**orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService**](docs/ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerService) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
+*ConfigmgrApi* | [**orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic**](docs/ConfigmgrApi.md#orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService | 
 *ConfigmgrApi* | [**orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet**](docs/ConfigmgrApi.md#orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet) | **POST** /system/console/configMgr/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet | 
 *ConfigmgrApi* | [**orgApacheSlingJmxProviderImplJMXResourceProvider**](docs/ConfigmgrApi.md#orgApacheSlingJmxProviderImplJMXResourceProvider) | **POST** /system/console/configMgr/org.apache.sling.jmx.provider.impl.JMXResourceProvider | 
 *ConfigmgrApi* | [**orgApacheSlingModelsImplModelAdapterFactory**](docs/ConfigmgrApi.md#orgApacheSlingModelsImplModelAdapterFactory) | **POST** /system/console/configMgr/org.apache.sling.models.impl.ModelAdapterFactory | 
 *ConfigmgrApi* | [**orgApacheSlingModelsJacksonexporterImplResourceModuleProvider**](docs/ConfigmgrApi.md#orgApacheSlingModelsJacksonexporterImplResourceModuleProvider) | **POST** /system/console/configMgr/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider | 
-*ConfigmgrApi* | [**orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory**](docs/ConfigmgrApi.md#orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactory) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
+*ConfigmgrApi* | [**orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto**](docs/ConfigmgrApi.md#orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto) | **POST** /system/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory | 
 *ConfigmgrApi* | [**orgApacheSlingResourcemergerImplMergedResourceProviderFactory**](docs/ConfigmgrApi.md#orgApacheSlingResourcemergerImplMergedResourceProviderFactory) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory | 
 *ConfigmgrApi* | [**orgApacheSlingResourcemergerPickerOverriding**](docs/ConfigmgrApi.md#orgApacheSlingResourcemergerPickerOverriding) | **POST** /system/console/configMgr/org.apache.sling.resourcemerger.picker.overriding | 
 *ConfigmgrApi* | [**orgApacheSlingScriptingCoreImplScriptCacheImpl**](docs/ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptCacheImpl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptCacheImpl | 
-*ConfigmgrApi* | [**orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl**](docs/ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImpl) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
+*ConfigmgrApi* | [**orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider**](docs/ConfigmgrApi.md#orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider) | **POST** /system/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl | 
 *ConfigmgrApi* | [**orgApacheSlingScriptingJavaImplJavaScriptEngineFactory**](docs/ConfigmgrApi.md#orgApacheSlingScriptingJavaImplJavaScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory | 
-*ConfigmgrApi* | [**orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory**](docs/ConfigmgrApi.md#orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
+*ConfigmgrApi* | [**orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa**](docs/ConfigmgrApi.md#orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa) | **POST** /system/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory | 
 *ConfigmgrApi* | [**orgApacheSlingScriptingJspJspScriptEngineFactory**](docs/ConfigmgrApi.md#orgApacheSlingScriptingJspJspScriptEngineFactory) | **POST** /system/console/configMgr/org.apache.sling.scripting.jsp.JspScriptEngineFactory | 
-*ConfigmgrApi* | [**orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider**](docs/ConfigmgrApi.md#orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvider) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
+*ConfigmgrApi* | [**orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv**](docs/ConfigmgrApi.md#orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv) | **POST** /system/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider | 
 *ConfigmgrApi* | [**orgApacheSlingSecurityImplContentDispositionFilter**](docs/ConfigmgrApi.md#orgApacheSlingSecurityImplContentDispositionFilter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ContentDispositionFilter | 
 *ConfigmgrApi* | [**orgApacheSlingSecurityImplReferrerFilter**](docs/ConfigmgrApi.md#orgApacheSlingSecurityImplReferrerFilter) | **POST** /system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter | 
 *ConfigmgrApi* | [**orgApacheSlingServiceusermappingImplServiceUserMapperImpl**](docs/ConfigmgrApi.md#orgApacheSlingServiceusermappingImplServiceUserMapperImpl) | **POST** /system/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl | 
@@ -842,8 +851,8 @@ Class | Method | HTTP request | Description
 
  - [AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo](docs/AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.md)
  - [AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties](docs/AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.md)
- - [AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo](docs/AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationInfo.md)
- - [AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationProperties](docs/AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurationProperties.md)
+ - [AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo](docs/AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo.md)
+ - [AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties](docs/AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties.md)
  - [AnalyticsComponentQueryCacheServiceInfo](docs/AnalyticsComponentQueryCacheServiceInfo.md)
  - [AnalyticsComponentQueryCacheServiceProperties](docs/AnalyticsComponentQueryCacheServiceProperties.md)
  - [ApacheSlingHealthCheckResultHTMLSerializerInfo](docs/ApacheSlingHealthCheckResultHTMLSerializerInfo.md)
@@ -878,8 +887,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties](docs/ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties.md)
  - [ComAdobeCqCdnRewriterImplCDNRewriterInfo](docs/ComAdobeCqCdnRewriterImplCDNRewriterInfo.md)
  - [ComAdobeCqCdnRewriterImplCDNRewriterProperties](docs/ComAdobeCqCdnRewriterImplCDNRewriterProperties.md)
- - [ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo](docs/ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerInfo.md)
- - [ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerProperties](docs/ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlerProperties.md)
+ - [ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo](docs/ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo.md)
+ - [ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleProperties](docs/ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleProperties.md)
  - [ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo](docs/ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo.md)
  - [ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties](docs/ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties.md)
  - [ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo](docs/ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo.md)
@@ -900,8 +909,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties](docs/ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties.md)
  - [ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo](docs/ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo.md)
  - [ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties](docs/ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties.md)
- - [ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo](docs/ComAdobeCqContentinsightImplServletsReportingServicesProxyServletInfo.md)
- - [ComAdobeCqContentinsightImplServletsReportingServicesProxyServletProperties](docs/ComAdobeCqContentinsightImplServletsReportingServicesProxyServletProperties.md)
+ - [ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo](docs/ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo.md)
+ - [ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties](docs/ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties.md)
  - [ComAdobeCqDamCfmImplComponentComponentConfigImplInfo](docs/ComAdobeCqDamCfmImplComponentComponentConfigImplInfo.md)
  - [ComAdobeCqDamCfmImplComponentComponentConfigImplProperties](docs/ComAdobeCqDamCfmImplComponentComponentConfigImplProperties.md)
  - [ComAdobeCqDamCfmImplConfFeatureConfigImplInfo](docs/ComAdobeCqDamCfmImplConfFeatureConfigImplInfo.md)
@@ -980,8 +989,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties](docs/ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties.md)
  - [ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo](docs/ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo.md)
  - [ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties](docs/ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties.md)
- - [ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo](docs/ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckInfo.md)
- - [ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckProperties](docs/ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCheckProperties.md)
+ - [ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo](docs/ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo.md)
+ - [ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties](docs/ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties.md)
  - [ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo](docs/ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo.md)
  - [ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties](docs/ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties.md)
  - [ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo](docs/ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo.md)
@@ -990,36 +999,36 @@ Class | Method | HTTP request | Description
  - [ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties](docs/ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties.md)
  - [ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo](docs/ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo.md)
  - [ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties](docs/ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties.md)
- - [ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo](docs/ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplInfo.md)
- - [ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplProperties](docs/ComAdobeCqSocialAccountverificationImplAccountManagementConfigImplProperties.md)
- - [ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo](docs/ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplInfo.md)
- - [ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplProperties](docs/ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponentFactoryImplProperties.md)
- - [ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo](docs/ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryInfo.md)
- - [ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryProperties](docs/ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamComponentFactoryProperties.md)
+ - [ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo](docs/ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo.md)
+ - [ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties](docs/ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties.md)
+ - [ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo](docs/ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo.md)
+ - [ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenProperties](docs/ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenProperties.md)
+ - [ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo](docs/ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo.md)
+ - [ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoProperties](docs/ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoProperties.md)
  - [ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo](docs/ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo.md)
  - [ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerProperties](docs/ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerProperties.md)
- - [ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo](docs/ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionInfo.md)
- - [ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionProperties](docs/ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtensionProperties.md)
- - [ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo](docs/ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorInfo.md)
- - [ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorProperties](docs/ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySuppressorProperties.md)
- - [ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo](docs/ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryInfo.md)
- - [ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryProperties](docs/ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreamProviderFactoryProperties.md)
- - [ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo](docs/ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplInfo.md)
- - [ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplProperties](docs/ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsImplProperties.md)
- - [ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo](docs/ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentInfo.md)
- - [ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentProperties](docs/ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmentProperties.md)
+ - [ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo](docs/ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo.md)
+ - [ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties](docs/ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties.md)
+ - [ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo](docs/ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo.md)
+ - [ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySProperties](docs/ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySProperties.md)
+ - [ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo](docs/ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo.md)
+ - [ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreProperties](docs/ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreProperties.md)
+ - [ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo](docs/ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo.md)
+ - [ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties](docs/ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties.md)
+ - [ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo](docs/ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo.md)
+ - [ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties](docs/ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties.md)
  - [ComAdobeCqSocialCalendarServletsTimeZoneServletInfo](docs/ComAdobeCqSocialCalendarServletsTimeZoneServletInfo.md)
  - [ComAdobeCqSocialCalendarServletsTimeZoneServletProperties](docs/ComAdobeCqSocialCalendarServletsTimeZoneServletProperties.md)
- - [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorInfo.md)
- - [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorProperties](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventActivitySuppressorProperties.md)
- - [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceInfo.md)
- - [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceProperties](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationServiceProperties.md)
- - [ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceInfo.md)
- - [ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceProperties](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperationServiceProperties.md)
- - [ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo](docs/ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderInfo.md)
- - [ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderProperties](docs/ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialComponentListProviderProperties.md)
- - [ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo](docs/ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsInfo.md)
- - [ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsProperties](docs/ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPostsProperties.md)
+ - [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo.md)
+ - [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties.md)
+ - [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo.md)
+ - [ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties.md)
+ - [ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo.md)
+ - [ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiProperties](docs/ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiProperties.md)
+ - [ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo](docs/ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo.md)
+ - [ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties](docs/ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties.md)
+ - [ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo](docs/ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo.md)
+ - [ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties](docs/ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties.md)
  - [ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo](docs/ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.md)
  - [ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties](docs/ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties.md)
  - [ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo.md)
@@ -1030,10 +1039,10 @@ Class | Method | HTTP request | Description
  - [ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerProperties.md)
  - [ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo.md)
  - [ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderProperties.md)
- - [ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplInfo.md)
- - [ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImplProperties.md)
- - [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplInfo.md)
- - [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImplProperties.md)
+ - [ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.md)
+ - [ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.md)
+ - [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.md)
+ - [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties.md)
  - [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo.md)
  - [ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties.md)
  - [ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo.md)
@@ -1048,88 +1057,88 @@ Class | Method | HTTP request | Description
  - [ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties.md)
  - [ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo](docs/ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo.md)
  - [ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties](docs/ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties.md)
- - [ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo](docs/ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsInfo.md)
- - [ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsProperties](docs/ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadsProperties.md)
+ - [ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo](docs/ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo.md)
+ - [ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties](docs/ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties.md)
  - [ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo](docs/ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo.md)
  - [ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties](docs/ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties.md)
- - [ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo](docs/ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplInfo.md)
- - [ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplProperties](docs/ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitsConfigImplProperties.md)
+ - [ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo](docs/ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo.md)
+ - [ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties](docs/ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.md)
  - [ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo](docs/ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo.md)
  - [ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties](docs/ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties.md)
- - [ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo](docs/ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerInfo.md)
- - [ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerProperties](docs/ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlerProperties.md)
+ - [ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo](docs/ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo.md)
+ - [ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties](docs/ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties.md)
  - [ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo](docs/ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo.md)
  - [ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties](docs/ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties.md)
  - [ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo](docs/ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo.md)
  - [ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties](docs/ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties.md)
- - [ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo](docs/ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplInfo.md)
- - [ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplProperties](docs/ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmentCreationServiceImplProperties.md)
+ - [ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo](docs/ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo.md)
+ - [ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties](docs/ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties.md)
  - [ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo](docs/ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo.md)
  - [ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties](docs/ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.md)
  - [ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo](docs/ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.md)
  - [ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties](docs/ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.md)
- - [ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo](docs/ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryInfo.md)
- - [ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryProperties](docs/ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactoryProperties.md)
- - [ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo](docs/ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryInfo.md)
- - [ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryProperties](docs/ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFactoryProperties.md)
- - [ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo](docs/ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryInfo.md)
- - [ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryProperties](docs/ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoryProperties.md)
- - [ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo](docs/ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceInfo.md)
- - [ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceProperties](docs/ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLearningPathModelOperationServiceProperties.md)
- - [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo](docs/ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceInfo.md)
- - [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceProperties](docs/ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResourceModelOperationServiceProperties.md)
+ - [ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo](docs/ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo.md)
+ - [ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties](docs/ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties.md)
+ - [ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo](docs/ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo.md)
+ - [ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFProperties](docs/ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFProperties.md)
+ - [ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo](docs/ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo.md)
+ - [ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoProperties](docs/ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoProperties.md)
+ - [ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo](docs/ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo.md)
+ - [ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLProperties](docs/ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLProperties.md)
+ - [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo](docs/ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.md)
+ - [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties](docs/ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties.md)
  - [ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo](docs/ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.md)
  - [ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties](docs/ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties.md)
- - [ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo](docs/ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletInfo.md)
- - [ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletProperties](docs/ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGetServletProperties.md)
- - [ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo](docs/ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceInfo.md)
- - [ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceProperties](docs/ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperationsServiceProperties.md)
+ - [ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo](docs/ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo.md)
+ - [ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties](docs/ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties.md)
+ - [ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo](docs/ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo.md)
+ - [ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaProperties](docs/ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaProperties.md)
  - [ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo](docs/ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo.md)
  - [ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceProperties](docs/ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceProperties.md)
  - [ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo](docs/ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo.md)
  - [ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties](docs/ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties.md)
- - [ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo](docs/ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryInfo.md)
- - [ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryProperties](docs/ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponentFactoryProperties.md)
+ - [ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo](docs/ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.md)
+ - [ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties](docs/ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.md)
  - [ComAdobeCqSocialGroupImplGroupServiceImplInfo](docs/ComAdobeCqSocialGroupImplGroupServiceImplInfo.md)
  - [ComAdobeCqSocialGroupImplGroupServiceImplProperties](docs/ComAdobeCqSocialGroupImplGroupServiceImplProperties.md)
  - [ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo](docs/ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo.md)
  - [ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties](docs/ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties.md)
- - [ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo](docs/ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceInfo.md)
- - [ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceProperties](docs/ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsServiceProperties.md)
- - [ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo](docs/ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceInfo.md)
- - [ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceProperties](docs/ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsServiceProperties.md)
- - [ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo](docs/ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceInfo.md)
- - [ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceProperties](docs/ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileOperationServiceProperties.md)
- - [ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo](docs/ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceInfo.md)
- - [ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceProperties](docs/ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOperationServiceProperties.md)
- - [ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo](docs/ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryInfo.md)
- - [ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryProperties](docs/ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFactoryProperties.md)
- - [ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo](docs/ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplInfo.md)
- - [ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplProperties](docs/ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationsServiceImplProperties.md)
- - [ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo](docs/ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryInfo.md)
- - [ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryProperties](docs/ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponentFactoryProperties.md)
- - [ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo](docs/ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryInfo.md)
- - [ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryProperties](docs/ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialComponentFactoryProperties.md)
- - [ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo](docs/ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryInfo.md)
- - [ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryProperties](docs/ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponentFactoryProperties.md)
- - [ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info](docs/ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Info.md)
- - [ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Properties](docs/ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSocialComponentFactoryV2Properties.md)
+ - [ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo](docs/ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo.md)
+ - [ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSProperties](docs/ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSProperties.md)
+ - [ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo](docs/ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo.md)
+ - [ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties](docs/ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties.md)
+ - [ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo](docs/ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo.md)
+ - [ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileProperties](docs/ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileProperties.md)
+ - [ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo](docs/ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo.md)
+ - [ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOProperties](docs/ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOProperties.md)
+ - [ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo](docs/ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo.md)
+ - [ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFProperties](docs/ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFProperties.md)
+ - [ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo](docs/ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo.md)
+ - [ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties](docs/ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.md)
+ - [ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo](docs/ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo.md)
+ - [ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenProperties](docs/ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenProperties.md)
+ - [ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo](docs/ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo.md)
+ - [ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialProperties](docs/ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialProperties.md)
+ - [ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo](docs/ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo.md)
+ - [ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenProperties](docs/ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenProperties.md)
+ - [ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo](docs/ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo.md)
+ - [ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties](docs/ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties.md)
  - [ComAdobeCqSocialNotificationsImplMentionsRouterInfo](docs/ComAdobeCqSocialNotificationsImplMentionsRouterInfo.md)
  - [ComAdobeCqSocialNotificationsImplMentionsRouterProperties](docs/ComAdobeCqSocialNotificationsImplMentionsRouterProperties.md)
  - [ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo](docs/ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo.md)
  - [ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties](docs/ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties.md)
  - [ComAdobeCqSocialNotificationsImplNotificationsRouterInfo](docs/ComAdobeCqSocialNotificationsImplNotificationsRouterInfo.md)
  - [ComAdobeCqSocialNotificationsImplNotificationsRouterProperties](docs/ComAdobeCqSocialNotificationsImplNotificationsRouterProperties.md)
- - [ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo](docs/ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceInfo.md)
- - [ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceProperties](docs/ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServiceProperties.md)
- - [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo](docs/ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplInfo.md)
- - [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplProperties](docs/ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportImporterServiceImplProperties.md)
- - [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo](docs/ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplInfo.md)
- - [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplProperties](docs/ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportManagementServiceImplProperties.md)
- - [ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo](docs/ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryInfo.md)
- - [ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryProperties](docs/ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSocialComponentFactoryProperties.md)
- - [ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo](docs/ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceInfo.md)
- - [ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceProperties](docs/ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiceProperties.md)
+ - [ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo](docs/ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo.md)
+ - [ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicProperties](docs/ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicProperties.md)
+ - [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo](docs/ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo.md)
+ - [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties](docs/ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties.md)
+ - [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo](docs/ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo.md)
+ - [ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties](docs/ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties.md)
+ - [ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo](docs/ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo.md)
+ - [ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties](docs/ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties.md)
+ - [ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo](docs/ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo.md)
+ - [ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiProperties](docs/ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiProperties.md)
  - [ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo](docs/ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo.md)
  - [ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties](docs/ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties.md)
  - [ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo](docs/ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo.md)
@@ -1140,8 +1149,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplProperties](docs/ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplProperties.md)
  - [ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo](docs/ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo.md)
  - [ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties](docs/ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties.md)
- - [ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo](docs/ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplInfo.md)
- - [ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplProperties](docs/ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImplProperties.md)
+ - [ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo](docs/ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo.md)
+ - [ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties](docs/ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties.md)
  - [ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo](docs/ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo.md)
  - [ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties](docs/ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties.md)
  - [ComAdobeCqSocialSrpImplSocialSolrConnectorInfo](docs/ComAdobeCqSocialSrpImplSocialSolrConnectorInfo.md)
@@ -1170,16 +1179,16 @@ Class | Method | HTTP request | Description
  - [ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties](docs/ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties.md)
  - [ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo](docs/ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.md)
  - [ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties](docs/ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties.md)
- - [ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo](docs/ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
- - [ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceProperties](docs/ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlacklistServiceProperties.md)
+ - [ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo](docs/ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo.md)
+ - [ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties](docs/ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.md)
  - [ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo](docs/ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo.md)
  - [ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties](docs/ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties.md)
  - [ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo](docs/ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo.md)
  - [ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties](docs/ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties.md)
  - [ComAdobeCqSocialUserImplTransportHttpToPublisherInfo](docs/ComAdobeCqSocialUserImplTransportHttpToPublisherInfo.md)
  - [ComAdobeCqSocialUserImplTransportHttpToPublisherProperties](docs/ComAdobeCqSocialUserImplTransportHttpToPublisherProperties.md)
- - [ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo](docs/ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedInfo.md)
- - [ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedProperties](docs/ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactoryAmendedProperties.md)
+ - [ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo](docs/ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo.md)
+ - [ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties](docs/ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties.md)
  - [ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo](docs/ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo.md)
  - [ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties](docs/ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties.md)
  - [ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo](docs/ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.md)
@@ -1206,8 +1215,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties](docs/ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties.md)
  - [ComAdobeFormsCommonServiceImplDefaultDataProviderInfo](docs/ComAdobeFormsCommonServiceImplDefaultDataProviderInfo.md)
  - [ComAdobeFormsCommonServiceImplDefaultDataProviderProperties](docs/ComAdobeFormsCommonServiceImplDefaultDataProviderProperties.md)
- - [ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo](docs/ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplInfo.md)
- - [ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplProperties](docs/ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplProperties.md)
+ - [ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo](docs/ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo.md)
+ - [ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties](docs/ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties.md)
  - [ComAdobeFormsCommonServletTempCleanUpTaskInfo](docs/ComAdobeFormsCommonServletTempCleanUpTaskInfo.md)
  - [ComAdobeFormsCommonServletTempCleanUpTaskProperties](docs/ComAdobeFormsCommonServletTempCleanUpTaskProperties.md)
  - [ComAdobeGraniteAcpPlatformPlatformServletInfo](docs/ComAdobeGraniteAcpPlatformPlatformServletInfo.md)
@@ -1282,16 +1291,16 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties](docs/ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties.md)
  - [ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo](docs/ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo.md)
  - [ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties](docs/ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties.md)
- - [ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo](docs/ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryInfo.md)
- - [ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryProperties](docs/ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFactoryProperties.md)
+ - [ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo](docs/ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo.md)
+ - [ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties](docs/ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties.md)
  - [ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo](docs/ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo.md)
  - [ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties](docs/ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties.md)
  - [ComAdobeGraniteCompatrouterImplRoutingConfigInfo](docs/ComAdobeGraniteCompatrouterImplRoutingConfigInfo.md)
  - [ComAdobeGraniteCompatrouterImplRoutingConfigProperties](docs/ComAdobeGraniteCompatrouterImplRoutingConfigProperties.md)
  - [ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo](docs/ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.md)
  - [ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties](docs/ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties.md)
- - [ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo](docs/ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyInfo.md)
- - [ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyProperties](docs/ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingStrategyProperties.md)
+ - [ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo](docs/ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo.md)
+ - [ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties](docs/ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties.md)
  - [ComAdobeGraniteContexthubImplContextHubImplInfo](docs/ComAdobeGraniteContexthubImplContextHubImplInfo.md)
  - [ComAdobeGraniteContexthubImplContextHubImplProperties](docs/ComAdobeGraniteContexthubImplContextHubImplProperties.md)
  - [ComAdobeGraniteCorsImplCORSPolicyImplInfo](docs/ComAdobeGraniteCorsImplCORSPolicyImplInfo.md)
@@ -1300,20 +1309,20 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteCsrfImplCSRFFilterProperties](docs/ComAdobeGraniteCsrfImplCSRFFilterProperties.md)
  - [ComAdobeGraniteCsrfImplCSRFServletInfo](docs/ComAdobeGraniteCsrfImplCSRFServletInfo.md)
  - [ComAdobeGraniteCsrfImplCSRFServletProperties](docs/ComAdobeGraniteCsrfImplCSRFServletProperties.md)
- - [ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo](docs/ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderInfo.md)
- - [ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderProperties](docs/ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSecretProviderProperties.md)
+ - [ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo](docs/ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo.md)
+ - [ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties](docs/ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties.md)
  - [ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo](docs/ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo.md)
  - [ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties](docs/ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties.md)
  - [ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo](docs/ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo.md)
  - [ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties](docs/ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties.md)
- - [ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo](docs/ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerInfo.md)
- - [ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerProperties](docs/ComAdobeGraniteDistributionCoreImplDistributionToReplicationEventTransformerProperties.md)
- - [ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo](docs/ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderInfo.md)
- - [ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderProperties](docs/ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicationAgentProviderProperties.md)
- - [ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo](docs/ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerInfo.md)
- - [ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerProperties](docs/ComAdobeGraniteDistributionCoreImplReplicationDistributionTransportHandlerProperties.md)
- - [ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo](docs/ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderInfo.md)
- - [ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderProperties](docs/ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistributionTransportSecretProviderProperties.md)
+ - [ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo](docs/ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo.md)
+ - [ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties](docs/ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties.md)
+ - [ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo](docs/ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo.md)
+ - [ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatProperties](docs/ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatProperties.md)
+ - [ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo](docs/ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo.md)
+ - [ComAdobeGraniteDistributionCoreImplReplicationDistributionTransProperties](docs/ComAdobeGraniteDistributionCoreImplReplicationDistributionTransProperties.md)
+ - [ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo](docs/ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo.md)
+ - [ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties](docs/ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.md)
  - [ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo](docs/ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo.md)
  - [ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties](docs/ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.md)
  - [ComAdobeGraniteFragsImplRandomFeatureInfo](docs/ComAdobeGraniteFragsImplRandomFeatureInfo.md)
@@ -1344,8 +1353,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties](docs/ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties.md)
  - [ComAdobeGraniteMonitoringImplScriptConfigImplInfo](docs/ComAdobeGraniteMonitoringImplScriptConfigImplInfo.md)
  - [ComAdobeGraniteMonitoringImplScriptConfigImplProperties](docs/ComAdobeGraniteMonitoringImplScriptConfigImplProperties.md)
- - [ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo](docs/ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerInfo.md)
- - [ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerProperties](docs/ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHandlerProperties.md)
+ - [ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo](docs/ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo.md)
+ - [ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties](docs/ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.md)
  - [ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo](docs/ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo.md)
  - [ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties](docs/ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties.md)
  - [ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo](docs/ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo.md)
@@ -1364,8 +1373,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties](docs/ComAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties.md)
  - [ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo](docs/ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.md)
  - [ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties](docs/ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties.md)
- - [ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo](docs/ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterInfo.md)
- - [ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterProperties](docs/ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTransporterProperties.md)
+ - [ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo](docs/ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo.md)
+ - [ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties](docs/ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties.md)
  - [ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo](docs/ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo.md)
  - [ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties](docs/ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties.md)
  - [ComAdobeGraniteOptoutImplOptOutServiceImplInfo](docs/ComAdobeGraniteOptoutImplOptOutServiceImplInfo.md)
@@ -1382,16 +1391,16 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckProperties](docs/ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckProperties.md)
  - [ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo](docs/ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo.md)
  - [ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckProperties](docs/ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckProperties.md)
- - [ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo](docs/ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckInfo.md)
- - [ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckProperties](docs/ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCheckProperties.md)
+ - [ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo](docs/ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.md)
+ - [ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCProperties](docs/ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCProperties.md)
  - [ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo](docs/ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo.md)
  - [ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckProperties](docs/ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckProperties.md)
- - [ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo](docs/ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckInfo.md)
- - [ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckProperties](docs/ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCheckProperties.md)
+ - [ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo](docs/ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo.md)
+ - [ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties](docs/ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties.md)
  - [ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo](docs/ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo.md)
  - [ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckProperties](docs/ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckProperties.md)
- - [ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo](docs/ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckInfo.md)
- - [ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckProperties](docs/ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheckProperties.md)
+ - [ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo](docs/ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.md)
+ - [ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheProperties](docs/ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheProperties.md)
  - [ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo](docs/ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.md)
  - [ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties](docs/ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties.md)
  - [ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo](docs/ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo.md)
@@ -1402,8 +1411,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteRepositoryImplCommitStatsConfigProperties](docs/ComAdobeGraniteRepositoryImplCommitStatsConfigProperties.md)
  - [ComAdobeGraniteRepositoryServiceUserConfigurationInfo](docs/ComAdobeGraniteRepositoryServiceUserConfigurationInfo.md)
  - [ComAdobeGraniteRepositoryServiceUserConfigurationProperties](docs/ComAdobeGraniteRepositoryServiceUserConfigurationProperties.md)
- - [ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo](docs/ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplInfo.md)
- - [ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplProperties](docs/ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImplProperties.md)
+ - [ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo](docs/ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo.md)
+ - [ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImProperties](docs/ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImProperties.md)
  - [ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo](docs/ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo.md)
  - [ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties](docs/ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties.md)
  - [ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo](docs/ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo.md)
@@ -1414,8 +1423,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties](docs/ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties.md)
  - [ComAdobeGraniteRestImplServletDefaultGETServletInfo](docs/ComAdobeGraniteRestImplServletDefaultGETServletInfo.md)
  - [ComAdobeGraniteRestImplServletDefaultGETServletProperties](docs/ComAdobeGraniteRestImplServletDefaultGETServletProperties.md)
- - [ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo](docs/ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletInfo.md)
- - [ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletProperties](docs/ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationServletProperties.md)
+ - [ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo](docs/ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo.md)
+ - [ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties](docs/ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties.md)
  - [ComAdobeGraniteSecurityUserUserPropertiesServiceInfo](docs/ComAdobeGraniteSecurityUserUserPropertiesServiceInfo.md)
  - [ComAdobeGraniteSecurityUserUserPropertiesServiceProperties](docs/ComAdobeGraniteSecurityUserUserPropertiesServiceProperties.md)
  - [ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo](docs/ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo.md)
@@ -1428,12 +1437,12 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties](docs/ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties.md)
  - [ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo](docs/ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo.md)
  - [ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties](docs/ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.md)
- - [ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo](docs/ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryInfo.md)
- - [ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryProperties](docs/ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactoryProperties.md)
+ - [ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo](docs/ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo.md)
+ - [ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties](docs/ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties.md)
  - [ComAdobeGraniteThreaddumpThreadDumpCollectorInfo](docs/ComAdobeGraniteThreaddumpThreadDumpCollectorInfo.md)
  - [ComAdobeGraniteThreaddumpThreadDumpCollectorProperties](docs/ComAdobeGraniteThreaddumpThreadDumpCollectorProperties.md)
- - [ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo](docs/ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplInfo.md)
- - [ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplProperties](docs/ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslationServiceFactoryImplProperties.md)
+ - [ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo](docs/ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.md)
+ - [ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties](docs/ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.md)
  - [ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo](docs/ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo.md)
  - [ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties](docs/ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties.md)
  - [ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo](docs/ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo.md)
@@ -1448,8 +1457,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties](docs/ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.md)
  - [ComAdobeGraniteWorkflowCoreJobJobHandlerInfo](docs/ComAdobeGraniteWorkflowCoreJobJobHandlerInfo.md)
  - [ComAdobeGraniteWorkflowCoreJobJobHandlerProperties](docs/ComAdobeGraniteWorkflowCoreJobJobHandlerProperties.md)
- - [ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo](docs/ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerInfo.md)
- - [ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerProperties](docs/ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumerProperties.md)
+ - [ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo](docs/ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo.md)
+ - [ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties](docs/ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties.md)
  - [ComAdobeGraniteWorkflowCorePayloadMapCacheInfo](docs/ComAdobeGraniteWorkflowCorePayloadMapCacheInfo.md)
  - [ComAdobeGraniteWorkflowCorePayloadMapCacheProperties](docs/ComAdobeGraniteWorkflowCorePayloadMapCacheProperties.md)
  - [ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo](docs/ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo.md)
@@ -1462,8 +1471,8 @@ Class | Method | HTTP request | Description
  - [ComAdobeGraniteWorkflowPurgeSchedulerProperties](docs/ComAdobeGraniteWorkflowPurgeSchedulerProperties.md)
  - [ComAdobeOctopusNcommBootstrapInfo](docs/ComAdobeOctopusNcommBootstrapInfo.md)
  - [ComAdobeOctopusNcommBootstrapProperties](docs/ComAdobeOctopusNcommBootstrapProperties.md)
- - [ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo](docs/ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletInfo.md)
- - [ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletProperties](docs/ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullServletProperties.md)
+ - [ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo](docs/ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo.md)
+ - [ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties](docs/ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties.md)
  - [ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo](docs/ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo.md)
  - [ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties](docs/ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.md)
  - [ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo](docs/ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo.md)
@@ -1472,8 +1481,8 @@ Class | Method | HTTP request | Description
  - [ComDayCommonsHttpclientProperties](docs/ComDayCommonsHttpclientProperties.md)
  - [ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo](docs/ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo.md)
  - [ComDayCqAnalyticsImplStorePropertiesChangeListenerProperties](docs/ComDayCqAnalyticsImplStorePropertiesChangeListenerProperties.md)
- - [ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo](docs/ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterInfo.md)
- - [ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterProperties](docs/ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporterProperties.md)
+ - [ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo](docs/ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo.md)
+ - [ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties](docs/ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties.md)
  - [ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo](docs/ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo.md)
  - [ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties](docs/ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties.md)
  - [ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo](docs/ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo.md)
@@ -1502,8 +1511,8 @@ Class | Method | HTTP request | Description
  - [ComDayCqCommonsImplExternalizerImplProperties](docs/ComDayCqCommonsImplExternalizerImplProperties.md)
  - [ComDayCqCommonsServletsRootMappingServletInfo](docs/ComDayCqCommonsServletsRootMappingServletInfo.md)
  - [ComDayCqCommonsServletsRootMappingServletProperties](docs/ComDayCqCommonsServletsRootMappingServletProperties.md)
- - [ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo](docs/ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerInfo.md)
- - [ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerProperties](docs/ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckerProperties.md)
+ - [ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo](docs/ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo.md)
+ - [ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties](docs/ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties.md)
  - [ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo](docs/ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo.md)
  - [ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties](docs/ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties.md)
  - [ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo](docs/ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo.md)
@@ -1536,8 +1545,8 @@ Class | Method | HTTP request | Description
  - [ComDayCqDamCoreImplEventDamEventAuditListenerProperties](docs/ComDayCqDamCoreImplEventDamEventAuditListenerProperties.md)
  - [ComDayCqDamCoreImplExpiryNotificationJobImplInfo](docs/ComDayCqDamCoreImplExpiryNotificationJobImplInfo.md)
  - [ComDayCqDamCoreImplExpiryNotificationJobImplProperties](docs/ComDayCqDamCoreImplExpiryNotificationJobImplProperties.md)
- - [ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo](docs/ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagInfo.md)
- - [ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagProperties](docs/ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatureFlagProperties.md)
+ - [ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo](docs/ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo.md)
+ - [ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties](docs/ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties.md)
  - [ComDayCqDamCoreImplGfxCommonsGfxRendererInfo](docs/ComDayCqDamCoreImplGfxCommonsGfxRendererInfo.md)
  - [ComDayCqDamCoreImplGfxCommonsGfxRendererProperties](docs/ComDayCqDamCoreImplGfxCommonsGfxRendererProperties.md)
  - [ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo](docs/ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo.md)
@@ -1554,10 +1563,10 @@ Class | Method | HTTP request | Description
  - [ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties](docs/ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties.md)
  - [ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo](docs/ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo.md)
  - [ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties](docs/ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties.md)
- - [ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo](docs/ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceInfo.md)
- - [ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceProperties](docs/ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProviderServiceProperties.md)
- - [ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo](docs/ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceInfo.md)
- - [ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceProperties](docs/ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProviderServiceProperties.md)
+ - [ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo](docs/ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo.md)
+ - [ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties](docs/ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties.md)
+ - [ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo](docs/ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo.md)
+ - [ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties](docs/ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties.md)
  - [ComDayCqDamCoreImplLightboxLightboxServletInfo](docs/ComDayCqDamCoreImplLightboxLightboxServletInfo.md)
  - [ComDayCqDamCoreImplLightboxLightboxServletProperties](docs/ComDayCqDamCoreImplLightboxLightboxServletProperties.md)
  - [ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo](docs/ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo.md)
@@ -1568,8 +1577,8 @@ Class | Method | HTTP request | Description
  - [ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties](docs/ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties.md)
  - [ComDayCqDamCoreImplMissingMetadataNotificationJobInfo](docs/ComDayCqDamCoreImplMissingMetadataNotificationJobInfo.md)
  - [ComDayCqDamCoreImplMissingMetadataNotificationJobProperties](docs/ComDayCqDamCoreImplMissingMetadataNotificationJobProperties.md)
- - [ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo](docs/ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessInfo.md)
- - [ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessProperties](docs/ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailProcessProperties.md)
+ - [ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo](docs/ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo.md)
+ - [ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties](docs/ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.md)
  - [ComDayCqDamCoreImplProcessTextExtractionProcessInfo](docs/ComDayCqDamCoreImplProcessTextExtractionProcessInfo.md)
  - [ComDayCqDamCoreImplProcessTextExtractionProcessProperties](docs/ComDayCqDamCoreImplProcessTextExtractionProcessProperties.md)
  - [ComDayCqDamCoreImplRenditionMakerImplInfo](docs/ComDayCqDamCoreImplRenditionMakerImplInfo.md)
@@ -1642,10 +1651,10 @@ Class | Method | HTTP request | Description
  - [ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties](docs/ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties.md)
  - [ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo](docs/ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo.md)
  - [ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobProperties](docs/ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobProperties.md)
- - [ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo](docs/ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessInfo.md)
- - [ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessProperties](docs/ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProcessProperties.md)
- - [ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo](docs/ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerInfo.md)
- - [ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerProperties](docs/ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEventListenerProperties.md)
+ - [ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo](docs/ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo.md)
+ - [ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties](docs/ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties.md)
+ - [ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo](docs/ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.md)
+ - [ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties](docs/ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties.md)
  - [ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo](docs/ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.md)
  - [ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties](docs/ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties.md)
  - [ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo](docs/ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo.md)
@@ -1672,10 +1681,10 @@ Class | Method | HTTP request | Description
  - [ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties](docs/ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties.md)
  - [ComDayCqDamScene7ImplScene7UploadServiceImplInfo](docs/ComDayCqDamScene7ImplScene7UploadServiceImplInfo.md)
  - [ComDayCqDamScene7ImplScene7UploadServiceImplProperties](docs/ComDayCqDamScene7ImplScene7UploadServiceImplProperties.md)
- - [ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo](docs/ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplInfo.md)
- - [ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplProperties](docs/ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationServiceImplProperties.md)
- - [ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo](docs/ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplInfo.md)
- - [ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplProperties](docs/ComDayCqDamStockIntegrationImplConfigurationStockConfigurationImplProperties.md)
+ - [ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo](docs/ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo.md)
+ - [ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties](docs/ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties.md)
+ - [ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo](docs/ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo.md)
+ - [ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties](docs/ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.md)
  - [ComDayCqDamVideoImplServletVideoTestServletInfo](docs/ComDayCqDamVideoImplServletVideoTestServletInfo.md)
  - [ComDayCqDamVideoImplServletVideoTestServletProperties](docs/ComDayCqDamVideoImplServletVideoTestServletProperties.md)
  - [ComDayCqExtwidgetServletsImageSpriteServletInfo](docs/ComDayCqExtwidgetServletsImageSpriteServletInfo.md)
@@ -1700,16 +1709,16 @@ Class | Method | HTTP request | Description
  - [ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties](docs/ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties.md)
  - [ComDayCqMcmImplMCMConfigurationInfo](docs/ComDayCqMcmImplMCMConfigurationInfo.md)
  - [ComDayCqMcmImplMCMConfigurationProperties](docs/ComDayCqMcmImplMCMConfigurationProperties.md)
- - [ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo](docs/ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryInfo.md)
- - [ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryProperties](docs/ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponentTagHandlerFactoryProperties.md)
- - [ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo](docs/ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryInfo.md)
- - [ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryProperties](docs/ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroughComponentTagHandlerFactoryProperties.md)
- - [ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo](docs/ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryInfo.md)
- - [ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryProperties](docs/ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentTagHandlerFactoryProperties.md)
- - [ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo](docs/ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryInfo.md)
- - [ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryProperties](docs/ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHandlerFactoryProperties.md)
- - [ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo](docs/ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryInfo.md)
- - [ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryProperties](docs/ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHandlerFactoryProperties.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo](docs/ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties](docs/ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo](docs/ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties](docs/ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo](docs/ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties](docs/ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentProperties.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo](docs/ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties](docs/ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo](docs/ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.md)
+ - [ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties](docs/ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties.md)
  - [ComDayCqNotificationImplNotificationServiceImplInfo](docs/ComDayCqNotificationImplNotificationServiceImplInfo.md)
  - [ComDayCqNotificationImplNotificationServiceImplProperties](docs/ComDayCqNotificationImplNotificationServiceImplProperties.md)
  - [ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo](docs/ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo.md)
@@ -1728,8 +1737,8 @@ Class | Method | HTTP request | Description
  - [ComDayCqReplicationImplAgentManagerImplProperties](docs/ComDayCqReplicationImplAgentManagerImplProperties.md)
  - [ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo](docs/ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo.md)
  - [ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties](docs/ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties.md)
- - [ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo](docs/ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceInfo.md)
- - [ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceProperties](docs/ComDayCqReplicationImplContentDurboDurboImportConfigurationProviderServiceProperties.md)
+ - [ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo](docs/ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo.md)
+ - [ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties](docs/ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties.md)
  - [ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo](docs/ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo.md)
  - [ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties](docs/ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties.md)
  - [ComDayCqReplicationImplReplicationReceiverImplInfo](docs/ComDayCqReplicationImplReplicationReceiverImplInfo.md)
@@ -1778,8 +1787,8 @@ Class | Method | HTTP request | Description
  - [ComDayCqTaggingImplTagGarbageCollectorProperties](docs/ComDayCqTaggingImplTagGarbageCollectorProperties.md)
  - [ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo](docs/ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo.md)
  - [ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties](docs/ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties.md)
- - [ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo](docs/ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryInfo.md)
- - [ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryProperties](docs/ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactoryProperties.md)
+ - [ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo](docs/ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo.md)
+ - [ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties](docs/ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.md)
  - [ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo](docs/ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo.md)
  - [ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties](docs/ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties.md)
  - [ComDayCqWcmCoreImplCommandsWCMCommandServletInfo](docs/ComDayCqWcmCoreImplCommandsWCMCommandServletInfo.md)
@@ -1806,8 +1815,8 @@ Class | Method | HTTP request | Description
  - [ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties](docs/ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties.md)
  - [ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo](docs/ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo.md)
  - [ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties](docs/ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties.md)
- - [ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo](docs/ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerInfo.md)
- - [ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerProperties](docs/ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViewHandlerProperties.md)
+ - [ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo](docs/ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo.md)
+ - [ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties](docs/ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties.md)
  - [ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo](docs/ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo.md)
  - [ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerProperties](docs/ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerProperties.md)
  - [ComDayCqWcmCoreImplServletsFindReplaceServletInfo](docs/ComDayCqWcmCoreImplServletsFindReplaceServletInfo.md)
@@ -1846,40 +1855,40 @@ Class | Method | HTTP request | Description
  - [ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties](docs/ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties.md)
  - [ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo](docs/ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo.md)
  - [ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties](docs/ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponentTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponentTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponentTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponentTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponentTagHandlerFactoryProperties.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryInfo.md)
- - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlerFactoryProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenProperties.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo.md)
+ - [ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlProperties](docs/ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlProperties.md)
  - [ComDayCqWcmFoundationFormsImplFormChooserServletInfo](docs/ComDayCqWcmFoundationFormsImplFormChooserServletInfo.md)
  - [ComDayCqWcmFoundationFormsImplFormChooserServletProperties](docs/ComDayCqWcmFoundationFormsImplFormChooserServletProperties.md)
  - [ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo](docs/ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo.md)
@@ -1896,8 +1905,8 @@ Class | Method | HTTP request | Description
  - [ComDayCqWcmFoundationImplPageImpressionsTrackerProperties](docs/ComDayCqWcmFoundationImplPageImpressionsTrackerProperties.md)
  - [ComDayCqWcmFoundationImplPageRedirectServletInfo](docs/ComDayCqWcmFoundationImplPageRedirectServletInfo.md)
  - [ComDayCqWcmFoundationImplPageRedirectServletProperties](docs/ComDayCqWcmFoundationImplPageRedirectServletProperties.md)
- - [ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo](docs/ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceInfo.md)
- - [ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceProperties](docs/ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistServiceProperties.md)
+ - [ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo](docs/ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo.md)
+ - [ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistProperties](docs/ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistProperties.md)
  - [ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo](docs/ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.md)
  - [ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties](docs/ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.md)
  - [ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo](docs/ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo.md)
@@ -1953,6 +1962,7 @@ Class | Method | HTTP request | Description
  - [ConfigNodePropertyArray](docs/ConfigNodePropertyArray.md)
  - [ConfigNodePropertyBoolean](docs/ConfigNodePropertyBoolean.md)
  - [ConfigNodePropertyDropDown](docs/ConfigNodePropertyDropDown.md)
+ - [ConfigNodePropertyDropDownType](docs/ConfigNodePropertyDropDownType.md)
  - [ConfigNodePropertyFloat](docs/ConfigNodePropertyFloat.md)
  - [ConfigNodePropertyInteger](docs/ConfigNodePropertyInteger.md)
  - [ConfigNodePropertyString](docs/ConfigNodePropertyString.md)
@@ -1990,52 +2000,52 @@ Class | Method | HTTP request | Description
  - [OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties](docs/OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties.md)
  - [OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo](docs/OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo.md)
  - [OrgApacheFelixWebconsolePluginsEventInternalPluginServletProperties](docs/OrgApacheFelixWebconsolePluginsEventInternalPluginServletProperties.md)
- - [OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo](docs/OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorInfo.md)
- - [OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorProperties](docs/OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageConfiguratorProperties.md)
+ - [OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo](docs/OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo.md)
+ - [OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties](docs/OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.md)
  - [OrgApacheHttpProxyconfiguratorInfo](docs/OrgApacheHttpProxyconfiguratorInfo.md)
  - [OrgApacheHttpProxyconfiguratorProperties](docs/OrgApacheHttpProxyconfiguratorProperties.md)
- - [OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo](docs/OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceInfo.md)
- - [OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceProperties](docs/OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderServiceProperties.md)
+ - [OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo](docs/OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo.md)
+ - [OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderProperties](docs/OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderProperties.md)
  - [OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo](docs/OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo.md)
  - [OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties](docs/OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties.md)
  - [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo](docs/OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo.md)
- - [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo](docs/OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetInfo.md)
- - [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetProperties](docs/OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePresetProperties.md)
+ - [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo](docs/OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.md)
+ - [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreProperties](docs/OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreProperties.md)
  - [OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties](docs/OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties.md)
- - [OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo](docs/OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceInfo.md)
- - [OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceProperties](docs/OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacheServiceProperties.md)
+ - [OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo](docs/OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo.md)
+ - [OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties](docs/OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties.md)
  - [OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo](docs/OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo.md)
  - [OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties](docs/OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties.md)
- - [OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo](docs/OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceInfo.md)
- - [OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceProperties](docs/OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServiceProperties.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderInfo.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerConfigurationProviderProperties.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceInfo.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersObserverServiceProperties.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceInfo.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProviderServiceProperties.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderInfo.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfigurationProviderProperties.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceInfo.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProviderServiceProperties.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceInfo.md)
- - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderServiceProperties.md)
+ - [OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo](docs/OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo.md)
+ - [OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties](docs/OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersProperties.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo.md)
+ - [OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties](docs/OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties.md)
  - [OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo](docs/OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo.md)
  - [OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties](docs/OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties.md)
  - [OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo](docs/OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.md)
  - [OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties](docs/OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.md)
  - [OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo](docs/OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo.md)
  - [OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties](docs/OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.md)
- - [OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo](docs/OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplInfo.md)
- - [OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplProperties](docs/OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigurationImplProperties.md)
- - [OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo](docs/OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderInfo.md)
- - [OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderProperties](docs/OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentityProviderProperties.md)
- - [OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo](docs/OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplInfo.md)
- - [OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplProperties](docs/OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigurationImplProperties.md)
- - [OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo](docs/OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplInfo.md)
- - [OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplProperties](docs/OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurationImplProperties.md)
- - [OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo](docs/OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationInfo.md)
- - [OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationProperties](docs/OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrationProperties.md)
+ - [OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo](docs/OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.md)
+ - [OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties](docs/OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties.md)
+ - [OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo](docs/OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo.md)
+ - [OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties](docs/OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.md)
+ - [OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo](docs/OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo.md)
+ - [OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties](docs/OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.md)
+ - [OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo](docs/OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.md)
+ - [OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties](docs/OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.md)
+ - [OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo](docs/OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo.md)
+ - [OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties](docs/OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties.md)
  - [OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo](docs/OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo.md)
  - [OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameProperties](docs/OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameProperties.md)
  - [OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo](docs/OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo.md)
@@ -2050,18 +2060,18 @@ Class | Method | HTTP request | Description
  - [OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties](docs/OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties.md)
  - [OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo](docs/OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo.md)
  - [OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties](docs/OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerInfo.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDefaultSyncHandlerProperties.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryInfo.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExternalLoginModuleFactoryProperties.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationInfo.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrincipalExternalPrincipalConfigurationProperties.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationInfo.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfigurationProperties.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplInfo.md)
- - [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcludeImplProperties.md)
- - [OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo](docs/OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderInfo.md)
- - [OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderProperties](docs/OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableActionProviderProperties.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo](docs/OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo.md)
+ - [OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluProperties](docs/OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluProperties.md)
+ - [OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo](docs/OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo.md)
+ - [OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties](docs/OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties.md)
  - [OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo](docs/OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo.md)
  - [OrgApacheJackrabbitVaultPackagingImplPackagingImplProperties](docs/OrgApacheJackrabbitVaultPackagingImplPackagingImplProperties.md)
  - [OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo](docs/OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo.md)
@@ -2072,18 +2082,18 @@ Class | Method | HTTP request | Description
  - [OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderProperties](docs/OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderProperties.md)
  - [OrgApacheSlingCaconfigImplConfigurationResolverImplInfo](docs/OrgApacheSlingCaconfigImplConfigurationResolverImplInfo.md)
  - [OrgApacheSlingCaconfigImplConfigurationResolverImplProperties](docs/OrgApacheSlingCaconfigImplConfigurationResolverImplProperties.md)
- - [OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo](docs/OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyInfo.md)
- - [OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyProperties](docs/OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStrategyProperties.md)
- - [OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo](docs/OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyInfo.md)
- - [OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyProperties](docs/OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStrategyProperties.md)
- - [OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo](docs/OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderInfo.md)
- - [OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderProperties](docs/OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviderProperties.md)
- - [OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo](docs/OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderInfo.md)
- - [OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderProperties](docs/OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOverrideProviderProperties.md)
- - [OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo](docs/OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplInfo.md)
- - [OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplProperties](docs/OrgApacheSlingCaconfigManagementImplConfigurationManagementSettingsImplProperties.md)
- - [OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo](docs/OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyInfo.md)
- - [OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyProperties](docs/OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourceResolvingStrategyProperties.md)
+ - [OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo](docs/OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo.md)
+ - [OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties](docs/OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties.md)
+ - [OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo](docs/OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo.md)
+ - [OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraProperties](docs/OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraProperties.md)
+ - [OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo](docs/OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo.md)
+ - [OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties](docs/OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties.md)
+ - [OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo](docs/OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo.md)
+ - [OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties](docs/OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties.md)
+ - [OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo](docs/OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo.md)
+ - [OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties](docs/OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties.md)
+ - [OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo](docs/OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo.md)
+ - [OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties](docs/OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.md)
  - [OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo](docs/OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo.md)
  - [OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties](docs/OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.md)
  - [OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo](docs/OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo.md)
@@ -2114,54 +2124,54 @@ Class | Method | HTTP request | Description
  - [OrgApacheSlingDiscoveryOakConfigProperties](docs/OrgApacheSlingDiscoveryOakConfigProperties.md)
  - [OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo](docs/OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo.md)
  - [OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties](docs/OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties.md)
- - [OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo](docs/OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryInfo.md)
- - [OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryProperties](docs/OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoryProperties.md)
- - [OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo](docs/OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryInfo.md)
- - [OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryProperties](docs/OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAuthorizationStrategyFactoryProperties.md)
+ - [OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo](docs/OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo.md)
+ - [OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties](docs/OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.md)
+ - [OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo](docs/OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo.md)
+ - [OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties](docs/OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties.md)
  - [OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo](docs/OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo.md)
  - [OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties](docs/OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.md)
- - [OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo](docs/OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryInfo.md)
- - [OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryProperties](docs/OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoryProperties.md)
- - [OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo](docs/OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryInfo.md)
- - [OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryProperties](docs/OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactoryProperties.md)
+ - [OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo](docs/OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.md)
+ - [OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties](docs/OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.md)
+ - [OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo](docs/OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo.md)
+ - [OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties](docs/OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties.md)
  - [OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo](docs/OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo.md)
  - [OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties](docs/OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.md)
  - [OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo](docs/OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo.md)
  - [OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties](docs/OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.md)
- - [OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo](docs/OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryInfo.md)
- - [OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryProperties](docs/OrgApacheSlingDistributionPackagingImplExporterAgentDistributionPackageExporterFactoryProperties.md)
- - [OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo](docs/OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryInfo.md)
- - [OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryProperties](docs/OrgApacheSlingDistributionPackagingImplExporterLocalDistributionPackageExporterFactoryProperties.md)
- - [OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo](docs/OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryInfo.md)
- - [OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryProperties](docs/OrgApacheSlingDistributionPackagingImplExporterRemoteDistributionPackageExporterFactoryProperties.md)
- - [OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo](docs/OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryInfo.md)
- - [OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryProperties](docs/OrgApacheSlingDistributionPackagingImplImporterLocalDistributionPackageImporterFactoryProperties.md)
- - [OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo](docs/OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryInfo.md)
- - [OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryProperties](docs/OrgApacheSlingDistributionPackagingImplImporterRemoteDistributionPackageImporterFactoryProperties.md)
- - [OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo](docs/OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryInfo.md)
- - [OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryProperties](docs/OrgApacheSlingDistributionPackagingImplImporterRepositoryDistributionPackageImporterFactoryProperties.md)
- - [OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo](docs/OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryInfo.md)
- - [OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryProperties](docs/OrgApacheSlingDistributionResourcesImplDistributionConfigurationResourceProviderFactoryProperties.md)
- - [OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo](docs/OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryInfo.md)
- - [OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryProperties](docs/OrgApacheSlingDistributionResourcesImplDistributionServiceResourceProviderFactoryProperties.md)
- - [OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo](docs/OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryInfo.md)
- - [OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryProperties](docs/OrgApacheSlingDistributionSerializationImplDistributionPackageBuilderFactoryProperties.md)
- - [OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo](docs/OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryInfo.md)
- - [OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryProperties](docs/OrgApacheSlingDistributionSerializationImplVltVaultDistributionPackageBuilderFactoryProperties.md)
- - [OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo](docs/OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderInfo.md)
- - [OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderProperties](docs/OrgApacheSlingDistributionTransportImplUserCredentialsDistributionTransportSecretProviderProperties.md)
- - [OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo](docs/OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryInfo.md)
- - [OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryProperties](docs/OrgApacheSlingDistributionTriggerImplDistributionEventDistributeDistributionTriggerFactoryProperties.md)
- - [OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo](docs/OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryInfo.md)
- - [OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryProperties](docs/OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerFactoryProperties.md)
- - [OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo](docs/OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryInfo.md)
- - [OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryProperties](docs/OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributionTriggerFactoryProperties.md)
- - [OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo](docs/OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryInfo.md)
- - [OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryProperties](docs/OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTriggerFactoryProperties.md)
- - [OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo](docs/OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryInfo.md)
- - [OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryProperties](docs/OrgApacheSlingDistributionTriggerImplResourceEventDistributionTriggerFactoryProperties.md)
- - [OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo](docs/OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryInfo.md)
- - [OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryProperties](docs/OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggerFactoryProperties.md)
+ - [OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo](docs/OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo.md)
+ - [OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties](docs/OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.md)
+ - [OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo](docs/OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo.md)
+ - [OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties](docs/OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties.md)
+ - [OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo](docs/OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.md)
+ - [OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties](docs/OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.md)
+ - [OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo](docs/OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo.md)
+ - [OrgApacheSlingDistributionPackagingImplImporterLocalDistributioProperties](docs/OrgApacheSlingDistributionPackagingImplImporterLocalDistributioProperties.md)
+ - [OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo](docs/OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo.md)
+ - [OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties](docs/OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties.md)
+ - [OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo](docs/OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo.md)
+ - [OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties](docs/OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.md)
+ - [OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo](docs/OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo.md)
+ - [OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties](docs/OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.md)
+ - [OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo](docs/OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo.md)
+ - [OrgApacheSlingDistributionResourcesImplDistributionServiceResourProperties](docs/OrgApacheSlingDistributionResourcesImplDistributionServiceResourProperties.md)
+ - [OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo](docs/OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo.md)
+ - [OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties](docs/OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.md)
+ - [OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo](docs/OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo.md)
+ - [OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties](docs/OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.md)
+ - [OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo](docs/OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo.md)
+ - [OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties](docs/OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties.md)
+ - [OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo](docs/OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo.md)
+ - [OrgApacheSlingDistributionTriggerImplDistributionEventDistributeProperties](docs/OrgApacheSlingDistributionTriggerImplDistributionEventDistributeProperties.md)
+ - [OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo](docs/OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo.md)
+ - [OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties](docs/OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties.md)
+ - [OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo](docs/OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.md)
+ - [OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties](docs/OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties.md)
+ - [OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo](docs/OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo.md)
+ - [OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigProperties](docs/OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigProperties.md)
+ - [OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo](docs/OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo.md)
+ - [OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrProperties](docs/OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrProperties.md)
+ - [OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo](docs/OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.md)
+ - [OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties](docs/OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.md)
  - [OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo](docs/OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo.md)
  - [OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties](docs/OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties.md)
  - [OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo](docs/OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo.md)
@@ -2184,8 +2194,8 @@ Class | Method | HTTP request | Description
  - [OrgApacheSlingEventImplJobsJobConsumerManagerProperties](docs/OrgApacheSlingEventImplJobsJobConsumerManagerProperties.md)
  - [OrgApacheSlingEventJobsQueueConfigurationInfo](docs/OrgApacheSlingEventJobsQueueConfigurationInfo.md)
  - [OrgApacheSlingEventJobsQueueConfigurationProperties](docs/OrgApacheSlingEventJobsQueueConfigurationProperties.md)
- - [OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo](docs/OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderInfo.md)
- - [OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderProperties](docs/OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWebConsoleSecurityProviderProperties.md)
+ - [OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo](docs/OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo.md)
+ - [OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties](docs/OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.md)
  - [OrgApacheSlingFeatureflagsFeatureInfo](docs/OrgApacheSlingFeatureflagsFeatureInfo.md)
  - [OrgApacheSlingFeatureflagsFeatureProperties](docs/OrgApacheSlingFeatureflagsFeatureProperties.md)
  - [OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo](docs/OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo.md)
@@ -2232,8 +2242,8 @@ Class | Method | HTTP request | Description
  - [OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties](docs/OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.md)
  - [OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo](docs/OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo.md)
  - [OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties](docs/OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties.md)
- - [OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo](docs/OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceInfo.md)
- - [OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceProperties](docs/OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServiceProperties.md)
+ - [OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo](docs/OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo.md)
+ - [OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties](docs/OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties.md)
  - [OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo](docs/OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo.md)
  - [OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties](docs/OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.md)
  - [OrgApacheSlingJmxProviderImplJMXResourceProviderInfo](docs/OrgApacheSlingJmxProviderImplJMXResourceProviderInfo.md)
@@ -2242,24 +2252,24 @@ Class | Method | HTTP request | Description
  - [OrgApacheSlingModelsImplModelAdapterFactoryProperties](docs/OrgApacheSlingModelsImplModelAdapterFactoryProperties.md)
  - [OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo](docs/OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo.md)
  - [OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties](docs/OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties.md)
- - [OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo](docs/OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryInfo.md)
- - [OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryProperties](docs/OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoryProperties.md)
+ - [OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo](docs/OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo.md)
+ - [OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties](docs/OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties.md)
  - [OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo](docs/OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo.md)
  - [OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties](docs/OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties.md)
  - [OrgApacheSlingResourcemergerPickerOverridingInfo](docs/OrgApacheSlingResourcemergerPickerOverridingInfo.md)
  - [OrgApacheSlingResourcemergerPickerOverridingProperties](docs/OrgApacheSlingResourcemergerPickerOverridingProperties.md)
  - [OrgApacheSlingScriptingCoreImplScriptCacheImplInfo](docs/OrgApacheSlingScriptingCoreImplScriptCacheImplInfo.md)
  - [OrgApacheSlingScriptingCoreImplScriptCacheImplProperties](docs/OrgApacheSlingScriptingCoreImplScriptCacheImplProperties.md)
- - [OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo](docs/OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplInfo.md)
- - [OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplProperties](docs/OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderImplProperties.md)
+ - [OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo](docs/OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo.md)
+ - [OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties](docs/OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties.md)
  - [OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo](docs/OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.md)
  - [OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties](docs/OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties.md)
- - [OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo](docs/OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryInfo.md)
- - [OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryProperties](docs/OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFactoryProperties.md)
+ - [OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo](docs/OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo.md)
+ - [OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties](docs/OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties.md)
  - [OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo](docs/OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo.md)
  - [OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties](docs/OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties.md)
- - [OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo](docs/OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderInfo.md)
- - [OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderProperties](docs/OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProviderProperties.md)
+ - [OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo](docs/OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo.md)
+ - [OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties](docs/OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties.md)
  - [OrgApacheSlingSecurityImplContentDispositionFilterInfo](docs/OrgApacheSlingSecurityImplContentDispositionFilterInfo.md)
  - [OrgApacheSlingSecurityImplContentDispositionFilterProperties](docs/OrgApacheSlingSecurityImplContentDispositionFilterProperties.md)
  - [OrgApacheSlingSecurityImplReferrerFilterInfo](docs/OrgApacheSlingSecurityImplReferrerFilterInfo.md)
@@ -2292,8 +2302,11 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Authorization
 
-All endpoints do not require authorization.
 Authentication schemes defined for the API:
+### aemAuth
+
+- **Type**: HTTP basic authentication
+
 
 ## Recommendation
 

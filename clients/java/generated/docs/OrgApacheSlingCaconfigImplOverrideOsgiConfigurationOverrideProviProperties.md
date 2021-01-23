@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **description** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**types** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **types** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties.new(name: null,
-                                 types: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties.new(
+  name: null,
+  types: null
+)
 ```
-
 

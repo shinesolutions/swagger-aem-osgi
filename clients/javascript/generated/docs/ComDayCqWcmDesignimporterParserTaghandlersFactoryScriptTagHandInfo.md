@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

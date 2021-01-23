@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmCoreImplVersionPurgeTaskProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **versionpurgePaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

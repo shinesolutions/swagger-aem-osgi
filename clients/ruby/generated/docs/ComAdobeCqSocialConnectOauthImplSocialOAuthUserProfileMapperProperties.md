@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**facebook** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**twitter** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**provider_config_user_folder** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **facebook** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **twitter** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **provider_config_user_folder** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties.new(facebook: null,
-                                 twitter: null,
-                                 provider_config_user_folder: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties.new(
+  facebook: null,
+  twitter: null,
+  provider_config_user_folder: null
+)
 ```
-
 

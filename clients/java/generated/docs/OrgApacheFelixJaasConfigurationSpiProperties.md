@@ -1,7 +1,9 @@
 
+
 # OrgApacheFelixJaasConfigurationSpiProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jaasDefaultRealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

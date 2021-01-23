@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **linkExpiredPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

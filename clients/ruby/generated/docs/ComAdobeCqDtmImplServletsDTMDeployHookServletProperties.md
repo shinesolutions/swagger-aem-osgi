@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**dtm_staging_ip_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**dtm_production_ip_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **dtm_staging_ip_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **dtm_production_ip_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqDtmImplServletsDTMDeployHookServletProperties.new(dtm_staging_ip_whitelist: null,
-                                 dtm_production_ip_whitelist: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqDtmImplServletsDTMDeployHookServletProperties.new(
+  dtm_staging_ip_whitelist: null,
+  dtm_production_ip_whitelist: null
+)
 ```
-
 

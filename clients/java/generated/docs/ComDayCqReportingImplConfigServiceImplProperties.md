@@ -1,7 +1,9 @@
 
+
 # ComDayCqReportingImplConfigServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **repconfTimezone** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**device_registration_timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **device_registration_timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties.new(device_registration_timeout: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties.new(
+  device_registration_timeout: null
+)
 ```
-
 

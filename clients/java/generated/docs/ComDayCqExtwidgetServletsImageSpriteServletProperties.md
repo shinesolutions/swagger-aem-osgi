@@ -1,7 +1,9 @@
 
+
 # ComDayCqExtwidgetServletsImageSpriteServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **maxWidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

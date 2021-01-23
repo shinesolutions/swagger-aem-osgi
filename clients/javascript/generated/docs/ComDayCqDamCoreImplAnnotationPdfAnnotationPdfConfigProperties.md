@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamConfigAnnotationPdfDocumentWidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

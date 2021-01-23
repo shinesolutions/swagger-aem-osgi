@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

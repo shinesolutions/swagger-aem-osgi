@@ -1,7 +1,9 @@
 
+
 # ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **xmpFilterApplyWhitelist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

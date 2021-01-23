@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**process_label** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**extract_pages** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **process_label** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **extract_pages** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties.new(process_label: null,
-                                 extract_pages: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties.new(
+  process_label: null,
+  extract_pages: null
+)
 ```
-
 

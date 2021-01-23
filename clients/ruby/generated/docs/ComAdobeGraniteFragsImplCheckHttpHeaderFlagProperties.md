@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**feature_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**feature_description** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**http_header_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**http_header_valuepattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **feature_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **feature_description** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **http_header_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **http_header_valuepattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.new(feature_name: null,
-                                 feature_description: null,
-                                 http_header_name: null,
-                                 http_header_valuepattern: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.new(
+  feature_name: null,
+  feature_description: null,
+  http_header_name: null,
+  http_header_valuepattern: null
+)
 ```
-
 

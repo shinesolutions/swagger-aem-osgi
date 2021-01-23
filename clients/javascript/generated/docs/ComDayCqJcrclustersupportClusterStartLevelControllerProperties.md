@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqJcrclustersupportClusterStartLevelControllerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **clusterLevelEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

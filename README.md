@@ -3,11 +3,11 @@
 Swagger AEM OSGI
 ----------------
 
-Swagger AEM OSGI is an OpenAPI specification for configuring [Adobe Experience Manager (AEM)](http://www.adobe.com/au/marketing-cloud/enterprise-content-management.html) API.
+Swagger AEM OSGI is an OpenAPI specification for configuring [Adobe Experience Manager (AEM)](http://www.adobe.com/au/marketing-cloud/enterprise-content-management.html) OSGI configuration API.
 
-This specification is used to generate client libraries for Ruby, Python, node.js, and Java using [Swagger Code Generator](https://github.com/swagger-api/swagger-codegen).
+This specification is used to generate client libraries for Ruby, Python, node.js, and Java using [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator).
 
-Learn more about Swagger AEM:
+Learn more about Swagger AEM OSGI:
 
 * [Generated Clients](https://github.com/shinesolutions/swagger-aem-osgi#generated-clients)
 * [Development](https://github.com/shinesolutions/swagger-aem-osgi#development)

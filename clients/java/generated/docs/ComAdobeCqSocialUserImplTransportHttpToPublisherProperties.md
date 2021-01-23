@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

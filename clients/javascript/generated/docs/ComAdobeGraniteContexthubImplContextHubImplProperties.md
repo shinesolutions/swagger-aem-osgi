@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteContexthubImplContextHubImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeGraniteContexthubSilentMode** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

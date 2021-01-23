@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**max_recursion_levels** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **max_recursion_levels** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties.new(max_recursion_levels: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties.new(
+  max_recursion_levels: null
+)
 ```
-
 

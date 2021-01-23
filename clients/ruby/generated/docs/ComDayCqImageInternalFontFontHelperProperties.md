@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**fontpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**oversampling_factor** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **fontpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **oversampling_factor** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqImageInternalFontFontHelperProperties.new(fontpath: null,
-                                 oversampling_factor: null)
+instance = SwaggerAemOsgiClient::ComDayCqImageInternalFontFontHelperProperties.new(
+  fontpath: null,
+  oversampling_factor: null
+)
 ```
-
 

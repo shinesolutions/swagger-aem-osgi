@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **solrHttpUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

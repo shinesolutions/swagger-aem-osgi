@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**security_preferences_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **security_preferences_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties.new(security_preferences_name: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties.new(
+  security_preferences_name: null
+)
 ```
-
 

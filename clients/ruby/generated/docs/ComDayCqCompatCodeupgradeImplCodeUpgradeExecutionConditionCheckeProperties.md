@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**codeupgradetasks** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**codeupgradetaskfilters** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **codeupgradetasks** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **codeupgradetaskfilters** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties.new(codeupgradetasks: null,
-                                 codeupgradetaskfilters: null)
+instance = SwaggerAemOsgiClient::ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties.new(
+  codeupgradetasks: null,
+  codeupgradetaskfilters: null
+)
 ```
-
 

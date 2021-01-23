@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqCommonsServletsRootMappingServletInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

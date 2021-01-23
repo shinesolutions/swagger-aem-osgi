@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]

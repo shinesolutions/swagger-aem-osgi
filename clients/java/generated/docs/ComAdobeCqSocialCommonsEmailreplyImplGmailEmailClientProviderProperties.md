@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **priorityOrder** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]

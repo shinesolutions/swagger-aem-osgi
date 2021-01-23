@@ -1,7 +1,9 @@
 
+
 # ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jdbcDriverClass** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

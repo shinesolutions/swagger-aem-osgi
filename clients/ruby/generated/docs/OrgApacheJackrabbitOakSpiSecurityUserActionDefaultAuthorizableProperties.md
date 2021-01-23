@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**enabled_actions** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
-**user_privilege_names** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**group_privilege_names** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**constraint** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **enabled_actions** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] |
+| **user_privilege_names** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **group_privilege_names** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **constraint** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties.new(enabled_actions: null,
-                                 user_privilege_names: null,
-                                 group_privilege_names: null,
-                                 constraint: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties.new(
+  enabled_actions: null,
+  user_privilege_names: null,
+  group_privilege_names: null,
+  constraint: null
+)
 ```
-
 

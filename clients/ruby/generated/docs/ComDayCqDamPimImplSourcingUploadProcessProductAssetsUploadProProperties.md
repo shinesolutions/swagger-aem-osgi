@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**delete_zip_file** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **delete_zip_file** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties.new(delete_zip_file: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties.new(
+  delete_zip_file: null
+)
 ```
-
 

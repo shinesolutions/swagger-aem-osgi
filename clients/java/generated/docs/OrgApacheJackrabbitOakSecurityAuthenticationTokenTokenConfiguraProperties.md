@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **tokenExpiration** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

@@ -15,8 +15,7 @@ For more information, please visit [http://shinesolutions.com](http://shinesolut
 
 #### npm
 
-To publish the library as a [npm](https://www.npmjs.com/),
-please follow the procedure in ["Publishing npm packages"](https://docs.npmjs.com/getting-started/publishing-npm-packages).
+To publish the library as a [npm](https://www.npmjs.com/), please follow the procedure in ["Publishing npm packages"](https://docs.npmjs.com/getting-started/publishing-npm-packages).
 
 Then install it via:
 
@@ -24,10 +23,15 @@ Then install it via:
 npm install node-swagger-aem-osgi --save
 ```
 
+Finally, you need to build the module:
+
+```shell
+npm run build
+```
+
 ##### Local development
 
-To use the library locally without publishing to a remote npm registry, first install the dependencies by changing 
-into the directory containing `package.json` (and this README). Let's call this `JAVASCRIPT_CLIENT_DIR`. Then run:
+To use the library locally without publishing to a remote npm registry, first install the dependencies by changing into the directory containing `package.json` (and this README). Let's call this `JAVASCRIPT_CLIENT_DIR`. Then run:
 
 ```shell
 npm install
@@ -39,19 +43,21 @@ Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the follow
 npm link
 ```
 
-Finally, switch to the directory you want to use your node-swagger-aem-osgi from, and run:
+To use the link you just defined in your project, switch to the directory you want to use your node-swagger-aem-osgi from, and run:
 
 ```shell
 npm link /path/to/<JAVASCRIPT_CLIENT_DIR>
 ```
 
-You should now be able to `require('node-swagger-aem-osgi')` in javascript files from the directory you ran the last 
-command above from.
+Finally, you need to build the module:
+
+```shell
+npm run build
+```
 
 #### git
-#
-If the library is hosted at a git repository, e.g.
-https://github.com/shinesolutions/swagger-aem-osgi
+
+If the library is hosted at a git repository, e.g.https://github.com/shinesolutions/swagger-aem-osgi
 then install it via:
 
 ```shell
@@ -62,8 +68,7 @@ then install it via:
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
 the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file, that's to say your javascript file where you actually 
-use this library):
+perform the following (assuming *main.js* is your entry file):
 
 ```shell
 browserify main.js > bundle.js
@@ -97,7 +102,6 @@ Please follow the [installation](#installation) instruction and execute the foll
 var NodeSwaggerAemOsgi = require('node-swagger-aem-osgi');
 
 var defaultClient = NodeSwaggerAemOsgi.ApiClient.instance;
-
 // Configure HTTP basic authorization: aemAuth
 var aemAuth = defaultClient.authentications['aemAuth'];
 aemAuth.username = 'YOUR USERNAME'
@@ -110,14 +114,13 @@ var opts = {
   '_delete': true, // {Boolean} 
   'action': "action_example", // {String} 
   'location': "location_example", // {String} 
-  'propertylist': ["inner_example"], // {[String]} 
+  'propertylist': ["null"], // {[String]} 
   'showPlaceholder': true, // {Boolean} 
   'maximumCacheEntries': 56, // {Number} 
   'afScriptingCompatversion': "afScriptingCompatversion_example", // {String} 
   'makeFileNameUnique': true, // {Boolean} 
   'generatingCompliantData': true // {Boolean} 
 };
-
 var callback = function(error, data, response) {
   if (error) {
     console.error(error);
@@ -2312,6 +2315,7 @@ Class | Method | HTTP request | Description
 
 
 ## Documentation for Authorization
+
 
 
 ### aemAuth

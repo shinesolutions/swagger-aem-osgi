@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

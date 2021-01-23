@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingServletSelectors** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

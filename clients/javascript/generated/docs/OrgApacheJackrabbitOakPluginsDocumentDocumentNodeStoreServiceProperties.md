@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mongouri** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

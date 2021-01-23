@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**image_quality** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**image_supported_resolutions** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **image_quality** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **image_supported_resolutions** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqProjectsImplServletProjectImageServletProperties.new(image_quality: null,
-                                 image_supported_resolutions: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqProjectsImplServletProjectImageServletProperties.new(
+  image_quality: null,
+  image_supported_resolutions: null
+)
 ```
-
 

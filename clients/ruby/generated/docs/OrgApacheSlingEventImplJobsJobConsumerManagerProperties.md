@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**org_apache_sling_installer_configuration_persist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**job_consumermanager_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**job_consumermanager_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **org_apache_sling_installer_configuration_persist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **job_consumermanager_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **job_consumermanager_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingEventImplJobsJobConsumerManagerProperties.new(org_apache_sling_installer_configuration_persist: null,
-                                 job_consumermanager_whitelist: null,
-                                 job_consumermanager_blacklist: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingEventImplJobsJobConsumerManagerProperties.new(
+  org_apache_sling_installer_configuration_persist: null,
+  job_consumermanager_whitelist: null,
+  job_consumermanager_blacklist: null
+)
 ```
-
 

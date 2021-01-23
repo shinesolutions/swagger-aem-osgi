@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **graniteMaintenanceMandatory** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

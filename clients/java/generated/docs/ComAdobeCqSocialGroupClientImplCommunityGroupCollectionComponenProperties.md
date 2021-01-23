@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **groupListingPaginationEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

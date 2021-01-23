@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqMcmCampaignImplIntegrationConfigImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **aemMcmCampaignFormConstraints** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

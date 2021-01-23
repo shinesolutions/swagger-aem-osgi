@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

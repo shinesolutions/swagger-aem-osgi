@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **String** |  | [optional] 
-**title** | **String** |  | [optional] 
-**description** | **String** |  | [optional] 
-**properties** | [**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pid** | **String** |  | [optional] |
+| **title** | **String** |  | [optional] |
+| **description** | **String** |  | [optional] |
+| **properties** | [**ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties**](ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.new(pid: null,
-                                 title: null,
-                                 description: null,
-                                 properties: null)
+instance = SwaggerAemOsgiClient::ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.new(
+  pid: null,
+  title: null,
+  description: null,
+  properties: null
+)
 ```
-
 

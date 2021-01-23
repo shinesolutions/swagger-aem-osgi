@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **userMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

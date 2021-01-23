@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

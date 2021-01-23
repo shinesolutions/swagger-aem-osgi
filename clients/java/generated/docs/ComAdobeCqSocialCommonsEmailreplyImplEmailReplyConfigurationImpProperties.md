@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **emailName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

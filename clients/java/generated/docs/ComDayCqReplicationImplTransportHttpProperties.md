@@ -1,7 +1,9 @@
 
+
 # ComDayCqReplicationImplTransportHttpProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **disabledCipherSuites** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

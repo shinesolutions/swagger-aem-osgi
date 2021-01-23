@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jobConsumermanagerDisableDistribution** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

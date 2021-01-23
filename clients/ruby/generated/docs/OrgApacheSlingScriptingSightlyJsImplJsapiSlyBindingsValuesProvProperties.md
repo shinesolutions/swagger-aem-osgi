@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**org_apache_sling_scripting_sightly_js_bindings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **org_apache_sling_scripting_sightly_js_bindings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties.new(org_apache_sling_scripting_sightly_js_bindings: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties.new(
+  org_apache_sling_scripting_sightly_js_bindings: null
+)
 ```
-
 

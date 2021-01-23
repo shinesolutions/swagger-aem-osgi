@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **translationFactory** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

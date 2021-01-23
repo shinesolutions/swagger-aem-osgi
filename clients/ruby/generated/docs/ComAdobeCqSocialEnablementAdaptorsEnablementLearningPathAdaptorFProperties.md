@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**is_member_check** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **is_member_check** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFProperties.new(is_member_check: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFProperties.new(
+  is_member_check: null
+)
 ```
-
 

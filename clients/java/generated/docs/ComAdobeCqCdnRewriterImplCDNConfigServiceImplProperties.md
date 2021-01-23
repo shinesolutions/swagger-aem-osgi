@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cdnConfigDistributionDomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

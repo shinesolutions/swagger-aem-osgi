@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **minThreadPoolSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

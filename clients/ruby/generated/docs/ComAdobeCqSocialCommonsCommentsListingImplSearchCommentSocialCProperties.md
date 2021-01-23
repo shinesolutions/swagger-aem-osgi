@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**num_user_limit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **num_user_limit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties.new(num_user_limit: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties.new(
+  num_user_limit: null
+)
 ```
-
 

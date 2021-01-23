@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]

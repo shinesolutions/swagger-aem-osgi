@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **parameterWhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

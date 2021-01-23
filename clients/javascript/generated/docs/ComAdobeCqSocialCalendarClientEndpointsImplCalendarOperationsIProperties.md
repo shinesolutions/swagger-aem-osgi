@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **maxRetry** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

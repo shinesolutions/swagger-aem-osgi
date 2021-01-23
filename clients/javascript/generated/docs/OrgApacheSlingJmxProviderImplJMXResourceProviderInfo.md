@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingJmxProviderImplJMXResourceProviderInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

@@ -1,7 +1,9 @@
 
+
 # AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **showPlaceholder** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]

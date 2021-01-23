@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_address_location_default_max_results** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_address_location_default_max_results** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqAddressImplLocationLocationListServletProperties.new(cq_address_location_default_max_results: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqAddressImplLocationLocationListServletProperties.new(
+  cq_address_location_default_max_results: null
+)
 ```
-
 

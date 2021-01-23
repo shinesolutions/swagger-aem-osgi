@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **alias** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

@@ -1,51 +1,42 @@
-ifndef SWAGGER_CODEGEN_CLI_JAR
-	SWAGGER_CODEGEN = swagger-codegen
-else
-	SWAGGER_CODEGEN = java -jar $(SWAGGER_CODEGEN_CLI_JAR)
-endif
-
-all: deps clean build install test-unit test-integration doc
+all: deps clean install test-unit test-integration doc
+ci: deps clean install test-unit doc
 
 deps:
-	pip install -r requirements-dev.txt
+	pip3 install -r requirements-dev.txt
+	cd generated/ && \
+	  pip3 install -r requirements.txt
 
 clean:
-	rm -rf generated/
-
-build:
-	$(SWAGGER_CODEGEN) generate \
-	  --input-spec ../conf/api.yml \
-		--lang python \
-		--output generated/ \
-		--config conf/client.json
+	
 
 install:
 	cd generated/ && \
-	  python setup.py install
+	  python3 setup.py install
 
 test-unit:
 	cd generated/ && \
-	  nose2
+	  nosetests
 
 test-integration:
-	nose2
+	nosetests
 
 doc:
 	cd generated/ && \
 	  sphinx-apidoc -o ../../doc/python/master/stage/ --full -H "Swagger AEM OSGI" -A "Shine Solutions" swaggeraemosgi && \
 		cd ../../doc/python/master/stage/ && \
-		make html && \
+		make html || echo "TEMP: Allow failure until issue #19 is resolved" && \
 		cd .. && \
 		cp -R stage/_build/html/* ./ && \
 		rm -rf stage/
 
 publish:
 	cd generated/ && \
-	  gem push `ls swagger_aem_osgi-*.gem`
+	  python3 setup.py register -r pypi && \
+	  python3 setup.py sdist upload -r pypi
 
 publish-test:
 	cd generated/ && \
-	  python setup.py register -r pypitest && \
-		python setup.py sdist upload -r pypitest
+	  python3 setup.py register -r pypitest && \
+	  python3 setup.py sdist upload -r pypitest
 
-.PHONY: all deps clean build install test-unit test-integration doc publish publish-test
+.PHONY: all deps clean install test-unit test-integration doc publish publish-test

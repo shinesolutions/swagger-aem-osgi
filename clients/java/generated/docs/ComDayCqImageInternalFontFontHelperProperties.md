@@ -1,7 +1,9 @@
 
+
 # ComDayCqImageInternalFontFontHelperProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **fontpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthCookieLoginTimeout** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

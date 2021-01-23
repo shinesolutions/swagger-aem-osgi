@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**temp_storage_config** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **temp_storage_config** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties.new(temp_storage_config: null)
+instance = SwaggerAemOsgiClient::ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties.new(
+  temp_storage_config: null
+)
 ```
-
 

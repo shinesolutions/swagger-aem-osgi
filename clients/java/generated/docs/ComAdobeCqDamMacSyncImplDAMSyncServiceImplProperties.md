@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]

@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthOauthProviderProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthConfigId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]

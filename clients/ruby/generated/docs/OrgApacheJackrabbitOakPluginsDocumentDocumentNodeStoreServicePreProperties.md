@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**persistent_cache_includes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **persistent_cache_includes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreProperties.new(persistent_cache_includes: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreProperties.new(
+  persistent_cache_includes: null
+)
 ```
-
 

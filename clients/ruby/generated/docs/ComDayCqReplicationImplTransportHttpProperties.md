@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**disabled_cipher_suites** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**enabled_cipher_suites** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **disabled_cipher_suites** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **enabled_cipher_suites** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqReplicationImplTransportHttpProperties.new(disabled_cipher_suites: null,
-                                 enabled_cipher_suites: null)
+instance = SwaggerAemOsgiClient::ComDayCqReplicationImplTransportHttpProperties.new(
+  disabled_cipher_suites: null,
+  enabled_cipher_suites: null
+)
 ```
-
 

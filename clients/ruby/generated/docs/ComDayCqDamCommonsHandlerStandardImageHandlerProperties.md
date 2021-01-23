@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**large_file_threshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**large_comment_threshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**cq_dam_enable_ext_meta_extraction** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **large_file_threshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **large_comment_threshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **cq_dam_enable_ext_meta_extraction** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamCommonsHandlerStandardImageHandlerProperties.new(large_file_threshold: null,
-                                 large_comment_threshold: null,
-                                 cq_dam_enable_ext_meta_extraction: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamCommonsHandlerStandardImageHandlerProperties.new(
+  large_file_threshold: null,
+  large_comment_threshold: null,
+  cq_dam_enable_ext_meta_extraction: null
+)
 ```
-
 
