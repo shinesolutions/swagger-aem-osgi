@@ -11,14 +11,14 @@ clean:
 
 install:
 	cd generated/ && \
-	  python setup.py install
+	  python3 setup.py install
 
 test-unit:
 	cd generated/ && \
 	  nosetests
 
 test-integration:
-	nose2
+	nosetests
 
 doc:
 	cd generated/ && \
@@ -31,12 +31,12 @@ doc:
 
 publish:
 	cd generated/ && \
-	  python setup.py register -r pypi && \
-	  python setup.py sdist upload -r pypi
+	  python3 setup.py register -r pypi && \
+	  python3 setup.py sdist upload -r pypi
 
 publish-test:
 	cd generated/ && \
-	  python setup.py register -r pypitest && \
-	  python setup.py sdist upload -r pypitest
+	  python3 setup.py register -r pypitest && \
+	  python3 setup.py sdist upload -r pypitest
 
 .PHONY: all deps clean install test-unit test-integration doc publish publish-test
