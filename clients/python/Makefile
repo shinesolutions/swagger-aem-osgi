@@ -1,8 +1,10 @@
 all: deps clean install test-unit test-integration doc
-ci: deps clean install doc
+ci: deps clean install test-unit doc
 
 deps:
-	pip install -r requirements-dev.txt
+	pip3 install -r requirements-dev.txt
+	cd generated/ && \
+	  pip3 install -r requirements.txt
 
 clean:
 	
@@ -13,7 +15,7 @@ install:
 
 test-unit:
 	cd generated/ && \
-	  nose2
+	  nosetests
 
 test-integration:
 	nose2
@@ -22,7 +24,7 @@ doc:
 	cd generated/ && \
 	  sphinx-apidoc -o ../../doc/python/master/stage/ --full -H "Swagger AEM OSGI" -A "Shine Solutions" swaggeraemosgi && \
 		cd ../../doc/python/master/stage/ && \
-		make html && \
+		make html || echo "TEMP: Allow failure until issue #19 is resolved" && \
 		cd .. && \
 		cp -R stage/_build/html/* ./ && \
 		rm -rf stage/
