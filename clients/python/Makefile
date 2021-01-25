@@ -24,7 +24,7 @@ doc:
 	cd generated/ && \
 	  sphinx-apidoc -o ../../doc/python/master/stage/ --full -H "Swagger AEM OSGI" -A "Shine Solutions" swaggeraemosgi && \
 		cd ../../doc/python/master/stage/ && \
-		make html || echo "TEMP: Allow failure until issue #19 is resolved" && \
+		make html && \
 		cd .. && \
 		cp -R stage/_build/html/* ./ && \
 		rm -rf stage/
