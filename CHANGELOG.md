@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add new FAQ item to define own AEM host parameters
 
 ### Changed
+- Simplify GitHub Actions release workflows to not use custom action
 - Changed api template file
 - Update OpenAPI spec generator tool
 - Update OpenAPI spec generator tool to pass ruby_aem environment variables
