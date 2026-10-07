@@ -1,0 +1,18 @@
+package models
+
+type ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties struct {
+
+	DefaultTransportAgentToWorkerPrefix ConfigNodePropertyString `json:"default.transport.agent-to-worker.prefix,omitempty"`
+
+	DefaultTransportAgentToMasterPrefix ConfigNodePropertyString `json:"default.transport.agent-to-master.prefix,omitempty"`
+
+	DefaultTransportInputPackage ConfigNodePropertyString `json:"default.transport.input.package,omitempty"`
+
+	DefaultTransportOutputPackage ConfigNodePropertyString `json:"default.transport.output.package,omitempty"`
+
+	DefaultTransportReplicationSynchronous ConfigNodePropertyBoolean `json:"default.transport.replication.synchronous,omitempty"`
+
+	DefaultTransportContentpackage ConfigNodePropertyBoolean `json:"default.transport.contentpackage,omitempty"`
+
+	OffloadingTransporterDefaultEnabled ConfigNodePropertyBoolean `json:"offloading.transporter.default.enabled,omitempty"`
+}

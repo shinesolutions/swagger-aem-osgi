@@ -1,0 +1,10 @@
+package models
+
+type ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties struct {
+
+	Enable ConfigNodePropertyBoolean `json:"enable,omitempty"`
+
+	Ttl1 ConfigNodePropertyInteger `json:"ttl1,omitempty"`
+
+	Ttl2 ConfigNodePropertyInteger `json:"ttl2,omitempty"`
+}

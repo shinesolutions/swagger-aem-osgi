@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server MessagingUserComponentFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a MessagingUserComponentFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  MessagingUserComponentFactoryProperties {
+    title = MessagingUserComponentFactoryProperties
+    description = MessagingUserComponentFactoryProperties
+    derivedFrom = Root
+    properties {
+        priority {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  MessagingUserComponentFactoryProperties {
+    title = MessagingUserComponentFactoryProperties
+    description = MessagingUserComponentFactoryProperties
+    implements = openapi_server.resourceTypes.MessagingUserComponentFactoryProperties
+
+  }
+}

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingAuthCoreImplLogoutServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingAuthCoreImplLogoutServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingAuthCoreImplLogoutServletProperties {
+    title = OrgApacheSlingAuthCoreImplLogoutServletProperties
+    description = OrgApacheSlingAuthCoreImplLogoutServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_methods {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        sling_servlet_paths {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingAuthCoreImplLogoutServletProperties {
+    title = OrgApacheSlingAuthCoreImplLogoutServletProperties
+    description = OrgApacheSlingAuthCoreImplLogoutServletProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingAuthCoreImplLogoutServletProperties
+
+  }
+}

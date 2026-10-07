@@ -1,0 +1,49 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "service_ranking" },
+      {"model": "global_size" },
+      {"model": "max_disk_usage" },
+      {"model": "persistence_enabled" },
+      {"model": "thread_pool_max_size" },
+      {"model": "scheduled_thread_pool_max_size" },
+      {"model": "graceful_shutdown_timeout" },
+      {"model": "queues" },
+      {"model": "topics" },
+      {"model": "addresses_max_delivery_attempts" },
+      {"model": "addresses_expiry_delay" },
+      {"model": "addresses_address_full_message_policy" },
+      {"model": "addresses_max_size_bytes" },
+      {"model": "addresses_page_size_bytes" },
+      {"model": "addresses_page_cache_max_size" },
+      {"model": "cluster_user" },
+      {"model": "cluster_password" },
+      {"model": "cluster_call_timeout" },
+      {"model": "cluster_call_failover_timeout" },
+      {"model": "cluster_client_failure_check_period" },
+      {"model": "cluster_notification_attempts" },
+      {"model": "cluster_notification_interval" },
+      {"model": "id_cache_size" },
+      {"model": "cluster_confirmation_window_size" },
+      {"model": "cluster_connection_ttl" },
+      {"model": "cluster_duplicate_detection" },
+      {"model": "cluster_initial_connect_attempts" },
+      {"model": "cluster_max_retry_interval" },
+      {"model": "cluster_min_large_message_size" },
+      {"model": "cluster_producer_window_size" },
+      {"model": "cluster_reconnect_attempts" },
+      {"model": "cluster_retry_interval" },
+      {"model": "cluster_retry_interval_multiplier" },
+    ]
+  }]
+}

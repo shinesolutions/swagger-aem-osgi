@@ -1,0 +1,12 @@
+package models
+
+type ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties struct {
+
+	CqWcmMsmActionExcludednodetypes ConfigNodePropertyArray `json:"cq.wcm.msm.action.excludednodetypes,omitempty"`
+
+	CqWcmMsmActionExcludedparagraphitems ConfigNodePropertyArray `json:"cq.wcm.msm.action.excludedparagraphitems,omitempty"`
+
+	CqWcmMsmActionExcludedprops ConfigNodePropertyArray `json:"cq.wcm.msm.action.excludedprops,omitempty"`
+
+	CqWcmMsmImplActionReferencesupdatePropUpdateNested ConfigNodePropertyBoolean `json:"cq.wcm.msm.impl.action.referencesupdate.prop_updateNested,omitempty"`
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationImplPageImpressionsTrackerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationImplPageImpressionsTrackerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmFoundationImplPageImpressionsTrackerProperties = openapi_server.resourceTypes.ComDayCqWcmFoundationImplPageImpressionsTrackerProperties
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationImplPageImpressionsTrackerInfo {
+    title = ComDayCqWcmFoundationImplPageImpressionsTrackerInfo
+    description = ComDayCqWcmFoundationImplPageImpressionsTrackerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmFoundationImplPageImpressionsTrackerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationImplPageImpressionsTrackerInfo {
+    title = ComDayCqWcmFoundationImplPageImpressionsTrackerInfo
+    description = ComDayCqWcmFoundationImplPageImpressionsTrackerInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationImplPageImpressionsTrackerInfo
+
+  }
+}

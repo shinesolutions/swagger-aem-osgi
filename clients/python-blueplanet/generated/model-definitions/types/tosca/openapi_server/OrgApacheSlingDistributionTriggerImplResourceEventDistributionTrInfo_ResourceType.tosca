@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrProperties = openapi_server.resourceTypes.OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrProperties
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo {
+    title = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo
+    description = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo {
+    title = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo
+    description = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo
+
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "name" },
+      {"model": "title" },
+      {"model": "details" },
+      {"model": "enabled" },
+      {"model": "service_name" },
+      {"model": "log_level" },
+      {"model": "allowed_roots" },
+      {"model": "queue_processing_enabled" },
+      {"model": "package_importer_endpoints" },
+      {"model": "passive_queues" },
+      {"model": "priority_queues" },
+      {"model": "retry_strategy" },
+      {"model": "retry_attempts" },
+      {"model": "request_authorization_strategy_target" },
+      {"model": "transport_secret_provider_target" },
+      {"model": "package_builder_target" },
+      {"model": "triggers_target" },
+      {"model": "queue_provider" },
+      {"model": "async_delivery" },
+      {"model": "http_conn_timeout" },
+    ]
+  }]
+}

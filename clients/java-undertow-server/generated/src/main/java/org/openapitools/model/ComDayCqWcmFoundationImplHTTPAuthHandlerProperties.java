@@ -1,0 +1,184 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
+package org.openapitools.model;
+
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyString;
+
+
+
+
+
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
+  
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyBoolean authHttpNologin;
+  private ConfigNodePropertyString authHttpRealm;
+  private ConfigNodePropertyString authDefaultLoginpage;
+  private ConfigNodePropertyArray authCredForm;
+  private ConfigNodePropertyArray authCredUtf8;
+
+  /**
+   */
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties path(ConfigNodePropertyString path) {
+    this.path = path;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("path")
+  public ConfigNodePropertyString getPath() {
+    return path;
+  }
+  public void setPath(ConfigNodePropertyString path) {
+    this.path = path;
+  }
+
+  /**
+   */
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authHttpNologin(ConfigNodePropertyBoolean authHttpNologin) {
+    this.authHttpNologin = authHttpNologin;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("auth.http.nologin")
+  public ConfigNodePropertyBoolean getAuthHttpNologin() {
+    return authHttpNologin;
+  }
+  public void setAuthHttpNologin(ConfigNodePropertyBoolean authHttpNologin) {
+    this.authHttpNologin = authHttpNologin;
+  }
+
+  /**
+   */
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authHttpRealm(ConfigNodePropertyString authHttpRealm) {
+    this.authHttpRealm = authHttpRealm;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("auth.http.realm")
+  public ConfigNodePropertyString getAuthHttpRealm() {
+    return authHttpRealm;
+  }
+  public void setAuthHttpRealm(ConfigNodePropertyString authHttpRealm) {
+    this.authHttpRealm = authHttpRealm;
+  }
+
+  /**
+   */
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authDefaultLoginpage(ConfigNodePropertyString authDefaultLoginpage) {
+    this.authDefaultLoginpage = authDefaultLoginpage;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("auth.default.loginpage")
+  public ConfigNodePropertyString getAuthDefaultLoginpage() {
+    return authDefaultLoginpage;
+  }
+  public void setAuthDefaultLoginpage(ConfigNodePropertyString authDefaultLoginpage) {
+    this.authDefaultLoginpage = authDefaultLoginpage;
+  }
+
+  /**
+   */
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authCredForm(ConfigNodePropertyArray authCredForm) {
+    this.authCredForm = authCredForm;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("auth.cred.form")
+  public ConfigNodePropertyArray getAuthCredForm() {
+    return authCredForm;
+  }
+  public void setAuthCredForm(ConfigNodePropertyArray authCredForm) {
+    this.authCredForm = authCredForm;
+  }
+
+  /**
+   */
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authCredUtf8(ConfigNodePropertyArray authCredUtf8) {
+    this.authCredUtf8 = authCredUtf8;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("auth.cred.utf8")
+  public ConfigNodePropertyArray getAuthCredUtf8() {
+    return authCredUtf8;
+  }
+  public void setAuthCredUtf8(ConfigNodePropertyArray authCredUtf8) {
+    this.authCredUtf8 = authCredUtf8;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmFoundationImplHTTPAuthHandlerProperties comDayCqWcmFoundationImplHTTPAuthHandlerProperties = (ComDayCqWcmFoundationImplHTTPAuthHandlerProperties) o;
+    return Objects.equals(path, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.path) &&
+        Objects.equals(authHttpNologin, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authHttpNologin) &&
+        Objects.equals(authHttpRealm, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authHttpRealm) &&
+        Objects.equals(authDefaultLoginpage, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authDefaultLoginpage) &&
+        Objects.equals(authCredForm, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authCredForm) &&
+        Objects.equals(authCredUtf8, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authCredUtf8);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(path, authHttpNologin, authHttpRealm, authDefaultLoginpage, authCredForm, authCredUtf8);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties {\n");
+    
+    sb.append("    path: ").append(toIndentedString(path)).append("\n");
+    sb.append("    authHttpNologin: ").append(toIndentedString(authHttpNologin)).append("\n");
+    sb.append("    authHttpRealm: ").append(toIndentedString(authHttpRealm)).append("\n");
+    sb.append("    authDefaultLoginpage: ").append(toIndentedString(authDefaultLoginpage)).append("\n");
+    sb.append("    authCredForm: ").append(toIndentedString(authCredForm)).append("\n");
+    sb.append("    authCredUtf8: ").append(toIndentedString(authCredUtf8)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

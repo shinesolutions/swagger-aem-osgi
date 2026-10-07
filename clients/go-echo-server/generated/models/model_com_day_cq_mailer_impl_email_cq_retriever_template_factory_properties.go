@@ -1,0 +1,12 @@
+package models
+
+type ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties struct {
+
+	MailerEmailEmbed ConfigNodePropertyBoolean `json:"mailer.email.embed,omitempty"`
+
+	MailerEmailCharset ConfigNodePropertyString `json:"mailer.email.charset,omitempty"`
+
+	MailerEmailRetrieverUserID ConfigNodePropertyString `json:"mailer.email.retrieverUserID,omitempty"`
+
+	MailerEmailRetrieverUserPWD ConfigNodePropertyString `json:"mailer.email.retrieverUserPWD,omitempty"`
+}

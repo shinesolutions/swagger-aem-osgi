@@ -1,0 +1,30 @@
+
+package org.openapitools.client.model
+
+
+case class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties (
+    _cqDamConfigAnnotationPdfDocumentWidth: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfDocumentHeight: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfDocumentPaddingHorizontal: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfDocumentPaddingVertical: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfFontSize: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfFontColor: Option[ConfigNodePropertyString],
+    _cqDamConfigAnnotationPdfFontFamily: Option[ConfigNodePropertyString],
+    _cqDamConfigAnnotationPdfFontLight: Option[ConfigNodePropertyString],
+    _cqDamConfigAnnotationPdfMarginTextImage: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfMinImageHeight: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfReviewStatusWidth: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfReviewStatusColorApproved: Option[ConfigNodePropertyString],
+    _cqDamConfigAnnotationPdfReviewStatusColorRejected: Option[ConfigNodePropertyString],
+    _cqDamConfigAnnotationPdfReviewStatusColorChangesRequested: Option[ConfigNodePropertyString],
+    _cqDamConfigAnnotationPdfAnnotationMarkerWidth: Option[ConfigNodePropertyInteger],
+    _cqDamConfigAnnotationPdfAssetMinheight: Option[ConfigNodePropertyInteger]
+)
+object ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties {
+    def toStringBody(var_cqDamConfigAnnotationPdfDocumentWidth: Object, var_cqDamConfigAnnotationPdfDocumentHeight: Object, var_cqDamConfigAnnotationPdfDocumentPaddingHorizontal: Object, var_cqDamConfigAnnotationPdfDocumentPaddingVertical: Object, var_cqDamConfigAnnotationPdfFontSize: Object, var_cqDamConfigAnnotationPdfFontColor: Object, var_cqDamConfigAnnotationPdfFontFamily: Object, var_cqDamConfigAnnotationPdfFontLight: Object, var_cqDamConfigAnnotationPdfMarginTextImage: Object, var_cqDamConfigAnnotationPdfMinImageHeight: Object, var_cqDamConfigAnnotationPdfReviewStatusWidth: Object, var_cqDamConfigAnnotationPdfReviewStatusColorApproved: Object, var_cqDamConfigAnnotationPdfReviewStatusColorRejected: Object, var_cqDamConfigAnnotationPdfReviewStatusColorChangesRequested: Object, var_cqDamConfigAnnotationPdfAnnotationMarkerWidth: Object, var_cqDamConfigAnnotationPdfAssetMinheight: Object) =
+        s"""
+        | {
+        | "cqDamConfigAnnotationPdfDocumentWidth":$var_cqDamConfigAnnotationPdfDocumentWidth,"cqDamConfigAnnotationPdfDocumentHeight":$var_cqDamConfigAnnotationPdfDocumentHeight,"cqDamConfigAnnotationPdfDocumentPaddingHorizontal":$var_cqDamConfigAnnotationPdfDocumentPaddingHorizontal,"cqDamConfigAnnotationPdfDocumentPaddingVertical":$var_cqDamConfigAnnotationPdfDocumentPaddingVertical,"cqDamConfigAnnotationPdfFontSize":$var_cqDamConfigAnnotationPdfFontSize,"cqDamConfigAnnotationPdfFontColor":$var_cqDamConfigAnnotationPdfFontColor,"cqDamConfigAnnotationPdfFontFamily":$var_cqDamConfigAnnotationPdfFontFamily,"cqDamConfigAnnotationPdfFontLight":$var_cqDamConfigAnnotationPdfFontLight,"cqDamConfigAnnotationPdfMarginTextImage":$var_cqDamConfigAnnotationPdfMarginTextImage,"cqDamConfigAnnotationPdfMinImageHeight":$var_cqDamConfigAnnotationPdfMinImageHeight,"cqDamConfigAnnotationPdfReviewStatusWidth":$var_cqDamConfigAnnotationPdfReviewStatusWidth,"cqDamConfigAnnotationPdfReviewStatusColorApproved":$var_cqDamConfigAnnotationPdfReviewStatusColorApproved,"cqDamConfigAnnotationPdfReviewStatusColorRejected":$var_cqDamConfigAnnotationPdfReviewStatusColorRejected,"cqDamConfigAnnotationPdfReviewStatusColorChangesRequested":$var_cqDamConfigAnnotationPdfReviewStatusColorChangesRequested,"cqDamConfigAnnotationPdfAnnotationMarkerWidth":$var_cqDamConfigAnnotationPdfAnnotationMarkerWidth,"cqDamConfigAnnotationPdfAssetMinheight":$var_cqDamConfigAnnotationPdfAssetMinheight
+        | }
+        """.stripMargin
+}

@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqMailerImplEmailCqEmailTemplateFactoryProperties",
+  "fields": [
+    {
+      "name": "mailer.email.charset",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

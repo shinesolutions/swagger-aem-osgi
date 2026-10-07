@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialNotificationsImplNotificationsRouterInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialNotificationsImplNotificationsRouterInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialNotificationsImplNotificationsRouterProperties = openapi_server.resourceTypes.ComAdobeCqSocialNotificationsImplNotificationsRouterProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialNotificationsImplNotificationsRouterInfo {
+    title = ComAdobeCqSocialNotificationsImplNotificationsRouterInfo
+    description = ComAdobeCqSocialNotificationsImplNotificationsRouterInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialNotificationsImplNotificationsRouterProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialNotificationsImplNotificationsRouterInfo {
+    title = ComAdobeCqSocialNotificationsImplNotificationsRouterInfo
+    description = ComAdobeCqSocialNotificationsImplNotificationsRouterInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialNotificationsImplNotificationsRouterInfo
+
+  }
+}

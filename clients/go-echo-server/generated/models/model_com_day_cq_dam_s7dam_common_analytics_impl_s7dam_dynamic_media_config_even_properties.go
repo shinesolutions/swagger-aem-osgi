@@ -1,0 +1,6 @@
+package models
+
+type ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties struct {
+
+	CqDamS7damDynamicmediaconfigeventlistenerEnabled ConfigNodePropertyBoolean `json:"cq.dam.s7dam.dynamicmediaconfigeventlistener.enabled,omitempty"`
+}

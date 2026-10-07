@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmNotificationEmailImplEmailChannelProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmNotificationEmailImplEmailChannelProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmNotificationEmailImplEmailChannelProperties {
+    title = ComDayCqWcmNotificationEmailImplEmailChannelProperties
+    description = ComDayCqWcmNotificationEmailImplEmailChannelProperties
+    derivedFrom = Root
+    properties {
+        email_from {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmNotificationEmailImplEmailChannelProperties {
+    title = ComDayCqWcmNotificationEmailImplEmailChannelProperties
+    description = ComDayCqWcmNotificationEmailImplEmailChannelProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmNotificationEmailImplEmailChannelProperties
+
+  }
+}

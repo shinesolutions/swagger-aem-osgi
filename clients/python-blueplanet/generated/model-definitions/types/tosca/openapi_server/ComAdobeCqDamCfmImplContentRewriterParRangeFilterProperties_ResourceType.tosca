@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties {
+    title = ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties
+    description = ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties
+    derivedFrom = Root
+    properties {
+        pipeline_type {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties {
+    title = ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties
+    description = ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties
+
+  }
+}

@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletAssetDownloadServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletAssetDownloadServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletAssetDownloadServletProperties {
+    title = ComDayCqDamCoreImplServletAssetDownloadServletProperties
+    description = ComDayCqDamCoreImplServletAssetDownloadServletProperties
+    derivedFrom = Root
+    properties {
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletAssetDownloadServletProperties {
+    title = ComDayCqDamCoreImplServletAssetDownloadServletProperties
+    description = ComDayCqDamCoreImplServletAssetDownloadServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletAssetDownloadServletProperties
+
+  }
+}

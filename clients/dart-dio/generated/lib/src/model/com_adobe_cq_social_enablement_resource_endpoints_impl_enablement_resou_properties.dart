@@ -1,0 +1,110 @@
+//
+// AUTO-GENERATED FILE, DO NOT MODIFY!
+//
+
+// ignore_for_file: unused_element
+import 'package:openapi/src/model/config_node_property_array.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
+
+part 'com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou_properties.g.dart';
+
+/// ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties
+///
+/// Properties:
+/// * [fieldWhitelist] 
+@BuiltValue()
+abstract class ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties implements Built<ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties, ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouPropertiesBuilder> {
+  @BuiltValueField(wireName: r'fieldWhitelist')
+  ConfigNodePropertyArray? get fieldWhitelist;
+
+  ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties._();
+
+  factory ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties([void updates(ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouPropertiesBuilder b)]) = _$ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties;
+
+  @BuiltValueHook(initializeBuilder: true)
+  static void _defaults(ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouPropertiesBuilder b) => b;
+
+  @BuiltValueSerializer(custom: true)
+  static Serializer<ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties> get serializer => _$ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouPropertiesSerializer();
+}
+
+class _$ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouPropertiesSerializer implements PrimitiveSerializer<ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties> {
+  @override
+  final Iterable<Type> types = const [ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties, _$ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties];
+
+  @override
+  final String wireName = r'ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties';
+
+  Iterable<Object?> _serializeProperties(
+    Serializers serializers,
+    ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties object, {
+    FullType specifiedType = FullType.unspecified,
+  }) sync* {
+    if (object.fieldWhitelist != null) {
+      yield r'fieldWhitelist';
+      yield serializers.serialize(
+        object.fieldWhitelist,
+        specifiedType: const FullType(ConfigNodePropertyArray),
+      );
+    }
+  }
+
+  @override
+  Object serialize(
+    Serializers serializers,
+    ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties object, {
+    FullType specifiedType = FullType.unspecified,
+  }) {
+    return _serializeProperties(serializers, object, specifiedType: specifiedType).toList();
+  }
+
+  void _deserializeProperties(
+    Serializers serializers,
+    Object serialized, {
+    FullType specifiedType = FullType.unspecified,
+    required List<Object?> serializedList,
+    required ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouPropertiesBuilder result,
+    required List<Object?> unhandled,
+  }) {
+    for (var i = 0; i < serializedList.length; i += 2) {
+      final key = serializedList[i] as String;
+      final value = serializedList[i + 1];
+      switch (key) {
+        case r'fieldWhitelist':
+          final valueDes = serializers.deserialize(
+            value,
+            specifiedType: const FullType.nullable(ConfigNodePropertyArray),
+          ) as ConfigNodePropertyArray?;
+          if (valueDes == null) continue;
+          result.fieldWhitelist.replace(valueDes);
+          break;
+        default:
+          unhandled.add(key);
+          unhandled.add(value);
+          break;
+      }
+    }
+  }
+
+  @override
+  ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties deserialize(
+    Serializers serializers,
+    Object serialized, {
+    FullType specifiedType = FullType.unspecified,
+  }) {
+    final result = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouPropertiesBuilder();
+    final serializedList = (serialized as Iterable<Object?>).toList();
+    final unhandled = <Object?>[];
+    _deserializeProperties(
+      serializers,
+      serialized,
+      specifiedType: specifiedType,
+      serializedList: serializedList,
+      unhandled: unhandled,
+      result: result,
+    );
+    return result.build();
+  }
+}
+

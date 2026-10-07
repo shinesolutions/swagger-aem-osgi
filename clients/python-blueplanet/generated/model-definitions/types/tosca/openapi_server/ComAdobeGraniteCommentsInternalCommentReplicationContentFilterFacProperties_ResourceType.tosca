@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties {
+    title = ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties
+    description = ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties
+    derivedFrom = Root
+    properties {
+        replicate_comment_resource_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties {
+    title = ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties
+    description = ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties
+
+  }
+}

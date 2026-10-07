@@ -1,0 +1,47 @@
+/*
+ * com_day_cq_dam_core_impl_missing_metadata_notification_job_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_H_
+#define _com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_t com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_t;
+
+#include "config_node_property_boolean.h"
+#include "config_node_property_integer.h"
+#include "config_node_property_string.h"
+
+
+
+typedef struct com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_t {
+    struct config_node_property_boolean_t *cq_dam_missingmetadata_notification_scheduler_istimebased; //model
+    struct config_node_property_string_t *cq_dam_missingmetadata_notification_scheduler_timebased_rule; //model
+    struct config_node_property_integer_t *cq_dam_missingmetadata_notification_scheduler_period_rule; //model
+    struct config_node_property_string_t *cq_dam_missingmetadata_notification_recipient; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_t;
+
+__attribute__((deprecated)) com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_t *com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_create(
+    config_node_property_boolean_t *cq_dam_missingmetadata_notification_scheduler_istimebased,
+    config_node_property_string_t *cq_dam_missingmetadata_notification_scheduler_timebased_rule,
+    config_node_property_integer_t *cq_dam_missingmetadata_notification_scheduler_period_rule,
+    config_node_property_string_t *cq_dam_missingmetadata_notification_recipient
+);
+
+void com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_free(com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_t *com_day_cq_dam_core_impl_missing_metadata_notification_job_properties);
+
+com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_t *com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_parseFromJSON(cJSON *com_day_cq_dam_core_impl_missing_metadata_notification_job_propertiesJSON);
+
+cJSON *com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_convertToJSON(com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_t *com_day_cq_dam_core_impl_missing_metadata_notification_job_properties);
+
+#endif /* _com_day_cq_dam_core_impl_missing_metadata_notification_job_properties_H_ */
+

@@ -1,0 +1,22 @@
+package models
+
+type ComAdobeGraniteThreaddumpThreadDumpCollectorProperties struct {
+
+	SchedulerPeriod ConfigNodePropertyInteger `json:"scheduler.period,omitempty"`
+
+	SchedulerRunOn ConfigNodePropertyDropDown `json:"scheduler.runOn,omitempty"`
+
+	GraniteThreaddumpEnabled ConfigNodePropertyBoolean `json:"granite.threaddump.enabled,omitempty"`
+
+	GraniteThreaddumpDumpsPerFile ConfigNodePropertyInteger `json:"granite.threaddump.dumpsPerFile,omitempty"`
+
+	GraniteThreaddumpEnableGzipCompression ConfigNodePropertyBoolean `json:"granite.threaddump.enableGzipCompression,omitempty"`
+
+	GraniteThreaddumpEnableDirectoriesCompression ConfigNodePropertyBoolean `json:"granite.threaddump.enableDirectoriesCompression,omitempty"`
+
+	GraniteThreaddumpEnableJStack ConfigNodePropertyBoolean `json:"granite.threaddump.enableJStack,omitempty"`
+
+	GraniteThreaddumpMaxBackupDays ConfigNodePropertyInteger `json:"granite.threaddump.maxBackupDays,omitempty"`
+
+	GraniteThreaddumpBackupCleanTrigger ConfigNodePropertyString `json:"granite.threaddump.backupCleanTrigger,omitempty"`
+}

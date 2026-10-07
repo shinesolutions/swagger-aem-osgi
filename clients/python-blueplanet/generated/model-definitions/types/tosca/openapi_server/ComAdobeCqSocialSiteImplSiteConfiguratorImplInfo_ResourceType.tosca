@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties = openapi_server.resourceTypes.ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo {
+    title = ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo
+    description = ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo {
+    title = ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo
+    description = ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo
+
+  }
+}

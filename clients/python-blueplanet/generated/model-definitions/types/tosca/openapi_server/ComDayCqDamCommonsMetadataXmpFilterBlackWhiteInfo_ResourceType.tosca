@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties = openapi_server.resourceTypes.ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties
+}
+resourceTypes {
+
+  ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo {
+    title = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo
+    description = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo {
+    title = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo
+    description = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo
+
+  }
+}

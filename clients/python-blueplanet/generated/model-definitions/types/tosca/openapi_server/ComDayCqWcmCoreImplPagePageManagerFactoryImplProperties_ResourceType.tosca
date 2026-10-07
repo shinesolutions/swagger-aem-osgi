@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties {
+    title = ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties
+    description = ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties
+    derivedFrom = Root
+    properties {
+        illegal_char_mapping {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        page_sub_tree_activation_check {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties {
+    title = ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties
+    description = ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties
+
+  }
+}

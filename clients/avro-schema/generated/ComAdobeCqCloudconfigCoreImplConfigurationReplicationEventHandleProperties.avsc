@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleProperties",
+  "fields": [
+    {
+      "name": "flush.agents",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

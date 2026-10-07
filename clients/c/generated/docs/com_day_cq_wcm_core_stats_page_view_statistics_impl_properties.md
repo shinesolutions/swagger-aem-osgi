@@ -1,0 +1,11 @@
+# com_day_cq_wcm_core_stats_page_view_statistics_impl_properties_t
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pageviewstatistics_trackingurl** | [**config_node_property_string_t**](config_node_property_string.md) \* |  | [optional] 
+**pageviewstatistics_trackingscript_enabled** | [**config_node_property_string_t**](config_node_property_string.md) \* |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

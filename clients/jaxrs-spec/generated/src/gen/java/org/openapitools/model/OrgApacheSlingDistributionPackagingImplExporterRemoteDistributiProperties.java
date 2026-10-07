@@ -1,0 +1,174 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties   {
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyArray endpoints;
+  private ConfigNodePropertyInteger pullItems;
+  private ConfigNodePropertyString packageBuilderTarget;
+  private ConfigNodePropertyString transportSecretProviderTarget;
+
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties() {
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties name(ConfigNodePropertyString name) {
+    this.name = name;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("name")
+  @Valid public ConfigNodePropertyString getName() {
+    return name;
+  }
+
+  @JsonProperty("name")
+  public void setName(ConfigNodePropertyString name) {
+    this.name = name;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties endpoints(ConfigNodePropertyArray endpoints) {
+    this.endpoints = endpoints;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("endpoints")
+  @Valid public ConfigNodePropertyArray getEndpoints() {
+    return endpoints;
+  }
+
+  @JsonProperty("endpoints")
+  public void setEndpoints(ConfigNodePropertyArray endpoints) {
+    this.endpoints = endpoints;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties pullItems(ConfigNodePropertyInteger pullItems) {
+    this.pullItems = pullItems;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("pull.items")
+  @Valid public ConfigNodePropertyInteger getPullItems() {
+    return pullItems;
+  }
+
+  @JsonProperty("pull.items")
+  public void setPullItems(ConfigNodePropertyInteger pullItems) {
+    this.pullItems = pullItems;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties packageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
+    this.packageBuilderTarget = packageBuilderTarget;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("packageBuilder.target")
+  @Valid public ConfigNodePropertyString getPackageBuilderTarget() {
+    return packageBuilderTarget;
+  }
+
+  @JsonProperty("packageBuilder.target")
+  public void setPackageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
+    this.packageBuilderTarget = packageBuilderTarget;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties transportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
+    this.transportSecretProviderTarget = transportSecretProviderTarget;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("transportSecretProvider.target")
+  @Valid public ConfigNodePropertyString getTransportSecretProviderTarget() {
+    return transportSecretProviderTarget;
+  }
+
+  @JsonProperty("transportSecretProvider.target")
+  public void setTransportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
+    this.transportSecretProviderTarget = transportSecretProviderTarget;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties = (OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties) o;
+    return Objects.equals(this.name, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.name) &&
+        Objects.equals(this.endpoints, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.endpoints) &&
+        Objects.equals(this.pullItems, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.pullItems) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.packageBuilderTarget) &&
+        Objects.equals(this.transportSecretProviderTarget, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.transportSecretProviderTarget);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, endpoints, pullItems, packageBuilderTarget, transportSecretProviderTarget);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties {\n");
+    
+    sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("    endpoints: ").append(toIndentedString(endpoints)).append("\n");
+    sb.append("    pullItems: ").append(toIndentedString(pullItems)).append("\n");
+    sb.append("    packageBuilderTarget: ").append(toIndentedString(packageBuilderTarget)).append("\n");
+    sb.append("    transportSecretProviderTarget: ").append(toIndentedString(transportSecretProviderTarget)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}

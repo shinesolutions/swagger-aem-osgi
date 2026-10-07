@@ -1,0 +1,441 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean enabled;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger intervalSeconds;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger commitsPerIntervalThreshold;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger maxLocationLength;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger maxDetailsShown;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger minDetailsPercentage;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray threadMatchers;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger maxGreedyDepth;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString greedyStackMatchers;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray stackFilters;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray stackMatchers;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray stackCategorizers;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray stackShorteners;
+ /**
+  * Get enabled
+  * @return enabled
+  */
+  @JsonProperty("enabled")
+  public ConfigNodePropertyBoolean getEnabled() {
+    return enabled;
+  }
+
+  /**
+   * Sets the <code>enabled</code> property.
+   */
+ public void setEnabled(ConfigNodePropertyBoolean enabled) {
+    this.enabled = enabled;
+  }
+
+  /**
+   * Sets the <code>enabled</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties enabled(ConfigNodePropertyBoolean enabled) {
+    this.enabled = enabled;
+    return this;
+  }
+
+ /**
+  * Get intervalSeconds
+  * @return intervalSeconds
+  */
+  @JsonProperty("intervalSeconds")
+  public ConfigNodePropertyInteger getIntervalSeconds() {
+    return intervalSeconds;
+  }
+
+  /**
+   * Sets the <code>intervalSeconds</code> property.
+   */
+ public void setIntervalSeconds(ConfigNodePropertyInteger intervalSeconds) {
+    this.intervalSeconds = intervalSeconds;
+  }
+
+  /**
+   * Sets the <code>intervalSeconds</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties intervalSeconds(ConfigNodePropertyInteger intervalSeconds) {
+    this.intervalSeconds = intervalSeconds;
+    return this;
+  }
+
+ /**
+  * Get commitsPerIntervalThreshold
+  * @return commitsPerIntervalThreshold
+  */
+  @JsonProperty("commitsPerIntervalThreshold")
+  public ConfigNodePropertyInteger getCommitsPerIntervalThreshold() {
+    return commitsPerIntervalThreshold;
+  }
+
+  /**
+   * Sets the <code>commitsPerIntervalThreshold</code> property.
+   */
+ public void setCommitsPerIntervalThreshold(ConfigNodePropertyInteger commitsPerIntervalThreshold) {
+    this.commitsPerIntervalThreshold = commitsPerIntervalThreshold;
+  }
+
+  /**
+   * Sets the <code>commitsPerIntervalThreshold</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties commitsPerIntervalThreshold(ConfigNodePropertyInteger commitsPerIntervalThreshold) {
+    this.commitsPerIntervalThreshold = commitsPerIntervalThreshold;
+    return this;
+  }
+
+ /**
+  * Get maxLocationLength
+  * @return maxLocationLength
+  */
+  @JsonProperty("maxLocationLength")
+  public ConfigNodePropertyInteger getMaxLocationLength() {
+    return maxLocationLength;
+  }
+
+  /**
+   * Sets the <code>maxLocationLength</code> property.
+   */
+ public void setMaxLocationLength(ConfigNodePropertyInteger maxLocationLength) {
+    this.maxLocationLength = maxLocationLength;
+  }
+
+  /**
+   * Sets the <code>maxLocationLength</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties maxLocationLength(ConfigNodePropertyInteger maxLocationLength) {
+    this.maxLocationLength = maxLocationLength;
+    return this;
+  }
+
+ /**
+  * Get maxDetailsShown
+  * @return maxDetailsShown
+  */
+  @JsonProperty("maxDetailsShown")
+  public ConfigNodePropertyInteger getMaxDetailsShown() {
+    return maxDetailsShown;
+  }
+
+  /**
+   * Sets the <code>maxDetailsShown</code> property.
+   */
+ public void setMaxDetailsShown(ConfigNodePropertyInteger maxDetailsShown) {
+    this.maxDetailsShown = maxDetailsShown;
+  }
+
+  /**
+   * Sets the <code>maxDetailsShown</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties maxDetailsShown(ConfigNodePropertyInteger maxDetailsShown) {
+    this.maxDetailsShown = maxDetailsShown;
+    return this;
+  }
+
+ /**
+  * Get minDetailsPercentage
+  * @return minDetailsPercentage
+  */
+  @JsonProperty("minDetailsPercentage")
+  public ConfigNodePropertyInteger getMinDetailsPercentage() {
+    return minDetailsPercentage;
+  }
+
+  /**
+   * Sets the <code>minDetailsPercentage</code> property.
+   */
+ public void setMinDetailsPercentage(ConfigNodePropertyInteger minDetailsPercentage) {
+    this.minDetailsPercentage = minDetailsPercentage;
+  }
+
+  /**
+   * Sets the <code>minDetailsPercentage</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties minDetailsPercentage(ConfigNodePropertyInteger minDetailsPercentage) {
+    this.minDetailsPercentage = minDetailsPercentage;
+    return this;
+  }
+
+ /**
+  * Get threadMatchers
+  * @return threadMatchers
+  */
+  @JsonProperty("threadMatchers")
+  public ConfigNodePropertyArray getThreadMatchers() {
+    return threadMatchers;
+  }
+
+  /**
+   * Sets the <code>threadMatchers</code> property.
+   */
+ public void setThreadMatchers(ConfigNodePropertyArray threadMatchers) {
+    this.threadMatchers = threadMatchers;
+  }
+
+  /**
+   * Sets the <code>threadMatchers</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties threadMatchers(ConfigNodePropertyArray threadMatchers) {
+    this.threadMatchers = threadMatchers;
+    return this;
+  }
+
+ /**
+  * Get maxGreedyDepth
+  * @return maxGreedyDepth
+  */
+  @JsonProperty("maxGreedyDepth")
+  public ConfigNodePropertyInteger getMaxGreedyDepth() {
+    return maxGreedyDepth;
+  }
+
+  /**
+   * Sets the <code>maxGreedyDepth</code> property.
+   */
+ public void setMaxGreedyDepth(ConfigNodePropertyInteger maxGreedyDepth) {
+    this.maxGreedyDepth = maxGreedyDepth;
+  }
+
+  /**
+   * Sets the <code>maxGreedyDepth</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties maxGreedyDepth(ConfigNodePropertyInteger maxGreedyDepth) {
+    this.maxGreedyDepth = maxGreedyDepth;
+    return this;
+  }
+
+ /**
+  * Get greedyStackMatchers
+  * @return greedyStackMatchers
+  */
+  @JsonProperty("greedyStackMatchers")
+  public ConfigNodePropertyString getGreedyStackMatchers() {
+    return greedyStackMatchers;
+  }
+
+  /**
+   * Sets the <code>greedyStackMatchers</code> property.
+   */
+ public void setGreedyStackMatchers(ConfigNodePropertyString greedyStackMatchers) {
+    this.greedyStackMatchers = greedyStackMatchers;
+  }
+
+  /**
+   * Sets the <code>greedyStackMatchers</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties greedyStackMatchers(ConfigNodePropertyString greedyStackMatchers) {
+    this.greedyStackMatchers = greedyStackMatchers;
+    return this;
+  }
+
+ /**
+  * Get stackFilters
+  * @return stackFilters
+  */
+  @JsonProperty("stackFilters")
+  public ConfigNodePropertyArray getStackFilters() {
+    return stackFilters;
+  }
+
+  /**
+   * Sets the <code>stackFilters</code> property.
+   */
+ public void setStackFilters(ConfigNodePropertyArray stackFilters) {
+    this.stackFilters = stackFilters;
+  }
+
+  /**
+   * Sets the <code>stackFilters</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties stackFilters(ConfigNodePropertyArray stackFilters) {
+    this.stackFilters = stackFilters;
+    return this;
+  }
+
+ /**
+  * Get stackMatchers
+  * @return stackMatchers
+  */
+  @JsonProperty("stackMatchers")
+  public ConfigNodePropertyArray getStackMatchers() {
+    return stackMatchers;
+  }
+
+  /**
+   * Sets the <code>stackMatchers</code> property.
+   */
+ public void setStackMatchers(ConfigNodePropertyArray stackMatchers) {
+    this.stackMatchers = stackMatchers;
+  }
+
+  /**
+   * Sets the <code>stackMatchers</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties stackMatchers(ConfigNodePropertyArray stackMatchers) {
+    this.stackMatchers = stackMatchers;
+    return this;
+  }
+
+ /**
+  * Get stackCategorizers
+  * @return stackCategorizers
+  */
+  @JsonProperty("stackCategorizers")
+  public ConfigNodePropertyArray getStackCategorizers() {
+    return stackCategorizers;
+  }
+
+  /**
+   * Sets the <code>stackCategorizers</code> property.
+   */
+ public void setStackCategorizers(ConfigNodePropertyArray stackCategorizers) {
+    this.stackCategorizers = stackCategorizers;
+  }
+
+  /**
+   * Sets the <code>stackCategorizers</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties stackCategorizers(ConfigNodePropertyArray stackCategorizers) {
+    this.stackCategorizers = stackCategorizers;
+    return this;
+  }
+
+ /**
+  * Get stackShorteners
+  * @return stackShorteners
+  */
+  @JsonProperty("stackShorteners")
+  public ConfigNodePropertyArray getStackShorteners() {
+    return stackShorteners;
+  }
+
+  /**
+   * Sets the <code>stackShorteners</code> property.
+   */
+ public void setStackShorteners(ConfigNodePropertyArray stackShorteners) {
+    this.stackShorteners = stackShorteners;
+  }
+
+  /**
+   * Sets the <code>stackShorteners</code> property.
+   */
+  public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties stackShorteners(ConfigNodePropertyArray stackShorteners) {
+    this.stackShorteners = stackShorteners;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteRepositoryImplCommitStatsConfigProperties comAdobeGraniteRepositoryImplCommitStatsConfigProperties = (ComAdobeGraniteRepositoryImplCommitStatsConfigProperties) o;
+    return Objects.equals(this.enabled, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.enabled) &&
+        Objects.equals(this.intervalSeconds, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.intervalSeconds) &&
+        Objects.equals(this.commitsPerIntervalThreshold, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.commitsPerIntervalThreshold) &&
+        Objects.equals(this.maxLocationLength, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.maxLocationLength) &&
+        Objects.equals(this.maxDetailsShown, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.maxDetailsShown) &&
+        Objects.equals(this.minDetailsPercentage, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.minDetailsPercentage) &&
+        Objects.equals(this.threadMatchers, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.threadMatchers) &&
+        Objects.equals(this.maxGreedyDepth, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.maxGreedyDepth) &&
+        Objects.equals(this.greedyStackMatchers, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.greedyStackMatchers) &&
+        Objects.equals(this.stackFilters, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.stackFilters) &&
+        Objects.equals(this.stackMatchers, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.stackMatchers) &&
+        Objects.equals(this.stackCategorizers, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.stackCategorizers) &&
+        Objects.equals(this.stackShorteners, comAdobeGraniteRepositoryImplCommitStatsConfigProperties.stackShorteners);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(enabled, intervalSeconds, commitsPerIntervalThreshold, maxLocationLength, maxDetailsShown, minDetailsPercentage, threadMatchers, maxGreedyDepth, greedyStackMatchers, stackFilters, stackMatchers, stackCategorizers, stackShorteners);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties {\n");
+    
+    sb.append("    enabled: ").append(toIndentedString(enabled)).append("\n");
+    sb.append("    intervalSeconds: ").append(toIndentedString(intervalSeconds)).append("\n");
+    sb.append("    commitsPerIntervalThreshold: ").append(toIndentedString(commitsPerIntervalThreshold)).append("\n");
+    sb.append("    maxLocationLength: ").append(toIndentedString(maxLocationLength)).append("\n");
+    sb.append("    maxDetailsShown: ").append(toIndentedString(maxDetailsShown)).append("\n");
+    sb.append("    minDetailsPercentage: ").append(toIndentedString(minDetailsPercentage)).append("\n");
+    sb.append("    threadMatchers: ").append(toIndentedString(threadMatchers)).append("\n");
+    sb.append("    maxGreedyDepth: ").append(toIndentedString(maxGreedyDepth)).append("\n");
+    sb.append("    greedyStackMatchers: ").append(toIndentedString(greedyStackMatchers)).append("\n");
+    sb.append("    stackFilters: ").append(toIndentedString(stackFilters)).append("\n");
+    sb.append("    stackMatchers: ").append(toIndentedString(stackMatchers)).append("\n");
+    sb.append("    stackCategorizers: ").append(toIndentedString(stackCategorizers)).append("\n");
+    sb.append("    stackShorteners: ").append(toIndentedString(stackShorteners)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

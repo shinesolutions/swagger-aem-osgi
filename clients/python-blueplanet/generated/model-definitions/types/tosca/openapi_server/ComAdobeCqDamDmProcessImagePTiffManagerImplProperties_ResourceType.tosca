@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamDmProcessImagePTiffManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamDmProcessImagePTiffManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqDamDmProcessImagePTiffManagerImplProperties {
+    title = ComAdobeCqDamDmProcessImagePTiffManagerImplProperties
+    description = ComAdobeCqDamDmProcessImagePTiffManagerImplProperties
+    derivedFrom = Root
+    properties {
+        max_memory {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamDmProcessImagePTiffManagerImplProperties {
+    title = ComAdobeCqDamDmProcessImagePTiffManagerImplProperties
+    description = ComAdobeCqDamDmProcessImagePTiffManagerImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDamDmProcessImagePTiffManagerImplProperties
+
+  }
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties = openapi_server.resourceTypes.ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo {
+    title = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo
+    description = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo {
+    title = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo
+    description = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo
+
+  }
+}

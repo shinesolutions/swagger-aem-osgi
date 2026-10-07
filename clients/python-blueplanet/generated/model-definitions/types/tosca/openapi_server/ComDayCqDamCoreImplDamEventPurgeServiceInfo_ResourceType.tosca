@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplDamEventPurgeServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplDamEventPurgeServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplDamEventPurgeServiceProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplDamEventPurgeServiceProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplDamEventPurgeServiceInfo {
+    title = ComDayCqDamCoreImplDamEventPurgeServiceInfo
+    description = ComDayCqDamCoreImplDamEventPurgeServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplDamEventPurgeServiceProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplDamEventPurgeServiceInfo {
+    title = ComDayCqDamCoreImplDamEventPurgeServiceInfo
+    description = ComDayCqDamCoreImplDamEventPurgeServiceInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplDamEventPurgeServiceInfo
+
+  }
+}

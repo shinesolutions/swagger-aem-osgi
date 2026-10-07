@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo {
+    title = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo
+    description = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo {
+    title = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo
+    description = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo
+
+  }
+}

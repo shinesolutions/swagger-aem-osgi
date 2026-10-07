@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqTaggingImplTagGarbageCollectorInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqTaggingImplTagGarbageCollectorInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqTaggingImplTagGarbageCollectorProperties = openapi_server.resourceTypes.ComDayCqTaggingImplTagGarbageCollectorProperties
+}
+resourceTypes {
+
+  ComDayCqTaggingImplTagGarbageCollectorInfo {
+    title = ComDayCqTaggingImplTagGarbageCollectorInfo
+    description = ComDayCqTaggingImplTagGarbageCollectorInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqTaggingImplTagGarbageCollectorProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqTaggingImplTagGarbageCollectorInfo {
+    title = ComDayCqTaggingImplTagGarbageCollectorInfo
+    description = ComDayCqTaggingImplTagGarbageCollectorInfo
+    implements = openapi_server.resourceTypes.ComDayCqTaggingImplTagGarbageCollectorInfo
+
+  }
+}

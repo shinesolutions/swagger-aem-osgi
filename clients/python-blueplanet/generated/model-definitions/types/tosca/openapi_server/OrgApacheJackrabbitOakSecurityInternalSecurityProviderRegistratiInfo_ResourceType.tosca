@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo {
+    title = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo
+    description = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo {
+    title = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo
+    description = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo
+
+  }
+}

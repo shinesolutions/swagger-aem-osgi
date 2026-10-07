@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreStatsPageViewStatisticsImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreStatsPageViewStatisticsImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmCoreStatsPageViewStatisticsImplProperties {
+    title = ComDayCqWcmCoreStatsPageViewStatisticsImplProperties
+    description = ComDayCqWcmCoreStatsPageViewStatisticsImplProperties
+    derivedFrom = Root
+    properties {
+        pageviewstatistics_trackingurl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pageviewstatistics_trackingscript_enabled {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreStatsPageViewStatisticsImplProperties {
+    title = ComDayCqWcmCoreStatsPageViewStatisticsImplProperties
+    description = ComDayCqWcmCoreStatsPageViewStatisticsImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreStatsPageViewStatisticsImplProperties
+
+  }
+}

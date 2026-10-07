@@ -1,0 +1,87 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties {
+    title = OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties
+    description = OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties
+    derivedFrom = Root
+    properties {
+        jasper_compiler_target_vm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jasper_compiler_source_vm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jasper_classdebuginfo {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        jasper_enable_pooling {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        jasper_ie_class_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jasper_gen_string_as_char_array {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        jasper_keepgenerated {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        jasper_mappedfile {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        jasper_trim_spaces {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        jasper_display_source_fragments {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        default_is_session {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties {
+    title = OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties
+    description = OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties
+
+  }
+}

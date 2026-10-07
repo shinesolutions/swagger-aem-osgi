@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties {
+    title = ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties
+    description = ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties
+    derivedFrom = Root
+    properties {
+        filepattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        device_groups {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        build_page_nodes {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        build_client_libs {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        build_canvas_component {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties {
+    title = ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties
+    description = ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties
+
+  }
+}

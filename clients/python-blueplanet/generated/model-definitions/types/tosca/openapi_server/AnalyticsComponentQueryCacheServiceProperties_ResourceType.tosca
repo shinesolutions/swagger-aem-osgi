@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server AnalyticsComponentQueryCacheServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a AnalyticsComponentQueryCacheServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  AnalyticsComponentQueryCacheServiceProperties {
+    title = AnalyticsComponentQueryCacheServiceProperties
+    description = AnalyticsComponentQueryCacheServiceProperties
+    derivedFrom = Root
+    properties {
+        cq_analytics_component_query_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  AnalyticsComponentQueryCacheServiceProperties {
+    title = AnalyticsComponentQueryCacheServiceProperties
+    description = AnalyticsComponentQueryCacheServiceProperties
+    implements = openapi_server.resourceTypes.AnalyticsComponentQueryCacheServiceProperties
+
+  }
+}

@@ -1,0 +1,63 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteMonitoringImplScriptConfigImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteMonitoringImplScriptConfigImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteMonitoringImplScriptConfigImplProperties {
+    title = ComAdobeGraniteMonitoringImplScriptConfigImplProperties
+    description = ComAdobeGraniteMonitoringImplScriptConfigImplProperties
+    derivedFrom = Root
+    properties {
+        script_filename {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        script_display {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        script_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        script_platform {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        jmxdomain {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteMonitoringImplScriptConfigImplProperties {
+    title = ComAdobeGraniteMonitoringImplScriptConfigImplProperties
+    description = ComAdobeGraniteMonitoringImplScriptConfigImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteMonitoringImplScriptConfigImplProperties
+
+  }
+}

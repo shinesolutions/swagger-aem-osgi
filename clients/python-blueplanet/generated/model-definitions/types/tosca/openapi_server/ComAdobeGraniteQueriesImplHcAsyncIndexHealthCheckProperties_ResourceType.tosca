@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties {
+    title = ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties
+    description = ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties
+    derivedFrom = Root
+    properties {
+        indexing_critical_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        indexing_warn_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties {
+    title = ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties
+    description = ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties
+
+  }
+}

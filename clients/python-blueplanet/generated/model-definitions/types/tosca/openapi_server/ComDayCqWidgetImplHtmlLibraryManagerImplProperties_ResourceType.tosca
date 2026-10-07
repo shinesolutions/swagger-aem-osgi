@@ -1,0 +1,104 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWidgetImplHtmlLibraryManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWidgetImplHtmlLibraryManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWidgetImplHtmlLibraryManagerImplProperties {
+    title = ComDayCqWidgetImplHtmlLibraryManagerImplProperties
+    description = ComDayCqWidgetImplHtmlLibraryManagerImplProperties
+    derivedFrom = Root
+    properties {
+        htmllibmanager_clientmanager {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_debug {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_debug_console {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_debug_init_js {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_defaultthemename {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_defaultuserthemename {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_firebuglite_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_force_cq_url_info {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_gzip {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_maxage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        htmllibmanager_max_data_uri_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        htmllibmanager_minify {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_path_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        htmllibmanager_timing {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWidgetImplHtmlLibraryManagerImplProperties {
+    title = ComDayCqWidgetImplHtmlLibraryManagerImplProperties
+    description = ComDayCqWidgetImplHtmlLibraryManagerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWidgetImplHtmlLibraryManagerImplProperties
+
+  }
+}

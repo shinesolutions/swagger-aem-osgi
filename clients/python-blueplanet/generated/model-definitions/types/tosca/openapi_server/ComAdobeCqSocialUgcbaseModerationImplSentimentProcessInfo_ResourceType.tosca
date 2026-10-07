@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo {
+    title = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo
+    description = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo {
+    title = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo
+    description = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo
+
+  }
+}

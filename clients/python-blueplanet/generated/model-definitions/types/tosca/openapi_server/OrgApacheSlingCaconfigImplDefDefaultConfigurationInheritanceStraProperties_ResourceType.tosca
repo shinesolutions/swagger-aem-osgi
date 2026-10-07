@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties {
+    title = OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties
+    description = OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties
+    derivedFrom = Root
+    properties {
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        config_property_inheritance_property_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties {
+    title = OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties
+    description = OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties
+
+  }
+}

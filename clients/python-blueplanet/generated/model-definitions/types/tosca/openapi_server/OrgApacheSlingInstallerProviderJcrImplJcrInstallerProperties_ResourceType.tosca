@@ -1,0 +1,69 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties {
+    title = OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties
+    description = OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties
+    derivedFrom = Root
+    properties {
+        handler_schemes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        sling_jcrinstall_folder_name_regexp {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_jcrinstall_folder_max_depth {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        sling_jcrinstall_search_path {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        sling_jcrinstall_new_config_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_jcrinstall_signal_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_jcrinstall_enable_writeback {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties {
+    title = OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties
+    description = OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties
+
+  }
+}

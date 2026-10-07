@@ -1,0 +1,67 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties {
+    title = ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties
+    description = ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties
+    derivedFrom = Root
+    properties {
+        portal_outboxes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        draft_data_service {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        draft_metadata_service {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        submit_data_service {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        submit_metadata_service {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pending_sign_data_service {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pending_sign_metadata_service {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties {
+    title = ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties
+    description = ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties
+    implements = openapi_server.resourceTypes.ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties
+
+  }
+}

@@ -1,0 +1,13 @@
+# OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**serviceRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+**typeCollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**typeNoncollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**typeContent** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

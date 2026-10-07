@@ -1,0 +1,57 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialSyncImplUserSyncListenerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialSyncImplUserSyncListenerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeCqSocialSyncImplUserSyncListenerImplProperties {
+    title = ComAdobeCqSocialSyncImplUserSyncListenerImplProperties
+    description = ComAdobeCqSocialSyncImplUserSyncListenerImplProperties
+    derivedFrom = Root
+    properties {
+        nodetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        ignorableprops {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        ignorablenodes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        distfolders {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialSyncImplUserSyncListenerImplProperties {
+    title = ComAdobeCqSocialSyncImplUserSyncListenerImplProperties
+    description = ComAdobeCqSocialSyncImplUserSyncListenerImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialSyncImplUserSyncListenerImplProperties
+
+  }
+}

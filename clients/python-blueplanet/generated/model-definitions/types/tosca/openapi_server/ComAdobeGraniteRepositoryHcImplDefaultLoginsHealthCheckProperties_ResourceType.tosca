@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties {
+    title = ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties
+    description = ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties
+    derivedFrom = Root
+    properties {
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        account_logins {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        console_logins {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties {
+    title = ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties
+    description = ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties
+
+  }
+}

@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties {
+    title = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties
+    description = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties
+    derivedFrom = Root
+    properties {
+        log_stacktrace_onclose {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties {
+    title = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties
+    description = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties
+
+  }
+}

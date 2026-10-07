@@ -1,0 +1,48 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties {
+    title = ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties
+    description = ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties
+    derivedFrom = Root
+    properties {
+        cq_commerce_cataloggenerator_bucketsize {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_commerce_cataloggenerator_bucketname {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_commerce_cataloggenerator_excludedtemplateproperties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties {
+    title = ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties
+    description = ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties
+
+  }
+}

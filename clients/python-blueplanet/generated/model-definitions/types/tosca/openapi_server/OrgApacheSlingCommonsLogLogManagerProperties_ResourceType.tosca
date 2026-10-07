@@ -1,0 +1,84 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsLogLogManagerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsLogLogManagerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsLogLogManagerProperties {
+    title = OrgApacheSlingCommonsLogLogManagerProperties
+    description = OrgApacheSlingCommonsLogLogManagerProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_commons_log_level {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_file {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_file_number {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_file_size {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_pattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_configuration_file {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_packaging_data_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_max_caller_data_depth {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_max_old_file_count_in_dump {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_num_of_lines {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsLogLogManagerProperties {
+    title = OrgApacheSlingCommonsLogLogManagerProperties
+    description = OrgApacheSlingCommonsLogLogManagerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsLogLogManagerProperties
+
+  }
+}

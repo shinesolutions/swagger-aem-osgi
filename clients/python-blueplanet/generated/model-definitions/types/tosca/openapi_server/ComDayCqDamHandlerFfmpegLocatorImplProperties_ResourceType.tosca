@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamHandlerFfmpegLocatorImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamHandlerFfmpegLocatorImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComDayCqDamHandlerFfmpegLocatorImplProperties {
+    title = ComDayCqDamHandlerFfmpegLocatorImplProperties
+    description = ComDayCqDamHandlerFfmpegLocatorImplProperties
+    derivedFrom = Root
+    properties {
+        executable_searchpath {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamHandlerFfmpegLocatorImplProperties {
+    title = ComDayCqDamHandlerFfmpegLocatorImplProperties
+    description = ComDayCqDamHandlerFfmpegLocatorImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamHandlerFfmpegLocatorImplProperties
+
+  }
+}

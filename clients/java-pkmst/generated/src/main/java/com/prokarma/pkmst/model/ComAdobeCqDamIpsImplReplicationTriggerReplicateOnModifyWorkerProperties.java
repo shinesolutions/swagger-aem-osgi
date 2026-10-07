@@ -1,0 +1,101 @@
+package com.prokarma.pkmst.model;
+
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+/**
+ * Response class to be returned by Api
+ * @author pkmst
+ *
+ */
+/**
+ * ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties
+ */
+
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties   {
+  @JsonProperty("dmreplicateonmodify.enabled")
+  private ConfigNodePropertyBoolean dmreplicateonmodifyEnabled;
+
+  @JsonProperty("dmreplicateonmodify.forcesyncdeletes")
+  private ConfigNodePropertyBoolean dmreplicateonmodifyForcesyncdeletes;
+
+  public ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties dmreplicateonmodifyEnabled(ConfigNodePropertyBoolean dmreplicateonmodifyEnabled) {
+    this.dmreplicateonmodifyEnabled = dmreplicateonmodifyEnabled;
+    return this;
+  }
+
+  /**
+   * Get dmreplicateonmodifyEnabled
+   * @return dmreplicateonmodifyEnabled
+   */
+  @ApiModelProperty(value = "")
+  public ConfigNodePropertyBoolean getDmreplicateonmodifyEnabled() {
+    return dmreplicateonmodifyEnabled;
+  }
+
+  public void setDmreplicateonmodifyEnabled(ConfigNodePropertyBoolean dmreplicateonmodifyEnabled) {
+    this.dmreplicateonmodifyEnabled = dmreplicateonmodifyEnabled;
+  }
+
+  public ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties dmreplicateonmodifyForcesyncdeletes(ConfigNodePropertyBoolean dmreplicateonmodifyForcesyncdeletes) {
+    this.dmreplicateonmodifyForcesyncdeletes = dmreplicateonmodifyForcesyncdeletes;
+    return this;
+  }
+
+  /**
+   * Get dmreplicateonmodifyForcesyncdeletes
+   * @return dmreplicateonmodifyForcesyncdeletes
+   */
+  @ApiModelProperty(value = "")
+  public ConfigNodePropertyBoolean getDmreplicateonmodifyForcesyncdeletes() {
+    return dmreplicateonmodifyForcesyncdeletes;
+  }
+
+  public void setDmreplicateonmodifyForcesyncdeletes(ConfigNodePropertyBoolean dmreplicateonmodifyForcesyncdeletes) {
+    this.dmreplicateonmodifyForcesyncdeletes = dmreplicateonmodifyForcesyncdeletes;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties = (ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties) o;
+    return Objects.equals(this.dmreplicateonmodifyEnabled, comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.dmreplicateonmodifyEnabled) &&
+        Objects.equals(this.dmreplicateonmodifyForcesyncdeletes, comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.dmreplicateonmodifyForcesyncdeletes);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(dmreplicateonmodifyEnabled, dmreplicateonmodifyForcesyncdeletes);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties {\n");
+    
+    sb.append("    dmreplicateonmodifyEnabled: ").append(toIndentedString(dmreplicateonmodifyEnabled)).append("\n");
+    sb.append("    dmreplicateonmodifyForcesyncdeletes: ").append(toIndentedString(dmreplicateonmodifyForcesyncdeletes)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

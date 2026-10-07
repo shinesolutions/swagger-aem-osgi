@@ -1,0 +1,62 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties {
+    title = ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
+    description = ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
+    derivedFrom = Root
+    properties {
+        cq_contentsync_pathrewritertransformer_mapping_links {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_contentsync_pathrewritertransformer_mapping_clientlibs {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_contentsync_pathrewritertransformer_mapping_images {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_contentsync_pathrewritertransformer_attribute_pattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_contentsync_pathrewritertransformer_clientlibrary_pattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_contentsync_pathrewritertransformer_clientlibrary_replace {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties {
+    title = ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
+    description = ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
+
+  }
+}

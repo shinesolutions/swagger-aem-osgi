@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties {
+    title = ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties
+    description = ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties
+    derivedFrom = Root
+    properties {
+        pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        queue_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        keep_alive_time {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties {
+    title = ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties
+    description = ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties
+
+  }
+}

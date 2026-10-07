@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamScene7ImplScene7UploadServiceImplProperties",
+  "fields": [
+    {
+      "name": "cq.dam.scene7.uploadservice.activejobtimeout.label",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.scene7.uploadservice.connectionmaxperroute.label",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

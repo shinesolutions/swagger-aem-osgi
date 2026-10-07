@@ -1,0 +1,28 @@
+--
+-- "Adobe Experience Manager OSGI config (AEM) API"
+-- Prepared SQL queries for 'comAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo' definition.
+-- Created using 'openapi-generator' ('postgresql-schema' generator)
+-- (https://openapi-generator.tech/docs/generators/postgresql-schema)
+--
+
+
+--
+-- SELECT template for table 'com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl_i'
+--
+SELECT pid, title, description, properties FROM com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl_i WHERE 1=1;
+
+--
+-- INSERT template for table 'com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl_i'
+--
+INSERT INTO com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl_i (pid, title, description, properties) VALUES (?, ?, ?, ?);
+
+--
+-- UPDATE template for table 'com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl_i'
+--
+UPDATE com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl_i SET pid = ?, title = ?, description = ?, properties = ? WHERE 1=2;
+
+--
+-- DELETE template for table 'com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl_i'
+--
+DELETE FROM com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl_i WHERE 1=2;
+

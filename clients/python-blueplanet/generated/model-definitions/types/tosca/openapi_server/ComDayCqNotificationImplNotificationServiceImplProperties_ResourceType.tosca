@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqNotificationImplNotificationServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqNotificationImplNotificationServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqNotificationImplNotificationServiceImplProperties {
+    title = ComDayCqNotificationImplNotificationServiceImplProperties
+    description = ComDayCqNotificationImplNotificationServiceImplProperties
+    derivedFrom = Root
+    properties {
+        event_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqNotificationImplNotificationServiceImplProperties {
+    title = ComDayCqNotificationImplNotificationServiceImplProperties
+    description = ComDayCqNotificationImplNotificationServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqNotificationImplNotificationServiceImplProperties
+
+  }
+}

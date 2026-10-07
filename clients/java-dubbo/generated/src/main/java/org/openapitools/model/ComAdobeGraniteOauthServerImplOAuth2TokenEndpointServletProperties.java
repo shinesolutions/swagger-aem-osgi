@@ -1,0 +1,116 @@
+package org.openapitools.model;
+
+import org.openapitools.model.ConfigNodePropertyString;
+import java.util.Objects;
+import java.io.Serializable;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import javax.annotation.Generated;
+import java.time.*;
+import java.math.*;
+@Generated(value = "org.openapitools.codegen.languages.JavaDubboServerCodegen", comments = "Generator version: 7.24.0")
+
+public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties implements Serializable {
+  private static final long serialVersionUID = 1L;
+
+  @JsonProperty("oauth.issuer")
+  private ConfigNodePropertyString oauthIssuer;
+
+  @JsonProperty("oauth.access.token.expires.in")
+  private ConfigNodePropertyString oauthAccessTokenExpiresIn;
+
+  @JsonProperty("osgi.http.whiteboard.servlet.pattern")
+  private ConfigNodePropertyString osgiHttpWhiteboardServletPattern;
+
+  @JsonProperty("osgi.http.whiteboard.context.select")
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
+
+  /**
+   * 
+   * @return oauthIssuer
+   */
+  public ConfigNodePropertyString getOauthIssuer() {
+    return oauthIssuer;
+  }
+
+  public void setOauthIssuer(ConfigNodePropertyString oauthIssuer) {
+    this.oauthIssuer = oauthIssuer;
+  }
+
+  /**
+   * 
+   * @return oauthAccessTokenExpiresIn
+   */
+  public ConfigNodePropertyString getOauthAccessTokenExpiresIn() {
+    return oauthAccessTokenExpiresIn;
+  }
+
+  public void setOauthAccessTokenExpiresIn(ConfigNodePropertyString oauthAccessTokenExpiresIn) {
+    this.oauthAccessTokenExpiresIn = oauthAccessTokenExpiresIn;
+  }
+
+  /**
+   * 
+   * @return osgiHttpWhiteboardServletPattern
+   */
+  public ConfigNodePropertyString getOsgiHttpWhiteboardServletPattern() {
+    return osgiHttpWhiteboardServletPattern;
+  }
+
+  public void setOsgiHttpWhiteboardServletPattern(ConfigNodePropertyString osgiHttpWhiteboardServletPattern) {
+    this.osgiHttpWhiteboardServletPattern = osgiHttpWhiteboardServletPattern;
+  }
+
+  /**
+   * 
+   * @return osgiHttpWhiteboardContextSelect
+   */
+  public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
+    return osgiHttpWhiteboardContextSelect;
+  }
+
+  public void setOsgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
+    this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties = (ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties) o;
+    return Objects.equals(this.oauthIssuer, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.oauthIssuer) &&
+        Objects.equals(this.oauthAccessTokenExpiresIn, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.oauthAccessTokenExpiresIn) &&
+        Objects.equals(this.osgiHttpWhiteboardServletPattern, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.osgiHttpWhiteboardServletPattern) &&
+        Objects.equals(this.osgiHttpWhiteboardContextSelect, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.osgiHttpWhiteboardContextSelect);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(oauthIssuer, oauthAccessTokenExpiresIn, osgiHttpWhiteboardServletPattern, osgiHttpWhiteboardContextSelect);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties {\n");
+    
+    sb.append("    oauthIssuer: ").append(toIndentedString(oauthIssuer)).append("\n");
+    sb.append("    oauthAccessTokenExpiresIn: ").append(toIndentedString(oauthAccessTokenExpiresIn)).append("\n");
+    sb.append("    osgiHttpWhiteboardServletPattern: ").append(toIndentedString(osgiHttpWhiteboardServletPattern)).append("\n");
+    sb.append("    osgiHttpWhiteboardContextSelect: ").append(toIndentedString(osgiHttpWhiteboardContextSelect)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}

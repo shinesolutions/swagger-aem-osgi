@@ -1,0 +1,107 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties   {
+  private ConfigNodePropertyInteger priorityOrder;
+  private ConfigNodePropertyArray replyEmailPatterns;
+
+  public ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties() {
+  }
+
+  /**
+   **/
+  public ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties priorityOrder(ConfigNodePropertyInteger priorityOrder) {
+    this.priorityOrder = priorityOrder;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("priorityOrder")
+  @Valid public ConfigNodePropertyInteger getPriorityOrder() {
+    return priorityOrder;
+  }
+
+  @JsonProperty("priorityOrder")
+  public void setPriorityOrder(ConfigNodePropertyInteger priorityOrder) {
+    this.priorityOrder = priorityOrder;
+  }
+
+  /**
+   **/
+  public ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties replyEmailPatterns(ConfigNodePropertyArray replyEmailPatterns) {
+    this.replyEmailPatterns = replyEmailPatterns;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("replyEmailPatterns")
+  @Valid public ConfigNodePropertyArray getReplyEmailPatterns() {
+    return replyEmailPatterns;
+  }
+
+  @JsonProperty("replyEmailPatterns")
+  public void setReplyEmailPatterns(ConfigNodePropertyArray replyEmailPatterns) {
+    this.replyEmailPatterns = replyEmailPatterns;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties = (ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties) o;
+    return Objects.equals(this.priorityOrder, comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties.priorityOrder) &&
+        Objects.equals(this.replyEmailPatterns, comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties.replyEmailPatterns);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(priorityOrder, replyEmailPatterns);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties {\n");
+    
+    sb.append("    priorityOrder: ").append(toIndentedString(priorityOrder)).append("\n");
+    sb.append("    replyEmailPatterns: ").append(toIndentedString(replyEmailPatterns)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}

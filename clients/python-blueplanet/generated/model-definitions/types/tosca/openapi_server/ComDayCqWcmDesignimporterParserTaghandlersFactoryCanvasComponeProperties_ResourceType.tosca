@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties {
+    title = ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties
+    description = ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties
+    derivedFrom = Root
+    properties {
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        tagpattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties {
+    title = ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties
+    description = ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties
+
+  }
+}

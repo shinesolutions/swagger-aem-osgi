@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplHandlerIndesignFormatHandlerProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplHandlerIndesignFormatHandlerProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo {
+    title = ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo
+    description = ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplHandlerIndesignFormatHandlerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo {
+    title = ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo
+    description = ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo
+
+  }
+}

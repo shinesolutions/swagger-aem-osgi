@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialScoringImplScoringEventListenerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialScoringImplScoringEventListenerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialScoringImplScoringEventListenerProperties = openapi_server.resourceTypes.ComAdobeCqSocialScoringImplScoringEventListenerProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialScoringImplScoringEventListenerInfo {
+    title = ComAdobeCqSocialScoringImplScoringEventListenerInfo
+    description = ComAdobeCqSocialScoringImplScoringEventListenerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialScoringImplScoringEventListenerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialScoringImplScoringEventListenerInfo {
+    title = ComAdobeCqSocialScoringImplScoringEventListenerInfo
+    description = ComAdobeCqSocialScoringImplScoringEventListenerInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialScoringImplScoringEventListenerInfo
+
+  }
+}

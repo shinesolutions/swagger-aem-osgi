@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqHistoryImplHistoryServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqHistoryImplHistoryServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqHistoryImplHistoryServiceImplProperties {
+    title = ComAdobeCqHistoryImplHistoryServiceImplProperties
+    description = ComAdobeCqHistoryImplHistoryServiceImplProperties
+    derivedFrom = Root
+    properties {
+        history_service_resource_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        history_service_path_filter {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqHistoryImplHistoryServiceImplProperties {
+    title = ComAdobeCqHistoryImplHistoryServiceImplProperties
+    description = ComAdobeCqHistoryImplHistoryServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqHistoryImplHistoryServiceImplProperties
+
+  }
+}

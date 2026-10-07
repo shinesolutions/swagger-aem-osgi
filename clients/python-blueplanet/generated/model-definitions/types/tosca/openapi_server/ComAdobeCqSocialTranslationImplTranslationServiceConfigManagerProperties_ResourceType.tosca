@@ -1,0 +1,73 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties {
+    title = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
+    description = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
+    derivedFrom = Root
+    properties {
+        translate_language {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        translate_display {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        translate_attribution {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        translate_caching {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        translate_smart_rendering {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        translate_caching_duration {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        translate_session_save_interval {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        translate_session_save_batch_limit {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties {
+    title = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
+    description = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
+
+  }
+}

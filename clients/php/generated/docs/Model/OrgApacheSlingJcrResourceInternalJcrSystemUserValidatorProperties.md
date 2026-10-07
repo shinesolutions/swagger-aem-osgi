@@ -1,0 +1,9 @@
+# OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**allow_only_system_user** | [**\OpenAPI\Client\Model\ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

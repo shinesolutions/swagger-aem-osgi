@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "default_transport_agent_to_worker_prefix" },
+      {"model": "default_transport_agent_to_master_prefix" },
+      {"model": "default_transport_input_package" },
+      {"model": "default_transport_output_package" },
+      {"model": "default_transport_replication_synchronous" },
+      {"model": "default_transport_contentpackage" },
+      {"model": "offloading_transporter_default_enabled" },
+    ]
+  }]
+}

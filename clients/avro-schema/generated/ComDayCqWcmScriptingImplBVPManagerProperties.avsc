@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWcmScriptingImplBVPManagerProperties",
+  "fields": [
+    {
+      "name": "com.day.cq.wcm.scripting.bvp.script.engines",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

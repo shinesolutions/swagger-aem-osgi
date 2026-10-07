@@ -1,0 +1,462 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyDropDown;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties   {
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString title;
+  private ConfigNodePropertyString details;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyDropDown logLevel;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
+  private ConfigNodePropertyArray passiveQueues;
+  private ConfigNodePropertyArray packageExporterEndpoints;
+  private ConfigNodePropertyArray packageImporterEndpoints;
+  private ConfigNodePropertyDropDown retryStrategy;
+  private ConfigNodePropertyInteger retryAttempts;
+  private ConfigNodePropertyInteger pullItems;
+  private ConfigNodePropertyInteger httpConnTimeout;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
+  private ConfigNodePropertyString transportSecretProviderTarget;
+  private ConfigNodePropertyString packageBuilderTarget;
+  private ConfigNodePropertyString triggersTarget;
+
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties() {
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties name(ConfigNodePropertyString name) {
+    this.name = name;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("name")
+  @Valid public ConfigNodePropertyString getName() {
+    return name;
+  }
+
+  @JsonProperty("name")
+  public void setName(ConfigNodePropertyString name) {
+    this.name = name;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties title(ConfigNodePropertyString title) {
+    this.title = title;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("title")
+  @Valid public ConfigNodePropertyString getTitle() {
+    return title;
+  }
+
+  @JsonProperty("title")
+  public void setTitle(ConfigNodePropertyString title) {
+    this.title = title;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties details(ConfigNodePropertyString details) {
+    this.details = details;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("details")
+  @Valid public ConfigNodePropertyString getDetails() {
+    return details;
+  }
+
+  @JsonProperty("details")
+  public void setDetails(ConfigNodePropertyString details) {
+    this.details = details;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties enabled(ConfigNodePropertyBoolean enabled) {
+    this.enabled = enabled;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("enabled")
+  @Valid public ConfigNodePropertyBoolean getEnabled() {
+    return enabled;
+  }
+
+  @JsonProperty("enabled")
+  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+    this.enabled = enabled;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties serviceName(ConfigNodePropertyString serviceName) {
+    this.serviceName = serviceName;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("serviceName")
+  @Valid public ConfigNodePropertyString getServiceName() {
+    return serviceName;
+  }
+
+  @JsonProperty("serviceName")
+  public void setServiceName(ConfigNodePropertyString serviceName) {
+    this.serviceName = serviceName;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties logLevel(ConfigNodePropertyDropDown logLevel) {
+    this.logLevel = logLevel;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("log.level")
+  @Valid public ConfigNodePropertyDropDown getLogLevel() {
+    return logLevel;
+  }
+
+  @JsonProperty("log.level")
+  public void setLogLevel(ConfigNodePropertyDropDown logLevel) {
+    this.logLevel = logLevel;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties queueProcessingEnabled(ConfigNodePropertyBoolean queueProcessingEnabled) {
+    this.queueProcessingEnabled = queueProcessingEnabled;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("queue.processing.enabled")
+  @Valid public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
+    return queueProcessingEnabled;
+  }
+
+  @JsonProperty("queue.processing.enabled")
+  public void setQueueProcessingEnabled(ConfigNodePropertyBoolean queueProcessingEnabled) {
+    this.queueProcessingEnabled = queueProcessingEnabled;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties passiveQueues(ConfigNodePropertyArray passiveQueues) {
+    this.passiveQueues = passiveQueues;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("passiveQueues")
+  @Valid public ConfigNodePropertyArray getPassiveQueues() {
+    return passiveQueues;
+  }
+
+  @JsonProperty("passiveQueues")
+  public void setPassiveQueues(ConfigNodePropertyArray passiveQueues) {
+    this.passiveQueues = passiveQueues;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties packageExporterEndpoints(ConfigNodePropertyArray packageExporterEndpoints) {
+    this.packageExporterEndpoints = packageExporterEndpoints;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("packageExporter.endpoints")
+  @Valid public ConfigNodePropertyArray getPackageExporterEndpoints() {
+    return packageExporterEndpoints;
+  }
+
+  @JsonProperty("packageExporter.endpoints")
+  public void setPackageExporterEndpoints(ConfigNodePropertyArray packageExporterEndpoints) {
+    this.packageExporterEndpoints = packageExporterEndpoints;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties packageImporterEndpoints(ConfigNodePropertyArray packageImporterEndpoints) {
+    this.packageImporterEndpoints = packageImporterEndpoints;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("packageImporter.endpoints")
+  @Valid public ConfigNodePropertyArray getPackageImporterEndpoints() {
+    return packageImporterEndpoints;
+  }
+
+  @JsonProperty("packageImporter.endpoints")
+  public void setPackageImporterEndpoints(ConfigNodePropertyArray packageImporterEndpoints) {
+    this.packageImporterEndpoints = packageImporterEndpoints;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties retryStrategy(ConfigNodePropertyDropDown retryStrategy) {
+    this.retryStrategy = retryStrategy;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("retry.strategy")
+  @Valid public ConfigNodePropertyDropDown getRetryStrategy() {
+    return retryStrategy;
+  }
+
+  @JsonProperty("retry.strategy")
+  public void setRetryStrategy(ConfigNodePropertyDropDown retryStrategy) {
+    this.retryStrategy = retryStrategy;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties retryAttempts(ConfigNodePropertyInteger retryAttempts) {
+    this.retryAttempts = retryAttempts;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("retry.attempts")
+  @Valid public ConfigNodePropertyInteger getRetryAttempts() {
+    return retryAttempts;
+  }
+
+  @JsonProperty("retry.attempts")
+  public void setRetryAttempts(ConfigNodePropertyInteger retryAttempts) {
+    this.retryAttempts = retryAttempts;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties pullItems(ConfigNodePropertyInteger pullItems) {
+    this.pullItems = pullItems;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("pull.items")
+  @Valid public ConfigNodePropertyInteger getPullItems() {
+    return pullItems;
+  }
+
+  @JsonProperty("pull.items")
+  public void setPullItems(ConfigNodePropertyInteger pullItems) {
+    this.pullItems = pullItems;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties httpConnTimeout(ConfigNodePropertyInteger httpConnTimeout) {
+    this.httpConnTimeout = httpConnTimeout;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("http.conn.timeout")
+  @Valid public ConfigNodePropertyInteger getHttpConnTimeout() {
+    return httpConnTimeout;
+  }
+
+  @JsonProperty("http.conn.timeout")
+  public void setHttpConnTimeout(ConfigNodePropertyInteger httpConnTimeout) {
+    this.httpConnTimeout = httpConnTimeout;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties requestAuthorizationStrategyTarget(ConfigNodePropertyString requestAuthorizationStrategyTarget) {
+    this.requestAuthorizationStrategyTarget = requestAuthorizationStrategyTarget;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("requestAuthorizationStrategy.target")
+  @Valid public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
+    return requestAuthorizationStrategyTarget;
+  }
+
+  @JsonProperty("requestAuthorizationStrategy.target")
+  public void setRequestAuthorizationStrategyTarget(ConfigNodePropertyString requestAuthorizationStrategyTarget) {
+    this.requestAuthorizationStrategyTarget = requestAuthorizationStrategyTarget;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties transportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
+    this.transportSecretProviderTarget = transportSecretProviderTarget;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("transportSecretProvider.target")
+  @Valid public ConfigNodePropertyString getTransportSecretProviderTarget() {
+    return transportSecretProviderTarget;
+  }
+
+  @JsonProperty("transportSecretProvider.target")
+  public void setTransportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
+    this.transportSecretProviderTarget = transportSecretProviderTarget;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties packageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
+    this.packageBuilderTarget = packageBuilderTarget;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("packageBuilder.target")
+  @Valid public ConfigNodePropertyString getPackageBuilderTarget() {
+    return packageBuilderTarget;
+  }
+
+  @JsonProperty("packageBuilder.target")
+  public void setPackageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
+    this.packageBuilderTarget = packageBuilderTarget;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties triggersTarget(ConfigNodePropertyString triggersTarget) {
+    this.triggersTarget = triggersTarget;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("triggers.target")
+  @Valid public ConfigNodePropertyString getTriggersTarget() {
+    return triggersTarget;
+  }
+
+  @JsonProperty("triggers.target")
+  public void setTriggersTarget(ConfigNodePropertyString triggersTarget) {
+    this.triggersTarget = triggersTarget;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties = (OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties) o;
+    return Objects.equals(this.name, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.name) &&
+        Objects.equals(this.title, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.title) &&
+        Objects.equals(this.details, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.details) &&
+        Objects.equals(this.enabled, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.enabled) &&
+        Objects.equals(this.serviceName, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.serviceName) &&
+        Objects.equals(this.logLevel, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.logLevel) &&
+        Objects.equals(this.queueProcessingEnabled, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.queueProcessingEnabled) &&
+        Objects.equals(this.passiveQueues, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.passiveQueues) &&
+        Objects.equals(this.packageExporterEndpoints, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.packageExporterEndpoints) &&
+        Objects.equals(this.packageImporterEndpoints, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.packageImporterEndpoints) &&
+        Objects.equals(this.retryStrategy, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.retryStrategy) &&
+        Objects.equals(this.retryAttempts, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.retryAttempts) &&
+        Objects.equals(this.pullItems, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.pullItems) &&
+        Objects.equals(this.httpConnTimeout, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.httpConnTimeout) &&
+        Objects.equals(this.requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.requestAuthorizationStrategyTarget) &&
+        Objects.equals(this.transportSecretProviderTarget, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.transportSecretProviderTarget) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.packageBuilderTarget) &&
+        Objects.equals(this.triggersTarget, orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.triggersTarget);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, passiveQueues, packageExporterEndpoints, packageImporterEndpoints, retryStrategy, retryAttempts, pullItems, httpConnTimeout, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties {\n");
+    
+    sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("    title: ").append(toIndentedString(title)).append("\n");
+    sb.append("    details: ").append(toIndentedString(details)).append("\n");
+    sb.append("    enabled: ").append(toIndentedString(enabled)).append("\n");
+    sb.append("    serviceName: ").append(toIndentedString(serviceName)).append("\n");
+    sb.append("    logLevel: ").append(toIndentedString(logLevel)).append("\n");
+    sb.append("    queueProcessingEnabled: ").append(toIndentedString(queueProcessingEnabled)).append("\n");
+    sb.append("    passiveQueues: ").append(toIndentedString(passiveQueues)).append("\n");
+    sb.append("    packageExporterEndpoints: ").append(toIndentedString(packageExporterEndpoints)).append("\n");
+    sb.append("    packageImporterEndpoints: ").append(toIndentedString(packageImporterEndpoints)).append("\n");
+    sb.append("    retryStrategy: ").append(toIndentedString(retryStrategy)).append("\n");
+    sb.append("    retryAttempts: ").append(toIndentedString(retryAttempts)).append("\n");
+    sb.append("    pullItems: ").append(toIndentedString(pullItems)).append("\n");
+    sb.append("    httpConnTimeout: ").append(toIndentedString(httpConnTimeout)).append("\n");
+    sb.append("    requestAuthorizationStrategyTarget: ").append(toIndentedString(requestAuthorizationStrategyTarget)).append("\n");
+    sb.append("    transportSecretProviderTarget: ").append(toIndentedString(transportSecretProviderTarget)).append("\n");
+    sb.append("    packageBuilderTarget: ").append(toIndentedString(packageBuilderTarget)).append("\n");
+    sb.append("    triggersTarget: ").append(toIndentedString(triggersTarget)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties {
+    title = ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties
+    description = ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties
+    derivedFrom = Root
+    properties {
+        adapter_condition {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        taskmanager_admingroups {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties {
+    title = ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties
+    description = ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties
+
+  }
+}

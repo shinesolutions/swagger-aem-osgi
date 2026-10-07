@@ -1,0 +1,62 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWorkflowImplEmailEMailNotificationServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWorkflowImplEmailEMailNotificationServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWorkflowImplEmailEMailNotificationServiceProperties {
+    title = ComDayCqWorkflowImplEmailEMailNotificationServiceProperties
+    description = ComDayCqWorkflowImplEmailEMailNotificationServiceProperties
+    derivedFrom = Root
+    properties {
+        from_address {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        host_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        notify_onabort {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        notify_oncomplete {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        notify_oncontainercomplete {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        notify_useronly {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWorkflowImplEmailEMailNotificationServiceProperties {
+    title = ComDayCqWorkflowImplEmailEMailNotificationServiceProperties
+    description = ComDayCqWorkflowImplEmailEMailNotificationServiceProperties
+    implements = openapi_server.resourceTypes.ComDayCqWorkflowImplEmailEMailNotificationServiceProperties
+
+  }
+}

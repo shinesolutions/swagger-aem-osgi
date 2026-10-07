@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties {
+    title = ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties
+    description = ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties
+    derivedFrom = Root
+    properties {
+        is_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties {
+    title = ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties
+    description = ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties
+
+  }
+}

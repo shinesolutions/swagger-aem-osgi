@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties {
+    title = ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties
+    description = ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties
+    derivedFrom = Root
+    properties {
+        default_connector_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_category {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties {
+    title = ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties
+    description = ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties
+
+  }
+}

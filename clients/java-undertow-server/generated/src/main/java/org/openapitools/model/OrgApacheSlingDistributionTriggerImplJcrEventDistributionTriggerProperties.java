@@ -1,0 +1,164 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
+package org.openapitools.model;
+
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyString;
+
+
+
+
+
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties   {
+  
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyArray ignoredPathsPatterns;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyBoolean deep;
+
+  /**
+   */
+  public OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties name(ConfigNodePropertyString name) {
+    this.name = name;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("name")
+  public ConfigNodePropertyString getName() {
+    return name;
+  }
+  public void setName(ConfigNodePropertyString name) {
+    this.name = name;
+  }
+
+  /**
+   */
+  public OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties path(ConfigNodePropertyString path) {
+    this.path = path;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("path")
+  public ConfigNodePropertyString getPath() {
+    return path;
+  }
+  public void setPath(ConfigNodePropertyString path) {
+    this.path = path;
+  }
+
+  /**
+   */
+  public OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties ignoredPathsPatterns(ConfigNodePropertyArray ignoredPathsPatterns) {
+    this.ignoredPathsPatterns = ignoredPathsPatterns;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("ignoredPathsPatterns")
+  public ConfigNodePropertyArray getIgnoredPathsPatterns() {
+    return ignoredPathsPatterns;
+  }
+  public void setIgnoredPathsPatterns(ConfigNodePropertyArray ignoredPathsPatterns) {
+    this.ignoredPathsPatterns = ignoredPathsPatterns;
+  }
+
+  /**
+   */
+  public OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties serviceName(ConfigNodePropertyString serviceName) {
+    this.serviceName = serviceName;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("serviceName")
+  public ConfigNodePropertyString getServiceName() {
+    return serviceName;
+  }
+  public void setServiceName(ConfigNodePropertyString serviceName) {
+    this.serviceName = serviceName;
+  }
+
+  /**
+   */
+  public OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties deep(ConfigNodePropertyBoolean deep) {
+    this.deep = deep;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("deep")
+  public ConfigNodePropertyBoolean getDeep() {
+    return deep;
+  }
+  public void setDeep(ConfigNodePropertyBoolean deep) {
+    this.deep = deep;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties = (OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties) o;
+    return Objects.equals(name, orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties.name) &&
+        Objects.equals(path, orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties.path) &&
+        Objects.equals(ignoredPathsPatterns, orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties.ignoredPathsPatterns) &&
+        Objects.equals(serviceName, orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties.serviceName) &&
+        Objects.equals(deep, orgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties.deep);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, path, ignoredPathsPatterns, serviceName, deep);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties {\n");
+    
+    sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("    path: ").append(toIndentedString(path)).append("\n");
+    sb.append("    ignoredPathsPatterns: ").append(toIndentedString(ignoredPathsPatterns)).append("\n");
+    sb.append("    serviceName: ").append(toIndentedString(serviceName)).append("\n");
+    sb.append("    deep: ").append(toIndentedString(deep)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

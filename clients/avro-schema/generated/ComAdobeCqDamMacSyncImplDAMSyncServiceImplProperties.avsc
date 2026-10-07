@@ -1,0 +1,33 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties",
+  "fields": [
+    {
+      "name": "com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.dam.mac.sync.damsyncservice.platform",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

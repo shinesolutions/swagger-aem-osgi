@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqProjectsPurgeSchedulerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqProjectsPurgeSchedulerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqProjectsPurgeSchedulerProperties = openapi_server.resourceTypes.ComAdobeCqProjectsPurgeSchedulerProperties
+}
+resourceTypes {
+
+  ComAdobeCqProjectsPurgeSchedulerInfo {
+    title = ComAdobeCqProjectsPurgeSchedulerInfo
+    description = ComAdobeCqProjectsPurgeSchedulerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqProjectsPurgeSchedulerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqProjectsPurgeSchedulerInfo {
+    title = ComAdobeCqProjectsPurgeSchedulerInfo
+    description = ComAdobeCqProjectsPurgeSchedulerInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqProjectsPurgeSchedulerInfo
+
+  }
+}

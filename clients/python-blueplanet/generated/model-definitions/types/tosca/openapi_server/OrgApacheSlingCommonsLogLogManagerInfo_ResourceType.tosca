@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsLogLogManagerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsLogLogManagerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingCommonsLogLogManagerProperties = openapi_server.resourceTypes.OrgApacheSlingCommonsLogLogManagerProperties
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsLogLogManagerInfo {
+    title = OrgApacheSlingCommonsLogLogManagerInfo
+    description = OrgApacheSlingCommonsLogLogManagerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingCommonsLogLogManagerProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsLogLogManagerInfo {
+    title = OrgApacheSlingCommonsLogLogManagerInfo
+    description = OrgApacheSlingCommonsLogLogManagerInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsLogLogManagerInfo
+
+  }
+}

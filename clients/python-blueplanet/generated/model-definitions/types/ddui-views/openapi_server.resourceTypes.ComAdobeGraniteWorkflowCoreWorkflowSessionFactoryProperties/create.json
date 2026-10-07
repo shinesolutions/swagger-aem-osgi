@@ -1,0 +1,27 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "granite_workflowinbox_sort_property_name" },
+      {"model": "granite_workflowinbox_sort_order" },
+      {"model": "cq_workflow_job_retry" },
+      {"model": "cq_workflow_superuser" },
+      {"model": "granite_workflow_inbox_query_size" },
+      {"model": "granite_workflow_admin_user_group_filter" },
+      {"model": "granite_workflow_enforce_workitem_assignee_permissions" },
+      {"model": "granite_workflow_enforce_workflow_initiator_permissions" },
+      {"model": "granite_workflow_inject_tenant_id_in_job_topics" },
+      {"model": "granite_workflow_max_purge_save_threshold" },
+      {"model": "granite_workflow_max_purge_query_count" },
+    ]
+  }]
+}

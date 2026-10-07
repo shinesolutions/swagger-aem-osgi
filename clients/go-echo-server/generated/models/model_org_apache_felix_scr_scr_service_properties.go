@@ -1,0 +1,16 @@
+package models
+
+type OrgApacheFelixScrScrServiceProperties struct {
+
+	DsLoglevel ConfigNodePropertyDropDown `json:"ds.loglevel,omitempty"`
+
+	DsFactoryEnabled ConfigNodePropertyBoolean `json:"ds.factory.enabled,omitempty"`
+
+	DsDelayedKeepInstances ConfigNodePropertyBoolean `json:"ds.delayed.keepInstances,omitempty"`
+
+	DsLockTimeoutMilliseconds ConfigNodePropertyInteger `json:"ds.lock.timeout.milliseconds,omitempty"`
+
+	DsStopTimeoutMilliseconds ConfigNodePropertyInteger `json:"ds.stop.timeout.milliseconds,omitempty"`
+
+	DsGlobalExtender ConfigNodePropertyBoolean `json:"ds.global.extender,omitempty"`
+}

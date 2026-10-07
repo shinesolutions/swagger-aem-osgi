@@ -1,0 +1,215 @@
+package org.openapitools.model;
+
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+
+import io.swagger.annotations.ApiModelProperty;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class OrgApacheSlingEngineImplSlingMainServletProperties  {
+  
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyInteger slingMaxCalls;
+
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyInteger slingMaxInclusions;
+
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyBoolean slingTraceAllow;
+
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyInteger slingMaxRecordRequests;
+
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyArray slingStorePatternRequests;
+
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyString slingServerinfo;
+
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyArray slingAdditionalResponseHeaders;
+ /**
+   * Get slingMaxCalls
+   * @return slingMaxCalls
+  **/
+  @JsonProperty("sling.max.calls")
+  public ConfigNodePropertyInteger getSlingMaxCalls() {
+    return slingMaxCalls;
+  }
+
+  public void setSlingMaxCalls(ConfigNodePropertyInteger slingMaxCalls) {
+    this.slingMaxCalls = slingMaxCalls;
+  }
+
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxCalls(ConfigNodePropertyInteger slingMaxCalls) {
+    this.slingMaxCalls = slingMaxCalls;
+    return this;
+  }
+
+ /**
+   * Get slingMaxInclusions
+   * @return slingMaxInclusions
+  **/
+  @JsonProperty("sling.max.inclusions")
+  public ConfigNodePropertyInteger getSlingMaxInclusions() {
+    return slingMaxInclusions;
+  }
+
+  public void setSlingMaxInclusions(ConfigNodePropertyInteger slingMaxInclusions) {
+    this.slingMaxInclusions = slingMaxInclusions;
+  }
+
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxInclusions(ConfigNodePropertyInteger slingMaxInclusions) {
+    this.slingMaxInclusions = slingMaxInclusions;
+    return this;
+  }
+
+ /**
+   * Get slingTraceAllow
+   * @return slingTraceAllow
+  **/
+  @JsonProperty("sling.trace.allow")
+  public ConfigNodePropertyBoolean getSlingTraceAllow() {
+    return slingTraceAllow;
+  }
+
+  public void setSlingTraceAllow(ConfigNodePropertyBoolean slingTraceAllow) {
+    this.slingTraceAllow = slingTraceAllow;
+  }
+
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingTraceAllow(ConfigNodePropertyBoolean slingTraceAllow) {
+    this.slingTraceAllow = slingTraceAllow;
+    return this;
+  }
+
+ /**
+   * Get slingMaxRecordRequests
+   * @return slingMaxRecordRequests
+  **/
+  @JsonProperty("sling.max.record.requests")
+  public ConfigNodePropertyInteger getSlingMaxRecordRequests() {
+    return slingMaxRecordRequests;
+  }
+
+  public void setSlingMaxRecordRequests(ConfigNodePropertyInteger slingMaxRecordRequests) {
+    this.slingMaxRecordRequests = slingMaxRecordRequests;
+  }
+
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxRecordRequests(ConfigNodePropertyInteger slingMaxRecordRequests) {
+    this.slingMaxRecordRequests = slingMaxRecordRequests;
+    return this;
+  }
+
+ /**
+   * Get slingStorePatternRequests
+   * @return slingStorePatternRequests
+  **/
+  @JsonProperty("sling.store.pattern.requests")
+  public ConfigNodePropertyArray getSlingStorePatternRequests() {
+    return slingStorePatternRequests;
+  }
+
+  public void setSlingStorePatternRequests(ConfigNodePropertyArray slingStorePatternRequests) {
+    this.slingStorePatternRequests = slingStorePatternRequests;
+  }
+
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingStorePatternRequests(ConfigNodePropertyArray slingStorePatternRequests) {
+    this.slingStorePatternRequests = slingStorePatternRequests;
+    return this;
+  }
+
+ /**
+   * Get slingServerinfo
+   * @return slingServerinfo
+  **/
+  @JsonProperty("sling.serverinfo")
+  public ConfigNodePropertyString getSlingServerinfo() {
+    return slingServerinfo;
+  }
+
+  public void setSlingServerinfo(ConfigNodePropertyString slingServerinfo) {
+    this.slingServerinfo = slingServerinfo;
+  }
+
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingServerinfo(ConfigNodePropertyString slingServerinfo) {
+    this.slingServerinfo = slingServerinfo;
+    return this;
+  }
+
+ /**
+   * Get slingAdditionalResponseHeaders
+   * @return slingAdditionalResponseHeaders
+  **/
+  @JsonProperty("sling.additional.response.headers")
+  public ConfigNodePropertyArray getSlingAdditionalResponseHeaders() {
+    return slingAdditionalResponseHeaders;
+  }
+
+  public void setSlingAdditionalResponseHeaders(ConfigNodePropertyArray slingAdditionalResponseHeaders) {
+    this.slingAdditionalResponseHeaders = slingAdditionalResponseHeaders;
+  }
+
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingAdditionalResponseHeaders(ConfigNodePropertyArray slingAdditionalResponseHeaders) {
+    this.slingAdditionalResponseHeaders = slingAdditionalResponseHeaders;
+    return this;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingEngineImplSlingMainServletProperties orgApacheSlingEngineImplSlingMainServletProperties = (OrgApacheSlingEngineImplSlingMainServletProperties) o;
+    return Objects.equals(this.slingMaxCalls, orgApacheSlingEngineImplSlingMainServletProperties.slingMaxCalls) &&
+        Objects.equals(this.slingMaxInclusions, orgApacheSlingEngineImplSlingMainServletProperties.slingMaxInclusions) &&
+        Objects.equals(this.slingTraceAllow, orgApacheSlingEngineImplSlingMainServletProperties.slingTraceAllow) &&
+        Objects.equals(this.slingMaxRecordRequests, orgApacheSlingEngineImplSlingMainServletProperties.slingMaxRecordRequests) &&
+        Objects.equals(this.slingStorePatternRequests, orgApacheSlingEngineImplSlingMainServletProperties.slingStorePatternRequests) &&
+        Objects.equals(this.slingServerinfo, orgApacheSlingEngineImplSlingMainServletProperties.slingServerinfo) &&
+        Objects.equals(this.slingAdditionalResponseHeaders, orgApacheSlingEngineImplSlingMainServletProperties.slingAdditionalResponseHeaders);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(slingMaxCalls, slingMaxInclusions, slingTraceAllow, slingMaxRecordRequests, slingStorePatternRequests, slingServerinfo, slingAdditionalResponseHeaders);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingEngineImplSlingMainServletProperties {\n");
+    
+    sb.append("    slingMaxCalls: ").append(toIndentedString(slingMaxCalls)).append("\n");
+    sb.append("    slingMaxInclusions: ").append(toIndentedString(slingMaxInclusions)).append("\n");
+    sb.append("    slingTraceAllow: ").append(toIndentedString(slingTraceAllow)).append("\n");
+    sb.append("    slingMaxRecordRequests: ").append(toIndentedString(slingMaxRecordRequests)).append("\n");
+    sb.append("    slingStorePatternRequests: ").append(toIndentedString(slingStorePatternRequests)).append("\n");
+    sb.append("    slingServerinfo: ").append(toIndentedString(slingServerinfo)).append("\n");
+    sb.append("    slingAdditionalResponseHeaders: ").append(toIndentedString(slingAdditionalResponseHeaders)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

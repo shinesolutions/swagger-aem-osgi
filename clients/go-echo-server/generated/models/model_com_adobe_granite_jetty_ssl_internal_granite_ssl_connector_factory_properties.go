@@ -1,0 +1,16 @@
+package models
+
+type ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties struct {
+
+	ComAdobeGraniteJettySslPort ConfigNodePropertyInteger `json:"com.adobe.granite.jetty.ssl.port,omitempty"`
+
+	ComAdobeGraniteJettySslKeystoreUser ConfigNodePropertyString `json:"com.adobe.granite.jetty.ssl.keystore.user,omitempty"`
+
+	ComAdobeGraniteJettySslKeystorePassword ConfigNodePropertyString `json:"com.adobe.granite.jetty.ssl.keystore.password,omitempty"`
+
+	ComAdobeGraniteJettySslCiphersuitesExcluded ConfigNodePropertyArray `json:"com.adobe.granite.jetty.ssl.ciphersuites.excluded,omitempty"`
+
+	ComAdobeGraniteJettySslCiphersuitesIncluded ConfigNodePropertyArray `json:"com.adobe.granite.jetty.ssl.ciphersuites.included,omitempty"`
+
+	ComAdobeGraniteJettySslClientCertificate ConfigNodePropertyDropDown `json:"com.adobe.granite.jetty.ssl.client.certificate,omitempty"`
+}

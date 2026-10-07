@@ -1,0 +1,20 @@
+(ns adobe-experience-manager-osgi-config-(aem)-api.specs.com-day-cq-mcm-landingpage-parser-taghandlers-mbox-target-component-tag-h-info
+  (:require [clojure.spec.alpha :as s]
+            [spec-tools.data-spec :as ds]
+            [adobe-experience-manager-osgi-config-(aem)-api.specs.com-day-cq-mcm-landingpage-parser-taghandlers-mbox-target-component-tag-h-properties :refer :all]
+            )
+  (:import (java.io File)))
+
+
+(def com-day-cq-mcm-landingpage-parser-taghandlers-mbox-target-component-tag-h-info-data
+  {
+   (ds/opt :pid) string?
+   (ds/opt :title) string?
+   (ds/opt :description) string?
+   (ds/opt :properties) com-day-cq-mcm-landingpage-parser-taghandlers-mbox-target-component-tag-h-properties-spec
+   })
+
+(def com-day-cq-mcm-landingpage-parser-taghandlers-mbox-target-component-tag-h-info-spec
+  (ds/spec
+    {:name ::com-day-cq-mcm-landingpage-parser-taghandlers-mbox-target-component-tag-h-info
+     :spec com-day-cq-mcm-landingpage-parser-taghandlers-mbox-target-component-tag-h-info-data}))

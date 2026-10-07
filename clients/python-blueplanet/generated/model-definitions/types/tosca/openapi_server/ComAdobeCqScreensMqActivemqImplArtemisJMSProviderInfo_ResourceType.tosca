@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties = openapi_server.resourceTypes.ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
+}
+resourceTypes {
+
+  ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo {
+    title = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo
+    description = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo {
+    title = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo
+    description = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo
+
+  }
+}

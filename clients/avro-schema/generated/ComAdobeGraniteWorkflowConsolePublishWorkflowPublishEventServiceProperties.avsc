@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties",
+  "fields": [
+    {
+      "name": "granite.workflow.WorkflowPublishEventService.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

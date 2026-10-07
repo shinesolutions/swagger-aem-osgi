@@ -1,0 +1,35 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "connector_ping_timeout" },
+      {"model": "connector_ping_interval" },
+      {"model": "discovery_lite_check_interval" },
+      {"model": "cluster_sync_service_timeout" },
+      {"model": "cluster_sync_service_interval" },
+      {"model": "enable_sync_token" },
+      {"model": "min_event_delay" },
+      {"model": "socket_connect_timeout" },
+      {"model": "so_timeout" },
+      {"model": "topology_connector_urls" },
+      {"model": "topology_connector_whitelist" },
+      {"model": "auto_stop_local_loop_enabled" },
+      {"model": "gzip_connector_requests_enabled" },
+      {"model": "hmac_enabled" },
+      {"model": "enable_encryption" },
+      {"model": "shared_key" },
+      {"model": "hmac_shared_key_ttl" },
+      {"model": "backoff_standby_factor" },
+      {"model": "backoff_stable_factor" },
+    ]
+  }]
+}

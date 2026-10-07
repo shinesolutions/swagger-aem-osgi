@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties = openapi_server.resourceTypes.ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties
+}
+resourceTypes {
+
+  ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo {
+    title = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo
+    description = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo {
+    title = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo
+    description = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo
+
+  }
+}

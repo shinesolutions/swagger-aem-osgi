@@ -1,0 +1,8 @@
+package models
+
+type ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties struct {
+
+	ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProjectPath ConfigNodePropertyArray `json:"com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl.projectPath,omitempty"`
+
+	ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplScheduleFrequency ConfigNodePropertyString `json:"com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl.scheduleFrequency,omitempty"`
+}

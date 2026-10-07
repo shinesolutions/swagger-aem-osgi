@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_contentsync_pathrewritertransformer_mapping_links" },
+      {"model": "cq_contentsync_pathrewritertransformer_mapping_clientlibs" },
+      {"model": "cq_contentsync_pathrewritertransformer_mapping_images" },
+      {"model": "cq_contentsync_pathrewritertransformer_attribute_pattern" },
+      {"model": "cq_contentsync_pathrewritertransformer_clientlibrary_pattern" },
+      {"model": "cq_contentsync_pathrewritertransformer_clientlibrary_replace" },
+    ]
+  }]
+}

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties {
+    title = ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties
+    description = ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties
+    derivedFrom = Root
+    properties {
+        forms_formparagraphpostprocessor_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        forms_formparagraphpostprocessor_formresourcetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties {
+    title = ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties
+    description = ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties
+
+  }
+}

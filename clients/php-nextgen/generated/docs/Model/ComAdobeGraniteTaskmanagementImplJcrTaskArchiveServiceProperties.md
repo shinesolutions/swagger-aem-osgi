@@ -1,0 +1,11 @@
+# ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**archiving_enabled** | [**\OpenAPI\Client\Model\ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional]
+**scheduler_expression** | [**\OpenAPI\Client\Model\ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional]
+**archive_since_days_completed** | [**\OpenAPI\Client\Model\ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

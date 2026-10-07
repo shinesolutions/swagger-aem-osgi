@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties {
+    title = ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties
+    description = ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_paths {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_methods {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties {
+    title = ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties
+    description = ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties
+
+  }
+}

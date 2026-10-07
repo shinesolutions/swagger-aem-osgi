@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplMissingMetadataNotificationJobProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplMissingMetadataNotificationJobProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplMissingMetadataNotificationJobProperties {
+    title = ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
+    description = ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_missingmetadata_notification_scheduler_istimebased {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_dam_missingmetadata_notification_scheduler_timebased_rule {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_missingmetadata_notification_scheduler_period_rule {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_missingmetadata_notification_recipient {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplMissingMetadataNotificationJobProperties {
+    title = ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
+    description = ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
+
+  }
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties = openapi_server.resourceTypes.ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo {
+    title = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo
+    description = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo {
+    title = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo
+    description = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo
+
+  }
+}

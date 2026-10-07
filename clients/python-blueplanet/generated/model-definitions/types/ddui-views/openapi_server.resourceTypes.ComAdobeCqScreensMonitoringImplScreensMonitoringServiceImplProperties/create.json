@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path" },
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency" },
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout" },
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients" },
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver" },
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport" },
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls" },
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username" },
+      {"model": "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password" },
+    ]
+  }]
+}

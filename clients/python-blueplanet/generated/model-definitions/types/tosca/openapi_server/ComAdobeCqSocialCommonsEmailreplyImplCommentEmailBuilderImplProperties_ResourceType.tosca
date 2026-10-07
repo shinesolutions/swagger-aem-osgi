@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties {
+    title = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties
+    description = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties
+    derivedFrom = Root
+    properties {
+        context_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties {
+    title = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties
+    description = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties
+
+  }
+}

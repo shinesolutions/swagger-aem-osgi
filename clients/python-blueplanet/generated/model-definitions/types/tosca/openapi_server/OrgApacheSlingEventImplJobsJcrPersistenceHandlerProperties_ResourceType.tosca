@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties {
+    title = OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties
+    description = OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties
+    derivedFrom = Root
+    properties {
+        job_consumermanager_disable_distribution {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        startup_delay {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cleanup_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties {
+    title = OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties
+    description = OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties
+
+  }
+}

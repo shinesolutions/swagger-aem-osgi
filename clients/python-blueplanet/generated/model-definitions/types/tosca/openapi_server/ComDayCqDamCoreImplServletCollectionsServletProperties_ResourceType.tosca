@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletCollectionsServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletCollectionsServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletCollectionsServletProperties {
+    title = ComDayCqDamCoreImplServletCollectionsServletProperties
+    description = ComDayCqDamCoreImplServletCollectionsServletProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_batch_collections_properties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_dam_batch_collections_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletCollectionsServletProperties {
+    title = ComDayCqDamCoreImplServletCollectionsServletProperties
+    description = ComDayCqDamCoreImplServletCollectionsServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletCollectionsServletProperties
+
+  }
+}

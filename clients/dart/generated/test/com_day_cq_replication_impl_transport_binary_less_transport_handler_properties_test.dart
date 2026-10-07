@@ -1,0 +1,32 @@
+//
+// AUTO-GENERATED FILE, DO NOT MODIFY!
+//
+// @dart=2.18
+
+// ignore_for_file: unused_element, unused_import
+// ignore_for_file: always_put_required_named_parameters_first
+// ignore_for_file: constant_identifier_names
+// ignore_for_file: lines_longer_than_80_chars
+
+import 'package:openapi/api.dart';
+import 'package:test/test.dart';
+
+// tests for ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties
+void main() {
+  // final instance = ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties();
+
+  group('test ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties', () {
+    // ConfigNodePropertyArray disabledPeriodCipherPeriodSuites
+    test('to test the property `disabledPeriodCipherPeriodSuites`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyArray enabledPeriodCipherPeriodSuites
+    test('to test the property `enabledPeriodCipherPeriodSuites`', () async {
+      // TODO
+    });
+
+
+  });
+
+}

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowCorePayloadMapCacheProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowCorePayloadMapCacheProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowCorePayloadMapCacheProperties {
+    title = ComAdobeGraniteWorkflowCorePayloadMapCacheProperties
+    description = ComAdobeGraniteWorkflowCorePayloadMapCacheProperties
+    derivedFrom = Root
+    properties {
+        get_system_workflow_models {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        get_package_root_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowCorePayloadMapCacheProperties {
+    title = ComAdobeGraniteWorkflowCorePayloadMapCacheProperties
+    description = ComAdobeGraniteWorkflowCorePayloadMapCacheProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowCorePayloadMapCacheProperties
+
+  }
+}

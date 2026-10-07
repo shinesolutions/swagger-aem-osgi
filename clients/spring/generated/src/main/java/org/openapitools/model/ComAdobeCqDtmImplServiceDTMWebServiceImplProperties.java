@@ -1,0 +1,113 @@
+package org.openapitools.model;
+
+import java.net.URI;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
+
+/**
+ * ComAdobeCqDtmImplServiceDTMWebServiceImplProperties
+ */
+
+@JsonTypeName("comAdobeCqDtmImplServiceDTMWebServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqDtmImplServiceDTMWebServiceImplProperties {
+
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger connectionTimeout;
+
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger socketTimeout;
+
+  public ComAdobeCqDtmImplServiceDTMWebServiceImplProperties connectionTimeout(@Nullable ConfigNodePropertyInteger connectionTimeout) {
+    this.connectionTimeout = connectionTimeout;
+    return this;
+  }
+
+  /**
+   * Get connectionTimeout
+   * @return connectionTimeout
+   */
+  @Valid 
+  @Schema(name = "connection.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("connection.timeout")
+  public @Nullable ConfigNodePropertyInteger getConnectionTimeout() {
+    return connectionTimeout;
+  }
+
+  @JsonProperty("connection.timeout")
+  public void setConnectionTimeout(@Nullable ConfigNodePropertyInteger connectionTimeout) {
+    this.connectionTimeout = connectionTimeout;
+  }
+
+  public ComAdobeCqDtmImplServiceDTMWebServiceImplProperties socketTimeout(@Nullable ConfigNodePropertyInteger socketTimeout) {
+    this.socketTimeout = socketTimeout;
+    return this;
+  }
+
+  /**
+   * Get socketTimeout
+   * @return socketTimeout
+   */
+  @Valid 
+  @Schema(name = "socket.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("socket.timeout")
+  public @Nullable ConfigNodePropertyInteger getSocketTimeout() {
+    return socketTimeout;
+  }
+
+  @JsonProperty("socket.timeout")
+  public void setSocketTimeout(@Nullable ConfigNodePropertyInteger socketTimeout) {
+    this.socketTimeout = socketTimeout;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqDtmImplServiceDTMWebServiceImplProperties comAdobeCqDtmImplServiceDTMWebServiceImplProperties = (ComAdobeCqDtmImplServiceDTMWebServiceImplProperties) o;
+    return Objects.equals(this.connectionTimeout, comAdobeCqDtmImplServiceDTMWebServiceImplProperties.connectionTimeout) &&
+        Objects.equals(this.socketTimeout, comAdobeCqDtmImplServiceDTMWebServiceImplProperties.socketTimeout);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(connectionTimeout, socketTimeout);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqDtmImplServiceDTMWebServiceImplProperties {\n");
+    sb.append("    connectionTimeout: ").append(toIndentedString(connectionTimeout)).append("\n");
+    sb.append("    socketTimeout: ").append(toIndentedString(socketTimeout)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

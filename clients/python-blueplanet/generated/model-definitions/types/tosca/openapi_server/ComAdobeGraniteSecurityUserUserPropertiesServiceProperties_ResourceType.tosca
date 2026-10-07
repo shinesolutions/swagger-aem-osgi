@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteSecurityUserUserPropertiesServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteSecurityUserUserPropertiesServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteSecurityUserUserPropertiesServiceProperties {
+    title = ComAdobeGraniteSecurityUserUserPropertiesServiceProperties
+    description = ComAdobeGraniteSecurityUserUserPropertiesServiceProperties
+    derivedFrom = Root
+    properties {
+        adapter_condition {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        granite_userproperties_nodetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        granite_userproperties_resourcetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteSecurityUserUserPropertiesServiceProperties {
+    title = ComAdobeGraniteSecurityUserUserPropertiesServiceProperties
+    description = ComAdobeGraniteSecurityUserUserPropertiesServiceProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteSecurityUserUserPropertiesServiceProperties
+
+  }
+}

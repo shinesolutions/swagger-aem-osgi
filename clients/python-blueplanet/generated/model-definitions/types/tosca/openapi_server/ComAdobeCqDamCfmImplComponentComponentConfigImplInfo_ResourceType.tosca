@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamCfmImplComponentComponentConfigImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamCfmImplComponentComponentConfigImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqDamCfmImplComponentComponentConfigImplProperties = openapi_server.resourceTypes.ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqDamCfmImplComponentComponentConfigImplInfo {
+    title = ComAdobeCqDamCfmImplComponentComponentConfigImplInfo
+    description = ComAdobeCqDamCfmImplComponentComponentConfigImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamCfmImplComponentComponentConfigImplInfo {
+    title = ComAdobeCqDamCfmImplComponentComponentConfigImplInfo
+    description = ComAdobeCqDamCfmImplComponentComponentConfigImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqDamCfmImplComponentComponentConfigImplInfo
+
+  }
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationImplHTTPAuthHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationImplHTTPAuthHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmFoundationImplHTTPAuthHandlerProperties = openapi_server.resourceTypes.ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationImplHTTPAuthHandlerInfo {
+    title = ComDayCqWcmFoundationImplHTTPAuthHandlerInfo
+    description = ComDayCqWcmFoundationImplHTTPAuthHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationImplHTTPAuthHandlerInfo {
+    title = ComDayCqWcmFoundationImplHTTPAuthHandlerInfo
+    description = ComDayCqWcmFoundationImplHTTPAuthHandlerInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationImplHTTPAuthHandlerInfo
+
+  }
+}

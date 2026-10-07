@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties {
+    title = ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties
+    description = ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties
+    derivedFrom = Root
+    properties {
+        large_index_critical_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        large_index_warn_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties {
+    title = ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties
+    description = ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties
+
+  }
+}

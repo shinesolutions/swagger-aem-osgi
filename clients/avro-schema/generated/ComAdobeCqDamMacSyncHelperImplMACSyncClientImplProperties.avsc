@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties",
+  "fields": [
+    {
+      "name": "com.adobe.dam.mac.sync.client.so.timeout",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties = openapi_server.resourceTypes.OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo {
+    title = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo
+    description = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo {
+    title = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo
+    description = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo
+
+  }
+}

@@ -1,0 +1,18 @@
+package models
+
+type ComAdobeCqSocialDatastoreRdbImplSocialRdbResourceProviderFactorProperties struct {
+
+	SolrZkTimeout ConfigNodePropertyString `json:"solr.zk.timeout,omitempty"`
+
+	SolrCommit ConfigNodePropertyString `json:"solr.commit,omitempty"`
+
+	CacheOn ConfigNodePropertyBoolean `json:"cache.on,omitempty"`
+
+	ConcurrencyLevel ConfigNodePropertyInteger `json:"concurrency.level,omitempty"`
+
+	CacheStartSize ConfigNodePropertyInteger `json:"cache.start.size,omitempty"`
+
+	CacheTtl ConfigNodePropertyInteger `json:"cache.ttl,omitempty"`
+
+	CacheSize ConfigNodePropertyInteger `json:"cache.size,omitempty"`
+}

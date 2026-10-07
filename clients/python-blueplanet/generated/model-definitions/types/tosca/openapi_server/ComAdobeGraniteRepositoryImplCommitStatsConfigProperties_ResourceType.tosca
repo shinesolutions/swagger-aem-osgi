@@ -1,0 +1,99 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteRepositoryImplCommitStatsConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteRepositoryImplCommitStatsConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteRepositoryImplCommitStatsConfigProperties {
+    title = ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
+    description = ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
+    derivedFrom = Root
+    properties {
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        interval_seconds {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        commits_per_interval_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_location_length {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_details_shown {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        min_details_percentage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        thread_matchers {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        max_greedy_depth {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        greedy_stack_matchers {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        stack_filters {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        stack_matchers {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        stack_categorizers {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        stack_shorteners {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteRepositoryImplCommitStatsConfigProperties {
+    title = ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
+    description = ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
+
+  }
+}

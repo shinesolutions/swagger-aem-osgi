@@ -1,0 +1,78 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComDayCqDamCoreImplServletCreateAssetServletProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean detectDuplicate;
+ /**
+  * Get detectDuplicate
+  * @return detectDuplicate
+  */
+  @JsonProperty("detect_duplicate")
+  public ConfigNodePropertyBoolean getDetectDuplicate() {
+    return detectDuplicate;
+  }
+
+  /**
+   * Sets the <code>detectDuplicate</code> property.
+   */
+ public void setDetectDuplicate(ConfigNodePropertyBoolean detectDuplicate) {
+    this.detectDuplicate = detectDuplicate;
+  }
+
+  /**
+   * Sets the <code>detectDuplicate</code> property.
+   */
+  public ComDayCqDamCoreImplServletCreateAssetServletProperties detectDuplicate(ConfigNodePropertyBoolean detectDuplicate) {
+    this.detectDuplicate = detectDuplicate;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplServletCreateAssetServletProperties comDayCqDamCoreImplServletCreateAssetServletProperties = (ComDayCqDamCoreImplServletCreateAssetServletProperties) o;
+    return Objects.equals(this.detectDuplicate, comDayCqDamCoreImplServletCreateAssetServletProperties.detectDuplicate);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(detectDuplicate);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComDayCqDamCoreImplServletCreateAssetServletProperties {\n");
+    
+    sb.append("    detectDuplicate: ").append(toIndentedString(detectDuplicate)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

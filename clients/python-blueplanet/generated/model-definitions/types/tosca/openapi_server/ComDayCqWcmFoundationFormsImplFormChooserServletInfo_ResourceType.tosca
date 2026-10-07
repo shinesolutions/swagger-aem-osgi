@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationFormsImplFormChooserServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationFormsImplFormChooserServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmFoundationFormsImplFormChooserServletProperties = openapi_server.resourceTypes.ComDayCqWcmFoundationFormsImplFormChooserServletProperties
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationFormsImplFormChooserServletInfo {
+    title = ComDayCqWcmFoundationFormsImplFormChooserServletInfo
+    description = ComDayCqWcmFoundationFormsImplFormChooserServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmFoundationFormsImplFormChooserServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationFormsImplFormChooserServletInfo {
+    title = ComDayCqWcmFoundationFormsImplFormChooserServletInfo
+    description = ComDayCqWcmFoundationFormsImplFormChooserServletInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationFormsImplFormChooserServletInfo
+
+  }
+}

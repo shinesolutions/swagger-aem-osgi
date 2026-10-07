@@ -1,0 +1,89 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties {
+    title = OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
+    description = OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        min_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        queue_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_thread_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        keep_alive_time {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        block_policy {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        shutdown_graceful {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        daemon {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        shutdown_wait_time {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        priority {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties {
+    title = OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
+    description = OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
+
+  }
+}

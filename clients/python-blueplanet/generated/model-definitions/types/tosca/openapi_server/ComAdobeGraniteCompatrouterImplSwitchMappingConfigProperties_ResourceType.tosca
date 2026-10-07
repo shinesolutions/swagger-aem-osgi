@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties {
+    title = ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties
+    description = ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties
+    derivedFrom = Root
+    properties {
+        group {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ids {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties {
+    title = ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties
+    description = ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties
+
+  }
+}

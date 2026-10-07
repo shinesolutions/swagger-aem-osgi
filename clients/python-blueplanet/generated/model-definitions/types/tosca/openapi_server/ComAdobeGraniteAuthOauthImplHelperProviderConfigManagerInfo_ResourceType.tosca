@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo {
+    title = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo
+    description = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo {
+    title = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo
+    description = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo
+
+  }
+}

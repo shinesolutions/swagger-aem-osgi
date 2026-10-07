@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "com_adobe_cq_screens_analytics_impl_url" },
+      {"model": "com_adobe_cq_screens_analytics_impl_apikey" },
+      {"model": "com_adobe_cq_screens_analytics_impl_project" },
+      {"model": "com_adobe_cq_screens_analytics_impl_environment" },
+      {"model": "com_adobe_cq_screens_analytics_impl_send_frequency" },
+    ]
+  }]
+}

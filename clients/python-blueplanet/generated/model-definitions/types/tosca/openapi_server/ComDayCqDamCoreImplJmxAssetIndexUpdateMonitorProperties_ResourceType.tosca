@@ -1,0 +1,79 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyFloat = openapi_server.resourceTypes.ConfigNodePropertyFloat
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties {
+    title = ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties
+    description = ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties
+    derivedFrom = Root
+    properties {
+        jmx_objectname {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        property_measure_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        property_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        property_max_wait_ms {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        property_max_rate {
+          type = ConfigNodePropertyFloat
+          description = ""
+          optional = false
+        }
+        fulltext_measure_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        fulltext_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        fulltext_max_wait_ms {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        fulltext_max_rate {
+          type = ConfigNodePropertyFloat
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties {
+    title = ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties
+    description = ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties
+
+  }
+}

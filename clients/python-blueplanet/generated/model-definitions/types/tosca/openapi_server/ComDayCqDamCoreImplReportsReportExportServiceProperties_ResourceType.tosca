@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplReportsReportExportServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplReportsReportExportServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplReportsReportExportServiceProperties {
+    title = ComDayCqDamCoreImplReportsReportExportServiceProperties
+    description = ComDayCqDamCoreImplReportsReportExportServiceProperties
+    derivedFrom = Root
+    properties {
+        query_batch_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplReportsReportExportServiceProperties {
+    title = ComDayCqDamCoreImplReportsReportExportServiceProperties
+    description = ComDayCqDamCoreImplReportsReportExportServiceProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplReportsReportExportServiceProperties
+
+  }
+}

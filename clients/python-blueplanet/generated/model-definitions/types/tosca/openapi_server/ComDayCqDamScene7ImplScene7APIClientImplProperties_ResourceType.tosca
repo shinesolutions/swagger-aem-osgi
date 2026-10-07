@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamScene7ImplScene7APIClientImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamScene7ImplScene7APIClientImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamScene7ImplScene7APIClientImplProperties {
+    title = ComDayCqDamScene7ImplScene7APIClientImplProperties
+    description = ComDayCqDamScene7ImplScene7APIClientImplProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_scene7_apiclient_recordsperpage_nofilter_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_scene7_apiclient_recordsperpage_withfilter_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamScene7ImplScene7APIClientImplProperties {
+    title = ComDayCqDamScene7ImplScene7APIClientImplProperties
+    description = ComDayCqDamScene7ImplScene7APIClientImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamScene7ImplScene7APIClientImplProperties
+
+  }
+}

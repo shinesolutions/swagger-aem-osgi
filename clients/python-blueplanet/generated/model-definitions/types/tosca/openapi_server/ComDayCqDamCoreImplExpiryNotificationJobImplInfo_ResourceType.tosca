@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplExpiryNotificationJobImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplExpiryNotificationJobImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplExpiryNotificationJobImplProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplExpiryNotificationJobImplProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplExpiryNotificationJobImplInfo {
+    title = ComDayCqDamCoreImplExpiryNotificationJobImplInfo
+    description = ComDayCqDamCoreImplExpiryNotificationJobImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplExpiryNotificationJobImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplExpiryNotificationJobImplInfo {
+    title = ComDayCqDamCoreImplExpiryNotificationJobImplInfo
+    description = ComDayCqDamCoreImplExpiryNotificationJobImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplExpiryNotificationJobImplInfo
+
+  }
+}

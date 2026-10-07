@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo {
+    title = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo
+    description = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo {
+    title = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo
+    description = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo
+
+  }
+}

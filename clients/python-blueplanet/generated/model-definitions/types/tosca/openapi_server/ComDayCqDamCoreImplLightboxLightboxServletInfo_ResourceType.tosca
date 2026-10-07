@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplLightboxLightboxServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplLightboxLightboxServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplLightboxLightboxServletProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplLightboxLightboxServletProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplLightboxLightboxServletInfo {
+    title = ComDayCqDamCoreImplLightboxLightboxServletInfo
+    description = ComDayCqDamCoreImplLightboxLightboxServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplLightboxLightboxServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplLightboxLightboxServletInfo {
+    title = ComDayCqDamCoreImplLightboxLightboxServletInfo
+    description = ComDayCqDamCoreImplLightboxLightboxServletInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplLightboxLightboxServletInfo
+
+  }
+}

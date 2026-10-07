@@ -1,0 +1,57 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties {
+    title = ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
+    description = ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
+    derivedFrom = Root
+    properties {
+        inbox_impl_typeprovider_registrypaths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        inbox_impl_typeprovider_legacypaths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        inbox_impl_typeprovider_defaulturl_failureitem {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        inbox_impl_typeprovider_defaulturl_workitem {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        inbox_impl_typeprovider_defaulturl_task {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties {
+    title = ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
+    description = ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
+
+  }
+}

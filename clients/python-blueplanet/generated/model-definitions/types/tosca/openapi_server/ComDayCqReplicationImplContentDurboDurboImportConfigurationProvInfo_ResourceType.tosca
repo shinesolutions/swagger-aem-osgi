@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties = openapi_server.resourceTypes.ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties
+}
+resourceTypes {
+
+  ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo {
+    title = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo
+    description = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo {
+    title = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo
+    description = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo
+    implements = openapi_server.resourceTypes.ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo
+
+  }
+}

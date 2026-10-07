@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
+}
+resourceTypes {
+
+  ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo {
+    title = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo
+    description = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo {
+    title = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo
+    description = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo
+
+  }
+}

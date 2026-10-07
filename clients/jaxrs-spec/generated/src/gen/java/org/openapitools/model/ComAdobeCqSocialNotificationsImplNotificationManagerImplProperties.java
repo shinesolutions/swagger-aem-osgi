@@ -1,0 +1,84 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("comAdobeCqSocialNotificationsImplNotificationManagerImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties   {
+  private ConfigNodePropertyInteger maxUnreadNotificationCount;
+
+  public ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties() {
+  }
+
+  /**
+   **/
+  public ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties maxUnreadNotificationCount(ConfigNodePropertyInteger maxUnreadNotificationCount) {
+    this.maxUnreadNotificationCount = maxUnreadNotificationCount;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("max.unread.notification.count")
+  @Valid public ConfigNodePropertyInteger getMaxUnreadNotificationCount() {
+    return maxUnreadNotificationCount;
+  }
+
+  @JsonProperty("max.unread.notification.count")
+  public void setMaxUnreadNotificationCount(ConfigNodePropertyInteger maxUnreadNotificationCount) {
+    this.maxUnreadNotificationCount = maxUnreadNotificationCount;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties comAdobeCqSocialNotificationsImplNotificationManagerImplProperties = (ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties) o;
+    return Objects.equals(this.maxUnreadNotificationCount, comAdobeCqSocialNotificationsImplNotificationManagerImplProperties.maxUnreadNotificationCount);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(maxUnreadNotificationCount);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties {\n");
+    
+    sb.append("    maxUnreadNotificationCount: ").append(toIndentedString(maxUnreadNotificationCount)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}

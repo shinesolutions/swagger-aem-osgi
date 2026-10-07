@@ -1,0 +1,26 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "manager_root" },
+      {"model": "http_service_filter" },
+      {"model": "default_render" },
+      {"model": "realm" },
+      {"model": "username" },
+      {"model": "password" },
+      {"model": "category" },
+      {"model": "locale" },
+      {"model": "loglevel" },
+      {"model": "plugins" },
+    ]
+  }]
+}

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties {
+    title = ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties
+    description = ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties
+    derivedFrom = Root
+    properties {
+        delete_path_regexps {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        delete_sql2_query {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties {
+    title = ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties
+    description = ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties
+
+  }
+}

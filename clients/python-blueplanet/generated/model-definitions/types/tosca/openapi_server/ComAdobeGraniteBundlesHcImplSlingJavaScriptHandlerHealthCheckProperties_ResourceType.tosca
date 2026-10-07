@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties {
+    title = ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties
+    description = ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties
+    derivedFrom = Root
+    properties {
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties {
+    title = ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties
+    description = ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckProperties
+
+  }
+}

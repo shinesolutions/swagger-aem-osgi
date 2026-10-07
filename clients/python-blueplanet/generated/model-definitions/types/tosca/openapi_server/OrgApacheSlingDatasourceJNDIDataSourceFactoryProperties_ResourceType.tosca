@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties {
+    title = OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties
+    description = OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties
+    derivedFrom = Root
+    properties {
+        datasource_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        datasource_svc_prop_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        datasource_jndi_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jndi_properties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties {
+    title = OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties
+    description = OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties
+
+  }
+}

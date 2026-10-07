@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamHandlerStandardPsdPsdHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamHandlerStandardPsdPsdHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamHandlerStandardPsdPsdHandlerProperties {
+    title = ComDayCqDamHandlerStandardPsdPsdHandlerProperties
+    description = ComDayCqDamHandlerStandardPsdPsdHandlerProperties
+    derivedFrom = Root
+    properties {
+        large_file_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamHandlerStandardPsdPsdHandlerProperties {
+    title = ComDayCqDamHandlerStandardPsdPsdHandlerProperties
+    description = ComDayCqDamHandlerStandardPsdPsdHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamHandlerStandardPsdPsdHandlerProperties
+
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "more_info" },
+      {"model": "mnt_overlay_dam_gui_content_assets_moreinfo_html_path" },
+    ]
+  }]
+}

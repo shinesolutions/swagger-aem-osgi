@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server GuideLocalizationServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a GuideLocalizationServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  GuideLocalizationServiceProperties {
+    title = GuideLocalizationServiceProperties
+    description = GuideLocalizationServiceProperties
+    derivedFrom = Root
+    properties {
+        supported_locales {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        localizable_properties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  GuideLocalizationServiceProperties {
+    title = GuideLocalizationServiceProperties
+    description = GuideLocalizationServiceProperties
+    implements = openapi_server.resourceTypes.GuideLocalizationServiceProperties
+
+  }
+}

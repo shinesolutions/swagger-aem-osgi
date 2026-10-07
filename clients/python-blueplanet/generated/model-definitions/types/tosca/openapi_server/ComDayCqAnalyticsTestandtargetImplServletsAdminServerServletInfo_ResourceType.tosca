@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletProperties = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletProperties
+}
+resourceTypes {
+
+  ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo {
+    title = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo
+    description = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo {
+    title = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo
+    description = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo
+
+  }
+}

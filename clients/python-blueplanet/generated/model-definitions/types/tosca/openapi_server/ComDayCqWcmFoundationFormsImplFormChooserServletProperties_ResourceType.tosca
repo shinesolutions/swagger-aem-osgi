@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationFormsImplFormChooserServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationFormsImplFormChooserServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationFormsImplFormChooserServletProperties {
+    title = ComDayCqWcmFoundationFormsImplFormChooserServletProperties
+    description = ComDayCqWcmFoundationFormsImplFormChooserServletProperties
+    derivedFrom = Root
+    properties {
+        service_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_resource_types {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_selectors {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_methods {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        forms_formchooserservlet_advansesearch_require {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationFormsImplFormChooserServletProperties {
+    title = ComDayCqWcmFoundationFormsImplFormChooserServletProperties
+    description = ComDayCqWcmFoundationFormsImplFormChooserServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationFormsImplFormChooserServletProperties
+
+  }
+}

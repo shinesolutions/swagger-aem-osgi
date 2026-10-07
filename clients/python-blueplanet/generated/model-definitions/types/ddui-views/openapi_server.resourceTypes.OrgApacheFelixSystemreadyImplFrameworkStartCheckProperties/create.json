@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "timeout" },
+      {"model": "target_start_level" },
+      {"model": "target_start_level_prop_name" },
+      {"model": "type" },
+    ]
+  }]
+}

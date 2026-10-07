@@ -1,0 +1,22 @@
+package models
+
+type ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties struct {
+
+	JmxObjectname ConfigNodePropertyString `json:"jmx.objectname,omitempty"`
+
+	PropertyMeasureEnabled ConfigNodePropertyBoolean `json:"property.measure.enabled,omitempty"`
+
+	PropertyName ConfigNodePropertyString `json:"property.name,omitempty"`
+
+	PropertyMaxWaitMs ConfigNodePropertyInteger `json:"property.max.wait.ms,omitempty"`
+
+	PropertyMaxRate ConfigNodePropertyFloat `json:"property.max.rate,omitempty"`
+
+	FulltextMeasureEnabled ConfigNodePropertyBoolean `json:"fulltext.measure.enabled,omitempty"`
+
+	FulltextName ConfigNodePropertyString `json:"fulltext.name,omitempty"`
+
+	FulltextMaxWaitMs ConfigNodePropertyInteger `json:"fulltext.max.wait.ms,omitempty"`
+
+	FulltextMaxRate ConfigNodePropertyFloat `json:"fulltext.max.rate,omitempty"`
+}

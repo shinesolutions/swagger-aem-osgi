@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixHttpSslfilterSslFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixHttpSslfilterSslFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheFelixHttpSslfilterSslFilterProperties {
+    title = OrgApacheFelixHttpSslfilterSslFilterProperties
+    description = OrgApacheFelixHttpSslfilterSslFilterProperties
+    derivedFrom = Root
+    properties {
+        ssl_forward_header {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ssl_forward_value {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ssl_forward_cert_header {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        rewrite_absolute_urls {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixHttpSslfilterSslFilterProperties {
+    title = OrgApacheFelixHttpSslfilterSslFilterProperties
+    description = OrgApacheFelixHttpSslfilterSslFilterProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixHttpSslfilterSslFilterProperties
+
+  }
+}

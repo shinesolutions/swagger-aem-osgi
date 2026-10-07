@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamScene7ImplScene7UploadServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamScene7ImplScene7UploadServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamScene7ImplScene7UploadServiceImplProperties {
+    title = ComDayCqDamScene7ImplScene7UploadServiceImplProperties
+    description = ComDayCqDamScene7ImplScene7UploadServiceImplProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_scene7_uploadservice_activejobtimeout_label {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_scene7_uploadservice_connectionmaxperroute_label {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamScene7ImplScene7UploadServiceImplProperties {
+    title = ComDayCqDamScene7ImplScene7UploadServiceImplProperties
+    description = ComDayCqDamScene7ImplScene7UploadServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamScene7ImplScene7UploadServiceImplProperties
+
+  }
+}

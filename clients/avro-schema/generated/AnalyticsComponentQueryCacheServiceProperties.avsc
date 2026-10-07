@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "AnalyticsComponentQueryCacheServiceProperties",
+  "fields": [
+    {
+      "name": "cq.analytics.component.query.cache.size",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -1,0 +1,153 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties {
+    title = OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties
+    description = OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties
+    derivedFrom = Root
+    properties {
+        repository_home {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        tarmk_mode {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        tarmk_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        segment_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        string_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        template_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        string_deduplication_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        template_deduplication_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        node_deduplication_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        pause_compaction {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        compaction_retry_count {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        compaction_force_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        compaction_size_delta_estimation {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        compaction_disable_estimation {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        compaction_retained_generations {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        compaction_memory_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        compaction_progress_log {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        standby {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        custom_blob_store {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        custom_segment_store {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        split_persistence {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        repository_backup_dir {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        blob_gc_max_age_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        blob_track_snapshot_interval_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties {
+    title = OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties
+    description = OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties
+
+  }
+}

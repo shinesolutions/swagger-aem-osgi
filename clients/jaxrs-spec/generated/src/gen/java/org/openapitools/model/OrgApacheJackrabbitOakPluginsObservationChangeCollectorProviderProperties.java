@@ -1,0 +1,129 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties   {
+  private ConfigNodePropertyInteger maxItems;
+  private ConfigNodePropertyInteger maxPathDepth;
+  private ConfigNodePropertyBoolean enabled;
+
+  public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties() {
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties maxItems(ConfigNodePropertyInteger maxItems) {
+    this.maxItems = maxItems;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("maxItems")
+  @Valid public ConfigNodePropertyInteger getMaxItems() {
+    return maxItems;
+  }
+
+  @JsonProperty("maxItems")
+  public void setMaxItems(ConfigNodePropertyInteger maxItems) {
+    this.maxItems = maxItems;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties maxPathDepth(ConfigNodePropertyInteger maxPathDepth) {
+    this.maxPathDepth = maxPathDepth;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("maxPathDepth")
+  @Valid public ConfigNodePropertyInteger getMaxPathDepth() {
+    return maxPathDepth;
+  }
+
+  @JsonProperty("maxPathDepth")
+  public void setMaxPathDepth(ConfigNodePropertyInteger maxPathDepth) {
+    this.maxPathDepth = maxPathDepth;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties enabled(ConfigNodePropertyBoolean enabled) {
+    this.enabled = enabled;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("enabled")
+  @Valid public ConfigNodePropertyBoolean getEnabled() {
+    return enabled;
+  }
+
+  @JsonProperty("enabled")
+  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+    this.enabled = enabled;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties = (OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties) o;
+    return Objects.equals(this.maxItems, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.maxItems) &&
+        Objects.equals(this.maxPathDepth, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.maxPathDepth) &&
+        Objects.equals(this.enabled, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.enabled);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(maxItems, maxPathDepth, enabled);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties {\n");
+    
+    sb.append("    maxItems: ").append(toIndentedString(maxItems)).append("\n");
+    sb.append("    maxPathDepth: ").append(toIndentedString(maxPathDepth)).append("\n");
+    sb.append("    enabled: ").append(toIndentedString(enabled)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}

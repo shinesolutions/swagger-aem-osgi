@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties {
+    title = ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties
+    description = ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties
+    derivedFrom = Root
+    properties {
+        operation {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        operation_icon {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        topic_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        email_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties {
+    title = ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties
+    description = ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties
+
+  }
+}

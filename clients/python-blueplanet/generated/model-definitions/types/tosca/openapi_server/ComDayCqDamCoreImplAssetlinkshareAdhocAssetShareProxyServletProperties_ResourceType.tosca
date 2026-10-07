@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties {
+    title = ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties
+    description = ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_adhoc_asset_share_prezip_maxcontentsize {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties {
+    title = ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties
+    description = ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties
+
+  }
+}

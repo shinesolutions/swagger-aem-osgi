@@ -1,0 +1,1 @@
+serviceName,triggers.target,apply,queue.processing.enabled,transportSecretProvider.target,post,retry.strategy,enabled,requestAuthorizationStrategy.target,queue.provider,retry.attempts,packageBuilder.target,propertylist,$location,http.conn.timeout,details,allowed.roots,async.delivery,action,title,priorityQueues,log.level,passiveQueues,delete,name,packageImporter.endpoints

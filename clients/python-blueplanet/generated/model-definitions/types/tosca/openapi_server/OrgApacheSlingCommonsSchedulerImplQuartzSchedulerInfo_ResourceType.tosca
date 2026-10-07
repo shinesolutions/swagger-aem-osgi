@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties = openapi_server.resourceTypes.OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo {
+    title = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo
+    description = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo {
+    title = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo
+    description = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo
+
+  }
+}

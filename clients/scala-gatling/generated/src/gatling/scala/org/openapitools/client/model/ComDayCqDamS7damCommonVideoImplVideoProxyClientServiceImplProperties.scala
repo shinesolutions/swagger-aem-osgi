@@ -1,0 +1,21 @@
+
+package org.openapitools.client.model
+
+
+case class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties (
+    _cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName: Option[ConfigNodePropertyInteger],
+    _cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName: Option[ConfigNodePropertyInteger],
+    _cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName: Option[ConfigNodePropertyInteger],
+    _cqDamS7damVideoproxyclientserviceHttpReadtimeoutName: Option[ConfigNodePropertyInteger],
+    _cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName: Option[ConfigNodePropertyInteger],
+    _cqDamS7damVideoproxyclientserviceHttpMaxretrycountName: Option[ConfigNodePropertyInteger],
+    _cqDamS7damVideoproxyclientserviceUploadprogressIntervalName: Option[ConfigNodePropertyInteger]
+)
+object ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties {
+    def toStringBody(var_cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName: Object, var_cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName: Object, var_cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName: Object, var_cqDamS7damVideoproxyclientserviceHttpReadtimeoutName: Object, var_cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName: Object, var_cqDamS7damVideoproxyclientserviceHttpMaxretrycountName: Object, var_cqDamS7damVideoproxyclientserviceUploadprogressIntervalName: Object) =
+        s"""
+        | {
+        | "cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName":$var_cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName,"cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName":$var_cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName,"cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName":$var_cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName,"cqDamS7damVideoproxyclientserviceHttpReadtimeoutName":$var_cqDamS7damVideoproxyclientserviceHttpReadtimeoutName,"cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName":$var_cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName,"cqDamS7damVideoproxyclientserviceHttpMaxretrycountName":$var_cqDamS7damVideoproxyclientserviceHttpMaxretrycountName,"cqDamS7damVideoproxyclientserviceUploadprogressIntervalName":$var_cqDamS7damVideoproxyclientserviceUploadprogressIntervalName
+        | }
+        """.stripMargin
+}

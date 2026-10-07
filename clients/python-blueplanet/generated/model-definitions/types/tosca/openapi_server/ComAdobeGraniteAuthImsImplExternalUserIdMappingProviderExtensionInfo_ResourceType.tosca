@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionProperties = openapi_server.resourceTypes.ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo {
+    title = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo
+    description = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo {
+    title = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo
+    description = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo
+
+  }
+}

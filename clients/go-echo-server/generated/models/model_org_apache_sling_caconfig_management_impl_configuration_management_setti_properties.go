@@ -1,0 +1,8 @@
+package models
+
+type OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties struct {
+
+	IgnorePropertyNameRegex ConfigNodePropertyArray `json:"ignorePropertyNameRegex,omitempty"`
+
+	ConfigCollectionPropertiesResourceNames ConfigNodePropertyArray `json:"configCollectionPropertiesResourceNames,omitempty"`
+}

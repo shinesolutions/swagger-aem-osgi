@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqJcrclustersupportClusterStartLevelControllerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqJcrclustersupportClusterStartLevelControllerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqJcrclustersupportClusterStartLevelControllerProperties {
+    title = ComDayCqJcrclustersupportClusterStartLevelControllerProperties
+    description = ComDayCqJcrclustersupportClusterStartLevelControllerProperties
+    derivedFrom = Root
+    properties {
+        cluster_level_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cluster_master_level {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_slave_level {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqJcrclustersupportClusterStartLevelControllerProperties {
+    title = ComDayCqJcrclustersupportClusterStartLevelControllerProperties
+    description = ComDayCqJcrclustersupportClusterStartLevelControllerProperties
+    implements = openapi_server.resourceTypes.ComDayCqJcrclustersupportClusterStartLevelControllerProperties
+
+  }
+}

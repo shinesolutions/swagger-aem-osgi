@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties = openapi_server.resourceTypes.ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo {
+    title = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo
+    description = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo {
+    title = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo
+    description = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo
+
+  }
+}

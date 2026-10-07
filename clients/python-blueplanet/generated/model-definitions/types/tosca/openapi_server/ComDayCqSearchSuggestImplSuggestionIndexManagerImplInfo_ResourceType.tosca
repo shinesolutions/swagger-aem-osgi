@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties = openapi_server.resourceTypes.ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties
+}
+resourceTypes {
+
+  ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo {
+    title = ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo
+    description = ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo {
+    title = ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo
+    description = ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo
+
+  }
+}

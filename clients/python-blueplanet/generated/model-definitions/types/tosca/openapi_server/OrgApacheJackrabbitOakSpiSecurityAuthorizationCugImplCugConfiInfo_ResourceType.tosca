@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo {
+    title = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo
+    description = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo {
+    title = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo
+    description = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo
+
+  }
+}

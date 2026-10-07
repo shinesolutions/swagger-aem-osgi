@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties = openapi_server.resourceTypes.ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo {
+    title = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo
+    description = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo {
+    title = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo
+    description = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo
+
+  }
+}

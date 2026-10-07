@@ -1,0 +1,93 @@
+package org.openapitools.model;
+
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyString;
+
+import io.swagger.annotations.ApiModelProperty;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties  {
+  
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyBoolean deviceInfoTransformerEnabled;
+
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyString deviceInfoTransformerCssStyle;
+ /**
+   * Get deviceInfoTransformerEnabled
+   * @return deviceInfoTransformerEnabled
+  **/
+  @JsonProperty("device.info.transformer.enabled")
+  public ConfigNodePropertyBoolean getDeviceInfoTransformerEnabled() {
+    return deviceInfoTransformerEnabled;
+  }
+
+  public void setDeviceInfoTransformerEnabled(ConfigNodePropertyBoolean deviceInfoTransformerEnabled) {
+    this.deviceInfoTransformerEnabled = deviceInfoTransformerEnabled;
+  }
+
+  public ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties deviceInfoTransformerEnabled(ConfigNodePropertyBoolean deviceInfoTransformerEnabled) {
+    this.deviceInfoTransformerEnabled = deviceInfoTransformerEnabled;
+    return this;
+  }
+
+ /**
+   * Get deviceInfoTransformerCssStyle
+   * @return deviceInfoTransformerCssStyle
+  **/
+  @JsonProperty("device.info.transformer.css.style")
+  public ConfigNodePropertyString getDeviceInfoTransformerCssStyle() {
+    return deviceInfoTransformerCssStyle;
+  }
+
+  public void setDeviceInfoTransformerCssStyle(ConfigNodePropertyString deviceInfoTransformerCssStyle) {
+    this.deviceInfoTransformerCssStyle = deviceInfoTransformerCssStyle;
+  }
+
+  public ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties deviceInfoTransformerCssStyle(ConfigNodePropertyString deviceInfoTransformerCssStyle) {
+    this.deviceInfoTransformerCssStyle = deviceInfoTransformerCssStyle;
+    return this;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties = (ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties) o;
+    return Objects.equals(this.deviceInfoTransformerEnabled, comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties.deviceInfoTransformerEnabled) &&
+        Objects.equals(this.deviceInfoTransformerCssStyle, comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties.deviceInfoTransformerCssStyle);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(deviceInfoTransformerEnabled, deviceInfoTransformerCssStyle);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties {\n");
+    
+    sb.append("    deviceInfoTransformerEnabled: ").append(toIndentedString(deviceInfoTransformerEnabled)).append("\n");
+    sb.append("    deviceInfoTransformerCssStyle: ").append(toIndentedString(deviceInfoTransformerCssStyle)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

@@ -1,0 +1,135 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties {
+    title = OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
+    description = OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        title {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        details {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        service_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        log_level {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        allowed_roots {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        queue_processing_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        package_importer_endpoints {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        passive_queues {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        priority_queues {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        retry_strategy {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        retry_attempts {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        request_authorization_strategy_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        transport_secret_provider_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        package_builder_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        triggers_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        queue_provider {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        async_delivery {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        http_conn_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties {
+    title = OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
+    description = OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
+
+  }
+}

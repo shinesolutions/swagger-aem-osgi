@@ -1,0 +1,98 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+
+
+
+public class OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties   {
+  
+  private ConfigNodePropertyString osgiHttpWhiteboardServletPattern;
+
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
+
+  /**
+   **/
+  public OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties osgiHttpWhiteboardServletPattern(ConfigNodePropertyString osgiHttpWhiteboardServletPattern) {
+    this.osgiHttpWhiteboardServletPattern = osgiHttpWhiteboardServletPattern;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("osgi.http.whiteboard.servlet.pattern")
+  public ConfigNodePropertyString getOsgiHttpWhiteboardServletPattern() {
+    return osgiHttpWhiteboardServletPattern;
+  }
+  public void setOsgiHttpWhiteboardServletPattern(ConfigNodePropertyString osgiHttpWhiteboardServletPattern) {
+    this.osgiHttpWhiteboardServletPattern = osgiHttpWhiteboardServletPattern;
+  }
+
+
+  /**
+   **/
+  public OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties osgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
+    this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("osgi.http.whiteboard.context.select")
+  public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
+    return osgiHttpWhiteboardContextSelect;
+  }
+  public void setOsgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
+    this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
+  }
+
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties orgApacheFelixSystemreadyImplServletSystemReadyServletProperties = (OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties) o;
+    return Objects.equals(this.osgiHttpWhiteboardServletPattern, orgApacheFelixSystemreadyImplServletSystemReadyServletProperties.osgiHttpWhiteboardServletPattern) &&
+        Objects.equals(this.osgiHttpWhiteboardContextSelect, orgApacheFelixSystemreadyImplServletSystemReadyServletProperties.osgiHttpWhiteboardContextSelect);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(osgiHttpWhiteboardServletPattern, osgiHttpWhiteboardContextSelect);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties {\n");
+    
+    sb.append("    osgiHttpWhiteboardServletPattern: ").append(toIndentedString(osgiHttpWhiteboardServletPattern)).append("\n");
+    sb.append("    osgiHttpWhiteboardContextSelect: ").append(toIndentedString(osgiHttpWhiteboardContextSelect)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

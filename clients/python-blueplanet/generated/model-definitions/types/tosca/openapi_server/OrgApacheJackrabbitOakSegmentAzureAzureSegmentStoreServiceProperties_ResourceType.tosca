@@ -1,0 +1,56 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties {
+    title = OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties
+    description = OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties
+    derivedFrom = Root
+    properties {
+        account_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        container_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        access_key {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        root_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        connection_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties {
+    title = OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties
+    description = OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties
+
+  }
+}

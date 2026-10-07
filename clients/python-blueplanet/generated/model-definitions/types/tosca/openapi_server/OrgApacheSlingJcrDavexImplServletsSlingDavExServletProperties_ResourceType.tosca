@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties {
+    title = OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties
+    description = OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties
+    derivedFrom = Root
+    properties {
+        alias {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        dav_create_absolute_uri {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        dav_protectedhandlers {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties {
+    title = OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties
+    description = OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties
+
+  }
+}

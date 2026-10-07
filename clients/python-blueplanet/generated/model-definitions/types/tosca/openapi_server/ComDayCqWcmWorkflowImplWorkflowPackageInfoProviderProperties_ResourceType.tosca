@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties {
+    title = ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties
+    description = ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties
+    derivedFrom = Root
+    properties {
+        workflowpackageinfoprovider_filter {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        workflowpackageinfoprovider_filter_rootpath {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties {
+    title = ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties
+    description = ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties
+
+  }
+}

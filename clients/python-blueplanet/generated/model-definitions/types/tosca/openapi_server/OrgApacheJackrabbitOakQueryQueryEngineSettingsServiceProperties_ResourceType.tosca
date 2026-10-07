@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties {
+    title = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
+    description = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
+    derivedFrom = Root
+    properties {
+        query_limit_in_memory {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        query_limit_reads {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        query_fail_traversal {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        fast_query_size {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties {
+    title = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
+    description = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
+
+  }
+}

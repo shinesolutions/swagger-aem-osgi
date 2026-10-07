@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties {
+    title = ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties
+    description = ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties
+    derivedFrom = Root
+    properties {
+        redirect_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        redirect_stats_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        redirect_extensions {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        redirect_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties {
+    title = ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties
+    description = ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties
+
+  }
+}

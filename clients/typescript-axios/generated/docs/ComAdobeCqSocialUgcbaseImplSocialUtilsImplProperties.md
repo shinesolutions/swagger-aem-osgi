@@ -1,0 +1,20 @@
+# ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**legacyCloudUGCPathMapping** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties } from './api';
+
+const instance: ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties = {
+    legacyCloudUGCPathMapping,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

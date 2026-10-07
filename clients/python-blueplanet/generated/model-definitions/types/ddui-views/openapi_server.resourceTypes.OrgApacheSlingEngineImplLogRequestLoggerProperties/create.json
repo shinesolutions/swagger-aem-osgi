@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "request_log_output" },
+      {"model": "request_log_outputtype" },
+      {"model": "request_log_enabled" },
+      {"model": "access_log_output" },
+      {"model": "access_log_outputtype" },
+      {"model": "access_log_enabled" },
+    ]
+  }]
+}

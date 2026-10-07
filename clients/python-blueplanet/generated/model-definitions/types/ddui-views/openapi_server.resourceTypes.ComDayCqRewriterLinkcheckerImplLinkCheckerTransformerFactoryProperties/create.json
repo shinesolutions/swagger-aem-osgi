@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "linkcheckertransformer_disable_rewriting" },
+      {"model": "linkcheckertransformer_disable_checking" },
+      {"model": "linkcheckertransformer_map_cache_size" },
+      {"model": "linkcheckertransformer_strict_extension_check" },
+      {"model": "linkcheckertransformer_strip_htmlt_extension" },
+      {"model": "linkcheckertransformer_rewrite_elements" },
+      {"model": "linkcheckertransformer_strip_extension_path_blacklist" },
+    ]
+  }]
+}

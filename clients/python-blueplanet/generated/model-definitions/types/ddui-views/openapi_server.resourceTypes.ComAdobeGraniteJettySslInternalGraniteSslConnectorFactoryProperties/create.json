@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "com_adobe_granite_jetty_ssl_port" },
+      {"model": "com_adobe_granite_jetty_ssl_keystore_user" },
+      {"model": "com_adobe_granite_jetty_ssl_keystore_password" },
+      {"model": "com_adobe_granite_jetty_ssl_ciphersuites_excluded" },
+      {"model": "com_adobe_granite_jetty_ssl_ciphersuites_included" },
+      {"model": "com_adobe_granite_jetty_ssl_client_certificate" },
+    ]
+  }]
+}

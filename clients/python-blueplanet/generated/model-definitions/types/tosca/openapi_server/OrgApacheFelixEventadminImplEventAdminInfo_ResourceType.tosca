@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixEventadminImplEventAdminInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixEventadminImplEventAdminInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheFelixEventadminImplEventAdminProperties = openapi_server.resourceTypes.OrgApacheFelixEventadminImplEventAdminProperties
+}
+resourceTypes {
+
+  OrgApacheFelixEventadminImplEventAdminInfo {
+    title = OrgApacheFelixEventadminImplEventAdminInfo
+    description = OrgApacheFelixEventadminImplEventAdminInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheFelixEventadminImplEventAdminProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixEventadminImplEventAdminInfo {
+    title = OrgApacheFelixEventadminImplEventAdminInfo
+    description = OrgApacheFelixEventadminImplEventAdminInfo
+    implements = openapi_server.resourceTypes.OrgApacheFelixEventadminImplEventAdminInfo
+
+  }
+}

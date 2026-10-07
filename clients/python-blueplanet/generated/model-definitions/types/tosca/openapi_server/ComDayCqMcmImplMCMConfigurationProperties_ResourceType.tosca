@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqMcmImplMCMConfigurationProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqMcmImplMCMConfigurationProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComDayCqMcmImplMCMConfigurationProperties {
+    title = ComDayCqMcmImplMCMConfigurationProperties
+    description = ComDayCqMcmImplMCMConfigurationProperties
+    derivedFrom = Root
+    properties {
+        experience_indirection {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        touchpoint_indirection {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqMcmImplMCMConfigurationProperties {
+    title = ComDayCqMcmImplMCMConfigurationProperties
+    description = ComDayCqMcmImplMCMConfigurationProperties
+    implements = openapi_server.resourceTypes.ComDayCqMcmImplMCMConfigurationProperties
+
+  }
+}

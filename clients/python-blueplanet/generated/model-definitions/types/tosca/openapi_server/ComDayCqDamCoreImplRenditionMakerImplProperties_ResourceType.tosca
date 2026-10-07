@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplRenditionMakerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplRenditionMakerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplRenditionMakerImplProperties {
+    title = ComDayCqDamCoreImplRenditionMakerImplProperties
+    description = ComDayCqDamCoreImplRenditionMakerImplProperties
+    derivedFrom = Root
+    properties {
+        xmp_propagate {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        xmp_excludes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplRenditionMakerImplProperties {
+    title = ComDayCqDamCoreImplRenditionMakerImplProperties
+    description = ComDayCqDamCoreImplRenditionMakerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplRenditionMakerImplProperties
+
+  }
+}

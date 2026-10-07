@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplEventPageEventAuditListenerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplEventPageEventAuditListenerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplEventPageEventAuditListenerProperties {
+    title = ComDayCqWcmCoreImplEventPageEventAuditListenerProperties
+    description = ComDayCqWcmCoreImplEventPageEventAuditListenerProperties
+    derivedFrom = Root
+    properties {
+        configured {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplEventPageEventAuditListenerProperties {
+    title = ComDayCqWcmCoreImplEventPageEventAuditListenerProperties
+    description = ComDayCqWcmCoreImplEventPageEventAuditListenerProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplEventPageEventAuditListenerProperties
+
+  }
+}

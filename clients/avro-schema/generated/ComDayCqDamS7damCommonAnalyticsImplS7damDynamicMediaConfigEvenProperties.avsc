@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties",
+  "fields": [
+    {
+      "name": "cq.dam.s7dam.dynamicmediaconfigeventlistener.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

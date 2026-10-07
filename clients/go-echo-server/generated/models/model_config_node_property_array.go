@@ -1,0 +1,22 @@
+package models
+
+type ConfigNodePropertyArray struct {
+
+	// property name
+	Name string `json:"name,omitempty"`
+
+	// True if optional
+	Optional bool `json:"optional,omitempty"`
+
+	// True if property is set
+	IsSet bool `json:"is_set,omitempty"`
+
+	// Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
+	Type int32 `json:"type,omitempty"`
+
+	// Property value
+	Values []string `json:"values,omitempty"`
+
+	// Property description
+	Description string `json:"description,omitempty"`
+}

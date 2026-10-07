@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties {
+    title = ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties
+    description = ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties
+    derivedFrom = Root
+    properties {
+        field_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        site_path_filters {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        site_package_group {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties {
+    title = ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties
+    description = ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties
+
+  }
+}

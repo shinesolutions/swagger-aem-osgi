@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties = openapi_server.resourceTypes.ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo {
+    title = ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo
+    description = ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo {
+    title = ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo
+    description = ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo
+
+  }
+}

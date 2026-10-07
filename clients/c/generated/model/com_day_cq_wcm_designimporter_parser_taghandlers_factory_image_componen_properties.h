@@ -1,0 +1,44 @@
+/*
+ * com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_H_
+#define _com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_t com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_t;
+
+#include "config_node_property_integer.h"
+#include "config_node_property_string.h"
+
+
+
+typedef struct com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_t {
+    struct config_node_property_integer_t *service_ranking; //model
+    struct config_node_property_string_t *tagpattern; //model
+    struct config_node_property_string_t *component_resource_type; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_t;
+
+__attribute__((deprecated)) com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_t *com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_create(
+    config_node_property_integer_t *service_ranking,
+    config_node_property_string_t *tagpattern,
+    config_node_property_string_t *component_resource_type
+);
+
+void com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_free(com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_t *com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties);
+
+com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_t *com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_parseFromJSON(cJSON *com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_propertiesJSON);
+
+cJSON *com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_convertToJSON(com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_t *com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties);
+
+#endif /* _com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen_properties_H_ */
+

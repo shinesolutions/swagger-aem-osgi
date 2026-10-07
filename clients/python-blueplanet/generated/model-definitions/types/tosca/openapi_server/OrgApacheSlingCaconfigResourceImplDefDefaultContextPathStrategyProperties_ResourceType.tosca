@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties {
+    title = OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties
+    description = OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties
+    derivedFrom = Root
+    properties {
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        config_ref_resource_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        config_ref_property_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties {
+    title = OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties
+    description = OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties
+
+  }
+}

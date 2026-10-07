@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties = openapi_server.resourceTypes.OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties
+}
+resourceTypes {
+
+  OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo {
+    title = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo
+    description = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo {
+    title = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo
+    description = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo
+
+  }
+}

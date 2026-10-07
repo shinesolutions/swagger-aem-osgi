@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "feature_name" },
+      {"model": "feature_description" },
+      {"model": "active_percentage" },
+      {"model": "cookie_name" },
+      {"model": "cookie_max_age" },
+    ]
+  }]
+}

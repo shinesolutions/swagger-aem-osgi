@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties = openapi_server.resourceTypes.OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties
+}
+resourceTypes {
+
+  OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo {
+    title = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo
+    description = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo {
+    title = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo
+    description = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo
+
+  }
+}

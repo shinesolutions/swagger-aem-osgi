@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqContentsyncImplContentSyncManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqContentsyncImplContentSyncManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqContentsyncImplContentSyncManagerImplProperties {
+    title = ComDayCqContentsyncImplContentSyncManagerImplProperties
+    description = ComDayCqContentsyncImplContentSyncManagerImplProperties
+    derivedFrom = Root
+    properties {
+        contentsync_fallback_authorizable {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        contentsync_fallback_updateuser {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqContentsyncImplContentSyncManagerImplProperties {
+    title = ComDayCqContentsyncImplContentSyncManagerImplProperties
+    description = ComDayCqContentsyncImplContentSyncManagerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqContentsyncImplContentSyncManagerImplProperties
+
+  }
+}

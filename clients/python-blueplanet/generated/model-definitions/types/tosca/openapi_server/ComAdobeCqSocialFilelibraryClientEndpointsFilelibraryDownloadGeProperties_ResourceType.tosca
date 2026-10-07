@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties {
+    title = ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties
+    description = ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_selectors {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_extensions {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties {
+    title = ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties
+    description = ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties
+
+  }
+}

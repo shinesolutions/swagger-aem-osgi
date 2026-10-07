@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplVersionManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplVersionManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplVersionManagerImplProperties {
+    title = ComDayCqWcmCoreImplVersionManagerImplProperties
+    description = ComDayCqWcmCoreImplVersionManagerImplProperties
+    derivedFrom = Root
+    properties {
+        versionmanager_create_version_on_activation {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        versionmanager_purging_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        versionmanager_purge_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        versionmanager_iv_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        versionmanager_max_age_days {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        versionmanager_max_number_versions {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        versionmanager_min_number_versions {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplVersionManagerImplProperties {
+    title = ComDayCqWcmCoreImplVersionManagerImplProperties
+    description = ComDayCqWcmCoreImplVersionManagerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplVersionManagerImplProperties
+
+  }
+}

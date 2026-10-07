@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties {
+    title = ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties
+    description = ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties
+    derivedFrom = Root
+    properties {
+        supported_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties {
+    title = ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties
+    description = ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties
+
+  }
+}

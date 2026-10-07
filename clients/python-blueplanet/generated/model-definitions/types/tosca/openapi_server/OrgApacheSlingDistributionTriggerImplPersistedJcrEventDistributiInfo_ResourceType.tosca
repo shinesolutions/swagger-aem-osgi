@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties = openapi_server.resourceTypes.OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo {
+    title = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo
+    description = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo {
+    title = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo
+    description = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo
+
+  }
+}

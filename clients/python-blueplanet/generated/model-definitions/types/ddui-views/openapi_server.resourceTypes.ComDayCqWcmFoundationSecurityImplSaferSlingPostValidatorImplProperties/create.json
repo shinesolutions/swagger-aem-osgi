@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "parameter_whitelist" },
+      {"model": "parameter_whitelist_prefixes" },
+      {"model": "binary_parameter_whitelist" },
+      {"model": "modifier_whitelist" },
+      {"model": "operation_whitelist" },
+      {"model": "operation_whitelist_prefixes" },
+      {"model": "typehint_whitelist" },
+      {"model": "resourcetype_whitelist" },
+    ]
+  }]
+}

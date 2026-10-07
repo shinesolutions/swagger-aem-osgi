@@ -1,0 +1,57 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties {
+    title = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
+    description = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
+    derivedFrom = Root
+    properties {
+        jaas_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        jaas_control_flag {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_realm_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        idp_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sync_handler_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties {
+    title = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
+    description = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
+
+  }
+}

@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties {
+    title = ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties
+    description = ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties
+    derivedFrom = Root
+    properties {
+        group_listing_pagination_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        group_listing_lazyloading_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        page_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        priority {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties {
+    title = ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties
+    description = ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties
+
+  }
+}

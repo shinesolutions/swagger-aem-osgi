@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCrxSecurityTokenImplTokenCleanupTaskInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCrxSecurityTokenImplTokenCleanupTaskInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCrxSecurityTokenImplTokenCleanupTaskProperties = openapi_server.resourceTypes.ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
+}
+resourceTypes {
+
+  ComDayCrxSecurityTokenImplTokenCleanupTaskInfo {
+    title = ComDayCrxSecurityTokenImplTokenCleanupTaskInfo
+    description = ComDayCrxSecurityTokenImplTokenCleanupTaskInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCrxSecurityTokenImplTokenCleanupTaskInfo {
+    title = ComDayCrxSecurityTokenImplTokenCleanupTaskInfo
+    description = ComDayCrxSecurityTokenImplTokenCleanupTaskInfo
+    implements = openapi_server.resourceTypes.ComDayCrxSecurityTokenImplTokenCleanupTaskInfo
+
+  }
+}

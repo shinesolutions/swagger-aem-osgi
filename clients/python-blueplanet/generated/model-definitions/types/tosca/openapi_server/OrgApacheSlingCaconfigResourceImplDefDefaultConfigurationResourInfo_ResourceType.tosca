@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties = openapi_server.resourceTypes.OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties
+}
+resourceTypes {
+
+  OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo {
+    title = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo
+    description = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo {
+    title = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo
+    description = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo
+
+  }
+}

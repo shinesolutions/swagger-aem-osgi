@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteInfocollectorInfoCollectorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteInfocollectorInfoCollectorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeGraniteInfocollectorInfoCollectorProperties {
+    title = ComAdobeGraniteInfocollectorInfoCollectorProperties
+    description = ComAdobeGraniteInfocollectorInfoCollectorProperties
+    derivedFrom = Root
+    properties {
+        granite_infocollector_include_thread_dumps {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_infocollector_include_heap_dump {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteInfocollectorInfoCollectorProperties {
+    title = ComAdobeGraniteInfocollectorInfoCollectorProperties
+    description = ComAdobeGraniteInfocollectorInfoCollectorProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteInfocollectorInfoCollectorProperties
+
+  }
+}

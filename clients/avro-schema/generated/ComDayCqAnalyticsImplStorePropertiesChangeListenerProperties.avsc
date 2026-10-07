@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqAnalyticsImplStorePropertiesChangeListenerProperties",
+  "fields": [
+    {
+      "name": "cq.store.listener.additionalStorePaths",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

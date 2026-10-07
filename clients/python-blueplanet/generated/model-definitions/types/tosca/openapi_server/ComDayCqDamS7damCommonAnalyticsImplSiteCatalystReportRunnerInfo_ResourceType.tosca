@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties = openapi_server.resourceTypes.ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties
+}
+resourceTypes {
+
+  ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo {
+    title = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo
+    description = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo {
+    title = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo
+    description = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo
+
+  }
+}

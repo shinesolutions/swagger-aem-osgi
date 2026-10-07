@@ -1,0 +1,80 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmMsmImplRolloutManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmMsmImplRolloutManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmMsmImplRolloutManagerImplProperties {
+    title = ComDayCqWcmMsmImplRolloutManagerImplProperties
+    description = ComDayCqWcmMsmImplRolloutManagerImplProperties
+    derivedFrom = Root
+    properties {
+        event_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        rolloutmgr_excludedprops_default {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        rolloutmgr_excludedparagraphprops_default {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        rolloutmgr_excludednodetypes_default {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        rolloutmgr_threadpool_maxsize {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        rolloutmgr_threadpool_maxshutdowntime {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        rolloutmgr_threadpool_priority {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        rolloutmgr_commit_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        rolloutmgr_conflicthandling_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmMsmImplRolloutManagerImplProperties {
+    title = ComDayCqWcmMsmImplRolloutManagerImplProperties
+    description = ComDayCqWcmMsmImplRolloutManagerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmMsmImplRolloutManagerImplProperties
+
+  }
+}

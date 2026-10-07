@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties {
+    title = ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties
+    description = ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties
+    derivedFrom = Root
+    properties {
+        sling_post_operation {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_methods {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties {
+    title = ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties
+    description = ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties
+
+  }
+}

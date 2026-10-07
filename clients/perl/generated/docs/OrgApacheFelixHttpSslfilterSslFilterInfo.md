@@ -1,0 +1,18 @@
+# WWW::OpenAPIClient::Object::OrgApacheFelixHttpSslfilterSslFilterInfo
+
+## Load the model package
+```perl
+use WWW::OpenAPIClient::Object::OrgApacheFelixHttpSslfilterSslFilterInfo;
+```
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **string** |  | [optional] 
+**title** | **string** |  | [optional] 
+**description** | **string** |  | [optional] 
+**properties** | [**OrgApacheFelixHttpSslfilterSslFilterProperties**](OrgApacheFelixHttpSslfilterSslFilterProperties.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

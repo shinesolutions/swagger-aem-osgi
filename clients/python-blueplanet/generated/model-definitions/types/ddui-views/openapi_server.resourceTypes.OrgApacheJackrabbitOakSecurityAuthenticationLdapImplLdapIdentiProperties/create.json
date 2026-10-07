@@ -1,0 +1,42 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "provider_name" },
+      {"model": "host_name" },
+      {"model": "host_port" },
+      {"model": "host_ssl" },
+      {"model": "host_tls" },
+      {"model": "host_no_cert_check" },
+      {"model": "bind_dn" },
+      {"model": "bind_password" },
+      {"model": "search_timeout" },
+      {"model": "admin_pool_max_active" },
+      {"model": "admin_pool_lookup_on_validate" },
+      {"model": "user_pool_max_active" },
+      {"model": "user_pool_lookup_on_validate" },
+      {"model": "user_base_dn" },
+      {"model": "user_objectclass" },
+      {"model": "user_id_attribute" },
+      {"model": "user_extra_filter" },
+      {"model": "user_make_dn_path" },
+      {"model": "group_base_dn" },
+      {"model": "group_objectclass" },
+      {"model": "group_name_attribute" },
+      {"model": "group_extra_filter" },
+      {"model": "group_make_dn_path" },
+      {"model": "group_member_attribute" },
+      {"model": "use_uid_for_ext_id" },
+      {"model": "customattributes" },
+    ]
+  }]
+}

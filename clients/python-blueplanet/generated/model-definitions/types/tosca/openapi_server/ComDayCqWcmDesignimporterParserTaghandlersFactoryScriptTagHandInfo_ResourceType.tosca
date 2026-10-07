@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandProperties = openapi_server.resourceTypes.ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandProperties
+}
+resourceTypes {
+
+  ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo {
+    title = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo
+    description = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo {
+    title = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo
+    description = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo
+
+  }
+}

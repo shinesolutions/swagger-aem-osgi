@@ -1,0 +1,139 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties {
+    title = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
+    description = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
+    derivedFrom = Root
+    properties {
+        resource_resolver_searchpath {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resource_resolver_manglenamespaces {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        resource_resolver_allow_direct {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        resource_resolver_required_providers {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resource_resolver_required_providernames {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resource_resolver_virtual {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resource_resolver_mapping {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resource_resolver_map_location {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        resource_resolver_map_observation {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resource_resolver_default_vanity_redirect_status {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        resource_resolver_enable_vanitypath {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        resource_resolver_vanitypath_max_entries {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        resource_resolver_vanitypath_max_entries_startup {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        resource_resolver_vanitypath_bloomfilter_max_bytes {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        resource_resolver_optimize_alias_resolution {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        resource_resolver_vanitypath_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resource_resolver_vanitypath_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resource_resolver_vanity_precedence {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        resource_resolver_providerhandling_paranoid {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        resource_resolver_log_closing {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        resource_resolver_log_unclosed {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties {
+    title = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
+    description = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
+
+  }
+}

@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReportingImplCacheCacheImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReportingImplCacheCacheImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqReportingImplCacheCacheImplProperties {
+    title = ComDayCqReportingImplCacheCacheImplProperties
+    description = ComDayCqReportingImplCacheCacheImplProperties
+    derivedFrom = Root
+    properties {
+        repcache_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        repcache_ttl {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        repcache_max {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReportingImplCacheCacheImplProperties {
+    title = ComDayCqReportingImplCacheCacheImplProperties
+    description = ComDayCqReportingImplCacheCacheImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqReportingImplCacheCacheImplProperties
+
+  }
+}

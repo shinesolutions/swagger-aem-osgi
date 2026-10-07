@@ -1,0 +1,30 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "handler_name" },
+      {"model": "user_expiration_time" },
+      {"model": "user_auto_membership" },
+      {"model": "user_property_mapping" },
+      {"model": "user_path_prefix" },
+      {"model": "user_membership_exp_time" },
+      {"model": "user_membership_nesting_depth" },
+      {"model": "user_dynamic_membership" },
+      {"model": "user_disable_missing" },
+      {"model": "group_expiration_time" },
+      {"model": "group_auto_membership" },
+      {"model": "group_property_mapping" },
+      {"model": "group_path_prefix" },
+      {"model": "enable_rfc7613_usercase_mapped_profile" },
+    ]
+  }]
+}

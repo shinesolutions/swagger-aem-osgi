@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties {
+    title = ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties
+    description = ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties
+    derivedFrom = Root
+    properties {
+        hc_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        hc_mbean_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties {
+    title = ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties
+    description = ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties
+    implements = openapi_server.resourceTypes.ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties
+
+  }
+}

@@ -1,0 +1,194 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.OrgApacheSlingJcrRepoinitImplRepositoryInitializerProperties;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("orgApacheSlingJcrRepoinitImplRepositoryInitializerInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo   {
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingJcrRepoinitImplRepositoryInitializerProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo() {
+  }
+
+  /**
+   **/
+  public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo pid(String pid) {
+    this.pid = pid;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("pid")
+  public String getPid() {
+    return pid;
+  }
+
+  @JsonProperty("pid")
+  public void setPid(String pid) {
+    this.pid = pid;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo title(String title) {
+    this.title = title;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("title")
+  public String getTitle() {
+    return title;
+  }
+
+  @JsonProperty("title")
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo description(String description) {
+    this.description = description;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("description")
+  public String getDescription() {
+    return description;
+  }
+
+  @JsonProperty("description")
+  public void setDescription(String description) {
+    this.description = description;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo properties(OrgApacheSlingJcrRepoinitImplRepositoryInitializerProperties properties) {
+    this.properties = properties;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("properties")
+  @Valid public OrgApacheSlingJcrRepoinitImplRepositoryInitializerProperties getProperties() {
+    return properties;
+  }
+
+  @JsonProperty("properties")
+  public void setProperties(OrgApacheSlingJcrRepoinitImplRepositoryInitializerProperties properties) {
+    this.properties = properties;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo bundleLocation(String bundleLocation) {
+    this.bundleLocation = bundleLocation;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("bundle_location")
+  public String getBundleLocation() {
+    return bundleLocation;
+  }
+
+  @JsonProperty("bundle_location")
+  public void setBundleLocation(String bundleLocation) {
+    this.bundleLocation = bundleLocation;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo serviceLocation(String serviceLocation) {
+    this.serviceLocation = serviceLocation;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("service_location")
+  public String getServiceLocation() {
+    return serviceLocation;
+  }
+
+  @JsonProperty("service_location")
+  public void setServiceLocation(String serviceLocation) {
+    this.serviceLocation = serviceLocation;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo orgApacheSlingJcrRepoinitImplRepositoryInitializerInfo = (OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo) o;
+    return Objects.equals(this.pid, orgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.serviceLocation);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(pid, title, description, properties, bundleLocation, serviceLocation);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo {\n");
+    
+    sb.append("    pid: ").append(toIndentedString(pid)).append("\n");
+    sb.append("    title: ").append(toIndentedString(title)).append("\n");
+    sb.append("    description: ").append(toIndentedString(description)).append("\n");
+    sb.append("    properties: ").append(toIndentedString(properties)).append("\n");
+    sb.append("    bundleLocation: ").append(toIndentedString(bundleLocation)).append("\n");
+    sb.append("    serviceLocation: ").append(toIndentedString(serviceLocation)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}

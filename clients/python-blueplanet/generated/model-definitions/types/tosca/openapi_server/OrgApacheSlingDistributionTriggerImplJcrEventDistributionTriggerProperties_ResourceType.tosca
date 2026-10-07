@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties {
+    title = OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties
+    description = OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ignored_paths_patterns {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        service_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        deep {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties {
+    title = OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties
+    description = OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties
+
+  }
+}

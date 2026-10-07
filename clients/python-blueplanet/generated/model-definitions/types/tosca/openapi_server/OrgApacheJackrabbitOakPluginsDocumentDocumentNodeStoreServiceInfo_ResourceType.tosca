@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo {
+    title = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo
+    description = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo {
+    title = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo
+    description = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo
+
+  }
+}

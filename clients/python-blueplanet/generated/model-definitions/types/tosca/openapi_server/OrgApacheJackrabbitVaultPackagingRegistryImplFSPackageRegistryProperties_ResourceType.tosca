@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties {
+    title = OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties
+    description = OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties
+    derivedFrom = Root
+    properties {
+        home_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties {
+    title = OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties
+    description = OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties
+
+  }
+}

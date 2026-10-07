@@ -1,0 +1,54 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties {
+    title = OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties
+    description = OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties
+    derivedFrom = Root
+    properties {
+        description {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        overrides {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties {
+    title = OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties
+    description = OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties
+
+  }
+}

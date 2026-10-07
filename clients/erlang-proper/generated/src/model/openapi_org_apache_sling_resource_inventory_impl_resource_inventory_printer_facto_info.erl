@@ -1,0 +1,29 @@
+-module(openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_info).
+
+-include("openapi.hrl").
+
+-export([openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_info/0]).
+
+-export([openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_info/1]).
+
+-export_type([openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_info/0]).
+
+-type openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_info() ::
+  [ {'pid', binary() }
+  | {'title', binary() }
+  | {'description', binary() }
+  | {'properties', openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties:openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties() }
+  ].
+
+
+openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_info() ->
+    openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_info([]).
+
+openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_info(Fields) ->
+  Default = [ {'pid', binary() }
+            , {'title', binary() }
+            , {'description', binary() }
+            , {'properties', openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties:openapi_org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties() }
+            ],
+  lists:ukeymerge(1, lists:sort(Fields), lists:sort(Default)).
+

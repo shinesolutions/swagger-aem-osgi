@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "versionmanager_create_version_on_activation" },
+      {"model": "versionmanager_purging_enabled" },
+      {"model": "versionmanager_purge_paths" },
+      {"model": "versionmanager_iv_paths" },
+      {"model": "versionmanager_max_age_days" },
+      {"model": "versionmanager_max_number_versions" },
+      {"model": "versionmanager_min_number_versions" },
+    ]
+  }]
+}

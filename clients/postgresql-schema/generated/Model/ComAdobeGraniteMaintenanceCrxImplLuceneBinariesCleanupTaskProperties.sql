@@ -1,0 +1,28 @@
+--
+-- "Adobe Experience Manager OSGI config (AEM) API"
+-- Prepared SQL queries for 'comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties' definition.
+-- Created using 'openapi-generator' ('postgresql-schema' generator)
+-- (https://openapi-generator.tech/docs/generators/postgresql-schema)
+--
+
+
+--
+-- SELECT template for table 'com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_'
+--
+SELECT job/topics FROM com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_ WHERE 1=1;
+
+--
+-- INSERT template for table 'com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_'
+--
+INSERT INTO com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_ (job/topics) VALUES (?);
+
+--
+-- UPDATE template for table 'com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_'
+--
+UPDATE com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_ SET job/topics = ? WHERE 1=2;
+
+--
+-- DELETE template for table 'com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_'
+--
+DELETE FROM com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_ WHERE 1=2;
+

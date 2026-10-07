@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties {
+    title = ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties
+    description = ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl_project_path {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl_schedule_frequency {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties {
+    title = ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties
+    description = ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties
+
+  }
+}

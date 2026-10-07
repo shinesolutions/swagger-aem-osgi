@@ -1,0 +1,93 @@
+package org.openapitools.model;
+
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyString;
+
+import io.swagger.annotations.ApiModelProperty;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties  {
+  
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyString name;
+
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyArray types;
+ /**
+   * Get name
+   * @return name
+  **/
+  @JsonProperty("name")
+  public ConfigNodePropertyString getName() {
+    return name;
+  }
+
+  public void setName(ConfigNodePropertyString name) {
+    this.name = name;
+  }
+
+  public ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties name(ConfigNodePropertyString name) {
+    this.name = name;
+    return this;
+  }
+
+ /**
+   * Get types
+   * @return types
+  **/
+  @JsonProperty("types")
+  public ConfigNodePropertyArray getTypes() {
+    return types;
+  }
+
+  public void setTypes(ConfigNodePropertyArray types) {
+    this.types = types;
+  }
+
+  public ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties types(ConfigNodePropertyArray types) {
+    this.types = types;
+    return this;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties comAdobeGraniteResourcestatusImplCompositeStatusTypeProperties = (ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties) o;
+    return Objects.equals(this.name, comAdobeGraniteResourcestatusImplCompositeStatusTypeProperties.name) &&
+        Objects.equals(this.types, comAdobeGraniteResourcestatusImplCompositeStatusTypeProperties.types);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, types);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties {\n");
+    
+    sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("    types: ").append(toIndentedString(types)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

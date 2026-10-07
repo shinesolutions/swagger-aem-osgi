@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties {
+    title = ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties
+    description = ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties
+    derivedFrom = Root
+    properties {
+        oauth_provider_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties {
+    title = ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties
+    description = ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties
+
+  }
+}

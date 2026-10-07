@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "from_address" },
+      {"model": "host_prefix" },
+      {"model": "notify_onabort" },
+      {"model": "notify_oncomplete" },
+      {"model": "notify_oncontainercomplete" },
+      {"model": "notify_useronly" },
+    ]
+  }]
+}

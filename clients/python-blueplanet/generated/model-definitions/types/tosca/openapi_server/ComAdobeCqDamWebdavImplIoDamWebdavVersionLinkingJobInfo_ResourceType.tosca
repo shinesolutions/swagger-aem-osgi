@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties = openapi_server.resourceTypes.ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
+}
+resourceTypes {
+
+  ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo {
+    title = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo
+    description = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo {
+    title = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo
+    description = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo
+
+  }
+}

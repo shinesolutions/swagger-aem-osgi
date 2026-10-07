@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties {
+    title = ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties
+    description = ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties
+    derivedFrom = Root
+    properties {
+        granite_workflow_workflow_publish_event_service_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties {
+    title = ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties
+    description = ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties
+
+  }
+}

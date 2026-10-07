@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties {
+    title = OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties
+    description = OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties {
+    title = OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties
+    description = OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties
+
+  }
+}

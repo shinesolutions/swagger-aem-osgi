@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_accountmanager_token_validity_period" },
+      {"model": "cq_accountmanager_config_requestnewaccount_mail" },
+      {"model": "cq_accountmanager_config_requestnewpwd_mail" },
+    ]
+  }]
+}

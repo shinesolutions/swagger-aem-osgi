@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeFormsCommonServiceImplDefaultDataProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeFormsCommonServiceImplDefaultDataProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeFormsCommonServiceImplDefaultDataProviderProperties {
+    title = ComAdobeFormsCommonServiceImplDefaultDataProviderProperties
+    description = ComAdobeFormsCommonServiceImplDefaultDataProviderProperties
+    derivedFrom = Root
+    properties {
+        alloweddata_file_locations {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeFormsCommonServiceImplDefaultDataProviderProperties {
+    title = ComAdobeFormsCommonServiceImplDefaultDataProviderProperties
+    description = ComAdobeFormsCommonServiceImplDefaultDataProviderProperties
+    implements = openapi_server.resourceTypes.ComAdobeFormsCommonServiceImplDefaultDataProviderProperties
+
+  }
+}

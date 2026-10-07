@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "name" },
+      {"model": "endpoints" },
+      {"model": "pull_items" },
+      {"model": "package_builder_target" },
+      {"model": "transport_secret_provider_target" },
+    ]
+  }]
+}

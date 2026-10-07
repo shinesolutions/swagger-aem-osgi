@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties = openapi_server.resourceTypes.ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties
+}
+resourceTypes {
+
+  ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo {
+    title = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo
+    description = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo {
+    title = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo
+    description = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo
+
+  }
+}

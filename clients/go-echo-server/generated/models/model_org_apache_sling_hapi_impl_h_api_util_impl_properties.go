@@ -1,0 +1,14 @@
+package models
+
+type OrgApacheSlingHapiImplHApiUtilImplProperties struct {
+
+	OrgApacheSlingHapiToolsResourcetype ConfigNodePropertyString `json:"org.apache.sling.hapi.tools.resourcetype,omitempty"`
+
+	OrgApacheSlingHapiToolsCollectionresourcetype ConfigNodePropertyString `json:"org.apache.sling.hapi.tools.collectionresourcetype,omitempty"`
+
+	OrgApacheSlingHapiToolsSearchpaths ConfigNodePropertyArray `json:"org.apache.sling.hapi.tools.searchpaths,omitempty"`
+
+	OrgApacheSlingHapiToolsExternalurl ConfigNodePropertyString `json:"org.apache.sling.hapi.tools.externalurl,omitempty"`
+
+	OrgApacheSlingHapiToolsEnabled ConfigNodePropertyBoolean `json:"org.apache.sling.hapi.tools.enabled,omitempty"`
+}

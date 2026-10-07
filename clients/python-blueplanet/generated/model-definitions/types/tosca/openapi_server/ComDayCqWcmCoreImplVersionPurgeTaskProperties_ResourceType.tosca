@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplVersionPurgeTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplVersionPurgeTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplVersionPurgeTaskProperties {
+    title = ComDayCqWcmCoreImplVersionPurgeTaskProperties
+    description = ComDayCqWcmCoreImplVersionPurgeTaskProperties
+    derivedFrom = Root
+    properties {
+        versionpurge_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        versionpurge_recursive {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        versionpurge_max_versions {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        versionpurge_min_versions {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        versionpurge_max_age_days {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplVersionPurgeTaskProperties {
+    title = ComDayCqWcmCoreImplVersionPurgeTaskProperties
+    description = ComDayCqWcmCoreImplVersionPurgeTaskProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplVersionPurgeTaskProperties
+
+  }
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties {
+    title = OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties
+    description = OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        service_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        privilege_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties {
+    title = OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties
+    description = OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties
+
+  }
+}

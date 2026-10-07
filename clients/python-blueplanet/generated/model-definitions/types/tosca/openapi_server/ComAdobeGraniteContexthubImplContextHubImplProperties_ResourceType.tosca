@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteContexthubImplContextHubImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteContexthubImplContextHubImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeGraniteContexthubImplContextHubImplProperties {
+    title = ComAdobeGraniteContexthubImplContextHubImplProperties
+    description = ComAdobeGraniteContexthubImplContextHubImplProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_granite_contexthub_silent_mode {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_contexthub_show_ui {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteContexthubImplContextHubImplProperties {
+    title = ComAdobeGraniteContexthubImplContextHubImplProperties
+    description = ComAdobeGraniteContexthubImplContextHubImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteContexthubImplContextHubImplProperties
+
+  }
+}

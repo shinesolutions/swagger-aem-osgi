@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicProperties = openapi_server.resourceTypes.ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo {
+    title = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo
+    description = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo {
+    title = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo
+    description = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo
+
+  }
+}

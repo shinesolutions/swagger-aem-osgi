@@ -1,0 +1,31 @@
+import 'package:test/test.dart';
+import 'package:openapi/openapi.dart';
+
+// tests for ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo
+void main() {
+  final instance = ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfoBuilder();
+  // TODO add properties to the builder and call build()
+
+  group(ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo, () {
+    // String pid
+    test('to test the property `pid`', () async {
+      // TODO
+    });
+
+    // String title
+    test('to test the property `title`', () async {
+      // TODO
+    });
+
+    // String description
+    test('to test the property `description`', () async {
+      // TODO
+    });
+
+    // ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties properties
+    test('to test the property `properties`', () async {
+      // TODO
+    });
+
+  });
+}

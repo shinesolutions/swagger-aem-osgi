@@ -1,0 +1,27 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "osgi_http_whiteboard_context_select" },
+      {"model": "osgi_http_whiteboard_listener" },
+      {"model": "auth_sudo_cookie" },
+      {"model": "auth_sudo_parameter" },
+      {"model": "auth_annonymous" },
+      {"model": "sling_auth_requirements" },
+      {"model": "sling_auth_anonymous_user" },
+      {"model": "sling_auth_anonymous_password" },
+      {"model": "auth_http" },
+      {"model": "auth_http_realm" },
+      {"model": "auth_uri_suffix" },
+    ]
+  }]
+}

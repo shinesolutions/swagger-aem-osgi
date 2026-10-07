@@ -1,0 +1,74 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAuthImplLoginSelectorHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAuthImplLoginSelectorHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqAuthImplLoginSelectorHandlerProperties {
+    title = ComDayCqAuthImplLoginSelectorHandlerProperties
+    description = ComDayCqAuthImplLoginSelectorHandlerProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        auth_loginselector_mappings {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        auth_loginselector_changepw_mappings {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        auth_loginselector_defaultloginpage {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_loginselector_defaultchangepwpage {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_loginselector_handle {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        auth_loginselector_handle_all_extensions {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAuthImplLoginSelectorHandlerProperties {
+    title = ComDayCqAuthImplLoginSelectorHandlerProperties
+    description = ComDayCqAuthImplLoginSelectorHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqAuthImplLoginSelectorHandlerProperties
+
+  }
+}

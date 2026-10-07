@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "enabled" },
+      {"model": "config_ref_resource_names" },
+      {"model": "config_ref_property_names" },
+      {"model": "service_ranking" },
+    ]
+  }]
+}

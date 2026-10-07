@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties {
+    title = ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties
+    description = ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties
+    derivedFrom = Root
+    properties {
+        enable_scheduled_posts_search {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        number_of_minutes {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_search_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties {
+    title = ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties
+    description = ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties
+
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "tracer_sets" },
+      {"model": "enabled" },
+      {"model": "servlet_enabled" },
+      {"model": "recording_cache_size_in_mb" },
+      {"model": "recording_cache_duration_in_secs" },
+      {"model": "recording_compression_enabled" },
+      {"model": "gzip_response" },
+    ]
+  }]
+}

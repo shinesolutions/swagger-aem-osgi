@@ -1,0 +1,52 @@
+/*
+ * com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_H_
+#define _com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_t com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_t;
+
+#include "config_node_property_boolean.h"
+#include "config_node_property_string.h"
+
+
+
+typedef struct com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_t {
+    struct config_node_property_string_t *default_transport_agent_to_worker_prefix; //model
+    struct config_node_property_string_t *default_transport_agent_to_master_prefix; //model
+    struct config_node_property_string_t *default_transport_input_package; //model
+    struct config_node_property_string_t *default_transport_output_package; //model
+    struct config_node_property_boolean_t *default_transport_replication_synchronous; //model
+    struct config_node_property_boolean_t *default_transport_contentpackage; //model
+    struct config_node_property_boolean_t *offloading_transporter_default_enabled; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_t;
+
+__attribute__((deprecated)) com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_t *com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_create(
+    config_node_property_string_t *default_transport_agent_to_worker_prefix,
+    config_node_property_string_t *default_transport_agent_to_master_prefix,
+    config_node_property_string_t *default_transport_input_package,
+    config_node_property_string_t *default_transport_output_package,
+    config_node_property_boolean_t *default_transport_replication_synchronous,
+    config_node_property_boolean_t *default_transport_contentpackage,
+    config_node_property_boolean_t *offloading_transporter_default_enabled
+);
+
+void com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_free(com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_t *com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties);
+
+com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_t *com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_parseFromJSON(cJSON *com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_propertiesJSON);
+
+cJSON *com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_convertToJSON(com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_t *com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties);
+
+#endif /* _com_adobe_granite_offloading_impl_transporter_offloading_default_transpo_properties_H_ */
+

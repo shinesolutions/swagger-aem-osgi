@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties {
+    title = ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties
+    description = ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties
+    derivedFrom = Root
+    properties {
+        full_gc_days {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties {
+    title = ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties
+    description = ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties
+
+  }
+}

@@ -1,0 +1,40 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ConfigNodePropertyDropDownType"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ConfigNodePropertyDropDownType"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+}
+resourceTypes {
+
+  ConfigNodePropertyDropDownType {
+    title = ConfigNodePropertyDropDownType
+    description = ConfigNodePropertyDropDownType
+    derivedFrom = Root
+    properties {
+        labels {
+          type =  
+          description = "Drop Down label"
+          optional = false
+        }
+        values {
+          type =  
+          description = "Drown Down value"
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ConfigNodePropertyDropDownType {
+    title = ConfigNodePropertyDropDownType
+    description = ConfigNodePropertyDropDownType
+    implements = openapi_server.resourceTypes.ConfigNodePropertyDropDownType
+
+  }
+}

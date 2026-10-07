@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowCoreWorkflowConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowCoreWorkflowConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowCoreWorkflowConfigProperties {
+    title = ComAdobeGraniteWorkflowCoreWorkflowConfigProperties
+    description = ComAdobeGraniteWorkflowCoreWorkflowConfigProperties
+    derivedFrom = Root
+    properties {
+        cq_workflow_config_workflow_packages_root_path {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_workflow_config_workflow_process_legacy_mode {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_workflow_config_allow_locking {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowCoreWorkflowConfigProperties {
+    title = ComAdobeGraniteWorkflowCoreWorkflowConfigProperties
+    description = ComAdobeGraniteWorkflowCoreWorkflowConfigProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowCoreWorkflowConfigProperties
+
+  }
+}

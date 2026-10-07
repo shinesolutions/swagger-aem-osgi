@@ -1,0 +1,10 @@
+package models
+
+type ComDayCqDamCommonsHandlerStandardImageHandlerProperties struct {
+
+	LargeFileThreshold ConfigNodePropertyInteger `json:"large_file_threshold,omitempty"`
+
+	LargeCommentThreshold ConfigNodePropertyInteger `json:"large_comment_threshold,omitempty"`
+
+	CqDamEnableExtMetaExtraction ConfigNodePropertyBoolean `json:"cq.dam.enable.ext.meta.extraction,omitempty"`
+}

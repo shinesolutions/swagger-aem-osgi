@@ -1,0 +1,59 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties {
+    title = ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
+    description = ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
+    derivedFrom = Root
+    properties {
+        cdn_config_distribution_domain {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cdn_config_enable_rewriting {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cdn_config_path_prefixes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cdn_config_cdnttl {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cdn_config_application_protocol {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties {
+    title = ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
+    description = ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
+
+  }
+}

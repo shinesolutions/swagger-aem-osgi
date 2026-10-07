@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties {
+    title = ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties
+    description = ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_dam_mac_sync_client_so_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties {
+    title = ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties
+    description = ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties
+
+  }
+}

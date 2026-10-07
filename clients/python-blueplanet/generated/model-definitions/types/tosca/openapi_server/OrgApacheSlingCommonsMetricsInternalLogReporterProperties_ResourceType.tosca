@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsMetricsInternalLogReporterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsMetricsInternalLogReporterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsMetricsInternalLogReporterProperties {
+    title = OrgApacheSlingCommonsMetricsInternalLogReporterProperties
+    description = OrgApacheSlingCommonsMetricsInternalLogReporterProperties
+    derivedFrom = Root
+    properties {
+        period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        time_unit {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        level {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        logger_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        registry_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsMetricsInternalLogReporterProperties {
+    title = OrgApacheSlingCommonsMetricsInternalLogReporterProperties
+    description = OrgApacheSlingCommonsMetricsInternalLogReporterProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsMetricsInternalLogReporterProperties
+
+  }
+}

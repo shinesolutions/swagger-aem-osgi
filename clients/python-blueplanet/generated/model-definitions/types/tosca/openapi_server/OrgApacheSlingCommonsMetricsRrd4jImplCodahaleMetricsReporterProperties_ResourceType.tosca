@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties {
+    title = OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties
+    description = OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties
+    derivedFrom = Root
+    properties {
+        datasources {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        step {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        archives {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties {
+    title = OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties
+    description = OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties
+
+  }
+}

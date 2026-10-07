@@ -1,0 +1,27 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "jasper_compiler_target_vm" },
+      {"model": "jasper_compiler_source_vm" },
+      {"model": "jasper_classdebuginfo" },
+      {"model": "jasper_enable_pooling" },
+      {"model": "jasper_ie_class_id" },
+      {"model": "jasper_gen_string_as_char_array" },
+      {"model": "jasper_keepgenerated" },
+      {"model": "jasper_mappedfile" },
+      {"model": "jasper_trim_spaces" },
+      {"model": "jasper_display_source_fragments" },
+      {"model": "default_is_session" },
+    ]
+  }]
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties = openapi_server.resourceTypes.ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties
+}
+resourceTypes {
+
+  ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo {
+    title = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo
+    description = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo {
+    title = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo
+    description = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo
+
+  }
+}

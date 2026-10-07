@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo {
+    title = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo
+    description = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo {
+    title = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo
+    description = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo
+
+  }
+}

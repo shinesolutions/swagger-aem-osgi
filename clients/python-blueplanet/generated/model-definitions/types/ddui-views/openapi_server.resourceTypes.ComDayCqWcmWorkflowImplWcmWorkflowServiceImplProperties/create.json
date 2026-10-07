@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "event_filter" },
+      {"model": "min_thread_pool_size" },
+      {"model": "max_thread_pool_size" },
+      {"model": "cq_wcm_workflow_terminate_on_activate" },
+      {"model": "cq_wcm_worklfow_terminate_exclusion_list" },
+    ]
+  }]
+}

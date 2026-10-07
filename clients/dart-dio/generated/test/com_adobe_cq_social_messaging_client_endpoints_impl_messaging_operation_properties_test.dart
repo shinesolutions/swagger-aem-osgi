@@ -1,0 +1,111 @@
+import 'package:test/test.dart';
+import 'package:openapi/openapi.dart';
+
+// tests for ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
+void main() {
+  final instance = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPropertiesBuilder();
+  // TODO add properties to the builder and call build()
+
+  group(ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties, () {
+    // ConfigNodePropertyArray messagePeriodProperties
+    test('to test the property `messagePeriodProperties`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyInteger messageBoxSizeLimit
+    test('to test the property `messageBoxSizeLimit`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyInteger messageCountLimit
+    test('to test the property `messageCountLimit`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyBoolean notifyFailure
+    test('to test the property `notifyFailure`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyString failureMessageFrom
+    test('to test the property `failureMessageFrom`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyString failureTemplatePath
+    test('to test the property `failureTemplatePath`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyInteger maxRetries
+    test('to test the property `maxRetries`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyInteger minWaitBetweenRetries
+    test('to test the property `minWaitBetweenRetries`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyInteger countUpdatePoolSize
+    test('to test the property `countUpdatePoolSize`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyString inboxPeriodPath
+    test('to test the property `inboxPeriodPath`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyString sentitemsPeriodPath
+    test('to test the property `sentitemsPeriodPath`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyBoolean supportAttachments
+    test('to test the property `supportAttachments`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyBoolean supportGroupMessaging
+    test('to test the property `supportGroupMessaging`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyInteger maxTotalRecipients
+    test('to test the property `maxTotalRecipients`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyInteger batchSize
+    test('to test the property `batchSize`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyInteger maxTotalAttachmentSize
+    test('to test the property `maxTotalAttachmentSize`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyArray attachmentTypeBlacklist
+    test('to test the property `attachmentTypeBlacklist`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyArray allowedAttachmentTypes
+    test('to test the property `allowedAttachmentTypes`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyString serviceSelector
+    test('to test the property `serviceSelector`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyArray fieldWhitelist
+    test('to test the property `fieldWhitelist`', () async {
+      // TODO
+    });
+
+  });
+}

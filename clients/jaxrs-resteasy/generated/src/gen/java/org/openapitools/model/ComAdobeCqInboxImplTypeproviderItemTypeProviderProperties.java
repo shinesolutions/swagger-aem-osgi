@@ -1,0 +1,134 @@
+package org.openapitools.model;
+
+import java.util.Objects;
+import java.util.ArrayList;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+import io.swagger.annotations.*;
+
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
+  
+  private ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths;
+  private ConfigNodePropertyArray inboxImplTypeproviderLegacypaths;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask;
+
+  /**
+   **/
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("inbox.impl.typeprovider.registrypaths")
+  @Valid
+  public ConfigNodePropertyArray getInboxImplTypeproviderRegistrypaths() {
+    return inboxImplTypeproviderRegistrypaths;
+  }
+  public void setInboxImplTypeproviderRegistrypaths(ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths) {
+    this.inboxImplTypeproviderRegistrypaths = inboxImplTypeproviderRegistrypaths;
+  }
+
+  /**
+   **/
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("inbox.impl.typeprovider.legacypaths")
+  @Valid
+  public ConfigNodePropertyArray getInboxImplTypeproviderLegacypaths() {
+    return inboxImplTypeproviderLegacypaths;
+  }
+  public void setInboxImplTypeproviderLegacypaths(ConfigNodePropertyArray inboxImplTypeproviderLegacypaths) {
+    this.inboxImplTypeproviderLegacypaths = inboxImplTypeproviderLegacypaths;
+  }
+
+  /**
+   **/
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.failureitem")
+  @Valid
+  public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlFailureitem() {
+    return inboxImplTypeproviderDefaulturlFailureitem;
+  }
+  public void setInboxImplTypeproviderDefaulturlFailureitem(ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem) {
+    this.inboxImplTypeproviderDefaulturlFailureitem = inboxImplTypeproviderDefaulturlFailureitem;
+  }
+
+  /**
+   **/
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.workitem")
+  @Valid
+  public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlWorkitem() {
+    return inboxImplTypeproviderDefaulturlWorkitem;
+  }
+  public void setInboxImplTypeproviderDefaulturlWorkitem(ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem) {
+    this.inboxImplTypeproviderDefaulturlWorkitem = inboxImplTypeproviderDefaulturlWorkitem;
+  }
+
+  /**
+   **/
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.task")
+  @Valid
+  public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlTask() {
+    return inboxImplTypeproviderDefaulturlTask;
+  }
+  public void setInboxImplTypeproviderDefaulturlTask(ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask) {
+    this.inboxImplTypeproviderDefaulturlTask = inboxImplTypeproviderDefaulturlTask;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties comAdobeCqInboxImplTypeproviderItemTypeProviderProperties = (ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties) o;
+    return Objects.equals(this.inboxImplTypeproviderRegistrypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderRegistrypaths) &&
+        Objects.equals(this.inboxImplTypeproviderLegacypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderLegacypaths) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlFailureitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlFailureitem) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlWorkitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlWorkitem) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlTask, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlTask);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(inboxImplTypeproviderRegistrypaths, inboxImplTypeproviderLegacypaths, inboxImplTypeproviderDefaulturlFailureitem, inboxImplTypeproviderDefaulturlWorkitem, inboxImplTypeproviderDefaulturlTask);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties {\n");
+    
+    sb.append("    inboxImplTypeproviderRegistrypaths: ").append(toIndentedString(inboxImplTypeproviderRegistrypaths)).append("\n");
+    sb.append("    inboxImplTypeproviderLegacypaths: ").append(toIndentedString(inboxImplTypeproviderLegacypaths)).append("\n");
+    sb.append("    inboxImplTypeproviderDefaulturlFailureitem: ").append(toIndentedString(inboxImplTypeproviderDefaulturlFailureitem)).append("\n");
+    sb.append("    inboxImplTypeproviderDefaulturlWorkitem: ").append(toIndentedString(inboxImplTypeproviderDefaulturlWorkitem)).append("\n");
+    sb.append("    inboxImplTypeproviderDefaulturlTask: ").append(toIndentedString(inboxImplTypeproviderDefaulturlTask)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

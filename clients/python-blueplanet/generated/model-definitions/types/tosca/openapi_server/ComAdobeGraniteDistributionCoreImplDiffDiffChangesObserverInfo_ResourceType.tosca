@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo {
+    title = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo
+    description = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo {
+    title = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo
+    description = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo
+
+  }
+}

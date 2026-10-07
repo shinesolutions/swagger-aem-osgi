@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties",
+  "fields": [
+    {
+      "name": "formsManagerConfig.includeOOTBTemplates",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "formsManagerConfig.includeDeprecatedTemplates",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

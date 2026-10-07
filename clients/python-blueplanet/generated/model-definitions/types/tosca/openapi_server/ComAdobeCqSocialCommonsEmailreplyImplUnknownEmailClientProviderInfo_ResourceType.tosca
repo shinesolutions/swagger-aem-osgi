@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo {
+    title = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo
+    description = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo {
+    title = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo
+    description = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo
+
+  }
+}

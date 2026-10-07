@@ -1,0 +1,120 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties
+    description = OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties
+    derivedFrom = Root
+    properties {
+        path_desc_field {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        path_child_field {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        path_parent_field {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        path_exact_field {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        catch_all_field {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        collapsed_path_field {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        path_depth_field {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        commit_policy {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        rows {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        path_restrictions {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        property_restrictions {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        primarytypes_restrictions {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        ignored_properties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        used_properties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        type_mappings {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        property_mappings {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        collapse_jcrcontent_nodes {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties
+    description = OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties
+
+  }
+}

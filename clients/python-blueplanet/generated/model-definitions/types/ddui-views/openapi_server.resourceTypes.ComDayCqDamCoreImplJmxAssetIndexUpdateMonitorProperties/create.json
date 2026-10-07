@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "jmx_objectname" },
+      {"model": "property_measure_enabled" },
+      {"model": "property_name" },
+      {"model": "property_max_wait_ms" },
+      {"model": "property_max_rate" },
+      {"model": "fulltext_measure_enabled" },
+      {"model": "fulltext_name" },
+      {"model": "fulltext_max_wait_ms" },
+      {"model": "fulltext_max_rate" },
+    ]
+  }]
+}

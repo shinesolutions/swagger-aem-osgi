@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties",
+  "fields": [
+    {
+      "name": "cq.social.reporting.analytics.polling.importer.interval",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.social.reporting.analytics.polling.importer.pageSize",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -1,0 +1,30 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "htmllibmanager_clientmanager" },
+      {"model": "htmllibmanager_debug" },
+      {"model": "htmllibmanager_debug_console" },
+      {"model": "htmllibmanager_debug_init_js" },
+      {"model": "htmllibmanager_defaultthemename" },
+      {"model": "htmllibmanager_defaultuserthemename" },
+      {"model": "htmllibmanager_firebuglite_path" },
+      {"model": "htmllibmanager_force_cq_url_info" },
+      {"model": "htmllibmanager_gzip" },
+      {"model": "htmllibmanager_maxage" },
+      {"model": "htmllibmanager_max_data_uri_size" },
+      {"model": "htmllibmanager_minify" },
+      {"model": "htmllibmanager_path_list" },
+      {"model": "htmllibmanager_timing" },
+    ]
+  }]
+}

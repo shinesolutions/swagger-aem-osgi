@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingTracerInternalLogTracerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingTracerInternalLogTracerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingTracerInternalLogTracerProperties {
+    title = OrgApacheSlingTracerInternalLogTracerProperties
+    description = OrgApacheSlingTracerInternalLogTracerProperties
+    derivedFrom = Root
+    properties {
+        tracer_sets {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        servlet_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        recording_cache_size_in_mb {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        recording_cache_duration_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        recording_compression_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        gzip_response {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingTracerInternalLogTracerProperties {
+    title = OrgApacheSlingTracerInternalLogTracerProperties
+    description = OrgApacheSlingTracerInternalLogTracerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingTracerInternalLogTracerProperties
+
+  }
+}

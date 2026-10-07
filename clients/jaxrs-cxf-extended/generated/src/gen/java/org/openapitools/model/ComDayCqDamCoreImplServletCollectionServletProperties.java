@@ -1,0 +1,109 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComDayCqDamCoreImplServletCollectionServletProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray cqDamBatchCollectionProperties;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections;
+ /**
+  * Get cqDamBatchCollectionProperties
+  * @return cqDamBatchCollectionProperties
+  */
+  @JsonProperty("cq.dam.batch.collection.properties")
+  public ConfigNodePropertyArray getCqDamBatchCollectionProperties() {
+    return cqDamBatchCollectionProperties;
+  }
+
+  /**
+   * Sets the <code>cqDamBatchCollectionProperties</code> property.
+   */
+ public void setCqDamBatchCollectionProperties(ConfigNodePropertyArray cqDamBatchCollectionProperties) {
+    this.cqDamBatchCollectionProperties = cqDamBatchCollectionProperties;
+  }
+
+  /**
+   * Sets the <code>cqDamBatchCollectionProperties</code> property.
+   */
+  public ComDayCqDamCoreImplServletCollectionServletProperties cqDamBatchCollectionProperties(ConfigNodePropertyArray cqDamBatchCollectionProperties) {
+    this.cqDamBatchCollectionProperties = cqDamBatchCollectionProperties;
+    return this;
+  }
+
+ /**
+  * Get cqDamBatchCollectionMaxcollections
+  * @return cqDamBatchCollectionMaxcollections
+  */
+  @JsonProperty("cq.dam.batch.collection.maxcollections")
+  public ConfigNodePropertyInteger getCqDamBatchCollectionMaxcollections() {
+    return cqDamBatchCollectionMaxcollections;
+  }
+
+  /**
+   * Sets the <code>cqDamBatchCollectionMaxcollections</code> property.
+   */
+ public void setCqDamBatchCollectionMaxcollections(ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections) {
+    this.cqDamBatchCollectionMaxcollections = cqDamBatchCollectionMaxcollections;
+  }
+
+  /**
+   * Sets the <code>cqDamBatchCollectionMaxcollections</code> property.
+   */
+  public ComDayCqDamCoreImplServletCollectionServletProperties cqDamBatchCollectionMaxcollections(ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections) {
+    this.cqDamBatchCollectionMaxcollections = cqDamBatchCollectionMaxcollections;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplServletCollectionServletProperties comDayCqDamCoreImplServletCollectionServletProperties = (ComDayCqDamCoreImplServletCollectionServletProperties) o;
+    return Objects.equals(this.cqDamBatchCollectionProperties, comDayCqDamCoreImplServletCollectionServletProperties.cqDamBatchCollectionProperties) &&
+        Objects.equals(this.cqDamBatchCollectionMaxcollections, comDayCqDamCoreImplServletCollectionServletProperties.cqDamBatchCollectionMaxcollections);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqDamBatchCollectionProperties, cqDamBatchCollectionMaxcollections);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComDayCqDamCoreImplServletCollectionServletProperties {\n");
+    
+    sb.append("    cqDamBatchCollectionProperties: ").append(toIndentedString(cqDamBatchCollectionProperties)).append("\n");
+    sb.append("    cqDamBatchCollectionMaxcollections: ").append(toIndentedString(cqDamBatchCollectionMaxcollections)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

@@ -1,0 +1,66 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqAccountApiAccountManagementServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqAccountApiAccountManagementServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqAccountApiAccountManagementServiceProperties = openapi_server.resourceTypes.ComAdobeCqAccountApiAccountManagementServiceProperties
+}
+resourceTypes {
+
+  ComAdobeCqAccountApiAccountManagementServiceInfo {
+    title = ComAdobeCqAccountApiAccountManagementServiceInfo
+    description = ComAdobeCqAccountApiAccountManagementServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqAccountApiAccountManagementServiceProperties
+          description = ""
+          optional = false
+        }
+        additional_properties {
+          type =  string
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqAccountApiAccountManagementServiceInfo {
+    title = ComAdobeCqAccountApiAccountManagementServiceInfo
+    description = ComAdobeCqAccountApiAccountManagementServiceInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqAccountApiAccountManagementServiceInfo
+
+  }
+}

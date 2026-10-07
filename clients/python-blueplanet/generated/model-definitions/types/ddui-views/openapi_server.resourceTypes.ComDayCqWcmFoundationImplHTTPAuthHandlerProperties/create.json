@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "path" },
+      {"model": "auth_http_nologin" },
+      {"model": "auth_http_realm" },
+      {"model": "auth_default_loginpage" },
+      {"model": "auth_cred_form" },
+      {"model": "auth_cred_utf8" },
+    ]
+  }]
+}

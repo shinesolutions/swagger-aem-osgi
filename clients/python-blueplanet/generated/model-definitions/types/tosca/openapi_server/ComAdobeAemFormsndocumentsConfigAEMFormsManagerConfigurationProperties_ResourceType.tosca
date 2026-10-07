@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties {
+    title = ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties
+    description = ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties
+    derivedFrom = Root
+    properties {
+        forms_manager_config_include_ootb_templates {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        forms_manager_config_include_deprecated_templates {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties {
+    title = ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties
+    description = ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties
+    implements = openapi_server.resourceTypes.ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties
+
+  }
+}

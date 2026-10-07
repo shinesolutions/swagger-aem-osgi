@@ -1,0 +1,30 @@
+package models
+
+type ComAdobeGraniteAuthImsImplImsProviderImplProperties struct {
+
+	OauthProviderId ConfigNodePropertyString `json:"oauth.provider.id,omitempty"`
+
+	OauthProviderImsAuthorizationUrl ConfigNodePropertyString `json:"oauth.provider.ims.authorization.url,omitempty"`
+
+	OauthProviderImsTokenUrl ConfigNodePropertyString `json:"oauth.provider.ims.token.url,omitempty"`
+
+	OauthProviderImsProfileUrl ConfigNodePropertyString `json:"oauth.provider.ims.profile.url,omitempty"`
+
+	OauthProviderImsExtendedDetailsUrls ConfigNodePropertyArray `json:"oauth.provider.ims.extended.details.urls,omitempty"`
+
+	OauthProviderImsValidateTokenUrl ConfigNodePropertyString `json:"oauth.provider.ims.validate.token.url,omitempty"`
+
+	OauthProviderImsSessionProperty ConfigNodePropertyString `json:"oauth.provider.ims.session.property,omitempty"`
+
+	OauthProviderImsServiceTokenClientId ConfigNodePropertyString `json:"oauth.provider.ims.service.token.client.id,omitempty"`
+
+	OauthProviderImsServiceTokenClientSecret ConfigNodePropertyString `json:"oauth.provider.ims.service.token.client.secret,omitempty"`
+
+	OauthProviderImsServiceToken ConfigNodePropertyString `json:"oauth.provider.ims.service.token,omitempty"`
+
+	ImsOrgRef ConfigNodePropertyString `json:"ims.org.ref,omitempty"`
+
+	ImsGroupMapping ConfigNodePropertyArray `json:"ims.group.mapping,omitempty"`
+
+	OauthProviderImsOnlyLicenseGroup ConfigNodePropertyBoolean `json:"oauth.provider.ims.only.license.group,omitempty"`
+}

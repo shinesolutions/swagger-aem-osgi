@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteCompatrouterImplRoutingConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteCompatrouterImplRoutingConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteCompatrouterImplRoutingConfigProperties {
+    title = ComAdobeGraniteCompatrouterImplRoutingConfigProperties
+    description = ComAdobeGraniteCompatrouterImplRoutingConfigProperties
+    derivedFrom = Root
+    properties {
+        id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        compat_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        new_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteCompatrouterImplRoutingConfigProperties {
+    title = ComAdobeGraniteCompatrouterImplRoutingConfigProperties
+    description = ComAdobeGraniteCompatrouterImplRoutingConfigProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteCompatrouterImplRoutingConfigProperties
+
+  }
+}

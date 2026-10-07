@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties {
+    title = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
+    description = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
+    derivedFrom = Root
+    properties {
+        group2member_relationship_outgoing {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        group2member_excluded_outgoing {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        group2member_relationship_incoming {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        group2member_excluded_incoming {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties {
+    title = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
+    description = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
+
+  }
+}

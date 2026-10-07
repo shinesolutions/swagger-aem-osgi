@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties",
+  "fields": [
+    {
+      "name": "cq.analytics.testandtarget.pushauthorcampaignpagelistener.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "solr_zk_timeout" },
+      {"model": "solr_commit" },
+      {"model": "cache_on" },
+      {"model": "concurrency_level" },
+      {"model": "cache_start_size" },
+      {"model": "cache_ttl" },
+      {"model": "cache_size" },
+    ]
+  }]
+}

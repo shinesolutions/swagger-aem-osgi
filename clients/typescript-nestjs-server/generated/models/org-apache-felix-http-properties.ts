@@ -1,0 +1,63 @@
+import { ConfigNodePropertyString } from './config-node-property-string';
+import { ConfigNodePropertyInteger } from './config-node-property-integer';
+import { ConfigNodePropertyBoolean } from './config-node-property-boolean';
+import { ConfigNodePropertyArray } from './config-node-property-array';
+import { ConfigNodePropertyDropDown } from './config-node-property-drop-down';
+
+
+export interface OrgApacheFelixHttpProperties { 
+  'org.apache.felix.http.host'?: ConfigNodePropertyString;
+  'org.apache.felix.http.enable'?: ConfigNodePropertyBoolean;
+  'org.osgi.service.http.port'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.timeout'?: ConfigNodePropertyInteger;
+  'org.apache.felix.https.enable'?: ConfigNodePropertyBoolean;
+  'org.osgi.service.http.port.secure'?: ConfigNodePropertyInteger;
+  'org.apache.felix.https.keystore'?: ConfigNodePropertyString;
+  'org.apache.felix.https.keystore.password'?: ConfigNodePropertyString;
+  'org.apache.felix.https.keystore.key.password'?: ConfigNodePropertyString;
+  'org.apache.felix.https.truststore'?: ConfigNodePropertyString;
+  'org.apache.felix.https.truststore.password'?: ConfigNodePropertyString;
+  'org.apache.felix.https.clientcertificate'?: ConfigNodePropertyDropDown;
+  'org.apache.felix.http.context_path'?: ConfigNodePropertyString;
+  'org.apache.felix.http.mbeans'?: ConfigNodePropertyBoolean;
+  'org.apache.felix.http.session.timeout'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.jetty.threadpool.max'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.jetty.acceptors'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.jetty.selectors'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.jetty.headerBufferSize'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.jetty.requestBufferSize'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.jetty.responseBufferSize'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.jetty.maxFormSize'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.path_exclusions'?: ConfigNodePropertyArray;
+  'org.apache.felix.https.jetty.ciphersuites.excluded'?: ConfigNodePropertyArray;
+  'org.apache.felix.https.jetty.ciphersuites.included'?: ConfigNodePropertyArray;
+  'org.apache.felix.http.jetty.sendServerHeader'?: ConfigNodePropertyBoolean;
+  'org.apache.felix.https.jetty.protocols.included'?: ConfigNodePropertyArray;
+  'org.apache.felix.https.jetty.protocols.excluded'?: ConfigNodePropertyArray;
+  'org.apache.felix.proxy.load.balancer.connection.enable'?: ConfigNodePropertyBoolean;
+  'org.apache.felix.https.jetty.renegotiateAllowed'?: ConfigNodePropertyBoolean;
+  'org.apache.felix.https.jetty.session.cookie.httpOnly'?: ConfigNodePropertyBoolean;
+  'org.apache.felix.https.jetty.session.cookie.secure'?: ConfigNodePropertyBoolean;
+  'org.eclipse.jetty.servlet.SessionIdPathParameterName'?: ConfigNodePropertyString;
+  'org.eclipse.jetty.servlet.CheckingRemoteSessionIdEncoding'?: ConfigNodePropertyBoolean;
+  'org.eclipse.jetty.servlet.SessionCookie'?: ConfigNodePropertyString;
+  'org.eclipse.jetty.servlet.SessionDomain'?: ConfigNodePropertyString;
+  'org.eclipse.jetty.servlet.SessionPath'?: ConfigNodePropertyString;
+  'org.eclipse.jetty.servlet.MaxAge'?: ConfigNodePropertyInteger;
+  'org.apache.felix.http.name'?: ConfigNodePropertyString;
+  'org.apache.felix.jetty.gziphandler.enable'?: ConfigNodePropertyBoolean;
+  'org.apache.felix.jetty.gzip.minGzipSize'?: ConfigNodePropertyInteger;
+  'org.apache.felix.jetty.gzip.compressionLevel'?: ConfigNodePropertyInteger;
+  'org.apache.felix.jetty.gzip.inflateBufferSize'?: ConfigNodePropertyInteger;
+  'org.apache.felix.jetty.gzip.syncFlush'?: ConfigNodePropertyBoolean;
+  'org.apache.felix.jetty.gzip.excludedUserAgents'?: ConfigNodePropertyArray;
+  'org.apache.felix.jetty.gzip.includedMethods'?: ConfigNodePropertyArray;
+  'org.apache.felix.jetty.gzip.excludedMethods'?: ConfigNodePropertyArray;
+  'org.apache.felix.jetty.gzip.includedPaths'?: ConfigNodePropertyArray;
+  'org.apache.felix.jetty.gzip.excludedPaths'?: ConfigNodePropertyArray;
+  'org.apache.felix.jetty.gzip.includedMimeTypes'?: ConfigNodePropertyArray;
+  'org.apache.felix.jetty.gzip.excludedMimeTypes'?: ConfigNodePropertyArray;
+  'org.apache.felix.http.session.invalidate'?: ConfigNodePropertyBoolean;
+  'org.apache.felix.http.session.uniqueid'?: ConfigNodePropertyBoolean;
+}
+

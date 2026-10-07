@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "token_expiration" },
+      {"model": "token_length" },
+      {"model": "token_refresh" },
+      {"model": "token_cleanup_threshold" },
+      {"model": "password_hash_algorithm" },
+      {"model": "password_hash_iterations" },
+      {"model": "password_salt_size" },
+    ]
+  }]
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoProperties = openapi_server.resourceTypes.ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo {
+    title = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo
+    description = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo {
+    title = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo
+    description = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo
+
+  }
+}

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties {
+    title = ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties
+    description = ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties
+    derivedFrom = Root
+    properties {
+        name_whitelist {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        allow_expressions {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties {
+    title = ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties
+    description = ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties
+
+  }
+}

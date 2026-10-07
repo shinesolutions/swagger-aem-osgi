@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties",
+  "fields": [
+    {
+      "name": "communities.integration.livefyre.sling.event.filter",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

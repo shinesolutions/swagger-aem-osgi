@@ -1,0 +1,483 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("orgApacheSlingDiscoveryOakConfigProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDiscoveryOakConfigProperties   {
+  private ConfigNodePropertyInteger connectorPingTimeout;
+  private ConfigNodePropertyInteger connectorPingInterval;
+  private ConfigNodePropertyInteger discoveryLiteCheckInterval;
+  private ConfigNodePropertyInteger clusterSyncServiceTimeout;
+  private ConfigNodePropertyInteger clusterSyncServiceInterval;
+  private ConfigNodePropertyBoolean enableSyncToken;
+  private ConfigNodePropertyInteger minEventDelay;
+  private ConfigNodePropertyInteger socketConnectTimeout;
+  private ConfigNodePropertyInteger soTimeout;
+  private ConfigNodePropertyArray topologyConnectorUrls;
+  private ConfigNodePropertyArray topologyConnectorWhitelist;
+  private ConfigNodePropertyBoolean autoStopLocalLoopEnabled;
+  private ConfigNodePropertyBoolean gzipConnectorRequestsEnabled;
+  private ConfigNodePropertyBoolean hmacEnabled;
+  private ConfigNodePropertyBoolean enableEncryption;
+  private ConfigNodePropertyString sharedKey;
+  private ConfigNodePropertyInteger hmacSharedKeyTTL;
+  private ConfigNodePropertyString backoffStandbyFactor;
+  private ConfigNodePropertyString backoffStableFactor;
+
+  public OrgApacheSlingDiscoveryOakConfigProperties() {
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties connectorPingTimeout(ConfigNodePropertyInteger connectorPingTimeout) {
+    this.connectorPingTimeout = connectorPingTimeout;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("connectorPingTimeout")
+  @Valid public ConfigNodePropertyInteger getConnectorPingTimeout() {
+    return connectorPingTimeout;
+  }
+
+  @JsonProperty("connectorPingTimeout")
+  public void setConnectorPingTimeout(ConfigNodePropertyInteger connectorPingTimeout) {
+    this.connectorPingTimeout = connectorPingTimeout;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties connectorPingInterval(ConfigNodePropertyInteger connectorPingInterval) {
+    this.connectorPingInterval = connectorPingInterval;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("connectorPingInterval")
+  @Valid public ConfigNodePropertyInteger getConnectorPingInterval() {
+    return connectorPingInterval;
+  }
+
+  @JsonProperty("connectorPingInterval")
+  public void setConnectorPingInterval(ConfigNodePropertyInteger connectorPingInterval) {
+    this.connectorPingInterval = connectorPingInterval;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties discoveryLiteCheckInterval(ConfigNodePropertyInteger discoveryLiteCheckInterval) {
+    this.discoveryLiteCheckInterval = discoveryLiteCheckInterval;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("discoveryLiteCheckInterval")
+  @Valid public ConfigNodePropertyInteger getDiscoveryLiteCheckInterval() {
+    return discoveryLiteCheckInterval;
+  }
+
+  @JsonProperty("discoveryLiteCheckInterval")
+  public void setDiscoveryLiteCheckInterval(ConfigNodePropertyInteger discoveryLiteCheckInterval) {
+    this.discoveryLiteCheckInterval = discoveryLiteCheckInterval;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties clusterSyncServiceTimeout(ConfigNodePropertyInteger clusterSyncServiceTimeout) {
+    this.clusterSyncServiceTimeout = clusterSyncServiceTimeout;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("clusterSyncServiceTimeout")
+  @Valid public ConfigNodePropertyInteger getClusterSyncServiceTimeout() {
+    return clusterSyncServiceTimeout;
+  }
+
+  @JsonProperty("clusterSyncServiceTimeout")
+  public void setClusterSyncServiceTimeout(ConfigNodePropertyInteger clusterSyncServiceTimeout) {
+    this.clusterSyncServiceTimeout = clusterSyncServiceTimeout;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties clusterSyncServiceInterval(ConfigNodePropertyInteger clusterSyncServiceInterval) {
+    this.clusterSyncServiceInterval = clusterSyncServiceInterval;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("clusterSyncServiceInterval")
+  @Valid public ConfigNodePropertyInteger getClusterSyncServiceInterval() {
+    return clusterSyncServiceInterval;
+  }
+
+  @JsonProperty("clusterSyncServiceInterval")
+  public void setClusterSyncServiceInterval(ConfigNodePropertyInteger clusterSyncServiceInterval) {
+    this.clusterSyncServiceInterval = clusterSyncServiceInterval;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties enableSyncToken(ConfigNodePropertyBoolean enableSyncToken) {
+    this.enableSyncToken = enableSyncToken;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("enableSyncToken")
+  @Valid public ConfigNodePropertyBoolean getEnableSyncToken() {
+    return enableSyncToken;
+  }
+
+  @JsonProperty("enableSyncToken")
+  public void setEnableSyncToken(ConfigNodePropertyBoolean enableSyncToken) {
+    this.enableSyncToken = enableSyncToken;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties minEventDelay(ConfigNodePropertyInteger minEventDelay) {
+    this.minEventDelay = minEventDelay;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("minEventDelay")
+  @Valid public ConfigNodePropertyInteger getMinEventDelay() {
+    return minEventDelay;
+  }
+
+  @JsonProperty("minEventDelay")
+  public void setMinEventDelay(ConfigNodePropertyInteger minEventDelay) {
+    this.minEventDelay = minEventDelay;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties socketConnectTimeout(ConfigNodePropertyInteger socketConnectTimeout) {
+    this.socketConnectTimeout = socketConnectTimeout;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("socketConnectTimeout")
+  @Valid public ConfigNodePropertyInteger getSocketConnectTimeout() {
+    return socketConnectTimeout;
+  }
+
+  @JsonProperty("socketConnectTimeout")
+  public void setSocketConnectTimeout(ConfigNodePropertyInteger socketConnectTimeout) {
+    this.socketConnectTimeout = socketConnectTimeout;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties soTimeout(ConfigNodePropertyInteger soTimeout) {
+    this.soTimeout = soTimeout;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("soTimeout")
+  @Valid public ConfigNodePropertyInteger getSoTimeout() {
+    return soTimeout;
+  }
+
+  @JsonProperty("soTimeout")
+  public void setSoTimeout(ConfigNodePropertyInteger soTimeout) {
+    this.soTimeout = soTimeout;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties topologyConnectorUrls(ConfigNodePropertyArray topologyConnectorUrls) {
+    this.topologyConnectorUrls = topologyConnectorUrls;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("topologyConnectorUrls")
+  @Valid public ConfigNodePropertyArray getTopologyConnectorUrls() {
+    return topologyConnectorUrls;
+  }
+
+  @JsonProperty("topologyConnectorUrls")
+  public void setTopologyConnectorUrls(ConfigNodePropertyArray topologyConnectorUrls) {
+    this.topologyConnectorUrls = topologyConnectorUrls;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties topologyConnectorWhitelist(ConfigNodePropertyArray topologyConnectorWhitelist) {
+    this.topologyConnectorWhitelist = topologyConnectorWhitelist;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("topologyConnectorWhitelist")
+  @Valid public ConfigNodePropertyArray getTopologyConnectorWhitelist() {
+    return topologyConnectorWhitelist;
+  }
+
+  @JsonProperty("topologyConnectorWhitelist")
+  public void setTopologyConnectorWhitelist(ConfigNodePropertyArray topologyConnectorWhitelist) {
+    this.topologyConnectorWhitelist = topologyConnectorWhitelist;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties autoStopLocalLoopEnabled(ConfigNodePropertyBoolean autoStopLocalLoopEnabled) {
+    this.autoStopLocalLoopEnabled = autoStopLocalLoopEnabled;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("autoStopLocalLoopEnabled")
+  @Valid public ConfigNodePropertyBoolean getAutoStopLocalLoopEnabled() {
+    return autoStopLocalLoopEnabled;
+  }
+
+  @JsonProperty("autoStopLocalLoopEnabled")
+  public void setAutoStopLocalLoopEnabled(ConfigNodePropertyBoolean autoStopLocalLoopEnabled) {
+    this.autoStopLocalLoopEnabled = autoStopLocalLoopEnabled;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties gzipConnectorRequestsEnabled(ConfigNodePropertyBoolean gzipConnectorRequestsEnabled) {
+    this.gzipConnectorRequestsEnabled = gzipConnectorRequestsEnabled;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("gzipConnectorRequestsEnabled")
+  @Valid public ConfigNodePropertyBoolean getGzipConnectorRequestsEnabled() {
+    return gzipConnectorRequestsEnabled;
+  }
+
+  @JsonProperty("gzipConnectorRequestsEnabled")
+  public void setGzipConnectorRequestsEnabled(ConfigNodePropertyBoolean gzipConnectorRequestsEnabled) {
+    this.gzipConnectorRequestsEnabled = gzipConnectorRequestsEnabled;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties hmacEnabled(ConfigNodePropertyBoolean hmacEnabled) {
+    this.hmacEnabled = hmacEnabled;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("hmacEnabled")
+  @Valid public ConfigNodePropertyBoolean getHmacEnabled() {
+    return hmacEnabled;
+  }
+
+  @JsonProperty("hmacEnabled")
+  public void setHmacEnabled(ConfigNodePropertyBoolean hmacEnabled) {
+    this.hmacEnabled = hmacEnabled;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties enableEncryption(ConfigNodePropertyBoolean enableEncryption) {
+    this.enableEncryption = enableEncryption;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("enableEncryption")
+  @Valid public ConfigNodePropertyBoolean getEnableEncryption() {
+    return enableEncryption;
+  }
+
+  @JsonProperty("enableEncryption")
+  public void setEnableEncryption(ConfigNodePropertyBoolean enableEncryption) {
+    this.enableEncryption = enableEncryption;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties sharedKey(ConfigNodePropertyString sharedKey) {
+    this.sharedKey = sharedKey;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("sharedKey")
+  @Valid public ConfigNodePropertyString getSharedKey() {
+    return sharedKey;
+  }
+
+  @JsonProperty("sharedKey")
+  public void setSharedKey(ConfigNodePropertyString sharedKey) {
+    this.sharedKey = sharedKey;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties hmacSharedKeyTTL(ConfigNodePropertyInteger hmacSharedKeyTTL) {
+    this.hmacSharedKeyTTL = hmacSharedKeyTTL;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("hmacSharedKeyTTL")
+  @Valid public ConfigNodePropertyInteger getHmacSharedKeyTTL() {
+    return hmacSharedKeyTTL;
+  }
+
+  @JsonProperty("hmacSharedKeyTTL")
+  public void setHmacSharedKeyTTL(ConfigNodePropertyInteger hmacSharedKeyTTL) {
+    this.hmacSharedKeyTTL = hmacSharedKeyTTL;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties backoffStandbyFactor(ConfigNodePropertyString backoffStandbyFactor) {
+    this.backoffStandbyFactor = backoffStandbyFactor;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("backoffStandbyFactor")
+  @Valid public ConfigNodePropertyString getBackoffStandbyFactor() {
+    return backoffStandbyFactor;
+  }
+
+  @JsonProperty("backoffStandbyFactor")
+  public void setBackoffStandbyFactor(ConfigNodePropertyString backoffStandbyFactor) {
+    this.backoffStandbyFactor = backoffStandbyFactor;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDiscoveryOakConfigProperties backoffStableFactor(ConfigNodePropertyString backoffStableFactor) {
+    this.backoffStableFactor = backoffStableFactor;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("backoffStableFactor")
+  @Valid public ConfigNodePropertyString getBackoffStableFactor() {
+    return backoffStableFactor;
+  }
+
+  @JsonProperty("backoffStableFactor")
+  public void setBackoffStableFactor(ConfigNodePropertyString backoffStableFactor) {
+    this.backoffStableFactor = backoffStableFactor;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDiscoveryOakConfigProperties orgApacheSlingDiscoveryOakConfigProperties = (OrgApacheSlingDiscoveryOakConfigProperties) o;
+    return Objects.equals(this.connectorPingTimeout, orgApacheSlingDiscoveryOakConfigProperties.connectorPingTimeout) &&
+        Objects.equals(this.connectorPingInterval, orgApacheSlingDiscoveryOakConfigProperties.connectorPingInterval) &&
+        Objects.equals(this.discoveryLiteCheckInterval, orgApacheSlingDiscoveryOakConfigProperties.discoveryLiteCheckInterval) &&
+        Objects.equals(this.clusterSyncServiceTimeout, orgApacheSlingDiscoveryOakConfigProperties.clusterSyncServiceTimeout) &&
+        Objects.equals(this.clusterSyncServiceInterval, orgApacheSlingDiscoveryOakConfigProperties.clusterSyncServiceInterval) &&
+        Objects.equals(this.enableSyncToken, orgApacheSlingDiscoveryOakConfigProperties.enableSyncToken) &&
+        Objects.equals(this.minEventDelay, orgApacheSlingDiscoveryOakConfigProperties.minEventDelay) &&
+        Objects.equals(this.socketConnectTimeout, orgApacheSlingDiscoveryOakConfigProperties.socketConnectTimeout) &&
+        Objects.equals(this.soTimeout, orgApacheSlingDiscoveryOakConfigProperties.soTimeout) &&
+        Objects.equals(this.topologyConnectorUrls, orgApacheSlingDiscoveryOakConfigProperties.topologyConnectorUrls) &&
+        Objects.equals(this.topologyConnectorWhitelist, orgApacheSlingDiscoveryOakConfigProperties.topologyConnectorWhitelist) &&
+        Objects.equals(this.autoStopLocalLoopEnabled, orgApacheSlingDiscoveryOakConfigProperties.autoStopLocalLoopEnabled) &&
+        Objects.equals(this.gzipConnectorRequestsEnabled, orgApacheSlingDiscoveryOakConfigProperties.gzipConnectorRequestsEnabled) &&
+        Objects.equals(this.hmacEnabled, orgApacheSlingDiscoveryOakConfigProperties.hmacEnabled) &&
+        Objects.equals(this.enableEncryption, orgApacheSlingDiscoveryOakConfigProperties.enableEncryption) &&
+        Objects.equals(this.sharedKey, orgApacheSlingDiscoveryOakConfigProperties.sharedKey) &&
+        Objects.equals(this.hmacSharedKeyTTL, orgApacheSlingDiscoveryOakConfigProperties.hmacSharedKeyTTL) &&
+        Objects.equals(this.backoffStandbyFactor, orgApacheSlingDiscoveryOakConfigProperties.backoffStandbyFactor) &&
+        Objects.equals(this.backoffStableFactor, orgApacheSlingDiscoveryOakConfigProperties.backoffStableFactor);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(connectorPingTimeout, connectorPingInterval, discoveryLiteCheckInterval, clusterSyncServiceTimeout, clusterSyncServiceInterval, enableSyncToken, minEventDelay, socketConnectTimeout, soTimeout, topologyConnectorUrls, topologyConnectorWhitelist, autoStopLocalLoopEnabled, gzipConnectorRequestsEnabled, hmacEnabled, enableEncryption, sharedKey, hmacSharedKeyTTL, backoffStandbyFactor, backoffStableFactor);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingDiscoveryOakConfigProperties {\n");
+    
+    sb.append("    connectorPingTimeout: ").append(toIndentedString(connectorPingTimeout)).append("\n");
+    sb.append("    connectorPingInterval: ").append(toIndentedString(connectorPingInterval)).append("\n");
+    sb.append("    discoveryLiteCheckInterval: ").append(toIndentedString(discoveryLiteCheckInterval)).append("\n");
+    sb.append("    clusterSyncServiceTimeout: ").append(toIndentedString(clusterSyncServiceTimeout)).append("\n");
+    sb.append("    clusterSyncServiceInterval: ").append(toIndentedString(clusterSyncServiceInterval)).append("\n");
+    sb.append("    enableSyncToken: ").append(toIndentedString(enableSyncToken)).append("\n");
+    sb.append("    minEventDelay: ").append(toIndentedString(minEventDelay)).append("\n");
+    sb.append("    socketConnectTimeout: ").append(toIndentedString(socketConnectTimeout)).append("\n");
+    sb.append("    soTimeout: ").append(toIndentedString(soTimeout)).append("\n");
+    sb.append("    topologyConnectorUrls: ").append(toIndentedString(topologyConnectorUrls)).append("\n");
+    sb.append("    topologyConnectorWhitelist: ").append(toIndentedString(topologyConnectorWhitelist)).append("\n");
+    sb.append("    autoStopLocalLoopEnabled: ").append(toIndentedString(autoStopLocalLoopEnabled)).append("\n");
+    sb.append("    gzipConnectorRequestsEnabled: ").append(toIndentedString(gzipConnectorRequestsEnabled)).append("\n");
+    sb.append("    hmacEnabled: ").append(toIndentedString(hmacEnabled)).append("\n");
+    sb.append("    enableEncryption: ").append(toIndentedString(enableEncryption)).append("\n");
+    sb.append("    sharedKey: ").append(toIndentedString(sharedKey)).append("\n");
+    sb.append("    hmacSharedKeyTTL: ").append(toIndentedString(hmacSharedKeyTTL)).append("\n");
+    sb.append("    backoffStandbyFactor: ").append(toIndentedString(backoffStandbyFactor)).append("\n");
+    sb.append("    backoffStableFactor: ").append(toIndentedString(backoffStableFactor)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}

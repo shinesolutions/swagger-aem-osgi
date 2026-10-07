@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+}
+resourceTypes {
+
+  ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties {
+    title = ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties
+    description = ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties
+    derivedFrom = Root
+    properties {
+        temp_storage_config {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties {
+    title = ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties
+    description = ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties
+    implements = openapi_server.resourceTypes.ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties
+
+  }
+}

@@ -1,0 +1,57 @@
+//
+// AUTO-GENERATED FILE, DO NOT MODIFY!
+//
+// @dart=2.18
+
+// ignore_for_file: unused_element, unused_import
+// ignore_for_file: always_put_required_named_parameters_first
+// ignore_for_file: constant_identifier_names
+// ignore_for_file: lines_longer_than_80_chars
+
+import 'package:openapi/api.dart';
+import 'package:test/test.dart';
+
+// tests for ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties
+void main() {
+  // final instance = ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties();
+
+  group('test ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties', () {
+    // ConfigNodePropertyString oauthPeriodProviderPeriodId
+    test('to test the property `oauthPeriodProviderPeriodId`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyString oauthPeriodCloudPeriodConfigPeriodRoot
+    test('to test the property `oauthPeriodCloudPeriodConfigPeriodRoot`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyString providerPeriodConfigPeriodRoot
+    test('to test the property `providerPeriodConfigPeriodRoot`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyDropDown providerPeriodConfigPeriodUserPeriodFolder
+    test('to test the property `providerPeriodConfigPeriodUserPeriodFolder`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyBoolean providerPeriodConfigPeriodTwitterPeriodEnablePeriodParams
+    test('to test the property `providerPeriodConfigPeriodTwitterPeriodEnablePeriodParams`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyArray providerPeriodConfigPeriodTwitterPeriodParams
+    test('to test the property `providerPeriodConfigPeriodTwitterPeriodParams`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyBoolean providerPeriodConfigPeriodRefreshPeriodUserdataPeriodEnabled
+    test('to test the property `providerPeriodConfigPeriodRefreshPeriodUserdataPeriodEnabled`', () async {
+      // TODO
+    });
+
+
+  });
+
+}

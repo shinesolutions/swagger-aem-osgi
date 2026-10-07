@@ -1,0 +1,13 @@
+# OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | [***models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] [default to None]
+**path** | [***models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] [default to None]
+**service_name** | [***models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] [default to None]
+**nuggets_path** | [***models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] [default to None]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

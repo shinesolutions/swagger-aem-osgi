@@ -1,0 +1,64 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheHttpProxyconfiguratorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheHttpProxyconfiguratorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheHttpProxyconfiguratorProperties {
+    title = OrgApacheHttpProxyconfiguratorProperties
+    description = OrgApacheHttpProxyconfiguratorProperties
+    derivedFrom = Root
+    properties {
+        proxy_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        proxy_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        proxy_port {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        proxy_user {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        proxy_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        proxy_exceptions {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheHttpProxyconfiguratorProperties {
+    title = OrgApacheHttpProxyconfiguratorProperties
+    description = OrgApacheHttpProxyconfiguratorProperties
+    implements = openapi_server.resourceTypes.OrgApacheHttpProxyconfiguratorProperties
+
+  }
+}

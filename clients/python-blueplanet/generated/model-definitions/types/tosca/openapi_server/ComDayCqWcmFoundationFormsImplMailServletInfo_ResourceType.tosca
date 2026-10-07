@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationFormsImplMailServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationFormsImplMailServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmFoundationFormsImplMailServletProperties = openapi_server.resourceTypes.ComDayCqWcmFoundationFormsImplMailServletProperties
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationFormsImplMailServletInfo {
+    title = ComDayCqWcmFoundationFormsImplMailServletInfo
+    description = ComDayCqWcmFoundationFormsImplMailServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmFoundationFormsImplMailServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationFormsImplMailServletInfo {
+    title = ComDayCqWcmFoundationFormsImplMailServletInfo
+    description = ComDayCqWcmFoundationFormsImplMailServletInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationFormsImplMailServletInfo
+
+  }
+}

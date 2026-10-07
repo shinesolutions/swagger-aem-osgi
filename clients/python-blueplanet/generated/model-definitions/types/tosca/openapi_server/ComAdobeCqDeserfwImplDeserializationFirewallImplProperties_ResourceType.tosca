@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDeserfwImplDeserializationFirewallImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDeserfwImplDeserializationFirewallImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqDeserfwImplDeserializationFirewallImplProperties {
+    title = ComAdobeCqDeserfwImplDeserializationFirewallImplProperties
+    description = ComAdobeCqDeserfwImplDeserializationFirewallImplProperties
+    derivedFrom = Root
+    properties {
+        firewall_deserialization_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        firewall_deserialization_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        firewall_deserialization_diagnostics {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDeserfwImplDeserializationFirewallImplProperties {
+    title = ComAdobeCqDeserfwImplDeserializationFirewallImplProperties
+    description = ComAdobeCqDeserfwImplDeserializationFirewallImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDeserfwImplDeserializationFirewallImplProperties
+
+  }
+}

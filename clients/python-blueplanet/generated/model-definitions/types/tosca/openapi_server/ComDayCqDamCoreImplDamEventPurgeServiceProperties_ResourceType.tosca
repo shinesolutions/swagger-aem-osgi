@@ -1,0 +1,59 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplDamEventPurgeServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplDamEventPurgeServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplDamEventPurgeServiceProperties {
+    title = ComDayCqDamCoreImplDamEventPurgeServiceProperties
+    description = ComDayCqDamCoreImplDamEventPurgeServiceProperties
+    derivedFrom = Root
+    properties {
+        scheduler_expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_saved_activities {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        save_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        enable_activity_purge {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        event_types {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplDamEventPurgeServiceProperties {
+    title = ComDayCqDamCoreImplDamEventPurgeServiceProperties
+    description = ComDayCqDamCoreImplDamEventPurgeServiceProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplDamEventPurgeServiceProperties
+
+  }
+}

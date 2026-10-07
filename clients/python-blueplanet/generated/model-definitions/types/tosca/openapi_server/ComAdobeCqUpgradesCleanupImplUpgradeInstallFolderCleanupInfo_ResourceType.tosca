@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties = openapi_server.resourceTypes.ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties
+}
+resourceTypes {
+
+  ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo {
+    title = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo
+    description = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo {
+    title = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo
+    description = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo
+
+  }
+}

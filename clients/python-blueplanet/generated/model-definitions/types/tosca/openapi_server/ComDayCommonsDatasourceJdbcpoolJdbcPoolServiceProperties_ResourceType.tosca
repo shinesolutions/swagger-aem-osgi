@@ -1,0 +1,89 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties {
+    title = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
+    description = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
+    derivedFrom = Root
+    properties {
+        jdbc_driver_class {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jdbc_connection_uri {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jdbc_username {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jdbc_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jdbc_validation_query {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_readonly {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        default_autocommit {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        pool_max_wait_msec {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        datasource_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        datasource_svc_properties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties {
+    title = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
+    description = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
+    implements = openapi_server.resourceTypes.ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
+
+  }
+}

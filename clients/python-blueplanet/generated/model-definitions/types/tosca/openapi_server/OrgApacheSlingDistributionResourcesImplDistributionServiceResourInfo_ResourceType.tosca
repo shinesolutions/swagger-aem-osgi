@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingDistributionResourcesImplDistributionServiceResourProperties = openapi_server.resourceTypes.OrgApacheSlingDistributionResourcesImplDistributionServiceResourProperties
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo {
+    title = OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo
+    description = OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingDistributionResourcesImplDistributionServiceResourProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo {
+    title = OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo
+    description = OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo
+
+  }
+}

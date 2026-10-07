@@ -1,0 +1,93 @@
+package org.openapitools.model
+
+import java.util.Objects
+import com.fasterxml.jackson.annotation.JsonInclude
+import com.fasterxml.jackson.annotation.JsonProperty
+import com.fasterxml.jackson.annotation.JsonSetter
+import com.fasterxml.jackson.annotation.Nulls
+import org.openapitools.model.ConfigNodePropertyBoolean
+import org.openapitools.model.ConfigNodePropertyInteger
+import org.openapitools.model.ConfigNodePropertyString
+import javax.validation.constraints.DecimalMax
+import javax.validation.constraints.DecimalMin
+import javax.validation.constraints.Email
+import javax.validation.constraints.Max
+import javax.validation.constraints.Min
+import javax.validation.constraints.NotNull
+import javax.validation.constraints.Pattern
+import javax.validation.constraints.Size
+import javax.validation.Valid
+import io.swagger.v3.oas.annotations.media.Schema
+
+/**
+ * 
+ * @param enabled 
+ * @param agentName 
+ * @param diffPath 
+ * @param observedPath 
+ * @param serviceName 
+ * @param propertyNames 
+ * @param distributionDelay 
+ * @param serviceUserTarget 
+ */
+data class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties(
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("enabled")
+    @get:JsonProperty("enabled") val enabled: ConfigNodePropertyBoolean? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("agentName")
+    @get:JsonProperty("agentName") val agentName: ConfigNodePropertyString? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("diffPath")
+    @get:JsonProperty("diffPath") val diffPath: ConfigNodePropertyString? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("observedPath")
+    @get:JsonProperty("observedPath") val observedPath: ConfigNodePropertyString? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("serviceName")
+    @get:JsonProperty("serviceName") val serviceName: ConfigNodePropertyString? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("propertyNames")
+    @get:JsonProperty("propertyNames") val propertyNames: ConfigNodePropertyString? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("distributionDelay")
+    @get:JsonProperty("distributionDelay") val distributionDelay: ConfigNodePropertyInteger? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("serviceUser.target")
+    @get:JsonProperty("serviceUser.target") val serviceUserTarget: ConfigNodePropertyString? = null
+) {
+
+}
+

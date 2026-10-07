@@ -1,0 +1,12 @@
+# ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**cq_dam_missingmetadata_notification_scheduler_istimebased** | [**\OpenAPI\Client\Model\ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional]
+**cq_dam_missingmetadata_notification_scheduler_timebased_rule** | [**\OpenAPI\Client\Model\ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional]
+**cq_dam_missingmetadata_notification_scheduler_period_rule** | [**\OpenAPI\Client\Model\ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional]
+**cq_dam_missingmetadata_notification_recipient** | [**\OpenAPI\Client\Model\ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

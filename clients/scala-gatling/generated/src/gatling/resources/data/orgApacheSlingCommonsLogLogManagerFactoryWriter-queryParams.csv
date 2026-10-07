@@ -1,0 +1,1 @@
+org.apache.sling.commons.log.file.number,org.apache.sling.commons.log.file.size,propertylist,$location,org.apache.sling.commons.log.file.buffered,apply,delete,action,post,org.apache.sling.commons.log.file

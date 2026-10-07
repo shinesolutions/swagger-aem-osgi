@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties {
+    title = ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties
+    description = ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties
+    derivedFrom = Root
+    properties {
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties {
+    title = ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties
+    description = ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties
+
+  }
+}

@@ -1,0 +1,18 @@
+package models
+
+type ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties struct {
+
+	LinkcheckertransformerDisableRewriting ConfigNodePropertyBoolean `json:"linkcheckertransformer.disableRewriting,omitempty"`
+
+	LinkcheckertransformerDisableChecking ConfigNodePropertyBoolean `json:"linkcheckertransformer.disableChecking,omitempty"`
+
+	LinkcheckertransformerMapCacheSize ConfigNodePropertyInteger `json:"linkcheckertransformer.mapCacheSize,omitempty"`
+
+	LinkcheckertransformerStrictExtensionCheck ConfigNodePropertyBoolean `json:"linkcheckertransformer.strictExtensionCheck,omitempty"`
+
+	LinkcheckertransformerStripHtmltExtension ConfigNodePropertyBoolean `json:"linkcheckertransformer.stripHtmltExtension,omitempty"`
+
+	LinkcheckertransformerRewriteElements ConfigNodePropertyArray `json:"linkcheckertransformer.rewriteElements,omitempty"`
+
+	LinkcheckertransformerStripExtensionPathBlacklist ConfigNodePropertyArray `json:"linkcheckertransformer.stripExtensionPathBlacklist,omitempty"`
+}

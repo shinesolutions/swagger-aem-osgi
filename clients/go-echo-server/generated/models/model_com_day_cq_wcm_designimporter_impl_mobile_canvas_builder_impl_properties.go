@@ -1,0 +1,14 @@
+package models
+
+type ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties struct {
+
+	Filepattern ConfigNodePropertyString `json:"filepattern,omitempty"`
+
+	DeviceGroups ConfigNodePropertyArray `json:"device.groups,omitempty"`
+
+	BuildPageNodes ConfigNodePropertyBoolean `json:"build.page.nodes,omitempty"`
+
+	BuildClientLibs ConfigNodePropertyBoolean `json:"build.client.libs,omitempty"`
+
+	BuildCanvasComponent ConfigNodePropertyBoolean `json:"build.canvas.component,omitempty"`
+}

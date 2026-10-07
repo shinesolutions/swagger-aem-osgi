@@ -1,0 +1,134 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties {
+    title = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
+    description = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
+    derivedFrom = Root
+    properties {
+        message_properties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        message_box_size_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        message_count_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        notify_failure {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        failure_message_from {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        failure_template_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_retries {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        min_wait_between_retries {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        count_update_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        inbox_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sentitems_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        support_attachments {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        support_group_messaging {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        max_total_recipients {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        batch_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_total_attachment_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        attachment_type_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        allowed_attachment_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        service_selector {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        field_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties {
+    title = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
+    description = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
+
+  }
+}

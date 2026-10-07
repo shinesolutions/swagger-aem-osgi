@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties {
+    title = ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties
+    description = ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties
+    derivedFrom = Root
+    properties {
+        service_max_links_per_host {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        service_save_external_link_references {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties {
+    title = ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties
+    description = ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties
+
+  }
+}

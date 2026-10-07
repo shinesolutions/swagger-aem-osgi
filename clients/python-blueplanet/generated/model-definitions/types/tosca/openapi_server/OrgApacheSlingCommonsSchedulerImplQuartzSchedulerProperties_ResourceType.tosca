@@ -1,0 +1,59 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties {
+    title = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
+    description = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
+    derivedFrom = Root
+    properties {
+        pool_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        allowed_pool_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        scheduler_useleaderforsingle {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        metrics_filters {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        slow_threshold_millis {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties {
+    title = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
+    description = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
+
+  }
+}

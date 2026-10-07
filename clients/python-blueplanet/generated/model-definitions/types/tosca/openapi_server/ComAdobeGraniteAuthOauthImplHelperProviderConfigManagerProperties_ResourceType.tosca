@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties {
+    title = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties
+    description = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties
+    derivedFrom = Root
+    properties {
+        oauth_cookie_login_timeout {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_cookie_max_age {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties {
+    title = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties
+    description = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties
+
+  }
+}

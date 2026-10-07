@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties",
+  "fields": [
+    {
+      "name": "server.type",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties {
+    title = OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
+    description = OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
+    derivedFrom = Root
+    properties {
+        timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        target_start_level {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        target_start_level_prop_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        type {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties {
+    title = OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
+    description = OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
+
+  }
+}

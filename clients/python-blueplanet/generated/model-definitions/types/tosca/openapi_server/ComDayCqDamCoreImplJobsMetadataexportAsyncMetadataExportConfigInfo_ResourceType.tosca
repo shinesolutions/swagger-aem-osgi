@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo {
+    title = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo
+    description = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo {
+    title = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo
+    description = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo
+
+  }
+}

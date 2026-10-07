@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties {
+    title = ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties
+    description = ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties
+    derivedFrom = Root
+    properties {
+        mime_allow_empty {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        mime_allowed {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties {
+    title = ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties
+    description = ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties
+
+  }
+}

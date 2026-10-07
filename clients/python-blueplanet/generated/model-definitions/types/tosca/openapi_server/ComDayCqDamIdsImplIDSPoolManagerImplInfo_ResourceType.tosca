@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamIdsImplIDSPoolManagerImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamIdsImplIDSPoolManagerImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamIdsImplIDSPoolManagerImplProperties = openapi_server.resourceTypes.ComDayCqDamIdsImplIDSPoolManagerImplProperties
+}
+resourceTypes {
+
+  ComDayCqDamIdsImplIDSPoolManagerImplInfo {
+    title = ComDayCqDamIdsImplIDSPoolManagerImplInfo
+    description = ComDayCqDamIdsImplIDSPoolManagerImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamIdsImplIDSPoolManagerImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamIdsImplIDSPoolManagerImplInfo {
+    title = ComDayCqDamIdsImplIDSPoolManagerImplInfo
+    description = ComDayCqDamIdsImplIDSPoolManagerImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamIdsImplIDSPoolManagerImplInfo
+
+  }
+}

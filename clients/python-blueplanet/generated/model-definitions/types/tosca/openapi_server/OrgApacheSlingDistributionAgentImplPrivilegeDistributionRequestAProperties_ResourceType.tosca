@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties {
+    title = OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties
+    description = OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jcr_privilege {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties {
+    title = OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties
+    description = OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties
+
+  }
+}

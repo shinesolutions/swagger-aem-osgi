@@ -1,0 +1,63 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqStatisticsImplStatisticsServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqStatisticsImplStatisticsServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqStatisticsImplStatisticsServiceImplProperties {
+    title = ComDayCqStatisticsImplStatisticsServiceImplProperties
+    description = ComDayCqStatisticsImplStatisticsServiceImplProperties
+    derivedFrom = Root
+    properties {
+        scheduler_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        scheduler_concurrent {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        workspace {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        keywords_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        async_entries {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqStatisticsImplStatisticsServiceImplProperties {
+    title = ComDayCqStatisticsImplStatisticsServiceImplProperties
+    description = ComDayCqStatisticsImplStatisticsServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqStatisticsImplStatisticsServiceImplProperties
+
+  }
+}

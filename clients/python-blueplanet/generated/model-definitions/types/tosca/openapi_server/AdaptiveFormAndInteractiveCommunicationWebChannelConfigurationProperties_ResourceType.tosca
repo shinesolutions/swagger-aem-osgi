@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties {
+    title = AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
+    description = AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
+    derivedFrom = Root
+    properties {
+        show_placeholder {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        maximum_cache_entries {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        af_scripting_compatversion {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        make_file_name_unique {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        generating_compliant_data {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties {
+    title = AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
+    description = AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
+    implements = openapi_server.resourceTypes.AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
+
+  }
+}

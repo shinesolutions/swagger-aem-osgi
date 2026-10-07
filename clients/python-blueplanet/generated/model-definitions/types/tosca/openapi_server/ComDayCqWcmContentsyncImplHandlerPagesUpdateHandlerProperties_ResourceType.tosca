@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties {
+    title = ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties
+    description = ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties
+    derivedFrom = Root
+    properties {
+        cq_pagesupdatehandler_imageresourcetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties {
+    title = ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties
+    description = ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties
+
+  }
+}

@@ -1,0 +1,27334 @@
+
+#include "AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfoTest.cpp"
+
+#include "AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPropertiesTest.cpp"
+
+#include "AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfoTest.cpp"
+
+#include "AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurPropertiesTest.cpp"
+
+#include "AnalyticsComponentQueryCacheServiceInfoTest.cpp"
+
+#include "AnalyticsComponentQueryCacheServicePropertiesTest.cpp"
+
+#include "ApacheSlingHealthCheckResultHTMLSerializerInfoTest.cpp"
+
+#include "ApacheSlingHealthCheckResultHTMLSerializerPropertiesTest.cpp"
+
+#include "ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfoTest.cpp"
+
+#include "ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationPropertiesTest.cpp"
+
+#include "ComAdobeAemTransactionCoreImplTransactionRecorderInfoTest.cpp"
+
+#include "ComAdobeAemTransactionCoreImplTransactionRecorderPropertiesTest.cpp"
+
+#include "ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfoTest.cpp"
+
+#include "ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCPropertiesTest.cpp"
+
+#include "ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfoTest.cpp"
+
+#include "ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropertiesTest.cpp"
+
+#include "ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfoTest.cpp"
+
+#include "ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplPropertiesTest.cpp"
+
+#include "ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfoTest.cpp"
+
+#include "ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplPropertiesTest.cpp"
+
+#include "ComAdobeCqAccountApiAccountManagementServiceInfoTest.cpp"
+
+#include "ComAdobeCqAccountApiAccountManagementServicePropertiesTest.cpp"
+
+#include "ComAdobeCqAccountImplAccountManagementServletInfoTest.cpp"
+
+#include "ComAdobeCqAccountImplAccountManagementServletPropertiesTest.cpp"
+
+#include "ComAdobeCqAddressImplLocationLocationListServletInfoTest.cpp"
+
+#include "ComAdobeCqAddressImplLocationLocationListServletPropertiesTest.cpp"
+
+#include "ComAdobeCqAuditPurgeDamInfoTest.cpp"
+
+#include "ComAdobeCqAuditPurgeDamPropertiesTest.cpp"
+
+#include "ComAdobeCqAuditPurgePagesInfoTest.cpp"
+
+#include "ComAdobeCqAuditPurgePagesPropertiesTest.cpp"
+
+#include "ComAdobeCqAuditPurgeReplicationInfoTest.cpp"
+
+#include "ComAdobeCqAuditPurgeReplicationPropertiesTest.cpp"
+
+#include "ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfoTest.cpp"
+
+#include "ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterPropertiesTest.cpp"
+
+#include "ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqCdnRewriterImplCDNConfigServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqCdnRewriterImplCDNRewriterInfoTest.cpp"
+
+#include "ComAdobeCqCdnRewriterImplCDNRewriterPropertiesTest.cpp"
+
+#include "ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfoTest.cpp"
+
+#include "ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandlePropertiesTest.cpp"
+
+#include "ComAdobeCqCommerceImplAssetDynamicImageHandlerInfoTest.cpp"
+
+#include "ComAdobeCqCommerceImplAssetDynamicImageHandlerPropertiesTest.cpp"
+
+#include "ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfoTest.cpp"
+
+#include "ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeCqCommerceImplAssetStaticImageHandlerInfoTest.cpp"
+
+#include "ComAdobeCqCommerceImplAssetStaticImageHandlerPropertiesTest.cpp"
+
+#include "ComAdobeCqCommerceImplAssetVideoHandlerInfoTest.cpp"
+
+#include "ComAdobeCqCommerceImplAssetVideoHandlerPropertiesTest.cpp"
+
+#include "ComAdobeCqCommerceImplPromotionPromotionManagerImplInfoTest.cpp"
+
+#include "ComAdobeCqCommerceImplPromotionPromotionManagerImplPropertiesTest.cpp"
+
+#include "ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfoTest.cpp"
+
+#include "ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplPropertiesTest.cpp"
+
+#include "ComAdobeCqCommercePimImplPageEventListenerInfoTest.cpp"
+
+#include "ComAdobeCqCommercePimImplPageEventListenerPropertiesTest.cpp"
+
+#include "ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfoTest.cpp"
+
+#include "ComAdobeCqContentinsightImplReportingServicesSettingsProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfoTest.cpp"
+
+#include "ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletPropertiesTest.cpp"
+
+#include "ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfoTest.cpp"
+
+#include "ComAdobeCqContentinsightImplServletsReportingServicesProxyServlePropertiesTest.cpp"
+
+#include "ComAdobeCqDamCfmImplComponentComponentConfigImplInfoTest.cpp"
+
+#include "ComAdobeCqDamCfmImplComponentComponentConfigImplPropertiesTest.cpp"
+
+#include "ComAdobeCqDamCfmImplConfFeatureConfigImplInfoTest.cpp"
+
+#include "ComAdobeCqDamCfmImplConfFeatureConfigImplPropertiesTest.cpp"
+
+#include "ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfoTest.cpp"
+
+#include "ComAdobeCqDamCfmImplContentRewriterAssetProcessorPropertiesTest.cpp"
+
+#include "ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfoTest.cpp"
+
+#include "ComAdobeCqDamCfmImplContentRewriterParRangeFilterPropertiesTest.cpp"
+
+#include "ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfoTest.cpp"
+
+#include "ComAdobeCqDamCfmImplContentRewriterPayloadFilterPropertiesTest.cpp"
+
+#include "ComAdobeCqDamDmProcessImagePTiffManagerImplInfoTest.cpp"
+
+#include "ComAdobeCqDamDmProcessImagePTiffManagerImplPropertiesTest.cpp"
+
+#include "ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfoTest.cpp"
+
+#include "ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerPropertiesTest.cpp"
+
+#include "ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfoTest.cpp"
+
+#include "ComAdobeCqDamMacSyncHelperImplMACSyncClientImplPropertiesTest.cpp"
+
+#include "ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqDamMacSyncImplDAMSyncServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfoTest.cpp"
+
+#include "ComAdobeCqDamProcessorNuiImplNuiAssetProcessorPropertiesTest.cpp"
+
+#include "ComAdobeCqDamS7imagingImplIsImageServerComponentInfoTest.cpp"
+
+#include "ComAdobeCqDamS7imagingImplIsImageServerComponentPropertiesTest.cpp"
+
+#include "ComAdobeCqDamS7imagingImplPsPlatformServerServletInfoTest.cpp"
+
+#include "ComAdobeCqDamS7imagingImplPsPlatformServerServletPropertiesTest.cpp"
+
+#include "ComAdobeCqDamWebdavImplIoAssetIOHandlerInfoTest.cpp"
+
+#include "ComAdobeCqDamWebdavImplIoAssetIOHandlerPropertiesTest.cpp"
+
+#include "ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfoTest.cpp"
+
+#include "ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobPropertiesTest.cpp"
+
+#include "ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfoTest.cpp"
+
+#include "ComAdobeCqDamWebdavImplIoSpecialFilesHandlerPropertiesTest.cpp"
+
+#include "ComAdobeCqDeserfwImplDeserializationFirewallImplInfoTest.cpp"
+
+#include "ComAdobeCqDeserfwImplDeserializationFirewallImplPropertiesTest.cpp"
+
+#include "ComAdobeCqDtmImplServiceDTMWebServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqDtmImplServiceDTMWebServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqDtmImplServletsDTMDeployHookServletInfoTest.cpp"
+
+#include "ComAdobeCqDtmImplServletsDTMDeployHookServletPropertiesTest.cpp"
+
+#include "ComAdobeCqDtmReactorImplServiceWebServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqDtmReactorImplServiceWebServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqExperiencelogImplExperienceLogConfigServletInfoTest.cpp"
+
+#include "ComAdobeCqExperiencelogImplExperienceLogConfigServletPropertiesTest.cpp"
+
+#include "ComAdobeCqHcContentPackagesHealthCheckInfoTest.cpp"
+
+#include "ComAdobeCqHcContentPackagesHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeCqHistoryImplHistoryRequestFilterInfoTest.cpp"
+
+#include "ComAdobeCqHistoryImplHistoryRequestFilterPropertiesTest.cpp"
+
+#include "ComAdobeCqHistoryImplHistoryServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqHistoryImplHistoryServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqInboxImplTypeproviderItemTypeProviderInfoTest.cpp"
+
+#include "ComAdobeCqInboxImplTypeproviderItemTypeProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqProjectsImplServletProjectImageServletInfoTest.cpp"
+
+#include "ComAdobeCqProjectsImplServletProjectImageServletPropertiesTest.cpp"
+
+#include "ComAdobeCqProjectsPurgeSchedulerInfoTest.cpp"
+
+#include "ComAdobeCqProjectsPurgeSchedulerPropertiesTest.cpp"
+
+#include "ComAdobeCqScheduledExporterImplScheduledExporterImplInfoTest.cpp"
+
+#include "ComAdobeCqScheduledExporterImplScheduledExporterImplPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensDeviceImplDeviceServiceInfoTest.cpp"
+
+#include "ComAdobeCqScreensDeviceImplDeviceServicePropertiesTest.cpp"
+
+#include "ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfoTest.cpp"
+
+#include "ComAdobeCqScreensImplHandlerChannelsUpdateHandlerPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfoTest.cpp"
+
+#include "ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfoTest.cpp"
+
+#include "ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensImplScreensChannelPostProcessorInfoTest.cpp"
+
+#include "ComAdobeCqScreensImplScreensChannelPostProcessorPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfoTest.cpp"
+
+#include "ComAdobeCqScreensMqActivemqImplArtemisJMSProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfoTest.cpp"
+
+#include "ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagPropertiesTest.cpp"
+
+#include "ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfoTest.cpp"
+
+#include "ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChPropertiesTest.cpp"
+
+#include "ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfoTest.cpp"
+
+#include "ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfoTest.cpp"
+
+#include "ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfoTest.cpp"
+
+#include "ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfoTest.cpp"
+
+#include "ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfoTest.cpp"
+
+#include "ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfoTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfoTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfoTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfoTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfoTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfoTest.cpp"
+
+#include "ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStrePropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfoTest.cpp"
+
+#include "ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfoTest.cpp"
+
+#include "ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCalendarServletsTimeZoneServletInfoTest.cpp"
+
+#include "ComAdobeCqSocialCalendarServletsTimeZoneServletPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSePropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfoTest.cpp"
+
+#include "ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialConnectOauthImplFacebookProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfoTest.cpp"
+
+#include "ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandlePropertiesTest.cpp"
+
+#include "ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfoTest.cpp"
+
+#include "ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialConnectOauthImplTwitterProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfoTest.cpp"
+
+#include "ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfoTest.cpp"
+
+#include "ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfoTest.cpp"
+
+#include "ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfoTest.cpp"
+
+#include "ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfoTest.cpp"
+
+#include "ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfoTest.cpp"
+
+#include "ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfoTest.cpp"
+
+#include "ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfoTest.cpp"
+
+#include "ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfoTest.cpp"
+
+#include "ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGePropertiesTest.cpp"
+
+#include "ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfoTest.cpp"
+
+#include "ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfoTest.cpp"
+
+#include "ComAdobeCqSocialForumClientEndpointsImplForumOperationsServicePropertiesTest.cpp"
+
+#include "ComAdobeCqSocialForumDispatcherImplFlushOperationsInfoTest.cpp"
+
+#include "ComAdobeCqSocialForumDispatcherImplFlushOperationsPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfoTest.cpp"
+
+#include "ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialGroupImplGroupServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialGroupImplGroupServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfoTest.cpp"
+
+#include "ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfoTest.cpp"
+
+#include "ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfoTest.cpp"
+
+#include "ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfilePropertiesTest.cpp"
+
+#include "ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfoTest.cpp"
+
+#include "ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfoTest.cpp"
+
+#include "ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfoTest.cpp"
+
+#include "ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfoTest.cpp"
+
+#include "ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfoTest.cpp"
+
+#include "ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfoTest.cpp"
+
+#include "ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfoTest.cpp"
+
+#include "ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialNotificationsImplMentionsRouterInfoTest.cpp"
+
+#include "ComAdobeCqSocialNotificationsImplMentionsRouterPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialNotificationsImplNotificationManagerImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialNotificationsImplNotificationManagerImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialNotificationsImplNotificationsRouterInfoTest.cpp"
+
+#include "ComAdobeCqSocialNotificationsImplNotificationsRouterPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfoTest.cpp"
+
+#include "ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfoTest.cpp"
+
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfoTest.cpp"
+
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfoTest.cpp"
+
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfoTest.cpp"
+
+#include "ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfoTest.cpp"
+
+#include "ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfoTest.cpp"
+
+#include "ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialScoringImplScoringEventListenerInfoTest.cpp"
+
+#include "ComAdobeCqSocialScoringImplScoringEventListenerPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfoTest.cpp"
+
+#include "ComAdobeCqSocialSiteEndpointsImplSiteOperationServicePropertiesTest.cpp"
+
+#include "ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfoTest.cpp"
+
+#include "ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialSiteImplSiteConfiguratorImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialSiteImplSiteConfiguratorImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialSrpImplSocialSolrConnectorInfoTest.cpp"
+
+#include "ComAdobeCqSocialSrpImplSocialSolrConnectorPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialSyncImplDiffChangesObserverInfoTest.cpp"
+
+#include "ComAdobeCqSocialSyncImplDiffChangesObserverPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialSyncImplGroupSyncListenerImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialSyncImplGroupSyncListenerImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialSyncImplPublisherSyncServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialSyncImplUserSyncListenerImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialSyncImplUserSyncListenerImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfoTest.cpp"
+
+#include "ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfoTest.cpp"
+
+#include "ComAdobeCqSocialTranslationImplUGCLanguageDetectorPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseImplSocialUtilsImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfoTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseModerationImplSentimentProcessPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfoTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfoTest.cpp"
+
+#include "ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfoTest.cpp"
+
+#include "ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletPropertiesTest.cpp"
+
+#include "ComAdobeCqSocialUserImplTransportHttpToPublisherInfoTest.cpp"
+
+#include "ComAdobeCqSocialUserImplTransportHttpToPublisherPropertiesTest.cpp"
+
+#include "ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfoTest.cpp"
+
+#include "ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactPropertiesTest.cpp"
+
+#include "ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfoTest.cpp"
+
+#include "ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupPropertiesTest.cpp"
+
+#include "ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfoTest.cpp"
+
+#include "ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupPropertiesTest.cpp"
+
+#include "ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfoTest.cpp"
+
+#include "ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServicePropertiesTest.cpp"
+
+#include "ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfoTest.cpp"
+
+#include "ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskPropertiesTest.cpp"
+
+#include "ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfoTest.cpp"
+
+#include "ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServicePropertiesTest.cpp"
+
+#include "ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfoTest.cpp"
+
+#include "ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServicePropertiesTest.cpp"
+
+#include "ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfoTest.cpp"
+
+#include "ComAdobeCqWcmLaunchesImplLaunchesEventHandlerPropertiesTest.cpp"
+
+#include "ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfoTest.cpp"
+
+#include "ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorPropertiesTest.cpp"
+
+#include "ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfoTest.cpp"
+
+#include "ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplPropertiesTest.cpp"
+
+#include "ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfoTest.cpp"
+
+#include "ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPropertiesTest.cpp"
+
+#include "ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfoTest.cpp"
+
+#include "ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServicePropertiesTest.cpp"
+
+#include "ComAdobeFdFpConfigFormsPortalSchedulerServiceInfoTest.cpp"
+
+#include "ComAdobeFdFpConfigFormsPortalSchedulerServicePropertiesTest.cpp"
+
+#include "ComAdobeFormsCommonServiceImplDefaultDataProviderInfoTest.cpp"
+
+#include "ComAdobeFormsCommonServiceImplDefaultDataProviderPropertiesTest.cpp"
+
+#include "ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfoTest.cpp"
+
+#include "ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpPropertiesTest.cpp"
+
+#include "ComAdobeFormsCommonServletTempCleanUpTaskInfoTest.cpp"
+
+#include "ComAdobeFormsCommonServletTempCleanUpTaskPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAcpPlatformPlatformServletInfoTest.cpp"
+
+#include "ComAdobeGraniteAcpPlatformPlatformServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteActivitystreamsImplActivityManagerImplInfoTest.cpp"
+
+#include "ComAdobeGraniteActivitystreamsImplActivityManagerImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAnalyzerBaseSystemStatusServletInfoTest.cpp"
+
+#include "ComAdobeGraniteAnalyzerBaseSystemStatusServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfoTest.cpp"
+
+#include "ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfoTest.cpp"
+
+#include "ComAdobeGraniteApicontrollerFilterResolverHookFactoryPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthCertImplClientCertAuthHandlerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplIMSProviderImplInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplIMSProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplImsConfigProviderImplInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthImsImplImsConfigProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthImsInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthImsPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthAccesstokenProviderInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthAccesstokenProviderPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplFacebookProviderImplInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplFacebookProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplGithubProviderImplInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplGithubProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplGraniteProviderInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplGraniteProviderPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplTwitterProviderImplInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthImplTwitterProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthProviderInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthOauthProviderPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthSamlSamlAuthenticationHandlerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfoTest.cpp"
+
+#include "ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplJobsHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplJobsHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfoTest.cpp"
+
+#include "ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacPropertiesTest.cpp"
+
+#include "ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfoTest.cpp"
+
+#include "ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteCompatrouterImplRoutingConfigInfoTest.cpp"
+
+#include "ComAdobeGraniteCompatrouterImplRoutingConfigPropertiesTest.cpp"
+
+#include "ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfoTest.cpp"
+
+#include "ComAdobeGraniteCompatrouterImplSwitchMappingConfigPropertiesTest.cpp"
+
+#include "ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfoTest.cpp"
+
+#include "ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingPropertiesTest.cpp"
+
+#include "ComAdobeGraniteContexthubImplContextHubImplInfoTest.cpp"
+
+#include "ComAdobeGraniteContexthubImplContextHubImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteCorsImplCORSPolicyImplInfoTest.cpp"
+
+#include "ComAdobeGraniteCorsImplCORSPolicyImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteCsrfImplCSRFFilterInfoTest.cpp"
+
+#include "ComAdobeGraniteCsrfImplCSRFFilterPropertiesTest.cpp"
+
+#include "ComAdobeGraniteCsrfImplCSRFServletInfoTest.cpp"
+
+#include "ComAdobeGraniteCsrfImplCSRFServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfoTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePropertiesTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfoTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertiesTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfoTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfoTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenPropertiesTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfoTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatPropertiesTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfoTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplReplicationDistributionTransPropertiesTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfoTest.cpp"
+
+#include "ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuPropertiesTest.cpp"
+
+#include "ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfoTest.cpp"
+
+#include "ComAdobeGraniteFragsImplCheckHttpHeaderFlagPropertiesTest.cpp"
+
+#include "ComAdobeGraniteFragsImplRandomFeatureInfoTest.cpp"
+
+#include "ComAdobeGraniteFragsImplRandomFeaturePropertiesTest.cpp"
+
+#include "ComAdobeGraniteHttpcacheFileFileCacheStoreInfoTest.cpp"
+
+#include "ComAdobeGraniteHttpcacheFileFileCacheStorePropertiesTest.cpp"
+
+#include "ComAdobeGraniteHttpcacheImplOuterCacheFilterInfoTest.cpp"
+
+#include "ComAdobeGraniteHttpcacheImplOuterCacheFilterPropertiesTest.cpp"
+
+#include "ComAdobeGraniteI18nImplBundlePseudoTranslationsInfoTest.cpp"
+
+#include "ComAdobeGraniteI18nImplBundlePseudoTranslationsPropertiesTest.cpp"
+
+#include "ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfoTest.cpp"
+
+#include "ComAdobeGraniteI18nImplPreferencesLocaleResolverServicePropertiesTest.cpp"
+
+#include "ComAdobeGraniteInfocollectorInfoCollectorInfoTest.cpp"
+
+#include "ComAdobeGraniteInfocollectorInfoCollectorPropertiesTest.cpp"
+
+#include "ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfoTest.cpp"
+
+#include "ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryPropertiesTest.cpp"
+
+#include "ComAdobeGraniteLicenseImplLicenseCheckFilterInfoTest.cpp"
+
+#include "ComAdobeGraniteLicenseImplLicenseCheckFilterPropertiesTest.cpp"
+
+#include "ComAdobeGraniteLoggingImplLogAnalyserImplInfoTest.cpp"
+
+#include "ComAdobeGraniteLoggingImplLogAnalyserImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteLoggingImplLogErrorHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteLoggingImplLogErrorHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfoTest.cpp"
+
+#include "ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskPropertiesTest.cpp"
+
+#include "ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfoTest.cpp"
+
+#include "ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskPropertiesTest.cpp"
+
+#include "ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfoTest.cpp"
+
+#include "ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskPropertiesTest.cpp"
+
+#include "ComAdobeGraniteMonitoringImplScriptConfigImplInfoTest.cpp"
+
+#include "ComAdobeGraniteMonitoringImplScriptConfigImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfoTest.cpp"
+
+#include "ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfoTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfoTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfoTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfoTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfoTest.cpp"
+
+#include "ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfoTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplOffloadingConfiguratorPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplOffloadingJobClonerInfoTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplOffloadingJobClonerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfoTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplOffloadingJobOffloaderPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfoTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfoTest.cpp"
+
+#include "ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfoTest.cpp"
+
+#include "ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteOptoutImplOptOutServiceImplInfoTest.cpp"
+
+#include "ComAdobeGraniteOptoutImplOptOutServiceImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfoTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsPropertiesTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfoTest.cpp"
+
+#include "ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChePropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryImplCommitStatsConfigInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryImplCommitStatsConfigPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRepositoryServiceUserConfigurationInfoTest.cpp"
+
+#include "ComAdobeGraniteRepositoryServiceUserConfigurationPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfoTest.cpp"
+
+#include "ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImPropertiesTest.cpp"
+
+#include "ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfoTest.cpp"
+
+#include "ComAdobeGraniteResourcestatusImplCompositeStatusTypePropertiesTest.cpp"
+
+#include "ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfoTest.cpp"
+
+#include "ComAdobeGraniteResourcestatusImplStatusResourceProviderImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfoTest.cpp"
+
+#include "ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfoTest.cpp"
+
+#include "ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteRestImplServletDefaultGETServletInfoTest.cpp"
+
+#include "ComAdobeGraniteRestImplServletDefaultGETServletPropertiesTest.cpp"
+
+#include "ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfoTest.cpp"
+
+#include "ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSPropertiesTest.cpp"
+
+#include "ComAdobeGraniteSecurityUserUserPropertiesServiceInfoTest.cpp"
+
+#include "ComAdobeGraniteSecurityUserUserPropertiesServicePropertiesTest.cpp"
+
+#include "ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfoTest.cpp"
+
+#include "ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfoTest.cpp"
+
+#include "ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfoTest.cpp"
+
+#include "ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryPropertiesTest.cpp"
+
+#include "ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfoTest.cpp"
+
+#include "ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServicePropertiesTest.cpp"
+
+#include "ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfoTest.cpp"
+
+#include "ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPropertiesTest.cpp"
+
+#include "ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfoTest.cpp"
+
+#include "ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorPropertiesTest.cpp"
+
+#include "ComAdobeGraniteThreaddumpThreadDumpCollectorInfoTest.cpp"
+
+#include "ComAdobeGraniteThreaddumpThreadDumpCollectorPropertiesTest.cpp"
+
+#include "ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfoTest.cpp"
+
+#include "ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPropertiesTest.cpp"
+
+#include "ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfoTest.cpp"
+
+#include "ComAdobeGraniteTranslationCoreImplTranslationManagerImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfoTest.cpp"
+
+#include "ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplPropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeaturePropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServicePropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreJobJobHandlerInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreJobJobHandlerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumPropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCorePayloadMapCacheInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCorePayloadMapCachePropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerPropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreWorkflowConfigInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreWorkflowConfigPropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryPropertiesTest.cpp"
+
+#include "ComAdobeGraniteWorkflowPurgeSchedulerInfoTest.cpp"
+
+#include "ComAdobeGraniteWorkflowPurgeSchedulerPropertiesTest.cpp"
+
+#include "ComAdobeOctopusNcommBootstrapInfoTest.cpp"
+
+#include "ComAdobeOctopusNcommBootstrapPropertiesTest.cpp"
+
+#include "ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfoTest.cpp"
+
+#include "ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSPropertiesTest.cpp"
+
+#include "ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfoTest.cpp"
+
+#include "ComAdobeXmpWorkerFilesNcommXMPFilesNCommPropertiesTest.cpp"
+
+#include "ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfoTest.cpp"
+
+#include "ComDayCommonsDatasourceJdbcpoolJdbcPoolServicePropertiesTest.cpp"
+
+#include "ComDayCommonsHttpclientInfoTest.cpp"
+
+#include "ComDayCommonsHttpclientPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsImplStorePropertiesChangeListenerInfoTest.cpp"
+
+#include "ComDayCqAnalyticsImplStorePropertiesChangeListenerPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfoTest.cpp"
+
+#include "ComDayCqAnalyticsSitecatalystImplExporterClassificationsExportePropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfoTest.cpp"
+
+#include "ComDayCqAnalyticsSitecatalystImplImporterReportImporterPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfoTest.cpp"
+
+#include "ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfoTest.cpp"
+
+#include "ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfoTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfoTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfoTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplSegmentImporterInfoTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplSegmentImporterPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfoTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfoTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletPropertiesTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfoTest.cpp"
+
+#include "ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplPropertiesTest.cpp"
+
+#include "ComDayCqAuthImplCugCugSupportImplInfoTest.cpp"
+
+#include "ComDayCqAuthImplCugCugSupportImplPropertiesTest.cpp"
+
+#include "ComDayCqAuthImplLoginSelectorHandlerInfoTest.cpp"
+
+#include "ComDayCqAuthImplLoginSelectorHandlerPropertiesTest.cpp"
+
+#include "ComDayCqCommonsImplExternalizerImplInfoTest.cpp"
+
+#include "ComDayCqCommonsImplExternalizerImplPropertiesTest.cpp"
+
+#include "ComDayCqCommonsServletsRootMappingServletInfoTest.cpp"
+
+#include "ComDayCqCommonsServletsRootMappingServletPropertiesTest.cpp"
+
+#include "ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfoTest.cpp"
+
+#include "ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckePropertiesTest.cpp"
+
+#include "ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfoTest.cpp"
+
+#include "ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListPropertiesTest.cpp"
+
+#include "ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfoTest.cpp"
+
+#include "ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistPropertiesTest.cpp"
+
+#include "ComDayCqContentsyncImplContentSyncManagerImplInfoTest.cpp"
+
+#include "ComDayCqContentsyncImplContentSyncManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCommonsHandlerStandardImageHandlerInfoTest.cpp"
+
+#include "ComDayCqDamCommonsHandlerStandardImageHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfoTest.cpp"
+
+#include "ComDayCqDamCommonsMetadataXmpFilterBlackWhitePropertiesTest.cpp"
+
+#include "ComDayCqDamCommonsUtilImplAssetCacheImplInfoTest.cpp"
+
+#include "ComDayCqDamCommonsUtilImplAssetCacheImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplAssetMoveListenerInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplAssetMoveListenerPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplCacheCQBufferedImageCacheInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplCacheCQBufferedImageCachePropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplDamChangeEventListenerInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplDamChangeEventListenerPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplDamEventPurgeServiceInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplDamEventPurgeServicePropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplDamEventRecorderImplInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplDamEventRecorderImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplEventDamEventAuditListenerInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplEventDamEventAuditListenerPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplExpiryNotificationJobImplInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplExpiryNotificationJobImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplGfxCommonsGfxRendererInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplGfxCommonsGfxRendererPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplHandlerEPSFormatHandlerInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplHandlerEPSFormatHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplHandlerIndesignFormatHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplHandlerJpegHandlerInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplHandlerJpegHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplJmxAssetMigrationMBeanImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplJmxAssetUpdateMonitorImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplLightboxLightboxServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplLightboxLightboxServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplMissingMetadataNotificationJobInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplMissingMetadataNotificationJobPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplProcessTextExtractionProcessInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplProcessTextExtractionProcessPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplRenditionMakerImplInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplRenditionMakerImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplReportsReportExportServiceInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplReportsReportExportServicePropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplReportsReportPurgeServiceInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplReportsReportPurgeServicePropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletAssetDownloadServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletAssetDownloadServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletAssetStatusServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletAssetStatusServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletAssetXMPSearchServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletAssetXMPSearchServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletBatchMetadataServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletBatchMetadataServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletBinaryProviderServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletBinaryProviderServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletCollectionServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletCollectionServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletCollectionsServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletCollectionsServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletCompanionServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletCompanionServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletCreateAssetServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletCreateAssetServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletDamContentDispositionFilterInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletDamContentDispositionFilterPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletGuidLookupFilterInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletGuidLookupFilterPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletHealthCheckServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletHealthCheckServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletMetadataGetServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletMetadataGetServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletMultipleLicenseAcceptServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplServletResourceCollectionServletInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplServletResourceCollectionServletPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreImplUnzipUnzipConfigInfoTest.cpp"
+
+#include "ComDayCqDamCoreImplUnzipUnzipConfigPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfoTest.cpp"
+
+#include "ComDayCqDamCoreProcessExifToolExtractMetadataProcessPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreProcessExtractMetadataProcessInfoTest.cpp"
+
+#include "ComDayCqDamCoreProcessExtractMetadataProcessPropertiesTest.cpp"
+
+#include "ComDayCqDamCoreProcessMetadataProcessorProcessInfoTest.cpp"
+
+#include "ComDayCqDamCoreProcessMetadataProcessorProcessPropertiesTest.cpp"
+
+#include "ComDayCqDamHandlerFfmpegLocatorImplInfoTest.cpp"
+
+#include "ComDayCqDamHandlerFfmpegLocatorImplPropertiesTest.cpp"
+
+#include "ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfoTest.cpp"
+
+#include "ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqDamHandlerStandardPdfPdfHandlerInfoTest.cpp"
+
+#include "ComDayCqDamHandlerStandardPdfPdfHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamHandlerStandardPsPostScriptHandlerInfoTest.cpp"
+
+#include "ComDayCqDamHandlerStandardPsPostScriptHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamHandlerStandardPsdPsdHandlerInfoTest.cpp"
+
+#include "ComDayCqDamHandlerStandardPsdPsdHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamIdsImplIDSJobProcessorInfoTest.cpp"
+
+#include "ComDayCqDamIdsImplIDSJobProcessorPropertiesTest.cpp"
+
+#include "ComDayCqDamIdsImplIDSPoolManagerImplInfoTest.cpp"
+
+#include "ComDayCqDamIdsImplIDSPoolManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqDamInddImplHandlerIndesignXMPHandlerInfoTest.cpp"
+
+#include "ComDayCqDamInddImplHandlerIndesignXMPHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamInddImplServletSnippetCreationServletInfoTest.cpp"
+
+#include "ComDayCqDamInddImplServletSnippetCreationServletPropertiesTest.cpp"
+
+#include "ComDayCqDamInddProcessINDDMediaExtractProcessInfoTest.cpp"
+
+#include "ComDayCqDamInddProcessINDDMediaExtractProcessPropertiesTest.cpp"
+
+#include "ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfoTest.cpp"
+
+#include "ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplPropertiesTest.cpp"
+
+#include "ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfoTest.cpp"
+
+#include "ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobPropertiesTest.cpp"
+
+#include "ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfoTest.cpp"
+
+#include "ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProPropertiesTest.cpp"
+
+#include "ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfoTest.cpp"
+
+#include "ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenPropertiesTest.cpp"
+
+#include "ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfoTest.cpp"
+
+#include "ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerPropertiesTest.cpp"
+
+#include "ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfoTest.cpp"
+
+#include "ComDayCqDamS7damCommonPostServletsSetCreateHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfoTest.cpp"
+
+#include "ComDayCqDamS7damCommonPostServletsSetModifyHandlerPropertiesTest.cpp"
+
+#include "ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfoTest.cpp"
+
+#include "ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessPropertiesTest.cpp"
+
+#include "ComDayCqDamS7damCommonS7damDamChangeEventListenerInfoTest.cpp"
+
+#include "ComDayCqDamS7damCommonS7damDamChangeEventListenerPropertiesTest.cpp"
+
+#include "ComDayCqDamS7damCommonServletsS7damProductInfoServletInfoTest.cpp"
+
+#include "ComDayCqDamS7damCommonServletsS7damProductInfoServletPropertiesTest.cpp"
+
+#include "ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfoTest.cpp"
+
+#include "ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7APIClientImplInfoTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7APIClientImplPropertiesTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfoTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfoTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7ConfigurationEventListenerPropertiesTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7DamChangeEventListenerInfoTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7DamChangeEventListenerPropertiesTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfoTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7UploadServiceImplInfoTest.cpp"
+
+#include "ComDayCqDamScene7ImplScene7UploadServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfoTest.cpp"
+
+#include "ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerPropertiesTest.cpp"
+
+#include "ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfoTest.cpp"
+
+#include "ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPropertiesTest.cpp"
+
+#include "ComDayCqDamVideoImplServletVideoTestServletInfoTest.cpp"
+
+#include "ComDayCqDamVideoImplServletVideoTestServletPropertiesTest.cpp"
+
+#include "ComDayCqExtwidgetServletsImageSpriteServletInfoTest.cpp"
+
+#include "ComDayCqExtwidgetServletsImageSpriteServletPropertiesTest.cpp"
+
+#include "ComDayCqImageInternalFontFontHelperInfoTest.cpp"
+
+#include "ComDayCqImageInternalFontFontHelperPropertiesTest.cpp"
+
+#include "ComDayCqJcrclustersupportClusterStartLevelControllerInfoTest.cpp"
+
+#include "ComDayCqJcrclustersupportClusterStartLevelControllerPropertiesTest.cpp"
+
+#include "ComDayCqMailerDefaultMailServiceInfoTest.cpp"
+
+#include "ComDayCqMailerDefaultMailServicePropertiesTest.cpp"
+
+#include "ComDayCqMailerImplCqMailingServiceInfoTest.cpp"
+
+#include "ComDayCqMailerImplCqMailingServicePropertiesTest.cpp"
+
+#include "ComDayCqMailerImplEmailCqEmailTemplateFactoryInfoTest.cpp"
+
+#include "ComDayCqMailerImplEmailCqEmailTemplateFactoryPropertiesTest.cpp"
+
+#include "ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfoTest.cpp"
+
+#include "ComDayCqMailerImplEmailCqRetrieverTemplateFactoryPropertiesTest.cpp"
+
+#include "ComDayCqMcmCampaignImplIntegrationConfigImplInfoTest.cpp"
+
+#include "ComDayCqMcmCampaignImplIntegrationConfigImplPropertiesTest.cpp"
+
+#include "ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfoTest.cpp"
+
+#include "ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryPropertiesTest.cpp"
+
+#include "ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfoTest.cpp"
+
+#include "ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqMcmImplMCMConfigurationInfoTest.cpp"
+
+#include "ComDayCqMcmImplMCMConfigurationPropertiesTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfoTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenPropertiesTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfoTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougPropertiesTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfoTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentPropertiesTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfoTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaPropertiesTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfoTest.cpp"
+
+#include "ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHPropertiesTest.cpp"
+
+#include "ComDayCqNotificationImplNotificationServiceImplInfoTest.cpp"
+
+#include "ComDayCqNotificationImplNotificationServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfoTest.cpp"
+
+#include "ComDayCqPersonalizationImplServletsTargetingConfigurationServletPropertiesTest.cpp"
+
+#include "ComDayCqPollingImporterImplManagedPollConfigImplInfoTest.cpp"
+
+#include "ComDayCqPollingImporterImplManagedPollConfigImplPropertiesTest.cpp"
+
+#include "ComDayCqPollingImporterImplManagedPollingImporterImplInfoTest.cpp"
+
+#include "ComDayCqPollingImporterImplManagedPollingImporterImplPropertiesTest.cpp"
+
+#include "ComDayCqPollingImporterImplPollingImporterImplInfoTest.cpp"
+
+#include "ComDayCqPollingImporterImplPollingImporterImplPropertiesTest.cpp"
+
+#include "ComDayCqReplicationAuditReplicationEventListenerInfoTest.cpp"
+
+#include "ComDayCqReplicationAuditReplicationEventListenerPropertiesTest.cpp"
+
+#include "ComDayCqReplicationContentStaticContentBuilderInfoTest.cpp"
+
+#include "ComDayCqReplicationContentStaticContentBuilderPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplAgentManagerImplInfoTest.cpp"
+
+#include "ComDayCqReplicationImplAgentManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfoTest.cpp"
+
+#include "ComDayCqReplicationImplContentDurboBinaryLessContentBuilderPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfoTest.cpp"
+
+#include "ComDayCqReplicationImplContentDurboDurboImportConfigurationProvPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplReplicationContentFactoryProviderImplInfoTest.cpp"
+
+#include "ComDayCqReplicationImplReplicationContentFactoryProviderImplPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplReplicationReceiverImplInfoTest.cpp"
+
+#include "ComDayCqReplicationImplReplicationReceiverImplPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplReplicatorImplInfoTest.cpp"
+
+#include "ComDayCqReplicationImplReplicatorImplPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplReverseReplicatorInfoTest.cpp"
+
+#include "ComDayCqReplicationImplReverseReplicatorPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfoTest.cpp"
+
+#include "ComDayCqReplicationImplTransportBinaryLessTransportHandlerPropertiesTest.cpp"
+
+#include "ComDayCqReplicationImplTransportHttpInfoTest.cpp"
+
+#include "ComDayCqReplicationImplTransportHttpPropertiesTest.cpp"
+
+#include "ComDayCqReportingImplCacheCacheImplInfoTest.cpp"
+
+#include "ComDayCqReportingImplCacheCacheImplPropertiesTest.cpp"
+
+#include "ComDayCqReportingImplConfigServiceImplInfoTest.cpp"
+
+#include "ComDayCqReportingImplConfigServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqReportingImplRLogAnalyzerInfoTest.cpp"
+
+#include "ComDayCqReportingImplRLogAnalyzerPropertiesTest.cpp"
+
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfoTest.cpp"
+
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerImplPropertiesTest.cpp"
+
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfoTest.cpp"
+
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerTaskPropertiesTest.cpp"
+
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfoTest.cpp"
+
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropertiesTest.cpp"
+
+#include "ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfoTest.cpp"
+
+#include "ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplPropertiesTest.cpp"
+
+#include "ComDayCqRewriterProcessorImplHtmlParserFactoryInfoTest.cpp"
+
+#include "ComDayCqRewriterProcessorImplHtmlParserFactoryPropertiesTest.cpp"
+
+#include "ComDayCqSearchImplBuilderQueryBuilderImplInfoTest.cpp"
+
+#include "ComDayCqSearchImplBuilderQueryBuilderImplPropertiesTest.cpp"
+
+#include "ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfoTest.cpp"
+
+#include "ComDayCqSearchSuggestImplSuggestionIndexManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfoTest.cpp"
+
+#include "ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerPropertiesTest.cpp"
+
+#include "ComDayCqSearchpromoteImplSearchPromoteServiceImplInfoTest.cpp"
+
+#include "ComDayCqSearchpromoteImplSearchPromoteServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqSecurityACLSetupInfoTest.cpp"
+
+#include "ComDayCqSecurityACLSetupPropertiesTest.cpp"
+
+#include "ComDayCqStatisticsImplStatisticsServiceImplInfoTest.cpp"
+
+#include "ComDayCqStatisticsImplStatisticsServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqTaggingImplJcrTagManagerFactoryImplInfoTest.cpp"
+
+#include "ComDayCqTaggingImplJcrTagManagerFactoryImplPropertiesTest.cpp"
+
+#include "ComDayCqTaggingImplSearchTagPredicateEvaluatorInfoTest.cpp"
+
+#include "ComDayCqTaggingImplSearchTagPredicateEvaluatorPropertiesTest.cpp"
+
+#include "ComDayCqTaggingImplTagGarbageCollectorInfoTest.cpp"
+
+#include "ComDayCqTaggingImplTagGarbageCollectorPropertiesTest.cpp"
+
+#include "ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfoTest.cpp"
+
+#include "ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerPropertiesTest.cpp"
+
+#include "ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfoTest.cpp"
+
+#include "ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplAuthoringUIModeServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplCommandsWCMCommandServletInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplCommandsWCMCommandServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplEventPageEventAuditListenerInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplEventPageEventAuditListenerPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplEventPagePostProcessorInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplEventPagePostProcessorPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplEventRepositoryChangeEventListenerPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplEventTemplatePostProcessorInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplEventTemplatePostProcessorPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplLanguageManagerImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplLanguageManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplPagePageInfoAggregatorImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplPagePageManagerFactoryImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplPagePageManagerFactoryImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplReferencesContentContentReferenceConfigPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorViePropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsFindReplaceServletInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsFindReplaceServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsReferenceSearchServletInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsReferenceSearchServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsThumbnailServletInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplServletsThumbnailServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplVariantsPageVariantsProviderImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplVersionManagerImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplVersionManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplVersionPurgeTaskInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplVersionPurgeTaskPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplWCMDebugFilterInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplWCMDebugFilterPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplWCMDeveloperModeFilterInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplWCMDeveloperModeFilterPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreImplWarpTimeWarpFilterInfoTest.cpp"
+
+#include "ComDayCqWcmCoreImplWarpTimeWarpFilterPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreMvtMVTStatisticsImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreMvtMVTStatisticsImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreStatsPageViewStatisticsImplInfoTest.cpp"
+
+#include "ComDayCqWcmCoreStatsPageViewStatisticsImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmCoreWCMRequestFilterInfoTest.cpp"
+
+#include "ComDayCqWcmCoreWCMRequestFilterPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterDesignPackageImporterInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterDesignPackageImporterPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterImplCanvasBuilderImplInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterImplCanvasBuilderImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterImplEntryPreprocessorImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponePropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandlePropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandlePropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandlePropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponePropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenPropertiesTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfoTest.cpp"
+
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationFormsImplFormChooserServletInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationFormsImplFormChooserServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationFormsImplFormsHandlingServletInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationFormsImplFormsHandlingServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationFormsImplMailServletInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationFormsImplMailServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationImplAdaptiveImageComponentServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationImplHTTPAuthHandlerInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationImplHTTPAuthHandlerPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationImplPageImpressionsTrackerInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationImplPageImpressionsTrackerPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationImplPageRedirectServletInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationImplPageRedirectServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistPropertiesTest.cpp"
+
+#include "ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfoTest.cpp"
+
+#include "ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfoTest.cpp"
+
+#include "ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryPropertiesTest.cpp"
+
+#include "ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfoTest.cpp"
+
+#include "ComDayCqWcmMobileCoreImplRedirectRedirectFilterPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsContentCopyActionFactoryPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsContentDeleteActionFactoryPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsContentUpdateActionFactoryPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsPageMoveActionFactoryPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplActionsVersionCopyActionFactoryPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplLiveRelationshipManagerImplInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplLiveRelationshipManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplRolloutManagerImplInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplRolloutManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmMsmImplServletsAuditLogServletInfoTest.cpp"
+
+#include "ComDayCqWcmMsmImplServletsAuditLogServletPropertiesTest.cpp"
+
+#include "ComDayCqWcmNotificationEmailImplEmailChannelInfoTest.cpp"
+
+#include "ComDayCqWcmNotificationEmailImplEmailChannelPropertiesTest.cpp"
+
+#include "ComDayCqWcmNotificationImplNotificationManagerImplInfoTest.cpp"
+
+#include "ComDayCqWcmNotificationImplNotificationManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmScriptingImplBVPManagerInfoTest.cpp"
+
+#include "ComDayCqWcmScriptingImplBVPManagerPropertiesTest.cpp"
+
+#include "ComDayCqWcmUndoUndoConfigInfoTest.cpp"
+
+#include "ComDayCqWcmUndoUndoConfigPropertiesTest.cpp"
+
+#include "ComDayCqWcmWebservicesupportImplReplicationEventListenerInfoTest.cpp"
+
+#include "ComDayCqWcmWebservicesupportImplReplicationEventListenerPropertiesTest.cpp"
+
+#include "ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfoTest.cpp"
+
+#include "ComDayCqWcmWorkflowImplWcmWorkflowServiceImplPropertiesTest.cpp"
+
+#include "ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfoTest.cpp"
+
+#include "ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderPropertiesTest.cpp"
+
+#include "ComDayCqWidgetImplHtmlLibraryManagerImplInfoTest.cpp"
+
+#include "ComDayCqWidgetImplHtmlLibraryManagerImplPropertiesTest.cpp"
+
+#include "ComDayCqWidgetImplWidgetExtensionProviderImplInfoTest.cpp"
+
+#include "ComDayCqWidgetImplWidgetExtensionProviderImplPropertiesTest.cpp"
+
+#include "ComDayCqWorkflowImplEmailEMailNotificationServiceInfoTest.cpp"
+
+#include "ComDayCqWorkflowImplEmailEMailNotificationServicePropertiesTest.cpp"
+
+#include "ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfoTest.cpp"
+
+#include "ComDayCqWorkflowImplEmailTaskEMailNotificationServicePropertiesTest.cpp"
+
+#include "ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfoTest.cpp"
+
+#include "ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerPropertiesTest.cpp"
+
+#include "ComDayCrxSecurityTokenImplTokenCleanupTaskInfoTest.cpp"
+
+#include "ComDayCrxSecurityTokenImplTokenCleanupTaskPropertiesTest.cpp"
+
+#include "ConfigNodePropertyArrayTest.cpp"
+
+#include "ConfigNodePropertyBooleanTest.cpp"
+
+#include "ConfigNodePropertyDropDownTest.cpp"
+
+#include "ConfigNodePropertyDropDown_typeTest.cpp"
+
+#include "ConfigNodePropertyFloatTest.cpp"
+
+#include "ConfigNodePropertyIntegerTest.cpp"
+
+#include "ConfigNodePropertyStringTest.cpp"
+
+#include "GuideLocalizationServiceInfoTest.cpp"
+
+#include "GuideLocalizationServicePropertiesTest.cpp"
+
+#include "MessagingUserComponentFactoryInfoTest.cpp"
+
+#include "MessagingUserComponentFactoryPropertiesTest.cpp"
+
+#include "OrgApacheAriesJmxFrameworkStateConfigInfoTest.cpp"
+
+#include "OrgApacheAriesJmxFrameworkStateConfigPropertiesTest.cpp"
+
+#include "OrgApacheFelixEventadminImplEventAdminInfoTest.cpp"
+
+#include "OrgApacheFelixEventadminImplEventAdminPropertiesTest.cpp"
+
+#include "OrgApacheFelixHttpInfoTest.cpp"
+
+#include "OrgApacheFelixHttpPropertiesTest.cpp"
+
+#include "OrgApacheFelixHttpSslfilterSslFilterInfoTest.cpp"
+
+#include "OrgApacheFelixHttpSslfilterSslFilterPropertiesTest.cpp"
+
+#include "OrgApacheFelixJaasConfigurationFactoryInfoTest.cpp"
+
+#include "OrgApacheFelixJaasConfigurationFactoryPropertiesTest.cpp"
+
+#include "OrgApacheFelixJaasConfigurationSpiInfoTest.cpp"
+
+#include "OrgApacheFelixJaasConfigurationSpiPropertiesTest.cpp"
+
+#include "OrgApacheFelixScrScrServiceInfoTest.cpp"
+
+#include "OrgApacheFelixScrScrServicePropertiesTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplComponentsCheckInfoTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplComponentsCheckPropertiesTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplFrameworkStartCheckInfoTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplFrameworkStartCheckPropertiesTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplServicesCheckInfoTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplServicesCheckPropertiesTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplServletSystemAliveServletInfoTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplServletSystemAliveServletPropertiesTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplServletSystemReadyServletInfoTest.cpp"
+
+#include "OrgApacheFelixSystemreadyImplServletSystemReadyServletPropertiesTest.cpp"
+
+#include "OrgApacheFelixSystemreadySystemReadyMonitorInfoTest.cpp"
+
+#include "OrgApacheFelixSystemreadySystemReadyMonitorPropertiesTest.cpp"
+
+#include "OrgApacheFelixWebconsoleInternalServletOsgiManagerInfoTest.cpp"
+
+#include "OrgApacheFelixWebconsoleInternalServletOsgiManagerPropertiesTest.cpp"
+
+#include "OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfoTest.cpp"
+
+#include "OrgApacheFelixWebconsolePluginsEventInternalPluginServletPropertiesTest.cpp"
+
+#include "OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfoTest.cpp"
+
+#include "OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoPropertiesTest.cpp"
+
+#include "OrgApacheHttpProxyconfiguratorInfoTest.cpp"
+
+#include "OrgApacheHttpProxyconfiguratorPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStorePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePrePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServicePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakQueryQueryEngineSettingsServicePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNamePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSecurityUserUserConfigurationImplPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServicePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreServicePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfoTest.cpp"
+
+#include "OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitVaultPackagingImplPackagingImplInfoTest.cpp"
+
+#include "OrgApacheJackrabbitVaultPackagingImplPackagingImplPropertiesTest.cpp"
+
+#include "OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfoTest.cpp"
+
+#include "OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryPropertiesTest.cpp"
+
+#include "OrgApacheSlingAuthCoreImplLogoutServletInfoTest.cpp"
+
+#include "OrgApacheSlingAuthCoreImplLogoutServletPropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderPropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplConfigurationResolverImplInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplConfigurationResolverImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraPropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraPropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOvePropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiPropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourPropertiesTest.cpp"
+
+#include "OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfoTest.cpp"
+
+#include "OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsLogLogManagerFactoryConfigInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsLogLogManagerFactoryConfigPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsLogLogManagerFactoryWriterInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsLogLogManagerFactoryWriterPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsLogLogManagerInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsLogLogManagerPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsMetricsInternalLogReporterInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsMetricsInternalLogReporterPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsSchedulerImplQuartzSchedulerPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckPropertiesTest.cpp"
+
+#include "OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingDatasourceDataSourceFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingDatasourceDataSourceFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingDatasourceJNDIDataSourceFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingDatasourceJNDIDataSourceFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingDiscoveryOakConfigInfoTest.cpp"
+
+#include "OrgApacheSlingDiscoveryOakConfigPropertiesTest.cpp"
+
+#include "OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfoTest.cpp"
+
+#include "OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplExporterAgentDistributioPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplExporterLocalDistributioPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplImporterLocalDistributioPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionResourcesImplDistributionConfigurationPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionResourcesImplDistributionServiceResourPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionSerializationImplDistributionPackageBuPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionSerializationImplVltVaultDistributionPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionTransportImplUserCredentialsDistributiPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplDistributionEventDistributePropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrPropertiesTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfoTest.cpp"
+
+#include "OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePropertiesTest.cpp"
+
+#include "OrgApacheSlingEngineImplAuthSlingAuthenticatorInfoTest.cpp"
+
+#include "OrgApacheSlingEngineImplAuthSlingAuthenticatorPropertiesTest.cpp"
+
+#include "OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfoTest.cpp"
+
+#include "OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropertiesTest.cpp"
+
+#include "OrgApacheSlingEngineImplLogRequestLoggerInfoTest.cpp"
+
+#include "OrgApacheSlingEngineImplLogRequestLoggerPropertiesTest.cpp"
+
+#include "OrgApacheSlingEngineImplLogRequestLoggerServiceInfoTest.cpp"
+
+#include "OrgApacheSlingEngineImplLogRequestLoggerServicePropertiesTest.cpp"
+
+#include "OrgApacheSlingEngineImplSlingMainServletInfoTest.cpp"
+
+#include "OrgApacheSlingEngineImplSlingMainServletPropertiesTest.cpp"
+
+#include "OrgApacheSlingEngineParametersInfoTest.cpp"
+
+#include "OrgApacheSlingEngineParametersPropertiesTest.cpp"
+
+#include "OrgApacheSlingEventImplEventingThreadPoolInfoTest.cpp"
+
+#include "OrgApacheSlingEventImplEventingThreadPoolPropertiesTest.cpp"
+
+#include "OrgApacheSlingEventImplJobsDefaultJobManagerInfoTest.cpp"
+
+#include "OrgApacheSlingEventImplJobsDefaultJobManagerPropertiesTest.cpp"
+
+#include "OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfoTest.cpp"
+
+#include "OrgApacheSlingEventImplJobsJcrPersistenceHandlerPropertiesTest.cpp"
+
+#include "OrgApacheSlingEventImplJobsJobConsumerManagerInfoTest.cpp"
+
+#include "OrgApacheSlingEventImplJobsJobConsumerManagerPropertiesTest.cpp"
+
+#include "OrgApacheSlingEventJobsQueueConfigurationInfoTest.cpp"
+
+#include "OrgApacheSlingEventJobsQueueConfigurationPropertiesTest.cpp"
+
+#include "OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfoTest.cpp"
+
+#include "OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPropertiesTest.cpp"
+
+#include "OrgApacheSlingFeatureflagsFeatureInfoTest.cpp"
+
+#include "OrgApacheSlingFeatureflagsFeaturePropertiesTest.cpp"
+
+#include "OrgApacheSlingFeatureflagsImplConfiguredFeatureInfoTest.cpp"
+
+#include "OrgApacheSlingFeatureflagsImplConfiguredFeaturePropertiesTest.cpp"
+
+#include "OrgApacheSlingHapiImplHApiUtilImplInfoTest.cpp"
+
+#include "OrgApacheSlingHapiImplHApiUtilImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplCompositeHealthCheckInfoTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplCompositeHealthCheckPropertiesTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfoTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfoTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplJmxAttributeHealthCheckPropertiesTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplScriptableHealthCheckInfoTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplScriptableHealthCheckPropertiesTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfoTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletPropertiesTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfoTest.cpp"
+
+#include "OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerPropertiesTest.cpp"
+
+#include "OrgApacheSlingI18nImplI18NFilterInfoTest.cpp"
+
+#include "OrgApacheSlingI18nImplI18NFilterPropertiesTest.cpp"
+
+#include "OrgApacheSlingI18nImplJcrResourceBundleProviderInfoTest.cpp"
+
+#include "OrgApacheSlingI18nImplJcrResourceBundleProviderPropertiesTest.cpp"
+
+#include "OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfoTest.cpp"
+
+#include "OrgApacheSlingInstallerProviderJcrImplJcrInstallerPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfoTest.cpp"
+
+#include "OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfoTest.cpp"
+
+#include "OrgApacheSlingJcrBaseInternalLoginAdminWhitelistPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfoTest.cpp"
+
+#include "OrgApacheSlingJcrDavexImplServletsSlingDavExServletPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfoTest.cpp"
+
+#include "OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfoTest.cpp"
+
+#include "OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfoTest.cpp"
+
+#include "OrgApacheSlingJcrRepoinitImplRepositoryInitializerPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrRepoinitRepositoryInitializerInfoTest.cpp"
+
+#include "OrgApacheSlingJcrRepoinitRepositoryInitializerPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfoTest.cpp"
+
+#include "OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfoTest.cpp"
+
+#include "OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfoTest.cpp"
+
+#include "OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServicePropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfoTest.cpp"
+
+#include "OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicPropertiesTest.cpp"
+
+#include "OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfoTest.cpp"
+
+#include "OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletPropertiesTest.cpp"
+
+#include "OrgApacheSlingJmxProviderImplJMXResourceProviderInfoTest.cpp"
+
+#include "OrgApacheSlingJmxProviderImplJMXResourceProviderPropertiesTest.cpp"
+
+#include "OrgApacheSlingModelsImplModelAdapterFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingModelsImplModelAdapterFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfoTest.cpp"
+
+#include "OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderPropertiesTest.cpp"
+
+#include "OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfoTest.cpp"
+
+#include "OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoPropertiesTest.cpp"
+
+#include "OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingResourcemergerPickerOverridingInfoTest.cpp"
+
+#include "OrgApacheSlingResourcemergerPickerOverridingPropertiesTest.cpp"
+
+#include "OrgApacheSlingScriptingCoreImplScriptCacheImplInfoTest.cpp"
+
+#include "OrgApacheSlingScriptingCoreImplScriptCacheImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfoTest.cpp"
+
+#include "OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderPropertiesTest.cpp"
+
+#include "OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfoTest.cpp"
+
+#include "OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaPropertiesTest.cpp"
+
+#include "OrgApacheSlingScriptingJspJspScriptEngineFactoryInfoTest.cpp"
+
+#include "OrgApacheSlingScriptingJspJspScriptEngineFactoryPropertiesTest.cpp"
+
+#include "OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfoTest.cpp"
+
+#include "OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvPropertiesTest.cpp"
+
+#include "OrgApacheSlingSecurityImplContentDispositionFilterInfoTest.cpp"
+
+#include "OrgApacheSlingSecurityImplContentDispositionFilterPropertiesTest.cpp"
+
+#include "OrgApacheSlingSecurityImplReferrerFilterInfoTest.cpp"
+
+#include "OrgApacheSlingSecurityImplReferrerFilterPropertiesTest.cpp"
+
+#include "OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfoTest.cpp"
+
+#include "OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedPropertiesTest.cpp"
+
+#include "OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfoTest.cpp"
+
+#include "OrgApacheSlingServiceusermappingImplServiceUserMapperImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingServletsGetDefaultGetServletInfoTest.cpp"
+
+#include "OrgApacheSlingServletsGetDefaultGetServletPropertiesTest.cpp"
+
+#include "OrgApacheSlingServletsGetImplVersionVersionInfoServletInfoTest.cpp"
+
+#include "OrgApacheSlingServletsGetImplVersionVersionInfoServletPropertiesTest.cpp"
+
+#include "OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfoTest.cpp"
+
+#include "OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskPropertiesTest.cpp"
+
+#include "OrgApacheSlingServletsPostImplSlingPostServletInfoTest.cpp"
+
+#include "OrgApacheSlingServletsPostImplSlingPostServletPropertiesTest.cpp"
+
+#include "OrgApacheSlingServletsResolverSlingServletResolverInfoTest.cpp"
+
+#include "OrgApacheSlingServletsResolverSlingServletResolverPropertiesTest.cpp"
+
+#include "OrgApacheSlingSettingsImplSlingSettingsServiceImplInfoTest.cpp"
+
+#include "OrgApacheSlingSettingsImplSlingSettingsServiceImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingStartupfilterImplStartupFilterImplInfoTest.cpp"
+
+#include "OrgApacheSlingStartupfilterImplStartupFilterImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingTenantInternalTenantProviderImplInfoTest.cpp"
+
+#include "OrgApacheSlingTenantInternalTenantProviderImplPropertiesTest.cpp"
+
+#include "OrgApacheSlingTracerInternalLogTracerInfoTest.cpp"
+
+#include "OrgApacheSlingTracerInternalLogTracerPropertiesTest.cpp"
+
+#include "OrgApacheSlingXssImplXSSFilterImplInfoTest.cpp"
+
+#include "OrgApacheSlingXssImplXSSFilterImplPropertiesTest.cpp"
+
+
+
+void setUp(){}
+
+void tearDown(){}
+
+void runTests(){
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_AnalyticsComponentQueryCacheServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_AnalyticsComponentQueryCacheServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_AnalyticsComponentQueryCacheServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ApacheSlingHealthCheckResultHTMLSerializerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ApacheSlingHealthCheckResultHTMLSerializerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ApacheSlingHealthCheckResultHTMLSerializerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemTransactionCoreImplTransactionRecorderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemTransactionCoreImplTransactionRecorderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemTransactionCoreImplTransactionRecorderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountImplAccountManagementServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountImplAccountManagementServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountImplAccountManagementServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAddressImplLocationLocationListServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAddressImplLocationLocationListServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAddressImplLocationLocationListServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeDamInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeDamInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeDamInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgePagesInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgePagesInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgePagesInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeReplicationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeReplicationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeReplicationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNRewriterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNRewriterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNRewriterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetStaticImageHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetStaticImageHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetStaticImageHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetVideoHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetVideoHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetVideoHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplPageEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplPageEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplPageEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplComponentComponentConfigImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplComponentComponentConfigImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplComponentComponentConfigImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplConfFeatureConfigImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplConfFeatureConfigImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplConfFeatureConfigImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamDmProcessImagePTiffManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamDmProcessImagePTiffManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamDmProcessImagePTiffManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplIsImageServerComponentInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplIsImageServerComponentInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplIsImageServerComponentInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDeserfwImplDeserializationFirewallImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDeserfwImplDeserializationFirewallImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDeserfwImplDeserializationFirewallImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServiceDTMWebServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServiceDTMWebServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServiceDTMWebServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServletsDTMDeployHookServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServletsDTMDeployHookServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServletsDTMDeployHookServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmReactorImplServiceWebServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmReactorImplServiceWebServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmReactorImplServiceWebServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHcContentPackagesHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHcContentPackagesHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHcContentPackagesHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsImplServletProjectImageServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsImplServletProjectImageServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsImplServletProjectImageServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsPurgeSchedulerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsPurgeSchedulerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsPurgeSchedulerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScheduledExporterImplScheduledExporterImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScheduledExporterImplScheduledExporterImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScheduledExporterImplScheduledExporterImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceImplDeviceServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceImplDeviceServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceImplDeviceServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplScreensChannelPostProcessorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplScreensChannelPostProcessorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplScreensChannelPostProcessorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarServletsTimeZoneServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarServletsTimeZoneServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarServletsTimeZoneServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupImplGroupServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupImplGroupServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupImplGroupServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplMentionsRouterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplMentionsRouterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplMentionsRouterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationsRouterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationsRouterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationsRouterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScoringImplScoringEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScoringImplScoringEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScoringImplScoringEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSrpImplSocialSolrConnectorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSrpImplSocialSolrConnectorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSrpImplSocialSolrConnectorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplDiffChangesObserverInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplDiffChangesObserverInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplDiffChangesObserverInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplUserSyncListenerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplUserSyncListenerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplUserSyncListenerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserImplTransportHttpToPublisherInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserImplTransportHttpToPublisherInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserImplTransportHttpToPublisherInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplDefaultDataProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplDefaultDataProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplDefaultDataProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServletTempCleanUpTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServletTempCleanUpTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServletTempCleanUpTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAcpPlatformPlatformServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAcpPlatformPlatformServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAcpPlatformPlatformServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthAccesstokenProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthAccesstokenProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthAccesstokenProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGithubProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGithubProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGithubProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGraniteProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGraniteProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGraniteProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplRoutingConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplRoutingConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplRoutingConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteContexthubImplContextHubImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteContexthubImplContextHubImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteContexthubImplContextHubImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCorsImplCORSPolicyImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCorsImplCORSPolicyImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCorsImplCORSPolicyImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplRandomFeatureInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplRandomFeatureInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplRandomFeatureInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheFileFileCacheStoreInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheFileFileCacheStoreInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheFileFileCacheStoreInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteInfocollectorInfoCollectorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteInfocollectorInfoCollectorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteInfocollectorInfoCollectorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLicenseImplLicenseCheckFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLicenseImplLicenseCheckFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLicenseImplLicenseCheckFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogAnalyserImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogAnalyserImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogAnalyserImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMonitoringImplScriptConfigImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMonitoringImplScriptConfigImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMonitoringImplScriptConfigImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryServiceUserConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryServiceUserConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryServiceUserConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplServletDefaultGETServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplServletDefaultGETServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplServletDefaultGETServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteThreaddumpThreadDumpCollectorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteThreaddumpThreadDumpCollectorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteThreaddumpThreadDumpCollectorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobJobHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobJobHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobJobHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadMapCacheInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadMapCacheInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadMapCacheInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowPurgeSchedulerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowPurgeSchedulerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowPurgeSchedulerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeOctopusNcommBootstrapInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeOctopusNcommBootstrapInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeOctopusNcommBootstrapInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCommonsHttpclientInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCommonsHttpclientInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCommonsHttpclientInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplCugCugSupportImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplCugCugSupportImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplCugCugSupportImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqContentsyncImplContentSyncManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqContentsyncImplContentSyncManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqContentsyncImplContentSyncManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsHandlerStandardImageHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsHandlerStandardImageHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsHandlerStandardImageHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsUtilImplAssetCacheImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsUtilImplAssetCacheImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsUtilImplAssetCacheImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetMoveListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetMoveListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetMoveListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamChangeEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamChangeEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamChangeEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventPurgeServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventPurgeServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventPurgeServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventRecorderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventRecorderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventRecorderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplEventDamEventAuditListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplEventDamEventAuditListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplEventDamEventAuditListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplExpiryNotificationJobImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplExpiryNotificationJobImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplExpiryNotificationJobImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplGfxCommonsGfxRendererInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplGfxCommonsGfxRendererInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplGfxCommonsGfxRendererInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerJpegHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerJpegHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerJpegHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplLightboxLightboxServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplLightboxLightboxServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplLightboxLightboxServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMissingMetadataNotificationJobInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMissingMetadataNotificationJobInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMissingMetadataNotificationJobInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessTextExtractionProcessInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessTextExtractionProcessInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessTextExtractionProcessInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplRenditionMakerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplRenditionMakerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplRenditionMakerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportExportServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportExportServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportExportServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportPurgeServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportPurgeServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportPurgeServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetStatusServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetStatusServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetStatusServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetXMPSearchServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetXMPSearchServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetXMPSearchServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBatchMetadataServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBatchMetadataServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBatchMetadataServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBinaryProviderServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBinaryProviderServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBinaryProviderServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionsServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionsServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionsServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCompanionServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCompanionServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCompanionServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCreateAssetServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCreateAssetServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCreateAssetServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletDamContentDispositionFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletDamContentDispositionFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletDamContentDispositionFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletHealthCheckServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletHealthCheckServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletHealthCheckServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMetadataGetServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMetadataGetServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMetadataGetServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletResourceCollectionServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletResourceCollectionServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletResourceCollectionServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUnzipUnzipConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUnzipUnzipConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUnzipUnzipConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExtractMetadataProcessInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExtractMetadataProcessInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExtractMetadataProcessInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessMetadataProcessorProcessInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessMetadataProcessorProcessInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessMetadataProcessorProcessInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerFfmpegLocatorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerFfmpegLocatorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerFfmpegLocatorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPdfPdfHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPdfPdfHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPdfPdfHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsPostScriptHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsPostScriptHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsPostScriptHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsdPsdHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsdPsdHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsdPsdHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSJobProcessorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSJobProcessorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSJobProcessorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSPoolManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSPoolManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSPoolManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplServletSnippetCreationServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplServletSnippetCreationServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplServletSnippetCreationServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamInddProcessINDDMediaExtractProcessInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddProcessINDDMediaExtractProcessInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddProcessINDDMediaExtractProcessInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7APIClientImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7APIClientImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7APIClientImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7UploadServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7UploadServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7UploadServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqExtwidgetServletsImageSpriteServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqExtwidgetServletsImageSpriteServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqExtwidgetServletsImageSpriteServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqImageInternalFontFontHelperInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqImageInternalFontFontHelperInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqImageInternalFontFontHelperInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqJcrclustersupportClusterStartLevelControllerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqJcrclustersupportClusterStartLevelControllerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqJcrclustersupportClusterStartLevelControllerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMailerDefaultMailServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerDefaultMailServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerDefaultMailServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplCqMailingServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplCqMailingServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplCqMailingServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImplIntegrationConfigImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImplIntegrationConfigImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImplIntegrationConfigImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmImplMCMConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmImplMCMConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmImplMCMConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqNotificationImplNotificationServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqNotificationImplNotificationServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqNotificationImplNotificationServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollConfigImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollConfigImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollConfigImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollingImporterImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollingImporterImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollingImporterImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplPollingImporterImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplPollingImporterImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplPollingImporterImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationContentStaticContentBuilderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationContentStaticContentBuilderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationContentStaticContentBuilderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplAgentManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplAgentManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplAgentManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationReceiverImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationReceiverImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationReceiverImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicatorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicatorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicatorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportHttpInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportHttpInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportHttpInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplCacheCacheImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplCacheCacheImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplCacheCacheImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplConfigServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplConfigServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplConfigServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplRLogAnalyzerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplRLogAnalyzerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplRLogAnalyzerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterProcessorImplHtmlParserFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterProcessorImplHtmlParserFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterProcessorImplHtmlParserFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchImplBuilderQueryBuilderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchImplBuilderQueryBuilderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchImplBuilderQueryBuilderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqStatisticsImplStatisticsServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqStatisticsImplStatisticsServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqStatisticsImplStatisticsServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplJcrTagManagerFactoryImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplJcrTagManagerFactoryImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplJcrTagManagerFactoryImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplTagGarbageCollectorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplTagGarbageCollectorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplTagGarbageCollectorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplCommandsWCMCommandServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplCommandsWCMCommandServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplCommandsWCMCommandServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPagePostProcessorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPagePostProcessorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPagePostProcessorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventTemplatePostProcessorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventTemplatePostProcessorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventTemplatePostProcessorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLanguageManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLanguageManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLanguageManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsFindReplaceServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsFindReplaceServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsFindReplaceServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsReferenceSearchServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsReferenceSearchServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsReferenceSearchServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsThumbnailServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsThumbnailServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsThumbnailServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionPurgeTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionPurgeTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionPurgeTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterDesignPackageImporterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterDesignPackageImporterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterDesignPackageImporterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormChooserServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormChooserServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormChooserServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplMailServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplMailServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplMailServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplHTTPAuthHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplHTTPAuthHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplHTTPAuthHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageImpressionsTrackerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageImpressionsTrackerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageImpressionsTrackerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageRedirectServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageRedirectServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageRedirectServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplServletsAuditLogServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplServletsAuditLogServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplServletsAuditLogServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationEmailImplEmailChannelInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationEmailImplEmailChannelInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationEmailImplEmailChannelInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmScriptingImplBVPManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmScriptingImplBVPManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmScriptingImplBVPManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailEMailNotificationServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailEMailNotificationServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailEMailNotificationServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplTokenCleanupTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplTokenCleanupTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplTokenCleanupTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_name_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_optional_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_is_set_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_type_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_name_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_optional_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_is_set_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_type_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_value_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyDropDown_name_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyDropDown_optional_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyDropDown_is_set_is_assigned_from_json);
+    
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyDropDown_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_name_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_optional_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_is_set_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_type_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_value_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_name_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_optional_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_is_set_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_type_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_value_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_name_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_optional_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_is_set_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_type_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_value_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_GuideLocalizationServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_GuideLocalizationServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_GuideLocalizationServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_MessagingUserComponentFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_MessagingUserComponentFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_MessagingUserComponentFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpSslfilterSslFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpSslfilterSslFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpSslfilterSslFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixScrScrServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixScrScrServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixScrScrServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplComponentsCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplComponentsCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplComponentsCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadySystemReadyMonitorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadySystemReadyMonitorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadySystemReadyMonitorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheHttpProxyconfiguratorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheHttpProxyconfiguratorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheHttpProxyconfiguratorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingAuthCoreImplLogoutServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingAuthCoreImplLogoutServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingAuthCoreImplLogoutServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsInternalLogReporterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsInternalLogReporterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsInternalLogReporterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceDataSourceFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceDataSourceFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceDataSourceFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplEventingThreadPoolInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplEventingThreadPoolInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplEventingThreadPoolInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsDefaultJobManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsDefaultJobManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsDefaultJobManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventJobsQueueConfigurationInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventJobsQueueConfigurationInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventJobsQueueConfigurationInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsFeatureInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsFeatureInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsFeatureInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHapiImplHApiUtilImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHapiImplHApiUtilImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHapiImplHApiUtilImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplCompositeHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplCompositeHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplCompositeHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplScriptableHealthCheckInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplScriptableHealthCheckInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplScriptableHealthCheckInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitRepositoryInitializerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitRepositoryInitializerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitRepositoryInitializerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJmxProviderImplJMXResourceProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJmxProviderImplJMXResourceProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJmxProviderImplJMXResourceProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsImplModelAdapterFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsImplModelAdapterFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsImplModelAdapterFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_additionalProperties_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplSlingPostServletInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplSlingPostServletInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplSlingPostServletInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingStartupfilterImplStartupFilterImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingStartupfilterImplStartupFilterImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingStartupfilterImplStartupFilterImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingTenantInternalTenantProviderImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingTenantInternalTenantProviderImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingTenantInternalTenantProviderImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingTracerInternalLogTracerInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingTracerInternalLogTracerInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingTracerInternalLogTracerInfo_description_is_assigned_from_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_pid_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_title_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_description_is_assigned_from_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_bundle_location_is_assigned_from_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_service_location_is_assigned_from_json);
+    
+    
+    
+    
+
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_AnalyticsComponentQueryCacheServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_AnalyticsComponentQueryCacheServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_AnalyticsComponentQueryCacheServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ApacheSlingHealthCheckResultHTMLSerializerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ApacheSlingHealthCheckResultHTMLSerializerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ApacheSlingHealthCheckResultHTMLSerializerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemTransactionCoreImplTransactionRecorderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemTransactionCoreImplTransactionRecorderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemTransactionCoreImplTransactionRecorderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountApiAccountManagementServiceInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountImplAccountManagementServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountImplAccountManagementServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAccountImplAccountManagementServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAddressImplLocationLocationListServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAddressImplLocationLocationListServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAddressImplLocationLocationListServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeDamInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeDamInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeDamInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgePagesInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgePagesInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgePagesInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeReplicationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeReplicationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqAuditPurgeReplicationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNRewriterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNRewriterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCdnRewriterImplCDNRewriterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetStaticImageHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetStaticImageHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetStaticImageHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetVideoHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetVideoHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplAssetVideoHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplPageEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplPageEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplPageEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplComponentComponentConfigImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplComponentComponentConfigImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplComponentComponentConfigImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplConfFeatureConfigImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplConfFeatureConfigImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplConfFeatureConfigImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamDmProcessImagePTiffManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamDmProcessImagePTiffManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamDmProcessImagePTiffManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplIsImageServerComponentInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplIsImageServerComponentInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplIsImageServerComponentInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDeserfwImplDeserializationFirewallImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDeserfwImplDeserializationFirewallImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDeserfwImplDeserializationFirewallImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServiceDTMWebServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServiceDTMWebServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServiceDTMWebServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServletsDTMDeployHookServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServletsDTMDeployHookServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmImplServletsDTMDeployHookServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmReactorImplServiceWebServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmReactorImplServiceWebServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqDtmReactorImplServiceWebServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHcContentPackagesHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHcContentPackagesHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHcContentPackagesHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryRequestFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqHistoryImplHistoryServiceImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsImplServletProjectImageServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsImplServletProjectImageServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsImplServletProjectImageServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsPurgeSchedulerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsPurgeSchedulerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqProjectsPurgeSchedulerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScheduledExporterImplScheduledExporterImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScheduledExporterImplScheduledExporterImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScheduledExporterImplScheduledExporterImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceImplDeviceServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceImplDeviceServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceImplDeviceServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplScreensChannelPostProcessorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplScreensChannelPostProcessorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensImplScreensChannelPostProcessorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarServletsTimeZoneServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarServletsTimeZoneServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCalendarServletsTimeZoneServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupImplGroupServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupImplGroupServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialGroupImplGroupServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplMentionsRouterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplMentionsRouterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplMentionsRouterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationsRouterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationsRouterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialNotificationsImplNotificationsRouterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScoringImplScoringEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScoringImplScoringEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialScoringImplScoringEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSrpImplSocialSolrConnectorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSrpImplSocialSolrConnectorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSrpImplSocialSolrConnectorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplDiffChangesObserverInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplDiffChangesObserverInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplDiffChangesObserverInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplUserSyncListenerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplUserSyncListenerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialSyncImplUserSyncListenerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserImplTransportHttpToPublisherInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserImplTransportHttpToPublisherInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqSocialUserImplTransportHttpToPublisherInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplDefaultDataProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplDefaultDataProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplDefaultDataProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServletTempCleanUpTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServletTempCleanUpTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeFormsCommonServletTempCleanUpTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAcpPlatformPlatformServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAcpPlatformPlatformServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAcpPlatformPlatformServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplIMSProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthImsInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthAccesstokenProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthAccesstokenProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthAccesstokenProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGithubProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGithubProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGithubProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGraniteProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGraniteProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplGraniteProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthOauthProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplRoutingConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplRoutingConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplRoutingConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteContexthubImplContextHubImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteContexthubImplContextHubImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteContexthubImplContextHubImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCorsImplCORSPolicyImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCorsImplCORSPolicyImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCorsImplCORSPolicyImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteCsrfImplCSRFServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplRandomFeatureInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplRandomFeatureInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteFragsImplRandomFeatureInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheFileFileCacheStoreInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheFileFileCacheStoreInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheFileFileCacheStoreInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteInfocollectorInfoCollectorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteInfocollectorInfoCollectorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteInfocollectorInfoCollectorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLicenseImplLicenseCheckFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLicenseImplLicenseCheckFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLicenseImplLicenseCheckFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogAnalyserImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogAnalyserImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogAnalyserImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMonitoringImplScriptConfigImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMonitoringImplScriptConfigImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteMonitoringImplScriptConfigImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteOptoutImplOptOutServiceImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryImplCommitStatsConfigInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryServiceUserConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryServiceUserConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRepositoryServiceUserConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplServletDefaultGETServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplServletDefaultGETServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteRestImplServletDefaultGETServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSecurityUserUserPropertiesServiceInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteThreaddumpThreadDumpCollectorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteThreaddumpThreadDumpCollectorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteThreaddumpThreadDumpCollectorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobJobHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobJobHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreJobJobHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadMapCacheInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadMapCacheInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadMapCacheInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowPurgeSchedulerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowPurgeSchedulerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeGraniteWorkflowPurgeSchedulerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeOctopusNcommBootstrapInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeOctopusNcommBootstrapInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeOctopusNcommBootstrapInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCommonsHttpclientInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCommonsHttpclientInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCommonsHttpclientInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplCugCugSupportImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplCugCugSupportImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplCugCugSupportImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqAuthImplLoginSelectorHandlerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsImplExternalizerImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCommonsServletsRootMappingServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqContentsyncImplContentSyncManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqContentsyncImplContentSyncManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqContentsyncImplContentSyncManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsHandlerStandardImageHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsHandlerStandardImageHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsHandlerStandardImageHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsUtilImplAssetCacheImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsUtilImplAssetCacheImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCommonsUtilImplAssetCacheImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetMoveListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetMoveListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetMoveListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamChangeEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamChangeEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamChangeEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventPurgeServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventPurgeServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventPurgeServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventRecorderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventRecorderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplDamEventRecorderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplEventDamEventAuditListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplEventDamEventAuditListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplEventDamEventAuditListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplExpiryNotificationJobImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplExpiryNotificationJobImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplExpiryNotificationJobImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplGfxCommonsGfxRendererInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplGfxCommonsGfxRendererInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplGfxCommonsGfxRendererInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerJpegHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerJpegHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerJpegHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplLightboxLightboxServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplLightboxLightboxServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplLightboxLightboxServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMissingMetadataNotificationJobInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMissingMetadataNotificationJobInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplMissingMetadataNotificationJobInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessTextExtractionProcessInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessTextExtractionProcessInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplProcessTextExtractionProcessInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplRenditionMakerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplRenditionMakerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplRenditionMakerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportExportServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportExportServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportExportServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportPurgeServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportPurgeServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplReportsReportPurgeServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetDownloadServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetStatusServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetStatusServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetStatusServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetXMPSearchServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetXMPSearchServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletAssetXMPSearchServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBatchMetadataServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBatchMetadataServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBatchMetadataServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBinaryProviderServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBinaryProviderServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletBinaryProviderServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionsServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionsServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCollectionsServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCompanionServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCompanionServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCompanionServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCreateAssetServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCreateAssetServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletCreateAssetServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletDamContentDispositionFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletDamContentDispositionFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletDamContentDispositionFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletGuidLookupFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletHealthCheckServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletHealthCheckServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletHealthCheckServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMetadataGetServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMetadataGetServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMetadataGetServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletResourceCollectionServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletResourceCollectionServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplServletResourceCollectionServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUnzipUnzipConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUnzipUnzipConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreImplUnzipUnzipConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExtractMetadataProcessInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExtractMetadataProcessInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessExtractMetadataProcessInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessMetadataProcessorProcessInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessMetadataProcessorProcessInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamCoreProcessMetadataProcessorProcessInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerFfmpegLocatorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerFfmpegLocatorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerFfmpegLocatorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPdfPdfHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPdfPdfHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPdfPdfHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsPostScriptHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsPostScriptHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsPostScriptHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsdPsdHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsdPsdHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamHandlerStandardPsdPsdHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSJobProcessorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSJobProcessorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSJobProcessorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSPoolManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSPoolManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamIdsImplIDSPoolManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplServletSnippetCreationServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplServletSnippetCreationServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddImplServletSnippetCreationServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamInddProcessINDDMediaExtractProcessInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddProcessINDDMediaExtractProcessInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamInddProcessINDDMediaExtractProcessInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7APIClientImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7APIClientImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7APIClientImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7UploadServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7UploadServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamScene7ImplScene7UploadServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqDamVideoImplServletVideoTestServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqExtwidgetServletsImageSpriteServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqExtwidgetServletsImageSpriteServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqExtwidgetServletsImageSpriteServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqImageInternalFontFontHelperInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqImageInternalFontFontHelperInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqImageInternalFontFontHelperInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqJcrclustersupportClusterStartLevelControllerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqJcrclustersupportClusterStartLevelControllerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqJcrclustersupportClusterStartLevelControllerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMailerDefaultMailServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerDefaultMailServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerDefaultMailServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplCqMailingServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplCqMailingServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplCqMailingServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImplIntegrationConfigImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImplIntegrationConfigImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImplIntegrationConfigImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmImplMCMConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmImplMCMConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmImplMCMConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqNotificationImplNotificationServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqNotificationImplNotificationServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqNotificationImplNotificationServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollConfigImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollConfigImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollConfigImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollingImporterImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollingImporterImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplManagedPollingImporterImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplPollingImporterImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplPollingImporterImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqPollingImporterImplPollingImporterImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationAuditReplicationEventListenerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationContentStaticContentBuilderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationContentStaticContentBuilderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationContentStaticContentBuilderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplAgentManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplAgentManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplAgentManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationReceiverImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationReceiverImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicationReceiverImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicatorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicatorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReplicatorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplReverseReplicatorInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportHttpInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportHttpInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReplicationImplTransportHttpInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplCacheCacheImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplCacheCacheImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplCacheCacheImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplConfigServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplConfigServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplConfigServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplRLogAnalyzerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplRLogAnalyzerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqReportingImplRLogAnalyzerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqRewriterProcessorImplHtmlParserFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterProcessorImplHtmlParserFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqRewriterProcessorImplHtmlParserFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchImplBuilderQueryBuilderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchImplBuilderQueryBuilderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchImplBuilderQueryBuilderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqSecurityACLSetupInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqStatisticsImplStatisticsServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqStatisticsImplStatisticsServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqStatisticsImplStatisticsServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplJcrTagManagerFactoryImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplJcrTagManagerFactoryImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplJcrTagManagerFactoryImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplTagGarbageCollectorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplTagGarbageCollectorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqTaggingImplTagGarbageCollectorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplCommandsWCMCommandServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplCommandsWCMCommandServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplCommandsWCMCommandServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPageEventAuditListenerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPagePostProcessorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPagePostProcessorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventPagePostProcessorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventTemplatePostProcessorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventTemplatePostProcessorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplEventTemplatePostProcessorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLanguageManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLanguageManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLanguageManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsFindReplaceServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsFindReplaceServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsFindReplaceServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsReferenceSearchServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsReferenceSearchServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsReferenceSearchServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsThumbnailServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsThumbnailServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplServletsThumbnailServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionPurgeTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionPurgeTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplVersionPurgeTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDebugFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreImplWarpTimeWarpFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreMvtMVTStatisticsImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreStatsPageViewStatisticsImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmCoreWCMRequestFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterDesignPackageImporterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterDesignPackageImporterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterDesignPackageImporterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormChooserServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormChooserServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormChooserServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplMailServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplMailServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationFormsImplMailServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplHTTPAuthHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplHTTPAuthHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplHTTPAuthHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageImpressionsTrackerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageImpressionsTrackerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageImpressionsTrackerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageRedirectServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageRedirectServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationImplPageRedirectServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplRolloutManagerImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplServletsAuditLogServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplServletsAuditLogServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmMsmImplServletsAuditLogServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationEmailImplEmailChannelInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationEmailImplEmailChannelInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationEmailImplEmailChannelInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmNotificationImplNotificationManagerImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmScriptingImplBVPManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmScriptingImplBVPManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmScriptingImplBVPManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmUndoUndoConfigInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplHtmlLibraryManagerImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWidgetImplWidgetExtensionProviderImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailEMailNotificationServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailEMailNotificationServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailEMailNotificationServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplTokenCleanupTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplTokenCleanupTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ComDayCrxSecurityTokenImplTokenCleanupTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_name_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_optional_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_is_set_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_type_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyArray_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_name_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_optional_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_is_set_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_type_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_value_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyBoolean_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyDropDown_name_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyDropDown_optional_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyDropDown_is_set_is_converted_to_json);
+    
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyDropDown_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_name_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_optional_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_is_set_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_type_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_value_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyFloat_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_name_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_optional_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_is_set_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_type_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_value_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyInteger_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_name_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_optional_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_is_set_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_type_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_value_is_converted_to_json);
+    
+    
+    RUN_TEST(test_ConfigNodePropertyString_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_GuideLocalizationServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_GuideLocalizationServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_GuideLocalizationServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_MessagingUserComponentFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_MessagingUserComponentFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_MessagingUserComponentFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheAriesJmxFrameworkStateConfigInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixEventadminImplEventAdminInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpSslfilterSslFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpSslfilterSslFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixHttpSslfilterSslFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixJaasConfigurationSpiInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixScrScrServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixScrScrServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixScrScrServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplComponentsCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplComponentsCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplComponentsCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServicesCheckInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadySystemReadyMonitorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadySystemReadyMonitorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixSystemreadySystemReadyMonitorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheHttpProxyconfiguratorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheHttpProxyconfiguratorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheHttpProxyconfiguratorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingAuthCoreImplLogoutServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingAuthCoreImplLogoutServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingAuthCoreImplLogoutServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplConfigurationResolverImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsLogLogManagerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsInternalLogReporterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsInternalLogReporterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsInternalLogReporterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceDataSourceFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceDataSourceFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceDataSourceFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakConfigInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplLogRequestLoggerServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineImplSlingMainServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEngineParametersInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplEventingThreadPoolInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplEventingThreadPoolInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplEventingThreadPoolInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsDefaultJobManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsDefaultJobManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsDefaultJobManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventImplJobsJobConsumerManagerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventJobsQueueConfigurationInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventJobsQueueConfigurationInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingEventJobsQueueConfigurationInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsFeatureInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsFeatureInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsFeatureInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHapiImplHApiUtilImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHapiImplHApiUtilImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHapiImplHApiUtilImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplCompositeHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplCompositeHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplCompositeHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplScriptableHealthCheckInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplScriptableHealthCheckInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplScriptableHealthCheckInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplI18NFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingI18nImplJcrResourceBundleProviderInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitRepositoryInitializerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitRepositoryInitializerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrRepoinitRepositoryInitializerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingJmxProviderImplJMXResourceProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJmxProviderImplJMXResourceProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingJmxProviderImplJMXResourceProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsImplModelAdapterFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsImplModelAdapterFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsImplModelAdapterFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_additionalProperties_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingResourcemergerPickerOverridingInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptCacheImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplContentDispositionFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSecurityImplReferrerFilterInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetDefaultGetServletInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplSlingPostServletInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplSlingPostServletInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsPostImplSlingPostServletInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingServletsResolverSlingServletResolverInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingStartupfilterImplStartupFilterImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingStartupfilterImplStartupFilterImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingStartupfilterImplStartupFilterImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingTenantInternalTenantProviderImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingTenantInternalTenantProviderImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingTenantInternalTenantProviderImplInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingTracerInternalLogTracerInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingTracerInternalLogTracerInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingTracerInternalLogTracerInfo_description_is_converted_to_json);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_pid_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_title_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_description_is_converted_to_json);
+    
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_bundle_location_is_converted_to_json);
+    
+    
+    RUN_TEST(test_OrgApacheSlingXssImplXSSFilterImplInfo_service_location_is_converted_to_json);
+    
+    
+    
+    
+
+
+}
+
+int main(void) {
+    UNITY_BEGIN();
+    runTests();
+    return UNITY_END();
+}
+
+void setup() {
+    UNITY_BEGIN();
+    runTests();
+    UNITY_END();
+}
+
+void loop() {
+
+}

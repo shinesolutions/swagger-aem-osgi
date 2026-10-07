@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties {
+    title = OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties
+    description = OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_commons_log_file {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_file_number {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_file_size {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_file_buffered {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties {
+    title = OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties
+    description = OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties
+
+  }
+}

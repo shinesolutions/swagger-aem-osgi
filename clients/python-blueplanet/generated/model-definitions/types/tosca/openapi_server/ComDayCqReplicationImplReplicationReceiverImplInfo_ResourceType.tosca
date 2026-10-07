@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationImplReplicationReceiverImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationImplReplicationReceiverImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqReplicationImplReplicationReceiverImplProperties = openapi_server.resourceTypes.ComDayCqReplicationImplReplicationReceiverImplProperties
+}
+resourceTypes {
+
+  ComDayCqReplicationImplReplicationReceiverImplInfo {
+    title = ComDayCqReplicationImplReplicationReceiverImplInfo
+    description = ComDayCqReplicationImplReplicationReceiverImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqReplicationImplReplicationReceiverImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationImplReplicationReceiverImplInfo {
+    title = ComDayCqReplicationImplReplicationReceiverImplInfo
+    description = ComDayCqReplicationImplReplicationReceiverImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqReplicationImplReplicationReceiverImplInfo
+
+  }
+}

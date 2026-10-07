@@ -1,0 +1,73 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteCorsImplCORSPolicyImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteCorsImplCORSPolicyImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteCorsImplCORSPolicyImplProperties {
+    title = ComAdobeGraniteCorsImplCORSPolicyImplProperties
+    description = ComAdobeGraniteCorsImplCORSPolicyImplProperties
+    derivedFrom = Root
+    properties {
+        alloworigin {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        alloworiginregexp {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        allowedpaths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        exposedheaders {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        maxage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        supportedheaders {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        supportedmethods {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        supportscredentials {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteCorsImplCORSPolicyImplProperties {
+    title = ComAdobeGraniteCorsImplCORSPolicyImplProperties
+    description = ComAdobeGraniteCorsImplCORSPolicyImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteCorsImplCORSPolicyImplProperties
+
+  }
+}

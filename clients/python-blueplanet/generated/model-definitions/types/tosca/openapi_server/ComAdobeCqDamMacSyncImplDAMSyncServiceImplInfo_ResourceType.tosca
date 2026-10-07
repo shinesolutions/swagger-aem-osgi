@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties = openapi_server.resourceTypes.ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo {
+    title = ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo
+    description = ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo {
+    title = ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo
+    description = ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo
+
+  }
+}

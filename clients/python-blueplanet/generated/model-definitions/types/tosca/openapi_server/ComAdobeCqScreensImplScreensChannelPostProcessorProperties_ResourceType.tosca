@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensImplScreensChannelPostProcessorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensImplScreensChannelPostProcessorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqScreensImplScreensChannelPostProcessorProperties {
+    title = ComAdobeCqScreensImplScreensChannelPostProcessorProperties
+    description = ComAdobeCqScreensImplScreensChannelPostProcessorProperties
+    derivedFrom = Root
+    properties {
+        screens_channels_properties_to_remove {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensImplScreensChannelPostProcessorProperties {
+    title = ComAdobeCqScreensImplScreensChannelPostProcessorProperties
+    description = ComAdobeCqScreensImplScreensChannelPostProcessorProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensImplScreensChannelPostProcessorProperties
+
+  }
+}

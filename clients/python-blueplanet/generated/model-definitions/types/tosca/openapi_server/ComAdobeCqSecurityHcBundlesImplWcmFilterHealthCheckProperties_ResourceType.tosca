@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties {
+    title = ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties
+    description = ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties
+    derivedFrom = Root
+    properties {
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties {
+    title = ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties
+    description = ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties
+
+  }
+}

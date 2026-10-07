@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqAnalyticsTestandtargetImplSegmentImporterProperties",
+  "fields": [
+    {
+      "name": "cq.analytics.testandtarget.segmentimporter.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

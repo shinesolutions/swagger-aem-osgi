@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties = openapi_server.resourceTypes.ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo {
+    title = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo
+    description = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo {
+    title = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo
+    description = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo
+
+  }
+}

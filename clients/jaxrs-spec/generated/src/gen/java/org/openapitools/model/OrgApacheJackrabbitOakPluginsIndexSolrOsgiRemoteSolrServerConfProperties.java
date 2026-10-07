@@ -1,0 +1,239 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties   {
+  private ConfigNodePropertyString solrHttpUrl;
+  private ConfigNodePropertyString solrZkHost;
+  private ConfigNodePropertyString solrCollection;
+  private ConfigNodePropertyInteger solrSocketTimeout;
+  private ConfigNodePropertyInteger solrConnectionTimeout;
+  private ConfigNodePropertyInteger solrShardsNo;
+  private ConfigNodePropertyInteger solrReplicationFactor;
+  private ConfigNodePropertyString solrConfDir;
+
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties() {
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrHttpUrl(ConfigNodePropertyString solrHttpUrl) {
+    this.solrHttpUrl = solrHttpUrl;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("solr.http.url")
+  @Valid public ConfigNodePropertyString getSolrHttpUrl() {
+    return solrHttpUrl;
+  }
+
+  @JsonProperty("solr.http.url")
+  public void setSolrHttpUrl(ConfigNodePropertyString solrHttpUrl) {
+    this.solrHttpUrl = solrHttpUrl;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrZkHost(ConfigNodePropertyString solrZkHost) {
+    this.solrZkHost = solrZkHost;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("solr.zk.host")
+  @Valid public ConfigNodePropertyString getSolrZkHost() {
+    return solrZkHost;
+  }
+
+  @JsonProperty("solr.zk.host")
+  public void setSolrZkHost(ConfigNodePropertyString solrZkHost) {
+    this.solrZkHost = solrZkHost;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrCollection(ConfigNodePropertyString solrCollection) {
+    this.solrCollection = solrCollection;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("solr.collection")
+  @Valid public ConfigNodePropertyString getSolrCollection() {
+    return solrCollection;
+  }
+
+  @JsonProperty("solr.collection")
+  public void setSolrCollection(ConfigNodePropertyString solrCollection) {
+    this.solrCollection = solrCollection;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrSocketTimeout(ConfigNodePropertyInteger solrSocketTimeout) {
+    this.solrSocketTimeout = solrSocketTimeout;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("solr.socket.timeout")
+  @Valid public ConfigNodePropertyInteger getSolrSocketTimeout() {
+    return solrSocketTimeout;
+  }
+
+  @JsonProperty("solr.socket.timeout")
+  public void setSolrSocketTimeout(ConfigNodePropertyInteger solrSocketTimeout) {
+    this.solrSocketTimeout = solrSocketTimeout;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrConnectionTimeout(ConfigNodePropertyInteger solrConnectionTimeout) {
+    this.solrConnectionTimeout = solrConnectionTimeout;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("solr.connection.timeout")
+  @Valid public ConfigNodePropertyInteger getSolrConnectionTimeout() {
+    return solrConnectionTimeout;
+  }
+
+  @JsonProperty("solr.connection.timeout")
+  public void setSolrConnectionTimeout(ConfigNodePropertyInteger solrConnectionTimeout) {
+    this.solrConnectionTimeout = solrConnectionTimeout;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrShardsNo(ConfigNodePropertyInteger solrShardsNo) {
+    this.solrShardsNo = solrShardsNo;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("solr.shards.no")
+  @Valid public ConfigNodePropertyInteger getSolrShardsNo() {
+    return solrShardsNo;
+  }
+
+  @JsonProperty("solr.shards.no")
+  public void setSolrShardsNo(ConfigNodePropertyInteger solrShardsNo) {
+    this.solrShardsNo = solrShardsNo;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrReplicationFactor(ConfigNodePropertyInteger solrReplicationFactor) {
+    this.solrReplicationFactor = solrReplicationFactor;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("solr.replication.factor")
+  @Valid public ConfigNodePropertyInteger getSolrReplicationFactor() {
+    return solrReplicationFactor;
+  }
+
+  @JsonProperty("solr.replication.factor")
+  public void setSolrReplicationFactor(ConfigNodePropertyInteger solrReplicationFactor) {
+    this.solrReplicationFactor = solrReplicationFactor;
+  }
+
+  /**
+   **/
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrConfDir(ConfigNodePropertyString solrConfDir) {
+    this.solrConfDir = solrConfDir;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("solr.conf.dir")
+  @Valid public ConfigNodePropertyString getSolrConfDir() {
+    return solrConfDir;
+  }
+
+  @JsonProperty("solr.conf.dir")
+  public void setSolrConfDir(ConfigNodePropertyString solrConfDir) {
+    this.solrConfDir = solrConfDir;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties = (OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties) o;
+    return Objects.equals(this.solrHttpUrl, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrHttpUrl) &&
+        Objects.equals(this.solrZkHost, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrZkHost) &&
+        Objects.equals(this.solrCollection, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrCollection) &&
+        Objects.equals(this.solrSocketTimeout, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrSocketTimeout) &&
+        Objects.equals(this.solrConnectionTimeout, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrConnectionTimeout) &&
+        Objects.equals(this.solrShardsNo, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrShardsNo) &&
+        Objects.equals(this.solrReplicationFactor, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrReplicationFactor) &&
+        Objects.equals(this.solrConfDir, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrConfDir);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(solrHttpUrl, solrZkHost, solrCollection, solrSocketTimeout, solrConnectionTimeout, solrShardsNo, solrReplicationFactor, solrConfDir);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties {\n");
+    
+    sb.append("    solrHttpUrl: ").append(toIndentedString(solrHttpUrl)).append("\n");
+    sb.append("    solrZkHost: ").append(toIndentedString(solrZkHost)).append("\n");
+    sb.append("    solrCollection: ").append(toIndentedString(solrCollection)).append("\n");
+    sb.append("    solrSocketTimeout: ").append(toIndentedString(solrSocketTimeout)).append("\n");
+    sb.append("    solrConnectionTimeout: ").append(toIndentedString(solrConnectionTimeout)).append("\n");
+    sb.append("    solrShardsNo: ").append(toIndentedString(solrShardsNo)).append("\n");
+    sb.append("    solrReplicationFactor: ").append(toIndentedString(solrReplicationFactor)).append("\n");
+    sb.append("    solrConfDir: ").append(toIndentedString(solrConfDir)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}

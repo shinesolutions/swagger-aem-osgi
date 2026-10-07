@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties {
+    title = OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
+    description = OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
+    derivedFrom = Root
+    properties {
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        type_collections {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        type_noncollections {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        type_content {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties {
+    title = OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
+    description = OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
+
+  }
+}

@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAuthImplCugCugSupportImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAuthImplCugCugSupportImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqAuthImplCugCugSupportImplProperties {
+    title = ComDayCqAuthImplCugCugSupportImplProperties
+    description = ComDayCqAuthImplCugCugSupportImplProperties
+    derivedFrom = Root
+    properties {
+        cug_exempted_principals {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cug_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cug_principals_regex {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cug_principals_replacement {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAuthImplCugCugSupportImplProperties {
+    title = ComDayCqAuthImplCugCugSupportImplProperties
+    description = ComDayCqAuthImplCugCugSupportImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqAuthImplCugCugSupportImplProperties
+
+  }
+}

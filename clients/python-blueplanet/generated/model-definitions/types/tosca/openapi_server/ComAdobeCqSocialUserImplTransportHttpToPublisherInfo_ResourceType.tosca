@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUserImplTransportHttpToPublisherInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUserImplTransportHttpToPublisherInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialUserImplTransportHttpToPublisherProperties = openapi_server.resourceTypes.ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialUserImplTransportHttpToPublisherInfo {
+    title = ComAdobeCqSocialUserImplTransportHttpToPublisherInfo
+    description = ComAdobeCqSocialUserImplTransportHttpToPublisherInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUserImplTransportHttpToPublisherInfo {
+    title = ComAdobeCqSocialUserImplTransportHttpToPublisherInfo
+    description = ComAdobeCqSocialUserImplTransportHttpToPublisherInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUserImplTransportHttpToPublisherInfo
+
+  }
+}

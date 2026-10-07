@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "query_limit_in_memory" },
+      {"model": "query_limit_reads" },
+      {"model": "query_fail_traversal" },
+      {"model": "fast_query_size" },
+    ]
+  }]
+}

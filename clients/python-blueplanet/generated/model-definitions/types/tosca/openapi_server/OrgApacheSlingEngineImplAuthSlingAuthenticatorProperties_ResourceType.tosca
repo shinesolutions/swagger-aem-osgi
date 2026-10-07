@@ -1,0 +1,89 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties {
+    title = OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
+    description = OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
+    derivedFrom = Root
+    properties {
+        osgi_http_whiteboard_context_select {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        osgi_http_whiteboard_listener {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_sudo_cookie {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_sudo_parameter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_annonymous {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        sling_auth_requirements {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        sling_auth_anonymous_user {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_auth_anonymous_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_http {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        auth_http_realm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_uri_suffix {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties {
+    title = OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
+    description = OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
+
+  }
+}

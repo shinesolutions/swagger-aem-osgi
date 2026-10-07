@@ -1,0 +1,59 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixJaasConfigurationFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixJaasConfigurationFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheFelixJaasConfigurationFactoryProperties {
+    title = OrgApacheFelixJaasConfigurationFactoryProperties
+    description = OrgApacheFelixJaasConfigurationFactoryProperties
+    derivedFrom = Root
+    properties {
+        jaas_control_flag {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        jaas_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        jaas_realm_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_classname {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_options {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixJaasConfigurationFactoryProperties {
+    title = OrgApacheFelixJaasConfigurationFactoryProperties
+    description = OrgApacheFelixJaasConfigurationFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixJaasConfigurationFactoryProperties
+
+  }
+}

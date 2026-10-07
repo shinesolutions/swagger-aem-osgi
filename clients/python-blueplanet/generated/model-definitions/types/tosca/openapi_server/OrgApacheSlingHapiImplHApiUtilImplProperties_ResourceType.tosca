@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingHapiImplHApiUtilImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingHapiImplHApiUtilImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingHapiImplHApiUtilImplProperties {
+    title = OrgApacheSlingHapiImplHApiUtilImplProperties
+    description = OrgApacheSlingHapiImplHApiUtilImplProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_hapi_tools_resourcetype {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_hapi_tools_collectionresourcetype {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_hapi_tools_searchpaths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_sling_hapi_tools_externalurl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_hapi_tools_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingHapiImplHApiUtilImplProperties {
+    title = OrgApacheSlingHapiImplHApiUtilImplProperties
+    description = OrgApacheSlingHapiImplHApiUtilImplProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingHapiImplHApiUtilImplProperties
+
+  }
+}

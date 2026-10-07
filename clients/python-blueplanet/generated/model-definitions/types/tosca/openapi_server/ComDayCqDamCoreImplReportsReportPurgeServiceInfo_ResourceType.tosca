@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplReportsReportPurgeServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplReportsReportPurgeServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplReportsReportPurgeServiceProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplReportsReportPurgeServiceProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplReportsReportPurgeServiceInfo {
+    title = ComDayCqDamCoreImplReportsReportPurgeServiceInfo
+    description = ComDayCqDamCoreImplReportsReportPurgeServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplReportsReportPurgeServiceProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplReportsReportPurgeServiceInfo {
+    title = ComDayCqDamCoreImplReportsReportPurgeServiceInfo
+    description = ComDayCqDamCoreImplReportsReportPurgeServiceInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplReportsReportPurgeServiceInfo
+
+  }
+}

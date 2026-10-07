@@ -1,0 +1,56 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties {
+    title = ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties
+    description = ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties
+    derivedFrom = Root
+    properties {
+        scene7_flash_templates_rti {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        scene7_flash_templates_rsi {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        scene7_flash_templates_rb {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        scene7_flash_templates_rurl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        scene7_flash_template_url_format_parameter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties {
+    title = ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties
+    description = ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties
+
+  }
+}

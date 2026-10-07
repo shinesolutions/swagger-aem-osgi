@@ -1,0 +1,40 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "repository_home" },
+      {"model": "tarmk_mode" },
+      {"model": "tarmk_size" },
+      {"model": "segment_cache_size" },
+      {"model": "string_cache_size" },
+      {"model": "template_cache_size" },
+      {"model": "string_deduplication_cache_size" },
+      {"model": "template_deduplication_cache_size" },
+      {"model": "node_deduplication_cache_size" },
+      {"model": "pause_compaction" },
+      {"model": "compaction_retry_count" },
+      {"model": "compaction_force_timeout" },
+      {"model": "compaction_size_delta_estimation" },
+      {"model": "compaction_disable_estimation" },
+      {"model": "compaction_retained_generations" },
+      {"model": "compaction_memory_threshold" },
+      {"model": "compaction_progress_log" },
+      {"model": "standby" },
+      {"model": "custom_blob_store" },
+      {"model": "custom_segment_store" },
+      {"model": "split_persistence" },
+      {"model": "repository_backup_dir" },
+      {"model": "blob_gc_max_age_in_secs" },
+      {"model": "blob_track_snapshot_interval_in_secs" },
+    ]
+  }]
+}

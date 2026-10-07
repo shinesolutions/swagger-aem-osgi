@@ -1,0 +1,63 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties",
+  "fields": [
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.projectPath",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.scheduleFrequency",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.pingTimeout",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.recipients",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpserver",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpport",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.usetls",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.username",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.password",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

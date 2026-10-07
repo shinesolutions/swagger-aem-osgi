@@ -1,0 +1,98 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthImsImplIMSProviderImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthImsImplIMSProviderImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthImsImplIMSProviderImplProperties {
+    title = ComAdobeGraniteAuthImsImplIMSProviderImplProperties
+    description = ComAdobeGraniteAuthImsImplIMSProviderImplProperties
+    derivedFrom = Root
+    properties {
+        oauth_provider_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_authorization_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_token_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_profile_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_extended_details_urls {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_validate_token_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_session_property {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_service_token_client_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_service_token_client_secret {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_service_token {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ims_org_ref {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ims_group_mapping {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        oauth_provider_ims_only_license_group {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthImsImplIMSProviderImplProperties {
+    title = ComAdobeGraniteAuthImsImplIMSProviderImplProperties
+    description = ComAdobeGraniteAuthImsImplIMSProviderImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthImsImplIMSProviderImplProperties
+
+  }
+}

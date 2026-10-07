@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties {
+    title = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties
+    description = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties
+    derivedFrom = Root
+    properties {
+        ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties {
+    title = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties
+    description = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties
+
+  }
+}

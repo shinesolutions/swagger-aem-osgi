@@ -1,0 +1,1 @@
+propertylist,org.apache.sling.installer.configuration.persist,$location,apply,delete,action,job.consumermanager.blacklist,post,job.consumermanager.whitelist

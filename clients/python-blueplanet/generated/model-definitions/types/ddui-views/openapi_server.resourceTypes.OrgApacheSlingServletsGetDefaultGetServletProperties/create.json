@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "aliases" },
+      {"model": "index" },
+      {"model": "index_files" },
+      {"model": "enable_html" },
+      {"model": "enable_json" },
+      {"model": "enable_txt" },
+      {"model": "enable_xml" },
+      {"model": "json_maximumresults" },
+      {"model": "ecma_suport" },
+    ]
+  }]
+}

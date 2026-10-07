@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties {
+    title = OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties
+    description = OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        endpoints {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        transport_secret_provider_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties {
+    title = OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties
+    description = OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties
+
+  }
+}

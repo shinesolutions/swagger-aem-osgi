@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties = openapi_server.resourceTypes.ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo {
+    title = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo
+    description = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo {
+    title = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo
+    description = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo
+
+  }
+}

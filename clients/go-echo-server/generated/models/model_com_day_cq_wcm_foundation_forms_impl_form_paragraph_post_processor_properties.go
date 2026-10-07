@@ -1,0 +1,8 @@
+package models
+
+type ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties struct {
+
+	FormsFormparagraphpostprocessorEnabled ConfigNodePropertyBoolean `json:"forms.formparagraphpostprocessor.enabled,omitempty"`
+
+	FormsFormparagraphpostprocessorFormresourcetypes ConfigNodePropertyArray `json:"forms.formparagraphpostprocessor.formresourcetypes,omitempty"`
+}

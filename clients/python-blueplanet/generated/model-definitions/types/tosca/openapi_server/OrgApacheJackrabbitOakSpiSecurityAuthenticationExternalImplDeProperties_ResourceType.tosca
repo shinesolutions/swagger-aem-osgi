@@ -1,0 +1,104 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties {
+    title = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
+    description = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
+    derivedFrom = Root
+    properties {
+        handler_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        user_expiration_time {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        user_auto_membership {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        user_property_mapping {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        user_path_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        user_membership_exp_time {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        user_membership_nesting_depth {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        user_dynamic_membership {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        user_disable_missing {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        group_expiration_time {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        group_auto_membership {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        group_property_mapping {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        group_path_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        enable_rfc7613_usercase_mapped_profile {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties {
+    title = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
+    description = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
+
+  }
+}

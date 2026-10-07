@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqStatisticsImplStatisticsServiceImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqStatisticsImplStatisticsServiceImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqStatisticsImplStatisticsServiceImplProperties = openapi_server.resourceTypes.ComDayCqStatisticsImplStatisticsServiceImplProperties
+}
+resourceTypes {
+
+  ComDayCqStatisticsImplStatisticsServiceImplInfo {
+    title = ComDayCqStatisticsImplStatisticsServiceImplInfo
+    description = ComDayCqStatisticsImplStatisticsServiceImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqStatisticsImplStatisticsServiceImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqStatisticsImplStatisticsServiceImplInfo {
+    title = ComDayCqStatisticsImplStatisticsServiceImplInfo
+    description = ComDayCqStatisticsImplStatisticsServiceImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqStatisticsImplStatisticsServiceImplInfo
+
+  }
+}

@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplServletsFindReplaceServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplServletsFindReplaceServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplServletsFindReplaceServletProperties {
+    title = ComDayCqWcmCoreImplServletsFindReplaceServletProperties
+    description = ComDayCqWcmCoreImplServletsFindReplaceServletProperties
+    derivedFrom = Root
+    properties {
+        scope {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplServletsFindReplaceServletProperties {
+    title = ComDayCqWcmCoreImplServletsFindReplaceServletProperties
+    description = ComDayCqWcmCoreImplServletsFindReplaceServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplServletsFindReplaceServletProperties
+
+  }
+}

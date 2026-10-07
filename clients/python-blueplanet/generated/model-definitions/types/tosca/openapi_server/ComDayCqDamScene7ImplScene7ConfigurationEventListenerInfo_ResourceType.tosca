@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties = openapi_server.resourceTypes.ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties
+}
+resourceTypes {
+
+  ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo {
+    title = ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo
+    description = ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo {
+    title = ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo
+    description = ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo
+
+  }
+}

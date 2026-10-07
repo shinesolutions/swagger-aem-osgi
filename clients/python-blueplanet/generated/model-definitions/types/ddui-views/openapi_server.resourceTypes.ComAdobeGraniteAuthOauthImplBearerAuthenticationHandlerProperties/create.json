@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "path" },
+      {"model": "oauth_client_ids_allowed" },
+      {"model": "auth_bearer_sync_ims" },
+      {"model": "auth_token_request_parameter" },
+      {"model": "oauth_bearer_configid" },
+      {"model": "oauth_jwt_support" },
+    ]
+  }]
+}

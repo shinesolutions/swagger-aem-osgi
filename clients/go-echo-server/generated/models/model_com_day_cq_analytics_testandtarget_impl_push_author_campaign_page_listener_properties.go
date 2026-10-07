@@ -1,0 +1,6 @@
+package models
+
+type ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties struct {
+
+	CqAnalyticsTestandtargetPushauthorcampaignpagelistenerEnabled ConfigNodePropertyBoolean `json:"cq.analytics.testandtarget.pushauthorcampaignpagelistener.enabled,omitempty"`
+}

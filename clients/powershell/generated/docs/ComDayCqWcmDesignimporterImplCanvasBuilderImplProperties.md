@@ -1,0 +1,27 @@
+# ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Filepattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**BuildPageNodes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+**BuildClientLibs** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+**BuildCanvasComponent** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+
+## Examples
+
+- Prepare the resource
+```powershell
+$ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties = Initialize-PSOpenAPIToolsComDayCqWcmDesignimporterImplCanvasBuilderImplProperties  -Filepattern null `
+ -BuildPageNodes null `
+ -BuildClientLibs null `
+ -BuildCanvasComponent null
+```
+
+- Convert the resource to JSON
+```powershell
+$ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties | ConvertTo-JSON
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

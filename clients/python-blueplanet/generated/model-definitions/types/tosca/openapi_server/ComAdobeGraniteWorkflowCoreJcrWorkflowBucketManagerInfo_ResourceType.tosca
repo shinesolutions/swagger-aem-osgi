@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties = openapi_server.resourceTypes.ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo {
+    title = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo
+    description = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo {
+    title = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo
+    description = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo
+
+  }
+}

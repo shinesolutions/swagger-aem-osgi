@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEngineParametersProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEngineParametersProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingEngineParametersProperties {
+    title = OrgApacheSlingEngineParametersProperties
+    description = OrgApacheSlingEngineParametersProperties
+    derivedFrom = Root
+    properties {
+        sling_default_parameter_encoding {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_default_max_parameters {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        file_location {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        file_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        file_max {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        request_max {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        sling_default_parameter_check_for_additional_container_parameters {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEngineParametersProperties {
+    title = OrgApacheSlingEngineParametersProperties
+    description = OrgApacheSlingEngineParametersProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEngineParametersProperties
+
+  }
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqImageInternalFontFontHelperInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqImageInternalFontFontHelperInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqImageInternalFontFontHelperProperties = openapi_server.resourceTypes.ComDayCqImageInternalFontFontHelperProperties
+}
+resourceTypes {
+
+  ComDayCqImageInternalFontFontHelperInfo {
+    title = ComDayCqImageInternalFontFontHelperInfo
+    description = ComDayCqImageInternalFontFontHelperInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqImageInternalFontFontHelperProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqImageInternalFontFontHelperInfo {
+    title = ComDayCqImageInternalFontFontHelperInfo
+    description = ComDayCqImageInternalFontFontHelperInfo
+    implements = openapi_server.resourceTypes.ComDayCqImageInternalFontFontHelperInfo
+
+  }
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties = openapi_server.resourceTypes.ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo {
+    title = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo
+    description = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo {
+    title = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo
+    description = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo
+
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_workflow_config_workflow_packages_root_path" },
+      {"model": "cq_workflow_config_workflow_process_legacy_mode" },
+      {"model": "cq_workflow_config_allow_locking" },
+    ]
+  }]
+}

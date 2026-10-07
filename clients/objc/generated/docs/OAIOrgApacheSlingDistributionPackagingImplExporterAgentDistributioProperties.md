@@ -1,0 +1,13 @@
+# OAIOrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | [**OAIConfigNodePropertyString***](OAIConfigNodePropertyString.md) |  | [optional] 
+**queue** | [**OAIConfigNodePropertyString***](OAIConfigNodePropertyString.md) |  | [optional] 
+**dropInvalidItems** | [**OAIConfigNodePropertyBoolean***](OAIConfigNodePropertyBoolean.md) |  | [optional] 
+**agentTarget** | [**OAIConfigNodePropertyString***](OAIConfigNodePropertyString.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

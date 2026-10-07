@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixSystemreadySystemReadyMonitorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixSystemreadySystemReadyMonitorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheFelixSystemreadySystemReadyMonitorProperties {
+    title = OrgApacheFelixSystemreadySystemReadyMonitorProperties
+    description = OrgApacheFelixSystemreadySystemReadyMonitorProperties
+    derivedFrom = Root
+    properties {
+        poll_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixSystemreadySystemReadyMonitorProperties {
+    title = OrgApacheFelixSystemreadySystemReadyMonitorProperties
+    description = OrgApacheFelixSystemreadySystemReadyMonitorProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixSystemreadySystemReadyMonitorProperties
+
+  }
+}

@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties {
+    title = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
+    description = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
+    derivedFrom = Root
+    properties {
+        enabled_actions {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        user_privilege_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        group_privilege_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        constraint {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties {
+    title = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
+    description = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
+
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_dam_config_annotation_pdf_document_width" },
+      {"model": "cq_dam_config_annotation_pdf_document_height" },
+      {"model": "cq_dam_config_annotation_pdf_document_padding_horizontal" },
+      {"model": "cq_dam_config_annotation_pdf_document_padding_vertical" },
+      {"model": "cq_dam_config_annotation_pdf_font_size" },
+      {"model": "cq_dam_config_annotation_pdf_font_color" },
+      {"model": "cq_dam_config_annotation_pdf_font_family" },
+      {"model": "cq_dam_config_annotation_pdf_font_light" },
+      {"model": "cq_dam_config_annotation_pdf_margin_text_image" },
+      {"model": "cq_dam_config_annotation_pdf_min_image_height" },
+      {"model": "cq_dam_config_annotation_pdf_review_status_width" },
+      {"model": "cq_dam_config_annotation_pdf_review_status_color_approved" },
+      {"model": "cq_dam_config_annotation_pdf_review_status_color_rejected" },
+      {"model": "cq_dam_config_annotation_pdf_review_status_color_changes_requested" },
+      {"model": "cq_dam_config_annotation_pdf_annotation_marker_width" },
+      {"model": "cq_dam_config_annotation_pdf_asset_minheight" },
+    ]
+  }]
+}

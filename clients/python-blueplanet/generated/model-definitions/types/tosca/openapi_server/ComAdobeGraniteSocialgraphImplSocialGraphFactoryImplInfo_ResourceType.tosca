@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties = openapi_server.resourceTypes.ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo {
+    title = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo
+    description = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo {
+    title = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo
+    description = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo
+
+  }
+}

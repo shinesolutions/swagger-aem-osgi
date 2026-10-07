@@ -1,0 +1,76 @@
+package apimodels;
+
+import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import com.fasterxml.jackson.annotation.*;
+import java.util.Set;
+import javax.validation.*;
+import java.util.Objects;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+/**
+ * ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties
+ */
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
+public class ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties   {
+  @JsonProperty("bucketSize")
+  @Valid
+
+  private ConfigNodePropertyInteger bucketSize;
+
+  public ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties bucketSize(ConfigNodePropertyInteger bucketSize) {
+    this.bucketSize = bucketSize;
+    return this;
+  }
+
+   /**
+   * Get bucketSize
+   * @return bucketSize
+  **/
+  public ConfigNodePropertyInteger getBucketSize() {
+    return bucketSize;
+  }
+
+  public void setBucketSize(ConfigNodePropertyInteger bucketSize) {
+    this.bucketSize = bucketSize;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties comAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties = (ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties) o;
+    return Objects.equals(bucketSize, comAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties.bucketSize);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(bucketSize);
+  }
+
+  @SuppressWarnings("StringBufferReplaceableByString")
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties {\n");
+    
+    sb.append("    bucketSize: ").append(toIndentedString(bucketSize)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

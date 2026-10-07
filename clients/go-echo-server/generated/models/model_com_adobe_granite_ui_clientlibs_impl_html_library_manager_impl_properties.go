@@ -1,0 +1,44 @@
+package models
+
+type ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties struct {
+
+	HtmllibmanagerTiming ConfigNodePropertyBoolean `json:"htmllibmanager.timing,omitempty"`
+
+	HtmllibmanagerDebugInitJs ConfigNodePropertyString `json:"htmllibmanager.debug.init.js,omitempty"`
+
+	HtmllibmanagerMinify ConfigNodePropertyBoolean `json:"htmllibmanager.minify,omitempty"`
+
+	HtmllibmanagerDebug ConfigNodePropertyBoolean `json:"htmllibmanager.debug,omitempty"`
+
+	HtmllibmanagerGzip ConfigNodePropertyBoolean `json:"htmllibmanager.gzip,omitempty"`
+
+	HtmllibmanagerMaxDataUriSize ConfigNodePropertyInteger `json:"htmllibmanager.maxDataUriSize,omitempty"`
+
+	HtmllibmanagerMaxage ConfigNodePropertyInteger `json:"htmllibmanager.maxage,omitempty"`
+
+	HtmllibmanagerForceCQUrlInfo ConfigNodePropertyBoolean `json:"htmllibmanager.forceCQUrlInfo,omitempty"`
+
+	HtmllibmanagerDefaultthemename ConfigNodePropertyString `json:"htmllibmanager.defaultthemename,omitempty"`
+
+	HtmllibmanagerDefaultuserthemename ConfigNodePropertyString `json:"htmllibmanager.defaultuserthemename,omitempty"`
+
+	HtmllibmanagerClientmanager ConfigNodePropertyString `json:"htmllibmanager.clientmanager,omitempty"`
+
+	HtmllibmanagerPathList ConfigNodePropertyArray `json:"htmllibmanager.path.list,omitempty"`
+
+	HtmllibmanagerExcludedPathList ConfigNodePropertyArray `json:"htmllibmanager.excluded.path.list,omitempty"`
+
+	HtmllibmanagerProcessorJs ConfigNodePropertyArray `json:"htmllibmanager.processor.js,omitempty"`
+
+	HtmllibmanagerProcessorCss ConfigNodePropertyArray `json:"htmllibmanager.processor.css,omitempty"`
+
+	HtmllibmanagerLongcachePatterns ConfigNodePropertyArray `json:"htmllibmanager.longcache.patterns,omitempty"`
+
+	HtmllibmanagerLongcacheFormat ConfigNodePropertyString `json:"htmllibmanager.longcache.format,omitempty"`
+
+	HtmllibmanagerUseFileSystemOutputCache ConfigNodePropertyBoolean `json:"htmllibmanager.useFileSystemOutputCache,omitempty"`
+
+	HtmllibmanagerFileSystemOutputCacheLocation ConfigNodePropertyString `json:"htmllibmanager.fileSystemOutputCacheLocation,omitempty"`
+
+	HtmllibmanagerDisableReplacement ConfigNodePropertyArray `json:"htmllibmanager.disable.replacement,omitempty"`
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamCfmImplComponentComponentConfigImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamCfmImplComponentComponentConfigImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqDamCfmImplComponentComponentConfigImplProperties {
+    title = ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
+    description = ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
+    derivedFrom = Root
+    properties {
+        dam_cfm_component_resource_type {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        dam_cfm_component_file_reference_prop {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        dam_cfm_component_elements_prop {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        dam_cfm_component_variation_prop {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamCfmImplComponentComponentConfigImplProperties {
+    title = ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
+    description = ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
+
+  }
+}

@@ -1,0 +1,42 @@
+<?php
+declare(strict_types=1);
+
+namespace App\Handler;
+
+use Articus\PathHandler\Annotation as PHA;
+use Articus\PathHandler\Consumer as PHConsumer;
+use Articus\PathHandler\Producer as PHProducer;
+use Articus\PathHandler\Attribute as PHAttribute;
+use Articus\PathHandler\Exception as PHException;
+use Psr\Http\Message\ServerRequestInterface;
+
+/**
+ * @PHA\Route(pattern="/system/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet")
+ */
+class SystemConsoleConfigMgrComAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet
+{
+    /**
+     * @PHA\Post()
+     * @PHA\Attribute(name=PHAttribute\Transfer::class, options={
+     *     "type":\App\DTO\ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletQueryData::class,
+     *     "objectAttr":"queryData",
+     *     "source": PHAttribute\Transfer::SOURCE_GET
+     * })
+     * TODO check if producer is valid, if it has correct priority and if it can be moved to class annotation
+     * @PHA\Producer(name=PHProducer\Transfer::class, mediaType="application/json")
+     * TODO check if producer is valid, if it has correct priority and if it can be moved to class annotation
+     * @PHA\Producer(name=PHProducer\Transfer::class, mediaType="text/plain")
+     * @param ServerRequestInterface $request
+     *
+     * @throws PHException\HttpCode 501 if the method is not implemented
+     *
+     * @return \App\DTO\ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo
+     */
+    public function comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet(ServerRequestInterface $request): \App\DTO\ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo
+    {
+        //TODO implement method
+        /** @var \App\DTO\ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletQueryData $queryData */
+        $queryData = $request->getAttribute("queryData");
+        throw new PHException\HttpCode(501, "Not implemented");
+    }
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties = openapi_server.resourceTypes.OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties
+}
+resourceTypes {
+
+  OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo {
+    title = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo
+    description = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo {
+    title = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo
+    description = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo
+
+  }
+}

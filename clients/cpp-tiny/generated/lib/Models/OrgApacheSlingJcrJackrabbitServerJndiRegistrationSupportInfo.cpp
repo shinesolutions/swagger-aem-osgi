@@ -1,0 +1,173 @@
+
+
+#include "OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo.h"
+
+using namespace Tiny;
+
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo()
+{
+	pid = std::string();
+	title = std::string();
+	description = std::string();
+	properties = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties();
+}
+
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo(std::string jsonString)
+{
+	this->fromJson(jsonString);
+}
+
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::~OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo()
+{
+
+}
+
+void
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::fromJson(std::string jsonObj)
+{
+    bourne::json object = bourne::json::parse(jsonObj);
+
+    const char *pidKey = "pid";
+
+    if(object.has_key(pidKey))
+    {
+        bourne::json value = object[pidKey];
+
+
+
+        jsonToValue(&pid, value, "std::string");
+
+
+    }
+
+    const char *titleKey = "title";
+
+    if(object.has_key(titleKey))
+    {
+        bourne::json value = object[titleKey];
+
+
+
+        jsonToValue(&title, value, "std::string");
+
+
+    }
+
+    const char *descriptionKey = "description";
+
+    if(object.has_key(descriptionKey))
+    {
+        bourne::json value = object[descriptionKey];
+
+
+
+        jsonToValue(&description, value, "std::string");
+
+
+    }
+
+    const char *propertiesKey = "properties";
+
+    if(object.has_key(propertiesKey))
+    {
+        bourne::json value = object[propertiesKey];
+
+
+
+
+        OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties* obj = &properties;
+		obj->fromJson(value.dump());
+
+    }
+
+
+}
+
+bourne::json
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::toJson()
+{
+    bourne::json object = bourne::json::object();
+
+
+
+
+
+    object["pid"] = getPid();
+
+
+
+
+
+
+    object["title"] = getTitle();
+
+
+
+
+
+
+    object["description"] = getDescription();
+
+
+
+
+
+
+
+	object["properties"] = getProperties().toJson();
+
+
+    return object;
+
+}
+
+std::string
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::getPid()
+{
+	return pid;
+}
+
+void
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::setPid(std::string pid)
+{
+	this->pid = pid;
+}
+
+std::string
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::getTitle()
+{
+	return title;
+}
+
+void
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::setTitle(std::string title)
+{
+	this->title = title;
+}
+
+std::string
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::getDescription()
+{
+	return description;
+}
+
+void
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::setDescription(std::string description)
+{
+	this->description = description;
+}
+
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::getProperties()
+{
+	return properties;
+}
+
+void
+OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo::setProperties(OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties properties)
+{
+	this->properties = properties;
+}
+
+
+

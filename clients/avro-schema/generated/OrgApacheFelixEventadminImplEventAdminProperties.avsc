@@ -1,0 +1,45 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheFelixEventadminImplEventAdminProperties",
+  "fields": [
+    {
+      "name": "org.apache.felix.eventadmin.ThreadPoolSize",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "org.apache.felix.eventadmin.AsyncToSyncThreadRatio",
+      "type": ["null", "model.ConfigNodePropertyFloat"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "org.apache.felix.eventadmin.Timeout",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "org.apache.felix.eventadmin.RequireTopic",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "org.apache.felix.eventadmin.IgnoreTimeout",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "org.apache.felix.eventadmin.IgnoreTopic",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

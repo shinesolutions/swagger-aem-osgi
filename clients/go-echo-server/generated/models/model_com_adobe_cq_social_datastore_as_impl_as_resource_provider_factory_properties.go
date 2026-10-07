@@ -1,0 +1,18 @@
+package models
+
+type ComAdobeCqSocialDatastoreAsImplAsResourceProviderFactoryProperties struct {
+
+	VersionId ConfigNodePropertyString `json:"version.id,omitempty"`
+
+	CacheOn ConfigNodePropertyBoolean `json:"cache.on,omitempty"`
+
+	ConcurrencyLevel ConfigNodePropertyInteger `json:"concurrency.level,omitempty"`
+
+	CacheStartSize ConfigNodePropertyInteger `json:"cache.start.size,omitempty"`
+
+	CacheTtl ConfigNodePropertyInteger `json:"cache.ttl,omitempty"`
+
+	CacheSize ConfigNodePropertyInteger `json:"cache.size,omitempty"`
+
+	TimeLimit ConfigNodePropertyInteger `json:"time.limit,omitempty"`
+}

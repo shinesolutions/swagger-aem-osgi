@@ -1,0 +1,811 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties {
+    title = ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
+    description = ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_cq_cdn_cdn_rewriter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cloud_config_components {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cloud_config_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cloud_config_ui {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_com_adobe_cq_editor {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_com_adobe_cq_projects_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_com_adobe_cq_projects_wcm_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_com_adobe_cq_ui_commons {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_com_adobe_cq_wcm_style {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_activitymap_integration {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_contexthub_commons {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_dtm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_healthcheck {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_multisite_targeting {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_pre_upgrade_cleanup {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_product_info_provider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_rest_sites {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_cq_security_hc {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_dam_cq_dam_svg_handler {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_dam_cq_scene7_imaging {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_dtm_reactor_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_dtm_reactor_ui {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_exp_jspel_resolver {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_inbox_cq_inbox {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_json_schema_parser {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_media_cq_media_publishing_dps_fp_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_mobile_cq_mobile_caas {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_mobile_cq_mobile_index_builder {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_mobile_cq_mobile_phonegap_build {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_myspell {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_sample_we_retail_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_com_adobe_cq_screens_dcc {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_com_adobe_cq_screens_mq_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_as_provider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_badging_basic_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_badging_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_calendar_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_content_fragments_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_enablement_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_graph_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_ideation_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_jcr_provider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_members_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_ms_provider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_notifications_channels_web {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_notifications_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_rdb_provider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_scf_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_scoring_basic_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_scoring_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_serviceusers_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_srp_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_social_cq_social_ugcbase_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_dam_cq_dam_cfm_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_forms_foundation_forms_foundation_base {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_apicontroller {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_asset_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_auth_sso {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_bundles_hc_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_compat_router {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_conf {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_conf_ui_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_cors {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_crx_explorer {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_crxde_lite {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_crypto_config {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_crypto_extension {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_crypto_file {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_crypto_jcr {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_csrf {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_distribution_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_dropwizard_metrics {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_frags_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_gibson {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_infocollector {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_installer_factory_packages {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_jetty_ssl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_jobs_async {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_maintenance_oak {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_monitoring_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_queries {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_replication_hc_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_repository_checker {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_repository_hc_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_rest_assets {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_security_ui {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_startup {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_tagsoup {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_taskmanagement_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_taskmanagement_workflow {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_ui_clientlibs_compiler_less {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_ui_clientlibs_processor_gcc {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_webconsole_plugins {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_workflow_console {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_xmp_worker_files_native_fragment_linux {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_xmp_worker_files_native_fragment_macosx {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_xmp_worker_files_native_fragment_win {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_commons_osgi_wrapper_simple_jndi {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_cq_authhandler {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_cq_compat_configupdate {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_cq_licensebranding {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_cq_notifcation_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_cq_replication_audit {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_cq_search_ext {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_dam_cq_dam_annotation_print {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_dam_cq_dam_asset_usage {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_dam_cq_dam_s7dam {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_dam_cq_dam_similaritysearch {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_dam_dam_webdav_support {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_pre_upgrade_tasks {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_replication_extensions {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_wcm_cq_msm_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_day_cq_wcm_cq_wcm_translation {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        day_commons_jrawio {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_aries_jmx_whiteboard {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_sslfilter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_org_apache_felix_threaddump {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_webconsole_plugins_ds {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_webconsole_plugins_event {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_webconsole_plugins_memoryusage {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_webconsole_plugins_packageadmin {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_jackrabbit_oak_auth_ldap {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_jackrabbit_oak_segment_tar {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_jackrabbit_oak_solr_osgi {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_bundleresource_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_fsclassloader {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_webconsole {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_datasource {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_discovery_base {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_discovery_oak {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_discovery_support {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_distribution_api {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_distribution_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_extensions_webconsolesecurityprovider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_hc_webconsole {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_installer_console {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_installer_provider_file {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_installer_provider_jcr {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_jcr_davex {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_jcr_resourcesecurity {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_jmx_provider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_launchpad_installer {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_models_impl {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_repoinit_parser {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_resource_inventory {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_resourceresolver {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_scripting_javascript {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_scripting_jst {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_scripting_sightly_js_provider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_scripting_sightly_models_provider {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_security {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_servlets_compat {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_servlets_get {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_startupfilter_disabler {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_tracer {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        we_retail_client_app_core {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties {
+    title = ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
+    description = ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
+
+  }
+}

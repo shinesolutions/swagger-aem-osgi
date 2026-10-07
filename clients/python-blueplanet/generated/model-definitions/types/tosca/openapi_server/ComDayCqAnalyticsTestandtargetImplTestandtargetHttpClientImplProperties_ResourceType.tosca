@@ -1,0 +1,57 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties {
+    title = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
+    description = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
+    derivedFrom = Root
+    properties {
+        cq_analytics_testandtarget_api_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_analytics_testandtarget_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_analytics_testandtarget_sockettimeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_analytics_testandtarget_recommendations_url_replace {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_analytics_testandtarget_recommendations_url_replacewith {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties {
+    title = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
+    description = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
+
+  }
+}

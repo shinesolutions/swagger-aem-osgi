@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties {
+    title = ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties
+    description = ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties
+    derivedFrom = Root
+    properties {
+        cq_searchpromote_configuration_server_uri {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_searchpromote_configuration_environment {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        connection_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        socket_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties {
+    title = ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties
+    description = ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties
+
+  }
+}

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmMsmImplServletsAuditLogServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmMsmImplServletsAuditLogServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmMsmImplServletsAuditLogServletProperties {
+    title = ComDayCqWcmMsmImplServletsAuditLogServletProperties
+    description = ComDayCqWcmMsmImplServletsAuditLogServletProperties
+    derivedFrom = Root
+    properties {
+        auditlogservlet_default_events_count {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        auditlogservlet_default_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmMsmImplServletsAuditLogServletProperties {
+    title = ComDayCqWcmMsmImplServletsAuditLogServletProperties
+    description = ComDayCqWcmMsmImplServletsAuditLogServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmMsmImplServletsAuditLogServletProperties
+
+  }
+}

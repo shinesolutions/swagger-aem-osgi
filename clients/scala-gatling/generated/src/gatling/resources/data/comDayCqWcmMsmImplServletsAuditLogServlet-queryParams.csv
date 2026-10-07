@@ -1,0 +1,1 @@
+auditlogservlet.default.events.count,propertylist,$location,apply,delete,action,post,auditlogservlet.default.path

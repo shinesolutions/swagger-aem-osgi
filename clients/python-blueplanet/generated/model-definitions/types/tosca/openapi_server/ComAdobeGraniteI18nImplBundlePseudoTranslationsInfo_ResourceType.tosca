@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties = openapi_server.resourceTypes.ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo {
+    title = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
+    description = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo {
+    title = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
+    description = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
+
+  }
+}

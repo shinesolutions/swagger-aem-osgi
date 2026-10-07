@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties {
+    title = ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
+    description = ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
+    derivedFrom = Root
+    properties {
+        sync_translation_state_scheduling_format {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        scheduling_repeat_translation_scheduling_format {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sync_translation_state_lock_timeout_in_minutes {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        export_format {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties {
+    title = ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
+    description = ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
+
+  }
+}

@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties {
+    title = OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties
+    description = OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties
+    derivedFrom = Root
+    properties {
+        timeout_in_ms {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        long_running_future_threshold_for_critical_ms {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        result_cache_ttl_in_ms {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties {
+    title = OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties
+    description = OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties
+
+  }
+}

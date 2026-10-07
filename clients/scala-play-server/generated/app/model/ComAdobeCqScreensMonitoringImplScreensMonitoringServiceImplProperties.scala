@@ -1,0 +1,24 @@
+package model
+
+import play.api.libs.json._
+
+/**
+  * Represents the Swagger definition for comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties.
+  */
+@javax.annotation.Generated(value = Array("org.openapitools.codegen.languages.ScalaPlayFrameworkServerCodegen"), date = "2026-10-07T13:00:43.037663378Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+case class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties(
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath: Option[ConfigNodePropertyArray],
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency: Option[ConfigNodePropertyString],
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout: Option[ConfigNodePropertyInteger],
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients: Option[ConfigNodePropertyString],
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver: Option[ConfigNodePropertyString],
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport: Option[ConfigNodePropertyInteger],
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls: Option[ConfigNodePropertyBoolean],
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername: Option[ConfigNodePropertyString],
+  comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword: Option[ConfigNodePropertyString]
+)
+
+object ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties {
+  implicit lazy val comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPropertiesJsonFormat: Format[ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties] = Json.format[ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties]
+}
+

@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties
+    description = OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties
+    derivedFrom = Root
+    properties {
+        async_configs {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        lease_time_out_minutes {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        failing_index_timeout_seconds {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        error_warn_interval_seconds {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties
+    description = OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties
+
+  }
+}

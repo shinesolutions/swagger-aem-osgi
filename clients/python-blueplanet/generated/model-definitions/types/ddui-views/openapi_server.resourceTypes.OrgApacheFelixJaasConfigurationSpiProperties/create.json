@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "jaas_default_realm_name" },
+      {"model": "jaas_config_provider_name" },
+      {"model": "jaas_global_config_policy" },
+    ]
+  }]
+}

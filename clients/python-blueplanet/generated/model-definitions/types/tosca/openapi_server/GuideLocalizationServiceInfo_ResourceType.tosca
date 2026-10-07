@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server GuideLocalizationServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a GuideLocalizationServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  GuideLocalizationServiceProperties = openapi_server.resourceTypes.GuideLocalizationServiceProperties
+}
+resourceTypes {
+
+  GuideLocalizationServiceInfo {
+    title = GuideLocalizationServiceInfo
+    description = GuideLocalizationServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = GuideLocalizationServiceProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  GuideLocalizationServiceInfo {
+    title = GuideLocalizationServiceInfo
+    description = GuideLocalizationServiceInfo
+    implements = openapi_server.resourceTypes.GuideLocalizationServiceInfo
+
+  }
+}

@@ -1,0 +1,87 @@
+
+/*
+ * ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.h
+ *
+ * 
+ */
+
+#ifndef TINY_CPP_CLIENT_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_H_
+#define TINY_CPP_CLIENT_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_H_
+
+
+#include <string>
+#include "bourne/json.hpp"
+#include "Helpers.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties.h"
+
+namespace Tiny {
+
+
+/*! \brief 
+ *
+ *  \ingroup Models
+ *
+ */
+
+class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo{
+public:
+
+    /*! \brief Constructor.
+	 */
+    ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo();
+    ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo(std::string jsonString);
+
+
+    /*! \brief Destructor.
+	 */
+    virtual ~ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo();
+
+
+    /*! \brief Retrieve a bourne JSON representation of this class.
+	 */
+    bourne::json toJson();
+
+
+    /*! \brief Fills in members of this class from bourne JSON object representing it.
+	 */
+    void fromJson(std::string jsonObj);
+
+	/*! \brief Get 
+	 */
+	std::string getPid();
+
+	/*! \brief Set 
+	 */
+	void setPid(std::string pid);
+	/*! \brief Get 
+	 */
+	std::string getTitle();
+
+	/*! \brief Set 
+	 */
+	void setTitle(std::string title);
+	/*! \brief Get 
+	 */
+	std::string getDescription();
+
+	/*! \brief Set 
+	 */
+	void setDescription(std::string description);
+	/*! \brief Get 
+	 */
+	ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties getProperties();
+
+	/*! \brief Set 
+	 */
+	void setProperties(ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties properties);
+
+
+    private:
+    std::string pid{};
+    std::string title{};
+    std::string description{};
+    ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties properties;
+};
+}
+
+#endif /* TINY_CPP_CLIENT_ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_H_ */

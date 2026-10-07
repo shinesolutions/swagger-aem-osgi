@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowPurgeSchedulerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowPurgeSchedulerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteWorkflowPurgeSchedulerProperties = openapi_server.resourceTypes.ComAdobeGraniteWorkflowPurgeSchedulerProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowPurgeSchedulerInfo {
+    title = ComAdobeGraniteWorkflowPurgeSchedulerInfo
+    description = ComAdobeGraniteWorkflowPurgeSchedulerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteWorkflowPurgeSchedulerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowPurgeSchedulerInfo {
+    title = ComAdobeGraniteWorkflowPurgeSchedulerInfo
+    description = ComAdobeGraniteWorkflowPurgeSchedulerInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowPurgeSchedulerInfo
+
+  }
+}

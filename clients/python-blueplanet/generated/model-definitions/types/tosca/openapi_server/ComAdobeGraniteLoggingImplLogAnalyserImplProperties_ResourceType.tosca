@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteLoggingImplLogAnalyserImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteLoggingImplLogAnalyserImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteLoggingImplLogAnalyserImplProperties {
+    title = ComAdobeGraniteLoggingImplLogAnalyserImplProperties
+    description = ComAdobeGraniteLoggingImplLogAnalyserImplProperties
+    derivedFrom = Root
+    properties {
+        messages_queue_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        logger_config {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        messages_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteLoggingImplLogAnalyserImplProperties {
+    title = ComAdobeGraniteLoggingImplLogAnalyserImplProperties
+    description = ComAdobeGraniteLoggingImplLogAnalyserImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteLoggingImplLogAnalyserImplProperties
+
+  }
+}

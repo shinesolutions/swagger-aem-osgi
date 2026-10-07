@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties = openapi_server.resourceTypes.ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties
+}
+resourceTypes {
+
+  ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo {
+    title = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo
+    description = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo {
+    title = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo
+    description = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo
+    implements = openapi_server.resourceTypes.ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo
+
+  }
+}

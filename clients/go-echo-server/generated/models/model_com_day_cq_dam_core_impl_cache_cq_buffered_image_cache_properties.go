@@ -1,0 +1,10 @@
+package models
+
+type ComDayCqDamCoreImplCacheCqBufferedImageCacheProperties struct {
+
+	CqDamImageCacheMaxMemory ConfigNodePropertyInteger `json:"cq.dam.image.cache.max.memory,omitempty"`
+
+	CqDamImageCacheMaxAge ConfigNodePropertyInteger `json:"cq.dam.image.cache.max.age,omitempty"`
+
+	CqDamImageCacheMaxDimension ConfigNodePropertyString `json:"cq.dam.image.cache.max.dimension,omitempty"`
+}

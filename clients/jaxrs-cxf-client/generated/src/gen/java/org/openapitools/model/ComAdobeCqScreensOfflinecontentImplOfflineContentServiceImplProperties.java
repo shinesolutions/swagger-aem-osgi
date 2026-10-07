@@ -1,0 +1,68 @@
+package org.openapitools.model;
+
+import org.openapitools.model.ConfigNodePropertyBoolean;
+
+import io.swagger.annotations.ApiModelProperty;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties  {
+  
+  @ApiModelProperty(value = "")
+
+  private ConfigNodePropertyBoolean disableSmartSync;
+ /**
+   * Get disableSmartSync
+   * @return disableSmartSync
+  **/
+  @JsonProperty("disableSmartSync")
+  public ConfigNodePropertyBoolean getDisableSmartSync() {
+    return disableSmartSync;
+  }
+
+  public void setDisableSmartSync(ConfigNodePropertyBoolean disableSmartSync) {
+    this.disableSmartSync = disableSmartSync;
+  }
+
+  public ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties disableSmartSync(ConfigNodePropertyBoolean disableSmartSync) {
+    this.disableSmartSync = disableSmartSync;
+    return this;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties comAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties = (ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties) o;
+    return Objects.equals(this.disableSmartSync, comAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties.disableSmartSync);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(disableSmartSync);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties {\n");
+    
+    sb.append("    disableSmartSync: ").append(toIndentedString(disableSmartSync)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

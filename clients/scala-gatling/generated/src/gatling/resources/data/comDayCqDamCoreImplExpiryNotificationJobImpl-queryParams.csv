@@ -1,0 +1,1 @@
+propertylist,$location,cq.dam.expiry.notification.scheduler.period.rule,cq.dam.expiry.notification.url.protocol,apply,cq.dam.expiry.notification.scheduler.istimebased,action,post,prior_notification_seconds,send_email,asset_expired_limit,delete,cq.dam.expiry.notification.scheduler.timebased.rule

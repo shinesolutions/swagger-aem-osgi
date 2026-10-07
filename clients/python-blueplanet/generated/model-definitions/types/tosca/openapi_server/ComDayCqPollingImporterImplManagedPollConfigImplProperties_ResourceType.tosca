@@ -1,0 +1,78 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqPollingImporterImplManagedPollConfigImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqPollingImporterImplManagedPollConfigImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqPollingImporterImplManagedPollConfigImplProperties {
+    title = ComDayCqPollingImporterImplManagedPollConfigImplProperties
+    description = ComDayCqPollingImporterImplManagedPollConfigImplProperties
+    derivedFrom = Root
+    properties {
+        id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        reference {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        source {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        login {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqPollingImporterImplManagedPollConfigImplProperties {
+    title = ComDayCqPollingImporterImplManagedPollConfigImplProperties
+    description = ComDayCqPollingImporterImplManagedPollConfigImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqPollingImporterImplManagedPollConfigImplProperties
+
+  }
+}

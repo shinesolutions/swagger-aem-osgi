@@ -1,0 +1,79 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties {
+    title = ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
+    description = ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties {
+    title = ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
+    description = ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
+
+  }
+}

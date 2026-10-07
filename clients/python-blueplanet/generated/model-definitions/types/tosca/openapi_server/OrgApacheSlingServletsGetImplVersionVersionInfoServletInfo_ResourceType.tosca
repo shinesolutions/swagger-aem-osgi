@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties = openapi_server.resourceTypes.OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties
+}
+resourceTypes {
+
+  OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo {
+    title = OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo
+    description = OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo {
+    title = OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo
+    description = OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo
+
+  }
+}

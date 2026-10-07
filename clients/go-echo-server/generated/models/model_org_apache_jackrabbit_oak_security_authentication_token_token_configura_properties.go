@@ -1,0 +1,18 @@
+package models
+
+type OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties struct {
+
+	TokenExpiration ConfigNodePropertyString `json:"tokenExpiration,omitempty"`
+
+	TokenLength ConfigNodePropertyString `json:"tokenLength,omitempty"`
+
+	TokenRefresh ConfigNodePropertyBoolean `json:"tokenRefresh,omitempty"`
+
+	TokenCleanupThreshold ConfigNodePropertyInteger `json:"tokenCleanupThreshold,omitempty"`
+
+	PasswordHashAlgorithm ConfigNodePropertyString `json:"passwordHashAlgorithm,omitempty"`
+
+	PasswordHashIterations ConfigNodePropertyInteger `json:"passwordHashIterations,omitempty"`
+
+	PasswordSaltSize ConfigNodePropertyInteger `json:"passwordSaltSize,omitempty"`
+}

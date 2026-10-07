@@ -1,0 +1,1 @@
+propertylist,$location,apply,scheduledpurge.name,scheduledpurge.templates,scheduledpurge.saveThreshold,action,post,scheduledpurge.daysold,scheduledpurge.terminateRunningWorkflows,scheduledpurge.purgeActive,delete,scheduledpurge.purgeGroups,scheduledpurge.purgeAssets

@@ -1,0 +1,33 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "path_desc_field" },
+      {"model": "path_child_field" },
+      {"model": "path_parent_field" },
+      {"model": "path_exact_field" },
+      {"model": "catch_all_field" },
+      {"model": "collapsed_path_field" },
+      {"model": "path_depth_field" },
+      {"model": "commit_policy" },
+      {"model": "rows" },
+      {"model": "path_restrictions" },
+      {"model": "property_restrictions" },
+      {"model": "primarytypes_restrictions" },
+      {"model": "ignored_properties" },
+      {"model": "used_properties" },
+      {"model": "type_mappings" },
+      {"model": "property_mappings" },
+      {"model": "collapse_jcrcontent_nodes" },
+    ]
+  }]
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo {
+    title = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+    description = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo {
+    title = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+    description = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+
+  }
+}

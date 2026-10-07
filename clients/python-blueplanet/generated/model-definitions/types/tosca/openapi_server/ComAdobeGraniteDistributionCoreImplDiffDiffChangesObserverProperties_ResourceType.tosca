@@ -1,0 +1,73 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties {
+    title = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
+    description = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
+    derivedFrom = Root
+    properties {
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        agent_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        diff_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        observed_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        service_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        property_names {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        distribution_delay {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        service_user_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties {
+    title = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
+    description = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
+
+  }
+}

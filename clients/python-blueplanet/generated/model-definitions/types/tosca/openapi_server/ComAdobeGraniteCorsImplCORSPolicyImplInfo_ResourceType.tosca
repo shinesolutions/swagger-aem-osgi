@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteCorsImplCORSPolicyImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteCorsImplCORSPolicyImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteCorsImplCORSPolicyImplProperties = openapi_server.resourceTypes.ComAdobeGraniteCorsImplCORSPolicyImplProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteCorsImplCORSPolicyImplInfo {
+    title = ComAdobeGraniteCorsImplCORSPolicyImplInfo
+    description = ComAdobeGraniteCorsImplCORSPolicyImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteCorsImplCORSPolicyImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteCorsImplCORSPolicyImplInfo {
+    title = ComAdobeGraniteCorsImplCORSPolicyImplInfo
+    description = ComAdobeGraniteCorsImplCORSPolicyImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteCorsImplCORSPolicyImplInfo
+
+  }
+}

@@ -1,0 +1,71 @@
+
+/*
+ * ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties.h
+ *
+ * 
+ */
+
+#ifndef TINY_CPP_CLIENT_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties_H_
+#define TINY_CPP_CLIENT_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties_H_
+
+
+#include <string>
+#include "bourne/json.hpp"
+#include "Helpers.h"
+#include "ConfigNodePropertyArray.h"
+
+namespace Tiny {
+
+
+/*! \brief 
+ *
+ *  \ingroup Models
+ *
+ */
+
+class ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties{
+public:
+
+    /*! \brief Constructor.
+	 */
+    ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties();
+    ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties(std::string jsonString);
+
+
+    /*! \brief Destructor.
+	 */
+    virtual ~ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties();
+
+
+    /*! \brief Retrieve a bourne JSON representation of this class.
+	 */
+    bourne::json toJson();
+
+
+    /*! \brief Fills in members of this class from bourne JSON object representing it.
+	 */
+    void fromJson(std::string jsonObj);
+
+	/*! \brief Get 
+	 */
+	ConfigNodePropertyArray getFieldWhitelist();
+
+	/*! \brief Set 
+	 */
+	void setFieldWhitelist(ConfigNodePropertyArray fieldWhitelist);
+	/*! \brief Get 
+	 */
+	ConfigNodePropertyArray getAttachmentTypeBlacklist();
+
+	/*! \brief Set 
+	 */
+	void setAttachmentTypeBlacklist(ConfigNodePropertyArray attachmentTypeBlacklist);
+
+
+    private:
+    ConfigNodePropertyArray fieldWhitelist;
+    ConfigNodePropertyArray attachmentTypeBlacklist;
+};
+}
+
+#endif /* TINY_CPP_CLIENT_ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties_H_ */

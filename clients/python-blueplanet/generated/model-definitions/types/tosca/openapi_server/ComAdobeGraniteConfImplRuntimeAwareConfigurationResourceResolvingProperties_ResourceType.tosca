@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties {
+    title = ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties
+    description = ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties
+    derivedFrom = Root
+    properties {
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        fallback_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties {
+    title = ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties
+    description = ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties
+
+  }
+}

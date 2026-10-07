@@ -1,0 +1,260 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyDropDown;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+
+/**
+ * Model tests for OrgApacheSlingDatasourceDataSourceFactoryProperties
+ */
+@MicronautTest
+public class OrgApacheSlingDatasourceDataSourceFactoryPropertiesTest {
+    private final OrgApacheSlingDatasourceDataSourceFactoryProperties model = null;
+
+    /**
+     * Model tests for OrgApacheSlingDatasourceDataSourceFactoryProperties
+     */
+    @Test
+    public void testOrgApacheSlingDatasourceDataSourceFactoryProperties() {
+        // TODO: test OrgApacheSlingDatasourceDataSourceFactoryProperties
+    }
+
+    /**
+     * Test the property 'datasourceName'
+     */
+    @Test
+    public void datasourceNameTest() {
+        // TODO: test datasourceName
+    }
+
+    /**
+     * Test the property 'datasourceSvcPropName'
+     */
+    @Test
+    public void datasourceSvcPropNameTest() {
+        // TODO: test datasourceSvcPropName
+    }
+
+    /**
+     * Test the property 'driverClassName'
+     */
+    @Test
+    public void driverClassNameTest() {
+        // TODO: test driverClassName
+    }
+
+    /**
+     * Test the property 'url'
+     */
+    @Test
+    public void urlTest() {
+        // TODO: test url
+    }
+
+    /**
+     * Test the property 'username'
+     */
+    @Test
+    public void usernameTest() {
+        // TODO: test username
+    }
+
+    /**
+     * Test the property 'password'
+     */
+    @Test
+    public void passwordTest() {
+        // TODO: test password
+    }
+
+    /**
+     * Test the property 'defaultAutoCommit'
+     */
+    @Test
+    public void defaultAutoCommitTest() {
+        // TODO: test defaultAutoCommit
+    }
+
+    /**
+     * Test the property 'defaultReadOnly'
+     */
+    @Test
+    public void defaultReadOnlyTest() {
+        // TODO: test defaultReadOnly
+    }
+
+    /**
+     * Test the property 'defaultTransactionIsolation'
+     */
+    @Test
+    public void defaultTransactionIsolationTest() {
+        // TODO: test defaultTransactionIsolation
+    }
+
+    /**
+     * Test the property 'defaultCatalog'
+     */
+    @Test
+    public void defaultCatalogTest() {
+        // TODO: test defaultCatalog
+    }
+
+    /**
+     * Test the property 'maxActive'
+     */
+    @Test
+    public void maxActiveTest() {
+        // TODO: test maxActive
+    }
+
+    /**
+     * Test the property 'maxIdle'
+     */
+    @Test
+    public void maxIdleTest() {
+        // TODO: test maxIdle
+    }
+
+    /**
+     * Test the property 'minIdle'
+     */
+    @Test
+    public void minIdleTest() {
+        // TODO: test minIdle
+    }
+
+    /**
+     * Test the property 'initialSize'
+     */
+    @Test
+    public void initialSizeTest() {
+        // TODO: test initialSize
+    }
+
+    /**
+     * Test the property 'maxWait'
+     */
+    @Test
+    public void maxWaitTest() {
+        // TODO: test maxWait
+    }
+
+    /**
+     * Test the property 'maxAge'
+     */
+    @Test
+    public void maxAgeTest() {
+        // TODO: test maxAge
+    }
+
+    /**
+     * Test the property 'testOnBorrow'
+     */
+    @Test
+    public void testOnBorrowTest() {
+        // TODO: test testOnBorrow
+    }
+
+    /**
+     * Test the property 'testOnReturn'
+     */
+    @Test
+    public void testOnReturnTest() {
+        // TODO: test testOnReturn
+    }
+
+    /**
+     * Test the property 'testWhileIdle'
+     */
+    @Test
+    public void testWhileIdleTest() {
+        // TODO: test testWhileIdle
+    }
+
+    /**
+     * Test the property 'validationQuery'
+     */
+    @Test
+    public void validationQueryTest() {
+        // TODO: test validationQuery
+    }
+
+    /**
+     * Test the property 'validationQueryTimeout'
+     */
+    @Test
+    public void validationQueryTimeoutTest() {
+        // TODO: test validationQueryTimeout
+    }
+
+    /**
+     * Test the property 'timeBetweenEvictionRunsMillis'
+     */
+    @Test
+    public void timeBetweenEvictionRunsMillisTest() {
+        // TODO: test timeBetweenEvictionRunsMillis
+    }
+
+    /**
+     * Test the property 'minEvictableIdleTimeMillis'
+     */
+    @Test
+    public void minEvictableIdleTimeMillisTest() {
+        // TODO: test minEvictableIdleTimeMillis
+    }
+
+    /**
+     * Test the property 'connectionProperties'
+     */
+    @Test
+    public void connectionPropertiesTest() {
+        // TODO: test connectionProperties
+    }
+
+    /**
+     * Test the property 'initSQL'
+     */
+    @Test
+    public void initSQLTest() {
+        // TODO: test initSQL
+    }
+
+    /**
+     * Test the property 'jdbcInterceptors'
+     */
+    @Test
+    public void jdbcInterceptorsTest() {
+        // TODO: test jdbcInterceptors
+    }
+
+    /**
+     * Test the property 'validationInterval'
+     */
+    @Test
+    public void validationIntervalTest() {
+        // TODO: test validationInterval
+    }
+
+    /**
+     * Test the property 'logValidationErrors'
+     */
+    @Test
+    public void logValidationErrorsTest() {
+        // TODO: test logValidationErrors
+    }
+
+    /**
+     * Test the property 'datasourceSvcProperties'
+     */
+    @Test
+    public void datasourceSvcPropertiesTest() {
+        // TODO: test datasourceSvcProperties
+    }
+
+}

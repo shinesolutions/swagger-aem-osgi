@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties {
+    title = ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties
+    description = ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties
+    derivedFrom = Root
+    properties {
+        notify_onupdate {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        notify_oncomplete {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties {
+    title = ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties
+    description = ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties
+    implements = openapi_server.resourceTypes.ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties
+
+  }
+}

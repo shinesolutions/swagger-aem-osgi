@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEventImplJobsDefaultJobManagerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEventImplJobsDefaultJobManagerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingEventImplJobsDefaultJobManagerProperties {
+    title = OrgApacheSlingEventImplJobsDefaultJobManagerProperties
+    description = OrgApacheSlingEventImplJobsDefaultJobManagerProperties
+    derivedFrom = Root
+    properties {
+        queue_priority {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        queue_retries {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        queue_retrydelay {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        queue_maxparallel {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEventImplJobsDefaultJobManagerProperties {
+    title = OrgApacheSlingEventImplJobsDefaultJobManagerProperties
+    description = OrgApacheSlingEventImplJobsDefaultJobManagerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEventImplJobsDefaultJobManagerProperties
+
+  }
+}

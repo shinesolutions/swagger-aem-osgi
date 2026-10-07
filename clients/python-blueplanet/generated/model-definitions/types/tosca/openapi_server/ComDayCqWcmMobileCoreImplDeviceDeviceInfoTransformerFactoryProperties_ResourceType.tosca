@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties {
+    title = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties
+    description = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties
+    derivedFrom = Root
+    properties {
+        device_info_transformer_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        device_info_transformer_css_style {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties {
+    title = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties
+    description = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties
+
+  }
+}

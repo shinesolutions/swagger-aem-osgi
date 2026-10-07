@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties {
+    title = ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties
+    description = ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties
+    derivedFrom = Root
+    properties {
+        mailer_email_embed {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        mailer_email_charset {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        mailer_email_retriever_user_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        mailer_email_retriever_user_pwd {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties {
+    title = ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties
+    description = ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties
+    implements = openapi_server.resourceTypes.ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties
+
+  }
+}

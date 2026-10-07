@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplWCMDebugFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplWCMDebugFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplWCMDebugFilterProperties {
+    title = ComDayCqWcmCoreImplWCMDebugFilterProperties
+    description = ComDayCqWcmCoreImplWCMDebugFilterProperties
+    derivedFrom = Root
+    properties {
+        wcmdbgfilter_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        wcmdbgfilter_jsp_debug {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplWCMDebugFilterProperties {
+    title = ComDayCqWcmCoreImplWCMDebugFilterProperties
+    description = ComDayCqWcmCoreImplWCMDebugFilterProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplWCMDebugFilterProperties
+
+  }
+}

@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties {
+    title = OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties
+    description = OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_scripting_javascript_rhino_opt_level {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties {
+    title = OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties
+    description = OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties
+
+  }
+}

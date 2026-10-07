@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeFormsCommonServletTempCleanUpTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeFormsCommonServletTempCleanUpTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeFormsCommonServletTempCleanUpTaskProperties {
+    title = ComAdobeFormsCommonServletTempCleanUpTaskProperties
+    description = ComAdobeFormsCommonServletTempCleanUpTaskProperties
+    derivedFrom = Root
+    properties {
+        scheduler_expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        duration_for_temporary_storage {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        duration_for_anonymous_storage {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeFormsCommonServletTempCleanUpTaskProperties {
+    title = ComAdobeFormsCommonServletTempCleanUpTaskProperties
+    description = ComAdobeFormsCommonServletTempCleanUpTaskProperties
+    implements = openapi_server.resourceTypes.ComAdobeFormsCommonServletTempCleanUpTaskProperties
+
+  }
+}

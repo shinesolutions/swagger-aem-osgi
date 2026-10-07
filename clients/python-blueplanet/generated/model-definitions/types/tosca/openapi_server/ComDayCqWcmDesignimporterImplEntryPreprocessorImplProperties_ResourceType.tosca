@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties {
+    title = ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties
+    description = ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties
+    derivedFrom = Root
+    properties {
+        search_pattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        replace_pattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties {
+    title = ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties
+    description = ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties
+
+  }
+}

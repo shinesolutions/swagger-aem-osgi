@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties",
+  "fields": [
+    {
+      "name": "commitsTrackerWriterGroups",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

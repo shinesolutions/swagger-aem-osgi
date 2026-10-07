@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+}
+resourceTypes {
+
+  ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties {
+    title = ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties
+    description = ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties
+    derivedFrom = Root
+    properties {
+        cq_wcm_msm_action_excludednodetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_wcm_msm_action_excludedparagraphitems {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_wcm_msm_action_excludedprops {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        contentcopyaction_order_style {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties {
+    title = ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties
+    description = ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties
+
+  }
+}

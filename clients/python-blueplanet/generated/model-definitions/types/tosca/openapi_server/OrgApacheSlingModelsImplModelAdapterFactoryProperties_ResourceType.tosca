@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingModelsImplModelAdapterFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingModelsImplModelAdapterFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingModelsImplModelAdapterFactoryProperties {
+    title = OrgApacheSlingModelsImplModelAdapterFactoryProperties
+    description = OrgApacheSlingModelsImplModelAdapterFactoryProperties
+    derivedFrom = Root
+    properties {
+        osgi_http_whiteboard_listener {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        osgi_http_whiteboard_context_select {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_recursion_depth {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cleanup_job_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingModelsImplModelAdapterFactoryProperties {
+    title = OrgApacheSlingModelsImplModelAdapterFactoryProperties
+    description = OrgApacheSlingModelsImplModelAdapterFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingModelsImplModelAdapterFactoryProperties
+
+  }
+}

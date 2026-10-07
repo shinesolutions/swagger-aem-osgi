@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWidgetImplWidgetExtensionProviderImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWidgetImplWidgetExtensionProviderImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqWidgetImplWidgetExtensionProviderImplProperties {
+    title = ComDayCqWidgetImplWidgetExtensionProviderImplProperties
+    description = ComDayCqWidgetImplWidgetExtensionProviderImplProperties
+    derivedFrom = Root
+    properties {
+        extendable_widgets {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        widgetextensionprovider_debug {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWidgetImplWidgetExtensionProviderImplProperties {
+    title = ComDayCqWidgetImplWidgetExtensionProviderImplProperties
+    description = ComDayCqWidgetImplWidgetExtensionProviderImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWidgetImplWidgetExtensionProviderImplProperties
+
+  }
+}

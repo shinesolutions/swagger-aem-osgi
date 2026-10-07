@@ -1,0 +1,17 @@
+-module(openapi_com_adobe_granite_bundles_hc_impl_code_cache_health_check_properties).
+
+-export([encode/1]).
+
+-export_type([openapi_com_adobe_granite_bundles_hc_impl_code_cache_health_check_properties/0]).
+
+-type openapi_com_adobe_granite_bundles_hc_impl_code_cache_health_check_properties() ::
+    #{ 'hc_tags' => openapi_config_node_property_array:openapi_config_node_property_array(),
+       'minimum_code_cache_size' => openapi_config_node_property_integer:openapi_config_node_property_integer()
+     }.
+
+encode(#{ 'hc_tags' := HcTags,
+          'minimum_code_cache_size' := MinimumCodeCacheSize
+        }) ->
+    #{ 'hc.tags' => HcTags,
+       'minimum.code.cache.size' => MinimumCodeCacheSize
+     }.

@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "com_adobe_aem_screens_player_pingfrequency" },
+      {"model": "com_adobe_aem_screens_device_pasword_specialchars" },
+      {"model": "com_adobe_aem_screens_device_pasword_minlowercasechars" },
+      {"model": "com_adobe_aem_screens_device_pasword_minuppercasechars" },
+      {"model": "com_adobe_aem_screens_device_pasword_minnumberchars" },
+      {"model": "com_adobe_aem_screens_device_pasword_minspecialchars" },
+      {"model": "com_adobe_aem_screens_device_pasword_minlength" },
+    ]
+  }]
+}

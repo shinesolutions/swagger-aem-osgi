@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo {
+    title = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo
+    description = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo {
+    title = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo
+    description = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo
+
+  }
+}

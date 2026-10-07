@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo {
+    title = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo
+    description = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo {
+    title = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo
+    description = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo
+
+  }
+}

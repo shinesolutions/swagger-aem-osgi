@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties = openapi_server.resourceTypes.ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo {
+    title = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo
+    description = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo {
+    title = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo
+    description = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo
+
+  }
+}

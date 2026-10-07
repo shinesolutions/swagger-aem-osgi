@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties = openapi_server.resourceTypes.ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo {
+    title = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo
+    description = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo {
+    title = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo
+    description = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo
+
+  }
+}

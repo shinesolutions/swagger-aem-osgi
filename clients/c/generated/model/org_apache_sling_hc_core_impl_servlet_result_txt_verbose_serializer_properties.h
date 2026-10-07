@@ -1,0 +1,45 @@
+/*
+ * org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties.h
+ *
+ * 
+ */
+
+#ifndef _org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_H_
+#define _org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_t org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_t;
+
+#include "config_node_property_integer.h"
+
+
+
+typedef struct org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_t {
+    struct config_node_property_integer_t *total_width; //model
+    struct config_node_property_integer_t *col_width_name; //model
+    struct config_node_property_integer_t *col_width_result; //model
+    struct config_node_property_integer_t *col_width_timing; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_t;
+
+__attribute__((deprecated)) org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_t *org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_create(
+    config_node_property_integer_t *total_width,
+    config_node_property_integer_t *col_width_name,
+    config_node_property_integer_t *col_width_result,
+    config_node_property_integer_t *col_width_timing
+);
+
+void org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_free(org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_t *org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties);
+
+org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_t *org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_parseFromJSON(cJSON *org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_propertiesJSON);
+
+cJSON *org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_convertToJSON(org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_t *org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties);
+
+#endif /* _org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer_properties_H_ */
+

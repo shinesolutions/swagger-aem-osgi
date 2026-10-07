@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties = openapi_server.resourceTypes.ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties
+}
+resourceTypes {
+
+  ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo {
+    title = ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo
+    description = ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo {
+    title = ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo
+    description = ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo
+
+  }
+}

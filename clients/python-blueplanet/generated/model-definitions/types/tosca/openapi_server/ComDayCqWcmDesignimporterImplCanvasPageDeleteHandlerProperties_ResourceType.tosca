@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties {
+    title = ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties
+    description = ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties
+    derivedFrom = Root
+    properties {
+        min_thread_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_thread_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties {
+    title = ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties
+    description = ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties
+
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ConfigNodePropertyDropDownType",
+  "fields": [
+    {
+      "name": "labels",
+      "type": ["null", "model.AnyType"],
+      "doc": "Drop Down label",
+      "default": null
+    },
+    {
+      "name": "values",
+      "type": ["null", "model.AnyType"],
+      "doc": "Drown Down value",
+      "default": null
+    }
+  ]
+
+}

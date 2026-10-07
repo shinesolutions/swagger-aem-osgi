@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "inbox_impl_typeprovider_registrypaths" },
+      {"model": "inbox_impl_typeprovider_legacypaths" },
+      {"model": "inbox_impl_typeprovider_defaulturl_failureitem" },
+      {"model": "inbox_impl_typeprovider_defaulturl_workitem" },
+      {"model": "inbox_impl_typeprovider_defaulturl_task" },
+    ]
+  }]
+}

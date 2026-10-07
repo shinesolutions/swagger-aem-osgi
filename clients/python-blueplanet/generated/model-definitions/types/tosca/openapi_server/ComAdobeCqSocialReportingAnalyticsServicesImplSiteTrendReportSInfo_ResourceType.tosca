@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties = openapi_server.resourceTypes.ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo {
+    title = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo
+    description = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo {
+    title = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo
+    description = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo
+
+  }
+}

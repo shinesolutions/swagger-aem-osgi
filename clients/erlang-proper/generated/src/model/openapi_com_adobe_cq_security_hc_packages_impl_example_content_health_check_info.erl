@@ -1,0 +1,35 @@
+-module(openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_info).
+
+-include("openapi.hrl").
+
+-export([openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_info/0]).
+
+-export([openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_info/1]).
+
+-export_type([openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_info/0]).
+
+-type openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_info() ::
+  [ {'pid', binary() }
+  | {'title', binary() }
+  | {'description', binary() }
+  | {'properties', openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_properties:openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_properties() }
+  | {'additionalProperties', binary() }
+  | {'bundle_location', binary() }
+  | {'service_location', binary() }
+  ].
+
+
+openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_info() ->
+    openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_info([]).
+
+openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_info(Fields) ->
+  Default = [ {'pid', binary() }
+            , {'title', binary() }
+            , {'description', binary() }
+            , {'properties', openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_properties:openapi_com_adobe_cq_security_hc_packages_impl_example_content_health_check_properties() }
+            , {'additionalProperties', binary() }
+            , {'bundle_location', binary() }
+            , {'service_location', binary() }
+            ],
+  lists:ukeymerge(1, lists:sort(Fields), lists:sort(Default)).
+

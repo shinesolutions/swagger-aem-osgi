@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplEventTemplatePostProcessorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplEventTemplatePostProcessorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplEventTemplatePostProcessorProperties {
+    title = ComDayCqWcmCoreImplEventTemplatePostProcessorProperties
+    description = ComDayCqWcmCoreImplEventTemplatePostProcessorProperties
+    derivedFrom = Root
+    properties {
+        paths {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplEventTemplatePostProcessorProperties {
+    title = ComDayCqWcmCoreImplEventTemplatePostProcessorProperties
+    description = ComDayCqWcmCoreImplEventTemplatePostProcessorProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplEventTemplatePostProcessorProperties
+
+  }
+}

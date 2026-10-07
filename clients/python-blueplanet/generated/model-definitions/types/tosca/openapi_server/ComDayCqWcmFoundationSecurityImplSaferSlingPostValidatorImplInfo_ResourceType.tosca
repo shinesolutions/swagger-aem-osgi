@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties = openapi_server.resourceTypes.ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo {
+    title = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo
+    description = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo {
+    title = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo
+    description = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo
+
+  }
+}

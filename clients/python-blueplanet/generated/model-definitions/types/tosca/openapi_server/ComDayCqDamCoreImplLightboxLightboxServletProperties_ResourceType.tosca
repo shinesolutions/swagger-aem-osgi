@@ -1,0 +1,48 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplLightboxLightboxServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplLightboxLightboxServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplLightboxLightboxServletProperties {
+    title = ComDayCqDamCoreImplLightboxLightboxServletProperties
+    description = ComDayCqDamCoreImplLightboxLightboxServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_paths {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_methods {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_dam_enable_anonymous {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplLightboxLightboxServletProperties {
+    title = ComDayCqDamCoreImplLightboxLightboxServletProperties
+    description = ComDayCqDamCoreImplLightboxLightboxServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplLightboxLightboxServletProperties
+
+  }
+}

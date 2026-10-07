@@ -1,0 +1,39 @@
+/*
+ * com_adobe_aem_transaction_core_impl_transaction_recorder_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_adobe_aem_transaction_core_impl_transaction_recorder_properties_H_
+#define _com_adobe_aem_transaction_core_impl_transaction_recorder_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_adobe_aem_transaction_core_impl_transaction_recorder_properties_t com_adobe_aem_transaction_core_impl_transaction_recorder_properties_t;
+
+#include "config_node_property_boolean.h"
+
+
+
+typedef struct com_adobe_aem_transaction_core_impl_transaction_recorder_properties_t {
+    struct config_node_property_boolean_t *is_transaction_recording_enabled; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_adobe_aem_transaction_core_impl_transaction_recorder_properties_t;
+
+__attribute__((deprecated)) com_adobe_aem_transaction_core_impl_transaction_recorder_properties_t *com_adobe_aem_transaction_core_impl_transaction_recorder_properties_create(
+    config_node_property_boolean_t *is_transaction_recording_enabled
+);
+
+void com_adobe_aem_transaction_core_impl_transaction_recorder_properties_free(com_adobe_aem_transaction_core_impl_transaction_recorder_properties_t *com_adobe_aem_transaction_core_impl_transaction_recorder_properties);
+
+com_adobe_aem_transaction_core_impl_transaction_recorder_properties_t *com_adobe_aem_transaction_core_impl_transaction_recorder_properties_parseFromJSON(cJSON *com_adobe_aem_transaction_core_impl_transaction_recorder_propertiesJSON);
+
+cJSON *com_adobe_aem_transaction_core_impl_transaction_recorder_properties_convertToJSON(com_adobe_aem_transaction_core_impl_transaction_recorder_properties_t *com_adobe_aem_transaction_core_impl_transaction_recorder_properties);
+
+#endif /* _com_adobe_aem_transaction_core_impl_transaction_recorder_properties_H_ */
+

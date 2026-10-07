@@ -1,0 +1,101 @@
+package apimodels;
+
+import apimodels.ConfigNodePropertyInteger;
+import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import com.fasterxml.jackson.annotation.*;
+import java.util.Set;
+import javax.validation.*;
+import java.util.Objects;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+/**
+ * ComAdobeGraniteCsrfImplCSRFServletProperties
+ */
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+@SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
+public class ComAdobeGraniteCsrfImplCSRFServletProperties   {
+  @JsonProperty("csrf.token.expires.in")
+  @Valid
+
+  private ConfigNodePropertyInteger csrfTokenExpiresIn;
+
+  @JsonProperty("sling.auth.requirements")
+  @Valid
+
+  private ConfigNodePropertyString slingAuthRequirements;
+
+  public ComAdobeGraniteCsrfImplCSRFServletProperties csrfTokenExpiresIn(ConfigNodePropertyInteger csrfTokenExpiresIn) {
+    this.csrfTokenExpiresIn = csrfTokenExpiresIn;
+    return this;
+  }
+
+   /**
+   * Get csrfTokenExpiresIn
+   * @return csrfTokenExpiresIn
+  **/
+  public ConfigNodePropertyInteger getCsrfTokenExpiresIn() {
+    return csrfTokenExpiresIn;
+  }
+
+  public void setCsrfTokenExpiresIn(ConfigNodePropertyInteger csrfTokenExpiresIn) {
+    this.csrfTokenExpiresIn = csrfTokenExpiresIn;
+  }
+
+  public ComAdobeGraniteCsrfImplCSRFServletProperties slingAuthRequirements(ConfigNodePropertyString slingAuthRequirements) {
+    this.slingAuthRequirements = slingAuthRequirements;
+    return this;
+  }
+
+   /**
+   * Get slingAuthRequirements
+   * @return slingAuthRequirements
+  **/
+  public ConfigNodePropertyString getSlingAuthRequirements() {
+    return slingAuthRequirements;
+  }
+
+  public void setSlingAuthRequirements(ConfigNodePropertyString slingAuthRequirements) {
+    this.slingAuthRequirements = slingAuthRequirements;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteCsrfImplCSRFServletProperties comAdobeGraniteCsrfImplCSRFServletProperties = (ComAdobeGraniteCsrfImplCSRFServletProperties) o;
+    return Objects.equals(csrfTokenExpiresIn, comAdobeGraniteCsrfImplCSRFServletProperties.csrfTokenExpiresIn) &&
+        Objects.equals(slingAuthRequirements, comAdobeGraniteCsrfImplCSRFServletProperties.slingAuthRequirements);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(csrfTokenExpiresIn, slingAuthRequirements);
+  }
+
+  @SuppressWarnings("StringBufferReplaceableByString")
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeGraniteCsrfImplCSRFServletProperties {\n");
+    
+    sb.append("    csrfTokenExpiresIn: ").append(toIndentedString(csrfTokenExpiresIn)).append("\n");
+    sb.append("    slingAuthRequirements: ").append(toIndentedString(slingAuthRequirements)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties = openapi_server.resourceTypes.ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties
+}
+resourceTypes {
+
+  ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo {
+    title = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo
+    description = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo {
+    title = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo
+    description = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo
+
+  }
+}

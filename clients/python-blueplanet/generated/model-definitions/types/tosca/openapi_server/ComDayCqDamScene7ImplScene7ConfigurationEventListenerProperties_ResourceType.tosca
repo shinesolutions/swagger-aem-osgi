@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties {
+    title = ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties
+    description = ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_scene7_configurationeventlistener_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties {
+    title = ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties
+    description = ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties
+
+  }
+}

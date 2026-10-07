@@ -1,0 +1,264 @@
+# ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath** | Pointer to [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency** | Pointer to [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout** | Pointer to [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients** | Pointer to [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver** | Pointer to [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport** | Pointer to [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls** | Pointer to [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername** | Pointer to [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword** | Pointer to [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+
+## Methods
+
+### NewComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
+
+`func NewComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties() *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties`
+
+NewComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties instantiates a new ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPropertiesWithDefaults
+
+`func NewComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPropertiesWithDefaults() *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties`
+
+NewComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPropertiesWithDefaults instantiates a new ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath() ConfigNodePropertyArray`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPathOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPathOk() (*ConfigNodePropertyArray, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPathOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath(v ConfigNodePropertyArray)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath returns a boolean if a field has been set.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency() ConfigNodePropertyString`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequencyOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequencyOk() (*ConfigNodePropertyString, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequencyOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency(v ConfigNodePropertyString)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency returns a boolean if a field has been set.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout() ConfigNodePropertyInteger`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeoutOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeoutOk() (*ConfigNodePropertyInteger, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeoutOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout(v ConfigNodePropertyInteger)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout returns a boolean if a field has been set.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients() ConfigNodePropertyString`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipientsOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipientsOk() (*ConfigNodePropertyString, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipientsOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients(v ConfigNodePropertyString)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients returns a boolean if a field has been set.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver() ConfigNodePropertyString`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserverOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserverOk() (*ConfigNodePropertyString, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserverOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver(v ConfigNodePropertyString)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver returns a boolean if a field has been set.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport() ConfigNodePropertyInteger`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpportOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpportOk() (*ConfigNodePropertyInteger, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpportOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport(v ConfigNodePropertyInteger)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport returns a boolean if a field has been set.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls() ConfigNodePropertyBoolean`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetlsOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetlsOk() (*ConfigNodePropertyBoolean, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetlsOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls(v ConfigNodePropertyBoolean)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls returns a boolean if a field has been set.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername() ConfigNodePropertyString`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsernameOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsernameOk() (*ConfigNodePropertyString, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsernameOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername(v ConfigNodePropertyString)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername returns a boolean if a field has been set.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword() ConfigNodePropertyString`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword returns the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword field if non-nil, zero value otherwise.
+
+### GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPasswordOk
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPasswordOk() (*ConfigNodePropertyString, bool)`
+
+GetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPasswordOk returns a tuple with the ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword(v ConfigNodePropertyString)`
+
+SetComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword sets ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword field to given value.
+
+### HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword
+
+`func (o *ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties) HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword() bool`
+
+HasComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword returns a boolean if a field has been set.
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

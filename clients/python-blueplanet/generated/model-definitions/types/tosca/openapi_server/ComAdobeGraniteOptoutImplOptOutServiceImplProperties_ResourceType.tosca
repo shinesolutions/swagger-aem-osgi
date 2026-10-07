@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteOptoutImplOptOutServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteOptoutImplOptOutServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeGraniteOptoutImplOptOutServiceImplProperties {
+    title = ComAdobeGraniteOptoutImplOptOutServiceImplProperties
+    description = ComAdobeGraniteOptoutImplOptOutServiceImplProperties
+    derivedFrom = Root
+    properties {
+        optout_cookies {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        optout_headers {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        optout_whitelist_cookies {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteOptoutImplOptOutServiceImplProperties {
+    title = ComAdobeGraniteOptoutImplOptOutServiceImplProperties
+    description = ComAdobeGraniteOptoutImplOptOutServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteOptoutImplOptOutServiceImplProperties
+
+  }
+}

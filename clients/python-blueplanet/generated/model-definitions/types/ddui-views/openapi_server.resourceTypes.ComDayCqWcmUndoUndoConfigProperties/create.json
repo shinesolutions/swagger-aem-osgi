@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_wcm_undo_enabled" },
+      {"model": "cq_wcm_undo_path" },
+      {"model": "cq_wcm_undo_validity" },
+      {"model": "cq_wcm_undo_steps" },
+      {"model": "cq_wcm_undo_persistence" },
+      {"model": "cq_wcm_undo_persistence_mode" },
+      {"model": "cq_wcm_undo_markermode" },
+      {"model": "cq_wcm_undo_whitelist" },
+      {"model": "cq_wcm_undo_blacklist" },
+    ]
+  }]
+}

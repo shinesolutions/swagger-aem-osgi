@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties {
+    title = ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties
+    description = ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties
+    derivedFrom = Root
+    properties {
+        cq_analytics_testandtarget_pushauthorcampaignpagelistener_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties {
+    title = ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties
+    description = ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties
+
+  }
+}

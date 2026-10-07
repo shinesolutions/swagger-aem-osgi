@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAcpPlatformPlatformServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAcpPlatformPlatformServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteAcpPlatformPlatformServletProperties {
+    title = ComAdobeGraniteAcpPlatformPlatformServletProperties
+    description = ComAdobeGraniteAcpPlatformPlatformServletProperties
+    derivedFrom = Root
+    properties {
+        query_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        file_type_extension_map {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAcpPlatformPlatformServletProperties {
+    title = ComAdobeGraniteAcpPlatformPlatformServletProperties
+    description = ComAdobeGraniteAcpPlatformPlatformServletProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAcpPlatformPlatformServletProperties
+
+  }
+}

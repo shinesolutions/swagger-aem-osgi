@@ -1,0 +1,18 @@
+package models
+
+type ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties struct {
+
+	OauthProviderId ConfigNodePropertyString `json:"oauth.provider.id,omitempty"`
+
+	OauthCloudConfigRoot ConfigNodePropertyString `json:"oauth.cloud.config.root,omitempty"`
+
+	ProviderConfigRoot ConfigNodePropertyString `json:"provider.config.root,omitempty"`
+
+	ProviderConfigUserFolder ConfigNodePropertyDropDown `json:"provider.config.user.folder,omitempty"`
+
+	ProviderConfigTwitterEnableParams ConfigNodePropertyBoolean `json:"provider.config.twitter.enable.params,omitempty"`
+
+	ProviderConfigTwitterParams ConfigNodePropertyArray `json:"provider.config.twitter.params,omitempty"`
+
+	ProviderConfigRefreshUserdataEnabled ConfigNodePropertyBoolean `json:"provider.config.refresh.userdata.enabled,omitempty"`
+}

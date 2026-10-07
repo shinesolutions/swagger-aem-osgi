@@ -1,0 +1,22 @@
+package models
+
+type OrgApacheSlingServletsGetDefaultGetServletProperties struct {
+
+	Aliases ConfigNodePropertyArray `json:"aliases,omitempty"`
+
+	Index ConfigNodePropertyBoolean `json:"index,omitempty"`
+
+	IndexFiles ConfigNodePropertyArray `json:"index.files,omitempty"`
+
+	EnableHtml ConfigNodePropertyBoolean `json:"enable.html,omitempty"`
+
+	EnableJson ConfigNodePropertyBoolean `json:"enable.json,omitempty"`
+
+	EnableTxt ConfigNodePropertyBoolean `json:"enable.txt,omitempty"`
+
+	EnableXml ConfigNodePropertyBoolean `json:"enable.xml,omitempty"`
+
+	JsonMaximumresults ConfigNodePropertyInteger `json:"json.maximumresults,omitempty"`
+
+	EcmaSuport ConfigNodePropertyBoolean `json:"ecmaSuport,omitempty"`
+}

@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "sling_servlet_resource_types" },
+      {"model": "sling_servlet_methods" },
+      {"model": "cq_dam_drm_enable" },
+    ]
+  }]
+}

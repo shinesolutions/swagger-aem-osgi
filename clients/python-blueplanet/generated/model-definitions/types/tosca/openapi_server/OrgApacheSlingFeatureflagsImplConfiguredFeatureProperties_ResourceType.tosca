@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties {
+    title = OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties
+    description = OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        description {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties {
+    title = OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties
+    description = OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties
+
+  }
+}

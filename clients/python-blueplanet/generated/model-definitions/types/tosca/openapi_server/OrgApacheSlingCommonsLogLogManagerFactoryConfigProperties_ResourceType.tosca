@@ -1,0 +1,59 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties {
+    title = OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties
+    description = OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_commons_log_level {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_file {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_pattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_sling_commons_log_additiv {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties {
+    title = OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties
+    description = OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties
+
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "tcp_port" },
+      {"model": "allow_remote_access" },
+      {"model": "max_render_rgn_pixels" },
+      {"model": "max_message_size" },
+      {"model": "random_access_url_timeout" },
+      {"model": "worker_threads" },
+    ]
+  }]
+}

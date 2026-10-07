@@ -1,0 +1,59 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties {
+    title = ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties
+    description = ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties
+    derivedFrom = Root
+    properties {
+        event_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        min_thread_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_thread_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_wcm_workflow_terminate_on_activate {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_wcm_worklfow_terminate_exclusion_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties {
+    title = ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties
+    description = ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties
+
+  }
+}

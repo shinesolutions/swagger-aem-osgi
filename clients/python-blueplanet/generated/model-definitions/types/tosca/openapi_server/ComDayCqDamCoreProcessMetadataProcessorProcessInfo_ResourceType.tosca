@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreProcessMetadataProcessorProcessInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreProcessMetadataProcessorProcessInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreProcessMetadataProcessorProcessProperties = openapi_server.resourceTypes.ComDayCqDamCoreProcessMetadataProcessorProcessProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreProcessMetadataProcessorProcessInfo {
+    title = ComDayCqDamCoreProcessMetadataProcessorProcessInfo
+    description = ComDayCqDamCoreProcessMetadataProcessorProcessInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreProcessMetadataProcessorProcessProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreProcessMetadataProcessorProcessInfo {
+    title = ComDayCqDamCoreProcessMetadataProcessorProcessInfo
+    description = ComDayCqDamCoreProcessMetadataProcessorProcessInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreProcessMetadataProcessorProcessInfo
+
+  }
+}

@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties {
+    title = ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
+    description = ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
+    derivedFrom = Root
+    properties {
+        linkcheckertransformer_disable_rewriting {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        linkcheckertransformer_disable_checking {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        linkcheckertransformer_map_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        linkcheckertransformer_strict_extension_check {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        linkcheckertransformer_strip_htmlt_extension {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        linkcheckertransformer_rewrite_elements {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        linkcheckertransformer_strip_extension_path_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties {
+    title = ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
+    description = ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
+    implements = openapi_server.resourceTypes.ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
+
+  }
+}

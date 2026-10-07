@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "event_filter" },
+      {"model": "launches_eventhandler_threadpool_maxsize" },
+      {"model": "launches_eventhandler_threadpool_priority" },
+      {"model": "launches_eventhandler_updatelastmodification" },
+    ]
+  }]
+}

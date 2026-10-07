@@ -1,0 +1,138 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString felixInventoryPrinterName;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString felixInventoryPrinterTitle;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString path;
+ /**
+  * Get felixInventoryPrinterName
+  * @return felixInventoryPrinterName
+  */
+  @JsonProperty("felix.inventory.printer.name")
+  public ConfigNodePropertyString getFelixInventoryPrinterName() {
+    return felixInventoryPrinterName;
+  }
+
+  /**
+   * Sets the <code>felixInventoryPrinterName</code> property.
+   */
+ public void setFelixInventoryPrinterName(ConfigNodePropertyString felixInventoryPrinterName) {
+    this.felixInventoryPrinterName = felixInventoryPrinterName;
+  }
+
+  /**
+   * Sets the <code>felixInventoryPrinterName</code> property.
+   */
+  public OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties felixInventoryPrinterName(ConfigNodePropertyString felixInventoryPrinterName) {
+    this.felixInventoryPrinterName = felixInventoryPrinterName;
+    return this;
+  }
+
+ /**
+  * Get felixInventoryPrinterTitle
+  * @return felixInventoryPrinterTitle
+  */
+  @JsonProperty("felix.inventory.printer.title")
+  public ConfigNodePropertyString getFelixInventoryPrinterTitle() {
+    return felixInventoryPrinterTitle;
+  }
+
+  /**
+   * Sets the <code>felixInventoryPrinterTitle</code> property.
+   */
+ public void setFelixInventoryPrinterTitle(ConfigNodePropertyString felixInventoryPrinterTitle) {
+    this.felixInventoryPrinterTitle = felixInventoryPrinterTitle;
+  }
+
+  /**
+   * Sets the <code>felixInventoryPrinterTitle</code> property.
+   */
+  public OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties felixInventoryPrinterTitle(ConfigNodePropertyString felixInventoryPrinterTitle) {
+    this.felixInventoryPrinterTitle = felixInventoryPrinterTitle;
+    return this;
+  }
+
+ /**
+  * Get path
+  * @return path
+  */
+  @JsonProperty("path")
+  public ConfigNodePropertyString getPath() {
+    return path;
+  }
+
+  /**
+   * Sets the <code>path</code> property.
+   */
+ public void setPath(ConfigNodePropertyString path) {
+    this.path = path;
+  }
+
+  /**
+   * Sets the <code>path</code> property.
+   */
+  public OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties path(ConfigNodePropertyString path) {
+    this.path = path;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties = (OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties) o;
+    return Objects.equals(this.felixInventoryPrinterName, orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties.felixInventoryPrinterName) &&
+        Objects.equals(this.felixInventoryPrinterTitle, orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties.felixInventoryPrinterTitle) &&
+        Objects.equals(this.path, orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties.path);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(felixInventoryPrinterName, felixInventoryPrinterTitle, path);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties {\n");
+    
+    sb.append("    felixInventoryPrinterName: ").append(toIndentedString(felixInventoryPrinterName)).append("\n");
+    sb.append("    felixInventoryPrinterTitle: ").append(toIndentedString(felixInventoryPrinterTitle)).append("\n");
+    sb.append("    path: ").append(toIndentedString(path)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

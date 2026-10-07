@@ -1,0 +1,99 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties  {
+  
+  @ApiModelProperty(value = "")
+
+  @Valid
+
+  private ConfigNodePropertyArray defaultAttachmentTypeBlacklist;
+
+  @ApiModelProperty(value = "")
+
+  @Valid
+
+  private ConfigNodePropertyArray baselineAttachmentTypeBlacklist;
+ /**
+   * Get defaultAttachmentTypeBlacklist
+   * @return defaultAttachmentTypeBlacklist
+  **/
+  @JsonProperty("default.attachment.type.blacklist")
+  public ConfigNodePropertyArray getDefaultAttachmentTypeBlacklist() {
+    return defaultAttachmentTypeBlacklist;
+  }
+
+  public void setDefaultAttachmentTypeBlacklist(ConfigNodePropertyArray defaultAttachmentTypeBlacklist) {
+    this.defaultAttachmentTypeBlacklist = defaultAttachmentTypeBlacklist;
+  }
+
+  public ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties defaultAttachmentTypeBlacklist(ConfigNodePropertyArray defaultAttachmentTypeBlacklist) {
+    this.defaultAttachmentTypeBlacklist = defaultAttachmentTypeBlacklist;
+    return this;
+  }
+
+ /**
+   * Get baselineAttachmentTypeBlacklist
+   * @return baselineAttachmentTypeBlacklist
+  **/
+  @JsonProperty("baseline.attachment.type.blacklist")
+  public ConfigNodePropertyArray getBaselineAttachmentTypeBlacklist() {
+    return baselineAttachmentTypeBlacklist;
+  }
+
+  public void setBaselineAttachmentTypeBlacklist(ConfigNodePropertyArray baselineAttachmentTypeBlacklist) {
+    this.baselineAttachmentTypeBlacklist = baselineAttachmentTypeBlacklist;
+  }
+
+  public ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties baselineAttachmentTypeBlacklist(ConfigNodePropertyArray baselineAttachmentTypeBlacklist) {
+    this.baselineAttachmentTypeBlacklist = baselineAttachmentTypeBlacklist;
+    return this;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties = (ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties) o;
+    return Objects.equals(this.defaultAttachmentTypeBlacklist, comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.defaultAttachmentTypeBlacklist) &&
+        Objects.equals(this.baselineAttachmentTypeBlacklist, comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.baselineAttachmentTypeBlacklist);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties {\n");
+    
+    sb.append("    defaultAttachmentTypeBlacklist: ").append(toIndentedString(defaultAttachmentTypeBlacklist)).append("\n");
+    sb.append("    baselineAttachmentTypeBlacklist: ").append(toIndentedString(baselineAttachmentTypeBlacklist)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties {
+    title = ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties
+    description = ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties
+    derivedFrom = Root
+    properties {
+        diff_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        service_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        service_user_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties {
+    title = ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties
+    description = ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties
+
+  }
+}

@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties {
+    title = ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties
+    description = ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties
+    derivedFrom = Root
+    properties {
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        exclude_search_path {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties {
+    title = ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties
+    description = ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties
+
+  }
+}

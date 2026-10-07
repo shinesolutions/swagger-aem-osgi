@@ -1,0 +1,45 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ConfigNodePropertyDropDown",
+  "fields": [
+    {
+      "name": "name",
+      "type": ["null", "string"],
+      "doc": "property name",
+      "default": null
+    },
+    {
+      "name": "optional",
+      "type": ["null", "boolean"],
+      "doc": "True if optional",
+      "default": null
+    },
+    {
+      "name": "is_set",
+      "type": ["null", "boolean"],
+      "doc": "True if property is set",
+      "default": null
+    },
+    {
+      "name": "type",
+      "type": ["null", "model.ConfigNodePropertyDropDownType"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "value",
+      "type": ["null", "model.AnyType"],
+      "doc": "Property value",
+      "default": null
+    },
+    {
+      "name": "description",
+      "type": ["null", "string"],
+      "doc": "Property description",
+      "default": null
+    }
+  ]
+
+}

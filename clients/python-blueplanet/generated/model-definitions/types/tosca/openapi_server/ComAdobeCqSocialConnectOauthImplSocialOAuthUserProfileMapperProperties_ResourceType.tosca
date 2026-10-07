@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties {
+    title = ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties
+    description = ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties
+    derivedFrom = Root
+    properties {
+        facebook {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        twitter {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        provider_config_user_folder {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties {
+    title = ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties
+    description = ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties
+
+  }
+}

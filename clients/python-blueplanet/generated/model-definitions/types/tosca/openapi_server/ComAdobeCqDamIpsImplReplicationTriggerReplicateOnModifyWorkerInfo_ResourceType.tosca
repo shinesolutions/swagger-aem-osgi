@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties = openapi_server.resourceTypes.ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties
+}
+resourceTypes {
+
+  ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo {
+    title = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo
+    description = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo {
+    title = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo
+    description = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo
+
+  }
+}

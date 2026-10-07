@@ -1,0 +1,26 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "repconf_timezone" },
+      {"model": "repconf_locale" },
+      {"model": "repconf_snapshots" },
+      {"model": "repconf_repdir" },
+      {"model": "repconf_hourofday" },
+      {"model": "repconf_minofhour" },
+      {"model": "repconf_maxrows" },
+      {"model": "repconf_fakedata" },
+      {"model": "repconf_snapshotuser" },
+      {"model": "repconf_enforcesnapshotuser" },
+    ]
+  }]
+}

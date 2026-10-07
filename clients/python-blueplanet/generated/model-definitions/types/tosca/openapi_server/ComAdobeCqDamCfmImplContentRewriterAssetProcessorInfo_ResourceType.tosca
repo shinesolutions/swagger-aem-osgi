@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqDamCfmImplContentRewriterAssetProcessorProperties = openapi_server.resourceTypes.ComAdobeCqDamCfmImplContentRewriterAssetProcessorProperties
+}
+resourceTypes {
+
+  ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo {
+    title = ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo
+    description = ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqDamCfmImplContentRewriterAssetProcessorProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo {
+    title = ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo
+    description = ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo
+
+  }
+}

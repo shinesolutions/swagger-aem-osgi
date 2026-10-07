@@ -1,0 +1,63 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEngineImplLogRequestLoggerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEngineImplLogRequestLoggerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingEngineImplLogRequestLoggerProperties {
+    title = OrgApacheSlingEngineImplLogRequestLoggerProperties
+    description = OrgApacheSlingEngineImplLogRequestLoggerProperties
+    derivedFrom = Root
+    properties {
+        request_log_output {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        request_log_outputtype {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        request_log_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        access_log_output {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        access_log_outputtype {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        access_log_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEngineImplLogRequestLoggerProperties {
+    title = OrgApacheSlingEngineImplLogRequestLoggerProperties
+    description = OrgApacheSlingEngineImplLogRequestLoggerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEngineImplLogRequestLoggerProperties
+
+  }
+}

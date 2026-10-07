@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySProperties = openapi_server.resourceTypes.ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo {
+    title = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo
+    description = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo {
+    title = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo
+    description = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo
+
+  }
+}

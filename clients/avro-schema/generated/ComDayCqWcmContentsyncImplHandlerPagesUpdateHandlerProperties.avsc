@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties",
+  "fields": [
+    {
+      "name": "cq.pagesupdatehandler.imageresourcetypes",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

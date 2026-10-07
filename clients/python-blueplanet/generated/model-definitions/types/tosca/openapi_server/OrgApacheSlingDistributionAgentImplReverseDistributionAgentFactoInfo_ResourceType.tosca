@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties = openapi_server.resourceTypes.OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo {
+    title = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo
+    description = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo {
+    title = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo
+    description = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo
+
+  }
+}

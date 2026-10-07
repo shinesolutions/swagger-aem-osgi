@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties = openapi_server.resourceTypes.ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties
+}
+resourceTypes {
+
+  ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo {
+    title = ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo
+    description = ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo {
+    title = ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo
+    description = ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo
+    implements = openapi_server.resourceTypes.ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo
+
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "users_path" },
+      {"model": "groups_path" },
+      {"model": "system_relative_path" },
+      {"model": "default_depth" },
+      {"model": "import_behavior" },
+      {"model": "password_hash_algorithm" },
+      {"model": "password_hash_iterations" },
+      {"model": "password_salt_size" },
+      {"model": "omit_admin_pw" },
+      {"model": "support_auto_save" },
+      {"model": "password_max_age" },
+      {"model": "initial_password_change" },
+      {"model": "password_history_size" },
+      {"model": "password_expiry_for_admin" },
+      {"model": "cache_expiration" },
+      {"model": "enable_rfc7613_usercase_mapped_profile" },
+    ]
+  }]
+}

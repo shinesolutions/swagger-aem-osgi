@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqCommerceImplAssetVideoHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqCommerceImplAssetVideoHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqCommerceImplAssetVideoHandlerProperties {
+    title = ComAdobeCqCommerceImplAssetVideoHandlerProperties
+    description = ComAdobeCqCommerceImplAssetVideoHandlerProperties
+    derivedFrom = Root
+    properties {
+        cq_commerce_asset_handler_active {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_commerce_asset_handler_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqCommerceImplAssetVideoHandlerProperties {
+    title = ComAdobeCqCommerceImplAssetVideoHandlerProperties
+    description = ComAdobeCqCommerceImplAssetVideoHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqCommerceImplAssetVideoHandlerProperties
+
+  }
+}

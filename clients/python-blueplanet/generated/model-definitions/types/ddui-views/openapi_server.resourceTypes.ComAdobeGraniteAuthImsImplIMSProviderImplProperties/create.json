@@ -1,0 +1,29 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "oauth_provider_id" },
+      {"model": "oauth_provider_ims_authorization_url" },
+      {"model": "oauth_provider_ims_token_url" },
+      {"model": "oauth_provider_ims_profile_url" },
+      {"model": "oauth_provider_ims_extended_details_urls" },
+      {"model": "oauth_provider_ims_validate_token_url" },
+      {"model": "oauth_provider_ims_session_property" },
+      {"model": "oauth_provider_ims_service_token_client_id" },
+      {"model": "oauth_provider_ims_service_token_client_secret" },
+      {"model": "oauth_provider_ims_service_token" },
+      {"model": "ims_org_ref" },
+      {"model": "ims_group_mapping" },
+      {"model": "oauth_provider_ims_only_license_group" },
+    ]
+  }]
+}

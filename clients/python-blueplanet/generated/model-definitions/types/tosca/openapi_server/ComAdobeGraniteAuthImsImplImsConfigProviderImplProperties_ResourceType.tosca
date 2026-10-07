@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties {
+    title = ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties
+    description = ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties
+    derivedFrom = Root
+    properties {
+        oauth_configmanager_ims_configid {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ims_owning_entity {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        aem_instance_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ims_service_code {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties {
+    title = ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties
+    description = ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties
+
+  }
+}

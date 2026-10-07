@@ -1,0 +1,45 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "datasource_name" },
+      {"model": "datasource_svc_prop_name" },
+      {"model": "driver_class_name" },
+      {"model": "url" },
+      {"model": "username" },
+      {"model": "password" },
+      {"model": "default_auto_commit" },
+      {"model": "default_read_only" },
+      {"model": "default_transaction_isolation" },
+      {"model": "default_catalog" },
+      {"model": "max_active" },
+      {"model": "max_idle" },
+      {"model": "min_idle" },
+      {"model": "initial_size" },
+      {"model": "max_wait" },
+      {"model": "max_age" },
+      {"model": "test_on_borrow" },
+      {"model": "test_on_return" },
+      {"model": "test_while_idle" },
+      {"model": "validation_query" },
+      {"model": "validation_query_timeout" },
+      {"model": "time_between_eviction_runs_millis" },
+      {"model": "min_evictable_idle_time_millis" },
+      {"model": "connection_properties" },
+      {"model": "init_sql" },
+      {"model": "jdbc_interceptors" },
+      {"model": "validation_interval" },
+      {"model": "log_validation_errors" },
+      {"model": "datasource_svc_properties" },
+    ]
+  }]
+}

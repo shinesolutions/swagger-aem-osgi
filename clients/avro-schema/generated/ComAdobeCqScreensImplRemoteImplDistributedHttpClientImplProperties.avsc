@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties",
+  "fields": [
+    {
+      "name": "com.adobe.aem.screens.impl.remote.request_timeout",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

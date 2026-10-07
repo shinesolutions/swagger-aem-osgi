@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties {
+    title = ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties
+    description = ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties
+    derivedFrom = Root
+    properties {
+        delete_zip_file {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties {
+    title = ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties
+    description = ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties
+
+  }
+}

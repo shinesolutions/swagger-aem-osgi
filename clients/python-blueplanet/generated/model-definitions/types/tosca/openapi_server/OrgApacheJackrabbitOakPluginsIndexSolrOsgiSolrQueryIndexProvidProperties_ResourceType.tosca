@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties
+    description = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties
+    derivedFrom = Root
+    properties {
+        query_aggregation {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties
+    description = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties
+
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "translation_factory" },
+      {"model": "default_connector_label" },
+      {"model": "default_connector_attribution" },
+      {"model": "default_connector_workspace_id" },
+      {"model": "default_connector_subscription_key" },
+      {"model": "language_map_location" },
+      {"model": "category_map_location" },
+      {"model": "retry_attempts" },
+      {"model": "timeout_count" },
+    ]
+  }]
+}

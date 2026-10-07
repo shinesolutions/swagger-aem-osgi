@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixSystemreadyImplServicesCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixSystemreadyImplServicesCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+}
+resourceTypes {
+
+  OrgApacheFelixSystemreadyImplServicesCheckProperties {
+    title = OrgApacheFelixSystemreadyImplServicesCheckProperties
+    description = OrgApacheFelixSystemreadyImplServicesCheckProperties
+    derivedFrom = Root
+    properties {
+        services_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        type {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixSystemreadyImplServicesCheckProperties {
+    title = OrgApacheFelixSystemreadyImplServicesCheckProperties
+    description = OrgApacheFelixSystemreadyImplServicesCheckProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixSystemreadyImplServicesCheckProperties
+
+  }
+}

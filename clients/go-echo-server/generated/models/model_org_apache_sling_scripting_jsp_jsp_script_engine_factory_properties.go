@@ -1,0 +1,26 @@
+package models
+
+type OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties struct {
+
+	JasperCompilerTargetVM ConfigNodePropertyString `json:"jasper.compilerTargetVM,omitempty"`
+
+	JasperCompilerSourceVM ConfigNodePropertyString `json:"jasper.compilerSourceVM,omitempty"`
+
+	JasperClassdebuginfo ConfigNodePropertyBoolean `json:"jasper.classdebuginfo,omitempty"`
+
+	JasperEnablePooling ConfigNodePropertyBoolean `json:"jasper.enablePooling,omitempty"`
+
+	JasperIeClassId ConfigNodePropertyString `json:"jasper.ieClassId,omitempty"`
+
+	JasperGenStringAsCharArray ConfigNodePropertyBoolean `json:"jasper.genStringAsCharArray,omitempty"`
+
+	JasperKeepgenerated ConfigNodePropertyBoolean `json:"jasper.keepgenerated,omitempty"`
+
+	JasperMappedfile ConfigNodePropertyBoolean `json:"jasper.mappedfile,omitempty"`
+
+	JasperTrimSpaces ConfigNodePropertyBoolean `json:"jasper.trimSpaces,omitempty"`
+
+	JasperDisplaySourceFragments ConfigNodePropertyBoolean `json:"jasper.displaySourceFragments,omitempty"`
+
+	DefaultIsSession ConfigNodePropertyBoolean `json:"default.is.session,omitempty"`
+}

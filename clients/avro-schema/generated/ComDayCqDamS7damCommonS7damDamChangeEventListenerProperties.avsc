@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties",
+  "fields": [
+    {
+      "name": "cq.dam.s7dam.damchangeeventlistener.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

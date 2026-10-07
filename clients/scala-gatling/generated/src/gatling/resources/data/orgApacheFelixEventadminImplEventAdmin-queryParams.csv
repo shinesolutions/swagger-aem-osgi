@@ -1,0 +1,1 @@
+propertylist,$location,org.apache.felix.eventadmin.IgnoreTimeout,apply,org.apache.felix.eventadmin.Timeout,org.apache.felix.eventadmin.IgnoreTopic,org.apache.felix.eventadmin.ThreadPoolSize,org.apache.felix.eventadmin.AsyncToSyncThreadRatio,delete,org.apache.felix.eventadmin.RequireTopic,action,post

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamS7imagingImplIsImageServerComponentInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamS7imagingImplIsImageServerComponentInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqDamS7imagingImplIsImageServerComponentProperties = openapi_server.resourceTypes.ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
+}
+resourceTypes {
+
+  ComAdobeCqDamS7imagingImplIsImageServerComponentInfo {
+    title = ComAdobeCqDamS7imagingImplIsImageServerComponentInfo
+    description = ComAdobeCqDamS7imagingImplIsImageServerComponentInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamS7imagingImplIsImageServerComponentInfo {
+    title = ComAdobeCqDamS7imagingImplIsImageServerComponentInfo
+    description = ComAdobeCqDamS7imagingImplIsImageServerComponentInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqDamS7imagingImplIsImageServerComponentInfo
+
+  }
+}

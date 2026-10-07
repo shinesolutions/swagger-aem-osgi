@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties {
+    title = OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties
+    description = OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties
+    derivedFrom = Root
+    properties {
+        provider_type {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties {
+    title = OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties
+    description = OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties
+
+  }
+}

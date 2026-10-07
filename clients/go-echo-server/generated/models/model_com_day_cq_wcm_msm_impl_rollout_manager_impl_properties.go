@@ -1,0 +1,22 @@
+package models
+
+type ComDayCqWcmMsmImplRolloutManagerImplProperties struct {
+
+	EventFilter ConfigNodePropertyString `json:"event.filter,omitempty"`
+
+	RolloutmgrExcludedpropsDefault ConfigNodePropertyArray `json:"rolloutmgr.excludedprops.default,omitempty"`
+
+	RolloutmgrExcludedparagraphpropsDefault ConfigNodePropertyArray `json:"rolloutmgr.excludedparagraphprops.default,omitempty"`
+
+	RolloutmgrExcludednodetypesDefault ConfigNodePropertyArray `json:"rolloutmgr.excludednodetypes.default,omitempty"`
+
+	RolloutmgrThreadpoolMaxsize ConfigNodePropertyInteger `json:"rolloutmgr.threadpool.maxsize,omitempty"`
+
+	RolloutmgrThreadpoolMaxshutdowntime ConfigNodePropertyInteger `json:"rolloutmgr.threadpool.maxshutdowntime,omitempty"`
+
+	RolloutmgrThreadpoolPriority ConfigNodePropertyDropDown `json:"rolloutmgr.threadpool.priority,omitempty"`
+
+	RolloutmgrCommitSize ConfigNodePropertyInteger `json:"rolloutmgr.commit.size,omitempty"`
+
+	RolloutmgrConflicthandlingEnabled ConfigNodePropertyBoolean `json:"rolloutmgr.conflicthandling.enabled,omitempty"`
+}

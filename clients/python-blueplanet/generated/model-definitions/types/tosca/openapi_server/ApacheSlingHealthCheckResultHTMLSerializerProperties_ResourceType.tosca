@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ApacheSlingHealthCheckResultHTMLSerializerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ApacheSlingHealthCheckResultHTMLSerializerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ApacheSlingHealthCheckResultHTMLSerializerProperties {
+    title = ApacheSlingHealthCheckResultHTMLSerializerProperties
+    description = ApacheSlingHealthCheckResultHTMLSerializerProperties
+    derivedFrom = Root
+    properties {
+        style_string {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ApacheSlingHealthCheckResultHTMLSerializerProperties {
+    title = ApacheSlingHealthCheckResultHTMLSerializerProperties
+    description = ApacheSlingHealthCheckResultHTMLSerializerProperties
+    implements = openapi_server.resourceTypes.ApacheSlingHealthCheckResultHTMLSerializerProperties
+
+  }
+}

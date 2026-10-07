@@ -1,0 +1,330 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyDropDown;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.*;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
+
+
+
+@JsonTypeName("orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties   {
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyDropDown type;
+  private ConfigNodePropertyString formatTarget;
+  private ConfigNodePropertyString tempFsFolder;
+  private ConfigNodePropertyInteger fileThreshold;
+  private ConfigNodePropertyDropDown memoryUnit;
+  private ConfigNodePropertyBoolean useOffHeapMemory;
+  private ConfigNodePropertyDropDown digestAlgorithm;
+  private ConfigNodePropertyInteger monitoringQueueSize;
+  private ConfigNodePropertyInteger cleanupDelay;
+  private ConfigNodePropertyArray packageFilters;
+  private ConfigNodePropertyArray propertyFilters;
+
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties() {
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties name(ConfigNodePropertyString name) {
+    this.name = name;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("name")
+  @Valid public ConfigNodePropertyString getName() {
+    return name;
+  }
+
+  @JsonProperty("name")
+  public void setName(ConfigNodePropertyString name) {
+    this.name = name;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties type(ConfigNodePropertyDropDown type) {
+    this.type = type;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("type")
+  @Valid public ConfigNodePropertyDropDown getType() {
+    return type;
+  }
+
+  @JsonProperty("type")
+  public void setType(ConfigNodePropertyDropDown type) {
+    this.type = type;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties formatTarget(ConfigNodePropertyString formatTarget) {
+    this.formatTarget = formatTarget;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("format.target")
+  @Valid public ConfigNodePropertyString getFormatTarget() {
+    return formatTarget;
+  }
+
+  @JsonProperty("format.target")
+  public void setFormatTarget(ConfigNodePropertyString formatTarget) {
+    this.formatTarget = formatTarget;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties tempFsFolder(ConfigNodePropertyString tempFsFolder) {
+    this.tempFsFolder = tempFsFolder;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("tempFsFolder")
+  @Valid public ConfigNodePropertyString getTempFsFolder() {
+    return tempFsFolder;
+  }
+
+  @JsonProperty("tempFsFolder")
+  public void setTempFsFolder(ConfigNodePropertyString tempFsFolder) {
+    this.tempFsFolder = tempFsFolder;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties fileThreshold(ConfigNodePropertyInteger fileThreshold) {
+    this.fileThreshold = fileThreshold;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("fileThreshold")
+  @Valid public ConfigNodePropertyInteger getFileThreshold() {
+    return fileThreshold;
+  }
+
+  @JsonProperty("fileThreshold")
+  public void setFileThreshold(ConfigNodePropertyInteger fileThreshold) {
+    this.fileThreshold = fileThreshold;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties memoryUnit(ConfigNodePropertyDropDown memoryUnit) {
+    this.memoryUnit = memoryUnit;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("memoryUnit")
+  @Valid public ConfigNodePropertyDropDown getMemoryUnit() {
+    return memoryUnit;
+  }
+
+  @JsonProperty("memoryUnit")
+  public void setMemoryUnit(ConfigNodePropertyDropDown memoryUnit) {
+    this.memoryUnit = memoryUnit;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties useOffHeapMemory(ConfigNodePropertyBoolean useOffHeapMemory) {
+    this.useOffHeapMemory = useOffHeapMemory;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("useOffHeapMemory")
+  @Valid public ConfigNodePropertyBoolean getUseOffHeapMemory() {
+    return useOffHeapMemory;
+  }
+
+  @JsonProperty("useOffHeapMemory")
+  public void setUseOffHeapMemory(ConfigNodePropertyBoolean useOffHeapMemory) {
+    this.useOffHeapMemory = useOffHeapMemory;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties digestAlgorithm(ConfigNodePropertyDropDown digestAlgorithm) {
+    this.digestAlgorithm = digestAlgorithm;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("digestAlgorithm")
+  @Valid public ConfigNodePropertyDropDown getDigestAlgorithm() {
+    return digestAlgorithm;
+  }
+
+  @JsonProperty("digestAlgorithm")
+  public void setDigestAlgorithm(ConfigNodePropertyDropDown digestAlgorithm) {
+    this.digestAlgorithm = digestAlgorithm;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties monitoringQueueSize(ConfigNodePropertyInteger monitoringQueueSize) {
+    this.monitoringQueueSize = monitoringQueueSize;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("monitoringQueueSize")
+  @Valid public ConfigNodePropertyInteger getMonitoringQueueSize() {
+    return monitoringQueueSize;
+  }
+
+  @JsonProperty("monitoringQueueSize")
+  public void setMonitoringQueueSize(ConfigNodePropertyInteger monitoringQueueSize) {
+    this.monitoringQueueSize = monitoringQueueSize;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties cleanupDelay(ConfigNodePropertyInteger cleanupDelay) {
+    this.cleanupDelay = cleanupDelay;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("cleanupDelay")
+  @Valid public ConfigNodePropertyInteger getCleanupDelay() {
+    return cleanupDelay;
+  }
+
+  @JsonProperty("cleanupDelay")
+  public void setCleanupDelay(ConfigNodePropertyInteger cleanupDelay) {
+    this.cleanupDelay = cleanupDelay;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties packageFilters(ConfigNodePropertyArray packageFilters) {
+    this.packageFilters = packageFilters;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("package.filters")
+  @Valid public ConfigNodePropertyArray getPackageFilters() {
+    return packageFilters;
+  }
+
+  @JsonProperty("package.filters")
+  public void setPackageFilters(ConfigNodePropertyArray packageFilters) {
+    this.packageFilters = packageFilters;
+  }
+
+  /**
+   **/
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties propertyFilters(ConfigNodePropertyArray propertyFilters) {
+    this.propertyFilters = propertyFilters;
+    return this;
+  }
+
+  
+  @ApiModelProperty(value = "")
+  @JsonProperty("property.filters")
+  @Valid public ConfigNodePropertyArray getPropertyFilters() {
+    return propertyFilters;
+  }
+
+  @JsonProperty("property.filters")
+  public void setPropertyFilters(ConfigNodePropertyArray propertyFilters) {
+    this.propertyFilters = propertyFilters;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties = (OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties) o;
+    return Objects.equals(this.name, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.name) &&
+        Objects.equals(this.type, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.type) &&
+        Objects.equals(this.formatTarget, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.formatTarget) &&
+        Objects.equals(this.tempFsFolder, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.tempFsFolder) &&
+        Objects.equals(this.fileThreshold, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.fileThreshold) &&
+        Objects.equals(this.memoryUnit, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.memoryUnit) &&
+        Objects.equals(this.useOffHeapMemory, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.useOffHeapMemory) &&
+        Objects.equals(this.digestAlgorithm, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.digestAlgorithm) &&
+        Objects.equals(this.monitoringQueueSize, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.monitoringQueueSize) &&
+        Objects.equals(this.cleanupDelay, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.cleanupDelay) &&
+        Objects.equals(this.packageFilters, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.packageFilters) &&
+        Objects.equals(this.propertyFilters, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.propertyFilters);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, type, formatTarget, tempFsFolder, fileThreshold, memoryUnit, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, cleanupDelay, packageFilters, propertyFilters);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties {\n");
+    
+    sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("    type: ").append(toIndentedString(type)).append("\n");
+    sb.append("    formatTarget: ").append(toIndentedString(formatTarget)).append("\n");
+    sb.append("    tempFsFolder: ").append(toIndentedString(tempFsFolder)).append("\n");
+    sb.append("    fileThreshold: ").append(toIndentedString(fileThreshold)).append("\n");
+    sb.append("    memoryUnit: ").append(toIndentedString(memoryUnit)).append("\n");
+    sb.append("    useOffHeapMemory: ").append(toIndentedString(useOffHeapMemory)).append("\n");
+    sb.append("    digestAlgorithm: ").append(toIndentedString(digestAlgorithm)).append("\n");
+    sb.append("    monitoringQueueSize: ").append(toIndentedString(monitoringQueueSize)).append("\n");
+    sb.append("    cleanupDelay: ").append(toIndentedString(cleanupDelay)).append("\n");
+    sb.append("    packageFilters: ").append(toIndentedString(packageFilters)).append("\n");
+    sb.append("    propertyFilters: ").append(toIndentedString(propertyFilters)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+
+
+}
