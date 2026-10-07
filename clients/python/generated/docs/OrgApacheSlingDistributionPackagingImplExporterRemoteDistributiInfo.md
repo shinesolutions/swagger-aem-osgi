@@ -1,0 +1,32 @@
+# OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **str** |  | [optional] 
+**title** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**properties** | [**OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties**](OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.md) |  | [optional] 
+
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_sling_distribution_packaging_impl_exporter_remote_distributi_info import OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo from a JSON string
+org_apache_sling_distribution_packaging_impl_exporter_remote_distributi_info_instance = OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.to_json())
+
+# convert the object into a dict
+org_apache_sling_distribution_packaging_impl_exporter_remote_distributi_info_dict = org_apache_sling_distribution_packaging_impl_exporter_remote_distributi_info_instance.to_dict()
+# create an instance of OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo from a dict
+org_apache_sling_distribution_packaging_impl_exporter_remote_distributi_info_from_dict = OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.from_dict(org_apache_sling_distribution_packaging_impl_exporter_remote_distributi_info_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

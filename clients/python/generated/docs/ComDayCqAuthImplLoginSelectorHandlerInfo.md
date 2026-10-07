@@ -1,0 +1,34 @@
+# ComDayCqAuthImplLoginSelectorHandlerInfo
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **str** |  | [optional] 
+**title** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**properties** | [**ComDayCqAuthImplLoginSelectorHandlerProperties**](ComDayCqAuthImplLoginSelectorHandlerProperties.md) |  | [optional] 
+**bundle_location** | **str** |  | [optional] 
+**service_location** | **str** |  | [optional] 
+
+## Example
+
+```python
+from swaggeraemosgi.models.com_day_cq_auth_impl_login_selector_handler_info import ComDayCqAuthImplLoginSelectorHandlerInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComDayCqAuthImplLoginSelectorHandlerInfo from a JSON string
+com_day_cq_auth_impl_login_selector_handler_info_instance = ComDayCqAuthImplLoginSelectorHandlerInfo.from_json(json)
+# print the JSON string representation of the object
+print(ComDayCqAuthImplLoginSelectorHandlerInfo.to_json())
+
+# convert the object into a dict
+com_day_cq_auth_impl_login_selector_handler_info_dict = com_day_cq_auth_impl_login_selector_handler_info_instance.to_dict()
+# create an instance of ComDayCqAuthImplLoginSelectorHandlerInfo from a dict
+com_day_cq_auth_impl_login_selector_handler_info_from_dict = ComDayCqAuthImplLoginSelectorHandlerInfo.from_dict(com_day_cq_auth_impl_login_selector_handler_info_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

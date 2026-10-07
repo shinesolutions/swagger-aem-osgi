@@ -1,0 +1,34 @@
+# ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **str** |  | [optional] 
+**title** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**properties** | [**ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties**](ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties.md) |  | [optional] 
+**bundle_location** | **str** |  | [optional] 
+**service_location** | **str** |  | [optional] 
+
+## Example
+
+```python
+from swaggeraemosgi.models.com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory_info import ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo from a JSON string
+com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory_info_instance = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo.from_json(json)
+# print the JSON string representation of the object
+print(ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo.to_json())
+
+# convert the object into a dict
+com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory_info_dict = com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory_info_instance.to_dict()
+# create an instance of ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo from a dict
+com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory_info_from_dict = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo.from_dict(com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory_info_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

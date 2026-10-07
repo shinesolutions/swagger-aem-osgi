@@ -1,0 +1,42 @@
+# ComAdobeGraniteAuthOauthAccesstokenProviderProperties
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**auth_token_provider_title** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**auth_token_provider_default_claims** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+**auth_token_provider_endpoint** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**auth_access_token_request** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**auth_token_provider_keypair_alias** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**auth_token_provider_conn_timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+**auth_token_provider_so_timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+**auth_token_provider_client_id** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**auth_token_provider_scope** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**auth_token_provider_reuse_access_token** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+**auth_token_provider_relaxed_ssl** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+**token_request_customizer_type** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+**auth_token_validator_type** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_auth_oauth_accesstoken_provider_properties import ComAdobeGraniteAuthOauthAccesstokenProviderProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteAuthOauthAccesstokenProviderProperties from a JSON string
+com_adobe_granite_auth_oauth_accesstoken_provider_properties_instance = ComAdobeGraniteAuthOauthAccesstokenProviderProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteAuthOauthAccesstokenProviderProperties.to_json())
+
+# convert the object into a dict
+com_adobe_granite_auth_oauth_accesstoken_provider_properties_dict = com_adobe_granite_auth_oauth_accesstoken_provider_properties_instance.to_dict()
+# create an instance of ComAdobeGraniteAuthOauthAccesstokenProviderProperties from a dict
+com_adobe_granite_auth_oauth_accesstoken_provider_properties_from_dict = ComAdobeGraniteAuthOauthAccesstokenProviderProperties.from_dict(com_adobe_granite_auth_oauth_accesstoken_provider_properties_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

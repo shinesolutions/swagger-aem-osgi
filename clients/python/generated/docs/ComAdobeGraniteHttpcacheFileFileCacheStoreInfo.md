@@ -1,0 +1,32 @@
+# ComAdobeGraniteHttpcacheFileFileCacheStoreInfo
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **str** |  | [optional] 
+**title** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**properties** | [**ComAdobeGraniteHttpcacheFileFileCacheStoreProperties**](ComAdobeGraniteHttpcacheFileFileCacheStoreProperties.md) |  | [optional] 
+
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_httpcache_file_file_cache_store_info import ComAdobeGraniteHttpcacheFileFileCacheStoreInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteHttpcacheFileFileCacheStoreInfo from a JSON string
+com_adobe_granite_httpcache_file_file_cache_store_info_instance = ComAdobeGraniteHttpcacheFileFileCacheStoreInfo.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteHttpcacheFileFileCacheStoreInfo.to_json())
+
+# convert the object into a dict
+com_adobe_granite_httpcache_file_file_cache_store_info_dict = com_adobe_granite_httpcache_file_file_cache_store_info_instance.to_dict()
+# create an instance of ComAdobeGraniteHttpcacheFileFileCacheStoreInfo from a dict
+com_adobe_granite_httpcache_file_file_cache_store_info_from_dict = ComAdobeGraniteHttpcacheFileFileCacheStoreInfo.from_dict(com_adobe_granite_httpcache_file_file_cache_store_info_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

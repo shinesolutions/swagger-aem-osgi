@@ -1,0 +1,32 @@
+# OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **str** |  | [optional] 
+**title** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**properties** | [**OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties**](OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties.md) |  | [optional] 
+
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_jackrabbit_oak_security_authentication_authentication_config_info import OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo from a JSON string
+org_apache_jackrabbit_oak_security_authentication_authentication_config_info_instance = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.to_json())
+
+# convert the object into a dict
+org_apache_jackrabbit_oak_security_authentication_authentication_config_info_dict = org_apache_jackrabbit_oak_security_authentication_authentication_config_info_instance.to_dict()
+# create an instance of OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo from a dict
+org_apache_jackrabbit_oak_security_authentication_authentication_config_info_from_dict = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.from_dict(org_apache_jackrabbit_oak_security_authentication_authentication_config_info_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

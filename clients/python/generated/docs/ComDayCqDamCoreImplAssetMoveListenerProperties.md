@@ -1,0 +1,29 @@
+# ComDayCqDamCoreImplAssetMoveListenerProperties
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+
+## Example
+
+```python
+from swaggeraemosgi.models.com_day_cq_dam_core_impl_asset_move_listener_properties import ComDayCqDamCoreImplAssetMoveListenerProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComDayCqDamCoreImplAssetMoveListenerProperties from a JSON string
+com_day_cq_dam_core_impl_asset_move_listener_properties_instance = ComDayCqDamCoreImplAssetMoveListenerProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComDayCqDamCoreImplAssetMoveListenerProperties.to_json())
+
+# convert the object into a dict
+com_day_cq_dam_core_impl_asset_move_listener_properties_dict = com_day_cq_dam_core_impl_asset_move_listener_properties_instance.to_dict()
+# create an instance of ComDayCqDamCoreImplAssetMoveListenerProperties from a dict
+com_day_cq_dam_core_impl_asset_move_listener_properties_from_dict = ComDayCqDamCoreImplAssetMoveListenerProperties.from_dict(com_day_cq_dam_core_impl_asset_move_listener_properties_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

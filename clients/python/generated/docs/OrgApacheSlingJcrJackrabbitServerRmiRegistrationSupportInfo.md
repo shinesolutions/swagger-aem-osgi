@@ -1,0 +1,32 @@
+# OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **str** |  | [optional] 
+**title** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**properties** | [**OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportProperties**](OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportProperties.md) |  | [optional] 
+
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_sling_jcr_jackrabbit_server_rmi_registration_support_info import OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo from a JSON string
+org_apache_sling_jcr_jackrabbit_server_rmi_registration_support_info_instance = OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo.to_json())
+
+# convert the object into a dict
+org_apache_sling_jcr_jackrabbit_server_rmi_registration_support_info_dict = org_apache_sling_jcr_jackrabbit_server_rmi_registration_support_info_instance.to_dict()
+# create an instance of OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo from a dict
+org_apache_sling_jcr_jackrabbit_server_rmi_registration_support_info_from_dict = OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo.from_dict(org_apache_sling_jcr_jackrabbit_server_rmi_registration_support_info_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
