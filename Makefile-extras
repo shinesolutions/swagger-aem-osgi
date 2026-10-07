@@ -1,0 +1,13 @@
+################################################################
+# Swaggy C hooks specific to this project
+################################################################
+
+# The generated JavaScript client depends on mocha 8 which pins yargs 16.2.0,
+# that version fails to load on Node.js 26+ with
+# "require is not defined in ES module scope".
+# yargs 16.2.2 is the patch release that is loadable on Node.js 26+.
+x-pre-test-javascript:
+	cd clients/javascript/generated/ && \
+	  npm pkg set overrides.yargs=16.2.2
+
+.PHONY: x-pre-test-javascript
